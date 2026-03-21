@@ -30,7 +30,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Betrachten Sie folgende Forschungsformel:
 
@@ -161,7 +161,7 @@ parameters(m4) |> plot()
 
 
 
-# Lösung 
+## Lösung 
 
 Die Regressionsformel lautet: `body_mass_g ~ sex + bill_length_mm + sex:bill_length_mm`.
 

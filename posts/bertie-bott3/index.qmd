@@ -23,7 +23,7 @@ bibliography: "../../library-ses.bib"
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 
@@ -58,7 +58,7 @@ Hinweis:
 </br>
 
 
-# Lösung
+## Lösung
 
 
 

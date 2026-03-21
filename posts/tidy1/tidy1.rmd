@@ -39,7 +39,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Das Konzept von "tidy" Daten ("Tidyformat") spielt in der Datenanalyse eine wichtige Rolle.
 
@@ -373,7 +373,7 @@ answerlist(tibbles_chosen$id2, markup = "markdown")
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 ```{r solutionlist, echo = FALSE, results = "asis"}

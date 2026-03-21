@@ -17,7 +17,7 @@ date: '2024-12-10'
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Wir untersuchen Einflussfaktoren bzw. Prädiktoren auf das Körpergewicht von Pinguinen.
@@ -109,7 +109,7 @@ parameters(m1, ci = .95, ci_method = "eti")
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 

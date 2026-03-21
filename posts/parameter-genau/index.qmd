@@ -27,7 +27,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Welcher der folgenden Parameterwerte zeigt die genaueste Schätzung an?
 
@@ -71,7 +71,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
  $\beta_1: [0,2; 1,0]$

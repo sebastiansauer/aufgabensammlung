@@ -18,7 +18,7 @@ categories:
 
 ---
 
-# Aufgabe
+## Aufgabe
 
 Im Datensatz `palmerpenguins`: Welche  der folgenden Variablen korreliert am stärksten mit dem Körpergewicht der Pinguine?
 
@@ -52,7 +52,7 @@ Hinweise:
 
 
 
-# Lösung
+## Lösung
 
 ```{r}
 library(tidyverse)

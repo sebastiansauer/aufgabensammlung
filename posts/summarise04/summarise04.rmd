@@ -33,7 +33,7 @@ library(exams)
 
 
 
-# Aufgabe
+## Aufgabe
 
 Im Datensatz `mariokart`: 
 
@@ -57,7 +57,7 @@ Geben Sie die erste Kennzahl als Antwort zurück!
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Pakete starten:
 

@@ -37,7 +37,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Ist folgende Aussage wahr?
 
@@ -62,7 +62,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 Nein, das ist nur bei einem PI der Fall: So werden z.B. Bei einem 95%-PI  links und rechts jeweils (ca.) 2.5% der Wahrscheinlichkeitsmasse "abgeschnitten".
 

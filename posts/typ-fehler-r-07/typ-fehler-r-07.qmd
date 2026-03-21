@@ -17,7 +17,7 @@ title: Typ-Fehler-R-07
 
 Question
 
-# Aufgabe
+## Aufgabe
 
 Sie möchten in R eine Textvariable (String-, Charaktervariable) definieren und zwar soll die Variable `gruss` mit dem Wert "Hallo" "befüllt" werden.
 
@@ -63,7 +63,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Answerlist
 ----------

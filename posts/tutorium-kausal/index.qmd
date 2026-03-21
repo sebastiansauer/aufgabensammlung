@@ -46,7 +46,7 @@ library(ggdag)
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Sie untersuchen folgende Forschungsfrage:
@@ -99,7 +99,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Man muss `IQ` adjustieren.

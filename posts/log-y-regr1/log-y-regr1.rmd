@@ -43,7 +43,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 ```{r}
 library(tidyverse)
@@ -92,7 +92,7 @@ Hinweise:
 </br>
 </br>
 
-# Solution
+## Solution
 
 
 ```{r}

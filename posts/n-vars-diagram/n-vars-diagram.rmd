@@ -38,7 +38,7 @@ library(tidyverse)
 
 
 
-# Aufgabe
+## Aufgabe
 
 Wie viele Variablen sind in folgendem Diagramm dargestellt?
 
@@ -65,7 +65,7 @@ mtcars %>%
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 

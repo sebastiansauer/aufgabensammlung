@@ -34,7 +34,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 
 Berechnet man eine Posteriori-Verteilung mit `stan_glm()`, 
@@ -70,7 +70,7 @@ Hinweise:
 </br>
 </br>
 
-# Solution
+## Solution
 
 
 Grundsätzlich hat ein Regressionsmodell die folgenden Parameter:

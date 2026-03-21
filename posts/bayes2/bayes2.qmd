@@ -36,7 +36,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 
@@ -65,7 +65,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Gesucht ist die Wahrscheinlichkeit, dass die Münze gezinkt ist, gegeben der beobachteten Daten: $Pr(F|D)$.
 

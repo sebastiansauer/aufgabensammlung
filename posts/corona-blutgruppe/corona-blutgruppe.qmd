@@ -34,7 +34,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Betrachten wir das Ereignis "Schwerer Coronaverlauf" ($S$); 
 ferner betrachten wir das Ereignis "Blutgruppe ist A" ($A$) und das Gegenereignis von $A$:
@@ -60,7 +60,7 @@ Geben Sie ein *Adjektiv* an, dass diesen Sachverhalt kennzeichnet!
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 ```{r echo = FALSE}

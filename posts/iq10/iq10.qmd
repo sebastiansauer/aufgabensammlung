@@ -42,7 +42,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Eine Forscherin, Prof. Weiss-Ois, untersucht den Effekt von Cannabis auf die Intelligenz.
 
@@ -83,7 +83,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 ```{r}
 library(tidyverse)

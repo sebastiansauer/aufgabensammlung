@@ -13,7 +13,7 @@ categories: schoice
 
 
 
-# Aufgabe
+## Aufgabe
 
 Größere Stichproben sind zwar aufwändiger zu erheben, aber aussagekräftiger unter sonst gleichen Umständen, wie in der Abbildung dargestellt.
 
@@ -44,7 +44,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 *Falsch*: Ab einer Größe von $n=30$ sind Stichproben robust und ausreichend präzise Schätzer für den gesuchten Populationsparameter.
 

@@ -39,7 +39,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Die Binomialverteilung wird in Lehrbüchern häufig mit Münzwürfen motiviert. 
 Im Buch *Statistical Rethinking* muss etwa ein Globus herhalten (also ein Zufallsexperiment mit den Ergebnissen *Wasser* und *Land* unter dem Zeigefinger). 
@@ -65,7 +65,7 @@ Sie müssen nichts rechnen, nur Beispiele nennen.
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Zur Erinnerung: Die Inferenzstatistik macht Aussagen bzgl. einer *Population*, nicht einer Stichprobe. Solche Aussagen sind *ungewiss*, also mit einer Unsicherheit behaftet, da wir nicht die ganze Population kennen. Aber die Daten der Stichprobe werden als Grundlage der Schätzung herangezogen.

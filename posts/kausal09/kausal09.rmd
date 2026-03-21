@@ -41,7 +41,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Ein Forschungsteam aus Epidemiologen untersucht den (möglicherweise kausalen) 
 Zusammenhang von Erziehung (`education`) und Diabetes (`diabetes`). 
@@ -100,7 +100,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 Durch Kontrolle von `Mother's Diabetes` wird eine Scheinkorrelation erzeugt, 
 wo es vorher keine gab. 

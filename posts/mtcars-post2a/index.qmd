@@ -38,7 +38,7 @@ options(mc.cores = parallel::detectCores())
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 
@@ -119,7 +119,7 @@ Answerlist
 </br>
 
 
-# Lösung
+## Lösung
 
 
 Man kann das Ergebnis direkt aus der Tabelle ablesen: CI_high - CI_low in der Zeile der UV.

@@ -18,7 +18,7 @@ title: lm-standardfehler
 
 
 
-# Exercise
+## Exercise
 
 Man kann angeben, wie genau eine Schätzung von Regressionskoeffizienten die Grundgesamtheit widerspiegelt.
 Zumeist wird dazu der *Standardfehler* (engl. standard error, SE) verwendet.
@@ -77,7 +77,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 
 Probieren wir es aus!

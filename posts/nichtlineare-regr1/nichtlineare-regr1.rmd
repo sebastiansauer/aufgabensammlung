@@ -32,7 +32,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 ```{r libs, include = FALSE}
 library(tidyverse)
@@ -57,7 +57,7 @@ Geben Sie dafür ein mögliches Modell an! Nutzen Sie den R-Befehl `lm`.
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 ```{r}

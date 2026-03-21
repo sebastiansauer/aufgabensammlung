@@ -39,7 +39,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 
 
@@ -105,7 +105,7 @@ Das 50%-Quantil von $X$ beträgt 180.
 </br>
 </br>
 
-# Solution
+## Solution
 
 ```{r}
 qnorm(p = .5, mean = 180, sd = 6)

@@ -18,7 +18,7 @@ title: mw-berechnen2
 
 Question
 
-# Aufgabe
+## Aufgabe
 
 
 Berechnen Sie den Mittelwert folgender Zahlenreihe; ignorieren sie etwaige fehlende Werte. 
@@ -55,7 +55,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 

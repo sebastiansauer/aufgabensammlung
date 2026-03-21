@@ -16,7 +16,7 @@ title: Var-vs-Stufe
 
 
 
-# Aufgabe
+## Aufgabe
 
 Für ein Forschungsprojekt hat ein Forschungsteam die Frage getestet, ob Personen, die einen animierten Graphen zu Auswirkungen von Stress gesehen haben danach eine höhere Motivation haben ihr Stresspensum anzugehen, als Personen, die einen statischen Graph gesehen haben. 
 Dazu wurde jeweils in einem Fragebogen die Veränderungsbereitschaft auf das Stressniveau angepasst abgefragt, 
@@ -60,7 +60,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 

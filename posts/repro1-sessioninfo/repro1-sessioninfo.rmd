@@ -16,7 +16,7 @@ title: repro1-sessioninfo
 
 
 
-# Aufgabe
+## Aufgabe
 
 Sie analysieren fröhlich, bestens gelaunt geradezu, in Ruhe einige Daten.
 Läuft.
@@ -48,7 +48,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Mit dem Befehl `sessionInfo` bekommen Sie einen Überblick über die Versionen der aktuell gestarteten R-Pakete sowie von R.

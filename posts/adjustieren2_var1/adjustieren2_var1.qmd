@@ -36,7 +36,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Betrachten Sie folgendes Modell, das den Zusammenhang des Preises (`price`) 
@@ -129,7 +129,7 @@ diamonds %>%
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 ```{r echo = FALSE}
 regression_formel <- "price ~ carat_z + cut"

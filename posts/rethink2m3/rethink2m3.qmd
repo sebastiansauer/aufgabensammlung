@@ -41,7 +41,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 This question is taken from McElreath, R. (2020). *Statistical rethinking: A Bayesian course with examples in R and Stan* (2. Ed.). Taylor and Francis, CRC Press.
 
@@ -62,13 +62,13 @@ This question is taken from McElreath, R. (2020). *Statistical rethinking: A Bay
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Man kann die Aufgabe entweder mit einer Bayes-Box lösen oder durch die Formel des Bayes' Theorem.
 
 
-# Bayes-Box
+## Bayes-Box
 
 | Hyp | Prior | L  | Po-unstand | Po-stand |
 |-----|-------|----|------------|-------|
@@ -76,7 +76,7 @@ Man kann die Aufgabe entweder mit einer Bayes-Box lösen oder durch die Formel d
 | M   | 1     | 10/10    | 1          | 10/13 (.23) |
 
 
-# Bayes-Theorem
+## Bayes-Theorem
 
 Zur Erinnerung:
 

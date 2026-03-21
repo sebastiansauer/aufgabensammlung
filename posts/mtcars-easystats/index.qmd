@@ -33,7 +33,7 @@ options(digits=2)
 
 
 
-# Exercise
+## Exercise
 
 
 
@@ -55,7 +55,7 @@ Provide an *overview of descriptive statistics* on the mtcars dataset using the 
 </br>
 </br>
 
-# Solution
+## Solution
 
 
 Starting R packages:

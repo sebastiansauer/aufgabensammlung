@@ -32,7 +32,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Wie kann man in R kontrollieren, wie viele Zeilen eines Tibbles gedruckt werden (am Bildschrirm)?
 
@@ -58,7 +58,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 

@@ -38,7 +38,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Der Likelihood eines Datensatzes ist definiert als das Produkt der Likelihoods aller Beobachtungen:
 
@@ -72,7 +72,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 
 Multipliziert man zwei (oder mehr) Anteile $p_i$ (Wahrscheinlichkeiten), 

@@ -41,7 +41,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Fallstudie 
@@ -149,7 +149,7 @@ f) Diskutieren Sie einen (möglichen) Grund für die Unterschiede in den Gütekr
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 **Interpretieren Sie die Koeffizienten des Prädiktors `r col` des Modells `lm1`!**
 

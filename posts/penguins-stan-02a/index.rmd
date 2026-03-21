@@ -16,7 +16,7 @@ date: '2024-12-10'
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Wir untersuchen Einflussfaktoren bzw. Prädiktoren auf das Körpergewicht von Pinguinen.
@@ -102,7 +102,7 @@ parameters(m1, ci_method = "hdi", ci = .9, keep = "bill_length_mm")
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 ```{r echo = FALSE}
 sol <- parameters(m1, ci_method = "hdi", ci = .9, keep = "bill_length_mm")$CI_high -

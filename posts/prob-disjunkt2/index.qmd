@@ -20,7 +20,7 @@ categories:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Sie ziehen eine Karte aus einem standardmäßigen 52er-Kartendeck. Betrachten Sie die Ereignisse:
 
@@ -62,7 +62,7 @@ D) Ja, aber nur, wenn Sie die Karten vor dem Ziehen nicht gemischt haben.
 
 
 
-# Lösung 
+## Lösung 
 
 
 C) Ja, da eine Karte nicht gleichzeitig ein König und eine Dame sein kann.

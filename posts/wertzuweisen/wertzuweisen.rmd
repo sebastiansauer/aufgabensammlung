@@ -18,7 +18,7 @@ title: Wertzuweisen
 
 
 
-# Aufgabe
+## Aufgabe
 
 Weisen Sie dem Objekt `loesung` den Wert `42` zu. Geben Sie den korrekten R-Code dafür ein.
 
@@ -38,7 +38,7 @@ Weisen Sie dem Objekt `loesung` den Wert `42` zu. Geben Sie den korrekten R-Code
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 ```{r echo = FALSE}
 sol <- "loesung<-42"

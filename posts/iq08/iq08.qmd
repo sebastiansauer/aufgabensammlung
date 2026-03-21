@@ -38,7 +38,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 An einer Elite-Hochschule wird man nur zugelassen, wenn man sowohl schön als auch schlau ist.
 
@@ -71,7 +71,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Die Wahrscheinlichkeit für "schön", $S1$ ist gleich der Wahrscheinlichkeit für "Schlau", $S2$.

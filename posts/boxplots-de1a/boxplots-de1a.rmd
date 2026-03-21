@@ -154,7 +154,7 @@ while (n_correct != 1){
 ```
 
 
-# Aufgabe
+## Aufgabe
 
 laut zwei Stichproben (A und B) mithilfe zweier Boxplots dargestellt.
 Welche der folgenden Aussagen ist korrekt?
@@ -186,7 +186,7 @@ answerlist(questions, markup = "markdown")
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 ```{r solutionlist, echo = FALSE, results = "asis"}
 answerlist(ifelse(solutions, "Wahr", "Falsch"), explanations, markup = "markdown")

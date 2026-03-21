@@ -27,7 +27,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Welche Wahrscheinlichkeit wird durch Bayes' Theorem berechnet?
 
@@ -76,7 +76,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 B.

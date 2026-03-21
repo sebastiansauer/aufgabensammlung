@@ -18,7 +18,7 @@ title: Logikpruefung2
 
 
 
-# Aufgabe
+## Aufgabe
 
 Wir definieren `x` wie folgt:
 
@@ -40,7 +40,7 @@ Geben Sie die Syntax an, für die Prüfung, ob x positiv ist.
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 ```{r}
 x > 0

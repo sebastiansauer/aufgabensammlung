@@ -47,7 +47,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Die Korrelation prüft, ob bzw. inwieweit zwei Merkmale linear zusammenhängen.
 
@@ -115,7 +115,7 @@ diamonds %>%
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 a)  `carat` ist metrisch (verhältnisskaliert) und `price` ist metrisch (verhältnisskaliert)
 

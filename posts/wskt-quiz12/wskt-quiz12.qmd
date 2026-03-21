@@ -34,7 +34,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Behauptung: Der Likelihood $L$ gibt die Wahrscheinlichkeit einer *H*ypothese an, gegeben der *D*aten.
@@ -62,7 +62,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 $L := Pr(D|H)$

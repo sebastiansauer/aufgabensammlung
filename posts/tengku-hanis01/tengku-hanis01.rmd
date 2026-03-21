@@ -24,7 +24,7 @@ execute:
 
 
 
-# Aufgabe
+## Aufgabe
 
 Bearbeiten Sie [diese Fallstudie von Tengku Hanis](https://tengkuhanis.netlify.app/post/hyperparameter-tuning-in-tidymodels/)!
 
@@ -44,7 +44,7 @@ Bearbeiten Sie [diese Fallstudie von Tengku Hanis](https://tengkuhanis.netlify.a
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Die folgende Lösung basiert auf der oben angegebenen Fallstudie.
 

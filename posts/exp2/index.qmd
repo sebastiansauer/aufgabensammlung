@@ -29,7 +29,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Sei $X \sim \text{Exp}(1)$.
 
@@ -76,7 +76,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 **C**

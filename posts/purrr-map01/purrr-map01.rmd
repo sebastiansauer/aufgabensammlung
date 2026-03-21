@@ -25,7 +25,7 @@ library(tidyverse)
 
 
 
-# Exercise
+## Exercise
 
 
 Erstellen Sie einen Tibble mit folgenden Spalten:
@@ -47,7 +47,7 @@ Erstellen Sie einen Tibble mit folgenden Spalten:
 </br>
 </br>
 
-# Solution
+## Solution
 
 Geht es vielleicht so?
 

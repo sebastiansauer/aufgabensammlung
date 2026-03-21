@@ -30,7 +30,7 @@ bsol <- c(bpvl >= 0.05, (bpvl < 0.05) & (bhat > 0), (bpvl < 0.05) & (bhat < 0))
 ```    
 
 
-# Aufgabe
+## Aufgabe
 
 Laden Sie den Datensatz `mtcars` aus [dieser Quelle](https://vincentarelbundock.github.io/Rdatasets/csv/datasets/mtcars.csv).
 
@@ -61,7 +61,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Das geschätzte Betagewicht für `hp` liegt bei `-0.068`.
 

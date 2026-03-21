@@ -35,7 +35,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Sei $X \sim U(0, 1)$. 
@@ -65,7 +65,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Nein. Bei dieser Gleichverteilung gilt an jeder Stelle: Die Dichte beträgt 1.
 

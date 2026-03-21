@@ -28,17 +28,17 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 
-## Setup
+### Setup
 
 ```{r}
 library(tidyverse)
 library(easystats)
 ```
 
-## Daten
+### Daten
 
 ```{r}
 library(rio)
@@ -47,12 +47,12 @@ extra <- import(extra_path)
 ```
 
 
-## Forschungsfrage
+### Forschungsfrage
 
 Wie groß ist der Unterschied in der Extraversion zwischen Frauen und Männern?
 Berechnen Sie dazu den Mittelwert für Extraversion pro Geschlechtsgruppe.
 
-## Hinweise
+### Hinweise
 
 
 - Beachten Sie die üblichen [Hinweise](https://datenwerk.netlify.app/hinweise) des Datenwerks.
@@ -75,7 +75,7 @@ Berechnen Sie dazu den Mittelwert für Extraversion pro Geschlechtsgruppe.
 </br>
 
 
-# Lösung 
+## Lösung 
 
 Mittelwert über die Zeilen berechnen mit `row_means`:
 

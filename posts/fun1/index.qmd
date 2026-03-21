@@ -28,7 +28,7 @@ bibliography: "../../library-ses.bib"
 
 
 
-# Aufgabe
+## Aufgabe
 
 Schreiben Sie eine einfache Funktion.
 
@@ -52,7 +52,7 @@ Beschreiben Sie dann Ihren Code.
 
 
 
-# Lösung
+## Lösung
 
 
 

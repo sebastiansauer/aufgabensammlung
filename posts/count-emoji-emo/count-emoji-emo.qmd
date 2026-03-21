@@ -17,7 +17,7 @@ title: count-emoji-emo
 
 
 
-# Aufgabe
+## Aufgabe
 
 Gegeben eines (mehrelementigen) Strings, `my_string`, und eines Lexicons, `my_lexicon`, zählen Sie, wie häufig sich ein Emoji in einem Element des Strings wiederfindet.
 
@@ -49,7 +49,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 ```{r}

@@ -38,7 +38,7 @@ title: nasa01
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Viele Quellen berichten Klimadaten unserer Erde, z.B. auch [National Aeronautics and Space Administration - Goddard Institute for Space Studies](https://data.giss.nasa.gov/gistemp/).
@@ -108,9 +108,9 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
-## Setup
+### Setup
 
 ```{r}
 library(ggpubr)
@@ -118,7 +118,7 @@ library(DataExplorer)
 ```
 
 
-## Daten aufbereiten
+### Daten aufbereiten
 
 Dekade berechnen:
 
@@ -131,7 +131,7 @@ d <-
 
 Das ist *ein möglicher* Weg, um aus einer Jahreszahl die Dekade zu berechnen.
 
-## Statistiken berechnen
+### Statistiken berechnen
 
 Statistiken pro Dekade:
 
@@ -152,9 +152,9 @@ d_summarized %>%
   gt::fmt_number(c(2,3))
 ```
 
-## Statistiken visualisieren
+### Statistiken visualisieren
 
-### Mit `DataExplorer`
+#### Mit `DataExplorer`
 
 ```{r}
 d_summarized |> 
@@ -168,7 +168,7 @@ d_summarized |>
 ```
 
 
-### Mit `ggpubr`
+#### Mit `ggpubr`
 
 ```{r}
 d_summarized |> 

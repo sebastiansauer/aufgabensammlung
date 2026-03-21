@@ -40,7 +40,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 ```{r defs, include=FALSE}
 profs_set <- c("Süß", "Salzig", "Bitter", "Süß-Sauer")
@@ -181,7 +181,7 @@ probs_sample %>%
 </br>
 </br>
 
-# Solution
+## Solution
 
 Die gemeinsame Wahrscheinlichkeit beträgt `r sol`.
 

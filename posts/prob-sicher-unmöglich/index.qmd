@@ -20,7 +20,7 @@ categories:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Beim Werfen eines Würfels betrachten wir die folgenden Ereignisse:
 
@@ -64,7 +64,7 @@ D) Sicheres Ereignis; Disjunktes Ereignis
 
 
 
-# Lösung 
+## Lösung 
 
 
 C) Sicheres Ereignis; Unmögliches Ereignis

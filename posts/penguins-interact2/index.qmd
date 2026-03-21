@@ -15,7 +15,7 @@ date: '2024-12-12'
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Eine Forscherin untersucht, ob das Geschlecht eines Pinguins den Einfluss der Flossenlänge (Flipper, mm) auf das Körpergewicht (g) des Tieres moderiert.
@@ -35,7 +35,7 @@ Hinweise:
 
 
 
-## Setup
+### Setup
 
 ```{r message=FALSE}
 library(tidyverse)
@@ -111,7 +111,7 @@ E)  Pro SD-Einheit an Flossenlänge (`flipper_lengh_mm_z`) steigt das Körpergew
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 

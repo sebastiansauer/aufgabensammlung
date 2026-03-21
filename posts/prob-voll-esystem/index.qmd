@@ -20,7 +20,7 @@ categories:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Eine Menge von Ereignissen $\{A_1, A_2, A_3\}$ bildet ein vollständiges (disjunktes) Ereignissystem. Was wissen Sie sicher über die Wahrscheinlichkeiten dieser Ereignisse?
 
@@ -55,7 +55,7 @@ D) $Pr(A_1) + Pr(A_2) + Pr(A_3) = 1$
 
 
 
-# Lösung 
+## Lösung 
 
 C) $Pr(A_1 \cup A_2 \cup  A_3) = 1$
 D) $Pr(A_1) + Pr(A_2) + Pr(A_3) = 1$

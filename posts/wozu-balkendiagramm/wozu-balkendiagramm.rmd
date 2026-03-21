@@ -38,7 +38,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Zu welchem Zweck ist ein *Balkendiagramm* am besten geeignet?
 
@@ -67,7 +67,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Balkendiagramme eignen sich, um Häufigkeiten darzustellen. 
 Zwar werden Balkendiagramme immer wieder eingesetzt, um Mittelwerte bzw. deren Unterschiede zwischen Gruppen zu visualisieren,

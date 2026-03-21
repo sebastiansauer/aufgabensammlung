@@ -42,7 +42,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 
@@ -187,7 +187,7 @@ answerlist(sol_df$sol,
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Folgende minimale Variablenmenge muss kontrolliert werden, um den kausalen Effekt der UV auf die AV zu identifizieren: ``r sol_df$sol[sol_df$is_correct == TRUE]``.
 

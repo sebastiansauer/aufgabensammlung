@@ -18,7 +18,7 @@ title: regex-insert-char
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Gegeben sei ein String dieser Art (ggf. noch viel länger, aber vom gleichen Aufbau):
@@ -64,7 +64,7 @@ writeLines(my_string_out)
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 ```{r}
 library(stringr)

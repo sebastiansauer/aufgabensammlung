@@ -18,7 +18,7 @@ title: Regr-Bayes-interpret02a
 
 
 
-# Exercise
+## Exercise
 
 Betrachten Sie das Modell zu folgender Regressionsformel und
 interpretieren Sie die Ausgabe des folgenden Regressionsmodells.
@@ -88,7 +88,7 @@ coef(m1)
 </br>
 </br>
 
-# Solution
+## Solution
 
 
 - *Intercept*: Ein Auto mit mittlerer PS und Automatikantrieb (`am=0`, s. Hilfe zum Datensatz: `help(mtcars)`) kann laut Modell mit einer Gallone Sprit ca. `r round(coef(m1)[[1]], 2)` Meilen fahren.

@@ -31,7 +31,7 @@ library(exams)
 
 
 
-# Aufgabe
+## Aufgabe
 
 Im Datensatz `mariokart`: 
 
@@ -57,7 +57,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Pakete starten:
 

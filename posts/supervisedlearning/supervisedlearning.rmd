@@ -18,7 +18,7 @@ title: supervisedlearning
 
 
 
-# Aufgabe
+## Aufgabe
 
 Welches der folgenden Verfahren ist ein Vertreter des *geleiteten* Lernens (*supervised learning*)?
 
@@ -45,7 +45,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 * Falsch
 * Falsch

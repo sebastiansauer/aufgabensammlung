@@ -16,7 +16,7 @@ title: Wertzuweisen_mc
 
 
 
-# Aufgabe
+## Aufgabe
 
 Welche der folgenden Syntax-Varianten ist/sind formal ("syntaktisch") korrekt?
 
@@ -42,7 +42,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Die Antwort lautet: `loesung <-42`.

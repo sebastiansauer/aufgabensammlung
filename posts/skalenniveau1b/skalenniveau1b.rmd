@@ -47,7 +47,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 
@@ -124,7 +124,7 @@ Geben Sie für jede der folgenden vier Variable an, ob sie über ein metrisches 
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Hier ist ein Überblick über die Skalenniveau-Information der ausgewählten Variablen:
 

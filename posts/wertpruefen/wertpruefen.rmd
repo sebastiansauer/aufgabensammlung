@@ -39,7 +39,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Geben Sie die R-Syntax ein, um zu prüfen, dass die Variable `loesung` den Wert `42` hat.
 
@@ -59,7 +59,7 @@ Geben Sie die R-Syntax ein, um zu prüfen, dass die Variable `loesung` den Wert 
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 

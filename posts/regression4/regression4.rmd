@@ -46,7 +46,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 ```{r defs, echo=FALSE}
@@ -167,7 +167,7 @@ get_regression_table(lm_true) %>%
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 ```{r yhat, echo = FALSE}

@@ -43,7 +43,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Ein Forschungsteam aus Psychologen und Medizinern untersucht die Frage, 
 ob (höhere) *Bereitschaft* für eine OP und zu Veränderung 
@@ -134,7 +134,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 Es sollte auf `Baseline Pain` kontrolliert werden, 
 um den kausalen Effekt zu identifizieren.

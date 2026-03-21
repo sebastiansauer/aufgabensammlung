@@ -43,7 +43,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Fragen Sie ChatGPT via API zum Sentiment der ersten zwei Texte aus dem Germeval-2018-Datensatz (Train).
@@ -71,7 +71,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 ::: {.callout-attention}

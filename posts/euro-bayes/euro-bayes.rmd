@@ -35,7 +35,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 
 In *Information Theory, Inference, and Learning Algorithms*, stellt David MacKay folgendes Problem.
@@ -68,7 +68,7 @@ Hinweise:
 </br>
 </br>
 
-# Solution
+## Solution
 
 
 ```{r}

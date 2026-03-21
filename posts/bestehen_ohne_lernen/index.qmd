@@ -33,7 +33,7 @@ library(kableExtra)
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 
 Sie bereiten sich gerade auf die Klausur bei Prof. Süß vor.
@@ -116,7 +116,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 Der Multiplikationssatz der Wahrscheinlichkeitsrechnung darf nur angewendet werden,

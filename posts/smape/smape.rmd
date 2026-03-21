@@ -13,7 +13,7 @@ categories: schoice
 
 
 
-# Aufgabe
+## Aufgabe
 
 Zur Bemessung der (prädiktiven) Güte eines Modells existieren verschiedene Kennzahlen, auch abhängig davon, ob es sich um eine Regression oder Klassifikation handelt. Eine Kennzahl heißt *SMAPE* (Symmetric Mean Absolute Percentage). Welche Aussage zu dieser Kennzahl ist *falsch*?
 
@@ -41,7 +41,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 SMAPE-Werte können sinnvoll eingesetzt werden, um Variablen verschiedener Skalierung einzusetzen.
 

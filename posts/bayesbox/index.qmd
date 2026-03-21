@@ -22,7 +22,7 @@ bibliography: "../../library-ses.bib"
 ---
 
 
-# Setup
+## Setup
 
 ```{r}
 #| message: false
@@ -32,7 +32,7 @@ library(tidyverse)
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Sie führen ein zweiwertiges (binomiales)
  Zufallsexperiment $n$-mal durch,
@@ -150,7 +150,7 @@ Welcher Parameterwert $\pi$ ist am wahrscheinlichsten laut der Bayesbox?
 
 
 
-# Lösung 
+## Lösung 
 
 Der wahrscheinlichste Parameterwert $\pi$ ist derjenige, der die höchste Posteriori-Wahrscheinlichkeit hat.
 Die Posteriori-Wahrscheinlichkeit ist proportional zur unstandardisierten Posteriori-Wahrscheinlichkeit.

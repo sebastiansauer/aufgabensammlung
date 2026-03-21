@@ -42,7 +42,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 This question is taken from McElreath, R. (2020). *Statistical rethinking: A Bayesian course with examples in R and Stan* (2. Ed.). Taylor and Francis, CRC Press.
 
@@ -61,7 +61,7 @@ This question is taken from McElreath, R. (2020). *Statistical rethinking: A Bay
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Let's label the cards *bb* (black on both sides), *bw* (black on one, white on the other), and *ww* (both sides are white), respectively.

@@ -20,7 +20,7 @@ execute:
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 ```{r}
@@ -111,7 +111,7 @@ d_train_baked |>
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Der Fehler liegt darin, dass das Rezept *keine Änderungen an der AV* ausführt.

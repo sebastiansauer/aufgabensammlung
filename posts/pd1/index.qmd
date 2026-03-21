@@ -27,7 +27,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 
 Was beschreibt der Koeffizient "Probability of Direction" (pd) in der Bayes'schen Statistik?
@@ -73,7 +73,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
  **B**

@@ -36,7 +36,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 
 Betrachten Sie dieses Modell, das den Zusammenhang von PS-Zahl und Spritverbrauch untersucht (Datensatz `mtcars`):
@@ -74,7 +74,7 @@ b) Wie ist der Effekt von $\beta_1$ zu interpretieren?
 </br>
 </br>
 
-# Solution
+## Solution
 
 a) *Intercept* ($\beta_0$): Der Achsenabschnitt gibt den geschätzten mittleren Y-Wert (Spritverbrauch) an, wenn $x=0$, also für ein Auto mit 0 PS (was nicht wirklich Sinn macht). *hp* ($\beta_1$) ist der *Regressionskoeffizient* oder *Regressionsgewicht* und damit die Steigung der Regressionsgeraden.
 

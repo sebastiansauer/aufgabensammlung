@@ -40,7 +40,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Die Bootstrap-Methode ist eine beliebte numerische Methode im statistischen Lernen und in der Statistik allgemein. Welche der folgenden Aussagen zum Bootstrapping ist richtig?
 
@@ -67,7 +67,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 

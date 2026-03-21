@@ -40,7 +40,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Ist folgende Aussage $A$ wahr?
 
@@ -66,7 +66,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 Bei einem 95%-PI werden links und rechts jeweils (ca.) 2.5% der Wahrscheinlichkeitsmasse "abgeschnitten".
 

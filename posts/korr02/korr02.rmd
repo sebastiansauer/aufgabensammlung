@@ -42,7 +42,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 ```{r}
 # source: https://medium.com/geekculture/how-to-generate-correlated-data-in-r-57a675b7fd2f
@@ -85,7 +85,7 @@ df |>
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Die Korrelation in der zugehörigen (bivariaten) Population beträgt `r cor_preset`.
 

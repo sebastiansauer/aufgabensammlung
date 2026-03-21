@@ -34,7 +34,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Behauptung: 
@@ -64,7 +64,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Ja, denn Post-unstand = Prior * Likelihood.
 

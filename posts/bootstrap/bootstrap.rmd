@@ -17,7 +17,7 @@ title: bootstrap
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 In einer Analyse ist ein Team von Analysten interessiert, den Spritverbrauch von Fahrzeugen (gemessen in Meilen per Gallone `mpg`) in einem bestimmten Marksegment zu modellieren auf Basis der PS-Zahl (*horse power*, `hp`).
@@ -68,7 +68,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 

@@ -39,7 +39,7 @@ solutions[which(z[i]==questions)] <- TRUE
 
 
 
-# Aufgabe
+## Aufgabe
 
 Welche der Abbildungen zeigt am deutlichsten eine `r form[i]` Verteilung?
 
@@ -65,7 +65,7 @@ exams::answerlist(questions, markup = "markdown")
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 ```{r solutionlist, echo = FALSE, results = "asis"}

@@ -38,7 +38,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Der t-Test ist ein inferenzstatistisches Verfahren des Frequentismus.
 Der t-Test überprüft die Nullhypothese, dass die Mittelwerte zweier Gruppen gleich sind.
@@ -87,7 +87,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 Ein t-Test kann nur durchgeführt werden, wenn die abhängige Variable metrisch ist und die unabhängige Variable zweistufig nominal ist.
 

@@ -38,7 +38,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Welches Ergebnis hat der R-Befehl `posterior_interval()` (R-Paket `rstanarm`)?
 
@@ -70,7 +70,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 So können Sie sich Hilfe zu diesem Befehl ausgeben lassen:
 

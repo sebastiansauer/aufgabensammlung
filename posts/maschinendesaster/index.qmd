@@ -36,7 +36,7 @@ library(tidyverse)
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 
 ![](Gemini_Generated_Image_apdzyqapdzyqapdz.png){width=50%}
@@ -84,7 +84,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 
@@ -135,7 +135,7 @@ P_maschine_faellt_aus
 Die Wahrscheinlichkeit, dass die Maschine im Zeitintervall t ausfällt, beträgt ungefähr 63,40%.
 
 
-# Variante
+## Variante
 
 ```{r}
 n <- 1000
@@ -145,7 +145,7 @@ P_maschine_faellt_aus <- 1 - P_maschine_funzt
 P_maschine_faellt_aus
 ```
 
-# Ausfallwahrscheinlichkeit in Abhängigkeit der Anzahl der Teile
+## Ausfallwahrscheinlichkeit in Abhängigkeit der Anzahl der Teile
 
 
 ```{r}

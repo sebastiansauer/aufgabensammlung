@@ -32,7 +32,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Wirft man eine faire Münze 10-fach, so gilt $Pr(\text{10 mal Kopf}) = Pr(\text{10 mal Zahl}) > .01$.
@@ -60,7 +60,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 

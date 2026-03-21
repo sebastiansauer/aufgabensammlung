@@ -33,7 +33,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 ```{r libs, include = FALSE}
 library(tidyverse)
@@ -103,7 +103,7 @@ Hinweise:
 </br>
 </br>
 
-# Solution
+## Solution
 
 
 

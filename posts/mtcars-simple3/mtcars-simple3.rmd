@@ -47,7 +47,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 We will use the dataset `mtcars` in this exercise.
 
@@ -87,7 +87,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 ```{r message=FALSE}
 library(rstanarm)

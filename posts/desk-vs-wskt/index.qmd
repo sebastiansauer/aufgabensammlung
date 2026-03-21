@@ -27,7 +27,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Vervollständigen Sie die Tabelle!
 
@@ -80,7 +80,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 S. Skript :-)
 

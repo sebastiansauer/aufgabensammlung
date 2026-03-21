@@ -41,7 +41,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 
 
@@ -95,7 +95,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 
 Nein, es ist nicht sinnvoll zu kontrollieren,

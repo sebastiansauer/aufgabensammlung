@@ -28,7 +28,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Welche Aussage zum p-Wert ist korrekt?
 
@@ -74,7 +74,7 @@ H) p < 0,001 bedeutet, dass das Ergebnis praktisch relevant ist.
 
 
 
-# Lösung 
+## Lösung 
 
 
 A) FALSCH. Der p-Wert ist P(Daten|H₀), nicht P(H₀|Daten)

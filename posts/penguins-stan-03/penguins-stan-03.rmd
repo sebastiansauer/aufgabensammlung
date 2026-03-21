@@ -18,7 +18,7 @@ title: penguins-stan-03
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Wir untersuchen Einflussfaktoren bzw. Prädiktoren auf das Körpergewicht von Pinguinen.
@@ -52,7 +52,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Zentrieren ist eigentlich immer nützlich,
 aber hier streng genommen nicht unbedingt nötig.

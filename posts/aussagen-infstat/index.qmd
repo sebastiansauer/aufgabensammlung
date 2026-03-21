@@ -29,7 +29,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 
 Die Inferenzstatistik ergänzt die deskriptive Statistik.
@@ -83,7 +83,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 **A**

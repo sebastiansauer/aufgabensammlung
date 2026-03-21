@@ -38,7 +38,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
                       dpi = 200)
 ```
 
-# Aufgabe
+## Aufgabe
 
 Als Bildungsforscher(in) untersuchen Sie den Lernerfolg in einem Statistikkurs.
 
@@ -114,7 +114,7 @@ d %>%
 
 </br> </br> </br> </br> </br> </br> </br> </br> </br> </br>
 
-# Lösung
+## Lösung
 
 ```{r}
 sol <- A_cond_B %>% round(2) 

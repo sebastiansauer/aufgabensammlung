@@ -45,7 +45,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Eine Forscherin berechnet ein Regressionsmodell mit einer metrischen AV `y` und einer metrischen UV `x`.
 
@@ -151,7 +151,7 @@ answerlist(d_five_options$item, markup = "markdown")
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Der Modellfehler $\epsilon$ hat den Anteil $`r e`$ im Vergleich zur Streuung von $y$.
 

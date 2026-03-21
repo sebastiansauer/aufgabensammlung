@@ -16,7 +16,7 @@ title: durch3-durch5
 
 
 
-# Aufgabe
+## Aufgabe
 
 Gegeben sei ein Vektor `x`:
 
@@ -45,7 +45,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 ```{r}

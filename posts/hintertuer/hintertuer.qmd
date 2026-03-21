@@ -46,7 +46,7 @@ library(ggdag)
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 
@@ -110,7 +110,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 

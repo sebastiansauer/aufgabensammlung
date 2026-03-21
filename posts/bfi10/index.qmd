@@ -35,7 +35,7 @@ library(mosaic)
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 
 Auf der Webseite des [Leibniz-Instituts für Sozialwissenschaften, GESIS](https://www.gesis.org/) kann man u.a. psychologische Skalen für die Forschung finden. Eine dieser Skalen ist as [Big Five Inventory (BFI-10)](https://zis.gesis.org/skala/Rammstedt-Kemper-Klein-Beierlein-Kovaleva-Big-Five-Inventory-(BFI-10)). Autor/in: Rammstedt, B., Kemper, C. J., Klein, M. C., Beierlein, C., & Kovaleva, A.
@@ -93,7 +93,7 @@ norm_tab |>
 
 
 
-# Lösung 
+## Lösung 
 
 
 Mit Hilfe des Computers ist es komfortabel. 

@@ -39,7 +39,7 @@ options(mc.cores = parallel::detectCores())
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 
@@ -106,7 +106,7 @@ parameters(m1)
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 

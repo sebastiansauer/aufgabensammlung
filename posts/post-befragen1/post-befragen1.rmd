@@ -38,7 +38,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Welcher R-Code passt am besten, 
 um folgende Frage aus der Post-Verteilung herauszulesen:
@@ -124,7 +124,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 
 

@@ -20,7 +20,7 @@ categories:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Weltweit gibt es in immer mehr Städten Fahrradverleih-Dienste.
 Aus betriebswirtschaftlicher Sicht stellt sich die Frage, welche Variablen die Nutzung eines Leihrades vorhersagen?
@@ -103,7 +103,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 B) Ist die Anzahl der aktuell gemieteten Fahrrädern abhängig vom Wochentag?

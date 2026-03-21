@@ -38,7 +38,7 @@ theme_set(theme_bw())
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Die folgenden Posterior-Verteilungen unterscheiden sich nicht in ihrem Modus, aber in ihrer Sicherheit zur Schätzung des Modus. Welche der folgenden Posterior-Verteilungen ist die sicherste?
 
@@ -104,7 +104,7 @@ ggplot(data.frame(x = c(-4, 4)), aes(x = x)) +
 
 
 
-# Lösung 
+## Lösung 
 
 
 **C**

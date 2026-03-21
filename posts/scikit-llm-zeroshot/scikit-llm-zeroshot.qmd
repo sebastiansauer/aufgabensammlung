@@ -47,7 +47,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Fragen Sie ChatGPT via [Scikit-Learn-LLM](https://ealizadeh.com/blog/tutorial-scikit-llm/) zum Sentiment der ersten 7 Texte (=Tweets) aus dem Germeval-2018-Datensatz (Test).
@@ -87,7 +87,7 @@ Die einfachste Lösung ist, beide Pakete in verschiedenen venvs zu lagern. $\squ
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Wir legen ggf. eine neue venv an:

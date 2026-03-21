@@ -51,7 +51,7 @@ prof <- sample(prof_set, 1) |> as.character()
 
 
 
-# Aufgabe
+## Aufgabe
 
 Ein Prof übt sich im statistischen Lernen. 
 Dazu will er das Überleben im Titanic-Unglück Vorhersagen; 
@@ -322,7 +322,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Answerlist

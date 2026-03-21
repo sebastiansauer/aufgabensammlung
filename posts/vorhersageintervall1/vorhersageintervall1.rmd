@@ -21,7 +21,7 @@ library(tidyverse)
 ```
 
 
-# Exercise
+## Exercise
 
 
 Vorhersagen, etwa in einem Regressionsmodell,
@@ -71,7 +71,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 Der mittlere Wert von `hp` beträgt:
 

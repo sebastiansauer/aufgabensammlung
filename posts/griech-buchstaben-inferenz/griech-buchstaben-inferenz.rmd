@@ -20,7 +20,7 @@ title: griech-buchstaben-inferenz
 
 
 
-# Exercise
+## Exercise
 
 
 
@@ -79,7 +79,7 @@ tibble::tribble(
 </br>
 </br>
 
-# Solution
+## Solution
 
 
 

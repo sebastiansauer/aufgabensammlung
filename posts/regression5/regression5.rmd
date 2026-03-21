@@ -44,7 +44,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 ```{r preds, include=FALSE}
@@ -141,7 +141,7 @@ Geben Sie als Antwort den vorhergesagten $Y$-Wert an!
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 ```{r sol, include=FALSE} 

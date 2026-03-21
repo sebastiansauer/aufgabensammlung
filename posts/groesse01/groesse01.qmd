@@ -33,7 +33,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Wir interessieren uns für die typische Körpergröße deutscher Studentis.
@@ -72,7 +72,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 

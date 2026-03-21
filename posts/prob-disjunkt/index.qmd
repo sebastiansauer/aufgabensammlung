@@ -20,7 +20,7 @@ categories:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Zwei Ereignisse A und B heißen disjunkt (oder unvereinbar), wenn gilt:
 
@@ -57,7 +57,7 @@ D) $A \subset B$ (Das Ereignis A ist eine echte Untermenge von B.)
 
 
 
-# Lösung 
+## Lösung 
 
 
 C) $A\cap B= \emptyset$ (Ihr Durchschnitt ist die leere Menge.)

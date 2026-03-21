@@ -35,7 +35,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Sei $X \sim U(0, 2)$. 
@@ -66,7 +66,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Ja, die Aussage ist wahr.
 

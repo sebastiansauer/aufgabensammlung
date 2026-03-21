@@ -24,7 +24,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Was ist die Wahrscheinlichkeit, einen IQ-Wert von max. 115 zu beobachten, wenn mu=100 und sd=15?
 
@@ -65,7 +65,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 84%

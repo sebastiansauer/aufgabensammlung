@@ -41,7 +41,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Es handelt sich um ein *lineares* Modell, wenn man unter *linear* ein Modell folgender Form versteht:
 
@@ -72,7 +72,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Answerlist

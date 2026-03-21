@@ -34,7 +34,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Korrigieren Sie den Fehler in der Syntax: 
 
@@ -60,7 +60,7 @@ Geben Sie in der Lösung *keine* Leerzeichen ein.
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 ```{r eval = TRUE, echo = TRUE}
 mean(x=c(1,5,10,52))

@@ -42,7 +42,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Gegeben sei der DAG `g` (s.u.). Welche Variable/n sind zu kontrollieren, um den kausalen Effekt von `x` auf `y` zu identifizieren?
@@ -95,7 +95,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Keine. Der kausale Effekt von `x` auf `y` ist bereits identifiziert. 
 "Identifiziert" bedeutet,

@@ -37,7 +37,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 
 
@@ -80,7 +80,7 @@ c) Diskutieren Sie, inwieweit man aus biologisch fundierten Sachverhalten (also 
 </br>
 </br>
 
-# Solution
+## Solution
 
 a) Visuelle Prüfung der Normalverteilung
 

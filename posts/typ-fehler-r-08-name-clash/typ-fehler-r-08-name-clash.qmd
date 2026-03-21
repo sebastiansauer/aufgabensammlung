@@ -17,7 +17,7 @@ title: Typ-Fehler-R-08-name-clash
 
 
 
-# Aufgabe
+## Aufgabe
 
 R spuckt eine komische Fehlermeldung aus.
 Was ist nur los?
@@ -64,7 +64,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Das Problem ist, dass es in beiden Paketen, `{MASS}` und `{dplyr}` (dasjenige Paket im `tidyverse`, in dem `select()` wohnt), eine Funktion namens `select` vorhanden ist.

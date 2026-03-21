@@ -35,7 +35,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Sei $X \sim N(100, 15)$. 
@@ -65,7 +65,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Wie groß ist denn die Wahrscheinlichkeit für den gesuchten Wertebereich von $X$?
 

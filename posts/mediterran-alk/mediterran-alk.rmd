@@ -40,7 +40,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Alkohol ist ein weit verbreites Genussmittel in vielen Gesellschaften. Insgesamt sind die negativen (kausalen) Konsequenzen für die Gesundheit unstrittig. So findet man etwa in [dieser Studie](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6705703/): 
 
@@ -83,7 +83,7 @@ Man beachte, dass "boost your health" eine kausale Aussage ist, die über einen 
 </br>
 </br>
 
-# Solution
+## Solution
 
 
 Eine Erklärung lautet - frei erfunden! -, dass die *Lebenszufriedenheit* (L)  jeweils einen (positiven, kausalen) Effekt auf Alkoholkonsum (A) und auf die Gesundheit (G) ausübt.

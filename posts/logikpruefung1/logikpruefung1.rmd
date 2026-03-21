@@ -17,7 +17,7 @@ title: Logikpruefung1
 
 
 
-# Aufgabe
+## Aufgabe
 
 Wir definieren `x` wie folgt:
 
@@ -42,7 +42,7 @@ Geben Sie *keine* Leerzeichen in Ihre Lösung ein.
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 ```{r}
 x<100&x>0

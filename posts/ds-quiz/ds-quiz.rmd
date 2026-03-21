@@ -20,7 +20,7 @@ title: ds-quiz
 
 
 
-# Aufgabe
+## Aufgabe
 
 Im Folgenden sind mehrere Aussagen zum Thema maschinelles Lernen dargestellt.
 Wählen Sie alle korrekten Aussagen aus!
@@ -55,7 +55,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Answerlist

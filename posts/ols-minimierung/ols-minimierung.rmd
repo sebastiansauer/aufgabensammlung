@@ -31,7 +31,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Um die Parameter der Regressiongeraden zu bestimmen, wird ein Ausdruck minimiert. Wählen Sie den korrekten Ausdruck.
 
@@ -60,7 +60,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Die klassische Regressionsanalyse minimiert diesen Ausdruck, um die Regressiongerade zu bestimmen: 
 

@@ -32,7 +32,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Die Inferenzstatistik ist eine Sammlung an Verfahren zur Bemessung von Unsicherheit in statistischen Schlüssen.
 
@@ -55,7 +55,7 @@ c) Gibt es besondere Fälle, in denen man nicht die Inferenzstatistik verwenden 
 </br>
 </br>
 
-# Solution
+## Solution
 
 a) Für (grundsätzlich) alle: Für jede Statistik kann man prinzipiell von der jeweiligen Stichprobe (auf Basis derer die Statistik berechnet wurde) auf eine zugehörige Grundgesamtheit schließen.
 

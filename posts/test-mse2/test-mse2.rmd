@@ -37,7 +37,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Anhand der folgenden Abbildung sollen Aussagen zur Test-MSE (Mean Squared Error) untersucht werden.
 
@@ -74,7 +74,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Answerlist

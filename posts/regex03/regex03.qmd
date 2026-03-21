@@ -16,7 +16,7 @@ title: regex03
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Gegeben sein ein String-Vektor, `x`. Dieser Vektor enthält Vornamen mehrerer Personen.
@@ -56,7 +56,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 

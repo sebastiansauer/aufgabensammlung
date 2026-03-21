@@ -16,7 +16,7 @@ title: Griech-Buchstaben-Inferenz
 ---
 
 
-# Exercise
+## Exercise
 
 
 
@@ -71,7 +71,7 @@ tibble::tribble(
 </br>
 </br>
 
-# Solution
+## Solution
 
 
 

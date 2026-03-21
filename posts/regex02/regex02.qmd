@@ -29,7 +29,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Matchen Sie Elemente des Vektors `txt3`, die nur aus Ziffern bestehen:
@@ -60,7 +60,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 ```{r}
 library(tidyverse)

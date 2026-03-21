@@ -29,7 +29,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
  Folgende Wahrscheinlichkeiten zweier Ereignisse (A und B) seien 
 gegeben:
@@ -76,7 +76,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 Um die Wahrscheinlichkeit zu berechnen, dass mindestens eines der beiden Ereignisse (A oder B) eintritt, verwenden wir die Formel für die Wahrscheinlichkeit der Vereinigung zweier Ereignisse:
@@ -97,7 +97,7 @@ Die Wahrscheinlichkeit, dass mindestens eines der beiden Ereignisse eintritt, be
 
 
 
-# Lösung mit R 
+## Lösung mit R 
 
 Gegeben:
 
@@ -120,7 +120,7 @@ pr_AorB
 ```
 
 
-# Alternative Berechnung
+## Alternative Berechnung
 
 Eine alternative Methode zur Berechnung der Wahrscheinlichkeit, dass mindestens eines der beiden Ereignisse eintritt, besteht darin, die Wahrscheinlichkeit zu berechnen, dass keines der Ereignisse eintritt, und diese von 1 zu subtrahieren.
 

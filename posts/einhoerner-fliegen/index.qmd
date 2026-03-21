@@ -27,7 +27,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Sei $A$: "Sophia ist ein Einhorn". Und sei $B$: "Einhörner können (alle) fliegen". 
 
@@ -66,7 +66,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 Darauf ist keine Antwort im Sinne einer Wahrscheinlichkeitsaussage möglich:

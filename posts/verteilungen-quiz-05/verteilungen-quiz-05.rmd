@@ -40,7 +40,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Ist folgende Aussage wahr?
 
@@ -67,7 +67,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 Betrachten wir eine stetige symmetrischer Verteilung
 und "schneiden" einmal bei $x=-1$ und einmal bei $x=1$ ab:

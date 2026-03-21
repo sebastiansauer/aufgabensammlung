@@ -30,7 +30,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 
 **Geben Sie jeweils an, ob die Aussage richtig oder falsch ist.**
@@ -83,7 +83,7 @@ knitr:
 
 
 
-# Lösung 
+## Lösung 
 
 
 1. Bei einem Zufallsexperiment ist der Ereignisraum unbekannt. *F*

@@ -30,7 +30,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Vervollständigen Sie die Lücke im folgenden Satz:
 
@@ -82,7 +82,7 @@ Liegt das HDI komplett außerhalb des ROPE, so _________ man die Nullhypothese.
 
 
 
-# Lösung 
+## Lösung 
 
 
 

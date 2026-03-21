@@ -38,7 +38,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Importieren Sie bitte für diese Aufgabe den Datensatz [movies](https://vincentarelbundock.github.io/Rdatasets/csv/ggplot2movies/movies.csv) (aus dem R-Paket `ggplot2movies`).
 Ein Data-Dictionary findet sich [hier](https://vincentarelbundock.github.io/Rdatasets/doc/ggplot2movies/movies.html).
@@ -64,7 +64,7 @@ Erstellen Sie folgende Visualisierung:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Pakete starten:
 

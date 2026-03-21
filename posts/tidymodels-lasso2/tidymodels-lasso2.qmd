@@ -20,7 +20,7 @@ execute:
 
 
 
-# Aufgabe
+## Aufgabe
 
 <!-- Schreiben Sie eine Vorlage für eine prädiktive Analyse mit Tidymodels! -->
 
@@ -52,7 +52,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 ```{r whole-shebang}
 # 2023-05-14

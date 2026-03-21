@@ -20,7 +20,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 
 A) Das Berechnen der Korrelation zweier Variablen in einer Stichprobe erfolgt unter Ungewissheit.
@@ -62,7 +62,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 C) Das Berechnen des Mittelwerts in einer Population erfolgt unter Ungewissheit.

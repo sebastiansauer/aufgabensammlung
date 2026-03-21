@@ -37,7 +37,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Im Datensatz `mtcars`: Ist der (mittlere) Unterschied im Spritverbrauch (`mpg`) zwischen den beiden Gruppen 
 *Automatik* vs. *Schaltgetriebe* vernachlässigbar?
@@ -74,7 +74,7 @@ Wählen Sie die Antwortoption, die am besten zu der obigen Behauptung passt!
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 ```{r message=FALSE}
 library(easystats)
@@ -173,7 +173,7 @@ Answerlist
 </br>
 
 
-# Antwort
+## Antwort
 
 Rope visualisieren mit `plot(rope_m1)`.
 

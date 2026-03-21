@@ -14,7 +14,7 @@ title: purrr-map03
 ---
 
 
-# Exercise
+## Exercise
 
 Importieren Sie das Grundatzprogramm der Partei AfD (in der aktuellsten Version). 
 Tokenisieren Sie nach Sätzen. 
@@ -39,7 +39,7 @@ Dann zählen Sie die Anzahl der Wörter pro Satz und berichten gängige deskript
 </br>
 </br>
 
-# Solution
+## Solution
 
 ```{r}
 library(tidyverse)

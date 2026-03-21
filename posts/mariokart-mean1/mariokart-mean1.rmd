@@ -38,7 +38,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Importieren Sie den Datensatz `mariokart` in R.
 Berechnen Sie den mittleren Verkaufspreis (`total_pr`)!
@@ -60,7 +60,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Pakete starten:
 

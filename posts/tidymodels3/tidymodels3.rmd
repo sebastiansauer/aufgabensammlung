@@ -45,7 +45,7 @@ library(exams)
 
 
 
-# Aufgabe
+## Aufgabe
 
 Berechnen Sie ein lineares Modell mit tidymodels und zwar anhand des `ames` Datensatzes.
 
@@ -67,7 +67,7 @@ Rücktransformieren Sie die Log-Werte in "Roh-Dollar".
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 ```{r}

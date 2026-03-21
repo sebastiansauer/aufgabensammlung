@@ -27,7 +27,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Welche der folgenden Aussagen entspricht **NICHT** den Kolmogorov-Axiomen der Wahrscheinlichkeit?
 
@@ -74,7 +74,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 **E**
 

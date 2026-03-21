@@ -28,7 +28,7 @@ categories:
 
 
 
-# Aufgabe
+## Aufgabe
 
 Im Datensatz `mtcars`: 
 
@@ -57,7 +57,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Pakete starten:
 

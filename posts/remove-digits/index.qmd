@@ -26,11 +26,11 @@ bibliography: "../../library-ses.bib"
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 
 
-# Aufgabe
+## Aufgabe
 
 Schreiben Sie einen R-Code,
 der aus dem folgenden String-Vektor,
@@ -81,7 +81,7 @@ die Lösung sollte also sein: "key, value".
 
 
 
-# Lösung
+## Lösung
 
 
 Setup:

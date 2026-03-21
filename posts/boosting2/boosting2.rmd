@@ -37,7 +37,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 *Boosting* ist eine beliebte Methode des statistischen Lernens, da sie sich in vielen prädiktiven Fragestellungen als hoch prädiktiv herausgestellt hat. Die Modellfunktion von Boosting kann man so darstellen:
 
@@ -72,7 +72,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Answerlist

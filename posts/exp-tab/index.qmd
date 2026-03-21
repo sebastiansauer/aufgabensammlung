@@ -44,7 +44,7 @@ library(tidyverse)
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Gegeben sei
 
@@ -114,7 +114,7 @@ quantiles_df_rounded
 
 
 
-# Lösung 
+## Lösung 
 
 
 Das `r q` % Quantil der Exponentialverteilung mit $\lambda = `r lambda`$ beträgt `r round(qexp(q/100, rate = lambda), 2)`.

@@ -23,7 +23,7 @@ library(tidyverse)
 
 
 
-# Aufgabe
+## Aufgabe
 
 Beantworten Sie folgende Forschungsfrage:
 
@@ -49,7 +49,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Wir rufen Stan:
 

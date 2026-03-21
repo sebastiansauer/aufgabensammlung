@@ -37,7 +37,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Welches der folgenden Beispiele ist *kein* Beispiel für eine Nullhypothese?
 
@@ -63,7 +63,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 
 Answerlist

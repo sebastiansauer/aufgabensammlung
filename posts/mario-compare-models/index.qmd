@@ -23,7 +23,7 @@ categories:
 
 
 
-# Aufgabe
+## Aufgabe
 
 Variieren Sie das folgende Modell mit einer bzw. beiden UV bzw. mit Interaktionseffekt.
 Welches Modell ist am besten?
@@ -45,7 +45,7 @@ mariokart <- read.csv("https://vincentarelbundock.github.io/Rdatasets/csv/openin
 
 
 
-# Lösung
+## Lösung
 
 ```{r}
 library(easystats)
@@ -85,7 +85,7 @@ r2(lm_mario_2uv_interaktion)
 
 
 
-# BONUS
+## BONUS
 
 Visualisieren Sie das Streudiagramm!
 

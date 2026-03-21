@@ -30,7 +30,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 
 **Geben Sie jeweils an, ob die Aussage richtig oder falsch ist.**
@@ -81,7 +81,7 @@ $\in \mathbb{R}$ nennt man Zufallsvariable.
 
 
 
-# Lösung 
+## Lösung 
 
 
 1. Die Zuordnung der Elementarereignisse eines Zufallsexperiments zu genau einer Zahl 

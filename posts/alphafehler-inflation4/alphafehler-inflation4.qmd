@@ -35,7 +35,7 @@ library(tidyverse)
 
 
 
-# Aufgabe
+## Aufgabe
 
 Eine Klettererin verwendet ein Seil, dass eine Sicherheit von $r=.99$ hat: 
 mit einer Wahrscheinlichkeit von 1% reißt das Seil.
@@ -72,7 +72,7 @@ Betrachten wir mehrere Fälle:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Sei $R$ die Wahrscheinlichkeit, dass das Gesamtseil hält (nicht reißt).
 $1-R$ ist dann die Wahrscheinlichkeit des Gegenereignisses: das Gesamtseil reißt.
@@ -111,7 +111,7 @@ Die Seilriss-Gefahr ist dann:
 
 
 
-# Vertiefung
+## Vertiefung
 
 Betrachten wir abschließend aus Neugier die Wahrscheinlichkeit,
 dass die Klettererin abstürzt ($1-R$) als Funktion der Anzahl der Seie.

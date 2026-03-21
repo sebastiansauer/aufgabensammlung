@@ -26,7 +26,7 @@ bibliography: "../../library-ses.bib"
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Betrachten wir das Zufallsexperiment, bei dem ein Würfel geworfen wird.
 Wir haben keinen Grund zu glauben, dass eine bestimmte Augenzahl bevorzugt wird, und nehmen daher an, dass alle Augenzahlen gleich wahrscheinlich sind.
@@ -65,7 +65,7 @@ also das gemeinsame Eintreten von $A$ und $B$?
 
 
 
-# Lösung 
+## Lösung 
 
 
 ```{r}

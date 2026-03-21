@@ -38,7 +38,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Melden Sie sich an für die Kaggle Competition [TMDB Box Office Prediction -
 Can you predict a movie's worldwide box office revenue?](https://www.kaggle.com/competitions/tmdb-box-office-prediction/overview).
@@ -97,11 +97,11 @@ preds_chosen <-
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 
-### Pakete starten
+#### Pakete starten
 
 
 ```{r message=FALSE}
@@ -114,7 +114,7 @@ library(doParallel)
 
 
 
-### Daten importieren
+#### Daten importieren
 
 
 ```{r}
@@ -149,7 +149,7 @@ preds_chosen %in% names(d_train) %>%
 Ja, alle Elemente von `preds_chosen` sind  Prädiktoren im (Train-)Datensatz.
 
 
-#### CV
+##### CV
 
 Nur um Zeit zu sparen, setzen wir die Anzahl der Folds auf $v=4$.
 Besser wäre z.B. $v=10$.
@@ -160,7 +160,7 @@ cv_scheme <- vfold_cv(d_train, v = 4)
 
 
 
-### Rezept 1
+#### Rezept 1
 
 
 ```{r}
@@ -216,7 +216,7 @@ describe_distribution(d_train_baked) %>%
 
 
 
-### Modell 1: RF
+#### Modell 1: RF
 
 
 
@@ -230,7 +230,7 @@ model1 <- rand_forest(mtry = tune(),
 
 
 
-### Workflow 1
+#### Workflow 1
 
 
 ```{r wf1}
@@ -244,7 +244,7 @@ wf1 <-
 
 
 
-###  Modell fitten (und tunen)
+####  Modell fitten (und tunen)
 
 Parallele Verarbeitung starten:
 
@@ -272,7 +272,7 @@ rf_fit1[[".notes"]][1]
 
 Nein; bei mir nicht jedenfalls.
 
-### Bester Kandidat
+#### Bester Kandidat
 
 ```{r}
 select_best(rf_fit1)
@@ -280,7 +280,7 @@ select_best(rf_fit1)
 
 
 
-### Workflow finalisieren
+#### Workflow finalisieren
 
 
 ```{r}
@@ -291,7 +291,7 @@ wf_best <-
 
 
 
-### Final Fit
+#### Final Fit
 
 
 ```{r}
@@ -312,7 +312,7 @@ preds <-
 
 
 
-### Submission df
+#### Submission df
 
 
 ```{r}
@@ -334,7 +334,7 @@ Abspeichern und einreichen:
 ```
 
 
-### Kaggle Score
+#### Kaggle Score
 
 Diese Submission erzielte einen Score von **Score:  2.76961** (RMSLE).
 

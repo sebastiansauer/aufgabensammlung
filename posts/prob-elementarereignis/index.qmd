@@ -20,7 +20,7 @@ categories:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Was beschreibt ein Elementarereignis $\omega$ in der Wahrscheinlichkeitsrechnung?
 
@@ -55,6 +55,6 @@ D) Ein einzelnes, nicht weiter zerlegbares Ergebnis eines Zufallsexperiments.
 
 
 
-# Lösung 
+## Lösung 
 
 D) Ein einzelnes, nicht weiter zerlegbares Ergebnis eines Zufallsexperiments.

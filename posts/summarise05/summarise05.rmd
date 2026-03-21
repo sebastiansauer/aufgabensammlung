@@ -33,7 +33,7 @@ library(exams)
 
 
 
-# Aufgabe
+## Aufgabe
 
 Im Datensatz `mariokart`: 
 
@@ -57,7 +57,7 @@ Geben Sie den erste Wert des IQR als Antwort zurück!
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Pakete starten:
 

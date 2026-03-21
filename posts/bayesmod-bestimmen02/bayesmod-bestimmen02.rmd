@@ -36,7 +36,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 
 Sie möchten, im Rahmen einer Studie, ein einfaches lineare Modell spezifizieren, d.h. den Likelihood und die Priori-Verteilungen benennen. 
@@ -77,7 +77,7 @@ Hinweise:
 </br>
 </br>
 
-# Solution
+## Solution
 
 ```{r}
 sol <- "s~Exp(1)"

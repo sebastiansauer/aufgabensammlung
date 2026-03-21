@@ -27,7 +27,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Welche der folgenden Aussagen zur Interpretation eines Populationsparameters (z.B. $\mu$) eines Konfidenzintervalls der Art `95% CI [182cm; 184cm]` ist richtig bzw. passt am besten?
 
@@ -72,7 +72,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 B) Passt nur zur Frequentistischen, nicht zur Bayesianischen Statistik

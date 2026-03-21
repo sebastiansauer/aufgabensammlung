@@ -27,7 +27,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Welches der folgenden Beispiele ist **kein** korrektes Beispiel für eine Nullhypothese?
 
@@ -73,7 +73,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 **H**

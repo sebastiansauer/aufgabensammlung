@@ -41,7 +41,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 R gibt folgende Fehlermeldung aus:
 
@@ -77,7 +77,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Das Paket `XXX` ist nicht installiert auf dem aktuellen Rechner.

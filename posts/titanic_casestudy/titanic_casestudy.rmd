@@ -34,7 +34,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Fallstudie
 
@@ -89,7 +89,7 @@ d) Welche Variable ist die wichtigste (laut diesem Modell)?
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 **Interpretieren Sie das Ergebnis des Mosaicplots!**

@@ -38,7 +38,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Was ist die Wahrscheinlichkeit, bei einem Krebstest ein positives Testergebnis (Ereignis $T$) zu bekommen?
 
@@ -72,7 +72,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Die Ereignisse $K$ und $\neg K$ bilden ein *vollständiges Ereignissystem*.
 Daher ist der Satz von der *totalen Wahrscheinlichkeit* anzuwenden.

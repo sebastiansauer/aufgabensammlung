@@ -38,7 +38,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Der *t-Test* kann als Spezialfall der Regressionsanalyse gedeutet werden.
 Der t-Test ist ein Verfahren, der die Mittelwerte zweier Gruppen miteinander vergleicht.
@@ -83,7 +83,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 Answerlist
 ----------

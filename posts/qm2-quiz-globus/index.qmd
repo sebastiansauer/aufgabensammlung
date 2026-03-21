@@ -30,7 +30,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 
 **Geben Sie jeweils an, ob die Aussage richtig oder falsch ist.**
@@ -82,7 +82,7 @@ knitr:
 
 
 
-# Lösung 
+## Lösung 
 
 
 1. Der Prozess des Bayes-Updates hat folgende drei Teile: Priori-Verteilung -> Likelihood -> Posteriori-Verteilung. *R*

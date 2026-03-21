@@ -27,7 +27,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Beurteilen Sie folgende Aussagen:
 
@@ -35,7 +35,7 @@ Beurteilen Sie folgende Aussagen:
 
 
 
-## Antwortoptionen
+### Antwortoptionen
 
 - Nein, man sollte stattdessen einen t-Test verwenden.
 - Ja, beide Verfahren sind gleichwertig.
@@ -75,7 +75,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 - Ja, beide Verfahren sind analog, aber die Regression hat Vorzüge.

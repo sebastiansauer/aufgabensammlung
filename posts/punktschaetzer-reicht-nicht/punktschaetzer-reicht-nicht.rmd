@@ -40,7 +40,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Zwei Modelle, `m1` und `m2`, produzieren jeweils die gleiche Vorhersage (den gleichen Punktschätzer).
 
@@ -84,7 +84,7 @@ Welches der beiden Modelle ist zu bevorzugen? Begründen Sie.
 </br>
 </br>
 
-# Solution
+## Solution
 
 Modell `m1` hat eine *kleinere* Ungewissheit im Hinblick auf die Modellkoeffiziente $\beta_0, \beta_1$ und ist daher gegenüber `m2` zu bevorzugen.
 

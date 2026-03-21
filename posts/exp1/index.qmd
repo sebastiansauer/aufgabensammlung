@@ -30,7 +30,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 
 Die Expontentialverteilung ist eine häufig verwendete Verteilung in der Statistik. 
@@ -78,7 +78,7 @@ E. Die Exponentialverteilung ist streng monoton fallend.
 
 
 
-# Lösung 
+## Lösung 
 
 
 A. Die Exponentialverteilung ist eine stetige Verteilung. RICHTIG

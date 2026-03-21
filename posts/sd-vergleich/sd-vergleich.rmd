@@ -43,7 +43,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Welches der folgenden Diagramm hat die größte Streuung, 
@@ -117,7 +117,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Die SD ist am größten in Diagramm C
 

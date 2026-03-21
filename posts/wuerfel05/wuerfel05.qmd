@@ -38,7 +38,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Was ist die Wahrscheinlichkeit, mit zwei fairen Würfeln genau 12 Augen zu werfen?
 
@@ -62,7 +62,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Die Ereignisse A="Wurf des 1. Würfels" und B="Wurf des 2. Würfels" sind unabhängig voneinander.
 

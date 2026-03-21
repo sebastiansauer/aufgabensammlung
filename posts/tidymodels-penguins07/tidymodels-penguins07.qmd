@@ -41,7 +41,7 @@ library(exams)
 
 
 
-# Aufgabe
+## Aufgabe
 
 Berechnen Sie ein Entscheidungsbaum-Modell mit tidymodels und zwar anhand des penguins Datensatzes.
 
@@ -74,9 +74,9 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
-## Setup
+### Setup
 
 ```{r}
 library(tidymodels)
@@ -98,9 +98,9 @@ d2 <-
   drop_na(body_mass_g)
 ```
 
-# CV
+## CV
 
-## Daten aufteilen:
+### Daten aufteilen:
 
 ```{r}
 set.seed(42)
@@ -111,7 +111,7 @@ d_test <- testing(d_split)
 
 
 
-## CV
+### CV
 
 ```{r}
 set.seed(42)
@@ -121,7 +121,7 @@ folds <- vfold_cv(d_train, v = 10)
 
 
 
-## Workflow
+### Workflow
 
 
 
@@ -145,7 +145,7 @@ wflow <-
 
 
 
-## Fitten
+### Fitten
 
 ```{r}
 tic()
@@ -163,7 +163,7 @@ toc()
 
 
 
-## Modellgüte
+### Modellgüte
 
 
 ```{r}

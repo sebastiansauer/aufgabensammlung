@@ -23,7 +23,7 @@ title: ungewiss-arten-regression
 
 
 
-# Exercise
+## Exercise
 
 
 ```{r libs, include = FALSE}
@@ -100,7 +100,7 @@ Hinweise:
 </br>
 </br>
 
-# Solution
+## Solution
 
 ```{r echo=FALSE}
 lm1_params <- parameters(lm1)

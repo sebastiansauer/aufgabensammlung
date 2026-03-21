@@ -38,7 +38,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Einer der (bisher) größten Studien der Untersuchung psychologischer Konsequenzen (oder Korrelate) 
 der Covid-Zeit ist die Studie [COVIDiStress](https://www.nature.com/articles/s41597-020-00784-9).
@@ -99,7 +99,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 Pakete laden:
 

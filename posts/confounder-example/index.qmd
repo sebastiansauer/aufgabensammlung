@@ -33,7 +33,7 @@ library(dagitty)
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 
 Ein Forscherteam hat folgende Hypothesen:
@@ -111,7 +111,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 Ein möglicher Konfundierer ist das Persönlichkeitsmerkmal "Skeptizismus", mit dem hier eine skeptische Grundeinstellung gemeint ist.

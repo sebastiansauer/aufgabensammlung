@@ -184,7 +184,7 @@ questions_sample <-
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Die folgende Frage bezieht sich auf dieses Ergebnis einer Regressionsanalyse:
@@ -226,7 +226,7 @@ answerlist(questions_sample$item, markup = "markdown")
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 ```{r solutionlist, echo = FALSE, results = "asis"}
 answerlist(ifelse(questions_sample$is_correct, "Wahr", "Falsch"), markup = "markdown")

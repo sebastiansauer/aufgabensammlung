@@ -42,7 +42,7 @@ library(tidyverse)
 
 
 
-# Aufgabe
+## Aufgabe
 
 Importieren Sie den folgenden Datensatz in R:
 
@@ -76,7 +76,7 @@ mtcars %>%
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Hey R:

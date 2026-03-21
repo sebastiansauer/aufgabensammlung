@@ -41,7 +41,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 
 Eine Forscherin untersucht den Zusammenhang von Rauchen `smo` (smoking, UV, exposure) und Herzstillstand `ca` (cardiac arrest, AV, outcome). 
@@ -107,7 +107,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 Alternative Visualisierung:
 

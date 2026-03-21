@@ -27,7 +27,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Beurteilen Sie folgende Aussagen:
 
@@ -35,7 +35,7 @@ Beurteilen Sie folgende Aussagen:
 
 
 
-## Antwortoptionen
+### Antwortoptionen
 
 - Ja
 - Nein
@@ -74,7 +74,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 - Ja, aber nur, wenn der Effekt nicht exakt Null ist
 

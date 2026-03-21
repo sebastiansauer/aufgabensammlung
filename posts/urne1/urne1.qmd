@@ -34,7 +34,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 In einer Urne befinden sich fünf Kugeln, von denen 4 rot sind und 1 weiß.
 
@@ -60,7 +60,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Sei $R1$ "rote Kugel im 1. Zug gezogen".
 

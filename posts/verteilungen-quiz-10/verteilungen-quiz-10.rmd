@@ -39,7 +39,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Ist folgende Aussage $A$ wahr?
 
@@ -64,7 +64,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 Die Wahrscheinlichkeitsmasse eines unendlich schmalen Intervalls ist (praktisch) Null (oder unendlich klein).
 

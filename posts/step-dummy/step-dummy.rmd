@@ -21,7 +21,7 @@ execute:
 
 
 
-# Aufgabe
+## Aufgabe
 
 Viele Lernalgorithmen können nicht mit nominalen Variablen umgehen;
 daher muss man sie dummifizieren, um sie einer Verarbeitung zugänglich zu machen.
@@ -56,10 +56,10 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
-## Setup
+### Setup
 
 ```{r message=FALSE}
 library(tidymodels)
@@ -80,7 +80,7 @@ d <-
 str(d)
 ```
 
-## Rezept 1
+### Rezept 1
 
 Rezept 1, mit Variable vom Typ `character`:
 
@@ -99,7 +99,7 @@ str(d_baked)
 ```
 
 
-## Rezept 2
+### Rezept 2
 
 
 Rezept 2, mit Variable vom Typ `factor`:

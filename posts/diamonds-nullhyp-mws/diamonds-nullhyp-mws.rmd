@@ -37,7 +37,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Betrachten Sie folgende Ausgabe eines Bayesmodells, das mit `rstanarm` "gefittet" wurde:
 
@@ -86,7 +86,7 @@ D) Man kann schließen, dass alle Parameter positiv sind.
 </br>
 </br>
 
-# Solution
+## Solution
 
 
 

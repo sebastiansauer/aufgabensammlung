@@ -41,7 +41,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 John Kruschke hat einen (Absolut-)Wert vorschlagen, als Grenze für Regressionskoeffizienten "vernachlässigbarer" Größe.
 
@@ -66,7 +66,7 @@ Hinweise:
 </br>
 </br>
 
-# Solution
+## Solution
 
 ```{r}
 sol <- 0.05

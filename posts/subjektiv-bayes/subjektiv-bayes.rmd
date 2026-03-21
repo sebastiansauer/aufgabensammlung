@@ -35,7 +35,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Nennen Sie einen Aspekte der bayesianischen Analyse, der (in Teilen) subjektiv ist - abgesehen von der Wahl der Priori-Verteilung.
 
@@ -52,7 +52,7 @@ Nennen Sie einen Aspekte der bayesianischen Analyse, der (in Teilen) subjektiv i
 </br>
 </br>
 
-# Solution
+## Solution
 
 - Linearitätsannahme in (linearen) Modellen
 - Wahl des Likelihoods

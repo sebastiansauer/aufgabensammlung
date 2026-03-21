@@ -36,7 +36,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 
 
@@ -64,7 +64,7 @@ $\sigma \sim \mathcal{U}(0, 10)$
 </br>
 </br>
 
-# Solution
+## Solution
 
 ```{r}
 library(tidyverse)

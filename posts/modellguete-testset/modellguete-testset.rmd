@@ -17,7 +17,7 @@ title: modellguete-testset
 
 
 
-# Aufgabe
+## Aufgabe
 
 Berechnen Sie die Modellgüte (RMSE) im Test-Sample.
 
@@ -49,10 +49,10 @@ Gehen Sie von folgenden Annahmen aus.
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
-## Setup
+### Setup
 
 ```{r}
 library(tidymodels)
@@ -66,7 +66,7 @@ d_test <- read.csv("https://raw.githubusercontent.com/sebastiansauer/yacsda-bike
 
 
 
-## Mittelwert der AV im Train-Sample berechnen
+### Mittelwert der AV im Train-Sample berechnen
 
 ```{r}
 mean_count_train_sample <- 
@@ -93,7 +93,7 @@ d_test <-
 ```
 
 
-## Modellgüte im Test-Sample berechnen
+### Modellgüte im Test-Sample berechnen
 
 ```{r}
 d_test |> 

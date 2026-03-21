@@ -51,7 +51,7 @@ k_treffer <- floor(anz_aufgaben / 2)
 
 
 
-# Aufgabe
+## Aufgabe
 
 Eine Studentin muss (oder will ?) eine Statistik-Klausur schreiben.
 Die Klausur besteht ausschließlich aus `r anz_aufgaben` Richtig-Falsch-Aufgaben,
@@ -82,7 +82,7 @@ Wie groß ist die Wahrscheinlichkeit für *genau* $k=`r k_treffer`$ Treffer in d
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 ```{r}
 options(digits=6)

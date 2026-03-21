@@ -48,7 +48,7 @@ lab <- c("E \\cap R", "\\overline{E} \\cap R", "E \\cap \\overline{R}", "\\overl
 
 
 
-# Aufgabe
+## Aufgabe
 
 Ein renommiertes Unternehmen sucht einen Kandidaten für eine (hoch dotierte) Führungsposition.
 Ein Managementberatungsunternehmung führt ein Assessmentcenter durch, 
@@ -91,7 +91,7 @@ exams::answerlist(paste("$P(", lab, ")$", sep = ""), markup = "markdown")
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Einige Wahrscheinlichkeiten lassen sich direkt aus dem Text errechnen:
 

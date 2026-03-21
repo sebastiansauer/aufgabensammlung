@@ -27,7 +27,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Welche der folgenden Formeln stellt das Bayes-Theorem korrekt dar?
 
@@ -70,7 +70,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 **B**

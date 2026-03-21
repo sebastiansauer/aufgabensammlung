@@ -19,7 +19,7 @@ title: mse
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 
@@ -47,7 +47,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 

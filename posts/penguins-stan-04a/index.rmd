@@ -17,7 +17,7 @@ title: penguins-stan-04a
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Wir untersuchen Einflussfaktoren bzw. Prädiktoren auf das Körpergewicht von Pinguinen.
@@ -117,7 +117,7 @@ eti(m1) |> plot()
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Man sieht im Diagramm direkt, dass 100% des Schätzbereichs *rechts* von der Null ist.
 Daher ist die Effektwahrscheinlichkeit 100%.

@@ -28,7 +28,7 @@ bibliography: "bib.bib"
 
 
 
-# Aufgabe
+## Aufgabe
 
 In Ihrem Buch "Active Statistics" beschreiben die Autoren eine Studie der Wikipedia-Organisation [@gelman_active_2024], vgl. S. 33f.
 
@@ -69,7 +69,7 @@ Hinweise:
 
 
 
-# Lösung
+## Lösung
 
 ```{r}
 library(tidyverse)

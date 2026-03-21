@@ -27,7 +27,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Gegeben sei das folgende lineare Modell.
 
@@ -98,7 +98,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 **D**

@@ -26,7 +26,7 @@ categories:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Welcher der folgenden Syntax-Befehle in R ist korrekt, um eine Zufallszahl aus einer gleichverteilten Zufallsvariablen (Min: 0, Max: 10) zu generieren?
 
@@ -98,7 +98,7 @@ rnorm(n = 1, min = 0, max = 10)
 
 
 
-# Lösung 
+## Lösung 
 
 
 

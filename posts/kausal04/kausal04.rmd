@@ -40,7 +40,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Gegeben sei ein DAG `g` (s.u.). 
 Was ist die minimale Menge an Variablen (minimal adjustment set),
@@ -97,7 +97,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 
 ```{r comment = ""}

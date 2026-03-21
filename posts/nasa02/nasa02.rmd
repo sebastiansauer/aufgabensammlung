@@ -37,7 +37,7 @@ title: nasa02
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Viele Quellen berichten Klimadaten unserer Erde, z.B. auch [National Aeronautics and Space Administration - Goddard Institute for Space Studies](https://data.giss.nasa.gov/gistemp/).
@@ -114,7 +114,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Dekade berechnen:
 

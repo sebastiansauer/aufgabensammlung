@@ -28,7 +28,7 @@ bibliography: "../../library-ses.bib"
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 
 Sie werfen einen Globus $n=5$ Mal. 
@@ -73,7 +73,7 @@ Berechnen Sie die Wahrscheinlichkeit, dass Sie genau $0,1,2,\ldots,n$ mal "Wasse
 
 
 
-# Lösung 
+## Lösung 
 
 ```{r}
 n <- 5

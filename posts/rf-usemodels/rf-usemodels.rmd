@@ -19,7 +19,7 @@ execute:
 
 
 
-# Aufgabe
+## Aufgabe
 
 <!-- Schreiben Sie eine Vorlage für eine prädiktive Analyse mit Tidymodels! -->
 
@@ -52,9 +52,9 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
-## Vorbereitung:
+### Vorbereitung:
 
 ```{r}
 # Setup:

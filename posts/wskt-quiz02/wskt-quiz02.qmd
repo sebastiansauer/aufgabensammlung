@@ -33,7 +33,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Gilt $Pr(AB) = Pr(A\cap B) = Pr(A) \cdot Pr(B)$, so sind die Ereignisse $A$ und $B$ abhängig.
@@ -64,7 +64,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 

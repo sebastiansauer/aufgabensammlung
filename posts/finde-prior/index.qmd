@@ -29,7 +29,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 
 Betrachten Sie das folgende Bayes-Modell. 
@@ -85,7 +85,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 

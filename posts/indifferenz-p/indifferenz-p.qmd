@@ -27,7 +27,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Ich halte eine Münze in einer meinen beiden Hände. 
 
@@ -66,7 +66,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 Es kommt drauf an, welches Hintergrundwissen man ansetzt.

@@ -41,7 +41,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 
@@ -150,7 +150,7 @@ exams::answerlist(d$plot_id, markup = "markdown")
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Das Histogramm ``r d$plot_id[d$is_correct == TRUE]`` zeigt die Eigenschaft ``r sol`
 ` am deutlichsten.

@@ -33,7 +33,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Kreuzvalidierung (CV) ist ein gängiges Verfahren, um die Vorhersagegüte in einem Testdatensatz einzuschätzen und um Parameterwerte (Tuningparameter) auszuwählen. Welche der folgenden Aussagen zur Kreuzvalidierung ist richtig?
 
@@ -63,7 +63,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Answerlist

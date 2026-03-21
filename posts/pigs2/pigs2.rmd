@@ -39,7 +39,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 ```{r message=FALSE}
 library(tidyverse)  # Datenjudo
@@ -89,7 +89,7 @@ Aufgabe: *Berechnen Sie die Breite eines 95%-HDI für den Effekt!*
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 1. Schritt: Modell berechnen
 

@@ -45,7 +45,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Beziehen Sie sich auf den Standard-Globusversuch mit $N=9$ Würfen und $W=6$ Wassertreffern
 (binomialverteilt).
@@ -109,7 +109,7 @@ Aufgabe: *Ist es (auf dieser Basis) plausibler von einem 50%-PI [.6,.8] auszugeh
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 ```{r message=FALSE}

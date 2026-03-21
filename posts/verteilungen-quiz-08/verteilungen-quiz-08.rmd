@@ -40,7 +40,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Ist folgende Aussage $A$ wahr?
 
@@ -65,7 +65,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 Ja, $A$ ist wahr.
 

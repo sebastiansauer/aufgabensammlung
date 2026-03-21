@@ -42,7 +42,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 
@@ -84,7 +84,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Mit `?flights` oder `help(flights)` kann man Hilfe bekommen (wenn das entsprechende Paket geladen ist).
 

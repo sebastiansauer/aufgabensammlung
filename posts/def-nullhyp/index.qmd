@@ -27,7 +27,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Welche Aussage zur *Nullhypothese* ist korrekt?
 
@@ -76,7 +76,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 **C**

@@ -40,7 +40,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 
@@ -119,7 +119,7 @@ answerlist(boxplot_df$boxplot_id, markup = "markdown")
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Boxplot ``r boxplot_df$boxplot_id[boxplot_df$is_correct == TRUE]`` spiegelt das Histogramm am genauesten wider.
 

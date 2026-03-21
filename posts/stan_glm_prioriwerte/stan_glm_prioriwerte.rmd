@@ -39,7 +39,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Berechnet man eine Posteriori-Verteilung mit `stan_glm()`, 
 so kann man entweder die schwach informativen Prioriwerte der Standardeinstellung verwenden, 
@@ -85,7 +85,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 Probieren geht über Studieren:
 

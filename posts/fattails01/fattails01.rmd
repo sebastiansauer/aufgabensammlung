@@ -40,7 +40,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 In seinem Buch ["Statistical Consequences of Fat Tails"](https://nassimtaleb.org/2020/01/final-version-fat-tails/) schreibt der Autor, Nassim Taleb (S. 53):
 
@@ -125,7 +125,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 
 ```{r}

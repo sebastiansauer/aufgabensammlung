@@ -39,7 +39,7 @@ options(mc.cores = parallel::detectCores())
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 
@@ -65,7 +65,7 @@ Nutzen Sie Methoden der Bayes-Statistik.
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Setup:

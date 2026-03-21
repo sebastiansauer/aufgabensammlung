@@ -39,7 +39,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 ```{r defs, include=FALSE}
 profs_set <- c("Süß", "Salzig", "Bitter", "Süß-Sauer", "Bitter-Süß", "Wörzig", "Zartbitter")
@@ -165,7 +165,7 @@ sol <-
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 

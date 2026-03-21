@@ -17,7 +17,7 @@ title: breiman
 
 
 
-# Aufgabe
+## Aufgabe
 
 In einem berühmten Paper mit dem Titel "Statistical Modeling: The Two Culture" hat Leo Breiman zwei Arten der Datenanalyse vorgestellt und kritisch diskutiert. 
 Dieser Artikel wurde vielfach diskutiert, weil er zentrale Fragen des Fachgebiets anstieß bzw. intensivierte. 
@@ -50,7 +50,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 *Falsch*: Ab einer Größe von $n=30$ sind Stichproben robust und ausreichend präzise Schätzer für den gesuchten Populationsparameter.
 

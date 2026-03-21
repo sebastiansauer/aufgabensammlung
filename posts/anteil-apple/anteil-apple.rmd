@@ -40,7 +40,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Zählen Sie, wie viele der Studentis im Raum mindestens ein Apple-Gerät besitzen (iPhone, Macbook,...).
 
@@ -68,7 +68,7 @@ Hinweise:
 </br>
 </br>
 
-# Solution
+## Solution
 
 Wir berechnen die Posteriori-Verteilung mit Hilfe der Bayesbox:
 

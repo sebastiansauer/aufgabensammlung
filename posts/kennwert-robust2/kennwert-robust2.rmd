@@ -17,7 +17,7 @@ title: Kennwert-robust2
 
 
 
-# Aufgabe
+## Aufgabe
 
 Welcher der folgenden Kennwerte ist robust (im statistischen Sinn)?
 
@@ -45,7 +45,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Answerlist

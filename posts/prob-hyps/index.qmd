@@ -27,7 +27,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Behauptung:
 
@@ -74,7 +74,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 **A**

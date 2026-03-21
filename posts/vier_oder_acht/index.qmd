@@ -21,7 +21,7 @@ categories:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Sie werfen eine (faire) Münze acht Mal.
 
@@ -62,7 +62,7 @@ D) Keine Aussage möglich.
 
 
 
-# Lösung 
+## Lösung 
 
 
 4 Mal Kopf ist wahrscheinlicher als 8 Mal Kopf.

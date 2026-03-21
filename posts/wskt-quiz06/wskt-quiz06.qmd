@@ -34,7 +34,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Jemand geht zum Krebstest. Der *T*est habe eine Sicherheit von 95%. Die Grundrate des Krebs liege bei 0.001. Leider zeigt der Test einen positiven Befund, also *K*rebs.
@@ -66,7 +66,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 $Pr(K|T) \ne Pr(T|K)$. 

@@ -17,7 +17,7 @@ title: MWberechnen
 
 Question
 
-# Aufgabe
+## Aufgabe
 
 
 Berechnen Sie den Mittelwert folgender Zahlenreihe; ignorieren sie etwaige fehlende Werte. Runden Sie auf zwei Dezimalstellen.
@@ -55,7 +55,7 @@ zahlenreihe
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 

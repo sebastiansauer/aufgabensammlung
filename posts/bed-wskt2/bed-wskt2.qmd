@@ -48,7 +48,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Als Bildungsforscher(in) untersuchen Sie den Lernerfolg in einem Statistikkurs.
@@ -174,7 +174,7 @@ exams::answerlist(items, markup = "markdown")
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 ```{r defs-studis}

@@ -29,7 +29,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Ein Fitnesstrainer behauptet, der Effekt einer Stunde Joggen läge bei "etwa 500 bis 600" kcal. 
 Der Fitnesstrainer erklärt, dass er sich auf einen erwachsenen Mann mit ca. 80 kg Körpergewicht bezieht und eine mittleren Geschwindigkeit von ca. 8-9 km/h.
@@ -73,7 +73,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 Für eine Normalverteilung N(μ, σ²) gilt:
 

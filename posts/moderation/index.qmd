@@ -27,7 +27,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 
 
@@ -101,7 +101,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 **D**

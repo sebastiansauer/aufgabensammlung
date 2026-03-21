@@ -41,7 +41,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Beziehen Sie sich auf den Standard-Globusversuch mit $N=9$ Würfen und $W=6$ Wassertreffern
 (binomialverteilt), vgl. [hier](https://start-bayes.netlify.app/post#mit-stichproben-die-post-verteilung-zusammenfassen).
@@ -73,7 +73,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 Nein, das Modell ist sich *nicht* sicher, wie man in der Post-Verteilung sieht,
 gibt es für verschiedene Wasseranteile ("Gitterwerte") Wahrscheinlichkeiten größer Null.

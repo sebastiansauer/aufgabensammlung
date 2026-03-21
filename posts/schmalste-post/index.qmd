@@ -31,7 +31,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 
 Die folgenden Posterior-Verteilungen für den Effekt der UV X
@@ -78,7 +78,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 A

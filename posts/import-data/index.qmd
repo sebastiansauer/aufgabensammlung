@@ -27,7 +27,7 @@ bibliography: "../../library-ses.bib"
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Finden Sie den Datensatz “mtcars” online! “mtcars.csv” .
 Tipp: Die Webseite “vincentarelbundock” ist ein guter Ort zum Suchen. Laden Sie dann den Datensatz heruter.
@@ -68,7 +68,7 @@ Sagen Sie mir den Namen der *letzten* Spalte und dort den
 
 
 
-# Lösung 
+## Lösung 
 
 ```{r}
 library(tidyverse)

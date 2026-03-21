@@ -22,7 +22,7 @@ title: lm-mario1
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Sagen Sie den Verkaufspreis vorher für ein Spiel mit 2 Lenkrädern!
@@ -49,9 +49,9 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
-## Setup
+### Setup
 
 
 ```{r}
@@ -62,7 +62,7 @@ library(easystats)
 ```
 
 
-## Bild der Daten
+### Bild der Daten
 
 
 ```{r}
@@ -80,7 +80,7 @@ plot_scatterplot(mariokart, by = "total_pr")  # "by" ist Y-Achse
 ```
 
 
-## Extremwerte entfernen
+### Extremwerte entfernen
 
 ```{r}
 mariokart2 <- 
@@ -90,7 +90,7 @@ mariokart2 <-
 ggscatter(mariokart2, x = "wheels", y = "total_pr")
 ```
 
-## Regressionsgerade eintragen in das Diagramm
+### Regressionsgerade eintragen in das Diagramm
 
 
 ```{r}
@@ -102,7 +102,7 @@ ggscatter(mariokart2,
 
 
 
-## Regressionsgerade berechnen
+### Regressionsgerade berechnen
 
 
 ```{r}
@@ -114,7 +114,7 @@ lm_mariokart
 "lm" wie *l*lineares *M*odell, also eine Gerade.
 
 
-## Vorhersagen
+### Vorhersagen
 
 Vorhersagen funktionieren mit dem Befehl `predict`.
 

@@ -42,7 +42,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Ist folgende Aussage wahr?
 
@@ -67,7 +67,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 Nein, aber der Umkehrschluss gilt: Eine normalverteilte Zufallsvariable hat 
 eine symmetrische Verteilungsform.

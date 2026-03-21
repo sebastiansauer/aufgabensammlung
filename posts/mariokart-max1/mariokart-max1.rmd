@@ -25,7 +25,7 @@ title: mariokart-max1
 
 
 
-# Aufgabe
+## Aufgabe
 
 Importieren Sie den Datensatz `mariokart` in R.
 Berechnen Sie die maximale Verkaufspreise (`total_pr`) für Spiele, die mit 0, 1, 2, ... Lenkräder (`wheels`) gekauft werden.
@@ -49,7 +49,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Pakete starten:
 

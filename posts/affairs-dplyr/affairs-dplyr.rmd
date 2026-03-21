@@ -76,7 +76,7 @@ options(
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 
@@ -119,7 +119,7 @@ Bearbeiten Sie folgende Aufgaben:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 ```{r}
 library(tidyverse)

@@ -38,7 +38,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Einer der (bisher) größten Studien der Untersuchung psychologischer Konsequenzen (oder Korrelate) der Covid-Zeit ist die Studie [COVIDiStress](https://www.nature.com/articles/s41597-020-00784-9).
 
@@ -166,7 +166,7 @@ Answerlist
 
 
 
-# Lösung
+## Lösung
 
 
 Wie man sieht, kreuzt das "blaue Band" nicht den "roten Berg".

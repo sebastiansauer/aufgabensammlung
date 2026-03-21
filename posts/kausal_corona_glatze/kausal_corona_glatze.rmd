@@ -36,7 +36,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Vor einiger Zeit war in der Presse Folgendes zu lesen:
 
@@ -75,7 +75,7 @@ So benötigt etwa die Hypothese "Störche bringen Babies" komplexe Erkärungsmod
 </br>
 </br>
 
-# Solution
+## Solution
 
 ```{r echo = FALSE}
 sol <- "Alter ist sowohl die Ursache von Haarausfall (bei Männern) als auch von der Schwere eines Corona-Verlaufs. Daher sind Haarausfall (bei Männern) und die Schwerer eines Corona-Verlaufs durch das Alter konfundiert. Ohne Berücksichtigung der gemeinsamen Ursache erscheint Haarausfall mit Corona-Schwere korreliert zu sein. Nach Kontrolle der konfundierenden Variablen verschwindet die Korrelation."

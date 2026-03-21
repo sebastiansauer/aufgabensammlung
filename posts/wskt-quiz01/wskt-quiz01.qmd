@@ -32,7 +32,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Sind die Ereignisse $A$ und $B$ unabhängig, so gilt $Pr(A|B) = P(A)$.
@@ -65,7 +65,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 

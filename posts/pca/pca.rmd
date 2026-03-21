@@ -16,7 +16,7 @@ title: pca
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 
@@ -42,7 +42,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 C: Die zweite Hauptkomponente ist unkorreliert zur ersten – und beinhaltet weniger Variation. Sie steht senkrecht zur ersten, und dort streuen die Daten weniger.
 

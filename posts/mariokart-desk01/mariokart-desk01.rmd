@@ -33,7 +33,7 @@ library(exams)
 
 
 
-# Aufgabe
+## Aufgabe
 
 Im Datensatz `mariokart`: 
 
@@ -55,7 +55,7 @@ Wie viele Statistiken werden (im Default) berichtet?
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Pakete starten:
 

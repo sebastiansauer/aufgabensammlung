@@ -30,7 +30,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 
 
@@ -88,7 +88,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 `y ~ x1 + x2`
 

@@ -18,7 +18,7 @@ categories:
 
 ---
 
-# Aufgabe
+## Aufgabe
 
 Im Datensatz `palmerpenguins`: Ist der Zusammenhang zwischen Körpergewicht und Schnabelhöhe (bill depth) (vgl. [Schemazeichnung hier](https://allisonhorst.github.io/palmerpenguins/reference/figures/culmen_depth.png)) größer, wenn man den Zusammenhang getrennt für jede Spezies betrachtet?
 
@@ -53,7 +53,7 @@ Hinweise:
 
 
 
-# Lösung
+## Lösung
 
 ```{r}
 library(tidyverse)

@@ -31,7 +31,7 @@ options(mc.cores = parallel::detectCores())
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 
@@ -100,7 +100,7 @@ plot(parameters(m1), show_intercept = TRUE)
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 

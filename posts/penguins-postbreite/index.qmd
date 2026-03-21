@@ -27,7 +27,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
  Eine Forscherin untersucht folgende Forschungsfrage:
 Gibt es einen substanziellen Zusammenhang von
@@ -83,7 +83,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 **B**

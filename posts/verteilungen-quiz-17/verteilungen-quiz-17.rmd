@@ -39,7 +39,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 
 [Ei](https://gender-i.de/#artikel) Forschi untersucht die mittlere Körpergröße eines bis dato unbekannten Urwaldvolks.
@@ -76,7 +76,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 ```{r}
 library(tidyverse)

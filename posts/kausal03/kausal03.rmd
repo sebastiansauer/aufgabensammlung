@@ -42,7 +42,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Gegeben sei der DAG `g` (s.u.). 
 Was ist die minimale Menge an Variablen,
@@ -99,7 +99,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 ```{r comment = ""}

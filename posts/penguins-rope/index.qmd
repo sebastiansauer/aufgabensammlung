@@ -30,7 +30,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Wir untersuchen folgende Forschungsfrage:
 
@@ -107,7 +107,7 @@ m_params
 
 
 
-# Lösung 
+## Lösung 
 
 
 Wie man in der Tabelle sieht, ist der Unterschied der Körpermasse von Pinguinen der Arten *Adelie* und *Gentoo* signifikant. Der Unterschied beträgt mind. `r m_params$CI_low[3]` g, laut dem Modell und dem 89%-HDI.

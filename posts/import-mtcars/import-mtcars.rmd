@@ -38,7 +38,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Finden Sie den Datensatz "mtcars" online! "mtcars.csv"
@@ -59,7 +59,7 @@ Sagen Sie mir den Namen der *letzten* Spalte und dort den 1. Wert!
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 

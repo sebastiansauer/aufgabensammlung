@@ -29,7 +29,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Ein Student behauptet, der Effekt einer Stunde lernen für die
 Statistikklausur läge bei "etwa 0.4 bis 0.6" Punkten.
@@ -72,7 +72,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 0.05
 

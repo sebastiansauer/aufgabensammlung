@@ -41,7 +41,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 Eine typische Aufgabe des Textminings ist die Sentimentanalyse.
 Betrachten wir dazu einen Datensatz des Filmbewertungsportal [IMDB](https://www.imdb.com/). Das Portal veröffentlicht Bewertungen (quantitativ und qualitativ, d.h. als Score oder Bewertung/Review) zu Filmen der Nutzerinnen und Nutzer.
@@ -561,7 +561,7 @@ answerlist(syntax_chosen_df$nr, markup = "markdown")
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Die richtige Syntax lautet `r syntax_chosen_df$nr[syntax_chosen_df$correct == TRUE]`.

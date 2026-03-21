@@ -43,7 +43,7 @@ library(ggpubr)
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Gegeben sei
 
@@ -120,7 +120,7 @@ ggtexttable(quantiles_df_rounded)
 
 
 
-# Lösung 
+## Lösung 
 
 ETI steht für *Equal Tail Interval*, eine spezielle von Konfidenzintervall bei einer Bayes-Analyse.
 

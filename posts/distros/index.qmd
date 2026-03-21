@@ -31,7 +31,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 
 Ordnen Sie die folgenden Diagrammen von Verteilungen den richtigen Namen (der Verteilung zu).
@@ -519,7 +519,7 @@ plot_dist(dists$exponential)
 
 
 
-# Lösung 
+## Lösung 
 
 
 **A** - Binomialverteilung

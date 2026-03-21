@@ -39,7 +39,7 @@ options(rstudio.help.showDataPreview = FALSE)
 
 
 
-# Aufgabe
+## Aufgabe
 
 Erstellen Sie ein prädiktives Modell für Textdaten. Nutzen Sie Sentiments und TextFeatures im Rahmen von Feature-Engineering.
 Nutzen Sie außerdem *deutsche Word-Vektoren* für das Feature-Engineering.
@@ -47,7 +47,7 @@ Nutzen Sie außerdem *deutsche Word-Vektoren* für das Feature-Engineering.
 Als Lernalgorithmus verwenden Sie eine einfache logistische Regression, d.h. ohne Tuning-Parameter. 
 
 
-## Daten
+### Daten
 
 Verwenden Sie die [GermEval-2018-Daten](https://heidata.uni-heidelberg.de/dataset.xhtml?persistentId=doi:10.11588/data/0B5VML).
 
@@ -62,12 +62,12 @@ data("germeval_train", package = "pradadata")
 data("germeval_test", package = "pradadata")
 ```
 
-## AV und UV
+### AV und UV
 
 Die AV lautet `c1`. Die (einzige) UV lautet: `text`.
 
 
-## Hinweise
+### Hinweise
 
 - Orientieren Sie sich im Übrigen an den [allgemeinen Hinweisen des Datenwerks](https://datenwerk.netlify.app/hinweise).
 - Nutzen Sie Tidymodels.
@@ -89,10 +89,10 @@ Die AV lautet `c1`. Die (einzige) UV lautet: `text`.
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
-## Setup
+### Setup
 
 Train-Datensatz:
 
@@ -116,7 +116,7 @@ Eine [Vorlage für ein Tidymodels-Pipeline findet sich hier](https://datenwerk.n
 
 
 
-## Learner/Modell
+### Learner/Modell
 
 ```{r}
 mod <-
@@ -126,7 +126,7 @@ mod <-
 
 
 
-## Gebackenen Datensatz als neue Grundlage
+### Gebackenen Datensatz als neue Grundlage
 
 Wir importieren den schon an anderer Stelle aufbereiteten Datensatz.
 Das hat den Vorteil (hoffentlich), das die Datenvolumina viel kleiner sind.
@@ -145,7 +145,7 @@ d_test_baked_raw <- read_csv("https://raw.githubusercontent.com/sebastiansauer/D
 ```
 
 
-## Keine Dummysierung der AV
+### Keine Dummysierung der AV
 
 Lineare Modelle müssen dummysiert sein. Rezepte wollen das nicht so gerne für die AV besorgen. 
 
@@ -174,7 +174,7 @@ levels(d_test_baked$c1)
 
 
 
-## Dummy-Rezept
+### Dummy-Rezept
 
 Plain, aber mit Dummyisierung:
 
@@ -186,7 +186,7 @@ rec <-
 
 
 
-##  Workflow
+###  Workflow
 
 ```{r wf-new}
 wf <-
@@ -199,7 +199,7 @@ wf <-
 
 
 
-## Tune/Resample/Fit
+### Tune/Resample/Fit
 
 
 
@@ -213,7 +213,7 @@ fit_train <-
 
 
 
-## Test-Set-Güte
+### Test-Set-Güte
 
 ```{r predict}
 tic()

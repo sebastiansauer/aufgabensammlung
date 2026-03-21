@@ -37,7 +37,7 @@ title: haeufigkeit01
 
 
 
-# Aufgabe
+## Aufgabe
 
 Werten Sie die Häufigkeiten (der Stufen) folgender Variablen  aus wie unten beschrieben.
 
@@ -72,7 +72,7 @@ Variablen:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 ```{r}
 library("tidyverse")

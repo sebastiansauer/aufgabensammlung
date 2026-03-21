@@ -20,7 +20,7 @@ categories:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Beim einmaligen Wurf eines gewöhnlichen, sechsseitigen Spielwürfels ist der Ereignisraum $\Omega = \{1,2,3,4,5,6\}$. Was ist die Mächtigkeit des Ereignisraumes, $|\Omega∣$?
 
@@ -56,7 +56,7 @@ D) 36
 
 
 
-# Lösung 
+## Lösung 
 
 
 C) 6

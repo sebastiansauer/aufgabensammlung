@@ -34,7 +34,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 ```{r}
 library(tidyverse)
@@ -79,7 +79,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 - $Pr(AB) = Pr(A|B) \cdot Pr(B) = 3/4 \cdot 1/2 = 3/8$

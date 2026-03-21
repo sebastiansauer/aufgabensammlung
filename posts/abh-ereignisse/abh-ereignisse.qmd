@@ -30,10 +30,9 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
+## Aufgabe
 
 
-
-# Aufgabe
 
 ```{r}
 library(tidyverse)
@@ -81,7 +80,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 - $Pr(A) = 1/2 + 1/8 = 5/8$

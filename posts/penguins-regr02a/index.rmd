@@ -21,7 +21,7 @@ library(tidyverse)
 
 
 
-# Aufgabe
+## Aufgabe
 
 Beantworten Sie folgende Forschungsfrage:
 
@@ -99,7 +99,7 @@ plot(rope(m1))
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Hier ist also keine klare Aussage zur Frage, ob der Effekt vernachlässigbar klein ist oder größer, möglich.

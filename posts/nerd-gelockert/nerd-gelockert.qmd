@@ -34,7 +34,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 In einer Studie werden Persönlichkeitsmerkmale von Professoren untersucht.
 Laut der Studie wird bei 12% extreme Nerdigkeit festgestellt,
@@ -63,7 +63,7 @@ Hinweise:
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Sei $N$ "extreme Nerdigkeit".
 
@@ -90,7 +90,7 @@ sol <- Pr_A_geg_N
 Die Lösung lautet ``r sol``.
 
 
-# Variante
+## Variante
 
 ```{r}
 Pr_N <- .73

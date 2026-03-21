@@ -43,7 +43,7 @@ solutions[which(z[1]==questions)] <- TRUE
 
 
 
-# Aufgabe
+## Aufgabe
 
 ```{r show-histograms, echo = FALSE, results="hide", fig.height = 4, fig.width = 6, fig.cap = ""}
 gf_point(y~x|z, data = data)
@@ -67,7 +67,7 @@ answerlist(questions, markup = "markdown")
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 ```{r solutionlist, echo = FALSE, results = "asis"}

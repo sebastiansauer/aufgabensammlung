@@ -39,7 +39,7 @@ options(mc.cores = parallel::detectCores())
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 
@@ -115,7 +115,7 @@ Answerlist
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 
 Man sieht in der Tabelle und im Diagramm,

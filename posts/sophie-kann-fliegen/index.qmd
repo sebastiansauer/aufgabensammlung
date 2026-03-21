@@ -25,7 +25,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Sei $A$: "Sophie ist ein Einhorn". Und sei $B$: "Einhörner können (alle) fliegen". 
 
@@ -64,7 +64,7 @@ Hinweise:
 
 
 
-# Lösung 
+## Lösung 
 
 
 $Pr(A|B)$ = 1

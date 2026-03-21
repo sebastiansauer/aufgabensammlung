@@ -36,7 +36,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 Was ist *nicht* Ziel oder Gegenstand einer Bayes-Analyse?
 
@@ -61,7 +61,7 @@ Answerlist
 </br>
 </br>
 
-# Solution
+## Solution
 
 Bei der Bayes-Analyse werden die Schlussfolgerungen nicht nur auf Basis des Likelihoods gezogen (im Gegensatz zum Frequentistischen Ansatz).
 

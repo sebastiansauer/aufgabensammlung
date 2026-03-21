@@ -41,7 +41,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Betrachten Sie folgende R-Syntax, für die R eine Fehlermeldung ausgibt:
@@ -71,7 +71,7 @@ Geben Sie *keine* Leerzeichen ein.
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 Hinten ist eine (schließende) Klammer zu viel, die muss weg:
 

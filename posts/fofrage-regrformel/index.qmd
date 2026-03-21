@@ -30,7 +30,7 @@ knitr:
 
 
 
-# Aufgabe 
+## Aufgabe 
 
 Übersetzen Sie folgende Forschungsfrage in die korrekte Regressionsformel!
 
@@ -85,7 +85,7 @@ glimpse(penguins)
 
 
 
-# Lösung 
+## Lösung 
 
 Die Regressionsformel lautet: `body_mass_g ~ sex + bill_length_mm + sex:bill_length_mm`.
 

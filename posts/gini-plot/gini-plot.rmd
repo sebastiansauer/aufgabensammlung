@@ -19,7 +19,7 @@ title: gini-plot
 
 
 
-# Aufgabe
+## Aufgabe
 
 
 Visualisieren Sie die Gini-Funktion!
@@ -37,7 +37,7 @@ Visualisieren Sie die Gini-Funktion!
 </br>
 </br>
 
-# Lösung
+## Lösung
 
 ```{r}
 library(tidyverse)

@@ -39,7 +39,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-# Exercise
+## Exercise
 
 
 
@@ -65,7 +65,7 @@ $\mu \sim \mathcal{N}(0, 1)$
 </br>
 </br>
 
-# Solution
+## Solution
 
 ```{r eval = FALSE}
 library(rstanarm)
