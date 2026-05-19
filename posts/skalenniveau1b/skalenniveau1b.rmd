@@ -9,6 +9,7 @@ categories:
 - variable-levels
 - variable-levels
 - mchoice
+- paper
 date: '2023-02-02'
 slug: Skalenniveau1b
 title: Skalenniveau1b

@@ -8,6 +8,7 @@ categories:
 - variability
 - dyn
 - schoice
+- paper
 date: '2023-04-28'
 slug: Streuung-Histogramm
 title: Streuung-Histogramm

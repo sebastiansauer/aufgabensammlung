@@ -8,6 +8,7 @@ categories:
 - regression
 - string
 - association
+- computer
 date: '2023-05-08'
 slug: korr-als-regr
 title: korr-als-regr

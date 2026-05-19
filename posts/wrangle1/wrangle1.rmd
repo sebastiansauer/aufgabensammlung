@@ -9,6 +9,7 @@ categories:
 - tidyverse
 - dplyr
 - schoice
+- paper
 date: '2023-03-27'
 slug: wrangle1
 title: wrangle1

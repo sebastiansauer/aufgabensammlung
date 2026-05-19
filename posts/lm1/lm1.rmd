@@ -9,6 +9,7 @@ categories:
 - stats-nutshell
 - schoice
 - mtcars
+- computer
 date: '2023-05-08'
 slug: lm1
 title: lm1

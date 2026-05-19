@@ -9,6 +9,7 @@ categories:
 - regression
 - lm
 - num
+- computer
 date: '2023-05-08'
 slug: Regression4
 title: Regression4

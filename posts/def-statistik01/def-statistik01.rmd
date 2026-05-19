@@ -6,7 +6,9 @@ exshuffle: no
 date: '2023-02-02'
 slug: Def-Statistik01
 title: Def-Statistik01
-categories: schoice
+categories:
+- schoice
+- paper
 
 ---
 

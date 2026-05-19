@@ -6,7 +6,9 @@ expoints: 1
 date: '2023-03-23'
 slug: Typ-Fehler-R-03
 title: Typ-Fehler-R-03
-categories: string
+categories:
+- string
+- paper
 
 ---
 

@@ -11,6 +11,7 @@ categories:
 - tidyverse
 - dplyr
 - num
+- computer
 date: '2023-04-19'
 slug: summarise02
 title: summarise02

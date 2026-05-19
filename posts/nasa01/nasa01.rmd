@@ -9,6 +9,7 @@ categories:
 - lagemaße
 - variability
 - string
+- computer
 date: '2023-04-28'
 slug: nasa01
 title: nasa01

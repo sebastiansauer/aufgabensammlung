@@ -8,6 +8,7 @@ categories:
 - bayes
 - rope
 - string
+- computer
 date: '2023-05-08'
 slug: penguins-regr02
 title: penguins-regr02

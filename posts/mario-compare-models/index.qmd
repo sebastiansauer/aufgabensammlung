@@ -15,6 +15,7 @@ categories:
 - lm  # ENTER CATEGORIES HERE
 - regression
 - interaction
+- computer
 
 
 

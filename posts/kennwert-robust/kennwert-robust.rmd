@@ -9,6 +9,7 @@ categories:
 - lagemaße
 - variability
 - schoice
+- paper
 date: '2023-04-28'
 slug: Kennwert-robust
 title: Kennwert-robust

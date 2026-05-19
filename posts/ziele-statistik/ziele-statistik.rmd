@@ -7,6 +7,7 @@ categories:
 - basics
 - '2023'
 - schoice
+- paper
 date: '2023-02-02'
 slug: Ziele-Statistik
 title: Ziele-Statistik

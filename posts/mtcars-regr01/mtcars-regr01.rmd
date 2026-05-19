@@ -10,6 +10,7 @@ categories:
 - regression
 - string
 - mtcars
+- computer
 date: '2023-05-08'
 slug: mtcars-regr01
 title: mtcars-regr01

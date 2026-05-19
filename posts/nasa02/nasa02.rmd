@@ -8,6 +8,7 @@ categories:
 - eda
 - lagemaße
 - string
+- computer
 date: '2023-04-19'
 slug: nasa02
 title: nasa02

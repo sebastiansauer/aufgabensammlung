@@ -7,6 +7,7 @@ categories:
 - tidy
 - datawrangling
 - schoice
+- paper
 date: '2023-02-02'
 slug: tidy1
 title: tidy1

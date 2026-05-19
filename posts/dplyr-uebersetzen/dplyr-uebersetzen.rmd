@@ -8,6 +8,7 @@ categories:
 - tidyverse
 - string
 - mtcars
+- computer
 date: '2023-03-27'
 slug: dplyr-uebersetzen
 title: dplyr-uebersetzen

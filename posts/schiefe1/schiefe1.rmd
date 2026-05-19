@@ -6,10 +6,11 @@ exname: Schiefe 1
 date: '2023-04-19'
 slug: Schiefe1
 title: Schiefe1
-categories: 
+categories:
 - schoice
 - eda
 - distributions
+- paper
 ---
 
 

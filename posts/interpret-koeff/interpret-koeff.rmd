@@ -8,6 +8,7 @@ categories:
 - lm
 - bayes
 - stats-nutshell
+- paper
 date: '2022-09-04'
 slug: interpret-koeff
 title: interpret-koeff

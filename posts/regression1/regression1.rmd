@@ -8,6 +8,7 @@ categories:
 - dyn
 - lm
 - schoice
+- paper
 date: '2023-05-08'
 slug: regression1
 title: regression1

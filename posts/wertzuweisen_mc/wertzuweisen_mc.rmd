@@ -7,6 +7,7 @@ categories:
 - R
 - '2023'
 - schoice
+- paper
 date: '2023-03-23'
 slug: Wertzuweisen_mc
 title: Wertzuweisen_mc

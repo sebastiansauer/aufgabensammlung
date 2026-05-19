@@ -7,6 +7,7 @@ categories:
 - datawrangling
 - eda
 - string
+- computer
 date: '2023-03-27'
 slug: affairs-dplyr
 title: affairs-dplyr
