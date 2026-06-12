@@ -7,6 +7,7 @@ categories:
 - R
 - '2023'
 - schoice
+- paper
 date: '2023-03-23'
 slug: there-is-no-package
 title: there-is-no-package
@@ -65,7 +66,7 @@ Was ist die Ursache bzw. zu tun?
 
 Answerlist
 ----------
-* Es existiert kein Paket namens `tidyverse`.
+* Es existiert kein Paket namens `tidyverse` in R.
 * Es existiert kein Paket namens `tidyverse` auf Ihrem Rechner.
 * Das Paket `tidyverse` ist nicht gestartet.
 * Das Paket `tidyverse` ist kaputt.

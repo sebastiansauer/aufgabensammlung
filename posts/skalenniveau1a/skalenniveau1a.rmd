@@ -9,6 +9,7 @@ categories:
 - variable-levels
 - variable-levels
 - schoice
+- paper
 date: '2023-02-02'
 slug: Skalenniveau1a
 title: Skalenniveau1a
