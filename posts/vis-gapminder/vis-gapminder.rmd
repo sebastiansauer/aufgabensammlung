@@ -9,6 +9,7 @@ categories:
 - ggquick
 - gapminder
 - string
+- computer
 date: '2023-09-12'
 slug: vis-gapminder
 title: vis-gapminder

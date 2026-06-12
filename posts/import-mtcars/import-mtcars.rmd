@@ -10,6 +10,7 @@ categories:
 - data
 - mtcars
 - num
+- computer
 date: '2023-03-23'
 slug: import-mtcars
 title: import-mtcars

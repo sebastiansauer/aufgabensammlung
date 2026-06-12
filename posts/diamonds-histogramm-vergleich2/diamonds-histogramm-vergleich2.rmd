@@ -8,6 +8,7 @@ categories:
 - vis
 - '2023'
 - schoice
+- paper
 date: '2023-02-26'
 slug: Diamonds-Histogramm-Vergleich2
 title: Diamonds-Histogramm-Vergleich2

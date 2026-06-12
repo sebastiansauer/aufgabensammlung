@@ -12,6 +12,7 @@ categories:
 - vis
 - variability
 - num
+- computer
 date: '2023-04-28'
 slug: mariokart-desk01
 title: mariokart-desk01

@@ -7,6 +7,7 @@ categories:
 - datawrangling
 - eda
 - schoice
+- paper
 date: '2023-03-27'
 slug: wrangle3
 title: wrangle3

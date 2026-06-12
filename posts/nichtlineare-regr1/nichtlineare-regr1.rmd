@@ -10,6 +10,7 @@ categories:
 - regression
 - string
 - mtcars
+- computer
 date: '2023-05-08'
 slug: nichtlineare-regr1
 title: nichtlineare-regr1

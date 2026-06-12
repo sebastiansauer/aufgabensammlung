@@ -7,6 +7,7 @@ categories:
 - vis
 - eda
 - string
+- computer
 date: '2023-02-26'
 slug: movies-vis1
 title: movies-vis1

@@ -12,6 +12,7 @@ categories:
 - vis
 - variability
 - string
+- computer
 date: '2023-04-28'
 slug: vis-mariokart-variab
 title: vis-mariokart-variab

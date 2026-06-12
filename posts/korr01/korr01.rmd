@@ -8,6 +8,7 @@ categories:
 - eda
 - association
 - schoice
+- paper
 date: '2023-05-08'
 slug: korr01
 title: korr01

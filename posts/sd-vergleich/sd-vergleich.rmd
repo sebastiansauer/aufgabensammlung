@@ -10,6 +10,7 @@ categories:
 - vis
 - variability
 - schoice
+- paper
 date: '2023-04-28'
 slug: sd-vergleich
 title: sd-vergleich

@@ -6,7 +6,12 @@ expoints: 1
 categories:
 - R
 - '2023'
+<<<<<<< HEAD
 - string
+=======
+- paper
+
+>>>>>>> c2133bc4f8a60350ec4c5cfb63173ecad6053598
 date: '2023-03-23'
 slug: Logikpruefung2
 title: Logikpruefung2

@@ -10,6 +10,7 @@ categories:
 - regression
 - lm
 - num
+- computer
 date: '2023-05-08'
 slug: Regression5
 title: Regression5

@@ -8,6 +8,7 @@ categories:
 - regression
 - '2023'
 - schoice
+- paper
 date: '2023-05-08'
 slug: regression1a
 title: regression1a

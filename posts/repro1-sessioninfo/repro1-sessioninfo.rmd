@@ -7,6 +7,7 @@ categories:
 - R
 - repro
 - string
+- paper
 date: '2023-10-17'
 slug: repro1-sessioninfo
 title: repro1-sessioninfo

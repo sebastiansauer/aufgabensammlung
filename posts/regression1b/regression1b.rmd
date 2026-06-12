@@ -9,6 +9,7 @@ categories:
 - R
 - lm
 - schoice
+- paper
 date: '2023-05-08'
 slug: regression1b
 title: regression1b
