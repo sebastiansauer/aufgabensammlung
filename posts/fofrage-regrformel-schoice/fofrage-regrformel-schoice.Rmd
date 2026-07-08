@@ -11,12 +11,6 @@ Question
 
 > Gibt es einen Interaktionseffekt zwischen Geschlecht und Schnabellänge auf das Gewicht eines Pinguins? Liegen auch Haupteffekte vor?
 
-Hinweise:
-
-- Unter "Haupteffekt" versteht man den Effekt einer UV auf die AV (im Gegensatz zu einem Interaktionseffekt, der ja der gemeinsame Effekt mehrerer UV auf die AV ist).
-- Beachten Sie die üblichen [Hinweise](https://datenwerk.netlify.app/hinweise) des Datenwerks.
-- Beziehen Sie sich auf den Datensatz `penguins`.
-
 Welche Regressionsformel ist korrekt?
 
 
@@ -32,7 +26,8 @@ Answerlist
 
 Solution
 ========
-Die Regressionsformel lautet: `body_mass_g ~ sex + bill_length_mm + sex:bill_length_mm`. Sie enthält beide Haupteffekte (`sex`, `bill_length_mm`) sowie den Interaktionsterm (`sex:bill_length_mm`) und hat `body_mass_g` korrekt als abhängige Variable.
+Die Regressionsformel lautet: `body_mass_g ~ sex + bill_length_mm + sex:bill_length_mm`. 
+Sie enthält beide Haupteffekte (`sex`, `bill_length_mm`) sowie den Interaktionsterm (`sex:bill_length_mm`) und hat `body_mass_g` korrekt als abhängige Variable.
 
 
 Answerlist

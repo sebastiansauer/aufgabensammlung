@@ -4,10 +4,6 @@ Welche der folgenden Aussagen zur Interpretation eines Populationsparameters (z.
 
 > Mit 95% Wahrscheinlichkeit liegt der wahre Wert des zugrundeliegenden Parameters zwischen 182cm und 184cm.
 
-Hinweise:
-
-- Beachten Sie die üblichen [Hinweise](https://datenwerk.netlify.app/hinweise) des Datenwerks.
-
 
 Answerlist
 ----------

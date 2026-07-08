@@ -4,10 +4,6 @@ Beurteilen Sie folgende Aussagen:
 
 > Man kann die Forschungsfrage, ob sich zwei Gruppen (Populationen) hinsichtlich ihres Mittelwerts unterscheiden, mit einer Regressionsanalyse untersuchen.
 
-Hinweise:
-
-- Beachten Sie die üblichen [Hinweise](https://datenwerk.netlify.app/hinweise) des Datenwerks.
-
 
 Answerlist
 ----------

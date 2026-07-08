@@ -43,11 +43,6 @@ L_A2 <- .9
 L_A3 <- .4
 ```
 
-Hinweise:
-
-- Orientieren Sie sich im Übrigen an den [allgemeinen Hinweisen des Datenwerks](https://datenwerk.netlify.app/hinweise).
-
-
 *Wie groß ist die Wahrscheinlichkeit, dass Prof. Mügge wirklich einen großen Fang gemacht hat und einen unbekannten Käfer entdeckt hat?*
 Berechnen Sie diese Wahrscheinlichkeit!
 

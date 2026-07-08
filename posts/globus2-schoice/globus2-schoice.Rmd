@@ -21,7 +21,7 @@ Answerlist
 * `r pi`
 * `r round(1 - loesung, 3)`
 * `r round((1-pi)^W, 3)`
-* `r 1-round(loesung, 3)`
+* .14
 
 
 Solution

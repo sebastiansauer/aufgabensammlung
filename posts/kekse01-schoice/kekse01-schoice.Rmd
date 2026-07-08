@@ -18,12 +18,6 @@ Now suppose you choose one of the bowls at random and, without looking, choose a
 
 *If the cookie is vanilla, what is the probability that it came from Bowl 1?*"
 
-Hinweise:
-
-- Erstellen Sie eine Bayesbox zur Lösung dieser Aufgabe.
-- Gehen Sie davon aus, dass Sie (apriori) indifferent gegenüber der Hypothesen sind.
-- Geben Sie Prozentzahlen immer als Anteil an und lassen Sie die führende Null weg (z.B. .42).
-
 ```{r}
 #| echo: false
 #| eval: false

@@ -25,11 +25,6 @@ Pr_A <- .35
 Pr_B <- .6
 ```
 
-Hinweise:
-
-- Orientieren Sie sich im Übrigen an den [allgemeinen Hinweisen des Datenwerks](https://datenwerk.netlify.app/hinweise).
-
-
 *Wie groß ist die Chance, mindestens eine der beiden Klausuren zu bestehen?*
 
 Answerlist

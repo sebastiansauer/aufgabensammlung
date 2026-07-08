@@ -34,12 +34,6 @@ Betrachten Sie folgende Forschungsformel:
 
 Auf Basis der folgenden Analyse ist folgende Frage zu untersuchen. Liegt ein Interaktionseffekt vor?
 
-Hinweise:
-
-- Unter "Haupteffekt" versteht man den Effekt einer UV auf die AV (im Gegensatz zu einem Interaktionseffekt, der ja der gemeinsame Effekt mehrerer UV auf die AV ist).
-- Beachten Sie die üblichen [Hinweise](https://datenwerk.netlify.app/hinweise) des Datenwerks.
-- Beziehen Sie sich auf den Datensatz `penguins`.
-
 Zur besseren Interpretierbarkeit sind die metrischen UV standardisiert:
 
 ```{r standardize}

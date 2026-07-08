@@ -18,12 +18,6 @@ priors = FALSE) |> print_md()
 ```
 
 
-Hinweise:
-
-- Runden Sie auf eine Dezimale.
-- Beachten Sie die üblichen Hinweise des Datenwerks.
-
-
 *Wie ist der Effekt von $\beta_1$ (hp) im Modell am besten zu interpretieren?*
 
 

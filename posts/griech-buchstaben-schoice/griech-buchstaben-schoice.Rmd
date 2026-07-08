@@ -19,7 +19,7 @@ Question
 ========
 Für Statistiken (Stichprobe) verwendet man meist lateinische Buchstaben; für Parameter (Population) verwendet man meist (die entsprechenden) griechischen Buchstaben.
 
-Welche Antwortoption vervollständigt folgende Tabelle korrekt?
+
 
 ```{r}
 tibble::tribble(
@@ -34,6 +34,7 @@ tibble::tribble(
   kable(escape = FALSE)
 ```
 
+*Welche Antwortoption vervollständigt folgende Tabelle korrekt?*
 
 Answerlist
 ----------
