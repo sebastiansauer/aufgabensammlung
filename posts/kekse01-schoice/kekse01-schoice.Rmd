@@ -68,13 +68,16 @@ d <-
     mutate(
       Likelihood = c(3/4, 2/4),
       unstd_Post = Likelihood * Priori,
+      Evidenz = sum(unstd_Post),
       Post = unstd_Post / sum(unstd_Post))
 
 d %>%
   knitr::kable(digits=2)
 ```
 
-Die Antwort lautet **.60**. Es ist übrigens egal, ob Sie für die Priori-Werte .5 oder 1 (oder eine andere Zahl) wählen, solange Sie für alle Hypothesen die gleiche Zahl verwenden – das Ergebnis bleibt gleich.
+Die Antwort lautet **.60**. 
+Es ist übrigens egal, ob Sie für die Priori-Werte .5 oder 1 (oder eine andere Zahl) wählen, 
+solange Sie für alle Hypothesen die gleiche Zahl verwenden – das Ergebnis bleibt dann gleich.
 
 
 Answerlist

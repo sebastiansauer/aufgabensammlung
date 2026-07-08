@@ -14,6 +14,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 Question
 ========
+
 Weltsensation?! Der Insektenforscher Prof. Mügge ist der Meinung, eine bislang unbekannte Käferart entdeckt zu haben. 
 Nach nur 18 Jahren Feldforschung im brasilianischen Regenwald gelang ihm dieser Durchbruch. 
 Wenn es denn nun wirklich eine neue Art ist.
@@ -32,7 +33,7 @@ Hier sind die genauen Vorkommenshäufigkeiten:
 ```{r}
 Pr_A1 <- .6
 Pr_A2 <- .1
-Pr_A3 <- .4
+Pr_A3 <- .3
 ```
 
 Und hier die genauen Wahrscheinlichkeiten, wie typisch das beobachtete Objekt für einen Vertreter der jeweiligen Art ist:
@@ -49,7 +50,7 @@ Berechnen Sie diese Wahrscheinlichkeit!
 
 Answerlist
 ----------
-* 16,4 %
+* 17,6 %
 * 90 %
 * 10 %
 * 23,1 %
@@ -58,6 +59,7 @@ Answerlist
 
 Solution
 ========
+
 ```{r}
 library(tidyverse)
 library(prada)  # für Funktion `bayesbox`
@@ -69,7 +71,9 @@ bb <- bayesbox(hyps = c("A", "B", "C"),
 bb
 ```
 
-Die Wahrscheinlichkeit, dass der Käfer zur Art "B" (also $A_2$) gehört, ist relativ klein: 16,4 %. Man erhält sie durch Anwendung des Satzes von Bayes: Prior × Likelihood, normiert durch die Summe aller Prior × Likelihood-Produkte: $(.1 \times .9) / (.6\times.5 + .1\times.9 + .4\times.4) = .09/.55 = .164$.
+Die Wahrscheinlichkeit, dass der Käfer zur Art "B" (also $A_2$) gehört, ist relativ klein: 17,6 %. 
+Man erhält sie durch Anwendung des Satzes von Bayes: Prior × Likelihood, normiert durch die Summe aller Prior × Likelihood-Produkte: 
+$(.1 \times .9) / (.6\times.5 + .1\times.9 + .3\times.4) = .09/.51 = .176$.
 
 
 Answerlist

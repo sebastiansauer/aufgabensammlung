@@ -22,8 +22,8 @@ Answerlist
 Solution
 ========
 
-Korrekt (d.h. die FALSCHE Aussage) ist die erste Option:
-Die Zielarten der Statistik werden üblicherweise nicht als
+Korrekt (d.h. die FALSCHE Aussage) ist diese Option:
+Die Zielarten der Statistik (insgesamt) werden üblicherweise nicht als
 Beschreiben, Vorhersagen und Zusammenfassen eingeteilt.
 
 

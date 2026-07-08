@@ -2,6 +2,7 @@ Question
 ========
 Behauptung: *Ist Null nicht im Konfidenzintervall enthalten, so liegt ein statistisch signifikantes Ergebnis vor.*
 
+Beziehen Sie sich auf die Lehrmeinung, wie im Skript dargestellt.
 
 *Wählen Sie die korrekte Antwort!*
 
@@ -33,5 +34,5 @@ Meta-information
 ================
 exname: def-signif-schoice
 extype: schoice
-exsolution: 10000
+exsolution: 00100
 exshuffle: 5

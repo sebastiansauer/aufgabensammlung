@@ -31,7 +31,10 @@ Question
 ========
 Wissenschaft! Vielleicht das wichtigste Projekt der Menschheit, deht es doch um die Loslöung von "Du musst das glauben, weil ich das sage" hinzu "Ich glaube das, weil ich es verstehe".
 
-Sei 1% aller Studien der Wissenschaft "genial". Ein Gutachter prüft eine wissenschaftliche Studie und erkennt 90% der genialen Studien als solche. Allerdings stuft der Gutachter auch 10% der nicht-genialen Studien fälschlich als genial ein. Nach der Prüfung der Studie ist der Gutachter überzeugt, dass die Studie genial ist.
+Sei 1% aller Studien der Wissenschaft "genial". Ein Gutachter prüft eine wissenschaftliche Studie und erkennt 90% der genialen Studien als solche. 
+Allerdings stuft der Gutachter auch 10% der nicht-genialen Studien fälschlich als genial ein. 
+Nach der Prüfung der Studie ist der Gutachter überzeugt, dass die Studie genial ist.
+
 
 *Aufgabe*: Berechnen Sie die Wahrscheinlichkeit, dass die Studie wirklich genial ist.
 
@@ -128,9 +131,10 @@ Die unstandardisierte Post-Wahrscheinlichkeit entspricht dem Produkt aus Likelih
 
 Die Evidenz ist die Summe der Posterior-Wahrscheinlichkeiten multipliziert mit den jeweiligen Priors: $Pr(D)=.108$.
 
-Die Post-Wahrscheinlichkeit ist die durch die Evidenz dividierte unstandardisierte Post-Wahrscheinlichkeit: $Pr(H|D)=.083$ bzw. $.092$.
+Die Post-Wahrscheinlichkeit ist die durch die Evidenz dividierte unstandardisierte Post-Wahrscheinlichkeit: $Pr(H|D)= .009 / .108 = .083$ (bzw. für "nicht-genial": $.917$).
 
-Die Distraktoren entstehen durch typische Bayes-Fehler: Verwechslung mit der Likelihood $Pr(t|g)=0.9$ (Base-Rate-Neglect), 
+Die Distraktoren entstehen durch typische Bayes-Fehler: 
+Verwechslung mit der Likelihood $Pr(t|g)=0.9$ (Base-Rate-Neglect), 
 Verwechslung mit dem Prior $Pr(g)=0.01$, das Komplement $1-Pr(g|t)$, sowie die falsch-positiv-Rate $1-Pr(t|g)=0.1$.
 
 

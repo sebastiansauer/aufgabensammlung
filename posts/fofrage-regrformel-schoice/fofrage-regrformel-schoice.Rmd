@@ -9,7 +9,8 @@ Question
 ========
 Übersetzen Sie folgende Forschungsfrage in die korrekte Regressionsformel!
 
-> Gibt es einen Interaktionseffekt zwischen Geschlecht und Schnabellänge auf das Gewicht eines Pinguins? Liegen auch Haupteffekte vor?
+*Gibt es einen Interaktionseffekt zwischen Geschlecht und Schnabellänge auf das Gewicht eines Pinguins? 
+Liegen auch Haupteffekte vor?*
 
 Welche Regressionsformel ist korrekt?
 
