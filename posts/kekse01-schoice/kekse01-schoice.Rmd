@@ -8,15 +8,15 @@ Question
 ========
 In *Think Bayes* stellt Allen Downey folgende Aufgabe:
 
-"Suppose there are two bowls of cookies.
+"Angenommen, es gibt zwei Schüsseln mit Keksen.
 
-Bowl 1 contains 30 vanilla cookies and 10 chocolate cookies.
+Schüssel 1 enthält 30 Vanillekekse und 10 Schokoladenkekse.
 
-Bowl 2 contains 20 vanilla cookies and 20 chocolate cookies.
+Schüssel 2 enthält 20 Vanillekekse und 20 Schokoladenkekse.
 
-Now suppose you choose one of the bowls at random and, without looking, choose a cookie at random.
+Nehmen Sie nun an, Sie wählen zufällig eine der beiden Schüsseln aus und ziehen daraus, ohne hinzusehen, zufällig einen Keks.
 
-*If the cookie is vanilla, what is the probability that it came from Bowl 1?*"
+*Wenn der Keks Vanille ist, wie groß ist die Wahrscheinlichkeit, dass er aus Schüssel 1 stammt?*"
 
 ```{r}
 #| echo: false

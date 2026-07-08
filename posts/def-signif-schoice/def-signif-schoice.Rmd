@@ -1,8 +1,9 @@
 Question
 ========
-Behauptung:
+Behauptung: *Ist Null nicht im Konfidenzintervall enthalten, so liegt ein statistisch signifikantes Ergebnis vor.*
 
-> Ist Null nicht im Konfidenzintervall enthalten, so liegt ein statistisch signifikantes Ergebnis vor.
+
+*Wählen Sie die korrekte Antwort!*
 
 
 Answerlist
