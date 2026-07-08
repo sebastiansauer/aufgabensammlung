@@ -1,7 +1,7 @@
 ---
 exname: def-statistik01
 extype: schoice
-exsolution: 1
+exsolution: 0001 
 exshuffle: no
 date: '2023-02-02'
 slug: Def-Statistik01
@@ -46,9 +46,9 @@ Answerlist
 ----------
 * Statistik fasst Daten zusammen.
 * Statistik vervielfacht Daten.
-* Statistik fasst Daten zusammen, um wesentliche Informationen den Daten zu entnehmen .
+* Statistik fasst Daten zusammen, um wesentliche Informationen den Daten zu entnehmen.
 * Statistik fasst Daten zusammen, um wesentliche Informationen den Daten zu entnehmen und beschreibt die Ungewissheit unserer Schlüsse.
-
+* Keine der genannten.
 
 
 

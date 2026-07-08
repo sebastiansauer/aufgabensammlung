@@ -7,6 +7,7 @@ categories:
 - regression
 - bayes
 - post
+- computer
 date: '2022-12-09'
 title: Bed-Post-Wskt1
 

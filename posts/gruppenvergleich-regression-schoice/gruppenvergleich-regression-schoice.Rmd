@@ -1,0 +1,40 @@
+Question
+========
+Beurteilen Sie folgende Aussagen:
+
+> Man kann die Forschungsfrage, ob sich zwei Gruppen (Populationen) hinsichtlich ihres Mittelwerts unterscheiden, mit einer Regressionsanalyse untersuchen.
+
+Hinweise:
+
+- Beachten Sie die üblichen [Hinweise](https://datenwerk.netlify.app/hinweise) des Datenwerks.
+
+
+Answerlist
+----------
+* Ja, beide Verfahren sind analog, aber die Regression hat Vorzüge.
+* Nein, man sollte stattdessen einen t-Test verwenden.
+* Ja, beide Verfahren sind gleichwertig.
+* Nein, eine Regression setzt intervallskalierte Prädiktoren voraus, daher ist sie hier nicht anwendbar.
+* Nein, eine Regression kann nur bei mehr als zwei Gruppen verwendet werden.
+
+
+Solution
+========
+Mit der Regression kann man z.B. zusätzliche Variablen in das Modell aufnehmen. Der t-Test ist ein Spezialfall der Regression mit einem binären Prädiktor (Gruppenzugehörigkeit) – beide Verfahren liefern äquivalente Ergebnisse für den Gruppenvergleich, aber die Regression ist flexibler.
+
+
+Answerlist
+----------
+* True
+* False
+* False
+* False
+* False
+
+
+Meta-information
+================
+exname: gruppenvergleich-regression-schoice
+extype: schoice
+exsolution: 10000
+exshuffle: 5

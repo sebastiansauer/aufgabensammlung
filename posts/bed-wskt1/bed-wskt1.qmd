@@ -8,6 +8,7 @@ categories:
 - probability
 - bayes
 - num
+- dyn
 date: '2023-11-08'
 title: Bed-Wskt1
 
@@ -75,7 +76,9 @@ Lerntyp_selected <- sample(Lerntypen, 1)
 
 
 
-Prof. `r prof_name` untersucht eine seiner Lieblingsfragen: Wie viel bringt das Lernen auf eine Klausur? Dabei konzentriert er sich auf das Fach Statistik (es gefällt ihm gut). In einer aktuellen Untersuchung hat er $n=`r n`$ Studierende untersucht (s. Tabelle und Diagramm) und jeweils erfasst, ob die Person die Klausur bestanden (b) hat oder durchgefallen (d) ist. Dabei hat er zwei Gruppen unterschieden: Die "Viel-Lerner" (VL) und die "Wenig-Lerner" (WL). 
+Prof. `r prof_name` untersucht eine seiner Lieblingsfragen: Wie viel bringt das Lernen auf eine Klausur? Dabei konzentriert er sich auf das Fach Statistik (es gefällt ihm gut). 
+In einer aktuellen Untersuchung hat er $n=`r n`$ Studierende untersucht (s. Tabelle und Diagramm) und jeweils erfasst, ob die Person die Klausur bestanden (b) hat oder durchgefallen (d) ist. 
+Dabei hat er zwei Gruppen unterschieden: Die "Viel-Lerner" (VL) und die "Wenig-Lerner" (WL). 
 
 Berechnen Sie die folgende *bedingte Wahrscheinlichkeit*: p(`r Klausurergebnis_selected`|`r Lerntyp_selected`).
 

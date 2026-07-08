@@ -13,7 +13,7 @@ number-sections: true
 
 categories:
 - bayes  # ENTER CATEGORIES HERE
-
+- schoice
 
 bibliography: "../../library-ses.bib"
 

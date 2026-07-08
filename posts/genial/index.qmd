@@ -52,6 +52,7 @@ Wissenschaft! Vielleicht das wichtigste Projekt der Menschheit, deht es doch um 
 
 Sei 1% aller Studien der Wissenschaft "genial".
 Ein Gutachter prüft eine wissenschaftliche Studie und erkennt 90% der genialen Studien als solche.
+Allerdings stuft der Gutachter auch 10% der nicht-genialen Studien fälschlich als genial ein.
 Nach der Prüfung der Studie ist der Gutachter überzeugt, dass die Studie genial ist.
 
 

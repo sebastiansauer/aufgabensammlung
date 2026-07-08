@@ -9,6 +9,8 @@ categories:
 - bayes
 - stats-nutshell
 - mtcars
+- strin
+- string
 date: '2022-09-04'
 slug: adjustieren1
 title: adjustieren1
@@ -85,6 +87,8 @@ mtcars %>%
 
 
 Adjustieren Sie im Modell die PS-Zahl um die Art des Schaltgetriebes (`am`), so dass das neue Modell den statistischen Effekt (nicht notwendig auch kausal) der PS-Zahl bereinigt bzw. unabhängig von der Art des Schaltgetriebes widerspiegelt!
+
+Geben Sie dazu den passenden R-Befehl an.
 
 Hinweise:
 

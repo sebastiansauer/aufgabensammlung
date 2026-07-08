@@ -9,6 +9,8 @@ categories:
 - probability
 - bayesbox
 - bayes
+- paper
+- computer
 date: '2024-11-12'
 slug: kekse01
 title: kekse01
