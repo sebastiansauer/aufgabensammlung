@@ -10,6 +10,7 @@ categories:
 - qm2
 - qm2-pruefung2023
 - mtcars
+- quiz
 date: '2023-01-11'
 slug: mtcars-post3
 title: mtcars-post3

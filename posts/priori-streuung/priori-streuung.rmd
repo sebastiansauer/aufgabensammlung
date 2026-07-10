@@ -10,6 +10,7 @@ categories:
 - bayes
 - qm2
 - qm2-pruefung2023
+- quiz
 date: '2022-11-05'
 title: priori-streuung
 

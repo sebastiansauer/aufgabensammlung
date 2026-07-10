@@ -6,6 +6,7 @@ exshuffle: no
 categories:
 - rope
 - bayes
+- quiz
 date: '2022-12-15'
 slug: rope4
 title: rope4

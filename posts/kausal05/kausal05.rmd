@@ -6,6 +6,7 @@ exshuffle: yes
 categories:
 - dag
 - causal
+- quiz
 date: '2022-12-19'
 slug: kausal05
 title: kausal05

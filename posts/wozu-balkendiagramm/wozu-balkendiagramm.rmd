@@ -8,6 +8,7 @@ categories:
 - '2023'
 - schoice
 - paper
+- quiz
 date: '2023-02-26'
 slug: wozu-balkendiagramm
 title: wozu-balkendiagramm

@@ -7,6 +7,7 @@ exshuffle: no
 categories:
 - dag
 - causal
+- quiz
 date: '2022-12-19'
 slug: kausal28
 title: kausal28

@@ -8,6 +8,7 @@ categories:
 - bayes
 - post
 - qm2-pruefung2023
+- quiz
 date: '2022-12-09'
 title: Post-befragen1
 

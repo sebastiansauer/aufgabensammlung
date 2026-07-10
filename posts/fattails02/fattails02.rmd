@@ -11,6 +11,7 @@ categories:
 - bayesbox
 - simulation
 - normal-distribution
+- quiz
 date: '2022-11-23'
 slug: fattails02
 title: fattails02

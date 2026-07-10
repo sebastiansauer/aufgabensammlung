@@ -9,6 +9,7 @@ categories:
 - ttest
 - variable-levels
 - mtcars
+- quiz
 date: '2022-09-04'
 slug: ttest-als-regression
 title: ttest-als-regression

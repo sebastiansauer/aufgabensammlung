@@ -9,6 +9,7 @@ categories:
 - regression
 - exam-22
 - mtcars
+- quiz
 date: '2024-12-11'
 title: rope2a
 

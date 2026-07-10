@@ -10,6 +10,7 @@ categories:
 - exam-22
 - schoice
 - paper
+- quiz
 date: '2023-05-08'
 slug: Regression6
 title: Regression6

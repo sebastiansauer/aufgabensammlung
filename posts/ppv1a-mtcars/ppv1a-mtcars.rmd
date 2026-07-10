@@ -10,6 +10,7 @@ categories:
 - regression
 - exam-22
 - mtcars
+- quiz
 date: '2023-01-11'
 slug: PPV1a-mtcars
 title: PPV1a-mtcars

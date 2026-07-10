@@ -10,6 +10,7 @@ categories:
 - bayes
 - paper
 - Verteilungen-Quiz24
+- quiz
 date: '2022-11-20'
 slug: Verteilungen-Quiz-16
 title: Verteilungen-Quiz-16

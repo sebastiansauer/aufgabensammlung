@@ -8,6 +8,7 @@ categories:
 - inference
 - qm2
 - mtcars
+- quiz
 date: '2022-09-04'
 slug: vorhersageintervall1
 title: vorhersageintervall1

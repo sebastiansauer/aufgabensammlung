@@ -8,7 +8,10 @@ exbuggy: 1
 date: '2023-05-17'
 slug: Boosting1
 title: Boosting1
-categories: mchoice
+categories: 
+- mchoice
+- statisticallearning
+- quiz
 
 ---
 

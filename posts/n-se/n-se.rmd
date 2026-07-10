@@ -6,6 +6,7 @@ date: '2023-05-17'
 slug: n-se
 title: n-se
 categories: schoice
+- quiz
 
 ---
 

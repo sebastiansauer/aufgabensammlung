@@ -9,6 +9,7 @@ title: Def-Statistik01
 categories: 
 - schoice
 - paper
+- quiz
 
 ---
 

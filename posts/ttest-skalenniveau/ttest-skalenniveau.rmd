@@ -8,6 +8,7 @@ categories:
 - regression
 - variable-levels
 - mtcars
+- quiz
 date: '2022-12-15'
 slug: ttest-skalenniveau
 title: ttest-skalenniveau

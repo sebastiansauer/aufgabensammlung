@@ -12,6 +12,7 @@ categories:
 - statlearning
 - dyn
 - schoice
+- quiz
 date: '2023-05-17'
 slug: tidymodels1
 title: tidymodels1

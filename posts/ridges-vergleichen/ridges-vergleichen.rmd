@@ -8,6 +8,7 @@ categories:
 - vis
 - dyn
 - schoice
+- quiz
 date: '2023-02-26'
 slug: Ridges-vergleichen
 title: Ridges-vergleichen

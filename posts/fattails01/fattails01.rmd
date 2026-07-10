@@ -12,6 +12,7 @@ categories:
 - bayes
 - bayesbox
 - normal-distribution
+- quiz
 date: '2022-11-23'
 slug: fattails01
 title: fattails01
