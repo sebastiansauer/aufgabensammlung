@@ -9,6 +9,7 @@ categories:
 - tidymodels
 - statlearning
 - schoice
+- quiz
 date: '2023-05-17'
 slug: Test-MSE2
 title: Test-MSE2

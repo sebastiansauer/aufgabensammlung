@@ -7,6 +7,7 @@ categories:
 - bayes
 - regression
 - post
+- quiz
 date: '2022-12-15'
 slug: posterior_interval
 title: posterior_interval

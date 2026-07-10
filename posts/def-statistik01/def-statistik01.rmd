@@ -6,9 +6,10 @@ exshuffle: no
 date: '2023-02-02'
 slug: Def-Statistik01
 title: Def-Statistik01
-categories:
+categories: 
 - schoice
 - paper
+- quiz
 
 ---
 
@@ -76,15 +77,17 @@ Answerlist
 * Falsch
 * Falsch
 * Wahr
+* Falsch
 
 
 
 
 
 
----
-
-Categories: 
-
-schoice
+Meta-Information
+================
+exname: def-statistik01
+extype: schoice
+exsoluton: 00010
+exshuffle: 5
 

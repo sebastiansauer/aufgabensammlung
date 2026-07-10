@@ -8,6 +8,7 @@ categories:
 - eda
 - variability
 - schoice
+- quiz
 date: '2023-04-28'
 slug: Kennwert-robust2
 title: Kennwert-robust2

@@ -7,6 +7,7 @@ categories:
 - tidymodels
 - statlearning
 - schoice
+- quiz
 date: '2023-06-14'
 slug: step-dummy
 title: step-dummy

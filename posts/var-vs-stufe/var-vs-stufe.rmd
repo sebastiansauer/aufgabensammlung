@@ -7,6 +7,7 @@ categories:
 - fopro
 - researchdesign
 - schoice
+- quiz
 date: '2023-11-08'
 slug: Var-vs-Stufe
 title: Var-vs-Stufe

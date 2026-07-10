@@ -7,6 +7,7 @@ categories:
 - regression
 - bayes
 - likelihood
+- quiz
 date: '2022-12-09'
 slug: Likelihood2
 title: Likelihood2

@@ -1,13 +1,14 @@
 ---
 exname: typ-fehler-r-07
 extype: mchoice
-exsolution: 64
-exshuffle: no
+exsolution: 00100
+exshuffle: 5 
 categories:
 - R
 - error
-- mchoice
+- schoice
 - paper
+- quiz
 date: '2023-11-15'
 slug: Typ-Fehler-R-07
 title: Typ-Fehler-R-07
@@ -83,5 +84,5 @@ Categories:
 
 - R
 - error
-- mchoice
+- schoice
 

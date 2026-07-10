@@ -6,6 +6,7 @@ exshuffle: no
 categories:
 - nullhypothesis
 - inference
+- quiz
 date: '2022-12-15'
 slug: Nullhyp-Beispiel
 title: Nullhyp-Beispiel

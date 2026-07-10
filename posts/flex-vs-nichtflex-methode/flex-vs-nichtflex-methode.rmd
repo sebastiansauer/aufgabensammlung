@@ -8,6 +8,7 @@ categories:
 - statlearning
 - '2023'
 - schoice
+- quiz
 date: '2023-05-17'
 slug: Flex-vs-nichtflex-Methode
 title: Flex-vs-nichtflex-Methode

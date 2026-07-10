@@ -8,6 +8,7 @@ categories:
 - tidymodels
 - statlearning
 - mchoice
+- quiz
 date: '2023-05-17'
 slug: ds-quiz2
 title: ds-quiz2

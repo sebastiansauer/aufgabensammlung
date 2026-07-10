@@ -6,7 +6,8 @@ expoints: 1
 categories:
 - R
 - '2023'
-- paper
+- computer
+
 date: '2023-03-23'
 slug: Logikpruefung1
 title: Logikpruefung1

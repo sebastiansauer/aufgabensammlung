@@ -10,6 +10,7 @@ categories:
 - qm2
 - paper
 - mtcars
+- quiz
 date: '2024-11-11'
 slug: mtcars-post3a
 title: mtcars-post3a

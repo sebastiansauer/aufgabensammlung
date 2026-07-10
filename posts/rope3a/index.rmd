@@ -7,6 +7,7 @@ categories:
 - rope
 - bayes
 - regression
+- quiz
 date: '2024-12-10'
 title: rope3a
 

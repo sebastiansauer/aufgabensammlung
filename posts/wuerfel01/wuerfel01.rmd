@@ -9,6 +9,7 @@ categories:
 - probability
 - dice
 - exam-22
+- quiz
 date: '2023-01-11'
 slug: wuerfel01
 title: wuerfel01

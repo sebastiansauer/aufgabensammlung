@@ -11,6 +11,7 @@ execute:
   eval: false
 categories:
 - tidymodels  # ENTER CATEGORIES HERE
+- quiz
 ---
 
 

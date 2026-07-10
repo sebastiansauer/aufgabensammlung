@@ -9,6 +9,7 @@ categories:
 - association
 - schoice
 - paper
+- quiz
 date: '2023-05-08'
 slug: korr01
 title: korr01

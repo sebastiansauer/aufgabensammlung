@@ -6,6 +6,7 @@ exshuffle: no
 categories:
 - regression
 - bayes
+- quiz
 date: '2022-12-09'
 title: Bayes-Ziel1
 
