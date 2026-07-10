@@ -13,7 +13,8 @@ number-sections: true
 
 categories:
 - inference  # ENTER CATEGORIES HERE
-
+- paper
+- schoice
 
 bibliography: "../../library-ses.bib"
 

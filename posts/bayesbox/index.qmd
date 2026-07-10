@@ -15,7 +15,7 @@ exshuffle: no
 categories:
 - bayes  # ENTER CATEGORIES HERE
 - probability
-
+- computer
 bibliography: "../../library-ses.bib"
 
 

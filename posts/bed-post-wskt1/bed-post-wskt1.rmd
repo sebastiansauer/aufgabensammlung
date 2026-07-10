@@ -8,6 +8,7 @@ categories:
 - bayes
 - post
 - quiz
+- computer
 date: '2022-12-09'
 title: Bed-Post-Wskt1
 
@@ -230,4 +231,12 @@ Categories:
 - regression
 - bayes
 - post
+
+
+Meta-information
+================
+exname: bed-post-wskt1-schoice
+extype: schoice
+exsolution: 00100
+exshuffle: 5
 

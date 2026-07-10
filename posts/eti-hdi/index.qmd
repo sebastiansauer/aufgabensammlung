@@ -18,7 +18,7 @@ categories:
 - bayes
 - bayesbox
 - probability
-
+- computer
 
 bibliography: "../../library-ses.bib"
 

@@ -17,6 +17,7 @@ categories:
 - bayes  # ENTER CATEGORIES HERE
 - probability
 - distributions
+- paper
 
 bibliography: "../../library-ses.bib"
 

@@ -16,7 +16,8 @@ categories:
 - bayes  # ENTER CATEGORIES HERE
 - probability
 - paper
-
+- num
+- computer
 bibliography: "../../library-ses.bib"
 
 

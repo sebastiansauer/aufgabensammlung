@@ -16,7 +16,7 @@ exshuffle: no
 categories:
 - inference  # ENTER CATEGORIES HERE
 - exam24
-
+- schoice
 bibliography: "../../library-ses.bib"
 
 knitr:

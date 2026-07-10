@@ -7,6 +7,7 @@ categories:
 - variable-levels
 - anova
 - quiz
+- schoice
 date: '2022-12-15'
 slug: anova-skalenniveau
 title: anova-skalenniveau
