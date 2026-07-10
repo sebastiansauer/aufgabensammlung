@@ -2,6 +2,10 @@
 library(tidyverse)
 ```
 
+Question
+========
+
+
 Sie möchten ein einfaches lineares Modell spezifizieren.
 Folgende Informationen sind gegeben:
 
@@ -10,7 +14,8 @@ Folgende Informationen sind gegeben:
 - Alle Variablen sind normalverteilt, außer der Streuung der AV (exponentialverteilt mit Rate 1).
 - Streuungen der Normalverteilung: MW=0, SD=1.5.
 
-Welche der folgenden Notationen beschreibt korrekt die **Priori-Verteilung des Regressionsgewichts** $\beta_1$?
+Welche der folgenden Notationen beschreibt korrekt die *Priori-Verteilung des Regressionsgewichts* $\beta_1$?
+Wählen sie die korrekte Antwortoption!
 
 Answerlist
 ----------
@@ -23,15 +28,17 @@ Answerlist
 Solution
 ========
 
-Korrekt ist `b1~Normal(0,1.5)`: Das Regressionsgewicht $\beta_1$ erhält eine
-Normalverteilung mit MW=0 und SD=1.5 als Prior. Die Exponentialverteilung gilt
+Korrekt ist `b1~Normal(0,1.5)`: 
+Das Regressionsgewicht $\beta_1$ erhält eine
+Normalverteilung mit MW=0 und SD=1.5 als Prior. 
+Die Exponentialverteilung gilt
 nur für $\sigma$ (hier: `s`).
 
 Meta-information
 ================
 extype: schoice
 exsolution: 10000
-exname: bayesmod-bestimmen01
+exname: bayesmod-bestimmen01-schoice
 exshuffle: true
 excategory: regression
 excategory: bayes

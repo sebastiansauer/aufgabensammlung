@@ -4,6 +4,7 @@ library(tidyverse)
 library(easystats)
 
 library(rstanarm)
+set.seed(1)
 data(penguins)
 
 penguins <-
@@ -59,12 +60,12 @@ Hier sind die Modellparameter (Punktschätzer als Median sowie 95%-ETI):
 ```{r echo=FALSE}
 coefs <- data.frame(
   Modell = c("m1", "m2", "m3", "m4", "m5"),
-  Median = c(coef(m1)[1],coef(m2)[1],coef(m3)[1],coef(m4)[1]),
-  CI_low = c(eti(m1)$CI_low[1],eti(m2)$CI_low[1],eti(m3)$CI_low[1],eti(m4)$CI_low[1]),
-  CI_high = c(eti(m1)$CI_high[1],eti(m2)$CI_high[1],eti(m3)$CI_high[1],eti(m4)$CI_high[1])
+  Median = c(coef(m1)[1],coef(m2)[1],coef(m3)[1],coef(m4)[1], coef(m5)[1]),
+  CI_low = c(eti(m1)$CI_low[1],eti(m2)$CI_low[1],eti(m3)$CI_low[1],eti(m4)$CI_low[1], eti(m5)$CI_low[1]),
+  CI_high = c(eti(m1)$CI_high[1],eti(m2)$CI_high[1],eti(m3)$CI_high[1],eti(m4)$CI_high[1], eti(m5)$CI_high[1])
   )
 
-coefs |> kable()
+coefs |> kable(digits = 2)
 ```
 
 

@@ -1,6 +1,6 @@
 Question
 ========
-Beurteilen Sie folgende Aussagen: *Man kann die Forschungsfrage, ob sich zwei Gruppen (Populationen) hinsichtlich ihres Mittelwerts unterscheiden, mit einer Regressionsanalyse untersuchen.*
+Beurteilen Sie folgende Aussagen: *Man kann die Forschungsfrage, ob sich zwei Gruppen (Populationen) hinsichtlich ihres Mittelwerts unterscheiden, mit einem t-Test oder einer Regressionsanalyse untersuchen.*
 
 Wählen Sie die korrekte Antwortoption!
 
@@ -8,7 +8,7 @@ Wählen Sie die korrekte Antwortoption!
 Answerlist
 ----------
 * Ja, beide Verfahren sind analog, aber die Regression hat Vorzüge.
-* Nein, man sollte die Regression nicht verwenden.
+* Nein, man sollte die Regression generell nicht verwenden.
 * Nein, eine Regression setzt intervallskalierte Prädiktoren voraus, daher ist sie hier nicht anwendbar.
 * Nein, eine Regression kann nur bei mehr als zwei Gruppen verwendet werden.
 * Ja, aber die frequentistische Regression benötigt deutlich mehr Rechenzeit und sollte daher nicht verwendet werden.
@@ -32,11 +32,12 @@ Answerlist
 * False
 * False
 * False
+* False
 
 
 Meta-information
 ================
 exname: gruppenvergleich-regression-schoice
 extype: schoice
-exsolution: 10000
-exshuffle: 5
+exsolution: 100000
+exshuffle: 5 
