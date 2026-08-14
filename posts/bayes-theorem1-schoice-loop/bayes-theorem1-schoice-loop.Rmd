@@ -30,7 +30,8 @@ while (!ok) {
 Question
 ========
 
-Ein Krebstest ($T$) hat die Wahrscheinlichkeit `r Pr_Tpos_geg_Kpos`, einen vorhandenen
+Ein Krebstest ($T$) hat die Wahrscheinlichkeit `r Pr_Tpos_geg_Kpos`, 
+einen vorhandenen
 Krebs ($K$) zu erkennen: $Pr(T+|K+)$.
 Die Falsch-Positiv-Rate beträgt `r Pr_Tpos_geg_Kneg`: $Pr(T+|K-)$.
 Die Grundrate dieser Krebsart liegt bei `r Pr_Kpos`: $Pr(K+)$.
