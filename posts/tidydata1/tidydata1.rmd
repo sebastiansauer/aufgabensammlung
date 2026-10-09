@@ -115,11 +115,11 @@ table5 <- read_csv(table5_path)
 Betrachten wir alle fünf Tabellen:
 
 ```{r}
-table1
-table2
-table3
-table4
-table5
+knitr::kable(table1)
+knitr::kable(table2)
+knitr::kable(table3)
+knitr::kable(table4)
+knitr::kable(table5)
 ```
 
 
