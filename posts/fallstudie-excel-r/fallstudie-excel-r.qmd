@@ -35,6 +35,8 @@ Die Länder und Zahlen in dieser Übung sind fiktiv. Der Fall dahinter ist real 
 - `schulden_wachstum.xlsx` mit den Blättern *Bericht*, *Daten* und *Hinweis*
 - `schulden_wachstum.csv` mit denselben Daten für R
 
+Beide Dateien finden Sie auch hier: <https://github.com/sebastiansauer/aufgabensammlung/tree/main/posts/fallstudie-excel-r>
+
 Die Daten umfassen 20 Länder. Für jedes Land steht dort das mittlere reale Wirtschaftswachstum (in % pro Jahr), getrennt nach der Höhe der Schuldenquote. Eine leere Zelle bedeutet: Das Land hatte nie eine Schuldenquote in diesem Bereich.
 
 ### Teil A: Prüfung in Excel
