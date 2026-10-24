@@ -70,6 +70,6 @@ Meta-information
 exname: def-statistik01
 extype: schoice
 exsolution: 00010
-exshuffle: FALSE
+exshuffle: 5 
 
 
