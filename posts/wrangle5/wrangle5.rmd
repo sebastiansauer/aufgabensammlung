@@ -52,11 +52,11 @@ Wählen Sie die korrekte Aussage.
 
 Answerlist
 ----------
-* `!=` -- "definiert als"
+* `!=` definiert als
 * `==` Prüfung auf Gleichheit
-* `=` -- Prüfung auf Gleichheit
-* `<-` -- Prüfung auf Gleichheit
-* `!=` -- Prüfung auf Gleichheit
+* `=`  Prüfung auf Gleichheit
+* `<-`  Prüfung auf Gleichheit
+* `!=`  Prüfung auf Gleichheit
 
 
 Solution

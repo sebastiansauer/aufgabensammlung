@@ -11,7 +11,11 @@ title: pfade_reproduzierbarkeit
 
 Question
 ========
-Ein Kollege schickt Ihnen ein Skript mit dem Befehl `daten <- read.csv("C:/Users/Desktop/Projekt/meine_daten.csv")`. Warum ist dieser Code problematisch für die „Reproduzierbarkeit“?
+Ein Kollege schickt Ihnen ein Skript mit dem Befehl 
+
+`daten <- read.csv("C:/Users/Desktop/Projekt/meine_daten.csv")`. 
+
+Warum ist dieser Code problematisch für die „Reproduzierbarkeit“?
 
 Answerlist
 ----------

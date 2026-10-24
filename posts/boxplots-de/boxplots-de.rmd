@@ -155,5 +155,5 @@ Meta-information
 extype: mchoice
 exsolution: `r mchoice2string(solutions)`
 exname: boxplots-de
-expoints: 2
+expoints: 1
 
