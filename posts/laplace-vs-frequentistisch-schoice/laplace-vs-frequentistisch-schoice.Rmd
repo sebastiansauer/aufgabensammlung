@@ -2,6 +2,7 @@
 title: laplace-vs-frequentistisch-schoice
 categories:
 - wahrscheinlichkeit
+- paper
 ---
 
 Question

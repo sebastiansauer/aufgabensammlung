@@ -3,6 +3,7 @@ categories:
 - bayes
 - regression
 - nullhypothesis
+- paper
 date: '2022-12-15'
 title: diamonds-nullhyp-mws
 

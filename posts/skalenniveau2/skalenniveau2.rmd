@@ -2,6 +2,7 @@
 title: skalenniveau2
 categories:
 - variable-levels
+- paper
 ---
 
 ```{r libs, include = FALSE}

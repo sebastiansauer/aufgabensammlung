@@ -4,6 +4,7 @@ categories:
 - dyn
 - variable-level
 - basics
+- paper
 ---
 
 ```{r libs, include = FALSE}

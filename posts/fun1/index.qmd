@@ -16,6 +16,7 @@ exshuffle: no
 categories:
 - R
 - programming # ENTER CATEGORIES HERE
+- paper
 
 
 

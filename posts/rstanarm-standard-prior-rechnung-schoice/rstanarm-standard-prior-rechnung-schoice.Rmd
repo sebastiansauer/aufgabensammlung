@@ -2,6 +2,7 @@
 title: rstanarm-standard-prior-rechnung-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

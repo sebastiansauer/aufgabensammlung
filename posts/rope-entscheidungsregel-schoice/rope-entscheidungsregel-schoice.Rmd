@@ -2,6 +2,7 @@
 title: rope-entscheidungsregel-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

@@ -2,6 +2,7 @@
 title: saturiertes-modell-schwaeche-schoice
 categories:
 - kausalinferenz
+- paper
 ---
 
 Question

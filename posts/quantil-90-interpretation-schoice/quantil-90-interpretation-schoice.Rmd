@@ -2,6 +2,7 @@
 title: quantil-90-interpretation-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

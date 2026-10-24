@@ -2,6 +2,7 @@
 title: dag-aequivalenzklasse-schoice
 categories:
 - kausalinferenz
+- paper
 ---
 
 Question

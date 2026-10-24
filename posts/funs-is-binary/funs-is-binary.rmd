@@ -1,6 +1,8 @@
 ---
 title: funs-is-binary
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r}

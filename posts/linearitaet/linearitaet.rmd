@@ -1,6 +1,8 @@
 ---
 title: linearitaet
-categories: null
+categories:
+- paper
+- todo
 ---
 
 <!-- The author of this question is Karsten Lubke. -->

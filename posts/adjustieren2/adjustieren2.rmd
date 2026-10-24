@@ -12,6 +12,7 @@ categories:
 - adjust
 - qm2-pruefung2023
 - string
+- paper
 date: '2022-09-04'
 slug: adjustieren2
 title: adjustieren2

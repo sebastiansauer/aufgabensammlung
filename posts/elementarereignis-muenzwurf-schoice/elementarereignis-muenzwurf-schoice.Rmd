@@ -2,6 +2,7 @@
 title: elementarereignis-muenzwurf-schoice
 categories:
 - wahrscheinlichkeit
+- paper
 ---
 
 Question

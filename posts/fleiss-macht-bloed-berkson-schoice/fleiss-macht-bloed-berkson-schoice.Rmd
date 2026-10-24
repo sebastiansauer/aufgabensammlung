@@ -2,6 +2,7 @@
 title: fleiss-macht-bloed-berkson-schoice
 categories:
 - kausalinferenz
+- paper
 ---
 
 Question

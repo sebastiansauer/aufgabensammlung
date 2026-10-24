@@ -3,6 +3,7 @@ title: wrangle2
 categories:
 - datawrangling
 - eda
+- paper
 ---
 
 ```{r libs, include = FALSE}

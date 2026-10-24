@@ -2,6 +2,7 @@
 title: stichprobenvert-vs-postvert-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

@@ -3,6 +3,7 @@ categories:
 - eda
 - distributions
 - schoice
+- paper
 date: '2023-04-19'
 slug: Schiefe-erkennen
 title: Schiefe-erkennen

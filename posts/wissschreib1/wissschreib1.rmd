@@ -1,6 +1,8 @@
 ---
 title: wissschreib1
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

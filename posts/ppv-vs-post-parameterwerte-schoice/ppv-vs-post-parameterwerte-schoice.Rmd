@@ -2,6 +2,7 @@
 title: ppv-vs-post-parameterwerte-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

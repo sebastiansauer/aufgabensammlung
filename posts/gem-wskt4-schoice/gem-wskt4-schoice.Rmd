@@ -1,6 +1,8 @@
 ---
 title: gem-wskt4-schoice
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

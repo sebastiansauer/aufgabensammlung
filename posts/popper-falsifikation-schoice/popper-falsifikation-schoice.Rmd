@@ -2,6 +2,7 @@
 title: popper-falsifikation-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

@@ -1,6 +1,8 @@
 ---
 title: theoretiker-empirismusrationalismus
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r data generation, echo = FALSE, results = "hide"}

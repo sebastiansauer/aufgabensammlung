@@ -18,6 +18,7 @@ categories:
 - probability
 - distributions
 - computer
+- paper
 
 bibliography: "../../library-ses.bib"
 

@@ -4,6 +4,7 @@ categories:
 - inference
 - lm
 - qm2
+- paper
 ---
 
 ```{r libs, include = FALSE}

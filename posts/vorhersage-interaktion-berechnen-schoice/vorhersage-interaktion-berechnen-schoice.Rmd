@@ -2,6 +2,7 @@
 title: vorhersage-interaktion-berechnen-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

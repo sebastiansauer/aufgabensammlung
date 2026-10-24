@@ -2,6 +2,7 @@
 title: konfundierer-definition-schoice
 categories:
 - kausalinferenz
+- paper
 ---
 
 Question

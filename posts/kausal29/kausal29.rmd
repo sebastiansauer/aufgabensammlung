@@ -4,6 +4,7 @@ categories:
 - causal
 - schoice
 - quiz
+- paper
 date: '2023-06-30'
 slug: kausal29
 title: kausal29

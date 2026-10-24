@@ -1,6 +1,8 @@
 ---
 title: twitter1
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}

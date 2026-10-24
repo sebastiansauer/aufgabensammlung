@@ -2,6 +2,7 @@
 title: vage-priori-gefahr-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

@@ -15,6 +15,7 @@ exsolution: ""
 exshuffle: no
 categories:
 - probability  # ENTER CATEGORIES HERE
+- paper
 
 
 bibliography: "../../library-ses.bib"

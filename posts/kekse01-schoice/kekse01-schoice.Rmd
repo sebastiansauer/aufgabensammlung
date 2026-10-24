@@ -1,6 +1,8 @@
 ---
 title: kekse01-schoice
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r, include=FALSE}

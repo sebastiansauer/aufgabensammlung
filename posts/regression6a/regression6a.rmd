@@ -4,6 +4,7 @@ categories:
 - dyn
 - regression
 - lm
+- paper
 ---
 
 ```{r libs, include = FALSE}

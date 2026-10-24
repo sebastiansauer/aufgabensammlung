@@ -5,6 +5,7 @@ categories:
 - variable-levels
 - mtcars
 - quiz
+- paper
 date: '2022-12-15'
 slug: ttest-skalenniveau
 title: ttest-skalenniveau

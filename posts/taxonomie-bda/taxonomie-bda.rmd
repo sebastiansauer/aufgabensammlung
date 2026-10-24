@@ -1,6 +1,8 @@
 ---
 title: taxonomie-bda
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

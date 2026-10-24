@@ -17,6 +17,7 @@ categories:
 - regression  # ENTER CATEGORIES HERE
 - bayes
 - rope
+- paper
 
 bibliography: "../../library-ses.bib"
 

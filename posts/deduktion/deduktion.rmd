@@ -1,6 +1,8 @@
 ---
 title: deduktion
-categories: null
+categories:
+- paper
+- todo
 ---
 
 <!-- Leider kann man diese Art von Fragen wohl nicht automatisch auswerten in Moodle! -->

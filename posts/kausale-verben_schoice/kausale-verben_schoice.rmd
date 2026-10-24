@@ -4,6 +4,7 @@ categories:
 - research-question
 - schoice
 - quiz
+- paper
 date: '2023-02-02'
 slug: Kausale-Verben
 title: Kausale-Verben

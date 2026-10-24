@@ -5,6 +5,7 @@ title: Szenario-charakterisieren1
 categories:
 - schoice
 - quiz
+- paper
 
 ---
 

@@ -2,6 +2,7 @@
 title: inferenz-ungewissheit-notwendig-schoice
 categories:
 - inferenz
+- paper
 ---
 
 Question

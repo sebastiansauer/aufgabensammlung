@@ -8,6 +8,7 @@ execute:
 categories:
 - tidymodels  # ENTER CATEGORIES HERE
 - quiz
+- paper
 ---
 
 

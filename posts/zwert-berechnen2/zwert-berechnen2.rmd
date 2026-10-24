@@ -1,6 +1,8 @@
 ---
 title: zwert-berechnen2
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}

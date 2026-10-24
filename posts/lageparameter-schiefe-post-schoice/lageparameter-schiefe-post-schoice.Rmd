@@ -2,6 +2,7 @@
 title: lageparameter-schiefe-post-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

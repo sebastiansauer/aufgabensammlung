@@ -1,6 +1,8 @@
 ---
 title: gem-wskt2-schoice
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r data generation, echo = FALSE, results = "hide"}

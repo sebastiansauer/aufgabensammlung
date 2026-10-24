@@ -2,6 +2,7 @@
 title: vier-atome-uebersicht-schoice
 categories:
 - kausalinferenz
+- paper
 ---
 
 Question

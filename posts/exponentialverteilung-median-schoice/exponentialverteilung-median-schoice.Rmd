@@ -2,6 +2,7 @@
 title: exponentialverteilung-median-schoice
 categories:
 - verteilungen
+- paper
 ---
 
 Question

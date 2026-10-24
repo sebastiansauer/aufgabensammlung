@@ -4,6 +4,7 @@ categories:
 - bayes
 - schoice
 - quiz
+- paper
 date: '2023-11-16'
 title: rethink4e1
 

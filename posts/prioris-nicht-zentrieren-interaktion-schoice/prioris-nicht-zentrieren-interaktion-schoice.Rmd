@@ -2,6 +2,7 @@
 title: prioris-nicht-zentrieren-interaktion-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

@@ -2,6 +2,7 @@
 title: bayes-post-aussagen-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

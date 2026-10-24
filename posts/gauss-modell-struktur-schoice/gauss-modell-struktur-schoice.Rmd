@@ -2,6 +2,7 @@
 title: gauss-modell-struktur-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

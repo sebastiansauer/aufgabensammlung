@@ -2,6 +2,7 @@
 title: studie-a-oestrogen-stratifizieren-schoice
 categories:
 - kausalinferenz
+- paper
 ---
 
 Question

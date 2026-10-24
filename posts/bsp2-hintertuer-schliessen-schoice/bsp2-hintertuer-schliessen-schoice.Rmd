@@ -2,6 +2,7 @@
 title: bsp2-hintertuer-schliessen-schoice
 categories:
 - kausalinferenz
+- paper
 ---
 
 Question

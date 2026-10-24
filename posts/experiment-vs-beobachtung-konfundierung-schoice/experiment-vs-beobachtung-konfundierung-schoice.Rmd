@@ -2,6 +2,7 @@
 title: experiment-vs-beobachtung-konfundierung-schoice
 categories:
 - kausalinferenz
+- paper
 ---
 
 Question

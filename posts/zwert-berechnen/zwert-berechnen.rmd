@@ -9,6 +9,7 @@ categories:
 - z-value
 - R
 - math
+- paper
 date: '2022-12-15'
 slug: zwert-berechnen
 title: zwert-berechnen

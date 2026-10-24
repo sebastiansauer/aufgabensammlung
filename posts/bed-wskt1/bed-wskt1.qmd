@@ -9,6 +9,7 @@ categories:
 - bayes
 - num
 - dyn
+- paper
 date: '2023-11-08'
 title: Bed-Wskt1
 

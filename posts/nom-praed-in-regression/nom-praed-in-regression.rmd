@@ -1,6 +1,8 @@
 ---
 title: nom-praed-in-regression
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}

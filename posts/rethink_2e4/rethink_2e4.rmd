@@ -4,6 +4,7 @@ categories:
 - probability
 - philosophy
 - rethink-chap2
+- paper
 ---
 
 ```{r libs, include = FALSE}

@@ -2,6 +2,7 @@
 title: bedingte-wskt-tabelle-schoice
 categories:
 - wahrscheinlichkeit
+- paper
 ---
 
 ```{r bedingte-wskt-tabelle-setup, include=FALSE}

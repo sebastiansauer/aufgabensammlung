@@ -2,6 +2,7 @@
 title: halbe-normalverteilung-eigenschaften-schoice
 categories:
 - verteilungen
+- paper
 ---
 
 Question

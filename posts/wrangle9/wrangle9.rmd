@@ -8,6 +8,7 @@ categories:
 - '2023'
 - num
 - computer
+- paper
 date: '2023-03-27'
 slug: wrangle9
 title: wrangle9

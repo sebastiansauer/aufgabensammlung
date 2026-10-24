@@ -4,6 +4,7 @@ categories:
 - ds1
 - schoice
 - quiz
+- paper
 date: '2023-05-17'
 slug: supervisedlearning
 title: supervisedlearning

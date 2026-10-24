@@ -1,6 +1,8 @@
 ---
 title: flights-geom_point-geom-lm
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}

@@ -1,6 +1,8 @@
 ---
 title: filter-b
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

@@ -2,6 +2,7 @@
 title: exponentialverteilung-eigenschaften-schoice
 categories:
 - verteilungen
+- paper
 ---
 
 Question

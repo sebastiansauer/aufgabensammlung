@@ -2,6 +2,7 @@
 title: multiple-regr-kontrolle-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

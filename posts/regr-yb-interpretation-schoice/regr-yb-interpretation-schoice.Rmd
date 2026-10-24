@@ -2,6 +2,7 @@
 title: regr-yb-interpretation-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

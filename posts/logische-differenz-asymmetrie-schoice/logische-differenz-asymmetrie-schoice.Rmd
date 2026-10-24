@@ -2,6 +2,7 @@
 title: logische-differenz-asymmetrie-schoice
 categories:
 - wahrscheinlichkeit
+- paper
 ---
 
 Question

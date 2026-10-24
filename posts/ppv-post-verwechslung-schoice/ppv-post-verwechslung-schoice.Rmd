@@ -2,6 +2,7 @@
 title: ppv-post-verwechslung-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

@@ -1,6 +1,8 @@
 ---
 title: induktive-verallgemeinerung
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

@@ -2,6 +2,7 @@
 title: modell-definition-schoice
 categories:
 - statistik-grundlagen
+- paper
 ---
 
 Question

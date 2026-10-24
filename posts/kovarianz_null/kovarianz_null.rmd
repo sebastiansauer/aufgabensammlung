@@ -3,6 +3,7 @@ categories:
 - association
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: kovarianz_null
 title: kovarianz_null

@@ -3,6 +3,7 @@ categories:
 - dag
 - causal
 - schoice
+- paper
 date: '2023-06-30'
 slug: kausal28
 title: kausal28

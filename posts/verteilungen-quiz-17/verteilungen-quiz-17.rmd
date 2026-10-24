@@ -6,6 +6,7 @@ categories:
 - bayes
 - simulation
 - computer
+- paper
 date: '2022-11-20'
 slug: Verteilungen-Quiz-17
 title: Verteilungen-Quiz-17

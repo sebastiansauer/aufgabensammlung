@@ -4,6 +4,7 @@ categories:
 - dice
 - exam-22
 - quiz
+- paper
 date: '2023-01-11'
 slug: wuerfel01
 title: wuerfel01

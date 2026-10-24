@@ -4,6 +4,7 @@ categories:
 - regression
 - post
 - quiz
+- paper
 date: '2022-12-15'
 slug: posterior_interval
 title: posterior_interval

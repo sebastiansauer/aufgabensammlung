@@ -1,6 +1,8 @@
 ---
 title: viz-geom-point10
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}

@@ -7,6 +7,7 @@ categories:
 - R
 - challenge
 - string
+- paper
 date: '2023-06-27'
 slug: durch3-durch5
 title: durch3-durch5

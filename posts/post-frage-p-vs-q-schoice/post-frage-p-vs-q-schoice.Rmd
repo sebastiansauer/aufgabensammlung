@@ -2,6 +2,7 @@
 title: post-frage-p-vs-q-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

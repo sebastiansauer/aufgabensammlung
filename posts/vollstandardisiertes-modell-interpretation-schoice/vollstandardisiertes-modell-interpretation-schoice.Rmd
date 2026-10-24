@@ -2,6 +2,7 @@
 title: vollstandardisiertes-modell-interpretation-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

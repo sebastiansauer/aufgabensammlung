@@ -2,6 +2,7 @@
 title: rope-default-grenze-rechnung-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

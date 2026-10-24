@@ -3,6 +3,7 @@ categories:
 - regression
 - bayes
 - quiz
+- paper
 date: '2022-12-09'
 title: Bayes-Ziel1
 

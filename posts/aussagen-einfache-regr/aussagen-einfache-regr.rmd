@@ -2,6 +2,7 @@
 title: aussagen-einfache-regr
 categories:
 - regression
+- paper
 ---
 
 ```{r libs, include = FALSE}

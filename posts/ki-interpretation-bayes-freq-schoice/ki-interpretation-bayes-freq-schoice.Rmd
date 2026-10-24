@@ -2,6 +2,7 @@
 title: ki-interpretation-bayes-freq-schoice
 categories:
 - inferenz
+- paper
 ---
 
 Question

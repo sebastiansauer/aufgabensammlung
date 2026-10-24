@@ -2,6 +2,7 @@
 title: linearer-zshg-nicht-kausal-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

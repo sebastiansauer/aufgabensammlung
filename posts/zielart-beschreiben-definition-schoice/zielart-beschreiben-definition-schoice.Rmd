@@ -2,6 +2,7 @@
 title: zielart-beschreiben-definition-schoice
 categories:
 - statistik-grundlagen
+- paper
 ---
 
 Question

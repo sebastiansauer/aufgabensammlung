@@ -4,6 +4,7 @@ categories:
 - regression
 - bayes
 - prior
+- paper
 ---
 
 ```{r libs, include=FALSE}

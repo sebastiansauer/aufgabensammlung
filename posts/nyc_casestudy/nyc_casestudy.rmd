@@ -8,6 +8,7 @@ categories:
 - tidymodels
 - statlearning
 - string
+- paper
 date: '2023-05-17'
 slug: nyc_casestudy
 title: nyc_casestudy

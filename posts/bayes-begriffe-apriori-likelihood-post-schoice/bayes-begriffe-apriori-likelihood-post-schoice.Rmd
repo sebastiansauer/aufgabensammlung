@@ -2,6 +2,7 @@
 title: bayes-begriffe-apriori-likelihood-post-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

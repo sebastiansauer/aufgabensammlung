@@ -1,6 +1,8 @@
 ---
 title: bin2dec
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

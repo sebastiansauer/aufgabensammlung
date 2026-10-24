@@ -1,6 +1,8 @@
 ---
 title: heatmap
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

@@ -2,6 +2,7 @@
 title: exp-prior-95quantil-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

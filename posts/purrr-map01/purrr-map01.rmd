@@ -7,6 +7,7 @@ categories:
 - R
 - map
 - tidyverse
+- paper
 date: '2022-10-24'
 slug: purrr-map01
 title: purrr-map01

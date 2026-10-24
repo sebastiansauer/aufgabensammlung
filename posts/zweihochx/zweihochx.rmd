@@ -1,6 +1,8 @@
 ---
 title: zweihochx
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

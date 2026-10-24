@@ -2,6 +2,7 @@
 title: bayes-r2-vs-frequentistisch-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

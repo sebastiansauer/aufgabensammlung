@@ -2,6 +2,7 @@
 title: pwert-interpretation-schoice
 categories:
 - inferenz
+- paper
 ---
 
 Question

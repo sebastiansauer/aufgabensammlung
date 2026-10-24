@@ -2,6 +2,7 @@
 title: gespenster-dag-schoice
 categories:
 - kausalinferenz
+- paper
 ---
 
 Question

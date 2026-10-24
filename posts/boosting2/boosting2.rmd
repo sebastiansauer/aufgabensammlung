@@ -5,6 +5,7 @@ title: Boosting2
 categories:
 - schoice
 - quiz
+- paper
 
 ---
 

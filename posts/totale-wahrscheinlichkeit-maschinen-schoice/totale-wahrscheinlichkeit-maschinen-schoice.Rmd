@@ -2,6 +2,7 @@
 title: totale-wahrscheinlichkeit-maschinen-schoice
 categories:
 - wahrscheinlichkeit
+- paper
 ---
 
 Question

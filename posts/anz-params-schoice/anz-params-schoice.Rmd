@@ -1,6 +1,8 @@
 ---
 title: anz-params-schoice
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

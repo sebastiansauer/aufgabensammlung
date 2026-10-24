@@ -4,6 +4,7 @@ categories:
 - researchdesign
 - schoice
 - quiz
+- paper
 date: '2023-11-08'
 slug: Var-vs-Stufe
 title: Var-vs-Stufe

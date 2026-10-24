@@ -1,6 +1,8 @@
 ---
 title: bsp-korr-kaus
-categories: null
+categories:
+- paper
+- todo
 ---
 
 <!-- by Karsten Luebke et al. -->

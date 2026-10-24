@@ -2,6 +2,7 @@
 title: quantil-verteilungsfunktion-unterschied-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

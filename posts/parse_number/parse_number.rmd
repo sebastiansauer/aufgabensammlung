@@ -1,6 +1,8 @@
 ---
 title: parse_number
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}

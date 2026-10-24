@@ -2,6 +2,7 @@
 title: bayes-theorem-maschinen-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

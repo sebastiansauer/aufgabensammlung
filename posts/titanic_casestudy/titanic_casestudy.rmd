@@ -6,7 +6,9 @@ expoints: 5
 date: '2023-05-17'
 slug: titanic_casestudy
 title: titanic_casestudy
-categories: string
+categories:
+- string
+- paper
 
 ---
 

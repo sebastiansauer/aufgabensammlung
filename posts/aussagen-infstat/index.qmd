@@ -17,6 +17,7 @@ categories:
 - inference  # ENTER CATEGORIES HERE
 - exam24
 - schoice
+- paper
 bibliography: "../../library-ses.bib"
 
 knitr:

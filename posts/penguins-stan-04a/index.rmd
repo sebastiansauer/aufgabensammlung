@@ -7,6 +7,7 @@ expoints: 1
 categories:
 - bayes
 - regression
+- paper
 
 date: '2024-12-10'
 title: penguins-stan-04a

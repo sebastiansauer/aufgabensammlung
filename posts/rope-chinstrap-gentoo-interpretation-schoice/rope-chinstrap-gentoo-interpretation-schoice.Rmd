@@ -2,6 +2,7 @@
 title: rope-chinstrap-gentoo-interpretation-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

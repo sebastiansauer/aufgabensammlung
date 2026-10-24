@@ -3,6 +3,7 @@ title: rethink4e2
 categories:
 - probability
 - bayes
+- paper
 ---
 
 ```{r libs, include = FALSE}

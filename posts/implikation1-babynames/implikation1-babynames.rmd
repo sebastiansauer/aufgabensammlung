@@ -1,6 +1,8 @@
 ---
 title: implikation1-babynames
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}

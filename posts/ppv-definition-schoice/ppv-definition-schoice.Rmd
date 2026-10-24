@@ -2,6 +2,7 @@
 title: ppv-definition-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

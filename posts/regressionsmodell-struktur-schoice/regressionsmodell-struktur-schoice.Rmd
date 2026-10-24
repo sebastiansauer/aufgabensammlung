@@ -2,6 +2,7 @@
 title: regressionsmodell-struktur-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

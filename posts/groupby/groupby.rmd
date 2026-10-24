@@ -1,6 +1,8 @@
 ---
 title: groupby
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

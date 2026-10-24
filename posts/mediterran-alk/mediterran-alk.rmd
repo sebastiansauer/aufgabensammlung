@@ -8,6 +8,7 @@ slug: Mediterran-Alk
 title: Mediterran-Alk
 categories:
   - causal
+  - paper
 
 ---
 

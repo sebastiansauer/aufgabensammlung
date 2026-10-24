@@ -16,6 +16,7 @@ exsolution: ""
 exshuffle: no
 categories:
 - causal  # ENTER CATEGORIES HERE
+- paper
 
 ---
 

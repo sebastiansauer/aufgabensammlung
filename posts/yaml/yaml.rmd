@@ -1,6 +1,8 @@
 ---
 title: yaml
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

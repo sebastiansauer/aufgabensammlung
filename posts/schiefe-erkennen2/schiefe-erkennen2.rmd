@@ -4,6 +4,7 @@ categories:
 - dyn
 - eda
 - lagemaße
+- paper
 ---
 
 ```{r libs, include = FALSE}

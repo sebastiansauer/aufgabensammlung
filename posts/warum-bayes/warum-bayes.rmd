@@ -11,6 +11,7 @@ categories:
 - qm2
 - bayes
 - probability
+- paper
 date: '2022-11-05'
 title: Warum-Bayes
 

@@ -2,6 +2,7 @@
 title: binomialverteilung-callcenter-schoice
 categories:
 - verteilungen
+- paper
 ---
 
 Question

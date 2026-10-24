@@ -1,6 +1,8 @@
 ---
 title: def-statistik01-schoice
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

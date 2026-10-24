@@ -1,6 +1,8 @@
 ---
 title: glm-linear-transf
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r message = FALSE}

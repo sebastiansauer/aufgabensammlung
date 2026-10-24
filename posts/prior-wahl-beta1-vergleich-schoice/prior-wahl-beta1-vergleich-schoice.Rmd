@@ -2,6 +2,7 @@
 title: prior-wahl-beta1-vergleich-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

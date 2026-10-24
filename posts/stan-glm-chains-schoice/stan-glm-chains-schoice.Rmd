@@ -2,6 +2,7 @@
 title: stan-glm-chains-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

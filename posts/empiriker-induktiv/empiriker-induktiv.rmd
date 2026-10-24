@@ -1,6 +1,8 @@
 ---
 title: empiriker-induktiv
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

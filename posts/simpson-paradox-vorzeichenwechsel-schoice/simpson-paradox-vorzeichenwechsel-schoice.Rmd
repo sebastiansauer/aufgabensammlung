@@ -2,6 +2,7 @@
 title: simpson-paradox-vorzeichenwechsel-schoice
 categories:
 - kausalinferenz
+- paper
 ---
 
 Question

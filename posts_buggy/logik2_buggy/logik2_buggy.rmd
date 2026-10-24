@@ -1,6 +1,8 @@
 ---
 title: logik2_buggy
-categories: null
+categories:
+- paper
+- todo
 ---
 
 <!-- BUGGY!!! -->

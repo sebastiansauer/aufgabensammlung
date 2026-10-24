@@ -3,6 +3,7 @@ categories:
 - vis
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: balken_normierung
 title: balken_normierung

@@ -5,6 +5,7 @@ title: n-se
 categories:
 - schoice
 - quiz
+- paper
 
 ---
 

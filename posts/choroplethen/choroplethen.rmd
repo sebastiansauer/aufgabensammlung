@@ -1,6 +1,8 @@
 ---
 title: choroplethen
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

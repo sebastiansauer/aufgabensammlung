@@ -2,6 +2,7 @@
 title: verteilungsfunktion-wuerfel-schoice
 categories:
 - wahrscheinlichkeit
+- paper
 ---
 
 Question

@@ -2,6 +2,7 @@
 title: simpson-paradox-schoice
 categories:
 - kausalinferenz
+- paper
 ---
 
 Question

@@ -1,6 +1,8 @@
 ---
 title: genial-schoice
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}

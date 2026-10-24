@@ -2,6 +2,7 @@
 title: regressionsgeraden-ungewissheit-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

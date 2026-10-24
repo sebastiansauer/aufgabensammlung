@@ -2,6 +2,7 @@
 title: minimale-adjustierungsmenge-definition-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

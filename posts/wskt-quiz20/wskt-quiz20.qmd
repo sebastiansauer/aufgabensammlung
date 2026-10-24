@@ -5,6 +5,7 @@ categories:
 - inference
 - quiz1-qm2-ws23
 - schoice
+- paper
 date: '2023-11-08'
 slug: wskt-quiz20
 title: wskt-quiz20

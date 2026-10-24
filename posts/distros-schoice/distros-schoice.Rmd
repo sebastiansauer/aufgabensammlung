@@ -1,6 +1,8 @@
 ---
 title: distros-schoice
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r, include=FALSE}

@@ -2,6 +2,7 @@
 title: stochastisch-vs-kausal-unabhaengig-schoice
 categories:
 - wahrscheinlichkeit
+- paper
 ---
 
 Question

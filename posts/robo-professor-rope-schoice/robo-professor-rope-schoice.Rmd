@@ -2,6 +2,7 @@
 title: robo-professor-rope-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

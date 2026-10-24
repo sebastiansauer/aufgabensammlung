@@ -2,6 +2,7 @@
 title: kochrezept-forschungsfrage-phasen-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

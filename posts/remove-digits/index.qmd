@@ -16,6 +16,7 @@ exshuffle: no
 categories:
 - textmining  # ENTER CATEGORIES HERE
 - string
+- paper
 
 bibliography: "../../library-ses.bib"
 

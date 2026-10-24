@@ -2,6 +2,7 @@
 title: koeffizienten-kausal-ohne-fundierung-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

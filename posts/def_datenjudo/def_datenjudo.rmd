@@ -1,6 +1,8 @@
 ---
 title: def_datenjudo
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

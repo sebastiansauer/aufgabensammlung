@@ -3,6 +3,7 @@ title: stan_glm_priors_null
 categories:
 - bayes
 - regression
+- paper
 ---
 
 ```{r libs, include = FALSE}

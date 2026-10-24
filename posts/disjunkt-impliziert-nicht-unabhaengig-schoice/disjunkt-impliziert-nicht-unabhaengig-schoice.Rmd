@@ -2,6 +2,7 @@
 title: disjunkt-impliziert-nicht-unabhaengig-schoice
 categories:
 - wahrscheinlichkeit
+- paper
 ---
 
 Question

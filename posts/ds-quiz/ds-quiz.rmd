@@ -9,6 +9,7 @@ categories:
 - statlearning
 - mchoice
 - quiz
+- paper
 date: '2023-05-17'
 slug: ds-quiz
 title: ds-quiz

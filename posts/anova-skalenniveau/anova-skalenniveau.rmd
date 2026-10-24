@@ -4,6 +4,7 @@ categories:
 - anova
 - quiz
 - schoice
+- paper
 date: '2022-12-15'
 slug: anova-skalenniveau
 title: anova-skalenniveau

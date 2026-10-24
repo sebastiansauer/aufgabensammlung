@@ -2,6 +2,7 @@
 title: mu-bedingt-berechnen-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

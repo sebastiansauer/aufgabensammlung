@@ -1,6 +1,8 @@
 ---
 title: summarize
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

@@ -2,6 +2,7 @@
 title: estimate-expectation-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

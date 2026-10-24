@@ -3,6 +3,7 @@ title: av-uv.de
 categories:
 - basics
 - design
+- paper
 ---
 
 ```{r libs, include = FALSE}

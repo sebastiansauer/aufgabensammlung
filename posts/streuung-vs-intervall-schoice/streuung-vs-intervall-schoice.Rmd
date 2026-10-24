@@ -2,6 +2,7 @@
 title: streuung-vs-intervall-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

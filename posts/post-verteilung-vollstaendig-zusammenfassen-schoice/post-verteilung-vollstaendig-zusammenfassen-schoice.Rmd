@@ -2,6 +2,7 @@
 title: post-verteilung-vollstaendig-zusammenfassen-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

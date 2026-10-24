@@ -2,6 +2,7 @@
 title: pi-vs-hdi-schiefe-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

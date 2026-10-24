@@ -2,6 +2,7 @@
 title: priori-vs-posterior-praediktiv-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

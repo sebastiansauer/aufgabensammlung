@@ -2,6 +2,7 @@
 title: warum-exponential-fuer-sigma-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

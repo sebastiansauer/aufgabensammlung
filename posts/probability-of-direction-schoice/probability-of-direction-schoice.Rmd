@@ -2,6 +2,7 @@
 title: probability-of-direction-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

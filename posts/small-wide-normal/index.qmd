@@ -16,6 +16,7 @@ categories:
 - posterior
 - bayes
 - pencil
+- paper
 
 bibliography: "../../library-ses.bib"
 

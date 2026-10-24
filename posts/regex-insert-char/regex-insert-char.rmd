@@ -7,6 +7,7 @@ categories:
 - textmining
 - regex
 - string
+- paper
 date: '2023-05-22'
 slug: regex-insert-char
 title: regex-insert-char

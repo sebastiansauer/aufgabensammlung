@@ -6,6 +6,7 @@ expoints: 1
 categories:
 - dag
 - causal
+- paper
 date: '2022-12-19'
 slug: kausal_corona_glatze
 title: kausal_corona_glatze

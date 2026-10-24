@@ -5,6 +5,7 @@ title: Cluster02
 categories:
 - schoice
 - quiz
+- paper
 
 ---
 

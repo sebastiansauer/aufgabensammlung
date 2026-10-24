@@ -2,6 +2,7 @@
 title: kettenregel-papst-fehlschluss-schoice
 categories:
 - wahrscheinlichkeit
+- paper
 ---
 
 Question

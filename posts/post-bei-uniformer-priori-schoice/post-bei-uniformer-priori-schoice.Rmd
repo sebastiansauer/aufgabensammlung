@@ -2,6 +2,7 @@
 title: post-bei-uniformer-priori-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

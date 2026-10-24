@@ -17,6 +17,7 @@ categories:
 - qm2  # ENTER CATEGORIES HERE
 - 2024
 - distributions
+- paper
 
 bibliography: "../../library-ses.bib"
 

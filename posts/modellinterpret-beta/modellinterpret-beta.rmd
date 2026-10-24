@@ -4,6 +4,7 @@ categories:
 - bayes
 - regression
 - dyn
+- paper
 ---
 
 ```{r libs, include = FALSE}

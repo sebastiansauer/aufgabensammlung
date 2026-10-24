@@ -2,6 +2,7 @@
 title: nachfahre-kontrollieren-schoice
 categories:
 - kausalinferenz
+- paper
 ---
 
 Question

@@ -2,6 +2,7 @@
 title: pruefen-vs-schaetzen-unterschied-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

@@ -1,6 +1,8 @@
 ---
 title: stichprobenanteil-vs-popanteil
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}

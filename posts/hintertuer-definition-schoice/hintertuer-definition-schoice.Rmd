@@ -2,6 +2,7 @@
 title: hintertuer-definition-schoice
 categories:
 - kausalinferenz
+- paper
 ---
 
 Question

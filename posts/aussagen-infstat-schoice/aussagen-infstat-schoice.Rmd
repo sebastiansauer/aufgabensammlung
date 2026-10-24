@@ -4,6 +4,7 @@ categories:
 - inference
 - exam24
 - schoice
+- paper
 ---
 
 Question

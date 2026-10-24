@@ -2,6 +2,7 @@
 title: bayesbox-standardisierung-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

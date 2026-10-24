@@ -10,6 +10,7 @@ categories:
 - probability
 - bayes
 - num
+- paper
 date: '2023-11-08'
 title: totale-wskt1
 format:

@@ -2,6 +2,7 @@
 title: regr-spezialfaelle-schoice
 categories:
 - regression
+- paper
 ---
 
 Question

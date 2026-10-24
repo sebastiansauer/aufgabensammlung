@@ -1,6 +1,8 @@
 ---
 title: ho-schema1a
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

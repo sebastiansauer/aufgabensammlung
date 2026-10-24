@@ -11,6 +11,7 @@ categories:
 - mtcars
 - strin
 - string
+- paper
 date: '2022-09-04'
 slug: adjustieren1
 title: adjustieren1

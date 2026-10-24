@@ -2,6 +2,7 @@
 title: studie-b-blutdruck-nicht-stratifizieren-schoice
 categories:
 - kausalinferenz
+- paper
 ---
 
 Question

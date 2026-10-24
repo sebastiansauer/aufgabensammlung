@@ -9,6 +9,7 @@ categories:
 - bayesbox
 - rethink-chap2
 - string
+- paper
 date: '2023-11-08'
 slug: Rethink2m4
 title: Rethink2m4

@@ -2,6 +2,7 @@
 title: populationsinferenz-definition-schoice
 categories:
 - inferenz
+- paper
 ---
 
 Question

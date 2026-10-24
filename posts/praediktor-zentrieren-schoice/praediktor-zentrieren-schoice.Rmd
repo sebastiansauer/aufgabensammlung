@@ -2,6 +2,7 @@
 title: praediktor-zentrieren-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

@@ -21,6 +21,7 @@ categories:
 - probability  # ENTER CATEGORIES HERE
 - R
 - computer
+- paper
 ---
 
 

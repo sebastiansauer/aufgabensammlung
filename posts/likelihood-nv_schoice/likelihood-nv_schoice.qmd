@@ -5,6 +5,7 @@ slug: likelihood-nv_schoice
 categories:
 - probability
 - schoice
+- paper
 ---
 
 

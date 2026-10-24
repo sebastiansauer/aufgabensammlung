@@ -2,6 +2,7 @@
 title: bedingte-wahrscheinlichkeit-hintergrundwissen-schoice
 categories:
 - wahrscheinlichkeit
+- paper
 ---
 
 Question

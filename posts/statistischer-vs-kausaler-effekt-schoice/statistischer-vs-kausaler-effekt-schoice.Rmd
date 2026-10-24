@@ -2,6 +2,7 @@
 title: statistischer-vs-kausaler-effekt-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

@@ -2,6 +2,7 @@
 title: uebergewissheit-punktschaetzer-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

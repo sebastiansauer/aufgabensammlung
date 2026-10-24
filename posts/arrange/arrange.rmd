@@ -1,6 +1,8 @@
 ---
 title: arrange
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

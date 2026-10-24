@@ -1,6 +1,8 @@
 ---
 title: regressionbegriff
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

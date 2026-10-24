@@ -3,6 +3,7 @@ title: bayes1-schoice
 categories:
 - bayes
 - schoice
+- paper
 ---
 
 Question

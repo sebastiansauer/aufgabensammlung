@@ -1,6 +1,8 @@
 ---
 title: aprioriwissen
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

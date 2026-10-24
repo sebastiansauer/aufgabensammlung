@@ -2,6 +2,7 @@
 title: maechtigkeit-augensumme-schoice
 categories:
 - wahrscheinlichkeit
+- paper
 ---
 
 Question

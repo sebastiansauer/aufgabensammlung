@@ -2,6 +2,7 @@
 title: disjunkte-ereignisse-schoice
 categories:
 - wahrscheinlichkeit
+- paper
 ---
 
 Question

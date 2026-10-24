@@ -16,6 +16,7 @@ exshuffle: no
 categories:
 - distributions  # ENTER CATEGORIES HERE
 - normal-distribution
+- paper
 
 bibliography: "../../library-ses.bib"
 

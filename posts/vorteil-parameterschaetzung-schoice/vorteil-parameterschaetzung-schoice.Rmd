@@ -2,6 +2,7 @@
 title: vorteil-parameterschaetzung-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

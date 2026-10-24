@@ -3,6 +3,7 @@ categories:
 - vis
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: bosplot_schiefe
 title: bosplot_schiefe

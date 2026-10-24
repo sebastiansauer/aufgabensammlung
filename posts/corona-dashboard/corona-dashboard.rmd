@@ -1,6 +1,8 @@
 ---
 title: corona-dashboard
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}

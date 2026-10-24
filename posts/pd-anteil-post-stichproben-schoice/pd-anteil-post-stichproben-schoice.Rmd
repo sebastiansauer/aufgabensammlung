@@ -2,6 +2,7 @@
 title: pd-anteil-post-stichproben-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

@@ -2,6 +2,7 @@
 title: mediator-vs-confounder-schoice
 categories:
 - kausalinferenz
+- paper
 ---
 
 Question

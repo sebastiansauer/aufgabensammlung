@@ -2,6 +2,7 @@
 title: nierenstein-konfundierer-kontrollieren-schoice
 categories:
 - kausalinferenz
+- paper
 ---
 
 Question

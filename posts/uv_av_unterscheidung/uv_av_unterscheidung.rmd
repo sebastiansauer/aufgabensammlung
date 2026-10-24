@@ -3,6 +3,7 @@ categories:
 - rahmen
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: uv_av_unterscheidung
 title: uv_av_unterscheidung

@@ -2,6 +2,7 @@
 title: evidenz-maschinen-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

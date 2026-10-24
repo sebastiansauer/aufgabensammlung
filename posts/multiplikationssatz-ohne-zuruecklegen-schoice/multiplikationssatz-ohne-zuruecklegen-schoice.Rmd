@@ -2,6 +2,7 @@
 title: multiplikationssatz-ohne-zuruecklegen-schoice
 categories:
 - wahrscheinlichkeit
+- paper
 ---
 
 Question

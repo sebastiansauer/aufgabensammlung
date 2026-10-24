@@ -2,6 +2,7 @@
 title: rope-konzept-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

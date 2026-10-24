@@ -1,6 +1,8 @@
 ---
 title: exp1-schoice
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

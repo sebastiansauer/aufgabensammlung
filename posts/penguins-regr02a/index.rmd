@@ -7,6 +7,7 @@ categories:
 - bayes
 - rope
 - regression
+- paper
 date: '2024-12-10'
 title: penguins-regr02a
 

@@ -18,6 +18,7 @@ categories:
 - normal-distribution
 - distributions
 - bayesbox
+- paper
 
 bibliography: "../../library-ses.bib"
 

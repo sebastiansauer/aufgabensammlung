@@ -2,6 +2,7 @@
 title: stetige-zv-dichte-schoice
 categories:
 - wahrscheinlichkeit
+- paper
 ---
 
 Question

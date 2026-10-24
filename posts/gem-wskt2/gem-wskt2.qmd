@@ -9,6 +9,7 @@ categories:
 - probability
 - bayes
 - cloze
+- paper
 date: '2023-11-08'
 title: Gem-Wskt2
 

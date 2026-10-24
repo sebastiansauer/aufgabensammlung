@@ -1,6 +1,8 @@
 ---
 title: schlussarten-abduktion-formel
-categories: null
+categories:
+- paper
+- todo
 ---
 
 <!-- CHECK!!! -->

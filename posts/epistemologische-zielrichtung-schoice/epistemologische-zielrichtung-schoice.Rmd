@@ -2,6 +2,7 @@
 title: epistemologische-zielrichtung-schoice
 categories:
 - kausalinferenz
+- paper
 ---
 
 Question

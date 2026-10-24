@@ -2,6 +2,7 @@
 title: binomialkoeffizient-ausschuss-schoice
 categories:
 - verteilungen
+- paper
 ---
 
 Question

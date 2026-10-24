@@ -1,6 +1,8 @@
 ---
 title: select-b
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

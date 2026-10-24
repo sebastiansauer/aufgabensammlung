@@ -8,6 +8,7 @@ categories:
 - bayes
 - string
 - prior
+- paper
 date: '2022-12-09'
 title: Bayesmod-bestimmen02
 

@@ -1,6 +1,8 @@
 ---
 title: scatterplot-art-korrelation
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}

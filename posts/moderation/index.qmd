@@ -13,6 +13,7 @@ number-sections: true
 
 categories:
 - DUMMY  # ENTER CATEGORIES HERE
+- paper
 
 
 

@@ -5,6 +5,7 @@ categories:
 - distributions
 - quiz1-qm2-ws23
 - schoice
+- paper
 date: '2023-11-08'
 slug: wskt-quiz05
 title: wskt-quiz05

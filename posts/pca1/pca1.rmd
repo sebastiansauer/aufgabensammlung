@@ -5,6 +5,7 @@ title: PCA1
 categories:
 - schoice
 - quiz
+- paper
 
 ---
 

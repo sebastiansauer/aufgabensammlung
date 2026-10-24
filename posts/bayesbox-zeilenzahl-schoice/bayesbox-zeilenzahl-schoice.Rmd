@@ -2,6 +2,7 @@
 title: bayesbox-zeilenzahl-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

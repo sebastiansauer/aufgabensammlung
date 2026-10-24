@@ -4,6 +4,7 @@ categories:
 - bayes
 - regression
 - quiz
+- paper
 date: '2024-12-10'
 title: rope3a
 

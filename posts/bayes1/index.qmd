@@ -14,6 +14,7 @@ number-sections: true
 categories:
 - bayes  # ENTER CATEGORIES HERE
 - schoice
+- paper
 
 bibliography: "../../library-ses.bib"
 

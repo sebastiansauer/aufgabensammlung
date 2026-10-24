@@ -3,6 +3,7 @@ title: messniveau
 categories:
 - data
 - basics
+- paper
 ---
 
 ```{r libs, include = FALSE}

@@ -1,6 +1,8 @@
 ---
 title: rmd-01
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

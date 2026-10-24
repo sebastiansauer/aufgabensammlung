@@ -2,6 +2,7 @@
 title: kleine-grosse-welt-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

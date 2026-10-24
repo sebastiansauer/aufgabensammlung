@@ -2,6 +2,7 @@
 title: sampling-weight-by-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

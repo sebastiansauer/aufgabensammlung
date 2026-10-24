@@ -2,6 +2,7 @@
 title: gleichverteilung-dichte-schoice
 categories:
 - verteilungen
+- paper
 ---
 
 Question

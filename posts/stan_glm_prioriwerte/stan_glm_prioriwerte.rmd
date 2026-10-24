@@ -5,6 +5,7 @@ categories:
 - qm2
 - qm2-pruefung2023
 - quiz
+- paper
 date: '2022-12-15'
 slug: stan_glm_prioriwerte
 title: stan_glm_prioriwerte

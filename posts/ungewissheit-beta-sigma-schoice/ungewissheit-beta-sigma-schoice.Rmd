@@ -2,6 +2,7 @@
 title: ungewissheit-beta-sigma-schoice
 categories:
 - inferenz
+- paper
 ---
 
 Question

@@ -1,6 +1,8 @@
 ---
 title: modus-tollens2
-categories: null
+categories:
+- paper
+- todo
 ---
 
 <!-- STILL BUGGY!!! -->

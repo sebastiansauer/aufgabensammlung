@@ -2,6 +2,7 @@
 title: m1-koeffizienten-berechnen-schoice
 categories:
 - kausalinferenz
+- paper
 ---
 
 Question

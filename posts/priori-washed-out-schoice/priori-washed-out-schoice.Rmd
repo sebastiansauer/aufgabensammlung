@@ -2,6 +2,7 @@
 title: priori-washed-out-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

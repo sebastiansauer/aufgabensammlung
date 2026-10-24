@@ -2,6 +2,7 @@
 title: abhaengige-es
 categories:
 - probability
+- paper
 ---
 
 ```{r global-knitr-options, include=FALSE, message=FALSE}

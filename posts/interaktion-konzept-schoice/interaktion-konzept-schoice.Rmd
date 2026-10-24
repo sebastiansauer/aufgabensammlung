@@ -2,6 +2,7 @@
 title: interaktion-konzept-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

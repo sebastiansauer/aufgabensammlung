@@ -9,6 +9,7 @@ categories:
 - qm2
 - qm2-pruefung2023
 - dyn
+- paper
 date: '2022-10-24'
 title: Gem-Wskt1
 

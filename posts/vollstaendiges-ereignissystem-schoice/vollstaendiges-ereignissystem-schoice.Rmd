@@ -2,6 +2,7 @@
 title: vollstaendiges-ereignissystem-schoice
 categories:
 - wahrscheinlichkeit
+- paper
 ---
 
 Question

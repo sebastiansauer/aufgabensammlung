@@ -7,6 +7,7 @@ categories:
 - regression
 - '2023'
 - string
+- paper
 date: '2023-11-08'
 slug: adjustieren2a
 title: adjustieren2a

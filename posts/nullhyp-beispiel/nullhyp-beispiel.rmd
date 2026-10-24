@@ -3,6 +3,7 @@ categories:
 - nullhypothesis
 - inference
 - quiz
+- paper
 date: '2022-12-15'
 slug: Nullhyp-Beispiel
 title: Nullhyp-Beispiel

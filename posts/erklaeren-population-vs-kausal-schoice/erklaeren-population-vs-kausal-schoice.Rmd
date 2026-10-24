@@ -2,6 +2,7 @@
 title: erklaeren-population-vs-kausal-schoice
 categories:
 - statistik-grundlagen
+- paper
 ---
 
 Question

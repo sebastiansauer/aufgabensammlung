@@ -2,6 +2,7 @@
 title: baumdiagramm-genau-zwei-treffer-schoice
 categories:
 - wahrscheinlichkeit
+- paper
 ---
 
 Question

@@ -1,6 +1,8 @@
 ---
 title: normalverteilung1
-categories: null
+categories:
+- paper
+- todo
 ---
 
 <!-- based on work by Karsten Luebke et al. -->

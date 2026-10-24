@@ -2,6 +2,7 @@
 title: kolmogorov-axiome-schoice
 categories:
 - wahrscheinlichkeit
+- paper
 ---
 
 Question

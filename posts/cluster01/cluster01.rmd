@@ -5,7 +5,9 @@ exname: cluster01
 date: '2023-05-17'
 slug: Cluster01
 title: Cluster01
-categories: num
+categories:
+- num
+- paper
 
 ---
 

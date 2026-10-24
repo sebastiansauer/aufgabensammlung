@@ -2,6 +2,7 @@
 title: mediator-kontrollieren-fehler-schoice
 categories:
 - kausalinferenz
+- paper
 ---
 
 Question

@@ -2,6 +2,7 @@
 title: gemeinsame-post-verteilung-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

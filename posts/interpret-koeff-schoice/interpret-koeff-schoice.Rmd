@@ -1,6 +1,8 @@
 ---
 title: interpret-koeff-schoice
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

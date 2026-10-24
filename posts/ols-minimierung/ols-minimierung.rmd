@@ -5,6 +5,7 @@ title: OLS-Minimierung
 categories:
 - schoice
 - quiz
+- paper
 
 ---
 

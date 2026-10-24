@@ -4,6 +4,7 @@ categories:
 - bayes
 - likelihood
 - quiz
+- paper
 date: '2022-12-09'
 slug: Likelihood2
 title: Likelihood2

@@ -3,6 +3,7 @@ title: verteilungen-quiz-01-b
 categories:
 - distribution
 - probability
+- paper
 ---
 
 ```{r global-knitr-options, include=FALSE, message=FALSE}

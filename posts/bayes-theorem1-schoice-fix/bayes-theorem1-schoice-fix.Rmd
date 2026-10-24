@@ -4,6 +4,7 @@ categories:
 - bayes
 - probability
 - schoice
+- paper
 ---
 
 Question

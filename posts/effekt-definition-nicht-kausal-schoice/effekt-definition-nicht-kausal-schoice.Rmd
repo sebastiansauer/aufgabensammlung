@@ -2,6 +2,7 @@
 title: effekt-definition-nicht-kausal-schoice
 categories:
 - statistik-grundlagen
+- paper
 ---
 
 Question

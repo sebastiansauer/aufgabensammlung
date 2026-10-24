@@ -2,6 +2,7 @@
 title: zielarten-stat-schoice
 categories:
 - inferenz
+- paper
 ---
 
 Question

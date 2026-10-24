@@ -1,6 +1,8 @@
 ---
 title: def-signif-schoice
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

@@ -4,6 +4,7 @@ categories:
 - causal
 - exam-22
 - quiz
+- paper
 date: '2023-01-11'
 slug: kausal02
 title: kausal02

@@ -5,6 +5,7 @@ title: smape
 categories:
 - schoice
 - quiz
+- paper
 
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: kausal13
-categories: null
+categories:
+- paper
+- todo
 ---
 
 <!-- This exercise is based on Karsten Luebke. -->

@@ -4,6 +4,7 @@ categories:
 - probability
 - dyn
 - bayes
+- paper
 ---
 
 ```{r global-knitr-options, include=FALSE}

@@ -1,6 +1,8 @@
 ---
 title: normvert-perzentile
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r global-knitr-options, include=FALSE}

@@ -1,6 +1,8 @@
 ---
 title: induktionsprinzip
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

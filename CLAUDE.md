@@ -10,7 +10,7 @@ This repo is **not** the source of the blog [datenwerk.netlify.app](https://date
 
 ## YAML header
 
-Every exercise starts with a YAML header holding at least `title` and `categories`. `categories: null` marks an exercise whose categories still have to be added.
+Every exercise starts with a YAML header holding at least `title` and `categories`. `categories: null` marks an exercise whose categories still have to be added; if such an exercise also gets `paper`, the marker becomes the category `todo`. The category `paper` means the exercise can be solved with pen and paper only (no R, no calculator, no internet).
 
 ## schoice exercises: R/exams format
 

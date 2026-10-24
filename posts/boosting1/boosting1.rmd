@@ -12,6 +12,7 @@ categories:
 - mchoice
 - statisticallearning
 - quiz
+- paper
 
 ---
 

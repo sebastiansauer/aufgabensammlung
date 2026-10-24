@@ -2,6 +2,7 @@
 title: wrangle8
 categories:
 - eda
+- paper
 ---
 
 ```{r libs, include = FALSE}

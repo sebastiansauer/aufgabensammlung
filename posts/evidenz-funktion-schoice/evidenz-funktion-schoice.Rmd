@@ -2,6 +2,7 @@
 title: evidenz-funktion-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

@@ -1,6 +1,8 @@
 ---
 title: berufspraxis_bsp
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question-Frage

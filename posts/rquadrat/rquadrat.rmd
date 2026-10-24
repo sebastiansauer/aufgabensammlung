@@ -1,6 +1,8 @@
 ---
 title: rquadrat
-categories: null
+categories:
+- paper
+- todo
 ---
 
 <!-- This exercise is authored by Karsten Lübke. -->

@@ -2,6 +2,7 @@
 title: beta1-interpretation-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

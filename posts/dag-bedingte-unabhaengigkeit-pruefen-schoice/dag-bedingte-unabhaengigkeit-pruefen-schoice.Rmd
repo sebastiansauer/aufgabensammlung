@@ -2,6 +2,7 @@
 title: dag-bedingte-unabhaengigkeit-pruefen-schoice
 categories:
 - kausalinferenz
+- paper
 ---
 
 Question

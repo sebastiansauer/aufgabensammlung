@@ -2,6 +2,7 @@
 title: post-wskt-intervall-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

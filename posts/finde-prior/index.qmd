@@ -16,6 +16,7 @@ exshuffle: no
 categories:
 - bayes  # ENTER CATEGORIES HERE
 - regression
+- paper
 
 bibliography: "../../library-ses.bib"
 

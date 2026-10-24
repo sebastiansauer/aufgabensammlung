@@ -2,6 +2,7 @@
 title: nullhypothesen-kritik-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question

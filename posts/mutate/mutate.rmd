@@ -1,6 +1,8 @@
 ---
 title: mutate
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question

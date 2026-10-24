@@ -1,6 +1,8 @@
 ---
 title: zwert1
-categories: null
+categories:
+- paper
+- todo
 ---
 
 <!-- This exercise is authored by Karsten Lübke. -->
