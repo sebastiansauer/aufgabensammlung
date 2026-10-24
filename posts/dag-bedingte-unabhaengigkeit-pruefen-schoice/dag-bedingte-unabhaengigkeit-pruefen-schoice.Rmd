@@ -1,3 +1,9 @@
+---
+title: dag-bedingte-unabhaengigkeit-pruefen-schoice
+categories:
+- kausalinferenz
+---
+
 Question
 ========
 Ein DAG (z. B. `bsp2`) impliziert bestimmte bedingte Unabhängigkeiten zwischen Variablen, die man z. B. mit `impliedConditionalIndependencies()` aus dem R-Paket `dagitty` auflisten kann. Wozu ist das nützlich, wenn man doch (laut Kapitel) allein aus den Daten nicht bestimmen kann, welcher DAG der "richtige" ist?

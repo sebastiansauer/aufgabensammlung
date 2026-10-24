@@ -1,3 +1,10 @@
+---
+title: wuerfel06a
+categories:
+- R
+- probability
+- bayes
+---
 
 ```{r global-knitr-options, include=FALSE, message=FALSE}
 knitr::opts_chunk$set(fig.pos = 'H',

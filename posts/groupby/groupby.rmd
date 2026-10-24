@@ -1,3 +1,8 @@
+---
+title: groupby
+categories: null
+---
+
 Question
 ========
 Welche Auswirkung hat die Funktion `group_by()` auf nachfolgende Operationen in einer Pipeline?

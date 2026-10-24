@@ -1,3 +1,9 @@
+---
+title: vorteil-parameterschaetzung-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Was ist laut Kapitel der zentrale *Vorteil* der Parameterschätzung gegenüber dem reinen Testen von Hypothesen?

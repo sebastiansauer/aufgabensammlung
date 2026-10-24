@@ -1,3 +1,9 @@
+---
+title: hintertuer-definition-schoice
+categories:
+- kausalinferenz
+---
+
 Question
 ========
 Was versteht das Kapitel unter einer "Hintertür" (backdoor) zwischen UV und AV, und welche Rolle spielt die Pfeilrichtung dabei?

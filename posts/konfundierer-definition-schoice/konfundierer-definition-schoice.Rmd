@@ -1,3 +1,9 @@
+---
+title: konfundierer-definition-schoice
+categories:
+- kausalinferenz
+---
+
 Question
 ========
 Was ist laut Definition im Kapitel eine Konfundierungsvariable (ein Konfundierer)?

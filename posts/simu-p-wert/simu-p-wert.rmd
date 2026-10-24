@@ -1,3 +1,11 @@
+---
+title: simu-p-wert
+categories:
+- inference
+- simulation
+- frequentist
+- pvalue
+---
 
 ```{r libs, include = FALSE}
 library(tidyverse)

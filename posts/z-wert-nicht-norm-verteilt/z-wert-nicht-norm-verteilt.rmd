@@ -1,3 +1,7 @@
+---
+title: z-wert-nicht-norm-verteilt
+categories: null
+---
 
 <!-- FRAGMENT, unvollständig -->
 

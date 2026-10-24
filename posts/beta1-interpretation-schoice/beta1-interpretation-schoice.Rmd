@@ -1,3 +1,9 @@
+---
+title: beta1-interpretation-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Im Kung-Regressionsmodell (`height ~ weight_c`) wird für $\beta_1$ (das "Regressionsgewicht") ein Schätzwert von etwa 0,9 berichtet. Wie ist dieser Wert korrekt zu interpretieren?

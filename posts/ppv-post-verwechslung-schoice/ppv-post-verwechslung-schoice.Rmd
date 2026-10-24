@@ -1,3 +1,9 @@
+---
+title: ppv-post-verwechslung-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Das Kapitel nennt das Verwechseln von Post-Verteilung und Posterior-Prädiktiv-Verteilung (PPV) als einen "Lieblingsfehler". Für das Modell `m1: mpg ~ hp` liefert `m1 %>% as_tibble()` eine Tabelle mit Spalten wie `(Intercept)`, `hp` und `sigma`; `posterior_predict(m1)` liefert hingegen eine Tabelle mit vorhergesagten `mpg`-Werten. Welche Aussage zum Unterschied ist korrekt?

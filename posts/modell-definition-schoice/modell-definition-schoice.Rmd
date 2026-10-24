@@ -1,3 +1,9 @@
+---
+title: modell-definition-schoice
+categories:
+- statistik-grundlagen
+---
+
 Question
 ========
 Wie definiert das Kapitel den Begriff *Modell*, und was ist der Nutzen eines Modells?

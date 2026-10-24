@@ -1,4 +1,7 @@
-
+---
+title: select
+categories: null
+---
 
 ```{r libs, include = FALSE}
 library(tidyverse)

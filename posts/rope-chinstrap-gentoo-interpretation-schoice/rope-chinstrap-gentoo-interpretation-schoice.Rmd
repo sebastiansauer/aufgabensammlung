@@ -1,3 +1,9 @@
+---
+title: rope-chinstrap-gentoo-interpretation-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Im Modell `m_penguins_species` (Referenzgruppe: *Adelie*) liegt ein beträchtlicher Teil der Post-Verteilung für *Chinstrap* innerhalb des ROPE, während *Gentoo* zu 0 % im ROPE liegt. Welche Schlussfolgerung zieht das Kapitel daraus?

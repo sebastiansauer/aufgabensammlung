@@ -1,3 +1,9 @@
+---
+title: stetige-zv-dichte-schoice
+categories:
+- wahrscheinlichkeit
+---
+
 Question
 ========
 Die Wartezeit $X$ auf einen Bus sei gleichverteilt zwischen 0 und 10 Minuten, mit konstanter Wahrscheinlichkeitsdichte $f(x) = 1/10$ für $0 < x < 10$. Welche der folgenden Aussagen zur stetigen Zufallsvariable $X$ ist korrekt?

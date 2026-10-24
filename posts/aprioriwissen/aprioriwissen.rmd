@@ -1,3 +1,8 @@
+---
+title: aprioriwissen
+categories: null
+---
+
 Question
 ========
 Vervollständigen Sie: "Apriorisches Wissen ist wahr, ohne __________."

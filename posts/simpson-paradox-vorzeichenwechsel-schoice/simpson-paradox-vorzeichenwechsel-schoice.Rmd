@@ -1,3 +1,9 @@
+---
+title: simpson-paradox-vorzeichenwechsel-schoice
+categories:
+- kausalinferenz
+---
+
 Question
 ========
 Das Kapitel erwähnt, dass sich beim Adjustieren (Kontrollieren) von Prädiktoren manchmal sogar die *Vorzeichen* der Regressionsgewichte umkehren können (z. B. wird der Effekt von `bedrooms` auf `price` negativ, sobald man `livingArea` kontrolliert). Wie wird dieses Phänomen im Kapitel bezeichnet, und was unterscheidet es vom "normalen" Verschwinden einer Scheinkorrelation durch Konfundierung?

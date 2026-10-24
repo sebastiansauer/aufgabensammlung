@@ -1,3 +1,9 @@
+---
+title: interaktion-falsch-interpretiert-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Für das Interaktionsmodell `m2: mpg ~ hp*vs` (unzentrierte Prädiktoren) wird der Koeffizient für `vs` auf ca. $-0{,}11$ geschätzt. Welche Interpretation dieses Werts ist laut Kapitel korrekt?

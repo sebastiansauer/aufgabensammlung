@@ -1,3 +1,9 @@
+---
+title: vollstaendiges-ereignissystem-schoice
+categories:
+- wahrscheinlichkeit
+---
+
 Question
 ========
 Beim einfachen Würfelwurf gilt $\Omega = \{1,2,3,4,5,6\}$. Welche der folgenden Zerlegungen in zwei Ereignisse $A$ und $B$ bildet ein *vollständiges Ereignissystem*?

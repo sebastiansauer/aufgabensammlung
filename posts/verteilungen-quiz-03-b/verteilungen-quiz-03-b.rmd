@@ -1,4 +1,9 @@
-
+---
+title: verteilungen-quiz-03-b
+categories:
+- distribution
+- probability
+---
 
 ```{r global-knitr-options, include=FALSE, message=FALSE}
 knitr::opts_chunk$set(fig.pos = 'H',

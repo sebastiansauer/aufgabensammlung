@@ -1,8 +1,10 @@
-
-
-
-
-
+---
+title: twitter08
+categories:
+- textmining
+- twitter
+- programming
+---
 
 Question
 ========

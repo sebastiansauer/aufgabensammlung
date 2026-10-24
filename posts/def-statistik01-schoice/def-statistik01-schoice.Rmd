@@ -1,3 +1,8 @@
+---
+title: def-statistik01-schoice
+categories: null
+---
+
 Question
 ========
 Welche Definition von Statistik passt am besten?

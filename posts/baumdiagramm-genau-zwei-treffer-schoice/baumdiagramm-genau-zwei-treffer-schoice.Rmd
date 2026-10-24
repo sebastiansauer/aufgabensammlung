@@ -1,3 +1,9 @@
+---
+title: baumdiagramm-genau-zwei-treffer-schoice
+categories:
+- wahrscheinlichkeit
+---
+
 Question
 ========
 Eine faire Münze wird dreimal geworfen. Wie hoch ist die Wahrscheinlichkeit für *genau zwei* Treffer (Kopf)?

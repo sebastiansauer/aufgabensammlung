@@ -1,3 +1,9 @@
+---
+title: halbe-normalverteilung-eigenschaften-schoice
+categories:
+- verteilungen
+---
+
 Question
 ========
 Welche der folgenden Aussagen zur *halben Normalverteilung* trifft zu?

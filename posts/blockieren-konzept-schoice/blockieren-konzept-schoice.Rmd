@@ -1,3 +1,9 @@
+---
+title: blockieren-konzept-schoice
+categories:
+- kausalinferenz
+---
+
 Question
 ========
 Im Kausalmodell `km1` (bedrooms $\leftarrow$ livingArea $\rightarrow$ price, sowie bedrooms $\rightarrow$ price) wird `livingArea` als Konfundierer identifiziert. Kontrolliert man `livingArea` (nimmt sie als Prädiktor ins Regressionsmodell auf), werden `bedrooms` und `price` "d-separiert" statt "d-verbunden". Was bedeutet das Konzept des "Blockierens" in diesem Zusammenhang?

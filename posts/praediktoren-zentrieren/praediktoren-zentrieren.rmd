@@ -1,3 +1,7 @@
+---
+title: praediktoren-zentrieren
+categories: null
+---
 
 ```{r libs, include = FALSE}
 library(tidyverse)

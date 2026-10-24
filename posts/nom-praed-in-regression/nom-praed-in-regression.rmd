@@ -1,4 +1,7 @@
-
+---
+title: nom-praed-in-regression
+categories: null
+---
 
 ```{r libs, include = FALSE}
 library(tidyverse)

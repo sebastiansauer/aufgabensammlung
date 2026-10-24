@@ -1,4 +1,7 @@
-
+---
+title: mittelwert-berechnen
+categories: null
+---
 
 ```{r libs, include = FALSE}
 

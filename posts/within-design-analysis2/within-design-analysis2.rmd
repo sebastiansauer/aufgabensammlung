@@ -1,3 +1,11 @@
+---
+title: within-design-analysis2
+categories:
+- regression
+- within-design
+- researchdesign
+- fopro
+---
 
 Question
 ========

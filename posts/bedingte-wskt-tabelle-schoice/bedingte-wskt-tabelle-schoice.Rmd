@@ -1,3 +1,9 @@
+---
+title: bedingte-wskt-tabelle-schoice
+categories:
+- wahrscheinlichkeit
+---
+
 ```{r bedingte-wskt-tabelle-setup, include=FALSE}
 d <- data.frame(
   Gruppe = c("L (gelernt)", "NL (nicht gelernt)", "Summe"),

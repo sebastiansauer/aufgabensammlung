@@ -1,3 +1,9 @@
+---
+title: rope-konzept-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Was prüft das ROPE-Verfahren (Region of Practical Equivalence), wie es im Kapitel zur Prüfung der "Praktisch-Null-Hypothese" (z. B. beim Effekt des mütterlichen Schulabschlusses) verwendet wird?

@@ -1,3 +1,9 @@
+---
+title: kolmogorov-axiome-schoice
+categories:
+- wahrscheinlichkeit
+---
+
 Question
 ========
 Seien $A$ und $B$ zwei disjunkte Ereignisse. Welche der folgenden Zuordnungen von Wahrscheinlichkeiten zu $A$, $B$ und $A \cup B$ ist mit *allen drei* Kolmogorov-Axiomen (Nichtnegativität, Normierung, Additivität) vereinbar?

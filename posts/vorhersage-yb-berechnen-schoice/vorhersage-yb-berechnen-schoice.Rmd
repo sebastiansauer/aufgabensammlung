@@ -1,3 +1,9 @@
+---
+title: vorhersage-yb-berechnen-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Für das Modell `kid_score ~ mom_hs` gilt näherungsweise: $\text{kid\_score} = 78 + 12\cdot\text{mom\_hs}$. Welchen mittleren IQ-Wert sagt das Modell für ein Kind vorher, dessen Mutter einen Schulabschluss hat ($\text{mom\_hs}=1$)?

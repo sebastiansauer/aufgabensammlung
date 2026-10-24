@@ -1,3 +1,9 @@
+---
+title: prioris-nicht-zentrieren-interaktion-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Einer der "Lieblingsfehler" im Kapitel lautet: "Prädiktoren nicht zentrieren, wenn es einen Interaktionsterm gibt". Warum ist das Fehlen der Zentrierung bei einem Interaktionsmodell besonders problematisch?

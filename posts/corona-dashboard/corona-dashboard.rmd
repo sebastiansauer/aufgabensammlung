@@ -1,3 +1,7 @@
+---
+title: corona-dashboard
+categories: null
+---
 
 ```{r libs, include = FALSE}
 

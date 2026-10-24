@@ -1,3 +1,9 @@
+---
+title: zwei-arten-ungewissheit-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Im Kapitel werden zwei Arten von Ungewissheit unterschieden, die beide in der PPV berücksichtigt werden. Welche Aussage dazu ist korrekt?

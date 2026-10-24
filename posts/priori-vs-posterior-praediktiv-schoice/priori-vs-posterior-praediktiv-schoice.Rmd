@@ -1,3 +1,9 @@
+---
+title: priori-vs-posterior-praediktiv-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Im Kapitel werden sowohl eine *Priori-Prädiktiv-Verteilung* als auch eine *Posterior-Prädiktiv-Verteilung* (PPV, mit `pp_check()`) verwendet. Worin unterscheiden sich beide?

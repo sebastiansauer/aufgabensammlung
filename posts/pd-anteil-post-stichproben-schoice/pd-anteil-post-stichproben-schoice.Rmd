@@ -1,3 +1,9 @@
+---
+title: pd-anteil-post-stichproben-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Die Post-Stichprobe `m_penguins_sex_post` enthält 4000 Werte für den Koeffizienten `sexmale`. Der Befehl `count(sexmale > 0)` liefert: 3980 Werte sind größer als 0, 20 Werte sind kleiner oder gleich 0. Wie hoch ist die Effektwahrscheinlichkeit `pd` (probability of direction) für diesen Effekt?

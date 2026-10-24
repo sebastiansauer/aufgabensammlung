@@ -1,3 +1,9 @@
+---
+title: rstanarm-standard-prior-rechnung-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Ruft man `stan_glm()` ohne eigene Priori-Angaben auf, verwendet `rstanarm` als Standard-Priori für die Streuung $\sigma$ eine Exponentialverteilung mit Rate $\lambda = 1/sd(Y)$. Angenommen, die Standardabweichung der Körpergrößen in der Stichprobe beträgt $sd(Y)=6{,}25$ cm. Welchen Ratenparameter $\lambda$ und welchen Erwartungswert hat die resultierende Standard-Priori für $\sigma$?

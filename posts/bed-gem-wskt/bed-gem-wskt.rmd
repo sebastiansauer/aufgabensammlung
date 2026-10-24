@@ -1,3 +1,11 @@
+---
+title: bed-gem-wskt
+categories:
+- bayes
+- regression
+- dyn
+- prediction
+---
 
 <!-- Diese Aufgabe ist noch in Entwicklung. Noch nicht benutzen! -->
 

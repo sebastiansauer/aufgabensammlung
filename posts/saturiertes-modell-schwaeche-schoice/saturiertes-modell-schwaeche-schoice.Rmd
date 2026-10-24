@@ -1,3 +1,9 @@
+---
+title: saturiertes-modell-schwaeche-schoice
+categories:
+- kausalinferenz
+---
+
 Question
 ========
 Das Kausalmodell `km2` (mit einer Wirkkette `livingArea` $\rightarrow$ `bedrooms` $\rightarrow$ `price` sowie einem direkten Pfeil `livingArea` $\rightarrow$ `price`) postuliert keine einzige Unabhängigkeit zwischen den Variablen -- alle sind miteinander assoziiert. Warum bezeichnet das Kapitel ein solches "saturiertes" Modell als "empirisch schwach"?

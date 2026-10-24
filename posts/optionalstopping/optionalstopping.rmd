@@ -1,4 +1,7 @@
-
+---
+title: optionalstopping
+categories: null
+---
 
 ```{r libs, include = FALSE}
 library(tidyverse)

@@ -1,3 +1,9 @@
+---
+title: ppv-vs-post-parameterwerte-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Worin unterscheiden sich die Post-Verteilung und die Posterior-Prädiktiv-Verteilung (PPV) inhaltlich am grundlegendsten?

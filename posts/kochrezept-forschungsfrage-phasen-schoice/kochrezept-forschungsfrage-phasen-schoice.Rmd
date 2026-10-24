@@ -1,3 +1,9 @@
+---
+title: kochrezept-forschungsfrage-phasen-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Das "Kochrezept" zur Untersuchung einer Forschungsfrage gliedert sich laut Kapitel in drei Phasen: theoretisch, empirisch, analytisch. Welche Zuordnung von Schritten zu Phasen ist korrekt?

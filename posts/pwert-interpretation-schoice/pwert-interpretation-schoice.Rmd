@@ -1,3 +1,9 @@
+---
+title: pwert-interpretation-schoice
+categories:
+- inferenz
+---
+
 Question
 ========
 In einer Studie wird ein Zusammenhang zwischen zwei Variablen untersucht; berichtet wird ein p-Wert von $p = 0{,}03$. Welche Interpretation dieses p-Werts ist zutreffend?

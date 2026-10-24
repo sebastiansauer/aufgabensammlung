@@ -1,3 +1,9 @@
+---
+title: populationsinferenz-definition-schoice
+categories:
+- inferenz
+---
+
 Question
 ========
 Wie ist *Populationsinferenz* (Inferenzstatistik, schließende Statistik) korrekt definiert, und wie unterscheidet sie sich von der Deskriptivstatistik?

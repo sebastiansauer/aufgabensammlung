@@ -1,3 +1,9 @@
+---
+title: bayes-theorem1-schoice-loop
+categories:
+- bayes
+---
+
 ```{r, include=FALSE}
 library(tidyverse)
 

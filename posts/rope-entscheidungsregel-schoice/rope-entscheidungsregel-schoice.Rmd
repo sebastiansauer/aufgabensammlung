@@ -1,3 +1,9 @@
+---
+title: rope-entscheidungsregel-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Nach der Entscheidungsregel für das ROPE-Verfahren (@kruschke2018) gibt es drei mögliche Ergebnisse, je nachdem wie sich die Post-Verteilung eines Effekts zum ROPE-Bereich (Region of Practical Equivalence) verhält. Welche Zuordnung ist korrekt?

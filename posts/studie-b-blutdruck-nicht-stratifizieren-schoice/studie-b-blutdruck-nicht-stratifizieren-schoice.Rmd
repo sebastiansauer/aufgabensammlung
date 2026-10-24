@@ -1,3 +1,9 @@
+---
+title: studie-b-blutdruck-nicht-stratifizieren-schoice
+categories:
+- kausalinferenz
+---
+
 Question
 ========
 In Studie B (Blutdruck-Medikament) senkt das Medikament den Blutdruck (was der Heilung nützt), hat aber gleichzeitig einen toxischen Effekt auf die Heilung. Innerhalb jeder Blutdruck-Gruppe (stratifiziert) scheint das Medikament zu schaden, aber in den *Gesamtdaten* scheint es zu nutzen. Warum ist es in diesem Fall -- anders als in Studie A -- richtig, die *Gesamtdaten* zu betrachten statt zu stratifizieren?

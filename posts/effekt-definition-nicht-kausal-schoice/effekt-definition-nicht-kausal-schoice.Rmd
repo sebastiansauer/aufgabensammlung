@@ -1,3 +1,9 @@
+---
+title: effekt-definition-nicht-kausal-schoice
+categories:
+- statistik-grundlagen
+---
+
 Question
 ========
 Wie definiert das Kapitel den Begriff *Effekt* im statistisch-wissenschaftlichen Sinn?

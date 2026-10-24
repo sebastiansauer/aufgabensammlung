@@ -1,3 +1,9 @@
+---
+title: evidenz-maschinen-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Drei Maschinen $M_1, M_2, M_3$ produzieren denselben Artikel, mit Produktionsanteilen von 50 %, 30 % bzw. 20 %. Ihre jeweiligen Ausschussquoten betragen 3 %, 6 % bzw. 10 %. Wie groß ist die Evidenz $Pr(A)$, also die totale Wahrscheinlichkeit, dass ein zufällig ausgewähltes Teil Ausschuss ($A$) ist?

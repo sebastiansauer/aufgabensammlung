@@ -1,3 +1,9 @@
+---
+title: erklaeren-population-vs-kausal-schoice
+categories:
+- statistik-grundlagen
+---
+
 Question
 ========
 Die Zielart *Erklären* hat laut Kapitel zwei unterschiedliche Bedeutungen: Populationsinferenz und Kausalinferenz. Welche der folgenden Forschungsfragen ist ein Beispiel für *Populationsinferenz* (im Unterschied zu Kausalinferenz)?

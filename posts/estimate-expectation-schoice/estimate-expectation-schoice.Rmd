@@ -1,3 +1,9 @@
+---
+title: estimate-expectation-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Das Kapitel visualisiert mit `estimate_expectation(modell, by = "weight_c")` eine Regressionsgerade mit einem Schätzbereich (Unsicherheitsband) und legt zusätzlich die einzelnen beobachteten Datenpunkte darüber. Welche Aussage zur Interpretation dieser Grafik ist korrekt?

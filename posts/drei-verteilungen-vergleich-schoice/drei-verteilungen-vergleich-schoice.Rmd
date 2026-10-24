@@ -1,3 +1,9 @@
+---
+title: drei-verteilungen-vergleich-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Im Kapitel werden drei verschiedene Verteilungen gegenübergestellt: die Post-Verteilung, die Stichprobenverteilung und die Posterior-Prädiktiv-Verteilung (PPV). Welche Zuordnung dieser drei Verteilungen zu ihrem jeweiligen Gegenstand ist korrekt?

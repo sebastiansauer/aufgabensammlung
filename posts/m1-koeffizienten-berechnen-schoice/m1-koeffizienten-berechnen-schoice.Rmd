@@ -1,3 +1,9 @@
+---
+title: m1-koeffizienten-berechnen-schoice
+categories:
+- kausalinferenz
+---
+
 Question
 ========
 Modell `m1` (`price ~ bedrooms`) sagt für ein Haus mit 2 Zimmern einen Preis von 150 (Tausend Dollar) und für ein Haus mit 4 Zimmern einen Preis von 250 (Tausend Dollar) voraus. Welche Werte ergeben sich für den Achsenabschnitt ($\beta_0$) und die Steigung ($\beta_1$) des linearen Modells $\text{price} = \beta_0 + \beta_1\cdot\text{bedrooms}$?

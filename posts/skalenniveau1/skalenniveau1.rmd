@@ -1,4 +1,10 @@
-
+---
+title: skalenniveau1
+categories:
+- dyn
+- variable-level
+- basics
+---
 
 ```{r libs, include = FALSE}
 library(tidyverse)

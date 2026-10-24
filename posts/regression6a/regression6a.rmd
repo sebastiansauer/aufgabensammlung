@@ -1,4 +1,10 @@
-
+---
+title: regression6a
+categories:
+- dyn
+- regression
+- lm
+---
 
 ```{r libs, include = FALSE}
 library(tidyverse)

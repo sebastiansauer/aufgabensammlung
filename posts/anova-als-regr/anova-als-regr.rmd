@@ -2,6 +2,11 @@
 output: html_document
 editor_options: 
   chunk_output_type: console
+title: anova-als-regr
+categories:
+- regression
+- bayes
+- anova
 ---
 
 ```{r libs, include = FALSE}

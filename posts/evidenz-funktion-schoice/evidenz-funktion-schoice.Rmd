@@ -1,3 +1,9 @@
+---
+title: evidenz-funktion-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Welche Funktion hat die Evidenz $Pr(D)$ in der Bayes-Formel $Pr(H|D) = \dfrac{Pr(H)\cdot Pr(D|H)}{Pr(D)}$?

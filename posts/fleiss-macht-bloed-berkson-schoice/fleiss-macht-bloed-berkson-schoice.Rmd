@@ -1,3 +1,9 @@
+---
+title: fleiss-macht-bloed-berkson-schoice
+categories:
+- kausalinferenz
+---
+
 Question
 ========
 Im Kapitel wird ein simuliertes Beispiel gezeigt, in dem IQ und Fleiß in der Gesamtpopulation unabhängig voneinander sind (`eignung = 1/2*iq + 1/2*fleiss + glueck`, `studium = 1` falls `eignung > 0`). Betrachtet man aber nur die Studierenden (`studium == 1`), findet man einen *negativen* Zusammenhang zwischen IQ und Fleiß ("Fleiß macht blöd"). Wie erklärt das Kapitel diesen Befund?

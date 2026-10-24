@@ -1,3 +1,9 @@
+---
+title: bayesbox-standardisierung-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 In einer Bayesbox berechnet man für eine Hypothese $H_i$ den unstandardisierten Aposteriori-Wert $\text{Post}_{\text{unstand}} = Pr(H_i)\cdot L_i = 0{,}05$. Die Summe aller unstandardisierten Post-Werte über sämtliche Hypothesen (die Evidenz) beträgt $0{,}2$. Wie groß ist die *standardisierte* Aposteriori-Wahrscheinlichkeit für $H_i$?

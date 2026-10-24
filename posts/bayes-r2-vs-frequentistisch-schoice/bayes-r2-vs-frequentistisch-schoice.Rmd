@@ -1,3 +1,9 @@
+---
+title: bayes-r2-vs-frequentistisch-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Welcher Unterschied besteht laut Kapitel zwischen dem klassischen (frequentistischen) $R^2$ und dem Bayes-$R^2$ zur Beurteilung der Modellgüte?

@@ -1,3 +1,9 @@
+---
+title: signifikanz-gelman-definition-schoice
+categories:
+- inferenz
+---
+
 Question
 ========
 Das Kapitel verwendet (mit Bezug auf Gelman) eine bestimmte Definition von *statistischer Signifikanz*, die explizit sowohl für die frequentistische als auch für die Bayes-Statistik gültig sein soll. Wie lautet diese Definition?

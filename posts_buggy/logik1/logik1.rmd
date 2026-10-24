@@ -1,3 +1,7 @@
+---
+title: logik1
+categories: null
+---
 
 <!-- ACHTUNG: Die Verwendung der "Wenn-Dann-Kalküle erscheint mir hier falsch! -->
 

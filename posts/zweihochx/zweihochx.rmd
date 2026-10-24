@@ -1,3 +1,8 @@
+---
+title: zweihochx
+categories: null
+---
+
 Question
 ========
 Die Zweier-Potenzreihe ($2^x$) spielt in der Datenanalyse wie auch in anderen Disziplinen eine wichtige Rolle. 

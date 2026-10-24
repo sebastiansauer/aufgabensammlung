@@ -1,3 +1,8 @@
+---
+title: schlussarten-deduktion-formel
+categories: null
+---
+
 Question
 ========
 Welche der folgenden Formeln gibt *Deduktion* am besten wieder?

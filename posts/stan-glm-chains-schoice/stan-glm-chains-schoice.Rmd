@@ -1,3 +1,9 @@
+---
+title: stan-glm-chains-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 `stan_glm()` zieht standardmäßig die Post-Stichproben in 4 unabhängigen "Ketten" (`chains`). Welche Aussage zum Zweck dieser mehrfachen Ketten ist korrekt?

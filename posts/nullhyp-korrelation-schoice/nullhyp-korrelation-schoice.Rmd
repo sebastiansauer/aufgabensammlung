@@ -1,3 +1,9 @@
+---
+title: nullhyp-korrelation-schoice
+categories:
+- inferenz
+---
+
 Question
 ========
 Eine Forscherin möchte prüfen, ob in der Population ein linearer Zusammenhang zwischen Schlafdauer und Konzentrationsfähigkeit besteht. Wie lautet die dazu passende Nullhypothese?

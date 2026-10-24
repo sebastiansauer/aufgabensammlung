@@ -1,4 +1,7 @@
-
+---
+title: parameter-statistik
+categories: null
+---
 
 ```{r libs, include = FALSE}
 library(tidyverse)

@@ -2,7 +2,8 @@
 date: '2023-05-17'
 slug: Shrinkage1
 title: Shrinkage1
-categories: schoice
+categories:
+- schoice
 - quiz
 
 ---

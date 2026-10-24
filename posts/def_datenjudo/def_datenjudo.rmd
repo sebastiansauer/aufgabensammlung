@@ -1,3 +1,8 @@
+---
+title: def_datenjudo
+categories: null
+---
+
 Question
 ========
 Was wird in den Quellen unter dem Begriff „Datenjudo“ verstanden?

@@ -1,3 +1,9 @@
+---
+title: multiple-regr-kontrolle-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Im Modell `kid_score ~ mom_iq + mom_hs` (m10.3) wird der Koeffizient für `mom_hs` auf ca. 6 geschätzt (deutlich weniger als die ca. 12 im einfachen Modell `kid_score ~ mom_hs`). Wie ist der Wert 6 in diesem Mehrfach-Regressionsmodell korrekt zu interpretieren?

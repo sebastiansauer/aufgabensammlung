@@ -1,4 +1,7 @@
-
+---
+title: wrangle6
+categories: null
+---
 
 ```{r libs, include = FALSE}
 library(tidyverse)

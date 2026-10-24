@@ -1,3 +1,8 @@
+---
+title: schlussarten-induktion-formel
+categories: null
+---
+
 Question
 ========
 Welche der folgenden Formeln gibt Induktion am besten wieder?

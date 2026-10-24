@@ -1,3 +1,9 @@
+---
+title: experiment-vs-beobachtung-konfundierung-schoice
+categories:
+- kausalinferenz
+---
+
 Question
 ========
 Warum betont das Kapitel, dass man bei *experimentellen* Daten (im Gegensatz zu Beobachtungsdaten) das Kausalmodell nicht unbedingt kennen muss, um Kausalschlüsse zu ziehen?

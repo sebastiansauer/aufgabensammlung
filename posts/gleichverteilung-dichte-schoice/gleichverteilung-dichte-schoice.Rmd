@@ -1,3 +1,9 @@
+---
+title: gleichverteilung-dichte-schoice
+categories:
+- verteilungen
+---
+
 Question
 ========
 Eine stetige Zufallsvariable $X$ sei gleichverteilt auf dem Intervall $[2, 10]$. Wie groß ist die (konstante) Dichte $f(x)$ für $x$ im Intervall $[2, 10]$?

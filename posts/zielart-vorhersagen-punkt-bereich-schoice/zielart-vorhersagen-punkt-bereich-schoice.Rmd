@@ -1,3 +1,9 @@
+---
+title: zielart-vorhersagen-punkt-bereich-schoice
+categories:
+- statistik-grundlagen
+---
+
 Question
 ========
 Ali hat 42 Stunden für die Statistikklausur gelernt. Ein Regressionsmodell sagt ihm dafür 83 Punkte voraus, alternativ einen Bereich von 62 bis 104 Punkten. Welcher Zielart der Statistik entspricht dieses Vorgehen, und wie unterscheiden sich die beiden genannten Ergebnisse?

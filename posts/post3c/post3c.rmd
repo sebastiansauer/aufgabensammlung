@@ -1,5 +1,8 @@
-
-
+---
+title: post3c
+categories:
+- qm2
+---
 
 ```{r load-libs, include = FALSE}
 library(tidyverse)

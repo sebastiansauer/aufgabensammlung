@@ -1,3 +1,8 @@
+---
+title: anova
+categories: null
+---
+
 ```{r data generation, echo = FALSE, results = "hide"}
 library(exams)
 ## DATA GENERATION

@@ -1,4 +1,8 @@
-
+---
+title: aussagen-einfache-regr
+categories:
+- regression
+---
 
 ```{r libs, include = FALSE}
 library(tidyverse)

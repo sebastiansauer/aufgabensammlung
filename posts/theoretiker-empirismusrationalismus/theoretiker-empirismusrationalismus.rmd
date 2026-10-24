@@ -1,3 +1,8 @@
+---
+title: theoretiker-empirismusrationalismus
+categories: null
+---
+
 ```{r data generation, echo = FALSE, results = "hide"}
 dat <- matrix(c(
   "Hume",           "Empirismus",

@@ -1,3 +1,8 @@
+---
+title: regression
+categories: null
+---
+
 ```{r data generation, echo = FALSE, results = "hide"}
 ## DATA GENERATION
 n <- sample(35:65,1)

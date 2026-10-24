@@ -1,3 +1,9 @@
+---
+title: epistemologische-zielrichtung-schoice
+categories:
+- kausalinferenz
+---
+
 Question
 ========
 Das Kapitel unterscheidet drei "epistemologische Zielrichtungen" einer Forschungsfrage: deskriptiv, prognostisch und kausal. Welche Zuordnung ist korrekt?

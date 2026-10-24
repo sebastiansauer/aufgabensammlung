@@ -1,3 +1,9 @@
+---
+title: ppv-definition-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Was ist die Posterior-Prädiktiv-Verteilung (PPV), und wie entsteht sie?

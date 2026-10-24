@@ -1,4 +1,7 @@
-
+---
+title: praedikatenlogik1
+categories: null
+---
 
 ```{r global-knitr-options, include=FALSE}
 knitr::opts_chunk$set(fig.pos = 'H',

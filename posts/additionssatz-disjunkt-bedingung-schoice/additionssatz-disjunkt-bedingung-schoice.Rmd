@@ -1,3 +1,9 @@
+---
+title: additionssatz-disjunkt-bedingung-schoice
+categories:
+- wahrscheinlichkeit
+---
+
 Question
 ========
 Wann darf man bei der Berechnung von $Pr(A \cup B)$ die vereinfachte Formel $Pr(A \cup B) = Pr(A) + Pr(B)$ (ohne Abzug des Schnitts) verwenden?

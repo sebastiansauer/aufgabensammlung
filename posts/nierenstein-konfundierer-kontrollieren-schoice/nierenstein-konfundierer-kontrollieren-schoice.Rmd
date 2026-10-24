@@ -1,3 +1,9 @@
+---
+title: nierenstein-konfundierer-kontrollieren-schoice
+categories:
+- kausalinferenz
+---
+
 Question
 ========
 In der Nierenstein-Studie C beeinflusst die Größe des Nierensteins sowohl, welche Behandlung (A oder B) ein Arzt wählt, als auch direkt die Heilungschance. Man ist am *kausalen Effekt der Behandlung* auf die Heilung interessiert. Sollte man die Steingröße (`size`) statistisch kontrollieren?

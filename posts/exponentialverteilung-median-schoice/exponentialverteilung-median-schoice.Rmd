@@ -1,3 +1,9 @@
+---
+title: exponentialverteilung-median-schoice
+categories:
+- verteilungen
+---
+
 Question
 ========
 Eine Zufallsvariable $X$ sei exponentialverteilt mit Rate $\lambda = 1/4$, also $X\sim \text{Exp}(1/4)$. Welchen Wert hat der Median dieser Verteilung (in R: `qexp(p = .5, rate = 1/4)`)?

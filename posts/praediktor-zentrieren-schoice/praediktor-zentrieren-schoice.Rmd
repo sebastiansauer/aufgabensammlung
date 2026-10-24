@@ -1,3 +1,9 @@
+---
+title: praediktor-zentrieren-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Warum wird der Prädiktor *Gewicht* im Kung-Regressionsmodell zentriert (d. h. `weight_c = weight - mean(weight)` gebildet), bevor das Modell berechnet wird?

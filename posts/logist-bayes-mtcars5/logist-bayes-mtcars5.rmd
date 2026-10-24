@@ -1,3 +1,7 @@
+---
+title: logist-bayes-mtcars5
+categories: null
+---
 
 ```{r}
 library(tidyverse)

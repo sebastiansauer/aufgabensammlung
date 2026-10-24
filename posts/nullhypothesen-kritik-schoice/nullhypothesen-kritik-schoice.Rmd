@@ -1,3 +1,9 @@
+---
+title: nullhypothesen-kritik-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Das Kapitel zitiert Gelman & Kollegen mit der Aussage, dass man exakte Nullhypothesen (z. B. $\beta_1=0$) in den Sozial- und Gesundheitswissenschaften kaum je für "wirklich wahr" hält. Welche Schlussfolgerung zieht das Kapitel daraus für die Praxis?

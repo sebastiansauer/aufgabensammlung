@@ -1,3 +1,9 @@
+---
+title: disjunkte-ereignisse-schoice
+categories:
+- wahrscheinlichkeit
+---
+
 Question
 ========
 Beim einfachen Würfelwurf betrachten wir die Ereignisse $A$ = "gerade Augenzahl" ($A=\{2,4,6\}$) und $C$ = "Augenzahl mindestens 5" ($C=\{5,6\}$). Sind $A$ und $C$ disjunkt?

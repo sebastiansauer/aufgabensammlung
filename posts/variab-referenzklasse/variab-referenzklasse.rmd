@@ -1,3 +1,8 @@
+---
+title: variab-referenzklasse
+categories: null
+---
+
 Question
 ========
 Welchen Einfluss hat die Variabilität der Referenzklasse auf die Glaubwürdigkeit des Induktionsschlusses in der Praxis?

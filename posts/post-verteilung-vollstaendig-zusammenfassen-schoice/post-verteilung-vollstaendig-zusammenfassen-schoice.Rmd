@@ -1,3 +1,9 @@
+---
+title: post-verteilung-vollstaendig-zusammenfassen-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Das Kapitel betont im Abschnitt zu den "Kerngedanken Bayes", dass man eine Post-Verteilung zwar zu einzelnen Kennzahlen (z. B. Mittelwert, SD oder einem HD-Intervall) zusammenfassen kann, dies aber mit einem gewissen Informationsverlust einhergeht. Welche Aussage dazu ist korrekt?

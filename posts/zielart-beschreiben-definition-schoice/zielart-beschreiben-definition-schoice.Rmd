@@ -1,3 +1,9 @@
+---
+title: zielart-beschreiben-definition-schoice
+categories:
+- statistik-grundlagen
+---
+
 Question
 ========
 Eine Dozentin sammelt in einem Hörsaal mit 100 Studierenden Zettel mit deren jeweiliger Körpergröße ein und berechnet den Mittelwert der Körpergröße der *anwesenden* Studierenden. Welcher Zielart der Statistik entspricht dieses Vorgehen, und was ist dabei laut Kapitel explizit *nicht* das Ziel?

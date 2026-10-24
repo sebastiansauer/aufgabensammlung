@@ -1,3 +1,9 @@
+---
+title: vier-atome-uebersicht-schoice
+categories:
+- kausalinferenz
+---
+
 Question
 ========
 Das Kapitel benennt vier "Atome" der Kausalanalyse, aus denen sich jeder beliebige DAG zusammensetzt. Welche Zuordnung von Atom und der zugehörigen Handlungsempfehlung (kontrollieren oder nicht) ist korrekt?

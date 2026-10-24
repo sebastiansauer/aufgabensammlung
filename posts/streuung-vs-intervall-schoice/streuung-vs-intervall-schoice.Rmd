@@ -1,3 +1,9 @@
+---
+title: streuung-vs-intervall-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Um die Ungewissheit einer Post-Verteilung zu beschreiben, könnte man klassische Streuungsmaße wie Standardabweichung (SD), Interquartilsabstand (IQR) oder mittlere absolute Abweichung (MAD) berechnen. In der Bayes-Statistik werden stattdessen aber meist Intervalle wie das HDI oder PI berichtet. Welche Aussage dazu ist am ehesten zutreffend?

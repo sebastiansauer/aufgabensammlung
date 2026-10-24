@@ -1,5 +1,10 @@
-
-
+---
+title: k-coins-nicht-k-hits
+categories:
+- probability
+- dyn
+- bayes
+---
 
 ```{r global-knitr-options, include=FALSE}
 knitr::opts_chunk$set(fig.pos = 'H',

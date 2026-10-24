@@ -1,4 +1,8 @@
-
+---
+title: wrangle8
+categories:
+- eda
+---
 
 ```{r libs, include = FALSE}
 library(tidyverse)

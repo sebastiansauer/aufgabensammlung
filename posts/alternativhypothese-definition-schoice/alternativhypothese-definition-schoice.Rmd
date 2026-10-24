@@ -1,3 +1,9 @@
+---
+title: alternativhypothese-definition-schoice
+categories:
+- inferenz
+---
+
 Question
 ========
 Was ist laut Kapitel eine *Alternativhypothese* (Effekthypothese), und welche der folgenden Aussagen ist ein Beispiel dafür?

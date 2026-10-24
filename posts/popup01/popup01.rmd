@@ -1,4 +1,9 @@
-
+---
+title: popup01
+categories:
+- eda
+- datawrangling
+---
 
 ```{r}
 library(tidyverse)

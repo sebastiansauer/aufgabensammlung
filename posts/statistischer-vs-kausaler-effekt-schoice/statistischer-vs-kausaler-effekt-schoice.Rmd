@@ -1,3 +1,9 @@
+---
+title: statistischer-vs-kausaler-effekt-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Das Kapitel betont wiederholt, lieber von einem "statistischen Effekt" als von einem "kausalen Effekt" zu sprechen, wenn man Regressionskoeffizienten (z. B. den Effekt des mütterlichen Schulabschlusses auf den Kindes-IQ) interpretiert. Warum?

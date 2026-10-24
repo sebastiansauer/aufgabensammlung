@@ -1,3 +1,8 @@
+---
+title: distros-schoice
+categories: null
+---
+
 ```{r, include=FALSE}
 library(tidyverse)
 # Coded by Rasmus Bååth

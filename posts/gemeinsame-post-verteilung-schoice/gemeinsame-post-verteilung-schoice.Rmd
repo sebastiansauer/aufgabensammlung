@@ -1,3 +1,9 @@
+---
+title: gemeinsame-post-verteilung-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Das Kung-Modell hat zwei Parameter, $\mu$ und $\sigma$. Neben den beiden einzelnen (Rand-)Verteilungen für $\mu$ und $\sigma$ zeigt das Kapitel auch die *gemeinsame* Post-Verteilung beider Parameter (z. B. als Streudiagramm oder Fliesendiagramm von $\mu$ gegen $\sigma$). Welche Aussage dazu ist korrekt?

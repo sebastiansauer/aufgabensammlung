@@ -1,3 +1,9 @@
+---
+title: minimale-adjustierungsmenge-definition-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Was ist laut Kapitel eine "minimale Adjustierungsmenge" (minimal adjustment set)?

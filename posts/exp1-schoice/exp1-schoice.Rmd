@@ -1,3 +1,8 @@
+---
+title: exp1-schoice
+categories: null
+---
+
 Question
 ========
 Die Expontentialverteilung ist eine häufig verwendete Verteilung in der Statistik. Sie kann verwendet werden, um Streuungen zu modellieren.

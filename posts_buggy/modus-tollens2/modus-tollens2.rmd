@@ -1,3 +1,7 @@
+---
+title: modus-tollens2
+categories: null
+---
 
 <!-- STILL BUGGY!!! -->
 

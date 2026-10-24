@@ -1,4 +1,10 @@
-
+---
+title: penguins-regr03
+categories:
+- lm
+- bayes
+- rope
+---
 
 ```{r}
 library(tidyverse)

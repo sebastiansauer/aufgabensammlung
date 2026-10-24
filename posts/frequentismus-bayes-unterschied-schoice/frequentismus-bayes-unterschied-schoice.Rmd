@@ -1,3 +1,9 @@
+---
+title: frequentismus-bayes-unterschied-schoice
+categories:
+- inferenz
+---
+
 Question
 ========
 Welche der folgenden Aussagen beschreibt einen im Kapitel dargestellten, zutreffenden Unterschied zwischen frequentistischer und Bayes-Inferenz?

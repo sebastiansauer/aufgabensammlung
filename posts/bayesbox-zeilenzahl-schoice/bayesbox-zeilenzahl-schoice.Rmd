@@ -1,3 +1,9 @@
+---
+title: bayesbox-zeilenzahl-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Bei einem Regressionsmodell mit 4 zu schätzenden Parametern nimmt man für jeden Parameter 50 mögliche Ausprägungen (Gitterwerte) an. Wie viele Zeilen hätte eine vollständige Bayesbox (Gittermethode) für dieses Modell?

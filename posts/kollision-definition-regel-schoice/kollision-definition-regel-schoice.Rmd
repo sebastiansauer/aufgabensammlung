@@ -1,3 +1,9 @@
+---
+title: kollision-definition-regel-schoice
+categories:
+- kausalinferenz
+---
+
 Question
 ========
 Eine Kollision (Collider) liegt vor, wenn eine Variable die gemeinsame Wirkung zweier Ursachen ist (z. B. `date` als gemeinsame Wirkung von `Schönheit` und `Talent`). Welche Aussage zum Umgang mit einer solchen Kollisionsvariable ist korrekt?

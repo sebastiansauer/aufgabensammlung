@@ -1,3 +1,9 @@
+---
+title: popper-falsifikation-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Das Kapitel greift Karl Poppers Beispiel der Hypothese "Alle Schwäne sind weiß" auf. Welche Aussage zu diesem Beispiel und seiner Bedeutung für das Testen von Hypothesen ist korrekt?

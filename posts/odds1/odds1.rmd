@@ -1,4 +1,8 @@
-
+---
+title: odds1
+categories:
+- qm2
+---
 
 ```{r libs, include = FALSE}
 library(tidyverse)

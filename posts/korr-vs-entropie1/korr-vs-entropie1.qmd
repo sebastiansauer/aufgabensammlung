@@ -1,3 +1,8 @@
+---
+title: korr-vs-entropie1
+categories:
+- 2023
+---
 
 <!-- ACHTUNG! DIESE AUFGABE IST BRUCHSTÜCKHAFT! -->
 

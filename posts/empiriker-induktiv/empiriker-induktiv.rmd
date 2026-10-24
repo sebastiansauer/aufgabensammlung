@@ -1,4 +1,7 @@
-
+---
+title: empiriker-induktiv
+categories: null
+---
 
 Question
 ========

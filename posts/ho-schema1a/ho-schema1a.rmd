@@ -1,3 +1,8 @@
+---
+title: ho-schema1a
+categories: null
+---
+
 Question
 ========
 Nach Hempel und Oppenheim ist ein Phänomen nur dann wissenschaftlich erklärt, wenn einige Voraussetzungen im Hinblick auf die Erklärung erfüllt sind. Kreuzen Sie die richtige Voraussetzung an.

@@ -1,3 +1,8 @@
+---
+title: exp2-schoice
+categories: null
+---
+
 Question
 ========
 Sei $X \sim \text{Exp}(1)$.

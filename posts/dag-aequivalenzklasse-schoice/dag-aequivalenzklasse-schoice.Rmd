@@ -1,3 +1,9 @@
+---
+title: dag-aequivalenzklasse-schoice
+categories:
+- kausalinferenz
+---
+
 Question
 ========
 Das Kapitel zeigt, dass es zu Dons Datenlage (Zusammenhänge zwischen `bedrooms`, `livingArea`, `price`) mehrere unterschiedliche DAGs gibt, die *alle* dieselben (Un-)Abhängigkeitsimplikationen haben. Was folgt daraus für die Kausalanalyse?

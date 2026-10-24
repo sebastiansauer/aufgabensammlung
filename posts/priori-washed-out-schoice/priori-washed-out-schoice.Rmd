@@ -1,3 +1,9 @@
+---
+title: priori-washed-out-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Im Kapitel werden zwei Kung-Modelle verglichen: `m_kung` (mit selbst gewählten, informativen Priori-Werten $\mu\sim\mathcal{N}(178,20)$) und `m_kung_neue_prioris` (mit den schwach-informativen Standard-Priori-Werten von `rstanarm`). Beide liefern nahezu identische Ergebnisse für $\mu$ und $\sigma$. Welche Erklärung dafür ist im Kapitel korrekt?

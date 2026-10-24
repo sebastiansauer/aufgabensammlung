@@ -1,3 +1,9 @@
+---
+title: zielarten-stat-schoice
+categories:
+- inferenz
+---
+
 Question
 ========
 Ein Forschungsteam möchte herausfinden, ob eine Erhöhung des Mindestlohns tatsächlich zu einer Verringerung der Arbeitslosigkeit in einer Region führt -- nicht nur, ob beide Größen zusammenhängen, sondern ob die eine die andere *bewirkt*. Welcher Zielart der Statistik entspricht diese Fragestellung am ehesten?

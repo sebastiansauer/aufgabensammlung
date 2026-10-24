@@ -1,3 +1,9 @@
+---
+title: ungewissheit-beta-sigma-schoice
+categories:
+- inferenz
+---
+
 Question
 ========
 Zwei Forschende schätzen je ein Regressionsmodell zur Vorhersage von Klausurpunkten anhand der Lernzeit.

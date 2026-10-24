@@ -1,3 +1,7 @@
+---
+title: deduktion
+categories: null
+---
 
 <!-- Leider kann man diese Art von Fragen wohl nicht automatisch auswerten in Moodle! -->
 

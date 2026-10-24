@@ -1,3 +1,9 @@
+---
+title: multiplikationssatz-ohne-zuruecklegen-schoice
+categories:
+- wahrscheinlichkeit
+---
+
 Question
 ========
 Eine Urne enthält 6 Kugeln, davon 4 rote und 2 blaue. Es werden nacheinander 2 Kugeln *ohne Zurücklegen* (ZOZ) gezogen. Wie hoch ist die Wahrscheinlichkeit, dass *beide* gezogenen Kugeln rot sind?

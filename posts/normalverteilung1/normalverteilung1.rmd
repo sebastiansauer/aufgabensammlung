@@ -1,3 +1,8 @@
+---
+title: normalverteilung1
+categories: null
+---
+
 <!-- based on work by Karsten Luebke et al. -->
 
 ```{r libs, include = FALSE}

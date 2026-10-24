@@ -1,3 +1,9 @@
+---
+title: inferenz-ungewissheit-notwendig-schoice
+categories:
+- inferenz
+---
+
 Question
 ========
 Schließt man aus einer Stichprobe, dass der Anteil der R-Fans in einer Population bei 42 % liegt, so ist dieser Schluss zwangsläufig mit *Ungewissheit* behaftet. Warum ist das so?

@@ -1,3 +1,9 @@
+---
+title: elementarereignis-muenzwurf-schoice
+categories:
+- wahrscheinlichkeit
+---
+
 Question
 ========
 Eine Münze wird dreimal geworfen (K = Kopf, Z = Zahl). Der Ergebnisraum ist $\Omega = \{KKK, KKZ, KZK, KZZ, ZKK, ZKZ, ZZK, ZZZ\}$, also $|\Omega| = 8$. Welches der folgenden Ereignisse ist ein *Elementarereignis*?

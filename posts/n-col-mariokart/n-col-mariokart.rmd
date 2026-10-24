@@ -1,6 +1,10 @@
-
-
-
+---
+title: n-col-mariokart
+categories:
+- basics
+- wrangling
+- data
+---
 
 ```{r global-knitr-options, include=FALSE}
 knitr::opts_chunk$set(fig.pos = 'H',

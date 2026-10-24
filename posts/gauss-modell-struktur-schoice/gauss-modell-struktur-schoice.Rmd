@@ -1,3 +1,9 @@
+---
+title: gauss-modell-struktur-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Das Kung-Modell aus dem Kapitel ist wie folgt spezifiziert:

@@ -1,3 +1,8 @@
+---
+title: scatterplot-de
+categories: null
+---
+
 ```{r data generation, echo = FALSE, results = "hide"}
 ## DATA GENERATION
 r <- sample(c(-0.97, 0, 0.5, 0.97), 1)

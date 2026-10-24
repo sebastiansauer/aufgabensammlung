@@ -1,3 +1,8 @@
+---
+title: fofrage-regrformel-schoice
+categories: null
+---
+
 ```{r, include=FALSE}
 library(palmerpenguins)
 data(penguins)

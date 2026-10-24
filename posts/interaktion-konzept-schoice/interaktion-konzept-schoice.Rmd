@@ -1,3 +1,9 @@
+---
+title: interaktion-konzept-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Welche Aussage zum Konzept der Interaktion (Moderation) in einem Regressionsmodell wie `kid_score ~ mom_iq + mom_hs + mom_iq:mom_hs` ist korrekt?

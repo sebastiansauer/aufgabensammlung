@@ -1,3 +1,9 @@
+---
+title: warum-exponential-fuer-sigma-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Im Kung-Modell wird für den Mittelwert $\mu$ eine Normalverteilung, für die Streuung $\sigma$ hingegen eine Exponentialverteilung als Apriori-Verteilung gewählt. Warum eignet sich die Normalverteilung *nicht* auch für $\sigma$?

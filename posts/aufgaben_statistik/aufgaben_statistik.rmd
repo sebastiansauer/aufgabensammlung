@@ -1,3 +1,8 @@
+---
+title: aufgaben_statistik
+categories: null
+---
+
 Question
 ========
 Welches Bild zeigt Bestimmungsstücke der Definition von Statistik?

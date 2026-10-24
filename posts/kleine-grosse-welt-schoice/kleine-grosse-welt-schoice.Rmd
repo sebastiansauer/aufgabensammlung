@@ -1,3 +1,9 @@
+---
+title: kleine-grosse-welt-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Welche der folgenden Aussagen zum Konzept "kleine Welt vs. große Welt" im Kontext wissenschaftlicher Modelle (z. B. Behaims Globus) ist korrekt?

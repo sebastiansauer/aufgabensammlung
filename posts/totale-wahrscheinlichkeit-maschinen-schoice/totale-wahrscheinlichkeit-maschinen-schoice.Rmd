@@ -1,3 +1,9 @@
+---
+title: totale-wahrscheinlichkeit-maschinen-schoice
+categories:
+- wahrscheinlichkeit
+---
+
 Question
 ========
 Drei Maschinen $M_1, M_2, M_3$ produzieren einen Artikel, mit Produktionsanteilen von 50 %, 30 % bzw. 20 % und Ausschussquoten von 4 %, 8 % bzw. 1 %. Wie hoch ist die *totale* Ausschusswahrscheinlichkeit $Pr(S)$ über alle drei Maschinen hinweg?

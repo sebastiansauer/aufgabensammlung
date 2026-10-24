@@ -1,3 +1,9 @@
+---
+title: likelihood-globusversuch-berechnung-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Bei einem Globusversuch werden $n=10$ Würfe durchgeführt, davon zeigt $W=7$ Mal der Zeigefinger auf Wasser. Wie groß ist die Likelihood für die Hypothese $\pi=0{,}6$, also $Pr(W=7, n=10\mid \pi=0{,}6)$?

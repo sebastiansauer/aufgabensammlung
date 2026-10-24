@@ -1,3 +1,9 @@
+---
+title: bsp1-hintertuer-schliessen-schoice
+categories:
+- kausalinferenz
+---
+
 Question
 ========
 Im DAG-Beispiel `bsp1` (UV: $X$, AV: $Y$, Kovariaten $A$, $B$, $C$, ungemessene Variable $U$; mit $C\rightarrow B$, $U\rightarrow B$, $A\rightarrow C$, $A\rightarrow U$, $U\rightarrow X$, $C\rightarrow Y$, $X\rightarrow Y$) gibt es zwei Hintertürpfade: $X\leftarrow U\leftarrow A\rightarrow C\rightarrow Y$ (offen) und $X\leftarrow U\rightarrow B\leftarrow C\rightarrow Y$ (bereits geschlossen, da $B$ eine Kollisionsvariable auf diesem Pfad ist). Welche Variable(n) muss man kontrollieren, um die offene Hintertür zu schließen?

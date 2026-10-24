@@ -1,3 +1,10 @@
+---
+title: ungewiss-arten-regr_var1
+categories:
+- inference
+- lm
+- qm2
+---
 
 ```{r libs, include = FALSE}
 

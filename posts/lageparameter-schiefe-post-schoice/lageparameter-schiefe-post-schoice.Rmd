@@ -1,3 +1,9 @@
+---
+title: lageparameter-schiefe-post-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Bei der Post-Verteilung eines Globusversuchs mit $W=3$ Treffern bei $N=3$ Würfen liegt der Modus (wahrscheinlichster Wert) bei $\pi=1$, während Mittelwert und Median der Post-Verteilung deutlich darunter liegen. Welche Aussage zum Zusammenhang von Schiefe und den drei Lageparametern (Mittelwert, Median, Modus) ist korrekt?

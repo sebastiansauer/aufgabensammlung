@@ -1,3 +1,9 @@
+---
+title: robo-professor-rope-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 An einer Hochschule wird der Effekt eines "Robo-Professors" (KI-gestützte Lehre) auf die Lernleistung im Fach Statistik untersucht. Das Regressionsmodell `m_robo` liefert für den Koeffizienten `robo_professor` einen ROPE-Anteil von 10 % (d. h. 10 % der relevanten Post-Verteilung liegen innerhalb des ROPE, 90 % außerhalb). Welche Aussage dazu ist korrekt?

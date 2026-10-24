@@ -1,7 +1,11 @@
-
-
-
-
+---
+title: tidymodels-simple5
+categories:
+- tidymodels
+- statlearning
+- simple
+- trees
+---
 
 Question
 ========

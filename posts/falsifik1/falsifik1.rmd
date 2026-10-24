@@ -1,3 +1,8 @@
+---
+title: falsifik1
+categories: null
+---
+
 Question
 ========
 Nach Popper sollten Forschende versuchen, Hypothesen zu falsifizieren. Welche Konsequenzen ergeben sich daraus für eine Studie? (Gehen Sie davon aus, dass größere Stichproben zu genaueren Ergebnissen führen.)

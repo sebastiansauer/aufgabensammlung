@@ -1,4 +1,7 @@
-
+---
+title: flights-geom_point-geom-lm
+categories: null
+---
 
 ```{r libs, include = FALSE}
 library(tidyverse)

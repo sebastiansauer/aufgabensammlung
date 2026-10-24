@@ -1,3 +1,9 @@
+---
+title: vollstandardisiertes-modell-interpretation-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Im vollständig standardisierten Modell `kid_score_z ~ mom_iq_z + mom_age_z` (m10.12) wird der Koeffizient für `mom_iq_z` auf ca. 0,44 geschätzt. Wie ist dieser Wert korrekt zu interpretieren?

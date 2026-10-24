@@ -1,4 +1,7 @@
-
+---
+title: viz-geom-point7
+categories: null
+---
 
 ```{r libs, include = FALSE}
 library(tidyverse)

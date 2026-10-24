@@ -1,3 +1,9 @@
+---
+title: pruefen-vs-schaetzen-unterschied-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Welche Aussage beschreibt den zentralen Unterschied zwischen dem *Testen von Hypothesen* und dem *Schätzen von Parametern* korrekt?

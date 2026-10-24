@@ -1,3 +1,9 @@
+---
+title: mediator-vs-confounder-schoice
+categories:
+- kausalinferenz
+---
+
 Question
 ========
 Im Kausalmodell zu Studie B (Blutdruck) hat das Medikament (`drug`) keinen direkten Effekt auf die Heilung (`recovery`), sondern zwei indirekte Effekte: einen heilsamen Effekt über die Blutdrucksenkung (`pressure`) und einen schädlichen, toxischen Effekt (`toxic`). Warum liefert die Betrachtung der nach Blutdruck stratifizierten Teildaten hier ein irreführendes Bild -- anders als das Stratifizieren nach Geschlecht in Studie A?

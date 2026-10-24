@@ -1,4 +1,7 @@
-
+---
+title: stichprobenmethoden
+categories: null
+---
 
 ```{r libs, include = FALSE}
 library(tidyverse)

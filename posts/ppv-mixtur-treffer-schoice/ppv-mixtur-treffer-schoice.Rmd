@@ -1,3 +1,9 @@
+---
+title: ppv-mixtur-treffer-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Eine (stark vereinfachte) Stichproben-Post-Verteilung besteht nur aus zwei möglichen Parameterwerten: $\pi=0{,}5$ mit einem Anteil von 30 % der Stichproben und $\pi=0{,}8$ mit einem Anteil von 70 % der Stichproben. Für einen neuen Versuch mit $N=2$ Würfen berechnet man die PPV als gewichteten Mittelwert der beiden zugehörigen Stichprobenverteilungen. Wie hoch ist die PPV-Wahrscheinlichkeit für $X=2$ Treffer, $Pr_{PPV}(X=2)$?

@@ -1,4 +1,7 @@
-
+---
+title: kontingenztabelle1
+categories: null
+---
 
 ```{r libs, include = FALSE}
 

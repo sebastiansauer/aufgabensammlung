@@ -1,3 +1,9 @@
+---
+title: binomialkoeffizient-ausschuss-schoice
+categories:
+- verteilungen
+---
+
 Question
 ========
 Ein Verein hat 12 Mitglieder. Für einen Ausschuss sollen 5 Mitglieder ausgewählt werden, wobei die Reihenfolge der Auswahl keine Rolle spielt und jedes Mitglied höchstens einmal gewählt werden kann. Wie viele mögliche Ausschüsse gibt es?

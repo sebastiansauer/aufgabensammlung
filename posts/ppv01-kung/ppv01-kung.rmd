@@ -1,4 +1,10 @@
-
+---
+title: ppv01-kung
+categories:
+- probability
+- bayes
+- ppv
+---
 
 ```{r libs, include = FALSE}
 library(tidyverse)

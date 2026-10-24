@@ -1,3 +1,9 @@
+---
+title: koeffizienten-kausal-ohne-fundierung-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Ein weiterer im Kapitel genannter "Lieblingsfehler" lautet: "Regressionskoeffizienten kausal interpretieren, wenn es keine kausale Fundierung gibt". Was genau ist mit "kausaler Fundierung" hier gemeint, und wann ist eine kausale Interpretation eines Regressionskoeffizienten gerechtfertigt?

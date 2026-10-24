@@ -1,3 +1,8 @@
+---
+title: def-signif-schoice
+categories: null
+---
+
 Question
 ========
 Behauptung: *Ist Null nicht im Konfidenzintervall enthalten, so liegt ein statistisch signifikantes Ergebnis vor.*

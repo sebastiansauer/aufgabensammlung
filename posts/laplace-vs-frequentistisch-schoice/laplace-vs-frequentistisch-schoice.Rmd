@@ -1,3 +1,9 @@
+---
+title: laplace-vs-frequentistisch-schoice
+categories:
+- wahrscheinlichkeit
+---
+
 Question
 ========
 Ein Glücksspielautomat hat eine unbekannte Gewinnwahrscheinlichkeit; man hat *keinen* Grund anzunehmen, dass Gewinn und Verlust gleich wahrscheinlich sind (der Automat könnte so programmiert sein, dass er seltener gewinnt als verliert). Welche Vorgehensweise zur Schätzung der Gewinnwahrscheinlichkeit ist hier angemessen?

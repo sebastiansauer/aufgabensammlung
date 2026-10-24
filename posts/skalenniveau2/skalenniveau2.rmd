@@ -1,4 +1,8 @@
-
+---
+title: skalenniveau2
+categories:
+- variable-levels
+---
 
 ```{r libs, include = FALSE}
 

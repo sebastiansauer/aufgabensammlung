@@ -1,6 +1,11 @@
-
-
-
+---
+title: tidymodels01
+categories:
+- R
+- statlearning
+- tidymodels
+- lm
+---
 
 ```{r global-knitr-options, include=FALSE}
 knitr::opts_chunk$set(fig.pos = 'H',

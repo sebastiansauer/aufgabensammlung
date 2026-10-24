@@ -1,3 +1,8 @@
+---
+title: filter-b
+categories: null
+---
+
 Question
 ========
 Sie möchten nur die Mariokart-Auktionen untersuchen, die **sowohl** ein Foto haben (`stock_photo == "yes"`) **als auch** im Zustand „neu“ (`cond == "new"`) sind. Welche Syntax ist korrekt?

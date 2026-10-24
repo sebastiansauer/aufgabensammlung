@@ -1,3 +1,9 @@
+---
+title: mediator-kontrollieren-fehler-schoice
+categories:
+- kausalinferenz
+---
+
 Question
 ========
 Gegeben sei eine Mediationsstruktur $x \rightarrow m \rightarrow y$, wobei $m$ der Mediator ist. Man ist am *totalen* kausalen Effekt von $x$ auf $y$ interessiert. Sollte man den Mediator $m$ in der Regression kontrollieren?

@@ -1,3 +1,9 @@
+---
+title: flights-geovis
+categories:
+- STUB
+---
+
 Question
 ========
 Wir analysieren jetzt den Datensatz `flights`. Hier ist ein Überblick des Datensatzes:

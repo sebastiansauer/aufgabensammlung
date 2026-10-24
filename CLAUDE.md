@@ -8,6 +8,10 @@ A collection of statistics/data-science exercises (in German) for students. Each
 
 This repo is **not** the source of the blog [datenwerk.netlify.app](https://datenwerk.netlify.app). The blog lives in the separate repo `../07_datenwerk` (github: sebastiansauer/datenwerk) with its own copies of the exercises; the two have diverged. Changes here do not affect the blog.
 
+## YAML header
+
+Every exercise starts with a YAML header holding at least `title` and `categories`. `categories: null` marks an exercise whose categories still have to be added.
+
 ## schoice exercises: R/exams format
 
 All `schoice` exercises in `posts/` are meant to be readable by the `exams` package (`exams2moodle()` etc.). They use:

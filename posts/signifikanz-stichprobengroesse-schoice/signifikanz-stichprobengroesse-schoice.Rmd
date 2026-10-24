@@ -1,3 +1,9 @@
+---
+title: signifikanz-stichprobengroesse-schoice
+categories:
+- inferenz
+---
+
 Question
 ========
 Nach der im Kapitel verwendeten Definition (angelehnt an Gelman) gilt ein Ergebnis als statistisch signifikant, wenn der Nullwert *nicht* im Schätzbereich (Konfidenzintervall) enthalten ist. Welche der folgenden Aussagen zur statistischen Signifikanz im Frequentismus ist korrekt?

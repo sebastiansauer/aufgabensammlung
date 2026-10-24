@@ -1,3 +1,9 @@
+---
+title: vorhersage-interaktion-berechnen-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Ein Regressionsmodell mit Interaktion ist gegeben durch $\text{kid\_score} = \beta_0 + \beta_1\cdot\text{mom\_hs} + \beta_2\cdot\text{mom\_iq} + \beta_3\cdot\text{mom\_hs}\cdot\text{mom\_iq}$, mit den Punktschätzern $\beta_0=20$, $\beta_1=8$, $\beta_2=0{,}5$, $\beta_3=-0{,}1$. Welchen `kid_score`-Wert sagt das Modell für ein Kind vorher, dessen Mutter einen Schulabschluss hat ($\text{mom\_hs}=1$) und einen IQ von 100 hat?

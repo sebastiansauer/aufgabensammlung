@@ -1,3 +1,9 @@
+---
+title: doppelte-konfundierung-adjustment-set-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Ein DAG mit "doppelter Konfundierung" enthält folgende Pfeile: $A\rightarrow E$, $A\rightarrow Z$, $B\rightarrow D$, $B\rightarrow Z$, $E\rightarrow D$, $Z\rightarrow D$, $Z\rightarrow E$. Dabei ist $E$ die UV (Exposure) und $D$ die AV (Outcome). Welche der folgenden Mengen ist laut Kapitel eine korrekte *minimale Adjustierungsmenge*, um den totalen kausalen Effekt von $E$ auf $D$ zu bestimmen?

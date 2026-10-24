@@ -1,4 +1,8 @@
-
+---
+title: post5a
+categories:
+- qm2
+---
 
 ```{r libs, include = FALSE}
 library(tidyverse)

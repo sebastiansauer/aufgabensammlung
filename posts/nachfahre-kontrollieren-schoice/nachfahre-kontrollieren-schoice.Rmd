@@ -1,3 +1,9 @@
+---
+title: nachfahre-kontrollieren-schoice
+categories:
+- kausalinferenz
+---
+
 Question
 ========
 Ein *Nachfahre* ist eine Variable, die kausal von einer anderen Variable im DAG beeinflusst wird (z. B. wenn eine Kollisionsvariable $m$ ihrerseits eine Wirkung $d$ hat: $x\rightarrow m \leftarrow y$, $m\rightarrow d$). Welche Aussage zum Kontrollieren eines Nachfahren $d$ ist korrekt?

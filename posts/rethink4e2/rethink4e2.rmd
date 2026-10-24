@@ -1,4 +1,9 @@
-
+---
+title: rethink4e2
+categories:
+- probability
+- bayes
+---
 
 ```{r libs, include = FALSE}
 library(tidyverse)

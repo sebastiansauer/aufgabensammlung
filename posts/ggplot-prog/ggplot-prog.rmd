@@ -1,4 +1,7 @@
-
+---
+title: ggplot-prog
+categories: null
+---
 
 ```{r}
 library(tidyverse)

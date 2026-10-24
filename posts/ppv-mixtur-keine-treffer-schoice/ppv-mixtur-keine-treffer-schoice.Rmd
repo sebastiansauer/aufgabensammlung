@@ -1,3 +1,9 @@
+---
+title: ppv-mixtur-keine-treffer-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Wie in der vorherigen Aufgabe besteht eine (vereinfachte) Stichproben-Post-Verteilung aus zwei möglichen Parameterwerten: $\pi=0{,}5$ mit einem Anteil von 30 % und $\pi=0{,}8$ mit einem Anteil von 70 % der Stichproben. Für einen neuen Versuch mit $N=2$ Würfen: Wie hoch ist die PPV-Wahrscheinlichkeit für $X=0$ Treffer, $Pr_{PPV}(X=0)$?

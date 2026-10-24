@@ -1,3 +1,8 @@
+---
+title: falsifik2
+categories: null
+---
+
 Question
 ========
 Nach Popper sollten Forschende versuchen, Hypothesen zu falsifizieren. Ist Verifikation demnach nicht sinnvoll?

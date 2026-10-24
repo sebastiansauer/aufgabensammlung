@@ -1,3 +1,8 @@
+---
+title: gruppenvergleich-regression-schoice
+categories: null
+---
+
 Question
 ========
 Beurteilen Sie folgende Aussagen: *Man kann die Forschungsfrage, ob sich zwei Gruppen (Populationen) hinsichtlich ihres Mittelwerts unterscheiden, mit einem t-Test oder einer Regressionsanalyse untersuchen.*

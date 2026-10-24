@@ -1,3 +1,9 @@
+---
+title: additionssatz-allgemein-schoice
+categories:
+- wahrscheinlichkeit
+---
+
 Question
 ========
 Zwei Ereignisse $A$ und $B$ (nicht notwendigerweise disjunkt) haben $Pr(A)=0{,}4$, $Pr(B)=0{,}3$ und $Pr(A \cap B)=0{,}1$. Wie groß ist $Pr(A \cup B)$?

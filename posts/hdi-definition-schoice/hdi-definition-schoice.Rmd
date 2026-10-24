@@ -1,3 +1,9 @@
+---
+title: hdi-definition-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Was ist per Definition das entscheidende Kennzeichen eines Intervalls höchster Dichte (Highest Density Interval, HDI)?

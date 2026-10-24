@@ -1,3 +1,11 @@
+---
+title: bed-post-wskt2
+categories:
+- post
+- bayes
+- dyn
+---
+
 <!-- Achtung, es kann passieren, dass mehrere Antwortoptionen den Wert "0" anzeigen, -->
 <!-- was von Studis als "Fehler" gesehen werden kann. Muss noch korrigiert werden. -->
 

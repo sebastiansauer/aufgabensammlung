@@ -1,3 +1,9 @@
+---
+title: gleichverteilung-eigenschaften-schoice
+categories:
+- verteilungen
+---
+
 Question
 ========
 Welche der folgenden Aussagen zur stetigen Gleichverteilung ist korrekt?

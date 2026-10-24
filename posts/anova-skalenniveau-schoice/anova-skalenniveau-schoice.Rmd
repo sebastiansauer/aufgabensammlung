@@ -1,3 +1,8 @@
+---
+title: anova-skalenniveau-schoice
+categories: null
+---
+
 ```{r libs, include=FALSE}
 library(tidyverse)
 ```

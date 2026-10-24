@@ -1,3 +1,8 @@
+---
+title: denkfehler-verifikation
+categories: null
+---
+
 Question
 ========
 Beurteilen Sie folgendes Kalkül auf Richtigkeit ($H$: Hypothese H ist der Fall; $B$: Beobachtung B ist der Fall).

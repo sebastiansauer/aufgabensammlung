@@ -1,3 +1,9 @@
+---
+title: bayes-begriffe-apriori-likelihood-post-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Welche der folgenden Zuordnungen zu den drei zentralen Bestandteilen eines Bayes-Modells ist korrekt?

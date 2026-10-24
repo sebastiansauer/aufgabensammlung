@@ -1,3 +1,8 @@
+---
+title: exzessiv-samplesize
+categories: null
+---
+
 Question
 ========
 Identifizieren Sie die Kernaussagen dieses Fachartikels: Schwennen, C., & Bierhoff, H.-W. (2006). Die Erfassung exzessiver Bestätigungssuche in sexuellen Abenteuern. Diagnostica, 52(2), 88–94. https://doi.org/10.1026/0012-1924.52.2.88.

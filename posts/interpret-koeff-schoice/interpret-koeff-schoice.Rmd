@@ -1,3 +1,8 @@
+---
+title: interpret-koeff-schoice
+categories: null
+---
+
 Question
 ========
 Betrachten Sie dieses Modell, das den Zusammenhang von PS-Zahl (`hp`: horse power) und Spritverbrauch (`mpg`: miles per Gallone) untersucht (Datensatz `mtcars`):

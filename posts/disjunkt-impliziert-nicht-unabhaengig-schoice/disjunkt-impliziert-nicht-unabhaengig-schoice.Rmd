@@ -1,3 +1,9 @@
+---
+title: disjunkt-impliziert-nicht-unabhaengig-schoice
+categories:
+- wahrscheinlichkeit
+---
+
 Question
 ========
 $A$ und $B$ seien disjunkt ($A \cap B = \emptyset$) und beide mit positiver Wahrscheinlichkeit, $Pr(A) > 0$ und $Pr(B) > 0$. Sind $A$ und $B$ (stochastisch) unabhängig?

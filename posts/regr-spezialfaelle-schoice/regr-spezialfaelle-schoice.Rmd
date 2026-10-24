@@ -1,3 +1,9 @@
+---
+title: regr-spezialfaelle-schoice
+categories:
+- regression
+---
+
 Question
 ========
 Die Regressionsanalyse wird im Kapitel als "Schweizer Taschenmesser" der Statistik bezeichnet, da viele klassische Verfahren Spezialfälle der Regression sind. Welche der folgenden Aussagen dazu ist korrekt?

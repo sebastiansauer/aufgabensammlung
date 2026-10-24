@@ -1,3 +1,9 @@
+---
+title: binomialverteilung-symmetrie-schoice
+categories:
+- verteilungen
+---
+
 Question
 ========
 Für welche Kombination von Parametern ist die Binomialverteilung $\text{Bin}(n,p)$ symmetrisch?

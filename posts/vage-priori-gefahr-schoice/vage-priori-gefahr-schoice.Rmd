@@ -1,3 +1,9 @@
+---
+title: vage-priori-gefahr-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Im Vertiefungsabschnitt wird eine besonders vage Priori für die Streuung getestet, $\sigma\sim\mathcal{E}(\lambda=0{,}01)$, kombiniert mit $\mu\sim\mathcal{N}(178,100)$. Die resultierende Priori-Prädiktiv-Verteilung zeigt, dass ein spürbarer Anteil simulierter Körpergrößen negativ ist und auch unrealistisch riesige Werte vorkommen. Welche Schlussfolgerung zieht das Kapitel daraus?

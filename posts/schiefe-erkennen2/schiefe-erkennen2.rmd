@@ -1,4 +1,10 @@
-
+---
+title: schiefe-erkennen2
+categories:
+- dyn
+- eda
+- lagemaße
+---
 
 ```{r libs, include = FALSE}
 

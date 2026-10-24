@@ -1,3 +1,8 @@
+---
+title: arrange
+categories: null
+---
+
 Question
 ========
 Wie kann man in R den Datensatz `mariokart` **absteigend** nach der Variable `total_pr` sortieren?

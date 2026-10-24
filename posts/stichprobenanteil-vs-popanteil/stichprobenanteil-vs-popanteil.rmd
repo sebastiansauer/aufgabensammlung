@@ -1,4 +1,7 @@
-
+---
+title: stichprobenanteil-vs-popanteil
+categories: null
+---
 
 ```{r libs, include = FALSE}
 library(tidyverse)

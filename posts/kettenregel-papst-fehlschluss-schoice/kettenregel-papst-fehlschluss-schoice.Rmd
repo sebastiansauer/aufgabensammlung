@@ -1,3 +1,9 @@
+---
+title: kettenregel-papst-fehlschluss-schoice
+categories:
+- wahrscheinlichkeit
+---
+
 Question
 ========
 Gegeben seien $Pr(A) = 0{,}5$, $Pr(B) = 0{,}4$ und $Pr(A \mid B) = 0{,}3$. Wie hoch ist $Pr(B \mid A)$?

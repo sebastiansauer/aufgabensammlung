@@ -1,3 +1,9 @@
+---
+title: bedingte-wahrscheinlichkeit-hintergrundwissen-schoice
+categories:
+- wahrscheinlichkeit
+---
+
 Question
 ========
 Ein unbedarfter Spieler geht von $Pr(Z\mid F) = 0{,}5$ aus (Wahrscheinlichkeit für "Zahl", gegeben seiner Annahme $F$, dass die Münze fair ist). Ein Betrüger, der die Münze präpariert hat, geht von $Pr(Z\mid B) = 0{,}75$ aus (gegeben seines Wissens $B$ über die Präparation). Welche Aussage beschreibt am besten, warum dies *kein* Widerspruch ist?

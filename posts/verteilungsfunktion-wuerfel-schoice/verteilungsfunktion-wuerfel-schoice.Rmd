@@ -1,3 +1,9 @@
+---
+title: verteilungsfunktion-wuerfel-schoice
+categories:
+- wahrscheinlichkeit
+---
+
 Question
 ========
 Sei $X$ die Augenzahl beim einfachen Wurf eines fairen Würfels ($X \in \{1,2,3,4,5,6\}$, jede Zahl mit Wahrscheinlichkeit $1/6$). Wie groß ist der Wert der Verteilungsfunktion $F(4)$?

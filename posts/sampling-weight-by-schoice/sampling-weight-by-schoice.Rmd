@@ -1,3 +1,9 @@
+---
+title: sampling-weight-by-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Um aus einer Bayesbox eine Stichproben-Post-Verteilung zu erzeugen, verwendet man in R den Befehl `slice_sample(n = 1e4, weight_by = post, replace = TRUE)`. Welche Aussage zur Rolle der Argumente `weight_by` und `replace` ist korrekt?

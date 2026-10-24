@@ -1,3 +1,9 @@
+---
+title: logische-differenz-asymmetrie-schoice
+categories:
+- wahrscheinlichkeit
+---
+
 Question
 ========
 Beim einfachen Würfelwurf sei $A = \{1,2,3,4\}$ ("kleine Zahlen") und $B = \{3,4,5,6\}$ ("große Zahlen"). Was ergibt sich für die logischen Differenzen $A \setminus B$ und $B \setminus A$?

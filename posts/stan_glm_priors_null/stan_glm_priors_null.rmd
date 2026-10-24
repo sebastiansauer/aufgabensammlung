@@ -1,3 +1,9 @@
+---
+title: stan_glm_priors_null
+categories:
+- bayes
+- regression
+---
 
 ```{r libs, include = FALSE}
 library(tidyverse)

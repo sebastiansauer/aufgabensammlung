@@ -1,3 +1,9 @@
+---
+title: stochastisch-vs-kausal-unabhaengig-schoice
+categories:
+- wahrscheinlichkeit
+---
+
 Question
 ========
 Im Kapitel wird betont: "Stochastische Unabhängigkeit impliziert nicht kausale Unabhängigkeit" [@henze2019]. Welche der folgenden Interpretationen dieser Aussage ist korrekt?

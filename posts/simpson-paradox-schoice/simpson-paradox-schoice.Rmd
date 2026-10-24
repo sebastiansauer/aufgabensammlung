@@ -1,3 +1,9 @@
+---
+title: simpson-paradox-schoice
+categories:
+- kausalinferenz
+---
+
 Question
 ========
 Die Studien A (Östrogen/Geschlecht) und B (Blutdruck) aus dem Kapitel weisen in den *Gesamtdaten* exakt dieselben Zahlen auf (273/350 vs. 289/350 Geheilte), führen aber je nach zugrundeliegendem Kausalmodell zu entgegengesetzten Handlungsempfehlungen: Bei Studie A ist das Stratifizieren (Aufteilen nach Geschlecht) der richtige Weg, bei Studie B ist das Stratifizieren (Aufteilen nach Blutdruck) hingegen falsch. Was ist die zentrale Lehre aus diesem Vergleich?

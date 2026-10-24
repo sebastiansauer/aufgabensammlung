@@ -1,3 +1,9 @@
+---
+title: maechtigkeit-augensumme-schoice
+categories:
+- wahrscheinlichkeit
+---
+
 Question
 ========
 Beim *zweifachen* Würfelwurf wird das Ergebnis als geordnetes Paar erfasst, z. B. $(3,5)$ (erster Würfel zeigt 3, zweiter zeigt 5). Wie groß ist die Mächtigkeit $|\Omega|$ des zugehörigen Ergebnisraums, und wie viele mögliche Realisationen hat die Zufallsvariable $S$ = "Augensumme" (Summe beider Würfel)?

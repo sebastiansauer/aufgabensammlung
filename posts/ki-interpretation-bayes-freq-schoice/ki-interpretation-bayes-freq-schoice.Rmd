@@ -1,3 +1,9 @@
+---
+title: ki-interpretation-bayes-freq-schoice
+categories:
+- inferenz
+---
+
 Question
 ========
 Das Kapitel nennt als Beispiel ein 95 %-Konfidenzintervall für den Anteil der R-Fans, das sich von 40 bis 44 Prozent erstreckt. Im Rahmen der *Bayes*-Analyse lässt sich das laut Kapitel so interpretieren: "Laut Modell liegt der gesuchte Anteil der R-Fans mit einer Wahrscheinlichkeit von 95 % im Bereich von 40 bis 44 Prozentpunkten." Für ein *frequentistisches* Konfidenzintervall ist eine solche Aussage hingegen nicht zulässig. Was besagt ein frequentistisches Konfidenzintervall laut Kapitel stattdessen?

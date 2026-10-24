@@ -1,7 +1,11 @@
-
-
-
-
+---
+title: tidymodels-simple1
+categories:
+- R
+- tidymodels
+- lm
+- simple
+---
 
 Question
 ========

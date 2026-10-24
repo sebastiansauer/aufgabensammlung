@@ -1,3 +1,9 @@
+---
+title: studie-a-oestrogen-stratifizieren-schoice
+categories:
+- kausalinferenz
+---
+
 Question
 ========
 In Studie A (Östrogen-Medikament) hilft das Medikament sowohl bei Männern als auch bei Frauen jeweils innerhalb der Gruppe, aber in den *Gesamtdaten* (über beide Geschlechter summiert) scheint es zu schaden. Das Kausalmodell zeigt: Geschlecht beeinflusst sowohl die Einnahme des Medikaments als auch die Heilung direkt. Was ist laut Kapitel die korrekte Handlungsempfehlung?

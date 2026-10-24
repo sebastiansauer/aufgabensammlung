@@ -1,4 +1,7 @@
-
+---
+title: funs-is-binary
+categories: null
+---
 
 ```{r}
 library(tidyverse)

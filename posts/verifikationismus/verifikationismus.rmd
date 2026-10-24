@@ -1,3 +1,7 @@
+---
+title: verifikationismus
+categories: null
+---
 
 ```{r libs, include = FALSE}
 

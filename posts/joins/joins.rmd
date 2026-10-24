@@ -1,3 +1,8 @@
+---
+title: joins
+categories: null
+---
+
 ```{r libs, include = FALSE}
 library(tidyverse)
 library(exams)

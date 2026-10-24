@@ -1,7 +1,12 @@
-
-
-
-
+---
+title: tidymodels-simple3
+categories:
+- tidymodels
+- lm
+- statlearning
+- simple
+- bayes
+---
 
 Question
 ========

@@ -1,3 +1,8 @@
+---
+title: modalitaetsspezifisch
+categories: null
+---
+
 Question
 ========
 Vervollständigen Sie: "Man geht heute davon aus, dass ______  nicht modalitätsspezifisch sind".

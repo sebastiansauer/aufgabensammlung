@@ -1,3 +1,9 @@
+---
+title: linearer-zshg-nicht-kausal-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Das Kapitel stellt fest, dass Gewicht und Größe der !Kung linear zusammenhängen. Welche Aussage zum Verhältnis von (linearem) Zusammenhang und Kausalität ist korrekt?

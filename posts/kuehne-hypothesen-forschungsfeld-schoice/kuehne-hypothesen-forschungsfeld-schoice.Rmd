@@ -1,3 +1,9 @@
+---
+title: kuehne-hypothesen-forschungsfeld-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Das Kapitel vergleicht eine "stark ausgereifte" Hypothese ("Die nächste totale Sonnenfinsternis in Deutschland wird am 27.7.2082 um 14:47 Uhr stattfinden") mit einer "gering ausgereiften" Hypothese ("Lernen bringt mehr als Nicht-Lernen für den Klausurerfolg"). Welche Aussage zum Zusammenhang zwischen Reifegrad eines Forschungsfeldes und der "Kühnheit" von Hypothesen ist korrekt?

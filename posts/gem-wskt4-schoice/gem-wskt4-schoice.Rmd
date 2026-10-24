@@ -1,3 +1,8 @@
+---
+title: gem-wskt4-schoice
+categories: null
+---
+
 Question
 ========
 Betrachten wir das Zufallsexperiment, bei dem ein Würfel geworfen wird. Wir haben keinen Grund zu glauben, 

@@ -1,3 +1,9 @@
+---
+title: bsp2-hintertuer-schliessen-schoice
+categories:
+- kausalinferenz
+---
+
 Question
 ========
 Im DAG-Beispiel `bsp2` (UV: $W$, AV: $D$) gelten folgende Kausalpfeile: $S\rightarrow A$, $S\rightarrow M$, $S\rightarrow W$, $A\rightarrow D$, $A\rightarrow M$, $M\rightarrow D$, $W\rightarrow D$. Welche Variable(n) muss man mindestens kontrollieren, um alle offenen Hintertüren zwischen $W$ und $D$ zu schließen?

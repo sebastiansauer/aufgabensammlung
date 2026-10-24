@@ -1,3 +1,9 @@
+---
+title: probability-of-direction-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Im Kapitel wird die Kennzahl `pd` (probability of direction, Effektwahrscheinlichkeit) eingeführt. Welche Aussage zu `pd` ist korrekt?

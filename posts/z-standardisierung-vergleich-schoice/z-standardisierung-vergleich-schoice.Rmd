@@ -1,3 +1,9 @@
+---
+title: z-standardisierung-vergleich-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Warum werden im Kapitel die Prädiktoren `mom_iq` und `mom_age` z-standardisiert, bevor ihre "Relevanz" für die Vorhersage von `kid_score` verglichen wird?

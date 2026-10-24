@@ -1,3 +1,8 @@
+---
+title: boxplots-de
+categories: null
+---
+
 ```{r data generation, echo = FALSE, results = "hide"}
 library(exams)
 

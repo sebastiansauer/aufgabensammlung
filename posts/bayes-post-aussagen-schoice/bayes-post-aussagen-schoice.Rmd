@@ -1,3 +1,9 @@
+---
+title: bayes-post-aussagen-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Auf einer Party diskutieren fünf Studierende über das Bayes-Modell. Nur eine der folgenden Aussagen ist richtig, die anderen vier sind falsch (bzw. gelten nur unter zusätzlichen, hier nicht genannten Voraussetzungen). Welche Aussage ist richtig?

@@ -1,3 +1,9 @@
+---
+title: zentrieren-mit-interaktion-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Im Interaktionsmodell wird empfohlen, den metrischen Prädiktor `mom_iq` zu zentrieren (`mom_iq_c`). Was ändert sich dadurch, verglichen mit dem unzentrierten Modell?

@@ -1,3 +1,8 @@
+---
+title: subitizing
+categories: null
+---
+
 Question
 ========
 Definieren Sie "Subitizing" (nach Hecht & Desnizza, 2012).

@@ -1,4 +1,10 @@
-
+---
+title: rethink3m3
+categories:
+- bayes
+- ppv
+- probability
+---
 
 ```{r libs, include = FALSE}
 library(tidyverse)

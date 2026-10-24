@@ -1,3 +1,8 @@
+---
+title: interpret-ci-schoice
+categories: null
+---
+
 Question
 ========
 Welche der folgenden Aussagen zur Interpretation eines Populationsparameters (z.B. $\mu$) eines Konfidenzintervalls der Art `95% CI [182cm; 184cm]` ist richtig bzw. passt am besten?

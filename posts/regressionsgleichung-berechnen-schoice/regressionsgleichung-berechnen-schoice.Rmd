@@ -1,3 +1,9 @@
+---
+title: regressionsgleichung-berechnen-schoice
+categories:
+- statistik-grundlagen
+---
+
 Question
 ========
 Ein einfaches lineares Regressionsmodell lautet $y = \beta_0 + \beta_1 x$ mit den Punktschätzern $\beta_0=20$ (Achsenabschnitt) und $\beta_1=1{,}5$ (Steigung). Welchen Wert von $y$ sagt das Modell für $x=40$ voraus?

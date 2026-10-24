@@ -1,3 +1,9 @@
+---
+title: pi-vs-hdi-schiefe-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Bei einem Globusversuch mit 3 Würfen und 3 Treffern (also $W=3$, $N=3$) ist die resultierende Post-Verteilung stark schief: Der wahrscheinlichste Parameterwert liegt bei $\pi=1$, direkt am Rand des möglichen Wertebereichs. Welche Aussage zum Vergleich von Perzentilintervall (PI) und Intervall höchster Dichte (HDI) in diesem Fall ist korrekt?

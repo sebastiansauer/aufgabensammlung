@@ -1,3 +1,10 @@
+---
+title: modellinterpret-beta
+categories:
+- bayes
+- regression
+- dyn
+---
 
 ```{r libs, include = FALSE}
 library(rstanarm)

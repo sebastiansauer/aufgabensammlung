@@ -1,3 +1,10 @@
+---
+title: ppv-dyn1-b
+categories:
+- bayes
+- ppv
+- regression
+---
 
 ```{r libs, include = FALSE}
 library(rstanarm)

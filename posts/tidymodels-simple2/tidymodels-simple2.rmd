@@ -1,7 +1,14 @@
-
-
-
-
+---
+title: tidymodels-simple2
+categories:
+- R
+- tidymodels
+- lm
+- statlearning
+- penalty
+- simple
+- lasso
+---
 
 Question
 ========

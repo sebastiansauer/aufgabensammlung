@@ -1,3 +1,9 @@
+---
+title: regressionsmodell-struktur-schoice
+categories:
+- bayes
+---
+
 Question
 ========
 Das Modell `m_kung_gewicht_c` ist wie folgt spezifiziert:

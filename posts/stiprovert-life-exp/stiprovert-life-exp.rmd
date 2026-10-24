@@ -1,4 +1,9 @@
-
+---
+title: stiprovert-life-exp
+categories:
+- simulation
+- inference
+---
 
 ```{r}
 library(tidyverse)
