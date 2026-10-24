@@ -18,7 +18,6 @@ categories:
 - programming # ENTER CATEGORIES HERE
 
 
-bibliography: "../../library-ses.bib"
 
 
 ---

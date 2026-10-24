@@ -15,7 +15,6 @@ categories:
 - DUMMY  # ENTER CATEGORIES HERE
 
 
-bibliography: "../../library-ses.bib"
 
 knitr:
   opts_chunk:

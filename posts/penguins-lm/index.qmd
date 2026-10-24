@@ -20,7 +20,6 @@ categories:
 - penguins
 
 
-bibliography: "../../library-ses.bib"
 
 
 ---

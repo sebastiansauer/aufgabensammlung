@@ -18,7 +18,6 @@ categories:
 - R
 - data
 
-bibliography: "../../library-ses.bib"
 
 
 ---

@@ -72,7 +72,7 @@ Meta-information
 ================
 exname: schiefe1-b
 extype: schoice
-exsolution: `r mchoice2string(items$is_correct, single = TRUE)`
+exsolution: `r exams::mchoice2string(items$is_correct, single = TRUE)`
 exshuffle: true
 expoints: 1
 categories:

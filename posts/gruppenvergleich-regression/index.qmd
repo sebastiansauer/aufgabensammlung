@@ -16,7 +16,6 @@ categories:
 - paper
 - schoice
 
-bibliography: "../../library-ses.bib"
 
 knitr:
   opts_chunk:

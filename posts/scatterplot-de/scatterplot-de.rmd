@@ -117,7 +117,7 @@ exams::answerlist(ifelse(solutions, "Wahr", "Falsch"), explanations, markup = "m
 Meta-information
 ================
 extype: mchoice
-exsolution: `r mchoice2string(solutions)`
+exsolution: `r exams::mchoice2string(solutions)`
 exname: scatterplot-de
 expoints: 1
 

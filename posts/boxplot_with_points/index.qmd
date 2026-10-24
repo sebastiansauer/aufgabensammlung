@@ -16,7 +16,6 @@ categories:
 - tidyverse
 
 
-bibliography: "../../library-ses.bib"
 
 knitr:
   opts_chunk:
