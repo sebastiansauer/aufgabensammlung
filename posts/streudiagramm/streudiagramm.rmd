@@ -42,6 +42,9 @@ Question
 ========
 
 
+Betrachten Sie das folgende Streudiagramm der Variablen $X$ (waagrechte Achse) und $Y$ (senkrechte Achse).
+
+Welcher der folgenden Werte kommt dem Korrelationskoeffizienten $r$ (nach Pearson) zwischen $X$ und $Y$ am nächsten?
 
 
 ```{r}
