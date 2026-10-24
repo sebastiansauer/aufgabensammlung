@@ -18,9 +18,9 @@ categories:
 
 
 
+Question
+========
 
-
-## Aufgabe 
 
 Beim Werfen eines Würfels betrachten wir die folgenden Ereignisse:
 
@@ -30,42 +30,36 @@ Ereignis $B$: Es fällt eine Zahl größer als 6.
 
 Welche Begriffe beschreiben $A$ und $B$ in dieser Reihenfolge?
 
-A) Unmögliches Ereignis; Sicheres Ereignis
-B) Elementarereignis; Sicheres Ereignis
-C) Sicheres Ereignis; Unmögliches Ereignis
-D) Sicheres Ereignis; Disjunktes Ereignis
+
+Answerlist
+----------
+
+* Unmögliches Ereignis; Sicheres Ereignis
+* Elementarereignis; Sicheres Ereignis
+* Sicheres Ereignis; Unmögliches Ereignis
+* Sicheres Ereignis; Disjunktes Ereignis
 
 
+Solution
+========
 
-
-</br>
-</br>
-</br>
-
-</br>
-</br>
-</br>
-
-</br>
-</br>
-</br>
-
-</br>
-</br>
-</br>
-
-
-
-
-
-
-
-
-
-
-
-## Lösung 
 
 
 C) Sicheres Ereignis; Unmögliches Ereignis
 
+
+Answerlist
+----------
+
+* Falsch
+* Falsch
+* Richtig
+* Falsch
+
+
+Meta-information
+================
+exname: prob-sicher-unmoeglich
+extype: schoice
+exsolution: 0010
+exshuffle: FALSE

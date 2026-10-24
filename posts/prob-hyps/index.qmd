@@ -25,21 +25,14 @@ knitr:
 
 
 
+Question
+========
 
-
-## Aufgabe 
 
 Behauptung:
 
 
 >   Es ist *nicht* möglich, die Wahrscheinlichkeit einer Hypothese bzw. eines Werts in der Population (eines Parameters) anzugeben.
-
-
-
-A) Die Behauptung ist richtig in der Frequentistischen Statistik, aber nicht in der Bayes-Statistik.
-B) Die Behauptung ist richtig nur in der Bayes-Statistik, aber nicht in der Frequentistischen Statistik.
-C) Die Behauptung ist richtig sowohl in der Frequentistischen Statistik als auch in der Bayes-Statistik.
-D) Die Behauptung ist weder richtig in der Frequentistischen Statistik noch in der Bayes-Statistik.
 
 
 Hinweise:
@@ -48,37 +41,35 @@ Hinweise:
 - Beachten Sie die üblichen [Hinweise](https://datenwerk.netlify.app/hinweise) des Datenwerks.
 
 
-</br>
-</br>
-</br>
+Answerlist
+----------
 
-</br>
-</br>
-</br>
-
-</br>
-</br>
-</br>
-
-</br>
-</br>
-</br>
+* Die Behauptung ist richtig in der Frequentistischen Statistik, aber nicht in der Bayes-Statistik.
+* Die Behauptung ist richtig nur in der Bayes-Statistik, aber nicht in der Frequentistischen Statistik.
+* Die Behauptung ist richtig sowohl in der Frequentistischen Statistik als auch in der Bayes-Statistik.
+* Die Behauptung ist weder richtig in der Frequentistischen Statistik noch in der Bayes-Statistik.
 
 
+Solution
+========
 
-
-
-
-
-
-
-
-
-## Lösung 
 
 
 **A**
 
 
+Answerlist
+----------
+
+* Richtig
+* Falsch
+* Falsch
+* Falsch
 
 
+Meta-information
+================
+exname: prob-hyps
+extype: schoice
+exsolution: 1000
+exshuffle: FALSE

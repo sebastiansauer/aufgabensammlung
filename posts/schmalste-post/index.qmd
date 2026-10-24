@@ -10,9 +10,6 @@ highlight-style: arrow
 cache: true
 toc: true
 number-sections: true
-extype: string
-exsolution: ""
-exshuffle: no
 categories:
 - probability
 - distributions # ENTER CATEGORIES HERE
@@ -29,9 +26,9 @@ knitr:
 
 
 
+Question
+========
 
-
-## Aufgabe 
 
 
 Die folgenden Posterior-Verteilungen für den Effekt der UV X
@@ -40,47 +37,43 @@ Welche der folgenden Posterior-Verteilungen schätzt den
 Modus am sichersten?
 
 
-A) $X \sim N(0,1)$
-B) $X \sim N(0,2)$
-C) $X \sim N(1,2)$
-D) $X \sim N(2,4)$
-F) $X \sim N(4,4)$
-
 Hinweise:
 
 
 - Beachten Sie die üblichen [Hinweise](https://datenwerk.netlify.app/hinweise) des Datenwerks.
 
 
-</br>
-</br>
-</br>
+Answerlist
+----------
 
-</br>
-</br>
-</br>
-
-</br>
-</br>
-</br>
-
-</br>
-</br>
-</br>
+* $X \sim N(0,1)$
+* $X \sim N(0,2)$
+* $X \sim N(1,2)$
+* $X \sim N(2,4)$
+* $X \sim N(4,4)$
 
 
+Solution
+========
 
-
-
-
-
-
-
-
-
-## Lösung 
 
 
 A
 
 
+Answerlist
+----------
+
+* Richtig
+* Falsch
+* Falsch
+* Falsch
+* Falsch
+
+
+Meta-information
+================
+exname: schmalste-post
+extype: schoice
+exsolution: 10000
+exshuffle: FALSE

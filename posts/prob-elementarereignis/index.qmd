@@ -18,43 +18,41 @@ categories:
 
 
 
+Question
+========
 
-
-## Aufgabe 
 
 Was beschreibt ein Elementarereignis $\omega$ in der Wahrscheinlichkeitsrechnung?
 
-A) Die Menge aller möglichen Ergebnisse.
-B) Eine Menge, die zwei oder mehr Ergebnisse enthält.
-C) Das Ereignis, das immer eintritt.
+
+Answerlist
+----------
+
+* Die Menge aller möglichen Ergebnisse.
+* Eine Menge, die zwei oder mehr Ergebnisse enthält.
+* Das Ereignis, das immer eintritt.
+* Ein einzelnes, nicht weiter zerlegbares Ergebnis eines Zufallsexperiments.
+
+
+Solution
+========
+
+
 D) Ein einzelnes, nicht weiter zerlegbares Ergebnis eines Zufallsexperiments.
 
-</br>
-</br>
-</br>
 
-</br>
-</br>
-</br>
+Answerlist
+----------
 
-</br>
-</br>
-</br>
-
-</br>
-</br>
-</br>
+* Falsch
+* Falsch
+* Falsch
+* Richtig
 
 
-
-
-
-
-
-
-
-
-
-## Lösung 
-
-D) Ein einzelnes, nicht weiter zerlegbares Ergebnis eines Zufallsexperiments.
+Meta-information
+================
+exname: prob-elementarereignis
+extype: schoice
+exsolution: 0001
+exshuffle: FALSE

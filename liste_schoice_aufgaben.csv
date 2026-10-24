@@ -54,6 +54,7 @@ posts/boxplots-de1a/boxplots-de1a.rmd
 posts/breiman/breiman.rmd
 posts/bsp1-hintertuer-schliessen-schoice/bsp1-hintertuer-schliessen-schoice.Rmd
 posts/bsp2-hintertuer-schliessen-schoice/bsp2-hintertuer-schliessen-schoice.Rmd
+posts/bsps-nullhyp/index.qmd
 posts/bullshit2/bullshit2.rmd
 posts/causal_err/causal_err.rmd
 posts/cluster02/cluster02.rmd
@@ -73,6 +74,7 @@ posts/def_datenjudo/def_datenjudo.rmd
 posts/definition_dataframe/definition_dataframe.rmd
 posts/definition_punktmodell/definition_punktmodell.rmd
 posts/definition_statistik/definition_statistik.rmd
+posts/def-nullhyp/index.qmd
 posts/def-signif-schoice/def-signif-schoice.Rmd
 posts/def-statistik01/def-statistik01.rmd
 posts/def-statistik01-schoice/def-statistik01-schoice.Rmd
@@ -167,6 +169,7 @@ posts/interaktion/interaktion.rmd
 posts/interaktion-konzept-schoice/interaktion-konzept-schoice.Rmd
 posts/interaktionseffekt1/interaktionseffekt1.rmd
 posts/intercept_m/intercept_m.rmd
+posts/interpret-ci2/index.qmd
 posts/interpret-ci-schoice/interpret-ci-schoice.Rmd
 posts/interpret-koeff-schoice/interpret-koeff-schoice.Rmd
 posts/joins/joins.rmd
@@ -206,6 +209,7 @@ posts/kochrezept-forschungsfrage-phasen-schoice/kochrezept-forschungsfrage-phase
 posts/koeffizienten-kausal-ohne-fundierung-schoice/koeffizienten-kausal-ohne-fundierung-schoice.Rmd
 posts/kollision-definition-regel-schoice/kollision-definition-regel-schoice.Rmd
 posts/kolmogorov-axiome-schoice/kolmogorov-axiome-schoice.Rmd
+posts/kolmogorov/index.qmd
 posts/konfundierer-definition-schoice/konfundierer-definition-schoice.Rmd
 posts/korr01/korr01.rmd
 posts/korrelation_na_handling/korrelation_na_handling.rmd
@@ -249,6 +253,7 @@ posts/modell-definition-schoice/modell-definition-schoice.Rmd
 posts/modelldef/modelldef.rmd
 posts/modell_gleichung/modell_gleichung.rmd
 posts/modellvergleich_mae/modellvergleich_mae.rmd
+posts/moderation/index.qmd
 posts/movie-sentiment1/movie-sentiment1.qmd
 posts/mse/mse.rmd
 posts/mtcars-post2a/index.qmd
@@ -290,11 +295,15 @@ posts/optionalstopping/optionalstopping.rmd
 posts/overfitting/overfitting.rmd
 posts/paper-recherchieren1/paper-recherchieren1.rmd
 posts/papers-qualitaet-einschaetzen/papers-qualitaet-einschaetzen.rmd
+posts/parameter-genau/index.qmd
 posts/parameter-statistik/parameter-statistik.rmd
 posts/parse_number/parse_number.rmd
 posts/pca1/pca1.rmd
 posts/pca/pca.rmd
+posts/pd1/index.qmd
 posts/pd-anteil-post-stichproben-schoice/pd-anteil-post-stichproben-schoice.Rmd
+posts/penguins-interact2/index.qmd
+posts/penguins-postbreite/index.qmd
 posts/pfade_reproduzierbarkeit/pfade_reproduzierbarkeit.rmd
 posts/pfeife/pfeife.rmd
 posts/pipe_vorteil/pipe_vorteil.rmd
@@ -336,7 +345,14 @@ posts/priori-washed-out-schoice/priori-washed-out-schoice.Rmd
 posts/priorwahl2/priorwahl2.rmd
 posts/prior-wahl-beta1-vergleich-schoice/prior-wahl-beta1-vergleich-schoice.Rmd
 posts/probability-of-direction-schoice/probability-of-direction-schoice.Rmd
+posts/prob-disjunkt2/index.qmd
+posts/prob-disjunkt/index.qmd
+posts/prob-elementarereignis/index.qmd
+posts/prob-ereignisraum/index.qmd
+posts/prob-hyps/index.qmd
+posts/prob-sicher-unmoeglich/index.qmd
 posts/pruefen-vs-schaetzen-unterschied-schoice/pruefen-vs-schaetzen-unterschied-schoice.Rmd
+posts/pwert2/index.qmd
 posts/pwert-interpretation-schoice/pwert-interpretation-schoice.Rmd
 posts/quantil-90-interpretation-schoice/quantil-90-interpretation-schoice.Rmd
 posts/quantil_transfer/quantil_transfer.rmd
@@ -381,6 +397,7 @@ posts/rope-chinstrap-gentoo-interpretation-schoice/rope-chinstrap-gentoo-interpr
 posts/rope-default-grenze-rechnung-schoice/rope-default-grenze-rechnung-schoice.Rmd
 posts/rope-entscheidungsregel-schoice/rope-entscheidungsregel-schoice.Rmd
 posts/rope-konzept-schoice/rope-konzept-schoice.Rmd
+posts/rope-luecke/index.qmd
 posts/rquadrat/rquadrat.rmd
 posts/rstanarm-standard-prior-rechnung-schoice/rstanarm-standard-prior-rechnung-schoice.Rmd
 posts/rstudio_gui_view/rstudio_gui_view.rmd
@@ -402,6 +419,7 @@ posts/schiefe_interpolation/schiefe_interpolation.rmd
 posts/schlussarten-abduktion-formel/schlussarten-abduktion-formel.rmd
 posts/schlussarten-deduktion-formel/schlussarten-deduktion-formel.rmd
 posts/schlussarten-induktion-formel/schlussarten-induktion-formel.rmd
+posts/schmalste-post/index.qmd
 posts/sd-vergleich/sd-vergleich.rmd
 posts/sd_vs_varianz/sd_vs_varianz.rmd
 posts/select_anwendung/select_anwendung.rmd
@@ -413,12 +431,15 @@ posts/signifikanz-stichprobengroesse-schoice/signifikanz-stichprobengroesse-scho
 posts/simpson-paradox-schoice/simpson-paradox-schoice.Rmd
 posts/simpson-paradox-vorzeichenwechsel-schoice/simpson-paradox-vorzeichenwechsel-schoice.Rmd
 posts/simpsonpara/simpsonpara.rmd
+posts/simu-uniform/index.qmd
 posts/skalenniveau1a/skalenniveau1a.rmd
 posts/skalenniveau1/skalenniveau1.rmd
 posts/skalenniveau_intervall/skalenniveau_intervall.rmd
 posts/skalenniveau_ordinal/skalenniveau_ordinal.rmd
 posts/slope_inter/slope_inter.rmd
+posts/small-wide-normal/index.qmd
 posts/smape/smape.rmd
+posts/stand-regr/index.qmd
 posts/stan-glm-chains-schoice/stan-glm-chains-schoice.Rmd
 posts/stan-glm-intercept-schoice/stan-glm-intercept-schoice.Rmd
 posts/stan_glm_prioriwerte/stan_glm_prioriwerte.rmd
@@ -495,6 +516,7 @@ posts/verteilungen-quiz-17/verteilungen-quiz-17.rmd
 posts/verteilungen-quiz-18/verteilungen-quiz-18.rmd
 posts/verteilungsfunktion-wuerfel-schoice/verteilungsfunktion-wuerfel-schoice.Rmd
 posts/vier-atome-uebersicht-schoice/vier-atome-uebersicht-schoice.Rmd
+posts/vier_oder_acht/index.qmd
 posts/viz-geom-point10/viz-geom-point10.rmd
 posts/viz-geom-point2/viz-geom-point2.rmd
 posts/viz-geom-point5/viz-geom-point5.rmd
@@ -549,12 +571,14 @@ posts/zentrierung/zentrierung.rmd
 posts/zielart-beschreiben-definition-schoice/zielart-beschreiben-definition-schoice.Rmd
 posts/zielarten-stat-schoice/zielarten-stat-schoice.Rmd
 posts/zielart-vorhersagen-punkt-bereich-schoice/zielart-vorhersagen-punkt-bereich-schoice.Rmd
+posts/ziel-bayes/index.qmd
 posts/ziele_statistik/ziele_statistik.rmd
 posts/ziele-statistik/ziele-statistik.rmd
 posts/zipf1/zipf1.rmd
 posts/zitieren3/zitieren3.rmd
 posts/z-standardisierung-vergleich-schoice/z-standardisierung-vergleich-schoice.Rmd
 posts/z_transformation_effekt/z_transformation_effekt.rmd
+posts/zuordnung_regr_formel1/index.qmd
 posts/zusammenhang-kategorial/zusammenhang-kategorial.rmd
 posts/zuweisung_operator/zuweisung_operator.rmd
 posts/zwei-arten-ungewissheit-schoice/zwei-arten-ungewissheit-schoice.Rmd

@@ -10,9 +10,6 @@ highlight-style: arrow
 cache: false
 toc: true
 number-sections: true
-extype: string
-exsolution: ""
-exshuffle: no
 categories:
 - normal-distribution  # ENTER CATEGORIES HERE
 - distributions
@@ -37,8 +34,9 @@ theme_set(theme_bw())
 
 
 
+Question
+========
 
-## Aufgabe 
 
 Die folgenden Posterior-Verteilungen unterscheiden sich nicht in ihrem Modus, aber in ihrer Sicherheit zur Schätzung des Modus. Welche der folgenden Posterior-Verteilungen ist die sicherste?
 
@@ -67,9 +65,7 @@ ggplot(data.frame(x = c(-4, 4)), aes(x = x)) +
 ```
 
 
-
 **D**
-
 
 
 ```{r}
@@ -78,37 +74,35 @@ ggplot(data.frame(x = c(-4, 4)), aes(x = x)) +
 ```
 
 
-</br>
-</br>
-</br>
+Answerlist
+----------
 
-</br>
-</br>
-</br>
-
-</br>
-</br>
-</br>
-
-</br>
-</br>
-</br>
+* A
+* B
+* C
+* D
 
 
+Solution
+========
 
-
-
-
-
-
-
-
-
-## Lösung 
 
 
 **C**
 
 
+Answerlist
+----------
+
+* Falsch
+* Falsch
+* Richtig
+* Falsch
 
 
+Meta-information
+================
+exname: small-wide-normal
+extype: schoice
+exsolution: 0010
+exshuffle: FALSE
