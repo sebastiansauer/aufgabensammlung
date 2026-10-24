@@ -1,6 +1,8 @@
 ---
 title: viz-geom-point7
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}
@@ -70,5 +72,6 @@ Meta-information
 ================
 exname: viz-geom-point7
 extype: schoice
+expoints: 1
 exsolution: 00001
 exshuffle: false

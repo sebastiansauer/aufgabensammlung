@@ -92,6 +92,7 @@ Meta-information
 ================
 exname: typ-fehler-r-02
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: FALSE
 

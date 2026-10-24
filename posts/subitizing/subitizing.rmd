@@ -1,6 +1,8 @@
 ---
 title: subitizing
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question
@@ -40,5 +42,6 @@ Meta-information
 ================
 exname: subitizing
 extype: schoice
+expoints: 1
 exsolution: 100000
 exshuffle: true

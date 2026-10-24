@@ -1,6 +1,8 @@
 ---
 title: bangladesh2
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}
@@ -266,6 +268,7 @@ Meta-information
 ================
 exname: bangladesh2
 extype: string
+expoints: 1
 exsolution: NULL
 
 

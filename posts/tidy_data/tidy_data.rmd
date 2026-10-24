@@ -3,6 +3,7 @@ categories:
 - rahmen
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: tidy_data
 title: tidy_data
@@ -41,6 +42,7 @@ Meta-information
 ================
 exname: tidy_data
 extype: schoice
+expoints: 1
 exsolution: 00100
 exshuffle: TRUE
 

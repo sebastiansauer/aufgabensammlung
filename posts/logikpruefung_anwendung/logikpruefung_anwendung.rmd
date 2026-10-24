@@ -3,6 +3,7 @@ categories:
 - R
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: logikpruefung_anwendung
 title: logikpruefung_anwendung
@@ -41,6 +42,7 @@ Meta-information
 ================
 exname: logikpruefung_anwendung
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: TRUE
 

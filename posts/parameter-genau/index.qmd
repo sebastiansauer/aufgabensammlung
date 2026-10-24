@@ -13,6 +13,7 @@ number-sections: true
 
 categories:
 - inference  # ENTER CATEGORIES HERE
+- paper
 
 
 bibliography: "../../library-ses.bib"
@@ -75,5 +76,6 @@ Meta-information
 ================
 exname: parameter-genau
 extype: schoice
+expoints: 1
 exsolution: 00100
 exshuffle: FALSE

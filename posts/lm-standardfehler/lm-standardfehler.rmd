@@ -4,6 +4,7 @@ categories:
 - lm
 - qm2
 - quiz
+- paper
 date: '2022-09-04'
 title: lm-standardfehler
 
@@ -175,6 +176,7 @@ Meta-information
 ================
 exname: lm-standardfehler
 extype: schoice
+expoints: 1
 exsolution: 00001
 exshuffle: FALSE
 

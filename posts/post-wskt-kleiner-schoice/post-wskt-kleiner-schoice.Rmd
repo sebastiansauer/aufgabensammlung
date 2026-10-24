@@ -2,6 +2,7 @@
 title: post-wskt-kleiner-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question
@@ -49,6 +50,7 @@ Meta-information
 ================
 exname: post-wskt-kleiner-schoice
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5
 excategory: bayes

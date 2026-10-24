@@ -8,6 +8,7 @@ expoints: 1
 categories:
 - probability
 - dice
+- paper
 date: '2022-10-28'
 slug: wuerfel03
 title: wuerfel03

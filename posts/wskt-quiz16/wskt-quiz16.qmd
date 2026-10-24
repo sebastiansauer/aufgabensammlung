@@ -5,6 +5,7 @@ categories:
 - bayes
 - quiz1-qm2-ws23
 - schoice
+- paper
 date: '2023-11-08'
 slug: wskt-quiz16
 title: wskt-quiz16
@@ -38,6 +39,7 @@ Behauptung:
 
 $Pr(A|B) = Pr(AB) / Pr(B)$.
 
+Ist diese Behauptung wahr oder falsch?
 
 Hinweise:
 
@@ -81,6 +83,7 @@ Meta-information
 ================
 exname: wskt-quiz16
 extype: schoice
+expoints: 1
 exsolution: 01
 exshuffle: FALSE
 

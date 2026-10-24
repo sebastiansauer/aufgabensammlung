@@ -3,6 +3,7 @@
 date: 2024-07-02
 draft: true   # ACHTUNG DRAFT STEHT AUF TRUE!
 title: bayes1  # HIER TITEL DES POSTS EINGEBEN.
+expoints: 1
 execute: 
   eval: true 
 highlight-style: arrow 
@@ -14,6 +15,7 @@ number-sections: true
 categories:
 - bayes  # ENTER CATEGORIES HERE
 - schoice
+- paper
 
 bibliography: "../../library-ses.bib"
 

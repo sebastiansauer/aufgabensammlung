@@ -1,12 +1,14 @@
 ---
 exname: bayesmod-bestimmen01
 extype: string
+expoints: 1
 exsolution: r  sol
 exshuffle: no
 categories:
 - regression
 - bayes
 - prior
+- paper
 date: '2022-12-09'
 
 title: Bayesmod-bestimmen01

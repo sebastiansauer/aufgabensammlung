@@ -183,6 +183,7 @@ Meta-information
 ================
 exname: variation02
 extype: schoice
+expoints: 1
 exsolution: 0001
 exshuffle: FALSE
 

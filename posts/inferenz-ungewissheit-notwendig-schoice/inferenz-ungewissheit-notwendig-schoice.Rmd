@@ -2,6 +2,7 @@
 title: inferenz-ungewissheit-notwendig-schoice
 categories:
 - inferenz
+- paper
 ---
 
 Question
@@ -43,6 +44,7 @@ Meta-information
 ================
 exname: inferenz-ungewissheit-notwendig-schoice
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5
 excategory: inferenz

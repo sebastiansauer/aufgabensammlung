@@ -1,7 +1,9 @@
 ---
 categories:
 - regression
+- schoice
 - dyn
+- paper
 date: '2022-12-15'
 slug: Regression2
 title: Regression2
@@ -176,7 +178,8 @@ Meta-information
 ================
 exname: regression2
 extype: schoice
-exsolution: `r exams::mchoice2string(d_five_options$is_correct, single = TRUE)`
+expoints: 1
+exsolution: `r mchoice2string(d_five_options$is_correct, single = TRUE)`
 exshuffle: FALSE
 
 

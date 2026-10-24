@@ -1,6 +1,8 @@
 ---
 title: zitieren3
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}
@@ -190,5 +192,6 @@ Meta-information
 ================
 exname: zitieren3
 extype: schoice
+expoints: 1
 exsolution: `r  mchoice2string(d$is_correct, single=TRUE)`
 exshuffle: true

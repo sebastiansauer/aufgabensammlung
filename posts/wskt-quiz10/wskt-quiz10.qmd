@@ -6,6 +6,7 @@ categories:
 - distributions
 - quiz1-qm2-ws23
 - schoice
+- paper
 date: '2023-11-08'
 slug: wskt-quiz10
 title: wskt-quiz10
@@ -39,6 +40,8 @@ Sei $X \sim U(0, 2)$.
 
 
 Behauptung: Es gilt: $f(X=1) = .5$.
+
+Ist diese Behauptung wahr oder falsch?
 
 Hinweise:
 
@@ -86,6 +89,7 @@ Meta-information
 ================
 exname: wskt-quiz10
 extype: schoice
+expoints: 1
 exsolution: 01
 exshuffle: FALSE
 

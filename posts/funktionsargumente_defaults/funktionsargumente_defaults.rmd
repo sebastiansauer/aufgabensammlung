@@ -3,6 +3,7 @@ categories:
 - R
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: funktionsargumente_defaults
 title: funktionsargumente_defaults
@@ -42,6 +43,7 @@ Meta-information
 ================
 exname: funktionsargumente_defaults
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: TRUE
 

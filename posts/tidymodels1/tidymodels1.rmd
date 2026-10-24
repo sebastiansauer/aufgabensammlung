@@ -8,6 +8,7 @@ categories:
 - dyn
 - schoice
 - quiz
+- paper
 date: '2023-05-17'
 slug: tidymodels1
 title: tidymodels1
@@ -334,6 +335,7 @@ Meta-information
 ================
 exname: tidymodels1
 extype: schoice
+expoints: 1
 exsolution: 100000
 exshuffle: 5
 

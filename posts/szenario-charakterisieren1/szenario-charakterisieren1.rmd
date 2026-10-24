@@ -5,6 +5,7 @@ title: Szenario-charakterisieren1
 categories:
 - schoice
 - quiz
+- paper
 
 ---
 
@@ -40,6 +41,8 @@ Question
 Angenommen, Sie arbeiten als Analyst mit folgender Aufgabe:
 
 Es liegt ein Datensatz mit 600 Beschäftigten (als Beobachtungseinheit) vor. Für jede Person sind folgende Informationen bekannt: Dauer der Betriebszugehörigkeit, Alter, Ausbildung und Ergebnis der letzten Leistungsbeurteilung. Ziel ist es, die Höhe des zu erwartenden Gehalts vorherzusagen.
+
+Welche Charakterisierung dieses Szenarios ist richtig?
 
 
 
@@ -82,7 +85,7 @@ exname: szenario-charakterisieren1
 extype: schoice
 exsolution: 100000
 exshuffle: TRUE
-expoints: 3
+expoints: 1
 
 
 ---

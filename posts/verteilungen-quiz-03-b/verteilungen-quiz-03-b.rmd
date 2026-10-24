@@ -3,6 +3,7 @@ title: verteilungen-quiz-03-b
 categories:
 - distribution
 - probability
+- paper
 ---
 
 ```{r global-knitr-options, include=FALSE, message=FALSE}
@@ -57,6 +58,7 @@ Meta-information
 ================
 exname: verteilungen-quiz-03-b
 extype: schoice
+expoints: 1
 exsolution: 001‚
 exshuffle: false
 categories:

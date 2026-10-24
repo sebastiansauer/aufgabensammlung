@@ -1,5 +1,6 @@
 ---
 extype: cloze
+expoints: 1
 exsolution: r paste(solutions, collapse = "|")
 exclozetype: r paste(type, collapse = "|")
 exname: boxhist

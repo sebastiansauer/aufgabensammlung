@@ -2,6 +2,7 @@
 title: aussagen-einfache-regr
 categories:
 - regression
+- paper
 ---
 
 ```{r libs, include = FALSE}
@@ -74,6 +75,7 @@ Meta-information
 ================
 exname: aussagen-einfache-regr
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: false
 categories:

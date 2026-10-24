@@ -3,6 +3,7 @@ categories:
 - nullhypothesis
 - inference
 - quiz
+- paper
 date: '2022-12-15'
 slug: Nullhyp-Beispiel
 title: Nullhyp-Beispiel
@@ -74,6 +75,7 @@ Meta-information
 ================
 exname: nullhyp-beispiel
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: FALSE
 

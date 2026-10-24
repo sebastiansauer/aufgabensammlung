@@ -1,6 +1,8 @@
 ---
 title: genial-schoice
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}
@@ -160,5 +162,6 @@ Meta-information
 ================
 exname: genial-schoice
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5

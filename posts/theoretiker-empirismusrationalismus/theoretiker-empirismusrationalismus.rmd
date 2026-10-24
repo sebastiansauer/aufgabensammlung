@@ -1,6 +1,8 @@
 ---
 title: theoretiker-empirismusrationalismus
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r data generation, echo = FALSE, results = "hide"}
@@ -34,5 +36,6 @@ Aufgabenname: `theoretiker-empirismusrationalismus`
 Meta-information
 ================
 extype: string
+expoints: 1
 exsolution: `r position`
 exname: theoretiker-empirismusrationalismus

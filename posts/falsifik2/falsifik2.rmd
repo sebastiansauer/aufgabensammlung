@@ -1,6 +1,8 @@
 ---
 title: falsifik2
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question
@@ -53,5 +55,6 @@ Meta-information
 ================
 exname: falsifik2
 extype: schoice
+expoints: 1
 exsolution: 10101000000
 exshuffle: 5

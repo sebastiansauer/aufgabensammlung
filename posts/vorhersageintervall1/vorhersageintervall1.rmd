@@ -5,6 +5,7 @@ categories:
 - qm2
 - mtcars
 - quiz
+- paper
 date: '2022-09-04'
 slug: vorhersageintervall1
 title: vorhersageintervall1
@@ -105,6 +106,7 @@ Meta-information
 ================
 exname: vorhersageintervall1
 extype: schoice
+expoints: 1
 exsolution: 0100
 exshuffle: FALSE
 

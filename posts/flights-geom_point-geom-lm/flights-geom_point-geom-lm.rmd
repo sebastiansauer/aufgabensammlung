@@ -1,6 +1,9 @@
 ---
 title: flights-geom_point-geom-lm
-categories: null
+categories:
+- paper
+- todo
+- schoice
 ---
 
 ```{r libs, include = FALSE}
@@ -157,5 +160,6 @@ Meta-information
 ================
 exname: flights-geom_point-geom-lm
 extype: schoice
-exsolution: `r exams::mchoice2string(d$is_correct, single = TRUE)`
+expoints: 1
+exsolution: `r mchoice2string(d$is_correct, single = TRUE)`
 exshuffle: false

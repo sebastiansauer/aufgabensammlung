@@ -228,7 +228,7 @@ extype: num
 exsolution: `r sol`
 exshuffle: false
 extol: `r sol_tol`
-expoints: 1 
+expoints: 1
 categories
 - qm2
 - bayes

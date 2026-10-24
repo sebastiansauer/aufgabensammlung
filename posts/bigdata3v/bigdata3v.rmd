@@ -1,6 +1,8 @@
 ---
 title: bigdata3v
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r include = FALSE}
@@ -46,4 +48,4 @@ Meta-information
 extype: string
 exsolution: `r sol`
 exname: bigdata3v
-expoints: 5
+expoints: 1

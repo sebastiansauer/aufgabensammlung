@@ -4,6 +4,7 @@ categories:
 - '2023'
 - schoice
 - quiz
+- paper
 date: '2023-02-26'
 slug: Streudiagramm
 title: Streudiagramm
@@ -41,6 +42,9 @@ Question
 ========
 
 
+Betrachten Sie das folgende Streudiagramm der Variablen $X$ (waagrechte Achse) und $Y$ (senkrechte Achse).
+
+Welcher der folgenden Werte kommt dem Korrelationskoeffizienten $r$ (nach Pearson) zwischen $X$ und $Y$ am nächsten?
 
 
 ```{r}
@@ -99,6 +103,7 @@ Meta-information
 ================
 exname: streudiagramm
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: TRUE
 

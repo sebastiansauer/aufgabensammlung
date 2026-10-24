@@ -1,6 +1,8 @@
 ---
 title: anova-skalenniveau-schoice
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include=FALSE}
@@ -41,6 +43,7 @@ Answerlist
 Meta-information
 ================
 extype: schoice
+expoints: 1
 exsolution: 10000
 exname: anova-skalenniveau-schoice
 exshuffle: true

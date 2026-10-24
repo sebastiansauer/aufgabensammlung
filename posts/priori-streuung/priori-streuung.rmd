@@ -7,6 +7,7 @@ categories:
 - qm2
 - qm2-pruefung2023
 - quiz
+- paper
 date: '2022-11-05'
 title: priori-streuung
 
@@ -162,6 +163,7 @@ Meta-information
 ================
 exname: priori-streuung
 extype: schoice
+expoints: 1
 exsolution: 00100
 exshuffle: FALSE
 

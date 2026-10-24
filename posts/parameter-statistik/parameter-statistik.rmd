@@ -1,6 +1,8 @@
 ---
 title: parameter-statistik
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}
@@ -72,5 +74,6 @@ Meta-information
 ================
 exname: parameter-statistik
 extype: schoice
+expoints: 1
 exsolution: 00100
 exshuffle: true

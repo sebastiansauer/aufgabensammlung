@@ -1,6 +1,8 @@
 ---
 title: corona-todesfaelle1
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}
@@ -133,5 +135,6 @@ Meta-information
 ================
 exname: corona-todesfaelle1
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: false

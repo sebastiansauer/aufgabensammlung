@@ -5,6 +5,7 @@ categories:
 - post
 - quiz
 - computer
+- paper
 date: '2022-12-09'
 title: Bed-Post-Wskt1
 
@@ -217,6 +218,7 @@ Meta-information
 ================
 exname: bed-post-wskt1
 extype: schoice
+expoints: 1
 exsolution: 00100
 exshuffle: FALSE
 

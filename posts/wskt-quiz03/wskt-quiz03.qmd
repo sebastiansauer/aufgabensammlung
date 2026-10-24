@@ -4,6 +4,7 @@ categories:
 - probability
 - quiz1-qm2-ws23
 - schoice
+- paper
 date: '2023-11-08'
 title: wskt-quiz03
 
@@ -33,6 +34,8 @@ Question
 
 
 Wirft man eine faire Münze 10-fach, so gilt $Pr(\text{10 mal Kopf}) = Pr(\text{10 mal Zahl}) > .01$.
+
+Ist diese Aussage wahr oder falsch?
 
 Hinweise:
 
@@ -86,6 +89,7 @@ Meta-information
 ================
 exname: wskt-quiz03
 extype: schoice
+expoints: 1
 exsolution: 10
 exshuffle: FALSE
 

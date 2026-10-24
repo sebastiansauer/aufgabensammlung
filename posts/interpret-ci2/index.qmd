@@ -13,6 +13,7 @@ number-sections: true
 
 categories:
 - inference  # ENTER CATEGORIES HERE
+- paper
 
 
 bibliography: "../../library-ses.bib"
@@ -75,5 +76,6 @@ Meta-information
 ================
 exname: interpret-ci2
 extype: schoice
+expoints: 1
 exsolution: 0100
 exshuffle: FALSE

@@ -3,6 +3,7 @@ categories:
 - bayes
 - regression
 - nullhypothesis
+- paper
 date: '2022-12-15'
 title: diamonds-nullhyp-mws
 
@@ -145,6 +146,7 @@ Meta-information
 ================
 exname: diamonds-nullhyp-mws
 extype: schoice
+expoints: 1
 exsolution: 0010
 exshuffle: FALSE
 

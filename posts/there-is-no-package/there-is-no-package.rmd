@@ -99,6 +99,7 @@ Meta-information
 ================
 exname: there-is-no-package
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: FALSE
 

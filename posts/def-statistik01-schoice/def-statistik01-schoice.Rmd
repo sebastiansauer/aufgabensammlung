@@ -1,6 +1,8 @@
 ---
 title: def-statistik01-schoice
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question
@@ -39,5 +41,6 @@ Meta-information
 ================
 exname: def-statistik01-schoice
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5

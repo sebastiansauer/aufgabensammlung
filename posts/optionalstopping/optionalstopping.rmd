@@ -1,6 +1,8 @@
 ---
 title: optionalstopping
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}

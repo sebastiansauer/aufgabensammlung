@@ -1,6 +1,8 @@
 ---
 title: wrangle6
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}
@@ -77,5 +79,6 @@ Meta-information
 ================
 exname: wrangle6
 extype: schoice
+expoints: 1
 exsolution: 00001
 exshuffle: false

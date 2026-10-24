@@ -3,6 +3,7 @@ categories:
 - rahmen
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: nutzen_modelle
 title: nutzen_modelle
@@ -41,5 +42,6 @@ Meta-information
 ================
 exname: nutzen_modelle
 extype: schoice
+expoints: 1
 exsolution: 00100
 exshuffle: TRUE

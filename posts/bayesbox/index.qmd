@@ -10,12 +10,14 @@ cache: true
 toc: true
 number-sections: true
 extype: string
+expoints: 1
 exsolution: ""
 exshuffle: no
 categories:
 - bayes  # ENTER CATEGORIES HERE
 - probability
 - computer
+- paper
 bibliography: "../../library-ses.bib"
 
 

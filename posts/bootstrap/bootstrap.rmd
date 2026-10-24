@@ -5,6 +5,7 @@ categories:
 - schoice
 - mtcars
 - quiz
+- paper
 date: '2023-05-17'
 slug: bootstrap
 title: bootstrap
@@ -68,6 +69,7 @@ Meta-information
 ================
 exname: bootstrap
 extype: schoice
+expoints: 1
 exsolution: 1000
 exshuffle: FALSE
 

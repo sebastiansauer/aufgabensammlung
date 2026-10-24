@@ -1,5 +1,6 @@
 ---
 extype: num
+expoints: 1
 title: penguins-weight
 categories:
 - bayes

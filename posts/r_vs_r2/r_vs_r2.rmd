@@ -3,6 +3,7 @@ categories:
 - regression
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: r_vs_r2
 title: r_vs_r2
@@ -46,5 +47,6 @@ Meta-information
 ================
 exname: r_vs_r2
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

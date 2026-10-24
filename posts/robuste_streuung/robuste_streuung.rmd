@@ -3,6 +3,7 @@ categories:
 - variability
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: robuste_streuung
 title: robuste_streuung
@@ -44,6 +45,7 @@ Meta-information
 ================
 exname: robuste_streuung
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

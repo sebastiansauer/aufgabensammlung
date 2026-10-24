@@ -3,6 +3,7 @@ categories:
 - vis
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: achsen_trick
 title: achsen_trick
@@ -43,5 +44,6 @@ Meta-information
 ================
 exname: achsen_trick
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

@@ -1,6 +1,10 @@
 ---
 title: scatterplot-art-korrelation
-categories: null
+categories:
+- paper
+- schoice
+- todo
+- dyn
 ---
 
 ```{r libs, include = FALSE}
@@ -230,5 +234,6 @@ Meta-information
 ================
 exname: scatterplot-art-korrelation
 extype: schoice
-exsolution: `r exams::mchoice2string(items$selected_id, single = TRUE)`
+expoints: 1
+exsolution: `r mchoice2string(items$selected_id, single = TRUE)`
 exshuffle: false

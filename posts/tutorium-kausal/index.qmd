@@ -11,10 +11,12 @@ cache: true
 
 
 extype: string
+expoints: 1
 exsolution: ""
 exshuffle: no
 categories:
 - causal  # ENTER CATEGORIES HERE
+- paper
 
 ---
 

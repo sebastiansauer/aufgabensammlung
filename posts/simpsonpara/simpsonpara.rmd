@@ -3,6 +3,7 @@ categories:
 - regression
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: simpsonpara
 title: simpsonpara
@@ -44,5 +45,6 @@ Meta-information
 ================
 exname: simpsonpara
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

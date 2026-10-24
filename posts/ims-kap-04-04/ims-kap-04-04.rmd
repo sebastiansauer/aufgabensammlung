@@ -1,6 +1,8 @@
 ---
 title: ims-kap-04-04
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}
@@ -97,5 +99,6 @@ Meta-information
 ================
 exname: ims-kap-04-04
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: false

@@ -4,6 +4,7 @@ categories:
 - probability
 - quiz1-qm2-ws23
 - schoice
+- paper
 date: '2023-11-08'
 slug: wskt-quiz02
 title: wskt-quiz02
@@ -34,6 +35,8 @@ Question
 
 
 Gilt $Pr(AB) = Pr(A\cap B) = Pr(A) \cdot Pr(B)$, so sind die Ereignisse $A$ und $B$ abhängig.
+
+Ist diese Aussage wahr oder falsch?
 
 Hinweise:
 
@@ -74,6 +77,7 @@ Meta-information
 ================
 exname: wskt-quiz02
 extype: schoice
+expoints: 1
 exsolution: 10
 exshuffle: FALSE
 

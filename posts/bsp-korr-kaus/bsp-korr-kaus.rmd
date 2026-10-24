@@ -1,6 +1,8 @@
 ---
 title: bsp-korr-kaus
-categories: null
+categories:
+- paper
+- todo
 ---
 
 <!-- by Karsten Luebke et al. -->
@@ -66,6 +68,7 @@ Aufgabenname: `bsp-korr-kaus`
 Meta-information
 ================
 extype: string
+expoints: 1
 exsolution: nil
 exname: bsp-korr-kaus
 exextra[essay,logical]: TRUE

@@ -3,6 +3,7 @@ categories:
 - eda
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: modell_gleichung
 title: modell_gleichung
@@ -43,6 +44,7 @@ Meta-information
 ================
 exname: modell_gleichung
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

@@ -1,6 +1,8 @@
 ---
 title: corona-dashboard
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}
@@ -87,4 +89,4 @@ Meta-information
 extype: string
 exsolution: `r sol`
 exname: corona-dashboard
-expoints: 10
+expoints: 1

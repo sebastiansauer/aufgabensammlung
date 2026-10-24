@@ -3,6 +3,7 @@ categories:
 - datawrangling
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: select_anwendung
 title: select_anwendung
@@ -45,5 +46,6 @@ Meta-information
 ================
 exname: select_anwendung
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

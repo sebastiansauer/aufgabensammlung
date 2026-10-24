@@ -3,6 +3,7 @@ categories:
 - regression
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: zentrierung
 title: zentrierung
@@ -47,5 +48,6 @@ Meta-information
 ================
 exname: zentrierung
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

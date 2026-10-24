@@ -3,6 +3,7 @@ categories:
 - regression
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: predict_r
 title: predict_r
@@ -44,6 +45,7 @@ Meta-information
 ================
 exname: predict_r
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

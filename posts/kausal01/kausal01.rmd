@@ -4,6 +4,7 @@ categories:
 - causal
 - exam-22
 - quiz
+- paper
 date: '2023-01-11'
 slug: kausal01
 title: kausal01
@@ -124,6 +125,7 @@ Meta-information
 ================
 exname: kausal01
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

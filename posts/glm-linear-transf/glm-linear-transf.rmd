@@ -1,6 +1,8 @@
 ---
 title: glm-linear-transf
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r message = FALSE}
@@ -154,4 +156,4 @@ extype: cloze
 exsolution: `r sol_a`|`r sol_b`|`r sol_c`|`r sol_d`
 exclozetype: num|num|num|num
 exname: glm-linear-transf
-expoints: 0.25
+expoints: 1

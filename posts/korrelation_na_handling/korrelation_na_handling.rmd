@@ -3,6 +3,7 @@ categories:
 - association
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: korrelation_na_handling
 title: korrelation_na_handling
@@ -45,5 +46,6 @@ Meta-information
 ================
 exname: korrelation_na_handling
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

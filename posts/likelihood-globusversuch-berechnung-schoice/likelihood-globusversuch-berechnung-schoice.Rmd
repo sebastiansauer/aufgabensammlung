@@ -2,6 +2,7 @@
 title: likelihood-globusversuch-berechnung-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question
@@ -43,6 +44,7 @@ Meta-information
 ================
 exname: likelihood-globusversuch-berechnung-schoice
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5
 excategory: bayes

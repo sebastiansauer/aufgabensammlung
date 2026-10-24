@@ -14,6 +14,7 @@ number-sections: true
 categories:
 - probability  # ENTER CATEGORIES HERE
 - inference
+- paper
 
 bibliography: "../../library-ses.bib"
 
@@ -33,6 +34,8 @@ Behauptung:
 
 
 >   Es ist *nicht* möglich, die Wahrscheinlichkeit einer Hypothese bzw. eines Werts in der Population (eines Parameters) anzugeben.
+
+Welche der folgenden Aussagen ist richtig?
 
 
 Hinweise:
@@ -75,5 +78,6 @@ Meta-information
 ================
 exname: prob-hyps
 extype: schoice
+expoints: 1
 exsolution: 1000
 exshuffle: FALSE

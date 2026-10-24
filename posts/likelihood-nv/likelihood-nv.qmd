@@ -5,6 +5,7 @@ slug: likelihood-nv
 categories:
 - probability
 - num
+- paper
 ---
 
 
@@ -44,6 +45,7 @@ Meta-information
 ================
 exname: likelihood-nv
 extype: num
+expoints: 1
 exsolution: `r exams::fmt(sol)`
 extol: 0.01
 

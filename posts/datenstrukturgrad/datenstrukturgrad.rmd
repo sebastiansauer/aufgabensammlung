@@ -1,6 +1,8 @@
 ---
 title: datenstrukturgrad
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question
@@ -46,4 +48,4 @@ Meta-information
 extype: string
 exsolution: `r sol`
 exname: datenstrukturgrad
-expoints: 5
+expoints: 1

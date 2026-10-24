@@ -6,6 +6,7 @@ categories:
 - distributions
 - quiz1-qm2-ws23
 - schoice
+- paper
 date: '2023-11-08'
 slug: wskt-quiz19
 title: wskt-quiz19
@@ -38,6 +39,8 @@ Question
 Behauptung: 
 
 Die folgenden Variablen haben (alle) "Fat Tails": Intelligenz (IQ) und das Einkommen von Musikern.
+
+Ist diese Behauptung wahr oder falsch?
 
 Hinweise:
 
@@ -83,6 +86,7 @@ Meta-information
 ================
 exname: wskt-quiz19
 extype: schoice
+expoints: 1
 exsolution: 10
 exshuffle: FALSE
 

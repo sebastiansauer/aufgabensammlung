@@ -8,6 +8,7 @@ categories:
 - inference
 - bayes
 - regression
+- paper
 date: '2022-10-07'
 slug: ungewiss-arten-regression
 title: ungewiss-arten-regression

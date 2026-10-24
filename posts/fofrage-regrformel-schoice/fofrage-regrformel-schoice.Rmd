@@ -1,6 +1,8 @@
 ---
 title: fofrage-regrformel-schoice
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r, include=FALSE}
@@ -54,5 +56,6 @@ Meta-information
 ================
 exname: fofrage-regrformel-schoice
 extype: schoice
+expoints: 1
 exsolution: 100000
 exshuffle: 5

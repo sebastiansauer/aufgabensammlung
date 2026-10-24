@@ -6,6 +6,7 @@ categories:
 - bayes
 - simulation
 - computer
+- paper
 date: '2022-11-20'
 slug: Verteilungen-Quiz-17
 title: Verteilungen-Quiz-17
@@ -114,6 +115,7 @@ Meta-information
 ================
 exname: verteilungen-quiz-17
 extype: schoice
+expoints: 1
 exsolution: 01
 exshuffle: FALSE
 

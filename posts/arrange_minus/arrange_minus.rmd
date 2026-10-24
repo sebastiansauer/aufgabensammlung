@@ -3,6 +3,7 @@ categories:
 - datawrangling
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: arrange_minus
 title: arrange_minus
@@ -42,6 +43,7 @@ Meta-information
 ================
 exname: arrange_minus
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

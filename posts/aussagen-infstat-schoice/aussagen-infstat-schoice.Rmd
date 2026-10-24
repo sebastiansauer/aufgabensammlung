@@ -4,6 +4,7 @@ categories:
 - inference
 - exam24
 - schoice
+- paper
 ---
 
 Question
@@ -53,6 +54,7 @@ Answerlist
 Meta-information
 ================
 extype: schoice
+expoints: 1
 exsolution: 100000
 exname: aussagen-infstat-schoice
 exshuffle: 5

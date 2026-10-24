@@ -2,6 +2,7 @@
 title: doppelte-konfundierung-adjustment-set-schoice
 categories:
 - bayes
+- paper
 ---
 
 Question
@@ -43,6 +44,7 @@ Meta-information
 ================
 exname: doppelte-konfundierung-adjustment-set-schoice
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5
 excategory: bayes

@@ -267,7 +267,7 @@ exname: ppv3a-schoice
 extype: schoice
 exsolution: `r solutions_str`
 exshuffle: false
-expoints: 1 
+expoints: 1
 categories
 - bayes
 - ppv

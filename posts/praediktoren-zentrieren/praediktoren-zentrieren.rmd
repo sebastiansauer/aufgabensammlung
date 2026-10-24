@@ -1,6 +1,8 @@
 ---
 title: praediktoren-zentrieren
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}
@@ -62,6 +64,7 @@ Aufgabenname: `praediktoren-zentrieren`
 Meta-information
 ================
 extype: string
+expoints: 1
 exname: praediktoren-zentrieren
 exsolution: `r sol`
 

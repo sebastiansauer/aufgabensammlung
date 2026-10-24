@@ -88,5 +88,6 @@ Meta-information
 ================
 exname: z-wert-nicht-norm-verteilt
 extype: schoice
+expoints: 1
 exsolution: 00010
 exshuffle: false

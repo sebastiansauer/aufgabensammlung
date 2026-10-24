@@ -1,6 +1,8 @@
 ---
 title: bin2dec
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question
@@ -42,4 +44,4 @@ Meta-information
 extype: string
 exsolution: `r sol`
 exname: bin2dec
-expoints: 4
+expoints: 1

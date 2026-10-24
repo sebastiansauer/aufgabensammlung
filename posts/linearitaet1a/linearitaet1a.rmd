@@ -72,7 +72,8 @@ Meta-information
 ================
 exname: linearitaet1a
 extype: schoice
-exsolution: `r exams::mchoice2string(solutions, single = TRUE)`
+expoints: 1
+exsolution: `r mchoice2string(solutions, single = TRUE)`
 exshuffle: FALSE
 
 

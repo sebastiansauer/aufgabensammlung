@@ -1,6 +1,7 @@
 ---
 exname: ds-quiz
 extype: mchoice
+expoints: 1
 exsolution: 10010
 exshuffle: yes
 categories:
@@ -9,6 +10,7 @@ categories:
 - statlearning
 - mchoice
 - quiz
+- paper
 date: '2023-05-17'
 slug: ds-quiz
 title: ds-quiz

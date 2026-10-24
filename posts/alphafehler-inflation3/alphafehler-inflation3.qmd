@@ -1,5 +1,6 @@
 ---
 extype: num
+expoints: 1
 exsolution: r R10
 exclozetype: num
 exname: alphafehler-inflation3

@@ -222,7 +222,7 @@ extype: num
 exsolution: `r sol`
 extol: `r sol_tol`
 exshuffle: false
-expoints: 1 
+expoints: 1
 categories:
 - bayes
 - regression

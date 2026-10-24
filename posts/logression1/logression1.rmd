@@ -1,6 +1,8 @@
 ---
 title: logression1
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question
@@ -94,5 +96,6 @@ Meta-information
 ================
 exname: logression1
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: true

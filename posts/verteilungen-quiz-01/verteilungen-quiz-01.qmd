@@ -88,6 +88,7 @@ Meta-information
 ================
 exname: verteilungen-quiz-01
 extype: schoice
+expoints: 1
 exsolution: 01
 exshuffle: FALSE
 

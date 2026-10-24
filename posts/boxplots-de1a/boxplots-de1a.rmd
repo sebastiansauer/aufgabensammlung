@@ -4,6 +4,7 @@ categories:
 - eda
 - schoice
 - paper
+- dyn
 date: '2023-02-26'
 slug: boxplots-de1a
 title: boxplots-de1a
@@ -189,7 +190,8 @@ Meta-information
 ================
 exname: boxplots-de1a
 extype: schoice
-exsolution: `r exams::mchoice2string(solutions, single = TRUE)`
+expoints: 1
+exsolution: `r mchoice2string(solutions, single = TRUE)`
 exshuffle: FALSE
 
 

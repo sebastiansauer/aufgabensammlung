@@ -1,6 +1,7 @@
 ---
 exname: pigs2
 extype: num
+expoints: 1
 extol: 1
 exsolution: r sol
 categories:

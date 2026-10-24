@@ -1,6 +1,8 @@
 ---
 title: generalisieren-population
-categories: null
+categories:
+- paper
+- todo
 ---
 
 <!-- by Karsten Luebke et al.-->
@@ -71,5 +73,6 @@ Meta-information
 ================
 exname: generalisieren-population
 extype: schoice
+expoints: 1
 exsolution: 00001
 exshuffle: true

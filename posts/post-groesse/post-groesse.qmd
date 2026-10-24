@@ -11,6 +11,7 @@ cache: true
 
 
 extype: string
+expoints: 1
 exname: post-groesse
 exsolution: ""
 exshuffle: no

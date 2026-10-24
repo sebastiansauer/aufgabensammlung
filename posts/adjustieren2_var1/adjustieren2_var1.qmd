@@ -9,6 +9,7 @@ categories:
 - bayes
 - adjust
 - string
+- paper
 date: '2023-11-08'
 slug: adjustieren2_var1
 title: adjustieren2_var1

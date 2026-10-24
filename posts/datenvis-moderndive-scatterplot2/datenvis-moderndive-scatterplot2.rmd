@@ -103,4 +103,4 @@ Meta-information
 extype: string
 exsolution: `r sol`
 exname: datenvis-moderndive-scatterplot2
-expoints: 5
+expoints: 1

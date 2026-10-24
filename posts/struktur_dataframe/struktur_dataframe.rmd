@@ -3,6 +3,7 @@ categories:
 - R
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: struktur_dataframe
 title: struktur_dataframe
@@ -43,5 +44,6 @@ Meta-information
 ================
 exname: struktur_dataframe
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: TRUE

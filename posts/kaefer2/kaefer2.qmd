@@ -12,6 +12,7 @@ categories:
 - num
 - qm2
 - qm2-pruefung2023
+- paper
 date: '2023-11-08'
 title: kaefer2
 

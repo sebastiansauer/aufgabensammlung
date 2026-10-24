@@ -8,6 +8,7 @@ categories:
 - regression
 - string
 - qm2
+- paper
 date: '2024-12-12'
 ---
 

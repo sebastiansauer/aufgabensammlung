@@ -14,6 +14,7 @@ number-sections: true
 
 categories:
 - probability  # ENTER CATEGORIES HERE
+- paper
 
 ---
 
@@ -107,5 +108,6 @@ Meta-information
 ================
 exname: vier_oder_acht
 extype: schoice
+expoints: 1
 exsolution: 1000
 exshuffle: FALSE

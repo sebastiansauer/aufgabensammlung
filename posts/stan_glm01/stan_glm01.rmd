@@ -6,6 +6,7 @@ expoints: 1
 categories:
 - probability
 - bayes
+- paper
 date: '2022-11-05'
 slug: stan_glm01
 title: stan_glm01

@@ -1,6 +1,8 @@
 ---
 title: arrange
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question
@@ -35,5 +37,6 @@ Meta-information
 ================
 exname: arrange
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

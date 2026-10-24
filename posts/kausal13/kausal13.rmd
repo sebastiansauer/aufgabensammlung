@@ -1,6 +1,8 @@
 ---
 title: kausal13
-categories: null
+categories:
+- paper
+- todo
 ---
 
 <!-- This exercise is based on Karsten Luebke. -->
@@ -67,7 +69,7 @@ answerlist(ifelse(solutions, "Richtig", "Falsch"), markup = "markdown")
 Meta-information
 ================
 extype: schoice
-expoints: 3
+expoints: 1
 exsolution: `r mchoice2string(solutions, single = TRUE)`
 exname: kausal13
 exshuffle: 4

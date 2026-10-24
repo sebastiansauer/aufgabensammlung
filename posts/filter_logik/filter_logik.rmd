@@ -3,6 +3,7 @@ categories:
 - datawrangling
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: filter_logik
 title: filter_logik
@@ -45,5 +46,6 @@ Meta-information
 ================
 exname: filter_logik
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

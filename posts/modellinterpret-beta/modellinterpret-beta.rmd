@@ -4,6 +4,7 @@ categories:
 - bayes
 - regression
 - dyn
+- paper
 ---
 
 ```{r libs, include = FALSE}
@@ -359,7 +360,7 @@ extype: num
 exsolution: `r sol`
 extol: `r sol_tol`
 exshuffle: false
-expoints: 1 
+expoints: 1
 categories:
 - bayes
 - regression

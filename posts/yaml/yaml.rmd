@@ -1,6 +1,8 @@
 ---
 title: yaml
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question
@@ -36,5 +38,6 @@ Aufgabenname: `yaml`
 Meta-information
 ================
 extype: schoice
+expoints: 1
 exsolution: 00100
 exname: yaml

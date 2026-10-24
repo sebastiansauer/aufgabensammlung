@@ -3,6 +3,7 @@ categories:
 - R
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: mean_na_standard
 title: mean_na_standard
@@ -41,5 +42,6 @@ Meta-information
 ================
 exname: mean_na_standard
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

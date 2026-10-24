@@ -3,6 +3,7 @@ title: beobachtungseinheit
 categories:
 - basics
 - data
+- paper
 ---
 
 ```{r libs, include = FALSE}
@@ -133,6 +134,7 @@ Meta-information
 ================
 exname: beobachtungseinheit
 extype: schoice
+expoints: 1
 exsolution: `r exams::mchoice2string(items$solutions, single = TRUE)`
 exshuffle: false
 categories:

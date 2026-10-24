@@ -1,6 +1,8 @@
 ---
 title: berufspraxis_bsp
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question-Frage
@@ -37,5 +39,5 @@ Meta-information
 extype: string
 exsolution: s. Beispiel
 exname: berufspraxis_bsp
-expoints: 5
+expoints: 1
 

@@ -4,6 +4,7 @@ categories:
 - '2023'
 - schoice
 - quiz
+- paper
 date: '2023-05-17'
 slug: CV1
 title: CV1
@@ -74,6 +75,7 @@ Meta-information
 ================
 exname: cv1
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

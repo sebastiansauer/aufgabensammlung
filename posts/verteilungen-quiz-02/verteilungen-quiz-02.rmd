@@ -8,6 +8,7 @@ categories:
 - quiz
 - qm2
 - computer
+- paper
 date: '2022-11-20'
 slug: Verteilungen-Quiz-02
 title: Verteilungen-Quiz-02
@@ -138,6 +139,7 @@ Meta-information
 ================
 exname: verteilungen-quiz-02
 extype: schoice
+expoints: 1
 exsolution: 100
 exshuffle: FALSE
 

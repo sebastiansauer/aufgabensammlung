@@ -3,6 +3,7 @@ title: rethink4e2
 categories:
 - probability
 - bayes
+- paper
 ---
 
 ```{r libs, include = FALSE}
@@ -94,6 +95,7 @@ Meta-information
 ================
 exname: rethink4e2
 extype: schoice
+expoints: 1
 exsolution: 00100
 exshuffle: false
 categories:

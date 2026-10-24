@@ -1,6 +1,8 @@
 ---
 title: zweihochx
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question
@@ -38,5 +40,5 @@ Meta-information
 extype: num
 exsolution: `r res`
 exname: zweihochx
-expoints: 5
+expoints: 1
 

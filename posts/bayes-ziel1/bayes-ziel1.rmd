@@ -3,6 +3,7 @@ categories:
 - regression
 - bayes
 - quiz
+- paper
 date: '2022-12-09'
 title: Bayes-Ziel1
 
@@ -73,6 +74,7 @@ Meta-information
 ================
 exname: bayes-ziel1
 extype: schoice
+expoints: 1
 exsolution: 0001
 exshuffle: FALSE
 

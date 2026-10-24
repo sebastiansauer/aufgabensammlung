@@ -5,6 +5,7 @@ categories:
 - bayes
 - quiz1-qm2-ws23
 - schoice
+- paper
 date: '2023-11-08'
 slug: wskt-quiz18
 title: wskt-quiz18
@@ -37,6 +38,8 @@ Question
 Behauptung: 
 
 Hat eine Hypothese die Priori-Wahrscheinlichkeit von 1, so wird die Post-Wahrscheinlichkeit dieser Hypothese 1 sein.
+
+Ist diese Behauptung wahr oder falsch?
 
 Hinweise:
 
@@ -78,6 +81,7 @@ Meta-information
 ================
 exname: wskt-quiz18
 extype: schoice
+expoints: 1
 exsolution: 01
 exshuffle: FALSE
 

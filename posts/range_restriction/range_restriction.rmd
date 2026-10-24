@@ -3,6 +3,7 @@ categories:
 - association
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: range_restriction
 title: range_restriction
@@ -45,5 +46,6 @@ Meta-information
 ================
 exname: range_restriction
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

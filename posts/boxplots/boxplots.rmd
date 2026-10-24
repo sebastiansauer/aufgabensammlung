@@ -1,6 +1,10 @@
 ---
 title: boxplots
-categories: null
+categories:
+- paper
+- todo
+- en
+- mchoice
 ---
 
 ```{r data generation, echo = FALSE, results = "hide"}
@@ -157,5 +161,6 @@ answerlist(ifelse(solutions, "True", "False"), explanations, markup = "markdown"
 Meta-information
 ================
 extype: mchoice
-exsolution: `r exams::mchoice2string(solutions)`
+expoints: 1
+exsolution: `r mchoice2string(solutions)`
 exname: boxplots

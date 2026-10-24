@@ -1,6 +1,8 @@
 ---
 title: exp-tab-schoice
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r, include=FALSE}
@@ -74,5 +76,6 @@ Meta-information
 ================
 exname: exp-tab-schoice
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5

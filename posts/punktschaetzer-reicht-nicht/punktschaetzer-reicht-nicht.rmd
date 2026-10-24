@@ -12,6 +12,7 @@ categories:
 - stats-nutshell
 - qm2
 - stats-nutshell
+- paper
 date: '2022-09-04'
 slug: punktschaetzer-reicht-nicht
 title: punktschaetzer-reicht-nicht

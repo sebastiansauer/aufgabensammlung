@@ -4,6 +4,7 @@ categories:
 - bayes
 - schoice
 - quiz
+- paper
 date: '2023-11-16'
 title: rethink4e1
 
@@ -86,6 +87,7 @@ Meta-information
 ================
 exname: rethink4e1
 extype: schoice
+expoints: 1
 exsolution: 0001
 exshuffle: FALSE
 

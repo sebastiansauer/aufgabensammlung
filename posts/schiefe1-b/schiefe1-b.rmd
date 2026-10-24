@@ -5,6 +5,7 @@ categories:
 - eda
 - lagemaße
 - distribution
+- paper
 ---
 
 <!-- Based on Karsten Luebke et al. -->

@@ -3,6 +3,7 @@ categories:
 - eda
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: nullmodell_r
 title: nullmodell_r
@@ -44,6 +45,7 @@ Meta-information
 ================
 exname: nullmodell_r
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

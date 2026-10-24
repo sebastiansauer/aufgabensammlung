@@ -6,6 +6,7 @@ expoints: 1
 categories:
 - bayes
 - probability
+- paper
 date: '2022-11-05'
 title: rethink4e3
 

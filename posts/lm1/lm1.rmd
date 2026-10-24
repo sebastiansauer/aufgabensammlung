@@ -87,6 +87,7 @@ Meta-information
 ================
 exname: lm1
 extype: schoice
+expoints: 1
 exsolution: 00001
 exshuffle: FALSE
 

@@ -13,6 +13,7 @@ number-sections: true
 
 categories:
 - probability  # ENTER CATEGORIES HERE
+- paper
 
 ---
 
@@ -23,6 +24,8 @@ Question
 
 
 Zwei Ereignisse A und B heißen disjunkt (oder unvereinbar), wenn gilt:
+
+Wählen Sie die richtige Ergänzung.
 
 
 Answerlist
@@ -59,5 +62,6 @@ Meta-information
 ================
 exname: prob-disjunkt
 extype: schoice
+expoints: 1
 exsolution: 0010
 exshuffle: FALSE

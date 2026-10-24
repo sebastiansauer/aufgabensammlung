@@ -4,6 +4,7 @@ categories:
 - dyn
 - schoice
 - quiz
+- paper
 date: '2023-02-26'
 slug: Ridges-vergleichen
 title: Ridges-vergleichen
@@ -41,6 +42,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 Question
 ========
+
+Das folgende Diagramm zeigt die Verteilung des Preises (`price`) je Schliffart (`cut`) im Datensatz `diamonds`. Welche Aussage ist richtig?
 
 
 
@@ -92,6 +95,7 @@ Meta-information
 ================
 exname: ridges-vergleichen
 extype: schoice
+expoints: 1
 exsolution: 000100
 exshuffle: 5
 

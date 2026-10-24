@@ -3,6 +3,7 @@ categories:
 - datawrangling
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: praxis_datenjudo
 title: praxis_datenjudo
@@ -42,5 +43,6 @@ Meta-information
 ================
 exname: praxis_datenjudo
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

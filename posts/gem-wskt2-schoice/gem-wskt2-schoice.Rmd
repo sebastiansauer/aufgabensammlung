@@ -1,6 +1,8 @@
 ---
 title: gem-wskt2-schoice
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r data generation, echo = FALSE, results = "hide"}
@@ -101,5 +103,6 @@ Meta-information
 ================
 exname: gem-wskt2-schoice
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5

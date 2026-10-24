@@ -75,6 +75,7 @@ Meta-information
 ================
 exname: ziele-statistik
 extype: schoice
+expoints: 1
 exsolution: 1000
 exshuffle: FALSE
 

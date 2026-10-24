@@ -2,6 +2,7 @@
 title: effekt-definition-nicht-kausal-schoice
 categories:
 - statistik-grundlagen
+- paper
 ---
 
 Question
@@ -43,6 +44,7 @@ Meta-information
 ================
 exname: effekt-definition-nicht-kausal-schoice
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5
 excategory: statistik-grundlagen

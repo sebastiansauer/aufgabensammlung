@@ -1,6 +1,8 @@
 ---
 title: logik1
-categories: null
+categories:
+- paper
+- todo
 ---
 
 <!-- ACHTUNG: Die Verwendung der "Wenn-Dann-Kalküle erscheint mir hier falsch! -->
@@ -175,5 +177,6 @@ Meta-information
 ================
 exname: logik1
 extype: schoice
+expoints: 1
 exsolution: `r  mchoice2string(itemlist$is_correct)`
 exshuffle: true

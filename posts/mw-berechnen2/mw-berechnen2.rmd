@@ -9,6 +9,7 @@ categories:
 - datawrangling
 - dyn
 - num
+- paper
 date: '2023-04-19'
 slug: mw-berechnen2
 title: mw-berechnen2

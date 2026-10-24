@@ -1,6 +1,7 @@
 ---
 exname: tidymodels2
 extype: string
+expoints: 1
 exsolution: NA
 categories:
 - ds1

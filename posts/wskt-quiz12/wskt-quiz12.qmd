@@ -5,6 +5,7 @@ categories:
 - bayes
 - quiz1-qm2-ws23
 - schoice
+- paper
 date: '2023-11-08'
 slug: wskt-quiz12
 title: wskt-quiz12
@@ -35,6 +36,8 @@ Question
 
 
 Behauptung: Der Likelihood $L$ gibt die Wahrscheinlichkeit einer *H*ypothese an, gegeben der *D*aten.
+
+Ist diese Behauptung wahr oder falsch?
 
 Hinweise:
 
@@ -79,6 +82,7 @@ Meta-information
 ================
 exname: wskt-quiz12
 extype: schoice
+expoints: 1
 exsolution: 10
 exshuffle: FALSE
 

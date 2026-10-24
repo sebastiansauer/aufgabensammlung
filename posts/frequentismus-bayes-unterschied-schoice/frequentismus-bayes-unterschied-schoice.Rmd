@@ -2,6 +2,7 @@
 title: frequentismus-bayes-unterschied-schoice
 categories:
 - inferenz
+- paper
 ---
 
 Question
@@ -43,6 +44,7 @@ Meta-information
 ================
 exname: frequentismus-bayes-unterschied-schoice
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5
 excategory: inferenz

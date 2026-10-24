@@ -4,6 +4,7 @@ categories:
 - ds1
 - schoice
 - quiz
+- paper
 date: '2023-05-17'
 slug: Bootstrap1
 title: Bootstrap1
@@ -79,6 +80,7 @@ Meta-information
 ================
 exname: bootstrap1
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

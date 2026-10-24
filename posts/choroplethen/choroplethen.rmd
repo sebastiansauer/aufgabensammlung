@@ -1,6 +1,8 @@
 ---
 title: choroplethen
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question
@@ -40,5 +42,6 @@ Aufgabenname: `choroplethen`
 Meta-information
 ================
 extype: string
+expoints: 1
 exsolution: `r sol`
 exname: choroplethen

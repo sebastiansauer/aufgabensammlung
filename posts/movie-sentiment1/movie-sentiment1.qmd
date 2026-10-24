@@ -3,6 +3,7 @@ categories:
 - textmining
 - imdb
 - schoice
+- paper
 date: '2023-11-16'
 slug: movie-sentiment1
 title: movie-sentiment1
@@ -582,6 +583,7 @@ Meta-information
 ================
 exname: movie-sentiment1
 extype: schoice
+expoints: 1
 exsolution: `r mchoice2string(syntax_chosen_df$correct, single = TRUE)`
 exshuffle: FALSE
 

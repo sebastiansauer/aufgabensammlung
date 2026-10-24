@@ -2,6 +2,7 @@
 categories:
 - dag
 - causal
+- paper
 date: '2022-12-19'
 slug: kausal25
 title: kausal25
@@ -219,6 +220,7 @@ Meta-information
 ================
 exname: kausal25
 extype: schoice
+expoints: 1
 exsolution: `r mchoice2string(sol_df$is_correct, single = TRUE)`
 exshuffle: FALSE
 

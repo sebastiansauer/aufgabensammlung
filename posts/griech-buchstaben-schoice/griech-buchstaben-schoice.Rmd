@@ -1,6 +1,8 @@
 ---
 title: griech-buchstaben-schoice
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r global-knitr-options, include=FALSE}
@@ -86,5 +88,6 @@ Meta-information
 ================
 exname: griech-buchstaben-schoice
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5

@@ -2,6 +2,7 @@
 title: experiment-vs-beobachtung-konfundierung-schoice
 categories:
 - kausalinferenz
+- paper
 ---
 
 Question
@@ -43,6 +44,7 @@ Meta-information
 ================
 exname: experiment-vs-beobachtung-konfundierung-schoice
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5
 excategory: kausalinferenz

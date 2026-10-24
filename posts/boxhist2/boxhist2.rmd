@@ -122,6 +122,7 @@ answerlist(paste(unlist(explanations), ".", sep = ""), markup = "markdown")
 Meta-information
 ================
 extype: cloze
+expoints: 1
 exsolution: `r paste(solutions, collapse = "|")`
 exclozetype: `r paste(type, collapse = "|")`
 exname: boxhist2

@@ -3,6 +3,7 @@ categories:
 - R
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: vektorielles_rechnen_transfer
 title: vektorielles_rechnen_transfer
@@ -41,5 +42,6 @@ Meta-information
 ================
 exname: vektorielles_rechnen_transfer
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: TRUE

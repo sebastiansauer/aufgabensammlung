@@ -6,6 +6,7 @@ expoints: 1
 categories:
 - rope
 - bayes
+- paper
 date: '2022-12-13'
 slug: rope1
 title: rope1

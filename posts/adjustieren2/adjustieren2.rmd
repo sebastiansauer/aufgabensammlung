@@ -3,7 +3,7 @@ extype: cloze
 exclozetype: num|string
 exsolution: 3932.5|r regression_formel
 exname: adjustieren2
-expoints: 0.5
+expoints: 1
 categories:
 - regression
 - lm
@@ -12,6 +12,7 @@ categories:
 - adjust
 - qm2-pruefung2023
 - string
+- paper
 date: '2022-09-04'
 slug: adjustieren2
 title: adjustieren2

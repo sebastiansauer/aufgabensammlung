@@ -1,6 +1,8 @@
 ---
 title: globus2-schoice
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r, include=FALSE}
@@ -86,5 +88,6 @@ Meta-information
 ================
 exname: globus2-schoice
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5

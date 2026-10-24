@@ -1,6 +1,7 @@
 ---
 exname: bayesmod-bestimmen02
 extype: string
+expoints: 1
 exsolution: r  sol
 exshuffle: no
 categories:
@@ -8,6 +9,7 @@ categories:
 - bayes
 - string
 - prior
+- paper
 date: '2022-12-09'
 title: Bayesmod-bestimmen02
 

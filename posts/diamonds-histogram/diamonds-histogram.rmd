@@ -38,6 +38,8 @@ Question
 
 Die Daten beziehen sich auf den Datensatz `diamonds` und sind [hier](https://ggplot2.tidyverse.org/reference/diamonds.html) einzusehen bzw. können bei Interesse dort heruntergeladen werden.
 
+Welche Aussage zum folgenden Diagramm ist richtig?
+
 ```{r message = FALSE, echo = FALSE}
 data(diamonds, package = "ggplot2")
 library(tidyverse)
@@ -93,6 +95,7 @@ Meta-information
 ================
 exname: diamonds-histogram
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: TRUE
 

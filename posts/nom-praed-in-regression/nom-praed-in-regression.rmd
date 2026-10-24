@@ -1,6 +1,8 @@
 ---
 title: nom-praed-in-regression
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}
@@ -69,5 +71,6 @@ Meta-information
 ================
 exname: nom-praed-in-regression
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: false

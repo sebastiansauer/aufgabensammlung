@@ -1,6 +1,8 @@
 ---
 title: parse_number
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}
@@ -135,5 +137,6 @@ Meta-information
 ================
 exname: parse_number
 extype: schoice
+expoints: 1
 exsolution: 00010
 exshuffle: false

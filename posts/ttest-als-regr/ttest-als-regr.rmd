@@ -3,13 +3,14 @@ extype: cloze
 exclozetype: string|string|string|string
 exsolution: binär|metrisch|XXX|XXX
 exname: ttest-als-regr
-expoints: 0.25
+expoints: 1
 categories:
 - regression
 - ttest
 - variable-levels
 - mtcars
 - quiz
+- paper
 date: '2022-09-04'
 slug: ttest-als-regression
 title: ttest-als-regression
@@ -46,7 +47,7 @@ Der t-Test ist ein Verfahren, der die Mittelwerte zweier Gruppen miteinander ver
 
 Hierbei ist es wichtig, sich das Skalenniveau der Variablen, die ein t-Test verarbeitet, vor Augen zu führen.
 
-
+Welche der folgenden Aussagen ist richtig?
 
   
 Hinweisse:

@@ -5,6 +5,7 @@ title: n-se
 categories:
 - schoice
 - quiz
+- paper
 
 ---
 
@@ -46,6 +47,7 @@ Meta-information
 ================
 exname: n-se
 extype: schoice
+expoints: 1
 exsolution: 0001
 exshuffle: FALSE
 

@@ -161,7 +161,8 @@ Meta-information
 ================
 exname: regression3
 extype: schoice
-exsolution: `r exams::mchoice2string(d_five_options$is_correct, single = TRUE)`
+expoints: 1
+exsolution: `r mchoice2string(d_five_options$is_correct, single = TRUE)`
 exshuffle: FALSE
 
 

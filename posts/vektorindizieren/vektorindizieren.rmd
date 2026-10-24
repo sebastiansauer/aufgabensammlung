@@ -1,6 +1,8 @@
 ---
 title: vektorindizieren
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}
@@ -61,4 +63,4 @@ Meta-information
 extype: string
 exsolution: `r sol`
 exname: vektorindizieren
-expoints: 5
+expoints: 1

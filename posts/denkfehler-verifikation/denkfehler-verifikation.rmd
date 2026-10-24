@@ -1,6 +1,8 @@
 ---
 title: denkfehler-verifikation
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question
@@ -45,5 +47,6 @@ Meta-information
 ================
 exname: denkfehler-verifikation
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: true

@@ -41,6 +41,8 @@ Question
 
 Die Daten beziehen sich auf den Datensatz `diamonds` und sind [hier](https://ggplot2.tidyverse.org/reference/diamonds.html) einzusehen bzw. können bei Interesse dort heruntergeladen werden.
 
+Welche Aussage zum folgenden Diagramm ist richtig?
+
 
 
 ```{r p-diamonds1, echo = FALSE}
@@ -129,6 +131,7 @@ Meta-information
 ================
 exname: diamonds-histogramm-vergleich
 extype: schoice
+expoints: 1
 exsolution: 0010
 exshuffle: FALSE
 

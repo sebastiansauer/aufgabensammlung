@@ -14,6 +14,7 @@ format:
      df-print: kable
 
 extype: string
+expoints: 1
 exname: wskt-df-r
 exsolution: ""
 exshuffle: no
@@ -21,6 +22,7 @@ categories:
 - probability  # ENTER CATEGORIES HERE
 - R
 - computer
+- paper
 ---
 
 

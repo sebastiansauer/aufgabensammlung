@@ -4,6 +4,7 @@ categories:
 - bayes
 - distributions
 - quiz
+- paper
 date: '2022-12-09'
 slug: Priorwahl2
 title: Priorwahl2
@@ -84,6 +85,7 @@ Meta-information
 ================
 exname: priorwahl2
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: FALSE
 

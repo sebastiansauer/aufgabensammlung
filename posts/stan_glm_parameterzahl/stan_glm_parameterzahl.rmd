@@ -12,6 +12,7 @@ categories:
 - bayes
 - regression
 - parameters
+- paper
 ---
 
 

@@ -3,6 +3,7 @@ title: verteilungen-quiz-01-b
 categories:
 - distribution
 - probability
+- paper
 ---
 
 ```{r global-knitr-options, include=FALSE, message=FALSE}
@@ -25,6 +26,8 @@ Question
 
 
 Die Zuordnung der Elementarereignisse eines Zufallsexperiments zu einer Zahl nennt man Zufallsvariable.
+
+Ist diese Aussage wahr oder falsch?
 
 
 Answerlist
@@ -55,6 +58,7 @@ Meta-information
 ================
 exname: verteilungen-quiz-01-b
 extype: schoice
+expoints: 1
 exsolution: 10
 exshuffle: false
 categories:

@@ -4,6 +4,7 @@ categories:
 - anova
 - quiz
 - schoice
+- paper
 date: '2022-12-15'
 slug: anova-skalenniveau
 title: anova-skalenniveau
@@ -75,6 +76,7 @@ Meta-information
 ================
 exname: anova-skalenniveau
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: FALSE
 

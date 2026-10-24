@@ -1,5 +1,6 @@
 ---
 extype: num
+expoints: 1
 exsolution: 3.38
 exname: mtcars-post_paper
 extol: 0.5

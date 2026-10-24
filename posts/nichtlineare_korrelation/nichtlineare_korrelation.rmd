@@ -3,6 +3,7 @@ categories:
 - association
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: nichtlineare_korrelation
 title: nichtlineare_korrelation
@@ -45,6 +46,7 @@ Meta-information
 ================
 exname: nichtlineare_korrelation
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

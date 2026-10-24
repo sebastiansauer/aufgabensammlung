@@ -3,6 +3,7 @@ categories:
 - R
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: verschachtelte_funktionen
 title: verschachtelte_funktionen
@@ -42,5 +43,6 @@ Meta-information
 ================
 exname: verschachtelte_funktionen
 extype: schoice
+expoints: 1
 exsolution: 00100
 exshuffle: TRUE

@@ -1,6 +1,8 @@
 ---
 title: logist-plot1
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}
@@ -180,5 +182,6 @@ Meta-information
 ================
 exname: logist-plot1
 extype: string
+expoints: 1
 exsolution: NULL
 

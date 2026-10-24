@@ -6,6 +6,7 @@ categories:
 - distributions
 - quiz1-qm2-ws23
 - schoice
+- paper
 date: '2023-11-08'
 slug: wskt-quiz11
 title: wskt-quiz11
@@ -38,6 +39,8 @@ Question
 Sei $X \sim N(100, 15)$. 
 
 Behauptung: Es gilt: $Pr(X \ge 115) < .2$.
+
+Ist diese Behauptung wahr oder falsch?
 
 Hinweise:
 
@@ -86,6 +89,7 @@ Meta-information
 ================
 exname: wskt-quiz11
 extype: schoice
+expoints: 1
 exsolution: 01
 exshuffle: FALSE
 

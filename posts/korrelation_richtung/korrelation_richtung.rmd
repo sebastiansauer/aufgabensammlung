@@ -3,6 +3,7 @@ categories:
 - association
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: korrelation_richtung
 title: korrelation_richtung
@@ -44,6 +45,7 @@ Meta-information
 ================
 exname: korrelation_richtung
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

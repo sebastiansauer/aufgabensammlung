@@ -10,7 +10,7 @@ This repo is **not** the source of the blog [datenwerk.netlify.app](https://date
 
 ## YAML header
 
-Every exercise starts with a YAML header holding at least `title` and `categories`. `categories: null` marks an exercise whose categories still have to be added.
+Every exercise starts with a YAML header holding at least `title` and `categories`. `categories: null` marks an exercise whose categories still have to be added; if such an exercise also gets `paper`, the marker becomes the category `todo`. The category `paper` means the exercise can be solved with pen and paper only (no R, no calculator, no internet).
 
 ## schoice exercises: R/exams format
 
@@ -20,7 +20,7 @@ All `schoice` exercises in `posts/` are meant to be readable by the `exams` pack
 - `Question` / `Solution` headings underlined with `========` (exams does not recognise `## Aufgabe`, `## Lösung`, `## Exercise` or ATX headings)
 - `Answerlist` blocks underlined with `----------`
 - no `</br>` spacer lines between the question's Answerlist and `Solution` (exams would append them to the last option)
-- a `Meta-information` block (underlined with `================`) holding `exname`, `extype`, `exsolution`, `exshuffle` — the only place for these fields; it sits before the `---` / `Categories:` footer
+- a `Meta-information` block (underlined with `================`) holding `exname`, `extype`, `expoints`, `exsolution`, `exshuffle` — the only place for these fields; it sits before the `---` / `Categories:` footer
 
 Every exercise names itself at the end of its solution with a line ``Aufgabenname: `<name>` ``. In R/exams files it must sit *before* the solution's `Answerlist`/`Solutionlist` (or the chunk calling `answerlist()`), since exams appends any text after the list to the last item; otherwise it goes right before `Meta-information`. In `## Lösung` files it goes before the `---` / `Categories:` footer.
 
@@ -37,6 +37,7 @@ Non-schoice exercises still follow the older pattern:
 - `exsolution`: the correct answer — a number for `num`, a binary string like `10000` or `00100` for `schoice`/`mchoice` (one `1` per correct option)
 - `exshuffle`: whether to shuffle answer options (number = how many to show)
 - `extol`: numeric tolerance for `num` answers
+- `expoints`: always `1` — every exercise is worth exactly one point (schoice: in the `Meta-information` block, right after `extype`)
 - `categories`: topic tags (also repeated at the bottom of the file body)
 - `exname`, `slug`, `title`, `date`
 

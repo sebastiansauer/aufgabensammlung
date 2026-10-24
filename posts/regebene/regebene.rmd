@@ -3,6 +3,7 @@ categories:
 - regression
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: regebene
 title: regebene
@@ -44,6 +45,7 @@ Meta-information
 ================
 exname: regebene
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

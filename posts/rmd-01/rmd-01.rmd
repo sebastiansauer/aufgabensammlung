@@ -1,6 +1,8 @@
 ---
 title: rmd-01
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question
@@ -64,5 +66,6 @@ Meta-information
 ================
 exname: rmd-01
 extype: schoice
+expoints: 1
 exsolution: 00100
 exshuffle: FALSE

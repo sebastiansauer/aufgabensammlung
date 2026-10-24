@@ -1,6 +1,8 @@
 ---
 title: mittelwert-berechnen
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}
@@ -72,6 +74,7 @@ Meta-information
 ================
 exname: mittelwert-berechnen
 extype: num
+expoints: 1
 exsolution: `r sol`
 exshuffle: true
 extol: 0.2

@@ -1,6 +1,8 @@
 ---
 title: stichprobenmethoden
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}
@@ -69,5 +71,6 @@ Meta-information
 ================
 exname: stichprobenmethoden
 extype: schoice
+expoints: 1
 exsolution: 00100
 exshuffle: false

@@ -1,6 +1,8 @@
 ---
 title: kekse01-schoice
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r, include=FALSE}
@@ -102,5 +104,6 @@ Meta-information
 ================
 exname: kekse01-schoice
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5

@@ -3,6 +3,7 @@ title: punktschaetzer-reicht-nicht2
 categories:
 - point-estimate
 - uncertainty
+- paper
 ---
 
 ```{r libs, include = FALSE}

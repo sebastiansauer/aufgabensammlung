@@ -1,5 +1,6 @@
 ---
 extype: string
+expoints: 1
 exsolution: r paste0(R2,R5,R10,R20)
 exname: alphafehler-inflation4
 extol: 0.02

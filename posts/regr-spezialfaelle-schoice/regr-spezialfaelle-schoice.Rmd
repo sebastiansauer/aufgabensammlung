@@ -2,6 +2,7 @@
 title: regr-spezialfaelle-schoice
 categories:
 - regression
+- paper
 ---
 
 Question
@@ -43,6 +44,7 @@ Meta-information
 ================
 exname: regr-spezialfaelle-schoice
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5
 excategory: regression

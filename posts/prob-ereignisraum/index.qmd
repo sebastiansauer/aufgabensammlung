@@ -13,6 +13,7 @@ number-sections: true
 
 categories:
 - probability  # ENTER CATEGORIES HERE
+- paper
 
 ---
 
@@ -59,5 +60,6 @@ Meta-information
 ================
 exname: prob-ereignisraum
 extype: schoice
+expoints: 1
 exsolution: 0010
 exshuffle: FALSE

@@ -5,6 +5,7 @@ categories:
 - simulation
 - frequentist
 - pvalue
+- paper
 ---
 
 ```{r libs, include = FALSE}

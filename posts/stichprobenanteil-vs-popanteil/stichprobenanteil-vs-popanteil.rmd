@@ -1,6 +1,8 @@
 ---
 title: stichprobenanteil-vs-popanteil
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}
@@ -121,5 +123,6 @@ Meta-information
 ================
 exname: stichprobenanteil-vs-popanteil
 extype: schoice
+expoints: 1
 exsolution: 00010
 exshuffle: true

@@ -8,6 +8,7 @@ categories:
 - probability
 - num
 - bayesbox
+- paper
 date: '2024-12-06'
 
 title: genial 

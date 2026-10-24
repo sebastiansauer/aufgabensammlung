@@ -3,6 +3,7 @@ title: wrangle2
 categories:
 - datawrangling
 - eda
+- paper
 ---
 
 ```{r libs, include = FALSE}
@@ -109,6 +110,7 @@ Meta-information
 ================
 exname: wrangle2
 extype: schoice
+expoints: 1
 exsolution: 00001
 exshuffle: false
 categories:

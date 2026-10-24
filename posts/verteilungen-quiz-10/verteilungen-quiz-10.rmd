@@ -77,6 +77,7 @@ Meta-information
 ================
 exname: verteilungen-quiz-10
 extype: schoice
+expoints: 1
 exsolution: 01
 exshuffle: FALSE
 

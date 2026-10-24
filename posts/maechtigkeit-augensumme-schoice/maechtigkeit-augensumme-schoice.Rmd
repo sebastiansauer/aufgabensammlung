@@ -2,6 +2,7 @@
 title: maechtigkeit-augensumme-schoice
 categories:
 - wahrscheinlichkeit
+- paper
 ---
 
 Question
@@ -43,6 +44,7 @@ Meta-information
 ================
 exname: maechtigkeit-augensumme-schoice
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5
 excategory: wahrscheinlichkeit

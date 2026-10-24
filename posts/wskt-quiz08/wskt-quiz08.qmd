@@ -5,6 +5,7 @@ categories:
 - bayes
 - quiz1-qm2-ws23
 - schoice
+- paper
 date: '2023-11-08'
 slug: wskt-quiz08
 title: wskt-quiz08
@@ -155,6 +156,7 @@ Meta-information
 ================
 exname: wskt-quiz08
 extype: schoice
+expoints: 1
 exsolution: 10
 exshuffle: FALSE
 

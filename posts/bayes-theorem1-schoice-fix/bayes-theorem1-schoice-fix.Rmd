@@ -4,6 +4,7 @@ categories:
 - bayes
 - probability
 - schoice
+- paper
 ---
 
 Question
@@ -45,6 +46,7 @@ Answerlist
 Meta-information
 ================
 extype: schoice
+expoints: 1
 exsolution: 10000
 exname: bayes-theorem1-schoice-fix
 exshuffle: true

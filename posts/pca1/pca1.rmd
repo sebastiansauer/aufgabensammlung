@@ -5,6 +5,7 @@ title: PCA1
 categories:
 - schoice
 - quiz
+- paper
 
 ---
 
@@ -78,7 +79,7 @@ exname: pca1
 extype: schoice
 exsolution: 11000000
 exshuffle: 5
-expoints: 4
+expoints: 1
 
 
 ---

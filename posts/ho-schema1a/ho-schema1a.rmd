@@ -1,6 +1,8 @@
 ---
 title: ho-schema1a
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question
@@ -41,5 +43,6 @@ Meta-information
 ================
 exname: ho-schema1a
 extype: schoice
+expoints: 1
 exsolution: 100000
 exshuffle: 5

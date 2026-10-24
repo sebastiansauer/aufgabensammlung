@@ -1,6 +1,6 @@
 ---
 extype: string
-exsolution: NA
+exsolution: "keine Antwort möglich"
 exname: penguins-regr02
 expoints: 1
 categories:

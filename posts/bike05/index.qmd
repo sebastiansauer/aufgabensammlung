@@ -3,6 +3,7 @@
 date: 2025-12-18  # DATUM AKTUALISIEREN!
 draft: false   # ACHTUNG DRAFT STEHT AUF TRUE!
 title:  bike05  # HIER TITEL DES POSTS EINGEBEN.
+expoints: 1
 execute: 
   eval: true 
   cache: true

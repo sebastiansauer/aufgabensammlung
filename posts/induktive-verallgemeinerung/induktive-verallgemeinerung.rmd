@@ -1,6 +1,8 @@
 ---
 title: induktive-verallgemeinerung
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question
@@ -48,5 +50,6 @@ Meta-information
 ================
 exname: induktive-verallgemeinerung
 extype: schoice
+expoints: 1
 exsolution: 100000
 exshuffle: 5

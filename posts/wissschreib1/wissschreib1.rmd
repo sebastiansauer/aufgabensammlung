@@ -1,6 +1,8 @@
 ---
 title: wissschreib1
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question
@@ -42,5 +44,6 @@ Meta-information
 ================
 exname: wissschreib1
 extype: schoice
+expoints: 1
 exsolution: 100000
 exshuffle: true

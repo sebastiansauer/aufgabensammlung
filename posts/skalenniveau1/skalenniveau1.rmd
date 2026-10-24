@@ -4,6 +4,8 @@ categories:
 - dyn
 - variable-level
 - basics
+- paper
+- schoice
 ---
 
 ```{r libs, include = FALSE}
@@ -157,7 +159,8 @@ Meta-information
 ================
 exname: skalenniveau1
 extype: schoice
-exsolution: `r exams::mchoice2string(d_prepared$is_correct_item, single = TRUE)`
+expoints: 1
+exsolution: `r mchoice2string(d_prepared$is_correct_item, single = TRUE)`
 exshuffle: false
 categories:
 - dyn

@@ -3,7 +3,7 @@ exname: boosting1
 extype: mchoice
 exsolution: 11111
 exshuffle: no
-expoints: 4
+expoints: 1
 exbuggy: 1
 date: '2023-05-17'
 slug: Boosting1
@@ -12,6 +12,7 @@ categories:
 - mchoice
 - statisticallearning
 - quiz
+- paper
 
 ---
 

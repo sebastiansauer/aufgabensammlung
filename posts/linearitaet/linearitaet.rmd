@@ -1,6 +1,10 @@
 ---
 title: linearitaet
-categories: null
+categories:
+- paper
+- todo
+- schoice
+- regression
 ---
 
 <!-- The author of this question is Karsten Lubke. -->

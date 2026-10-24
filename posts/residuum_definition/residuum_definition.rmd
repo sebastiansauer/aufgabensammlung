@@ -3,6 +3,7 @@ categories:
 - rahmen
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: residuum_definition
 title: residuum_definition
@@ -41,5 +42,6 @@ Meta-information
 ================
 exname: residuum_definition
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: TRUE

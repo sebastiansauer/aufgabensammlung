@@ -1,6 +1,8 @@
 ---
 title: def-signif-schoice
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question
@@ -43,5 +45,6 @@ Meta-information
 ================
 exname: def-signif-schoice
 extype: schoice
+expoints: 1
 exsolution: 00100
 exshuffle: 5

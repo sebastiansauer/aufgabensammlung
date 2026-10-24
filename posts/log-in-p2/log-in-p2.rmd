@@ -90,6 +90,7 @@ Aufgabenname: `log-in-p2`
 Meta-information
 ================
 extype: num
+expoints: 1
 exsolution: `r sol`
 exname: log-in-p2
 extol: 0.02

@@ -3,6 +3,7 @@ categories:
 - regression
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: intercept_m
 title: intercept_m
@@ -45,5 +46,6 @@ Meta-information
 ================
 exname: intercept_m
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

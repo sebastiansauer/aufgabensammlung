@@ -3,6 +3,7 @@
 date: 2025-10-17
 draft: false   # ACHTUNG DRAFT STEHT AUF TRUE!
 title: xlsx-online-import  # HIER TITEL DES POSTS EINGEBEN.
+expoints: 1
 execute: 
   eval: true 
 highlight-style: arrow 

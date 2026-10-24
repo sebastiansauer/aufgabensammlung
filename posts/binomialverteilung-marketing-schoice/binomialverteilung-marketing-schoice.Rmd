@@ -2,6 +2,7 @@
 title: binomialverteilung-marketing-schoice
 categories:
 - verteilungen
+- paper
 ---
 
 Question
@@ -43,6 +44,7 @@ Meta-information
 ================
 exname: binomialverteilung-marketing-schoice
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5
 excategory: verteilungen

@@ -4,11 +4,12 @@ exsolution: r paste(sol, collapse = "|")
 exclozetype: num|num|num|num
 exname: gem-wskt2
 extol: 0.05
-expoints: 0.25
+expoints: 1
 categories:
 - probability
 - bayes
 - cloze
+- paper
 date: '2023-11-08'
 title: Gem-Wskt2
 

@@ -1,6 +1,8 @@
 ---
 title: aufgaben_statistik
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question
@@ -67,6 +69,7 @@ Meta-information
 ================
 exname: aufgaben_statistik
 extype: schoice
+expoints: 1
 exsolution: 0100000
 exshuffle: 5
 

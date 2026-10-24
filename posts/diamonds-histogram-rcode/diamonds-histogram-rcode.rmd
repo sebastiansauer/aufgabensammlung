@@ -1,6 +1,8 @@
 ---
 title: diamonds-histogram-rcode
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r global-knitr-options, include=FALSE}

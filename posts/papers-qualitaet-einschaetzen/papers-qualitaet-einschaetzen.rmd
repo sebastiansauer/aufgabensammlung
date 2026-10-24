@@ -1,6 +1,8 @@
 ---
 title: papers-qualitaet-einschaetzen
-categories: null
+categories:
+- paper
+- todo
 ---
 
 <!-- Checken, ob die richtige Lösung nicht immer auf Platz 5/5 steht! -->
@@ -151,5 +153,6 @@ Meta-information
 ================
 exname: papers-qualitaet-einschaetzen
 extype: schoice
+expoints: 1
 exsolution: `r mchoice2string(items_df$selected, single = TRUE)`
 exshuffle: false

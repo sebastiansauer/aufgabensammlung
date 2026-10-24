@@ -3,6 +3,7 @@ categories:
 - regression
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: overfitting
 title: overfitting
@@ -45,6 +46,7 @@ Meta-information
 ================
 exname: overfitting
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

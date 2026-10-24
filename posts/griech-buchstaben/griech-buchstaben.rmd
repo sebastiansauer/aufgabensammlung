@@ -6,6 +6,7 @@ expoints: 1
 categories:
 - qm2
 - inference
+- paper
 tags:
 - inference
 - parameters

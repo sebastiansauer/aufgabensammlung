@@ -3,6 +3,7 @@ categories:
 - rahmen
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: definition_statistik
 title: definition_statistik
@@ -41,5 +42,6 @@ Meta-information
 ================
 exname: definition_statistik
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: TRUE

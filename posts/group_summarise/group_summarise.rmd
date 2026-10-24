@@ -3,6 +3,7 @@ categories:
 - datawrangling
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: group_summarise
 title: group_summarise
@@ -44,5 +45,6 @@ Meta-information
 ================
 exname: group_summarise
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

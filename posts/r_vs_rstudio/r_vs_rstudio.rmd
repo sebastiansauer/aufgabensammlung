@@ -3,6 +3,7 @@ categories:
 - R
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: r_vs_rstudio
 title: r_vs_rstudio
@@ -41,5 +42,6 @@ Meta-information
 ================
 exname: r_vs_rstudio
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

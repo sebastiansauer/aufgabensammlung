@@ -163,6 +163,7 @@ Meta-information
 ================
 exname: mtcars-post3a
 extype: schoice
+expoints: 1
 exsolution: 00010
 exshuffle: FALSE
 

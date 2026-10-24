@@ -1,6 +1,8 @@
 ---
 title: implikation1
-categories: null
+categories:
+- paper
+- todo
 ---
 
 ```{r libs, include = FALSE}
@@ -171,6 +173,7 @@ Meta-information
 ================
 exname: implikation1
 extype: schoice
+expoints: 1
 exsolution: `r  mchoice2string(itemlist$is_correct)`
 exshuffle: true
 exdyn: true

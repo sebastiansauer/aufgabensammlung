@@ -37,6 +37,8 @@ Question
 
 Behauptung: Die Post-Verteilung gibt die Wahrscheinlichkeit der Hypothese an, gegeben der Daten (und des Modells).
 
+Ist diese Behauptung wahr oder falsch?
+
 Hinweise:
 
 - Orientieren Sie sich im Übrigen an den [allgemeinen Hinweisen des Datenwerks](https://datenwerk.netlify.app/hinweise).
@@ -80,6 +82,7 @@ Meta-information
 ================
 exname: wskt-quiz13
 extype: schoice
+expoints: 1
 exsolution: 10
 exshuffle: FALSE
 

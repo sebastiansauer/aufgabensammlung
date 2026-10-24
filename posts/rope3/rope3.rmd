@@ -184,6 +184,7 @@ Meta-information
 ================
 exname: rope3
 extype: schoice
+expoints: 1
 exsolution: 0100
 exshuffle: FALSE
 

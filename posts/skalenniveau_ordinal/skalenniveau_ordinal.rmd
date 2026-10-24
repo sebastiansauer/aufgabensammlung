@@ -3,6 +3,7 @@ categories:
 - rahmen
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: skalenniveau_ordinal
 title: skalenniveau_ordinal
@@ -41,5 +42,6 @@ Meta-information
 ================
 exname: skalenniveau_ordinal
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: TRUE

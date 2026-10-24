@@ -4,6 +4,7 @@ categories:
 - bayes
 - likelihood
 - quiz
+- paper
 date: '2022-12-09'
 title: Likelihood-identifizieren
 
@@ -86,6 +87,7 @@ Meta-information
 ================
 exname: likelihood-identifizieren
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: FALSE
 

@@ -2,6 +2,7 @@
 title: gleichverteilung-eigenschaften-schoice
 categories:
 - verteilungen
+- paper
 ---
 
 Question
@@ -43,6 +44,7 @@ Meta-information
 ================
 exname: gleichverteilung-eigenschaften-schoice
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5
 excategory: verteilungen

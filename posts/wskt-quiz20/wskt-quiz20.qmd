@@ -5,6 +5,7 @@ categories:
 - inference
 - quiz1-qm2-ws23
 - schoice
+- paper
 date: '2023-11-08'
 slug: wskt-quiz20
 title: wskt-quiz20
@@ -38,6 +39,7 @@ Behauptung:
 
 Mann (Frau auch) kann jede Kennzahl der Deskriptivstatistik mit Methoden der Inferenzstatistik untersuchen.
 
+Ist diese Behauptung wahr oder falsch?
 
 Hinweise:
 
@@ -81,6 +83,7 @@ Meta-information
 ================
 exname: wskt-quiz20
 extype: schoice
+expoints: 1
 exsolution: 01
 exshuffle: FALSE
 

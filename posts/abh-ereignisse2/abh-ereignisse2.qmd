@@ -9,6 +9,7 @@ categories:
 - R
 - probability
 - num
+- paper
 date: '2023-11-08'
 title: abh-ereignisse2
 

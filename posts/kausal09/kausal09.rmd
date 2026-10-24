@@ -3,6 +3,7 @@ categories:
 - dag
 - causal
 - quiz
+- paper
 date: '2022-12-19'
 slug: kausal09
 title: kausal09
@@ -139,6 +140,7 @@ Meta-information
 ================
 exname: kausal09
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

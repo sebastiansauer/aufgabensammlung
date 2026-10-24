@@ -1,6 +1,8 @@
 ---
 title: induktionsprinzip
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question
@@ -40,5 +42,6 @@ Meta-information
 ================
 exname: induktionsprinzip
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5

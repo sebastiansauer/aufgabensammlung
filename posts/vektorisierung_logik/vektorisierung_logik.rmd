@@ -3,6 +3,7 @@ categories:
 - R
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: vektorisierung_logik
 title: vektorisierung_logik
@@ -43,5 +44,6 @@ Meta-information
 ================
 exname: vektorisierung_logik
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

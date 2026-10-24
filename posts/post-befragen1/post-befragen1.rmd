@@ -5,6 +5,7 @@ categories:
 - post
 - qm2-pruefung2023
 - quiz
+- paper
 date: '2022-12-09'
 title: Post-befragen1
 
@@ -137,6 +138,7 @@ Meta-information
 ================
 exname: post-befragen1
 extype: schoice
+expoints: 1
 exsolution: 00010
 exshuffle: FALSE
 

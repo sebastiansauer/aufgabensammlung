@@ -3,6 +3,7 @@
 date: 2025-09-26
 draft: false   # ACHTUNG DRAFT STEHT AUF TRUE!
 title: prob-voll-esystem  # HIER TITEL DES POSTS EINGEBEN.
+expoints: 1
 execute: 
   eval: true 
   cache: true
@@ -13,6 +14,7 @@ number-sections: true
 
 categories:
 - probability  # ENTER CATEGORIES HERE
+- paper
 
 ---
 

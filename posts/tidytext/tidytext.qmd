@@ -8,6 +8,7 @@ execute:
 categories:
 - tidymodels  # ENTER CATEGORIES HERE
 - quiz
+- paper
 ---
 
 
@@ -54,6 +55,7 @@ Meta-information
 ================
 exname: tidytext
 extype: schoice
+expoints: 1
 exsolution: 0001
 exshuffle: FALSE
 

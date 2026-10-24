@@ -3,6 +3,7 @@ categories:
 - regression
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: neg_slope
 title: neg_slope
@@ -45,5 +46,6 @@ Meta-information
 ================
 exname: neg_slope
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

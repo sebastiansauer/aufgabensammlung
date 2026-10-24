@@ -1,6 +1,8 @@
 ---
 title: schlussarten-induktion-formel
-categories: null
+categories:
+- paper
+- todo
 ---
 
 Question
@@ -39,5 +41,6 @@ Meta-information
 ================
 exname: schlussarten-induktion-formel
 extype: schoice
+expoints: 1
 exsolution: 100000
 exshuffle: 5

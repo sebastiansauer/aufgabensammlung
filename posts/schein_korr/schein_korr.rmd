@@ -3,6 +3,7 @@ categories:
 - vis
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: schein_korr
 title: schein_korr
@@ -43,6 +44,7 @@ Meta-information
 ================
 exname: schein_korr
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

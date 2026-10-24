@@ -1,6 +1,7 @@
 ---
 exname: korr02
 extype: num
+expoints: 1
 exsolution: r cor_preset
 extol: 0.15
 exshuffle: no

@@ -3,6 +3,7 @@ categories:
 - regression
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: slope_inter
 title: slope_inter
@@ -45,5 +46,6 @@ Meta-information
 ================
 exname: slope_inter
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

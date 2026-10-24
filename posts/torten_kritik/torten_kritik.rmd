@@ -3,6 +3,7 @@ categories:
 - vis
 - schoice
 - quiz
+- paper
 date: '2026-10-24'
 slug: torten_kritik
 title: torten_kritik
@@ -42,6 +43,7 @@ Meta-information
 ================
 exname: torten_kritik
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 
