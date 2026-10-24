@@ -73,7 +73,7 @@ The `exsolution` binary string corresponds 1:1 to the order of options in the An
 - `import_rexams-entwicklung.tsv` — which exercises from `../11_rexams-entwicklung/exercises/sebastiansauer/de` were imported (and under which name) and which were skipped as duplicates
 - `import_statistik1.tsv` — the same for `../01_statistik1/exs`
 - `import_start-bayes.tsv` — the same for `../04_start-bayes/exr`
-- `aufgaben_tabelle.tsv` — one row per exercise: name, path, extype, dynamic, buggy (+ reason), categories
+- `aufgaben_tabelle.tsv` — one row per exercise: name, path, extype, dynamic, buggy (+ reason), categories, `Statistik1` (best-fitting chapter of `../01_statistik1` as its qmd file name, or `keines`; taken from `../01_statistik1/quiz-aufgaben.csv` where available, otherwise assigned by content)
 
 ## File format notes
 
