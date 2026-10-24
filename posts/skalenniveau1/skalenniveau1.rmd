@@ -157,7 +157,7 @@ Meta-information
 ================
 exname: skalenniveau1
 extype: schoice
-exsolution: `r mchoice2string(d_prepared$is_correct_item, single = TRUE)`
+exsolution: `r exams::mchoice2string(d_prepared$is_correct_item, single = TRUE)`
 exshuffle: false
 categories:
 - dyn

@@ -173,5 +173,5 @@ Meta-information
 ================
 exname: joins
 extype: schoice
-exsolution: `r mchoice2string(joins_df$is_correct, single = TRUE)`
+exsolution: `r exams::mchoice2string(joins_df$is_correct, single = TRUE)`
 exshuffle: false

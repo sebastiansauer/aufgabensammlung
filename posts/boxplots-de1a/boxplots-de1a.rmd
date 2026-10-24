@@ -189,7 +189,7 @@ Meta-information
 ================
 exname: boxplots-de1a
 extype: schoice
-exsolution: `r mchoice2string(solutions, single = TRUE)`
+exsolution: `r exams::mchoice2string(solutions, single = TRUE)`
 exshuffle: FALSE
 
 

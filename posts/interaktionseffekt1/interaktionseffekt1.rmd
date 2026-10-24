@@ -240,7 +240,7 @@ Meta-information
 ================
 exname: interaktionseffekt1
 extype: schoice
-exsolution: `r mchoice2string(d_five_options_with_sim_data$is_correct, single = TRUE)`
+exsolution: `r exams::mchoice2string(d_five_options_with_sim_data$is_correct, single = TRUE)`
 exshuffle: FALSE
 
 

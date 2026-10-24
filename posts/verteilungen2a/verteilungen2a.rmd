@@ -66,6 +66,6 @@ answerlist(ifelse(solutions, "Wahr", "Falsch"), markup = "markdown")
 Meta-information
 ================
 extype: schoice
-exsolution: `r mchoice2string(solutions, single = TRUE)`
+exsolution: `r exams::mchoice2string(solutions, single = TRUE)`
 exname: verteilungen2a
 exshuffle: 4
