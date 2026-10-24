@@ -1,0 +1,461 @@
+<!-- Achtung, es kann passieren, dass mehrere Antwortoptionen den Wert "0" anzeigen, -->
+<!-- was von Studis als "Fehler" gesehen werden kann. Muss noch korrigiert werden. -->
+
+
+```{r libs, include = FALSE}
+library(tidyverse)
+library(rstanarm)
+library(testthat)
+library(exams)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      cache = FALSE,
+                      echo = FALSE,
+                      message = FALSE,
+                      fig.show = "hold")
+
+options(mc.cores = parallel::detectCores())
+
+```
+
+
+```{r set-nr-chains}
+chains <- 4
+```
+
+
+
+```{r define-data-vars}
+d_name <- "mtcars"
+data(list = d_name)
+av <- "mpg"
+vars <- names(eval(parse(text = d_name))) 
+preds <- setdiff(vars, av)
+
+
+preds_chosen_nr <- sample(1:length(preds), 3)
+preds_chosen <- preds[preds_chosen_nr]
+
+# d is the abstracted name of the dataset:
+d <- eval(parse(text = d_name))
+
+```
+
+
+
+
+
+
+Question
+========
+
+Im Folgenden ist der Datensatz ``r d_name`` zu analysieren. Er ist unter dieser [Quelle](`r d_path`) erhältlich: `r d_path`.
+
+
+
+Der Datensatz ist z.B. als CSV-Datei [von dieser Webseite](https://vincentarelbundock.github.io/Rdatasets/csv/datasetsv) abrufbar.
+
+Hilfe zum Datensatz ist via `help("name_des_datensatzes")` oder [auf dieser Webseite](https://vincentarelbundock.github.io/Rdatasets/doc/datasets) abrufbar.
+
+
+
+
+
+
+
+
+
+Berechnen Sie das folgende lineare Modell:
+
+
+
+AV: `r av`.
+
+UV: `r preds_chosen`.
+
+<!-- Zentrieren Sie die Prädiktor, bevor Sie das Modell berechnen. -->
+
+
+
+<!-- Im Folgenden wird ein Prädiktor aus der Menge der UV näher betrachtet. -->
+<!-- Der gewählte Prädiktor ist: ``r preds_chosen[1]``. -->
+
+
+
+Hinweise:
+
+- Verwenden Sie Standardwerte der R-Funktionen, soweit nicht anders angegeben.
+- Runden Sie auf eine Dezimalstelle.
+- Verwenden Sie Methoden der Bayes-Statistik für inferenzstatistische Analysen.
+- Geben Sie keine Prozentzahlen an, sondern Anteile (also nicht "50%", sondern "0.5" etc.)
+- Findet sich in einer Auswahlliste möglicher Antworten nicht die exakte Lösung, wählen Sie die am besten passende.
+- Beziehen Sie sich im Zweifel auf den Stoff, so wie im Unterricht behandelt.
+
+
+```{r results = "hide", echo = FALSE}
+preds_formula <- paste(preds_chosen, collapse = " + ")
+mod_formula <- as.formula(paste0(av, " ~", preds_formula))
+mod <- stan_glm(mod_formula, data = d, refresh = 0, chains = chains)  # CHAINS auf 4 setzen!
+```
+
+
+
+```{r init-vars}
+questions <- solutions <- explanations <- answer_options <- item_stems <- rep(list(""), 4)
+type <- rep(list("schoice"), 4)
+```
+
+
+
+
+
+```{r question-a, results = "hide"}
+d_newdata <- tibble()
+d_newdata[1, preds_chosen] <- matrix(c(0,0,0), nrow = 1)
+
+sol_a <- predict(mod, newdata = d_newdata) %>% round(1) %>% unname()
+sol_a
+```
+
+```{r}
+comp_answer_options <- function(sol, pos_true, method = 1, nr_options = 5) {
+  
+  stopifnot(method == 1)
+  stopifnot(nr_options == 5)
+  
+  if (method == 1) answer_options_local <- c(sol * 2, sol * 1/2, sol * 3, sol * 1/3, sol * 1.5)
+  
+  answer_options_local[pos_true] <- sol
+  
+  return(answer_options_local)
+}
+```
+
+
+
+```{r question-a-build-answer}
+# a)
+correct_answer_pos <- 1
+answer_options[[1]] <- comp_answer_options(sol = sol_a, pos_true = correct_answer_pos)  %>% exams::fmt()
+item_stems[[1]] <- "Der Punktschätzer für eine Beobachtung, bei der alle Prädiktoren den Wert 0 aufweisen, beträgt: "
+questions[[1]] <- paste0(item_stems[[1]], answer_options[[1]])
+explanations[[1]] <- solutions[[1]] <- c(F, F, F, F, F)
+explanations[[1]][correct_answer_pos] <- solutions[[1]][correct_answer_pos] <- TRUE
+
+stopifnot(length(questions[[1]]) == 5)
+stopifnot(length(solutions[[1]]) == 5)
+stopifnot(length(explanations[[1]]) == 5)
+
+expect_true(sum(solutions[[1]]) == 1)
+
+expect_type(object = questions[[1]], type = "character")
+expect_type(object = explanations[[1]], type = "logical")
+expect_type(object = solutions[[1]], type = "logical")
+
+# randomize order of answers:
+sample_order <- sample(length(questions[[1]]))
+questions[[1]] <- questions[[1]][sample_order]
+explanations[[1]] <- solutions[[1]] <- solutions[[1]][sample_order]
+```
+
+
+
+```{r question-b, results = "hide"}
+d_newdata <- tibble()
+d_newdata[1, preds_chosen] <- matrix(c(1,1,1), nrow = 1)
+
+sol_b <- predict(mod, newdata = d_newdata) %>% round(1) %>% unname()
+sol_b
+```
+
+
+```{r}
+# b)
+correct_answer_pos <- 2
+item_stems[[2]] <- "Der Punktschätzer für eine Beobachtung, bei der alle Prädiktoren den Wert 1 aufweisen, beträgt: "
+answer_options[[2]] <- comp_answer_options(sol = sol_b, pos_true = 2) %>% exams::fmt()
+questions[[2]] <- paste0(item_stems[[2]], answer_options[[2]])
+explanations[[2]] <- solutions[[2]] <- c(F, F, F, F, F)
+explanations[[2]][correct_answer_pos] <- solutions[[2]][correct_answer_pos] <- TRUE
+
+stopifnot(length(questions[[2]]) == 5)
+stopifnot(length(solutions[[2]]) == 5)
+stopifnot(length(explanations[[2]]) == 5)
+
+
+
+expect_type(object = questions[[2]], type = "character")
+expect_type(object = explanations[[2]], type = "logical")
+expect_type(object = solutions[[2]], type = "logical")
+
+# randomize order of answers:
+sample_order <- sample(length(questions[[2]]))
+questions[[2]] <- questions[[2]][sample_order]
+explanations[[2]] <- solutions[[2]] <- solutions[[2]][sample_order]
+```
+
+
+
+```{r question-c, results = "hide"}
+d_newdata <- tibble()
+d_newdata[1, preds_chosen] <- matrix(c(0,0,0), nrow = 1)
+
+sol_c <- posterior_predict(mod, newdata = d_newdata) %>% sd() %>% round(1) %>% unname()
+sol_c
+```
+
+
+
+```{r  eval = TRUE}
+# c)
+item_stems[[3]] <- "Die SD der PPV für eine Beobachtung, bei der alle Variablen den Wert 0 aufweisen, beträgt: "
+answer_options[[3]] <- c(sol_c^2, sol_c^(1/2), sol_c, sol_c * 4/3, sol_c / (4/3)) %>% exams::fmt()
+questions[[3]] <- paste0(item_stems[[3]], answer_options[[3]])
+explanations[[3]] <- solutions[[3]] <- c(F, F, TRUE, F, F)
+
+stopifnot(length(questions[[3]]) == 5)
+stopifnot(length(solutions[[3]]) == 5)
+stopifnot(length(explanations[[3]]) == 5)
+
+
+expect_length(questions[[3]], 5)
+expect_length(solutions[[3]], 5)
+expect_length(explanations[[3]], 5)
+
+
+
+expect_type(object = questions[[3]], type = "character")
+expect_type(object = explanations[[3]], type = "logical")
+expect_type(object = solutions[[3]], type = "logical")
+
+# randomize order of answers:
+sample_order <- sample(length(questions[[3]]))
+questions[[3]] <- questions[[3]][sample_order]
+explanations[[3]] <- solutions[[3]] <- solutions[[3]][sample_order]
+```
+
+
+```{r question-d, results = "hide"}
+mtcars_newdata <- tibble()
+mtcars_newdata[1, preds_chosen] <- matrix(c(0,0,0), nrow = 1)
+
+ppv_mod <- posterior_predict(mod, newdata = mtcars_newdata) 
+sol_d <- quantile(ppv_mod, probs = c(.025, .975)) %>% diff() %>% abs() %>% unname()
+sol_d
+```
+
+
+
+```{r message=FALSE}
+# d)
+item_stems[[4]] <- "Die Breite des 95%-PI der PVV für eine Beobachtung, bei der alle Variablen den Wert 0 aufweisen, beträgt: "
+
+
+answer_options[[4]] <- c(1-sol_d + 0.05, 
+                         1 / sol_d, 
+                         sol_d * 4/3 - .05, 
+                         sol_d, 
+                         exp(sol_d) / (1+exp(sol_d))) %>% exams::fmt()
+
+
+questions[[4]] <- paste0(item_stems[[4]], answer_options[[4]])
+explanations[[4]] <- solutions[[4]] <- c(F, F, F, TRUE, F)
+
+stopifnot(length(questions[[4]]) == 5)
+stopifnot(length(solutions[[4]]) == 5)
+stopifnot(length(explanations[[4]]) == 5)
+
+
+expect_type(object = questions[[4]], type = "character")
+expect_type(object = explanations[[4]], type = "logical")
+expect_type(object = solutions[[4]], type = "logical")
+
+
+# randomize order of answers:
+sample_order <- sample(length(questions[[4]]))
+questions[[4]] <- questions[[4]][sample_order]
+explanations[[4]] <- solutions[[4]] <- solutions[[4]][sample_order]
+```
+
+
+```{r testing}
+stopifnot(length(questions) == 4)
+stopifnot(length(explanations) == 4)
+stopifnot(length(solutions) == 4)
+```
+
+
+
+```{r}
+explanations <- lapply(explanations, function(x) ifelse(x, "Richtig", "Falsch"))
+solutions <- lapply(solutions, mchoice2string)
+```
+
+
+```{r}
+# check if length is alsays equal to 5 which is the number of answer options
+expect_true(all(map(solutions, nchar) == 5))
+```
+
+
+
+
+```{r questionlist, echo = FALSE, results = "asis"}
+answerlist(format(unlist(questions)), markup = "markdown")
+```
+
+
+
+Solution
+========
+
+
+
+Die Prädiktoren (UV) des Modells lauten (hat der Dozent oben im Verborgenen bestimmt):
+
+```{r echo = TRUE}
+preds_chosen
+```
+
+
+
+Daraus erstellt der Dozent eine "Modellformel" (`mod_formula`), von der Art `y ~ x1 + x2 + x2`:
+
+```{r echo = TRUE}
+mod_formula
+```
+
+
+
+Damit kann man dann das Modell berechnen:
+
+
+
+```{r results = "hide", echo = TRUE, eval = FALSE}
+mod <- stan_glm(mod_formula, data = mtcars)
+```
+
+Ausgabe der Ergebnisse:
+
+```{r echo = TRUE}
+print(mod)
+```
+
+Gefragt war nach diesem Prädiktor:
+
+```{r echo = TRUE}
+preds_chosen[1]  # Dieses Objekt hat der Dozent oben im Verborgenen erstellt.
+```
+
+
+Im Folgenden ist eine Musterlösung dargestellt, die etwas allgemeiner gehalten ist,
+da diese Prüfungsaufgabe dynamisch angelegt ist (also in jeder Durchführung andere Werte enthält).
+Daher sind auch andere, einfachere Lösungen möglich.
+
+
+a) `r item_stems[[1]]` ...
+
+Je nach dem welche Prädiktoren in Ihrem Modell auftauchen,
+könnten Sie z.B. schreiben:
+
+```{r eval = FALSE, echo = TRUE}
+predict(mod, newdata = tibble(disp = 0, am = 0, cyl = 0))
+```
+
+
+Allgemeiner geht es wie folgt,
+aber diese Komplexität ist aber eigentlich nur nötig,
+wennn man allgemein gültige Musterlösungen schreiben möchte :-)
+
+```{r ref.label="question-a", echo = TRUE, eval = TRUE, results = "show"}
+```
+
+
+
+b) `r item_stems[[2]]` ...
+
+Je nach dem welche Prädiktoren in Ihrem Modell auftauchen,
+könnten Sie z.B. schreiben:
+
+```{r eval = FALSE, echo = TRUE}
+predict(mod, newdata = tibble(disp = 1, am = 1, cyl = 1))
+```
+
+
+Allgemeiner geht es wie folgt,
+aber diese Komplexität ist aber eigentlich nur nötig,
+wennn man allgemein gültige Musterlösungen schreiben möchte :-)
+
+
+```{r ref.label="question-b", echo = TRUE, eval = TRUE, results = "show"}
+```
+
+
+
+c) `r item_stems[[3]]` ...
+
+Je nach dem welche Prädiktoren in Ihrem Modell auftauchen,
+könnten Sie z.B. schreiben:
+
+
+```{r eval = FALSE, echo = TRUE}
+posterior_predict(m3, newdata = tibble(disp = 0, am = 0, cyl = 0)) %>% sd()
+```
+
+Da `posterior_predict` keinen Tibble, sondern einen Vektor zurückgibt,
+können wir direkt `sd()` benutzen (`sd()` verlangt als Eingabe einen Vektor).
+
+
+
+Allgemeiner geht es wie folgt,
+aber diese Komplexität ist aber eigentlich nur nötig,
+wennn man allgemein gültige Musterlösungen schreiben möchte :-)
+
+```{r ref.label="question-c", echo = TRUE, eval = TRUE, results = "show" }
+```
+
+
+
+
+d) `r item_stems[[4]]` ...
+
+Z.B. so:
+
+```{r eval=FALSE, echo = TRUE}
+ppv1 <- posterior_predict(m3, newdata = tibble(disp = 0, am = 0, cyl = 0))
+
+quantile(ppv1, probs = c(.025, .975)) 
+
+```
+
+
+Oder wieder allgemeiner:
+
+```{r ref.label="question-d", echo = TRUE, eval = TRUE, results = "show"}
+```
+
+
+```{r solutionlist, echo = FALSE, results = "asis"}
+answerlist(paste(unlist(explanations), ".", sep = ""), markup = "markdown")
+```
+
+
+
+
+
+Meta-information
+================
+exname: ppv1 
+extype: cloze
+exsolution: `r paste(solutions, collapse = "|")`
+exclozetype: `r paste(type, collapse = "|")`
+exshuffle: false
+expoints: 1 
+

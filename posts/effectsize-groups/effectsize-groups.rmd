@@ -1,0 +1,99 @@
+
+
+```{r}
+library(tidyverse)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+  knitr::opts_chunk$set(
+  fig.pos = 'H',
+  fig.asp = 0.618,
+  fig.align='center',
+  fig.width = 5,
+  out.width = "100%",
+  fig.cap = "", 
+  fig.path = "chunk-img/",
+  dpi = 300,
+  # tidy = TRUE,
+  echo = TRUE,
+  message = FALSE,
+  warning = FALSE,
+  cache = FALSE,
+  fig.show = "hold")
+```
+
+
+
+
+
+Question
+========
+
+Zum Vergleich des Spritverbrauchs von Autos mit Automatikgetriebe (`am=0`) vs. Autos mit manuellem Schaltgetriebe (`am=1`) sollen Effektstärken berechnet werden.
+
+a. Berechnen Sie den Mittelwertsunterschied!
+b. Berechnen Sie Cohens d !
+c. Berechnen Sie CLES!
+d. Berechnen Sie Cliffs Delta!
+
+
+Solution
+========
+
+a) Mittelwertsunterschied
+
+
+```{r}
+mtcars %>% 
+  group_by(am) %>% 
+  summarise(mpg_mw = mean(mpg))
+```
+
+b) Cohens d
+
+```{r}
+library(tidyverse)
+library(effectsize)  # muss einmalig installiert sein
+```
+
+Daten laden:
+
+```{r}
+data(mtcars)
+```
+
+Mit der Funktion `cohen_s(av ~ uv, data = meine_daten)` bekommen wir Cohens d :
+
+```{r}
+cohens_d(mpg ~ am, data = mtcars,)
+```
+
+Außerdem wird uns noch ein *Schätzbereich* für den Wert in der Population ausgegeben (`95% CI`).
+
+bc CLES
+
+So kann man `d` ins `CLES` übersetzen lassen:
+
+```{r}
+d_to_cles(1.48)
+```
+
+Dabei werden mehrere, ähnliche Koeffizienten ausgeben. 
+CLES entspricht dabei `Pr(superiority)`.
+
+
+Oder man schreibt analog zu oben:
+
+```{r}
+cles(mpg ~ am, data = mtcars)
+```
+
+
+
+Meta-information
+================
+extype: string
+exsolution: NA
+exname: wertzuweisen
+expoints: 1

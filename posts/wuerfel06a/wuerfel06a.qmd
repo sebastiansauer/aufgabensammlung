@@ -1,0 +1,86 @@
+
+```{r global-knitr-options, include=FALSE, message=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      echo = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      fig.show = "hold")
+```
+
+
+
+
+
+
+Question
+========
+
+Was ist die Wahrscheinlichkeit, bei 10 Würfen von 2 Würfeln mindestens einmal einen Sechserpasch zu werfen?
+
+Hinweise:
+
+- Orientieren Sie sich im Übrigen an den [allgemeinen Hinweisen des Datenwerks](https://datenwerk.netlify.app/hinweise).
+
+
+
+Solution
+========
+
+Sei $A_i$ "Sechserpasch im $i$-ten Wurf".
+
+Mindestens einen Sechserpasch: Also nicht kein Mal einen Sechserpasch.
+
+Berechnen wie die Wahrscheinlichkeit von $B$: 10 Mal keinen Sechserpasch zu werfen:
+
+$Pr(B) = Pr(\sum_{i=1}^{10} A_i)= \left(\frac{35}{36} \right)^{10}$
+
+
+
+```{r}
+Pr_10_Mal_kein_Sechserpasch <- (35/36)^10
+Pr_10_Mal_kein_Sechserpasch
+```
+
+
+Wir suchen aber das komplementäre Ereignis $Pr(\neg B) = Pr(A)$.
+
+```{r}
+Pr_A <- 1 - Pr_10_Mal_kein_Sechserpasch
+Pr_A
+```
+
+
+```{r}
+#| echo: false
+sol <- Pr_A
+```
+
+
+Die Lösung lautet ``r sol``.
+
+
+
+
+
+Meta-information
+================
+
+exname: wuerfel06
+extype: num
+exsolution: `r exams::fmt(sol)`
+exshuffle: false
+extol: `r sol_tol`
+expoints: 1
+categories:
+- R
+- probability
+- bayes
+
+
+
+
+

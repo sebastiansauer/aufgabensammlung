@@ -1,0 +1,92 @@
+
+
+
+
+
+Question
+========
+
+
+Schreiben Sie einen maximal einfachen Code für ein Random-ForestModell mit `tidymodels`.
+
+Hinweise:
+
+- Setzen Sie `mtry` auf 3.
+- Verzichten Sie auf Tuning.
+- Datensatz: `mtcars`
+- Modellformel: `mpg ~ .`
+- Verzichten Sie auf Resampling jeder Art.
+- Orientieren Sie sich im Übrigen an den [allgemeinen Hinweisen des Datenwerks](https://datenwerk.netlify.app/hinweise).
+
+
+
+Berichten Sie die `RMSE` des Modells.
+
+
+Solution
+========
+
+## Setup
+
+```{r}
+library(tidymodels)
+data(mtcars)
+```
+
+
+
+
+## Fitten
+
+
+```{r}
+m1 <-
+  fit(rand_forest(mtry = 3, mode = "regression"), mpg ~ ., data = mtcars)
+```
+
+Schauen wir uns die Ergebnisse an:
+
+```{r}
+m1 %>% extract_fit_engine()
+```
+
+
+
+```{r}
+augment(m1, new_data = mtcars) %>%  # fügt predictions und residuals hinzu
+  rmse(truth = mpg, estimate = .pred)
+```
+
+
+```{r echo=FALSE}
+sol <-
+  augment(m1, new_data = mtcars) %>%  # fügt predictions und residuals hinzu
+  rmse(truth = mpg, estimate = .pred) %>% 
+  pull(.estimate)
+```
+
+
+
+
+**Lösung**: `r exams::fmt(sol)`.
+
+Meta-information
+================
+
+exname: tidymodels-simple4
+extype: num
+exsolution: `r exams__fmt(sol)`
+exshuffle: false
+expoints: 1
+categories:
+- tidymodels
+- statlearning
+- simple
+- trees
+
+
+
+
+
+
+

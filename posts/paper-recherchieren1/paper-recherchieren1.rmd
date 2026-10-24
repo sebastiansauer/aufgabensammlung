@@ -1,0 +1,157 @@
+
+
+```{r libs, include = FALSE}
+library(tidyverse)
+library(glue)
+library(testthat)
+library(exams)
+library(rcrossref)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      echo = FALSE,
+                      message = FALSE,
+                      fig.show = "hold")
+```
+
+
+
+
+
+Question
+========
+
+Das Recherchieren und Lesen von Fachartikeln ist eine der zentralen Tätigkeiten wissenschaftlicher Arbeit.
+
+
+```{r}
+n <- 50  # 50 dois to be downloaded
+k <- 5  # number of samples, ie., number of mc options
+```
+
+```{r results = "hide"}
+supp_file <- "papers_query_crossref.rds"
+include_supplement(file = supp_file,
+           recursive = TRUE)
+```
+
+
+
+```{r download article-data, eval = FALSE}
+# this chunk only needs to be run once, 
+# afterwards we'll use the downloaded data for simplicity. 
+
+article_query <- 
+  cr_works(limit = 50,
+           filter = c(type = "journal-article",
+                      has_references = TRUE))
+
+
+papers <-
+  article_query$data %>% 
+  filter(reference.count > 0) %>% 
+  unnest_wider(author) %>% 
+  mutate(family_names = map(family, ~ str_c(.x, collapse = ", "))) %>% 
+  unnest(family_names)
+
+write_rds(papers, file = supp_file)
+```
+
+
+
+```{r}
+papers <- 
+  read_rds(supp_file)
+```
+
+
+
+```{r prepare-data}
+doi_selected <- sample(1:k, 1)
+
+
+papers_sample <-
+  papers %>% 
+  sample_n(k) %>% 
+  mutate(id_sample = 1:k) %>% 
+  select(id_sample, everything()) %>% 
+  mutate(selected = ifelse(id_sample == doi_selected, TRUE, FALSE)) 
+
+
+```
+
+
+
+
+```{r testing}
+stopifnot(sum(papers_sample$selected) == 1)
+
+if (any(is.na(papers_sample$family_names))) stop("Missing family name of author")
+if (any(papers_sample$family_names == "")) stop("Missing family name of author")
+```
+
+
+
+Was sind die Autoren zum Artikel mit dieser DOI:
+
+**`r papers_sample$doi[doi_selected]`**.
+
+
+*Hinweise zur DOI*: *DOI* steht für *Digital Object Identifier*; 
+so sollen v.a. digitale Dokumente eine Art "Personalausweisnummer" bekommen; 
+eine DOI ist damit mit einer ISBN-Nummer, wie man sie von Büchern kennt, vergleichbar. 
+Eine DOI ist unique (eineindeutige Zuordnung von DOI zu Dokument) und persistent (verändert sich nicht). 
+DOIs werden von der [International DOI Foundation](https://www.doi.org/) gesteuert.
+
+
+Wählen Sie die richtigen Autorennamen aus dieser Liste aus:
+
+```{r}
+items <- papers_sample %>% 
+  pull(family_names)
+```
+
+
+```{r questionlist, echo = FALSE, results = "asis"}
+answerlist(items, markup = "markdown")
+```
+
+Solution
+========
+
+
+Die angegebene DOI gehört zu einer Publikation mit diesen Autoren: *`r papers_sample$family_names[papers_sample$selected == TRUE]`*.
+
+
+Bibliografische Informationen zu allen `r  k` präsentierten DOIs:
+
+```{r results="asis"}
+papers_sample %>% 
+  select(id = id_sample, doi, selected, family_names, title) %>% 
+  gt::gt()
+```
+
+
+
+Richtige Lösung:
+
+```{r solutionlist, echo = FALSE, results = "asis"}
+answerlist(ifelse(papers_sample$selected, "Wahr", "Falsch"), markup = "markdown")
+```
+
+
+
+Meta-information
+================
+exname: paperslesen1
+extype: schoice
+exsolution: `r mchoice2string(papers_sample$selected, single = TRUE)`
+exshuffle: false
+expoints: 1
+

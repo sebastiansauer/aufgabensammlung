@@ -1,0 +1,229 @@
+
+<!-- Diese Aufgabe ist noch in Entwicklung. Noch nicht benutzen! -->
+
+
+
+```{r libs, include = FALSE}
+#library(rstanarm)
+library(tidyverse)
+#library(teachertools)
+library(easystats)
+#library(exams)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      cache = FALSE,
+                      echo = TRUE,
+                      message = FALSE,
+                      fig.show = "hold")
+
+options(mc.cores = parallel::detectCores())
+config <- config::get(file = "/Users/sebastiansaueruser/github-repos/rexams-exercises/config.yml")
+```
+
+
+
+
+
+Question
+========
+
+
+
+
+
+
+```{r prep-data, message=FALSE, results = "hide", echo=FALSE}
+all_dfs <- teachertools::teaching_df()
+
+d <- teachertools::teaching_df("random")
+
+d_name <- attr(d, "df_name")
+d_path <- attr(d, "d_path")
+d_doc <- attr(d, "d_doc")
+preds_chosen <- attr(d, "preds_chosen")
+preds_chosen_idx <- 1:length(preds_chosen)
+focus_pred <- attr(d, "focus_pred")
+output_var <- attr(d, "output_var")
+av <- output_var
+k <- length(preds_chosen)  # number of predictors chosen
+```
+
+
+
+
+```{r question, echo = FALSE}
+prob_type_vec <- c(bed_wskt = "$Pr(Y|X)$", gem_wskt = "$Pr(Y \\cap X)$")
+prob_type <- sample(prob_type_vec, 1)
+
+question <-  glue::glue("Berechnen Sie folgende Wahrscheinlichkeit: {prob_type}!")
+```
+
+
+
+Im Folgenden ist der Datensatz ``r d_name`` zu analysieren. Er ist unter dieser [Quelle](`r d_path`) erhältlich: `r d_path`.
+
+Eine Möglichkeit, den Datensatz zu beziehen, ist [diese Sammlung an Datensätzen](https://vincentarelbundock.github.io/Rdatasets/articles/data.html). Suchen Sie dort nach dem Namen des Datensatzes.
+Importieren Sie dann die Daten in R.
+Alternativ können Sie das passende R-Paket nutzen, um den Datensatz zu importieren.
+
+Hilfe zum Datensatz ist [auf dieser Webseite](https://vincentarelbundock.github.io/Rdatasets/articles/data.html) abrufbar.
+
+
+
+*Aufgabe*: **`r question`**
+
+
+
+
+
+$X$ und $Y$ sind Ereignisse, die wie folgt definiert sind:
+
+1. $Y := \text{av} > Md(av)$
+2.  $X := \text{uv} > Md(\text{uv})$
+
+Dabei ist mit `Md` der Median gemeint.
+
+`av` ist `r av` und `uv` ist `r focus_pred`.
+
+[Beachten Sie die Bearbeitungshinweise.](https://hinweisbuch.netlify.app/030-hinweise-pruefung-klausur-frame)
+
+
+
+
+
+
+
+
+
+
+Solution
+========
+
+
+
+
+*MUSTERLÖSUNG*
+
+
+Datenquelle: `r paste0("<", d_path, ">")`.
+
+
+
+Pakete starten:
+
+```{r eval = FALSE}
+library(tidyverse)
+library(easystats)
+#library(rstanarm)
+```
+
+
+
+Daten importieren:
+
+```{r echo = FALSE}
+txt_import <- paste0("d <- read_csv('", d_path, "')")
+```
+
+``r txt_import``
+
+
+
+X und Y berechnen:
+
+```{r}
+d2 <- 
+  d %>% 
+  select(av, uv1) %>% 
+  mutate(Y = av > median(av, na.rm = TRUE),
+         X = uv1 > median(uv1, na.rm = TRUE))
+```
+
+
+
+*Bedingte Wahrscheinlichkeit*, $Pr(Y|X)$ berechnen:
+
+```{r}
+pr_y_geg_x_tab <- 
+  d2 %>% 
+  filter(X == TRUE) %>%  # Filtern nach der verlangten Bedingung
+  count(Y) %>%  # Häufigkeiten auszählen
+  mutate(Pr_Y_geg_X = n / sum(n))  # Anteile berechnen
+
+pr_y_geg_x_tab
+```
+
+Die Lösung lässt sich ablesen bei `Y == TRUE` in der Spalte `Pr_Y_geg_X`.
+
+
+*Gemeinsame Wahrscheinlichkeit*, $Pr(Y \cap X)$, berechnen:
+
+
+
+```{r}
+pr_y_und_x_tab <- 
+  d2 %>% 
+  mutate(Y_and_X = X == TRUE & Y == TRUE) %>%  # Filtern nach gemeinsamen Auftreten von X und Y
+  mutate(Y_and_X = factor(Y_and_X, levels = c("TRUE", "FALSE"))) %>% 
+  count(Y_and_X, .drop = FALSE) %>%  # .drop = FALSE stellt sicher, dass Stufen mit n=0 auch gezeigt werden
+  mutate(Y_and_X_prob = n / sum(n))   # Anteile berechnen
+
+pr_y_und_x_tab
+```
+
+
+*Lösung*: 
+
+
+
+
+
+```{r sol-format, echo = FALSE}
+sol_raw <- NA
+if (names(prob_type) == "bed_wskt") sol_raw <- pr_y_geg_x_tab %>% filter(Y == TRUE) %>% pull(Pr_Y_geg_X)
+if (names(prob_type) == "gem_wskt") sol_raw <- pr_y_und_x_tab %>% filter(Y_and_X == "TRUE") %>% pull(Y_and_X_prob)
+
+sol <- exams::fmt(sol_raw)
+sol
+```
+
+
+```{r tol, echo = FALSE}
+sol_tol <- exams::num2tol(sol_raw, min = config$tol_abs, reltol = .05) %>% exams::fmt(3)
+```
+
+
+
+
+
+
+---
+
+Aufgaben-ID: Bed-gem-Wskt, Toleranzbreite: `r sol_tol`
+
+
+
+
+Meta-information
+================
+exname: Bed-gem-Wskt
+extype: num
+exsolution: `r sol`
+extol: `r sol_tol`
+exshuffle: false
+expoints: 1 
+categories:
+- bayes
+- regression
+- dyn
+- prediction
+
+
+

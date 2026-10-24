@@ -1,5 +1,12 @@
+posts/anova/anova.rmd
 posts/boosting1/boosting1.rmd
+posts/boxplots/boxplots.rmd
+posts/boxplots-de/boxplots-de.rmd
 posts/ds-quiz2/ds-quiz2.rmd
 posts/ds-quiz/ds-quiz.rmd
+posts/exzessiv1/exzessiv1.rmd
+posts/flights-geovis/flights-geovis.rmd
 posts/kausale-verben/kausale-verben.rmd
+posts/operationalismus/operationalismus.rmd
+posts/scatterplot-de/scatterplot-de.rmd
 posts/skalenniveau1b/skalenniveau1b.rmd

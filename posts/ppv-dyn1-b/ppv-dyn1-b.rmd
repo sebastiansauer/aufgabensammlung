@@ -1,0 +1,194 @@
+
+```{r libs, include = FALSE}
+library(rstanarm)
+library(tidyverse)
+library(easystats)
+library(teachertools)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      cache = FALSE,
+                      echo = FALSE,
+                      message = FALSE,
+                      fig.show = "hold")
+
+options(mc.cores = parallel::detectCores())
+
+#config <- config <- config::get(file = "/Users/sebastiansaueruser/github-repos/rexams-exercises/config.yml")
+```
+
+
+
+
+
+Question
+========
+
+
+```{r prep-data, message=FALSE, results = "hide"}
+
+all_dfs <- teachertools::teaching_df()
+
+d <- teachertools::teaching_df("random")
+
+d_name <- attr(d, "df_name")
+
+d_path <- all_dfs |> 
+  dplyr::filter(datasets_names == d_name) |> 
+  dplyr::pull(source)
+
+preds_chosen <- attr(d, "preds_chosen")
+preds_chosen <- preds_chosen[1]  # nur 1 UV hier
+
+focus_pred <- attr(d, "focus_pred")
+output_var <- attr(d, "output_var")
+```
+
+
+```{r}
+question <- "Geben Sie die Breite eines 50%-ETI an für eine Beobachtung mit einem z-Wert von 0 im Prädiktor! Z-Standardisieren Sie auch die AV!"
+```
+
+
+
+Im Folgenden ist der Datensatz ``r d_name`` zu analysieren. Er ist unter dieser [Quelle](`r d_path`) erhältlich: `r d_path`.
+
+Eine Möglichkeit, den Datensatz zu beziehen, ist [diese Sammlung an Datensätzen](https://vincentarelbundock.github.io/Rdatasets/articles/data.html). Suchen Sie dort nach dem Namen des Datensatzes.
+Importieren Sie dann die Daten in R.
+
+Hilfe zum Datensatz ist [auf dieser Webseite](https://vincentarelbundock.github.io/Rdatasets/articles/data.html) abrufbar.
+
+
+
+Zur Lösung dieser Aufgabe ist folgendes lineares Modell zu berechnen:
+
+
+
+AV: `r output_var`.
+
+UVs: `r preds_chosen`.
+
+
+*Aufgabe*: **`r question`**
+
+Denken Sie daran, auch beim Erstellen der PPV die Zufallszahlen zu fixieren.
+Sie können dazu den Parameter `seed` auf 42 setzen.
+
+[Beachten Sie die Bearbeitungshinweise.](https://hinweisbuch.netlify.app/030-hinweise-pruefung-klausur-frame)
+
+
+Solution
+========
+
+
+
+Der Datensatz heißt:
+```{r}
+d_name
+```
+
+
+## Setup
+
+
+```{r message=FALSE}
+library(rstanarm)
+library(easystats)
+library(tidyverse)
+```
+
+
+Prädiktor(en) und AV z-transformieren:
+
+```{r echo = TRUE}
+head(d)  # Rohdaten
+d <- standardize(d)
+head(d)  # z-standardisiert
+```
+
+
+```{r echo=TRUE}
+d <-
+  d %>% 
+  mutate(uv1 = standardize(uv1),
+         av = standardize(av))
+```
+
+
+
+
+## Modell
+
+
+
+Zunächst berechnet man das Modell, etwa so:
+
+
+
+```{r mod, results = "hide", echo = TRUE}
+mod <- stan_glm(av ~ uv1, 
+                data = d, 
+                refresh = 0,
+                chains = 4,  # ignorieren Sie diese Zeile
+                seed = 42)
+```
+
+
+
+
+
+## PPV
+
+Dann berechnet man die (bedingte) PPV:
+
+```{r}
+mod_ppv <- estimate_prediction(mod, data = tibble(uv1 = 0), ci = 0.5, seed = 42)
+mod_ppv
+```
+
+
+```{r echo=FALSE}
+breite <- abs(mod_ppv$CI_high - mod_ppv$CI_low)
+min_tol <- 0.05 * sd(d[["av"]], na.rm = TRUE)
+sol_tol <- exams::num2tol(breite, min = min_tol, reltol = 0.10) %>% exams::fmt(3)
+sol <- exams::fmt(breite)
+```
+
+
+**Lösung** Die Breite beträgt ca. `r sol`.
+
+
+
+---
+
+Aufgaben-ID: ppv-dyn1
+, Toleranzbreite: `r sol_tol`
+
+
+
+
+
+Meta-information
+================
+
+exname: ppv-dyn1-b
+extype: num
+exsolution: `r exams::fmt(sol)`
+extol: `r sol_tol`
+exshuffle: false
+expoints: 1
+categories:
+- bayes
+- ppv
+- regression
+
+
+
+
+

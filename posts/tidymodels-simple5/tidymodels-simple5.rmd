@@ -1,0 +1,150 @@
+
+
+
+
+
+Question
+========
+
+
+Schreiben Sie einen maximal einfachen Code für ein Random-ForestModell mit `tidymodels`.
+
+Hinweise:
+
+- Tunen Sie `mtry`,
+- Verzichten Sie auf weiteres Tuning.
+- Datensatz: `penguins`
+- Modellformel: `body_mass_g ~ .`
+- Verzichten Sie auf eine Train-Test-Aufteilung (nur aus Gründen der Einfachheit hier).
+- Orientieren Sie sich im Übrigen an den [allgemeinen Hinweisen des Datenwerks](https://datenwerk.netlify.app/hinweise).
+
+
+
+Berichten Sie die `RMSE` des besten Modellskandidaten.
+
+
+Solution
+========
+
+## Setup
+
+```{r}
+library(tidymodels)
+library(tictoc)
+data(penguins, package = "palmerpenguins")
+d <- penguins
+```
+
+
+
+
+## Rezept
+
+```{r}
+rec_simple <- 
+  recipe(body_mass_g ~ ., data = d2) %>% 
+  step_impute_bag(all_predictors()) %>% 
+  step_novel(all_nominal_predictors())
+```
+
+`Ranger` verkraftet keine fehlenden Werten, daher entfernen wir sie vorab.
+
+*Achtung*: `step_novel` ist wichtig, wie [Julia Silge in diesem SO-Post erklärt](https://stackoverflow.com/questions/68012946/error-missing-data-in-columns-when-using-tidymodels-workflow-to-predict-test).
+
+
+
+Check:
+
+```{r}
+d_baked <- rec_simple %>% prep() %>% bake(new_data = NULL)
+
+head(d_baked)
+```
+
+
+Check fehlende Werte:
+
+```{r}
+sum(is.na(d_baked))
+```
+
+
+## Workflow
+
+
+```{r}
+wf_rf <-
+  workflow() %>% 
+  add_model(rand_forest(mtry = tune(), mode = "regression")) %>% 
+  add_recipe(rec_simple)
+```
+
+
+
+
+
+## Fitten
+
+
+
+```{r}
+tic()
+fit1 <-
+  tune_grid(object = wf_rf,
+            resamples = vfold_cv(data = d2, v = 10))
+toc()
+```
+
+Schauen wir uns die Ergebnisse an:
+
+
+```{r}
+show_notes(.Last.tune.result)
+```
+
+
+
+
+
+```{r}
+collect_metrics(fit1)
+```
+
+
+```{r}
+show_best(fit1)
+```
+
+
+```{r echo=FALSE}
+sol <-
+  show_best(fit1) %>% 
+  filter(mean == min(mean)) %>% 
+  pull(mtry)
+```
+
+
+
+
+**Lösung**: `r exams::fmt(sol)`.
+
+Meta-information
+================
+
+exname: tidymodels-simple4
+extype: num
+exsolution: `r exams__fmt(sol)`
+exshuffle: false
+expoints: 1
+categories:
+- tidymodels
+- statlearning
+- simple
+- trees
+
+
+
+
+
+
+

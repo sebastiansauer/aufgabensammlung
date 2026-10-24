@@ -1,0 +1,98 @@
+
+```{r libs, include = FALSE}
+
+library(tidyverse)
+library(mosaic)
+
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "")
+```
+
+
+
+
+
+
+
+
+Question
+========
+
+Laden Sie das Paket `gapminder` (ggf. vorab installieren) und laden Sie daraus den Datensatz `gapminder`. [Hier](https://www.gapminder.org/) finden Sie weitere Informationen zum Projekt *Gapminder*.
+
+
+Bauen Sie das folgende Streudiagramm nach!
+
+
+
+*Tipp*: Mit `help(gapminder)` bekommen Sie mehr Informationen zum Datensatz.
+
+
+
+
+
+*Hinweis*: Beziehen Sie sich auf den Stoff dieses Buches: Ismay, C., & Kim, A. (2019). *ModernDive—An Introduction to Statistical and Data Sciences via R*. http://moderndive.com/.
+
+
+Solution
+========
+
+```{r echo = FALSE}
+gapminder %>% 
+  mutate(gdpPercap_log = log(gdpPercap, base = 10)) %>% 
+  ggplot() +
+  aes(x = gdpPercap_log, y = lifeExp, 
+      color = continent,
+      size = gdpPercap_log) + 
+  geom_point(alpha = .5) 
+```
+
+
+
+1. Vorbereitung
+
+```{r echo = TRUE, message = FALSE}
+library(gapminder)
+library(tidyverse)
+data("gapminder")
+
+```
+
+
+2. Diagramm erstellen
+```{r}
+gapminder %>% 
+  mutate(gdpPercap_log = log(gdpPercap, base = 10)) %>% 
+  ggplot() +
+  aes(x = gdpPercap_log, y = lifeExp, 
+      color = continent,
+      size = gdpPercap_log) + 
+  geom_point(alpha = .5) 
+```
+
+
+
+
+
+```{r echo = FALSE}
+sol <- "Siehe Antworten. Es erfolgt keine automatische Bewertung dieser Aufgabe."
+```
+
+
+
+``r sol``
+
+
+Meta-information
+================
+extype: string
+exsolution: `r sol`
+exname: scatterplot-moderndive-2
+expoints: 5

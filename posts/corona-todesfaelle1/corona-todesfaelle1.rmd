@@ -1,0 +1,130 @@
+
+
+```{r libs, include = FALSE}
+library(tidyverse)
+library(readxl)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      echo = TRUE,
+                      message = FALSE,
+                      fig.show = "hold")
+```
+
+
+
+
+
+Question
+========
+
+Recherchieren Sie Daten zu der Anzahl von Todesfällen in Zusammenhang mit Corona.
+
+Sie können sich auf diese Daten stützen (sofern noch vorhanden):
+
+```{r echo = TRUE}
+mort_path <- "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Daten/Fallzahlen_Gesamtuebersicht.xlsx?__blob=publicationFile"
+```
+
+
+Wählen Sie Antwort, die am besten passt.
+
+Answerlist
+----------
+* Der Verlauf der kummlierten Todesfälle über die Zeit ist (zumeist)  monoton steigend.
+* Der Verlauf der kummlierten Todesfälle über die Zeit ist (zumeist)  monoton fallend
+* Der Verlauf der kummlierten Todesfälle über die Zeit ist teilweise steigend, teilweise fallend.
+* Der Verlauf der kummlierten Todesfälle über die Zeit ist konstant, d.h. weder steigend noch fallend (von minimalen Abweichungen abgesehen).
+* Der Verlauf der kummlierten Todesfälle über die Zeit ist zuerst steigend, danach konstant.
+
+
+Solution
+========
+
+
+Der oben angegebene Pfad erlaubt leider keine direkten Downloads über die ULR.
+Man kann die Datei zwar herunterladen, aber nicht online die Datei per URL auslesen.
+
+```{r eval = FALSE}
+library(readxl)
+
+mort_path <- "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Daten/Fallzahlen_Gesamtuebersicht.xlsx?__blob=publicationFile"
+
+mort_df <- read_xlsx(mort_path)  # Import eine XLSX-Datei
+```
+
+
+
+Also gut: Laden wir von Hand herunter und greifen dann auf die Daten lokal zu.
+
+Speichern Sie also die Daten auf Ihrem Computer.
+Danach importieren Sie die Datei in R, z.B. so:
+
+
+```{r}
+mort_path <- "/Users/sebastiansaueruser/github-repos/2021-wise/Data/Fallzahlen_Gesamtuebersicht.xlsx"
+mort_path <- "../Data/Fallzahlen_Gesamtuebersicht.xlsx"
+
+mort_df <- read_xlsx(path = mort_path,
+                     skip = 2)  
+```
+
+
+Tipp: Legen Sie die Datendatei immer in den (aktuellen) *RStudio-Projektordner*.
+Und die Rmd-Datei (oder R-Datei) auch!
+Dann brauchen Sie keinen Pfad angeben.
+
+
+`skip = 2` heißt: "überspringe die ersten zwei Zeilen, die Tab. beginnt erst in Zeile 3".
+
+Schauen wir mal rein:
+
+```{r}
+head(mort_df)
+```
+
+
+Scheint geklappt zu haben.
+
+
+Alternativ können Sie die Daten jetzt auch vom Server herunterladen, den wir für den Unterricht nutzen, dort habe ich die Daten gerade gespeichert:
+
+```{r}
+mort_path <- "https://raw.githubusercontent.com/sebastiansauer/2021-wise/main/Data/mort_df.csv"
+
+mort_df <- read_csv(mort_path)
+```
+
+
+```{r}
+mort_df %>% 
+  ggplot() +
+  aes(x = Berichtsdatum, y = Todesfälle) +
+  geom_line()
+```
+
+
+Answerlist
+----------
+
+
+* Wahr
+* Falsch
+* Falsch
+* Falsch
+* Falsch
+
+
+
+Meta-information
+================
+exname: corona-tod1
+extype: schoice
+exsolution: 10000
+exshuffle: false

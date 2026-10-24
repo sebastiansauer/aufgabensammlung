@@ -1,0 +1,59 @@
+Question
+========
+
+Sie möchten eine RMarkdown-Datei schreiben, um die Ergebnisse einer genialen Analyse zu dokumentieren. Sie beginnen die RMarkdown-Datei folgendermaßen:
+
+
+
+
+```{r eval = FALSE, echo = TRUE}
+--
+Titel: "Geniale Analyse"
+date: "heute
+author: "Alois Sch. O. Gewuss"
+output: html-document
+---
+```
+
+
+Leider führt das zu Fehlermeldungen. Allesamt komplett unverständlich. Was ist schon wieder mit R los?! Helfen Sie: Wählen Sie die Zeile der Syntax aus, die *korrekt* ist, also nicht auf Fehler hinweist.
+
+
+
+
+Answerlist
+----------
+
+* `Titel: "Geniale Analyse"`
+* `date: "heute`
+* `author: "Alois Sch. O. Gewuss"`
+* `output: html-document 
+* `--`
+
+Solution
+========
+
+
+* `Titel: "Geniale Analyse"`  -- die Variable muss heißen `title`
+* `date: "heute`  -- nach `"heute` fehlt das schließende Anführungszeichen
+* `author: "Alois Sch. O. Gewuss"`  -- richtig, Alois!
+* `output: html-document  -- anstelle vom Minuszeichen muss ein Anführungszeichen stehen.
+* `--` -- Es fehlt das dritte Minuszeichen.
+
+
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Richtig
+* Falsch
+* Falsch
+
+
+Meta-information
+================
+exname: rmd-fehler-01
+extype: schoice
+exsolution: 00100
+exshuffle: FALSE

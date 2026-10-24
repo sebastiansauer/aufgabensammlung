@@ -1,0 +1,201 @@
+
+
+```{r libs, include = FALSE}
+library(tidyverse)
+library(rstanarm)
+# library(testthat)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      cache = FALSE,
+                      echo = FALSE,
+                      message = FALSE,
+                      fig.show = "hold")
+
+options(mc.cores = parallel::detectCores())
+
+```
+
+
+```{r}
+chains <- 1 
+```
+
+
+
+```{r}
+d_name <- "mtcars"
+data(list = d_name)
+av <- "mpg"
+
+preds <- c("cyl", "vs", "am", "gear", "carb")
+pred_chosen_nr <- sample(1:length(preds), 1)
+pred_chosen <- preds[pred_chosen_nr]
+
+# d is the abstracted name of the dataset:
+d <- eval(parse(text = d_name))
+
+#mtcars[pred_chosen] <- scale(mtcars[pred_chosen])  # HARD WIRED to mtcars
+```
+
+
+
+
+
+
+Question
+========
+
+Im Folgenden ist der Datensatz ``r d_name`` zu analysieren. Er ist unter dieser [Quelle](`r d_path`) erhältlich: `r d_path`.
+
+
+
+Der Datensatz ist z.B. als CSV-Datei [von dieser Webseite](https://vincentarelbundock.github.io/Rdatasets/csv/datasetsv) abrufbar.
+
+Hilfe zum Datensatz ist via `help("name_des_datensatzes")` oder [auf dieser Webseite](https://vincentarelbundock.github.io/Rdatasets/doc/datasets) abrufbar.
+
+
+
+
+
+
+
+
+
+Berechnen Sie das folgende lineare Modell:
+
+
+
+AV: `r av`.
+
+UV: `r pred_chosen`.
+
+<!-- Zentrieren Sie den Prädiktor, bevor Sie das Modell berechnen. -->
+
+
+
+
+
+
+
+Gegeben seien zwei neue, zufällige Beobachtungen. Die erste der beiden Beobachtungen weist im Prädiktor den Wert 0 auf.
+Die zweite Beobachtung weist den Wert 1 auf.
+
+
+
+**Wie groß ist die die Wahrscheinlichkeit, dass die Beobachtung mit dem höheren Wert im Prädiktor einen höheren Wert in der AV aufweist (im Vergleich zur Beobachtung mit dem kleineren Wert im Prädiktor)?**
+
+Mit anderen Worten: Gesucht ist $Pr(y\,|\,x^1_{x=0} <  y \, | \, x^2_{x=1})$, 
+wobei $x^1$ die erste Beobachtung mit dem Prädiktorwert $x=0$ darstellt und $x^2$ die zweite Beobachtung, 
+bei der der Prädiktor einen Wert von $x=1$ aufweist.
+
+
+
+Hinweise:
+
+- Verwenden Sie Standardwerte der R-Funktionen, soweit nicht anders angegeben.
+- Runden Sie auf eine Dezimalstelle.
+- Verwenden Sie Methoden der Bayes-Statistik für inferenzstatistische Analysen.
+- Geben Sie keine Prozentzahlen an, sondern Anteile (also nicht "50%", sondern "0.5" etc.)
+- Findet sich in einer Auswahlliste möglicher Antworten nicht die exakte Lösung, wählen Sie die am besten passende.
+- Beziehen Sie sich im Zweifel auf den Stoff, so wie im Unterricht behandelt.
+
+
+```{r results = "hide", echo = FALSE}
+pred_formula <- paste(pred_chosen, collapse = " + ")
+mod_formula <- as.formula(paste0(av, " ~", pred_formula))
+mod <- stan_glm(mod_formula, data = mtcars, refresh = 0, chains = chains)  # CHAINS auf 4 setzen
+```
+
+
+
+```{r init-vars}
+questions <- solutions <- explanations <- answer_options <- item_stems <- rep(list(""), 1)
+type <- rep(list("num"), 1)
+```
+
+
+
+
+
+```{r question-a}
+mtcars_newdata <- tibble()
+mtcars_newdata[c(1,2), pred_chosen] <- matrix(c(0, 1), nrow = 2)
+
+ppv1 <- posterior_predict(mod, newdata = mtcars_newdata) %>% as_tibble()
+
+Wskt_AV_hoeher_bei_xgleich1 <-
+  ppv1 %>% 
+  mutate(gruppe2_groesser_gruppe = `2` > `1`) %>% 
+  summarise(Wskt_AV_hoeher_bei_xgleich1 = mean(gruppe2_groesser_gruppe)) %>% 
+  pull(1)
+
+```
+
+Solution
+========
+
+
+
+Der Prädiktor bzw. die Prädiktoren (UV) des Modells lauten (hat der Dozent oben im Verborgenen bestimmt):
+
+```{r echo = TRUE}
+pred_chosen
+```
+
+
+
+Daraus erstellt der Dozent eine "Modellformel" (`mod_formula`), von der Art `y ~ x1 + x2 + x2`:
+
+```{r}
+mod_formula
+```
+
+
+
+Damit kann man dann das Modell berechnen:
+
+
+
+```{r results = "hide", echo = TRUE, eval = FALSE}
+mod <- stan_glm(mod_formula, data = mtcars)
+```
+
+Ausgabe der Ergebnisse:
+
+```{r echo = TRUE}
+print(mod)
+```
+
+
+
+Im Folgenden ist eine Musterlösung dargestellt, die etwas allgemeiner gehalten ist,
+da diese Prüfungsaufgabe dynamisch angelegt ist (also in jeder Durchführung potenziell andere Werte enthält).
+Daher sind auch andere, einfachere Lösungen möglich.
+
+
+
+```{r ref.label="question-a", echo = TRUE, eval = FALSE}
+```
+
+
+
+
+Die Wahrscheinlichkeit, dass die Beobachtung mit dem um 1 höheren Prädiktorwert einen höheren Wert in der AV aufweist, beträgt: ``r Wskt_AV_hoeher_bei_xgleich1``.
+
+
+
+Meta-information
+================
+exname: ppv2
+extype: num
+exsolution: `r Wskt_AV_hoeher_bei_xgleich1`
+extol: 0.2
+
+

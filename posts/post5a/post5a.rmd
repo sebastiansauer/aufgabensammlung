@@ -1,0 +1,277 @@
+
+
+```{r libs, include = FALSE}
+library(tidyverse)
+library(rstanarm)
+library(exams)
+library(assertthat)
+library(glue)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      cache = FALSE,
+                      echo = FALSE,
+                      message = FALSE,
+                      fig.show = "hold")
+
+options(mc.cores = parallel::detectCores())
+
+config <- config <- config::get(file = "/Users/sebastiansaueruser/github-repos/rexams-exercises/config.yml")
+```
+
+
+
+
+
+Question
+========
+
+
+
+
+
+
+```{r message=FALSE}
+d_df <-
+  tibble(datasets_names = c("penguins", "mtcars"),
+         av = c("bill_length_mm", "mpg"),
+         source = c(
+           "https://vincentarelbundock.github.io/Rdatasets/csv/palmerpenguins/penguins.csv",
+           "https://vincentarelbundock.github.io/Rdatasets/csv/datasets/mtcars.csv"
+         ))
+
+d_selected <-
+  d_df %>% 
+  filter(datasets_names == "mtcars")
+
+d_name <- d_selected$datasets_names
+
+d_raw <- read_csv(d_selected$source)
+
+
+if ("...1" %in% names(d_raw)) d_raw <- d_raw %>% select(-"...1")
+
+
+d_num_only <-
+  d_raw %>% 
+  select(where(is.numeric))
+
+vars <- names(d_num_only)
+
+av <- "am"
+preds <- setdiff(vars, av)
+
+preds_k <- sample(1:5, 1)
+
+n_preds_chosen <- 1  # number of predictors to be chosen
+
+preds_chosen <- preds[n_preds_chosen]
+
+
+d <-
+  d_num_only %>% 
+  select(all_of(av), all_of(preds_chosen))
+
+question <- glue("Wie groß ist die Wahrscheinlichkeit für ein manuelles Getriebe? Berechnen Sie das einfachste logistische Modell! Geben Sie einen Punktschätzer (Median) an für die Vorhersage!")
+
+```
+
+
+<!-- Hart verdrahtet für mtcars! -->
+
+Im Folgenden ist der Datensatz ``r d_name`` zu analysieren. Er ist unter dieser [Quelle](`r d_path`) erhältlich: `r d_path`.
+
+Eine Möglichkeit, den Datensatz zu beziehen, ist [diese Sammlung an Datensätzen](https://vincentarelbundock.github.io/Rdatasets/articles/data.html). 
+Suchen Sie dort nach dem Namen des Datensatzes.
+Importieren Sie dann die Daten in R.
+
+Hilfe zum Datensatz ist [auf dieser Webseite](https://vincentarelbundock.github.io/Rdatasets/articles/data.html) abrufbar.
+
+
+
+
+Berechnen Sie das folgende lineare Modell:
+
+
+
+AV: `r av`.
+
+UVs: `r preds_chosen`.
+
+
+
+Gehen Sie von **diesem Wert des Prädiktors** aus: ``r pred_value_chosen``.
+Nutzen Sie  diesen Wert zur Vorhersage.
+
+
+
+*Aufgabe*: **`r question`**
+
+
+
+```{r results = "hide", echo = FALSE}
+preds_formula <- paste(preds_chosen, collapse = " + ")
+mod_formula <- as.formula(paste0(av, " ~", preds_formula))
+mod <- stan_glm(mod_formula, data = d, refresh = 0, chains = config$chains,  family = binomial("logit"))
+
+mod_formula_string <- paste0(av, " ~ ", preds_formula)
+```
+
+
+
+
+```{r}
+pred_values <- 
+  d %>% 
+  select(all_of(preds_chosen)) %>% 
+  rename(x = {{preds_chosen}}) %>% 
+  summarise(pred_avg = mean(x, na.rm = TRUE),
+            pred_minus1sd = pred_avg - sd(x, na.rm = TRUE),
+            pred_plus1sd = pred_avg + sd(x, na.rm = TRUE)) %>% 
+  pivot_longer(everything())
+
+pred_value_chosen <-
+  pred_values %>% 
+  sample_n(size = 1) %>% 
+  pull(value) %>% 
+  round(2)
+```
+
+
+
+
+
+
+
+
+
+[Beachten Sie die Bearbeitungshinweise.](https://hinweisbuch.netlify.app/030-hinweise-pruefung-klausur-frame)
+
+
+
+
+
+
+
+
+
+```{r ex-a}
+predictions <- predict(mod,
+                 newdata = tibble({{preds_chosen}} := pred_value_chosen))
+
+predictions_wskt <- predictions %>% invlogit()
+sol <- predictions_wskt %>% round(2)
+```
+
+
+Solution
+========
+
+
+
+
+**MUSTERLÖSUNG**
+
+
+Denken Sie daran, zuerst die Pakete zu laden und dann die Daten.
+
+
+
+
+Der Datensatz heißt: `r d_selected$datasets_names`.
+Er ist unter [dieser Quelle](`r d_selected$source`) zu beziehen.
+
+Die Prädiktoren (UVs) des Modells lauten: `r preds_chosen`.
+
+
+
+
+
+Dann berechnet man das Modell, etwa so: `r glue::glue("mod <- stan_glm({mod_formula_string}, data = d, family = binomial('logit'))")`.
+
+
+Wichtig ist, dass Sie `family = binomial('logit')` ergänzen, damit ein logistisches Modell,
+und kein Gauss-Modell berechnet wird.
+
+Ausgabe der Ergebnisse:
+
+```{r echo = TRUE}
+print(mod)
+```
+
+
+
+
+```{r }
+pred_str <- glue::glue("prediction <- predict(mod, newdata = tibble({preds_chosen[1]} = {pred_value_chosen}))")
+```
+
+
+Als nächstes berechnen Sie die Vorhersagen.
+Je nachdem, welche Prädiktoren in Ihrem Modell auftauchen,
+würden Sie schreiben: ``r pred_str``.
+
+Hier ist der Logit-Wert:
+
+```{r}
+predictions
+```
+
+
+
+Den muss man noch in Wahrscheinlichkeit umrechnen: `predictions %>% invlogit()`:
+
+```{r}
+predictions_wskt
+```
+
+Diesen Wert reichen Sie gerundet ein.
+
+Übrigens: Es wird die Wahrscheinlichkeit des *zweiten* Wertes des AV zurückgegeben bzw. dieses (das zweite) Ereignis wird modelliert.
+
+Hat die AV z.B. die Stufen "0" und "1", wird also die Wahrscheinlichkeit für "1" modelliert und von `stan_glm()` bzw. `predict()` zurückgegeben.
+
+
+
+In diesem Fall hat die AV, ``r av`, folgende Stufen: 
+
+
+
+```{r echo = FALSE}
+d %>% 
+  select(all_of(av)) %>% 
+  distinct() %>% 
+  pull(1)
+```
+
+
+
+```{r echo = FALSE}
+sol_tol <- exams::num2tol(sol, min = config$min_tol, reltol = config$relative_tolerance)
+```
+
+
+Meta-information
+================
+exname: post5a
+extype: num
+exsolution: `r sol`
+exshuffle: false
+expoints: 1
+extol: `r sol_tol`
+categories:
+- qm2
+tags:
+- bayes
+- inference
+- regression
+- log
+
+
+

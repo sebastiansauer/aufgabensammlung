@@ -1,0 +1,227 @@
+```{r libs, include = FALSE}
+library(tidyverse)
+library(testthat)
+library(glue)
+library(dagitty)
+library(ggdag)
+library(exams)
+library(stringr)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 7,
+                      fig.cap = "", 
+                      fig.path = "",
+                      echo = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      cache = FALSE,
+                      #dpi = 72,
+                      fig.show = "hold")
+```
+
+
+
+
+<!-- This exercises shows 5 answer options, one of which is correct, the others being incorrect. It's a dynamic exercise in the sense that each time the exercise is run (compiled), different values are chosen and the correct solution will likely differ. Students will have to tick the correct answer option. -->
+
+
+<!-- You'll find more examples on the [R/exams website](http://www.r-exams.org/); feel free to check out those examples in order to get an idea on how the system works. -->
+
+
+
+<!-- YOUR JOB: -->
+<!-- Please come up with a vector of 5 elements, the first of which should be the correct solution, the others options must be incorrect. Note that the correct solution is stored in the object `adj`. Note that the correct solution may consist of one or more solutions; even no solution is possible. That makes matters somewhat complicated. You may simplify the solution space, e.g, by only allowing one correct solution, in order to simplify matters. Please conduct a number of checks to see if your solution is stable.-->
+
+
+<!-- NOTE THAT THE SCRIPT IN ITS CURRENT FORM IS BUGGY!!! -->
+
+
+
+Question
+========
+
+Gegeben sei der DAG `g` (s. u.). Welche minimale Variablenmenge muss kontrolliert werden, um den kausalen Effekt von `x3` (UV) auf `x5` (AV) zu identifizieren?
+
+
+*Hinweise*: 
+
+- Mengen sind mittels geschweifter Klammern gekennzeichnet, z.B. `{x8, x9}` meint die Menge mit den Elementen `x8` und `x9`.
+- Die leere Menge `{ }` bedeutet, dass keine Variable kontrolliert werden muss, um den kausalen Effekt zu identifizieren.
+
+
+```{r create-dag}
+dag_size <- 6
+p <- 0.5
+
+g <- randomDAG(N = dag_size, p)
+
+
+adj <- adjustmentSets(g, 
+               exposure = "x3",
+               outcome = "x5")  # this is the CORRECT answer
+
+# adj
+
+# it is impossible to get a minimal adjustment set, where one set is empty and
+# the second is non-empty
+
+```
+
+
+```{r check1, eval = FALSE}
+library(mosaic)
+
+x <- list()
+
+for (i in 1:1000){
+   tmp <- randomDAG(N = dag_size, p)
+   x[[i]] <- adjustmentSets(g, 
+               exposure = "x3",
+               outcome = "x5")
+}
+
+```
+
+
+
+```{r}
+# str(adj)
+# length(adj)
+# adj[[1]]
+# adj <- c("x1, x2")
+
+
+variables <- paste0("x", 1:dag_size)
+
+variables <- c(variables, " ")
+
+#variables <- paste0("{ ", variables, " }")
+
+sol <- character()
+
+# if there's only one solution set:
+if (length(adj) == 1){
+  # get all solutions as elements in a string vector:
+  z_set <- str_extract_all(adj, pattern = boundary("word")) %>% unlist()
+  
+  # if there's no solution, define solution as an empty string:
+  if (z_set == "list") z_set <- " "
+  
+  # if (z_set == "{}") z_set <- "???"
+  
+  # the rest of the variables are therefore incorrect solutions:
+  incorrect_z_set <- variables %>% sample() %>% setdiff(z_set)
+  
+  # enframe those variables with curly braces:
+  incorrect_z_set <- paste0("{ ", incorrect_z_set, " }")
+  
+  # add some variable combiation to the list of incorrect solutions:
+  incorrect_z_comb <- paste0("{ ", variables[1], ", ", variables[2], " }")
+  incorrect_z <- c(incorrect_z_set, incorrect_z_comb)
+  
+  sol[1] <- paste0("{ ", z_set[1], " }")  # correct solution
+  sol[2:5] <- sample(incorrect_z, 4)  # incorrect solution
+}
+
+
+# if there's more than one solution set, we just pick one randomly as the correct answer:
+if (length(adj) > 1){
+  z_set <- str_extract_all(adj, pattern = boundary("word")) %>% unlist()
+  z_set <- sample(z_set)  # shuffle it
+  #if (z_set == "list") z_set <- "{}"
+  incorrect_z_set <- variables %>% setdiff(z_set)
+  incorrect_z_set <- paste0("{ ", incorrect_z_set, " }")
+  incorrect_z_comb <- paste0("{ ", variables[1], ", ", variables[2], " }")  
+  incorrect_z <- c(incorrect_z_set, incorrect_z_comb)
+  sol[1] <- paste0("{ ", z_set[1], " }")  # correct solution
+  sol[2:5] <- sample(incorrect_z, 4) # incorrect solution
+}
+
+
+sol_df <-
+  tibble(
+    sol = sol,
+    is_correct = c(TRUE, F, F, F, F)
+  ) %>% 
+  sample_n(size = nrow(.))  # shuffle it
+
+
+# knitr::kable(sol_df)
+```
+
+
+
+
+
+```{r plot-dag}
+plot(g)
+```
+
+
+
+
+```{r questionlist, results="asis"}
+answerlist(sol_df$sol, 
+           markup = "markdown")
+```
+
+
+
+
+Solution
+========
+
+Folgende Variablenmenge muss kontrolliert werden, um den kausalen Effekt von `x3` auf `x5` zu identifizieren: ``r sol_df$sol[sol_df$is_correct == TRUE]``.
+
+
+*Erläuterung*:
+
+```{r}
+is_dseparated <- dseparated(g, X = "x3", Y = "x5")
+is_dconnected <- dconnected(g, X = "x3", Y = "x5")
+```
+
+
+`x3` (UV) und `x5` (AV) sind `r ifelse(is_dconnected==FALSE, "nicht", "")` (durch mindestens einen offenen Pfad) verbunden ("d-connected").
+
+
+Folgende Unabhängigkeitsbeziehungen (`_||_`) werden durch den DAG definiert:
+```{r}
+impliedConditionalIndependencies(g)
+```
+
+`x3` und `x5` werden durch folgende Pfade verbunden:
+
+```{r}
+
+g_paths <- paths(g,
+      from = "x3",
+      to = "x5")
+
+g_paths
+```
+
+
+Offenen Pfade sind der/die Pfad/e mit der/den Nummer/n: `r which(g_paths$open)`.
+
+
+
+
+```{r, echo = FALSE, results = "asis"}
+answerlist(ifelse(sol_df$is_correct, "Richtig", "Falsch"), markup = "markdown")
+```
+
+
+Meta-information
+================
+exname: dag11
+extype: schoice
+exsolution: `r mchoice2string(sol_df$is_correct, single = TRUE)`
+exshuffle: false
+
+
+

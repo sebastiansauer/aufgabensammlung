@@ -1,0 +1,135 @@
+
+```{r include = FALSE}
+
+library(tidyverse)
+library(mosaic)
+require(scales)
+library(directlabels)
+library(ggrepel)
+library(ggthemes)
+
+options(scipen = 8)
+
+
+double_rates <- 5
+double_rate_chosen <-   5 # sample(double_rates, size = 1)
+```
+
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4)
+```
+
+
+
+Question
+========
+
+Im Zuge der Coronakrise werden viele Statistiken publiziert. Einige sind nützlich, andere können irreführend sein. Eine Diskussion entspann sich um Wachstumsraten insofern man damit Länder vergleichen möchte. Etwa: "Im Land X ist die Wachstumsrate höher als in Land Y!".
+
+```{r include = FALSE}
+s1 <- 10000
+s2 <- 1000000
+```
+
+
+
+
+
+Die Populationsgrößen ($s_1$, $s_2$) seien: `r s1` für Population 1 bzw. `r s2` für Population 2. Die Länder (X und Y) unterscheiden sich also in der Größe der Population.
+
+
+Betrachten wir zwei Länder mit *gleicher* Corona-Wachstumsrate. Die Wachstumsrate sei so hoch, dass sich die Fallzahl alle `r double_rate_chosen` Tage verdopple. 
+
+Die Abbildung stellt den Wachstum für beide Länder dar:
+
+```{r fig1, echo = FALSE, fig.width=4, fig.cap = "", fig.asp=.618,  fig.path = ""}
+d <- tibble(  # erzeugt Datenmatrix
+  days = 1:30,
+  cases = 2^((1/double_rate_chosen)*days)
+)
+
+gf_line(cases ~ days, data = d) %>% 
+  gf_point(size = 2, alpha = .5) %>% 
+    gf_labs(x = "Tage", y = "Anzahl Infizierte")
+
+```
+
+
+
+In einigen Medien wurde (wird) statt der absoluten Fallzahlen $n_{abs}$ eine *relative* Fallzahl berichtet ( vgl. https://twitter.com/CT_Bergstrom/status/1249480343968575488). Dazu wurde die absolute Fallzahl durch die Populationgröße $s$ geteilt: $n_{rel} = n_{abs}/s$. 
+
+
+
+Stellt man dies grafisch dar, so kann man die in folgender Abbildung dargestellten Kurven erhalten. 
+
+```{r fig2, fig.width=4, fig.cap = "", echo= FALSE, fig.path=""}
+d <- d %>%
+  mutate(n_rel1 = cases/s1,
+         n_rel2 = cases/s2) %>% 
+  mutate(pop1 = n_rel1,
+         pop2 = n_rel2)
+
+d_long <- d %>% 
+  pivot_longer(cols = c(pop1, pop2),
+               names_to = "population",
+               values_to = "rel_size")
+
+
+ggplot(d_long) +
+  aes(x = days, y = rel_size, color = population) +
+  geom_line(size = 2) + 
+  scale_y_continuous(labels = scales::comma) +
+  scale_color_colorblind() +
+  labs(x = "Tage", "Anteil Infizierter")
+```
+
+Überraschenderweise zeigt sich, dass das Land mit größerer Population eine -- scheinbar! -- geringe Verdopplungsrate aufweist, da ja die Kurve deutlich flacher ist.
+
+a) Erläutern Sie, worauf dieser Verzerrungsaspekt beruht! 
+
+b) Schlagen Sie eine Darstellung vor, die diese Verzerrung verhindert und einen Vergleich der Wachstumsraten zwischen den Ländern ermöglicht!
+
+
+Solution
+========
+
+
+Eine Lösung besteht darin, die Y-Achse zu logarithmieren:
+
+```{r echo = FALSE, fig.cap = "", fig.path = ""}
+gf_line(n_rel1 ~ days, data = d, color = "blue") %>%
+  gf_line(n_rel2 ~ days, color = "red") %>% 
+  gf_labs(x = "Tage", y = "LOG2 Anteil Infizierte") + scale_y_continuous(labels = scales::comma, trans = "log2")
+```
+
+
+Eine andere Lösung besteht darin, die Kurven so zu kalibrieren, dass sie nicht mit der ersten Infektion beginnen, sondern mit dem Tag, an dem ein Anteil $r$ der Population infiziert ist. Dann überlappen sich die Kurven wieder:
+
+
+```{r fig-kalibriert, echo = FALSE, fig.cap = "", fig.path =""}
+
+d <- d %>% 
+  mutate (n_rel2_later =  2^((1/double_rate_chosen)*days+3.3) / s2)
+
+
+gf_line(n_rel1 ~ days, data = d, color = "blue") %>%
+  gf_line(n_rel2_later ~ days, color = "red") %>% 
+  gf_labs(x = "Tage seit p=1/100.000 Infizierte", y = "Anteil Infizierte") + scale_y_continuous(labels = scales::comma)
+
+```
+
+```{r include = FALSE}
+sol <- "Möglichkeit 1: Y-Achse logarithmieren. Möglichkeit 2: Kurven so kalibrieren, dass sie mit dem gleichen Anteil an Infizierten starten."
+```
+
+
+Meta-information
+================
+extype: string
+exname: coronakurve
+expoints: 10
+exsolution: `r sol`
+

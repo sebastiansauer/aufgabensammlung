@@ -1,0 +1,259 @@
+
+<!-- UNFERTIG -->
+
+
+```{r libs, include = FALSE}
+library(tidyverse)
+library(rstanarm)
+library(exams)
+library(testthat)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      cache = FALSE,
+                      echo = FALSE,
+                      message = FALSE,
+                      fig.show = "hold")
+
+options(mc.cores = parallel::detectCores())
+
+```
+
+
+
+```{r load-libs, message = FALSE}
+data(mtcars)
+library(tidyverse)
+library(rstanarm)
+library(bayesplot)  # Histogramm-Plots für Post-Vert.
+library(bayestestR)  # rope
+```
+
+
+
+
+Question
+========
+
+
+
+
+
+```{r init-data-frame-used}
+d_name <- "mtcars"
+data(list = d_name)
+av <- "mpg"
+vars <- names(eval(parse(text = d_name))) 
+preds <- setdiff(vars, av)
+
+# d is the abstracted name of the dataset:
+d <- eval(parse(text = d_name))
+```
+
+
+
+
+Einer der (bisher) größten Studien der Untersuchung psychologischer Konsequenzen (oder Korrelate) der Covid-Zeit ist die Studie *COVIDiSTRESS.*
+
+Im Folgenden sollen Sie folgende Forschungsfrage untersuchen:
+
+*Ist der Unterschied im Stresserleben (PSS10_avg, AV) zwischen Deutschland und Frankreich "vernachlässigbar klein"?*
+
+Vergleichen Sie dazu die Mittelwerte der gesuchten Größe!
+
+Transformieren Sie die AV auf eine 0-1-Skala ("Einheitsskala").
+Das heißt, der kleinstmögliche Skalenwert soll auf 0 transformiert werden und der größtmögliche 1 auf 1.
+
+Das könnte z.B. bedeuten (Annahme einer 5-stufigen Skala):
+
+1 (min.) -> 0
+2 -> .25
+3 -> .5
+4 -> .75
+5 (max.) -> 1
+
+"Vernachlässigbar klein" sei definiert als höchstens 10% Unterschied (in der *Einheitsskala*).
+
+Den Datensatz können Sie unter folgender URL herunterladen (Achtung, groß) als CSV-Datei:
+
+<https://osf.io/cjxua/?action=download>
+
+
+Schauen Sie auch mal auf die Repo-Seite: <https://osf.io>.
+
+
+
+
+
+```{r load-data}
+# Wir laden eine verkleinerte Version der Daten:
+d_path <- "https://raw.githubusercontent.com/sebastiansauer/2021-wise/main/Data/COVIDiSTRESS-de-fr.csv"
+d <- read_csv(d_path)
+```
+
+
+
+
+
+
+
+
+
+
+[Beachten Sie die Bearbeitungshinweise.](https://hinweisbuch.netlify.app/030-hinweise-pruefung-klausur-frame)
+
+
+
+```{r init-result-objects}
+questions <- solutions <- explanations <- answer_options <- item_stems <- rep(list(""), 3)
+type <- rep(list("numeric"), 3)
+```
+
+
+
+```{r ex-a}
+d2 <-
+  d %>% 
+  select(Country, PSS10_avg) %>% 
+  drop_na() %>% 
+  mutate(stress = (PSS10_avg - 1) / (max(PSS10_avg) - 1)) %>% 
+  select(-PSS10_avg)
+
+
+m1 <- stan_glm(stress ~ Country, 
+               refresh = 0,
+               chains = 1, # spart Zeit
+               data = d2)  
+
+rope1 <- rope(m1, range = c(-.10, 10)) %>% 
+  as_tibble() %>%
+  filter(Parameter == "CountryGermany") %>% 
+  pull(ROPE_Percentage)
+```
+
+
+
+```{r}
+#  a)
+item_stems[[1]] <- "Geben Sie den Anteil der Post-Verteilung an, die außerhalb des Rope liegt. "
+questions[[1]] <- paste0(item_stems[[1]])
+solutions[[1]] <- explanations[[1]] <- rope1
+```
+
+
+
+```{r ex-b}
+post2 <- post_interval(m3, prob = .89, pars = "CountryGermany")
+post2
+
+breite <- post2[2] - post2[1]
+breite %>% round(2)
+```
+
+
+
+
+```{r}
+#  b)
+item_stems[[2]] <- "Nennen Sie die Breite des 89%-Post-PI zum gesuchten Effekt. "
+questions[[2]] <- paste0(item_stems[[2]])
+solutions[[2]] <- explanations[[2]] <- breite
+```
+
+
+```{r ex-c}
+r2_md <- bayes_R2(m1) %>% median
+```
+
+
+
+
+```{r  eval = TRUE}
+#  c)
+item_stems[[3]] <- "Im Hinblick auf die Rope-Methode: Ist der Unterschied vernachlässigbar klein? "
+
+questions[[3]] <- paste0(item_stems[[3]])
+solutions[[3]] <- explanations[[3]] <- r2_md
+
+```
+
+
+
+```{r}
+#explanations <- lapply(explanations[3], function(x) ifelse(x, "Richtig", "Falsch"))
+#solutions <- lapply(solutions[3], mchoice2string)
+```
+
+
+
+
+```{r questionlist, echo = FALSE, results = "asis"}
+answerlist(format(unlist(questions)), markup = "markdown")
+```
+
+
+
+Solution
+========
+
+
+
+
+**MUSTERLÖSUNG**
+
+
+Setup:
+
+```{r ref.label = "load-libs"}
+
+```
+
+
+
+
+
+a)
+
+```{r ref.label = "ex-a"}
+
+```
+
+
+b)
+
+```{r ref.label = "ex-b"}
+
+```
+
+c)
+
+```{r ref.label = "ex-c"}
+
+```
+
+
+
+
+```{r solutionlist, echo = FALSE, results = "asis"}
+answerlist(paste(unlist(explanations), ".", sep = ""), markup = "markdown")
+```
+
+
+
+
+
+Meta-information
+================
+exname: post3
+extype: cloze
+exsolution: `r paste(solutions, collapse = "|")`
+exclozetype: `r paste(type, collapse = "|")`
+exshuffle: false
+expoints: `r length(questions)`
+

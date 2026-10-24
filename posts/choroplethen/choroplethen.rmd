@@ -1,0 +1,37 @@
+
+
+Question
+========
+In vielen Bereichen der (angewandten) Datenanalyse spielt die Visualisierung von geographischen Gebieten eine Rolle, so z.B. zur Visualisierung von Umsätzen nach Regionen.
+
+Dabei wird eine Variable, wie Umsatz, auf eine geographische Region abgebildet.
+
+Wie nennt man in diesem Zusammenhang den abgebildeten Diagrammtyp?
+
+```{r echo = FALSE, results = "show", fig.height = 3.5, fig.width = 5.8, fig.path = "", fig.cap = ""}
+library(rnaturalearth)
+world <- ne_countries(scale = "medium", returnclass = "sf") 
+gf_sf(data = world)
+```
+
+
+```{r echo = FALSE}
+sol <- "Choroplethendiagramm"
+```
+
+
+
+Wie nennt man so ein Diagramm?
+
+
+Solution
+========
+`r sol`
+
+
+
+Meta-information
+================
+extype: string
+exsolution: `r sol`
+exname: choroplethen01

@@ -1,0 +1,880 @@
+quelle	status	ziel_oder_treffer	grund	extype	exams
+algebra/bin2dec.rmd	importiert	posts/bin2dec/bin2dec.rmd		string	OK
+algebra/log5.rmd	importiert	posts/log5/log5.rmd		num	OK
+algebra/logx.rmd	importiert	posts/logx/logx.rmd		string	OK
+algebra/zweihochx.rmd	importiert	posts/zweihochx/zweihochx.rmd		num	OK
+algebra/zweihochzehn.rmd	importiert	posts/zweihochzehn/zweihochzehn.rmd		num	OK
+bayes/anteil-apple.rmd	dublette	posts/anteil-apple/anteil-apple.rmd	gleicher Name		
+bayes/anteil-automatik-mtcars.rmd	importiert	posts/anteil-automatik-mtcars/anteil-automatik-mtcars.rmd		string	OK
+bayes/bayes-ziel1.rmd	dublette	posts/bayes-ziel1-schoice/bayes-ziel1-schoice.Rmd	gleicher Name		
+bayes/bayes2.qmd	dublette	posts/bayes2/bayes2.qmd	gleicher Name		
+bayes/bayesmod-bestimmen01.rmd	dublette	posts/bayesmod-bestimmen01-schoice/bayesmod-bestimmen01-schoice.Rmd	gleicher Name		
+bayes/bayesmod-bestimmen02.rmd	dublette	posts/bayesmod-bestimmen02/bayesmod-bestimmen02.rmd	gleicher Name		
+bayes/bed-post-wskt1.rmd	dublette	posts/bed-post-wskt1/bed-post-wskt1.rmd	gleicher Name		
+bayes/dating01.rmd	importiert	posts/dating01/dating01.rmd		string	OK
+bayes/diamonds-nullhyp-mws.rmd	dublette	posts/diamonds-nullhyp-mws/diamonds-nullhyp-mws.rmd	gleicher Name		
+bayes/dyn/bayes-r2-dyn.rmd	importiert	posts/bayes-r2-dyn/bayes-r2-dyn.rmd		?	ERROR: es gibt kein Paket namens 'config'
+bayes/dyn/bayes-ziel1a.rmd	dublette	posts/bayes-ziel1-schoice/bayes-ziel1-schoice.Rmd	identischer Fragetext		
+bayes/dyn/bed-post-wskt2.rmd	importiert	posts/bed-post-wskt2/bed-post-wskt2.rmd		?	ERROR: Objekt 'teaching_data' nicht gefunden
+bayes/dyn/modelldef.rmd	importiert	posts/modelldef/modelldef.rmd		schoice	OK
+bayes/dyn/modelldef2.rmd	importiert	posts/modelldef2/modelldef2.rmd		schoice	OK
+bayes/dyn/modellinterpret-beta.rmd	importiert	posts/modellinterpret-beta/modellinterpret-beta.rmd		?	ERROR: es gibt kein Paket namens 'config'
+bayes/dyn/modellinterpret-breite.rmd	importiert	posts/modellinterpret-breite/modellinterpret-breite.rmd		?	ERROR: es gibt kein Paket namens 'config'
+bayes/dyn/post-effekt-1sd.rmd	importiert	posts/post-effekt-1sd/post-effekt-1sd.rmd		?	ERROR: es gibt kein Paket namens 'config'
+bayes/dyn/post-md3.rmd	dublette-intern	bayes/dyn/modellinterpret-breite.rmd	identischer Fragetext in der Quelle		
+bayes/dyn/post-uncertainty1.rmd	dublette-intern	bayes/dyn/modellinterpret-breite.rmd	identischer Fragetext in der Quelle		
+bayes/dyn/post1.rmd	importiert	posts/post1/post1.rmd		schoice	OK
+bayes/dyn/post2-breite-postint.rmd	importiert	posts/post2-breite-postint/post2-breite-postint.rmd		?	ERROR: es gibt kein Paket namens 'config'
+bayes/dyn/post2-md-post.rmd	importiert	posts/post2-md-post/post2-md-post.rmd		?	ERROR: Objekt 'chains' nicht gefunden
+bayes/dyn/post2-r2.rmd	importiert	posts/post2-r2/post2-r2.rmd		?	ERROR: es gibt kein Paket namens 'config'
+bayes/dyn/post2-rope.rmd	importiert	posts/post2-rope/post2-rope.rmd		?	ERROR: es gibt kein Paket namens 'config'
+bayes/dyn/post2.rmd	importiert	posts/post2/post2.rmd		?	ERROR: Objekt 'wrong_answers' nicht gefunden
+bayes/dyn/post3.rmd	importiert	posts/post3/post3.rmd		?	ERROR: Objekt 'breite' nicht gefunden
+bayes/dyn/post3a.rmd	importiert	posts/post3a/post3a.rmd		num	OK
+bayes/dyn/post3b.rmd	importiert	posts/post3b/post3b.rmd		schoice	OK
+bayes/dyn/post3c.rmd	importiert	posts/post3c/post3c.rmd		?	ERROR: Objekt 'question_chosen' nicht gefunden
+bayes/dyn/post5a.rmd	importiert	posts/post5a/post5a.rmd		?	ERROR: es gibt kein Paket namens 'config'
+bayes/dyn/ppv-dyn1.rmd	importiert	posts/ppv-dyn1-b/ppv-dyn1-b.rmd	namensgleich mit anderer Aufgabe in 06, daher umbenannt	?	ERROR: Nicht-numerisches Argument für mathematische Funktion
+bayes/dyn/ppv1.rmd	importiert	posts/ppv1/ppv1.rmd		?	ERROR: Objekt 'd_path' nicht gefunden
+bayes/dyn/ppv1a.rmd	importiert	posts/ppv1a/ppv1a.rmd		?	ERROR: Objekt 'd_path' nicht gefunden
+bayes/dyn/ppv1b.rmd	dublette-intern	bayes/dyn/ppv1a.rmd	identischer Fragetext in der Quelle		
+bayes/dyn/ppv1c.rmd	importiert	posts/ppv1c/ppv1c.rmd		?	ERROR: Objekt 'd_path' nicht gefunden
+bayes/dyn/ppv1d.rmd	dublette-intern	bayes/dyn/ppv1a.rmd	identischer Fragetext in der Quelle		
+bayes/dyn/ppv1e.rmd	dublette-intern	bayes/dyn/ppv1c.rmd	identischer Fragetext in der Quelle		
+bayes/dyn/ppv2.rmd	importiert	posts/ppv2/ppv2.rmd		?	ERROR: Objekt 'd_path' nicht gefunden
+bayes/dyn/ppv2a.rmd	importiert	posts/ppv2a/ppv2a.rmd		?	ERROR: Objekt 'd_path' nicht gefunden
+bayes/dyn/ppv3a-num.rmd	importiert	posts/ppv3a-num/ppv3a-num.rmd		?	ERROR: es gibt kein Paket namens 'config'
+bayes/dyn/ppv3a-schoice.rmd	importiert	posts/ppv3a-schoice/ppv3a-schoice.rmd		?	ERROR: Objekt 'preds' nicht gefunden
+bayes/dyn/ppv3a.rmd	dublette-intern	bayes/dyn/ppv3a-schoice.rmd	gleicher Name in der Quelle		
+bayes/dyn/predict-dyn1.rmd	dublette-intern	bayes/dyn/bayes-r2-dyn.rmd	identischer Fragetext in der Quelle		
+bayes/dyn/predict-dyn2.rmd	dublette-intern	bayes/dyn/bayes-r2-dyn.rmd	identischer Fragetext in der Quelle		
+bayes/dyn/prior1.rmd	dublette-intern	bayes/dyn/bayes-r2-dyn.rmd	identischer Fragetext in der Quelle		
+bayes/dyn/rope-dyn1.rmd	dublette-intern	bayes/dyn/modellinterpret-breite.rmd	identischer Fragetext in der Quelle		
+bayes/dyn/rope-dyn2.rmd	dublette-intern	bayes/dyn/modellinterpret-breite.rmd	identischer Fragetext in der Quelle		
+bayes/euro-bayes.rmd	dublette	posts/euro-bayes/euro-bayes.rmd	gleicher Name		
+bayes/fat-tails-artikel.rmd	dublette	posts/fat-tails-artikel/fat-tails-artikel.rmd	gleicher Name		
+bayes/groesse01.qmd	dublette	posts/groesse01/groesse01.qmd	gleicher Name		
+bayes/groesse02.qmd	dublette	posts/groesse02/groesse02.qmd	gleicher Name		
+bayes/iq-studentis.rmd	dublette	posts/iq-studentis/iq-studentis.rmd	gleicher Name		
+bayes/kaefer1.qmd	dublette	posts/kaefer1/kaefer1.qmd	gleicher Name		
+bayes/kaefer2.qmd	dublette	posts/kaefer2/kaefer2.qmd	gleicher Name		
+bayes/kekse01.rmd	dublette	posts/kekse01-schoice/kekse01-schoice.Rmd	gleicher Name		
+bayes/kekse02.rmd	dublette	posts/kekse02/kekse02.qmd	gleicher Name		
+bayes/kung-height.rmd	dublette	posts/kung-height/kung-height.rmd	gleicher Name		
+bayes/likelihood-identifizieren.rmd	dublette	posts/likelihood-identifizieren/likelihood-identifizieren.rmd	gleicher Name		
+bayes/likelihood2.rmd	dublette	posts/likelihood2/likelihood2.rmd	gleicher Name		
+bayes/mtcars-post.rmd	dublette	posts/mtcars-post/mtcars-post.rmd	gleicher Name		
+bayes/mtcars-post2.rmd	dublette	posts/mtcars-post2/mtcars-post2.rmd	gleicher Name		
+bayes/mtcars-post3.rmd	dublette	posts/mtcars-post3/mtcars-post3.rmd	gleicher Name		
+bayes/mtcars-rope1.rmd	dublette	posts/mtcars-rope1/mtcars-rope1.rmd	gleicher Name		
+bayes/penguins-punktschaetzer1.rmd	importiert	posts/penguins-punktschaetzer1/penguins-punktschaetzer1.rmd		?	ERROR: Objekt 'y' nicht gefunden
+bayes/pigs1.rmd	importiert	posts/pigs1/pigs1.rmd		string	OK
+bayes/pigs2.rmd	dublette	posts/pigs2/pigs2.rmd	gleicher Name		
+bayes/pigs3.rmd	importiert	posts/pigs3/pigs3.rmd		?	ERROR: Objekt 'data_url' nicht gefunden
+bayes/post-befragen1.rmd	dublette	posts/post-befragen1/post-befragen1.rmd	gleicher Name		
+bayes/post4.rmd	importiert	posts/post4/post4.rmd		?	"ERROR: konnte Funktion ""post_interval"" nicht finden"
+bayes/post5.rmd	importiert	posts/post5/post5.rmd		?	ERROR: all numeric items must be finite and non-missing
+bayes/posterior_interval.rmd	dublette	posts/posterior_interval/posterior_interval.rmd	gleicher Name		
+bayes/postvert-regr-01.rmd	dublette	posts/postvert-regr-01/postvert-regr-01.rmd	gleicher Name		
+bayes/ppv-mtcars1.rmd	dublette	posts/ppv-mtcars1/ppv-mtcars1.rmd	gleicher Name		
+bayes/ppv01-kung.rmd	importiert	posts/ppv01-kung/ppv01-kung.rmd		?	ERROR: Objekt 'm1' nicht gefunden
+bayes/ppv02-kung.rmd	importiert	posts/ppv02-kung/ppv02-kung.rmd		?	ERROR: Objekt 'm1' nicht gefunden
+bayes/ppv1a-mtcars.rmd	dublette	posts/ppv1a-mtcars/ppv1a-mtcars.rmd	gleicher Name		
+bayes/ppv1c-mtcars.rmd	dublette	posts/ppv1a-mtcars/ppv1a-mtcars.rmd	Fragetext 98% ähnlich		
+bayes/priori-streuung.rmd	dublette	posts/priori-streuung/priori-streuung.rmd	gleicher Name		
+bayes/priorwahl1.rmd	dublette	posts/priorwahl1/priorwahl1.rmd	gleicher Name		
+bayes/priorwahl2.rmd	dublette	posts/priorwahl2/priorwahl2.rmd	gleicher Name		
+bayes/pupil-size.rmd	dublette	posts/pupil-size/pupil-size.rmd	gleicher Name		
+bayes/quap1.rmd	importiert	posts/quap1/quap1.rmd		string	OK
+bayes/rethink3e1-7.rmd	dublette	posts/rethink3e1-7/rethink3e1-7.rmd	gleicher Name		
+bayes/rethink3m1.rmd	importiert	posts/rethink3m1/rethink3m1.rmd		?	ERROR: Objekt 'posterior' nicht gefunden
+bayes/rethink3m2.rmd	importiert	posts/rethink3m2/rethink3m2.rmd		string	OK
+bayes/rethink3m3.rmd	importiert	posts/rethink3m3/rethink3m3.rmd		string	OK
+bayes/rethink3m4.rmd	dublette	posts/rethink3m4/rethink3m4.qmd	gleicher Name		
+bayes/rethink3m5.rmd	dublette	posts/rethink3m5/rethink3m5.qmd	gleicher Name		
+bayes/rethink3m6.rmd	dublette	posts/rethink3m6/rethink3m6.qmd	gleicher Name		
+bayes/rethink4e1.rmd	dublette	posts/rethink4e1/rethink4e1.rmd	gleicher Name		
+bayes/rethink4e2.rmd	importiert	posts/rethink4e2/rethink4e2.rmd		schoice	OK
+bayes/rethink4e3.rmd	dublette	posts/rethink4e3/rethink4e3.qmd	gleicher Name		
+bayes/rope-regr.rmd	dublette	posts/rope-regr/rope-regr.rmd	gleicher Name		
+bayes/rope1.rmd	dublette	posts/rope1/rope1.rmd	gleicher Name		
+bayes/rope2.rmd	dublette	posts/rope2/rope2.rmd	gleicher Name		
+bayes/rope3.rmd	dublette	posts/rope3/rope3.rmd	gleicher Name		
+bayes/rope4.rmd	dublette	posts/rope4/rope4.rmd	gleicher Name		
+bayes/sim-prior.rmd	dublette	posts/sim-prior/sim-prior.rmd	gleicher Name		
+bayes/stan_glm01.rmd	dublette	posts/stan_glm01/stan_glm01.rmd	gleicher Name		
+bayes/stan_glm_parameterzahl.rmd	dublette	posts/stan_glm_parameterzahl/stan_glm_parameterzahl.rmd	gleicher Name		
+bayes/stan_glm_prioriwerte.rmd	dublette	posts/stan_glm_prioriwerte/stan_glm_prioriwerte.rmd	gleicher Name		
+bayes/stan_glm_priors_null.rmd	importiert	posts/stan_glm_priors_null/stan_glm_priors_null.rmd		cloze	OK
+bayes/stipro-bayesbox01.qmd	importiert	posts/stipro-bayesbox01/stipro-bayesbox01.qmd		num	OK
+bayes/stipro-bayesbox02.qmd	importiert	posts/stipro-bayesbox02/stipro-bayesbox02.qmd		num	OK
+bayes/subjektiv-bayes.rmd	dublette	posts/subjektiv-bayes/subjektiv-bayes.rmd	gleicher Name		
+bayes/warum-bayes.rmd	dublette	posts/warum-bayes/warum-bayes.rmd	gleicher Name		
+bayes/weinhaendler.rmd	dublette	posts/weinhaendler/weinhaendler.qmd	gleicher Name		
+bayes/zwielichter-dozent-bayes.rmd	dublette	posts/zwielichter-dozent-bayes/zwielichter-dozent-bayes.rmd	gleicher Name		
+big-data/bigdata3v.rmd	importiert	posts/bigdata3v/bigdata3v.rmd		string	OK
+big-data/datenstrukturgrad.rmd	importiert	posts/datenstrukturgrad/datenstrukturgrad.rmd		string	OK
+big-data/taxonomie-bda.rmd	importiert	posts/taxonomie-bda/taxonomie-bda.rmd		schoice	OK
+data-basics/av-uv.de.rmd	importiert	posts/av-uv.de/av-uv.de.rmd		schoice	OK
+data-basics/beobachtungseinheit.rmd	importiert	posts/beobachtungseinheit/beobachtungseinheit.rmd		schoice	OK
+data-basics/experimente.rmd	importiert	posts/experimente/experimente.rmd		schoice	OK
+data-basics/expgruppe-vs-kontrollgruppe.rmd	importiert	posts/expgruppe-vs-kontrollgruppe/expgruppe-vs-kontrollgruppe.rmd		schoice	OK
+data-basics/messniveau.rmd	importiert	posts/messniveau/messniveau.rmd		?	ERROR: Objekt 'gapminder' nicht gefunden
+data-basics/parameter-statistik.rmd	importiert	posts/parameter-statistik/parameter-statistik.rmd		schoice	OK
+data-basics/stichprobenanteil-vs-popanteil.rmd	importiert	posts/stichprobenanteil-vs-popanteil/stichprobenanteil-vs-popanteil.rmd		schoice	OK
+data-basics/stichprobenmethoden.rmd	importiert	posts/stichprobenmethoden/stichprobenmethoden.rmd		schoice	OK
+data-wrangling/ausreisser1.rmd	dublette	posts/ausreisser1/ausreisser1.qmd	gleicher Name		
+data-wrangling/n-col-mariokart.rmd	importiert	posts/n-col-mariokart/n-col-mariokart.rmd		num	OK
+data-wrangling/popup01.rmd	importiert	posts/popup01/popup01.rmd		?	"ERROR: ℹ In argument: `v001 = na_if(v001, """")`. Caused by error in `na_if()`: ! Can't convert `y` <character> to match type of `x` <double>."
+div/meme-erstellen.rmd	importiert	posts/meme-erstellen/meme-erstellen.rmd		string	OK
+eda/affairs-dplyr.rmd	dublette	posts/affairs-dplyr/affairs-dplyr.rmd	gleicher Name		
+eda/anova.rmd	importiert	posts/anova/anova.rmd		mchoice	OK
+eda/berufspraxis_bsp.rmd	importiert	posts/berufspraxis_bsp/berufspraxis_bsp.rmd		string	PROBLEM: Frage leer
+eda/boxhist.rmd	dublette	posts/boxhist/boxhist.rmd	gleicher Name		
+eda/boxhist2.rmd	importiert	posts/boxhist2/boxhist2.rmd		cloze	OK
+eda/boxplot-aussagen.rmd	dublette	posts/boxplot-aussagen/boxplot-aussagen.rmd	gleicher Name		
+eda/boxplots-de.rmd	importiert	posts/boxplots-de/boxplots-de.rmd		mchoice	OK
+eda/boxplots-de1a.rmd	dublette	posts/boxplots-de1a/boxplots-de1a.rmd	gleicher Name		
+eda/boxplots.rmd	importiert	posts/boxplots/boxplots.rmd		mchoice	OK
+eda/bullshit1.rmd	importiert	posts/bullshit1/bullshit1.rmd		num	OK
+eda/bullshit2.rmd	importiert	posts/bullshit2/bullshit2.rmd		?	"ERROR: konnte Funktion ""%>%"" nicht finden"
+eda/corona-todesfaelle1.rmd	importiert	posts/corona-todesfaelle1/corona-todesfaelle1.rmd		?	ERROR: `path` does not exist: '../Data/Fallzahlen_Gesamtuebersicht.xlsx'
+eda/corr-dyn1.rmd	importiert	posts/corr-dyn1/corr-dyn1.rmd		?	ERROR: es gibt kein Paket namens 'config'
+eda/dplyr-uebersetzen.rmd	dublette	posts/dplyr-uebersetzen/dplyr-uebersetzen.rmd	gleicher Name		
+eda/dyn/joins.rmd	importiert	posts/joins/joins.rmd		schoice	OK
+eda/dyn/parameterstatistik.rmd	dublette-intern	data-basics/parameter-statistik.rmd	gleicher Name in der Quelle		
+eda/dyn/robustheit.rmd	importiert	posts/robustheit/robustheit.rmd		schoice	OK
+eda/dyn/tidy1.rmd	dublette	posts/tidy1/tidy1.rmd	gleicher Name		
+eda/dyn/zwert-berechnen2.rmd	importiert	posts/zwert-berechnen2/zwert-berechnen2.rmd		num	OK
+eda/effectsize-groups.rmd	importiert	posts/effectsize-groups/effectsize-groups.rmd		?	"ERROR: konnte Funktion ""d_to_cles"" nicht finden"
+eda/exzessiv-korrelation.rmd	importiert	posts/exzessiv-korrelation/exzessiv-korrelation.rmd		num	OK
+eda/exzessiv-samplesize kopie.rmd	dublette-intern	eda/exzessiv-samplesize.rmd	Kopie; stattdessen das Original importiert		
+eda/exzessiv-samplesize.rmd	importiert	posts/exzessiv-samplesize/exzessiv-samplesize.rmd		num	OK
+eda/filter-na1.rmd	dublette	posts/filter-na1/filter-na1.rmd	gleicher Name		
+eda/filter-na2.rmd	dublette	posts/filter-na2/filter-na2.rmd	gleicher Name		
+eda/filter-na3.rmd	dublette	posts/filter-na3/filter-na3.rmd	gleicher Name		
+eda/filter-na4.rmd	dublette	posts/filter-na4/filter-na4.rmd	gleicher Name		
+eda/filter-na5.rmd	dublette	posts/filter-na5/filter-na5.rmd	gleicher Name		
+eda/filter01.rmd	dublette	posts/filter01/filter01.rmd	gleicher Name		
+eda/haeufigkeit01.rmd	dublette	posts/haeufigkeit01/haeufigkeit01.rmd	gleicher Name		
+eda/haeufigkeit02.rmd	importiert	posts/haeufigkeit02/haeufigkeit02.rmd		string	OK
+eda/kennwert-robust.rmd	dublette	posts/kennwert-robust/kennwert-robust.rmd	gleicher Name		
+eda/kennwert-robust2.rmd	dublette	posts/kennwert-robust2/kennwert-robust2.rmd	gleicher Name		
+eda/kontingenztabelle1.rmd	importiert	posts/kontingenztabelle1/kontingenztabelle1.rmd		num	OK
+eda/korr01.rmd	dublette	posts/korr01/korr01.rmd	gleicher Name		
+eda/korr02.rmd	dublette	posts/korr02/korr02.rmd	gleicher Name		
+eda/mariokart-desk01.rmd	dublette	posts/mariokart-desk01/mariokart-desk01.rmd	gleicher Name		
+eda/mariokart-korr1.rmd	dublette	posts/mariokart-korr1/mariokart-korr1.rmd	gleicher Name		
+eda/mariokart-korr2.rmd	dublette	posts/mariokart-korr2/mariokart-korr2.rmd	gleicher Name		
+eda/mariokart-korr3.rmd	dublette	posts/mariokart-korr3/mariokart-korr3.rmd	gleicher Name		
+eda/mariokart-korr4.rmd	dublette	posts/mariokart-korr4/mariokart-korr4.rmd	gleicher Name		
+eda/mariokart-max1.rmd	dublette	posts/mariokart-max1/mariokart-max1.rmd	gleicher Name		
+eda/mariokart-max2.rmd	dublette	posts/mariokart-max2/mariokart-max2.rmd	gleicher Name		
+eda/mariokart-mean1.rmd	dublette	posts/mariokart-mean1/mariokart-mean1.rmd	gleicher Name		
+eda/mariokart-mean2.rmd	dublette	posts/mariokart-mean2/mariokart-mean2.rmd	gleicher Name		
+eda/mariokart-mean3.rmd	dublette	posts/mariokart-mean3/mariokart-mean3.rmd	gleicher Name		
+eda/mariokart-mean4.rmd	dublette	posts/mariokart-mean4/mariokart-mean4.rmd	gleicher Name		
+eda/mariokart-sd1.rmd	dublette	posts/mariokart-sd1/mariokart-sd1.rmd	gleicher Name		
+eda/mariokart-sd2.rmd	dublette	posts/mariokart-sd2/mariokart-sd2.rmd	gleicher Name		
+eda/mariokart-sd3.rmd	dublette	posts/mariokart-sd3/mariokart-sd3.rmd	gleicher Name		
+eda/md-vs-mw.rmd	importiert	posts/md-vs-mw/md-vs-mw.rmd		?	"ERROR: konnte Funktion ""viridis"" nicht finden"
+eda/median-berechnen.rmd	importiert	posts/median-berechnen/median-berechnen.rmd		num	OK
+eda/mittelwert-berechnen.rmd	importiert	posts/mittelwert-berechnen/mittelwert-berechnen.rmd		num	OK
+eda/mutate01.rmd	dublette	posts/mutate01/mutate01.rmd	gleicher Name		
+eda/mw-berechnen.rmd	dublette	posts/mwberechnen/mwberechnen.rmd	gleicher Name		
+eda/nasa01.rmd	dublette	posts/nasa01/nasa01.rmd	gleicher Name		
+eda/nasa02.rmd	dublette	posts/nasa02/nasa02.rmd	gleicher Name		
+eda/nasa03.rmd	dublette	posts/nasa03/nasa03.rmd	gleicher Name		
+eda/nasa04.rmd	dublette	posts/nasa04/nasa04.rmd	gleicher Name		
+eda/nasa05.rmd	dublette	posts/nasa05/nasa05.rmd	gleicher Name		
+eda/nasa06.rmd	dublette	posts/nasa06/nasa06.rmd	gleicher Name		
+eda/or.rmd	importiert	posts/or/or.rmd		num	OK
+eda/parse_number.rmd	importiert	posts/parse_number/parse_number.rmd		schoice	OK
+eda/position-median-histogramm.rmd	dublette	posts/streuung-histogramm/streuung-histogramm.rmd	identischer Fragetext		
+eda/praxisprobleme1.rmd	importiert	posts/praxisprobleme1/praxisprobleme1.rmd		string	OK
+eda/scatterplot-art-korrelation.rmd	importiert	posts/scatterplot-art-korrelation/scatterplot-art-korrelation.rmd		schoice	OK
+eda/scatterplot-de.rmd	importiert	posts/scatterplot-de/scatterplot-de.rmd		mchoice	OK
+eda/scatterplot-de1a.rmd	dublette-intern	eda/scatterplot-de.rmd	identischer Fragetext in der Quelle		
+eda/schiefe-erkennen.rmd	dublette	posts/schiefe-erkennen/schiefe-erkennen.rmd	gleicher Name		
+eda/schiefe-erkennen2.rmd	importiert	posts/schiefe-erkennen2/schiefe-erkennen2.rmd		?	"ERROR: ℹ In index: 1. Caused by error in `glue()`: ! konnte Funktion ""glue"" nicht finden"
+eda/schiefe1.rmd	importiert	posts/schiefe1-b/schiefe1-b.rmd	namensgleich mit anderer Aufgabe in 06, daher umbenannt	schoice	OK
+eda/sd-vergleich.rmd	dublette	posts/sd-vergleich/sd-vergleich.rmd	gleicher Name		
+eda/skalenniveau1.rmd	importiert	posts/skalenniveau1/skalenniveau1.rmd		schoice	OK
+eda/skalenniveau1a.rmd	dublette	posts/skalenniveau1a/skalenniveau1a.rmd	gleicher Name		
+eda/skalenniveau1b.rmd	dublette	posts/skalenniveau1b/skalenniveau1b.rmd	gleicher Name		
+eda/skalenniveau2.rmd	importiert	posts/skalenniveau2/skalenniveau2.rmd		string	OK
+eda/skew-dyn1.rmd	dublette-intern	eda/corr-dyn1.rmd	identischer Fragetext in der Quelle		
+eda/stipro-beschreiben.rmd	importiert	posts/stipro-beschreiben/stipro-beschreiben.rmd		string	OK
+eda/streuung-histogramm.rmd	dublette	posts/streuung-histogramm/streuung-histogramm.rmd	gleicher Name		
+eda/summarise01.rmd	dublette	posts/summarise01/summarise01.rmd	gleicher Name		
+eda/summarise02.rmd	dublette	posts/summarise02/summarise02.rmd	gleicher Name		
+eda/summarise03.rmd	dublette	posts/summarise03/summarise03.rmd	gleicher Name		
+eda/summarise04.rmd	dublette	posts/summarise04/summarise04.rmd	gleicher Name		
+eda/summarise05.rmd	dublette	posts/summarise05/summarise05.rmd	gleicher Name		
+eda/summarise06.rmd	dublette	posts/summarise06/summarise06.rmd	gleicher Name		
+eda/tidydata1.rmd	dublette	posts/tidydata1/tidydata1.rmd	gleicher Name		
+eda/wrangle1.rmd	dublette	posts/wrangle1/wrangle1.rmd	gleicher Name		
+eda/wrangle10.rmd	dublette	posts/wrangle10/wrangle10.rmd	gleicher Name		
+eda/wrangle2.rmd	importiert	posts/wrangle2/wrangle2.rmd		schoice	OK
+eda/wrangle3.rmd	dublette	posts/wrangle3/wrangle3.rmd	gleicher Name		
+eda/wrangle4.rmd	dublette	posts/wrangle4/wrangle4.rmd	gleicher Name		
+eda/wrangle5.rmd	dublette	posts/wrangle5/wrangle5.rmd	gleicher Name		
+eda/wrangle6.rmd	importiert	posts/wrangle6/wrangle6.rmd		schoice	OK
+eda/wrangle7.rmd	dublette	posts/wrangle7/wrangle7.rmd	gleicher Name		
+eda/wrangle8.rmd	importiert	posts/wrangle8/wrangle8.rmd		schoice	OK
+eda/wrangle9.rmd	dublette	posts/wrangle9/wrangle9.rmd	gleicher Name		
+eda/zusammenhang-kategorial.rmd	importiert	posts/zusammenhang-kategorial/zusammenhang-kategorial.rmd		schoice	OK
+eda/zwert-berechnen.rmd	dublette	posts/zwert-berechnen/zwert-berechnen.rmd	gleicher Name		
+glm/bangladesh1.rmd	importiert	posts/bangladesh1/bangladesh1.rmd		?	"ERROR: konnte Funktion ""post_predict"" nicht finden"
+glm/bangladesh2.rmd	importiert	posts/bangladesh2/bangladesh2.rmd		string	OK
+glm/display-logist1.rmd	importiert	posts/display-logist1/display-logist1.rmd		string	OK
+glm/dyn/log-in-p.rmd	importiert	posts/log-in-p/log-in-p.rmd		cloze	OK
+glm/dyn/log-in-p2.rmd	importiert	posts/log-in-p2/log-in-p2.rmd		num	OK
+glm/dyn/post2-glm.rmd	importiert	posts/post2-glm/post2-glm.rmd		?	ERROR: Objekt 'd_path' nicht gefunden
+glm/glm-linear-transf-tidymodels.rmd	importiert	posts/glm-linear-transf-tidymodels/glm-linear-transf-tidymodels.rmd		?	ERROR: ✖ This metric doesn't use the `estimate` argument. ℹ Specify the columns without `estimate = `.
+glm/glm-linear-transf.rmd	importiert	posts/glm-linear-transf/glm-linear-transf.rmd		?	"ERROR: konnte Funktion ""stan_glm"" nicht finden"
+glm/logist-bayes-mtcars1.rmd	importiert	posts/logist-bayes-mtcars1/logist-bayes-mtcars1.rmd		cloze	OK
+glm/logist-bayes-mtcars2.rmd	importiert	posts/logist-bayes-mtcars2/logist-bayes-mtcars2.rmd		?	ERROR: ℹ In argument: `pi95 = quantile(`1`, prob = c(0.025, 0.975))`. Caused by error: ! `pi95` must be size 1, not 2. ℹ To return more or less than 1 row per group, use `reframe()`.
+glm/logist-bayes-mtcars3.rmd	importiert	posts/logist-bayes-mtcars3/logist-bayes-mtcars3.rmd		num	OK
+glm/logist-bayes-mtcars4.rmd	importiert	posts/logist-bayes-mtcars4/logist-bayes-mtcars4.rmd		?	ERROR: Objekt 'sol' nicht gefunden
+glm/logist-bayes-mtcars5.rmd	importiert	posts/logist-bayes-mtcars5/logist-bayes-mtcars5.rmd		cloze	OK
+glm/logist-plot1.rmd	importiert	posts/logist-plot1/logist-plot1.rmd		?	ERROR: es gibt kein Paket namens 'Ryacas0'
+hypothesen-testen/hyp-women-01.rmd	importiert	posts/hyp-women-01/hyp-women-01.rmd		num	OK
+hypothesen-testen/hyp-women-02.rmd	importiert	posts/hyp-women-02/hyp-women-02.rmd		schoice	PROBLEM: keine Optionen
+hypothesen-testen/hyp-women-03.rmd	importiert	posts/hyp-women-03/hyp-women-03.rmd		num	OK
+hypothesen-testen/hyp-women-04.rmd	importiert	posts/hyp-women-04/hyp-women-04.rmd		?	ERROR: Failed at retrieving data :( Please provide original model or data   through the `data` argument
+hypothesen-testen/hyp-women-05.rmd	importiert	posts/hyp-women-05/hyp-women-05.rmd		?	ERROR: ℹ In argument: `qs = quantile(value, probs = c(0.025, 0.975))`. Caused by error: ! `qs` must be size 1, not 2. ℹ To return more or less than 1 row per group, use `reframe()`.
+hypothesen-testen/hyp-women-06.rmd	importiert	posts/hyp-women-06/hyp-women-06.rmd		num	OK
+inferenz/anova-skalenniveau.rmd	dublette	posts/anova-skalenniveau-schoice/anova-skalenniveau-schoice.Rmd	gleicher Name		
+inferenz/dyn/ttest-aussagen.rmd	importiert	posts/ttest-aussagen/ttest-aussagen.rmd		schoice	OK
+inferenz/griech-buchstaben-inferenz.rmd	dublette	posts/griech-buchstaben-inferenz/griech-buchstaben-inferenz.rmd	gleicher Name		
+inferenz/inferenz-fuer-alle.rmd	dublette	posts/inferenz-fuer-alle/inferenz-fuer-alle.rmd	gleicher Name		
+inferenz/nullhyp-beispiel.rmd	dublette	posts/nullhyp-beispiel/nullhyp-beispiel.rmd	gleicher Name		
+inferenz/simu-p-wert.rmd	importiert	posts/simu-p-wert/simu-p-wert.rmd		string	OK
+inferenz/stichprobenziehen1.rmd	dublette	posts/stichprobenziehen1/stichprobenziehen1.rmd	gleicher Name		
+inferenz/stiprovert-life-exp.rmd	importiert	posts/stiprovert-life-exp/stiprovert-life-exp.rmd		?	"ERROR: konnte Funktion ""read_xlsx"" nicht finden"
+inferenz/ttest-skalenniveau.rmd	dublette	posts/ttest-skalenniveau/ttest-skalenniveau.rmd	gleicher Name		
+inferenz/vorhersageintervall1.rmd	dublette	posts/vorhersageintervall1/vorhersageintervall1.rmd	gleicher Name		
+kausal/buggy/_kausal11.rmd	importiert	posts_buggy/_kausal11/_kausal11.rmd		?	ERROR: `string` must be a vector, not a <dagitty.sets> object. ✖ Detected incompatible scalar S3 list. To be treated as a vector, the object must explicitly inherit from <list> or should implement a `vec_proxy()` method. Class: <dagitty.sets>. ℹ If this object comes from a package, please report this error to the package author. ℹ Read our FAQ about creating vector types (`?vctrs::howto_faq_fix_scalar_type_error`) to learn more.
+kausal/buggy/kausal11.rmd	dublette-intern	kausal/buggy/_kausal11.rmd	gleicher Name in der Quelle		
+kausal/buggy/kausal12.rmd	dublette	posts/kausal24/kausal24.rmd	Fragetext 99% ähnlich		
+kausal/dyn/bsp-korr-kaus.rmd	importiert	posts/bsp-korr-kaus/bsp-korr-kaus.rmd		string	OK
+kausal/dyn/kausal13.rmd	importiert	posts/kausal13/kausal13.rmd		schoice	OK
+kausal/dyn/randomdag1.rmd	dublette	posts/randomdag1/randomdag1.buggy	gleiche Aufgabe, in 06 als .buggy abgelegt		
+kausal/kausal-bedrooms1.rmd	dublette	posts/kausal-bedrooms1/kausal-bedrooms1.rmd	gleicher Name		
+kausal/kausal-einfach.rmd	dublette	posts/kausal-einfach/kausal-einfach.rmd	gleicher Name		
+kausal/kausal-simu1.rmd	importiert	posts/kausal-simu1/kausal-simu1.rmd		string	OK
+kausal/kausal.rmd	dublette	posts/kausal/kausal.qmd	gleicher Name		
+kausal/kausal01.rmd	dublette	posts/kausal01/kausal01.rmd	gleicher Name		
+kausal/kausal02.rmd	dublette	posts/kausal02/kausal02.rmd	gleicher Name		
+kausal/kausal03.rmd	dublette	posts/kausal03/kausal03.rmd	gleicher Name		
+kausal/kausal04.rmd	dublette	posts/kausal04/kausal04.rmd	gleicher Name		
+kausal/kausal05.rmd	dublette	posts/kausal05/kausal05.rmd	gleicher Name		
+kausal/kausal06.rmd	dublette	posts/kausal06/kausal06.rmd	gleicher Name		
+kausal/kausal07.rmd	dublette	posts/kausal07/kausal07.rmd	gleicher Name		
+kausal/kausal08.rmd	dublette	posts/kausal08/kausal08.rmd	gleicher Name		
+kausal/kausal09.rmd	dublette	posts/kausal09/kausal09.rmd	gleicher Name		
+kausal/kausal10.rmd	dublette	posts/kausal10/kausal10.rmd	gleicher Name		
+kausal/kausal20.rmd	dublette	posts/kausal20/kausal20.rmd	gleicher Name		
+kausal/kausal21.rmd	dublette	posts/kausal21/kausal21.rmd	gleicher Name		
+kausal/kausal22.rmd	dublette	posts/kausal22/kausal22.rmd	gleicher Name		
+kausal/kausal23.rmd	dublette	posts/kausal23/kausal23.rmd	gleicher Name		
+kausal/kausal24.rmd	dublette	posts/kausal24/kausal28.rmd	gleicher Name		
+kausal/kausal25.rmd	dublette	posts/kausal25/kausal25.rmd	gleicher Name		
+kausal/kausal26.rmd	dublette	posts/kausal26/kausal26.rmd	gleicher Name		
+kausal/kausal27.rmd	dublette	posts/kausal27/kausal27.rmd	gleicher Name		
+kausal/kausal28.rmd	dublette	posts/kausal24/kausal28.rmd	gleicher Name		
+kausal/kausal29.rmd	dublette	posts/kausal29/kausal29.rmd	gleicher Name		
+kausal/kausal_corona_glatze.rmd	dublette	posts/kausal_corona_glatze/kausal_corona_glatze.rmd	gleicher Name		
+kausal/kausale-verben.rmd	dublette	posts/kausale-verben/kausale-verben.rmd	gleicher Name		
+kausal/mediterran-alk.rmd	dublette	posts/mediterran-alk/mediterran-alk.rmd	gleicher Name		
+projectmgt/targets-multiple-data-files.rmd	dublette	posts/targets-multiple-data-files/targets-multiple-data-files.rmd	gleicher Name		
+r-prog/funs-is-binary.rmd	importiert	posts/funs-is-binary/funs-is-binary.rmd		string	OK
+r-prog/funs-na-n.rmd	importiert	posts/funs-na-n/funs-na-n.rmd		string	OK
+r-prog/ggplot-prog.rmd	importiert	posts/ggplot-prog/ggplot-prog.rmd		string	OK
+r-prog/purrr-map05.rmd	dublette	posts/purrr-map05/purrr-map05.rmd	gleicher Name		
+r-prog/purrr-map06.rmd	dublette	posts/purrr-map06/purrr-map06.rmd	gleicher Name		
+r/antijoin.rmd	importiert	posts/antijoin/antijoin.rmd		?	"ERROR: Cannot find the file(s): ""antijoin.png"""
+r/argumente.rmd	dublette	posts/argumente/argumente.rmd	gleicher Name		
+r/durch3-durch5.rmd	dublette	posts/durch3-durch5/durch3-durch5.rmd	gleicher Name		
+r/filter.rmd	importiert	posts/filter/filter.rmd		schoice	OK
+r/groupby1.rmd	importiert	posts/groupby1/groupby1.rmd		schoice	OK
+r/import-mtcars.rmd	dublette	posts/import-mtcars/import-mtcars.rmd	gleicher Name		
+r/logikpruefung1.rmd	dublette	posts/logikpruefung1/logikpruefung1.rmd	gleicher Name		
+r/logikpruefung2.rmd	dublette	posts/logikpruefung2/logikpruefung2.rmd	gleicher Name		
+r/na-per-col.rmd	dublette	posts/na-per-col/na-per-col.qmd	gleicher Name		
+r/options-print.rmd	dublette	posts/options-print/options-print.rmd	gleicher Name		
+r/pfad.rmd	dublette	posts/pfad/pfad.rmd	gleicher Name		
+r/purrr-map01.rmd	dublette	posts/purrr-map01/purrr-map01.rmd	gleicher Name		
+r/purrr-map02.rmd	dublette	posts/purrr-map02/purrr-map02.rmd	gleicher Name		
+r/purrr-map03.rmd	dublette	posts/purrr-map03/purrr-map03.rmd	gleicher Name		
+r/purrr-map04.rmd	dublette	posts/purrr-map04/purrr-map04.qmd	gleicher Name		
+r/repro1-sessioninfo.rmd	dublette	posts/repro1-sessioninfo/repro1-sessioninfo.rmd	gleicher Name		
+r/rmd-01.rmd	importiert	posts/rmd-01/rmd-01.rmd		schoice	OK
+r/rmd-02.rmd	importiert	posts/rmd-02/rmd-02.rmd		schoice	OK
+r/rmd-03.rmd	dublette-intern	r/rmd-02.rmd	identischer Fragetext in der Quelle		
+r/select.rmd	importiert	posts/select/select.rmd		schoice	OK
+r/summarize1.rmd	dublette-intern	r/groupby1.rmd	identischer Fragetext in der Quelle		
+r/there-is-no-package.rmd	dublette	posts/there-is-no-package/there-is-no-package.rmd	gleicher Name		
+r/typ-fehler-r-01.rmd	dublette	posts/typ-fehler-r-01/typ-fehler-r-01.rmd	gleicher Name		
+r/typ-fehler-r-02.rmd	dublette	posts/typ-fehler-r-02/typ-fehler-r-02.rmd	gleicher Name		
+r/typ-fehler-r-03.rmd	dublette	posts/typ-fehler-r-03/typ-fehler-r-03.rmd	gleicher Name		
+r/typ-fehler-r-04.rmd	dublette	posts/typ-fehler-r-04/typ-fehler-r-04.rmd	gleicher Name		
+r/typ-fehler-r-05.rmd	importiert	posts/typ-fehler-r-05/typ-fehler-r-05.rmd		string	OK
+r/typ-fehler-r-06.rmd	dublette	posts/typ-fehler-r-06a/typ-fehler-r-06a.rmd	Fragetext 93% ähnlich		
+r/typ-fehler-r-06a.rmd	dublette	posts/typ-fehler-r-06a/typ-fehler-r-06a.rmd	gleicher Name		
+r/typ-fehler-r-07.rmd	dublette	posts/typ-fehler-r-07/typ-fehler-r-07.qmd	gleicher Name		
+r/typ-fehler-r-08-name-clash.rmd	dublette	posts/typ-fehler-r-08-name-clash/typ-fehler-r-08-name-clash.qmd	gleicher Name		
+r/vektorindizieren.rmd	importiert	posts/vektorindizieren/vektorindizieren.rmd		string	OK
+r/wertberechnen.rmd	dublette	posts/wertberechnen/wertberechnen.rmd	gleicher Name		
+r/wertberechnen2.rmd	dublette	posts/wertberechnen2/wertberechnen2.rmd	gleicher Name		
+r/wertpruefen.rmd	dublette	posts/wertpruefen/wertpruefen.rmd	gleicher Name		
+r/wertzuweisen.rmd	dublette	posts/wertzuweisen/wertzuweisen.rmd	gleicher Name		
+r/wertzuweisen_mc.rmd	dublette	posts/wertzuweisen_mc/wertzuweisen_mc.rmd	gleicher Name		
+r/yaml.rmd	importiert	posts/yaml/yaml.rmd		schoice	OK
+rahmen/def-statistik01.rmd	dublette	posts/def-statistik01/def-statistik01.rmd	gleicher Name		
+rahmen/variation01.rmd	dublette	posts/variation01/variation01.rmd	gleicher Name		
+rahmen/variation02.rmd	dublette	posts/variation02/variation02.rmd	gleicher Name		
+rahmen/ziele-statistik.rmd	dublette	posts/ziele-statistik/ziele-statistik.rmd	gleicher Name		
+regression/adjustieren1.rmd	dublette	posts/adjustieren1/adjustieren1.rmd	gleicher Name		
+regression/adjustieren1a.rmd	dublette	posts/adjustieren1a/adjustieren1a.qmd	gleicher Name		
+regression/adjustieren2.rmd	dublette	posts/adjustieren2/adjustieren2.rmd	gleicher Name		
+regression/adjustieren2_var1.rmd	dublette	posts/adjustieren2_var1/adjustieren2_var1.qmd	gleicher Name		
+regression/adjustieren2a.rmd	dublette	posts/adjustieren2a/adjustieren2a.qmd	gleicher Name		
+regression/ames-kaggle1.rmd	dublette	posts/ames-kaggle1/ames-kaggle1.rmd	gleicher Name		
+regression/anova-als-regr.rmd	importiert	posts/anova-als-regr/anova-als-regr.rmd		?	ERROR: ℹ In argument: `stufen_von_cut = levels(cut)`. Caused by error: ! `stufen_von_cut` must be size 1, not 5. ℹ To return more or less than 1 row per group, use `reframe()`.
+regression/aussagen-einfache-regr.rmd	importiert	posts/aussagen-einfache-regr/aussagen-einfache-regr.rmd		schoice	OK
+regression/dyn/regression1a.rmd	dublette	posts/regression1a/regression1a.rmd	gleicher Name		
+regression/dyn/regression2.rmd	dublette	posts/regression2/regression2.rmd	gleicher Name		
+regression/dyn/rquadrat.rmd	importiert	posts/rquadrat/rquadrat.rmd		schoice	OK
+regression/dyn/ungewiss-arten-regr_var1.rmd	importiert	posts/ungewiss-arten-regr_var1/ungewiss-arten-regr_var1.rmd		num	OK
+regression/ims-kap-04-01.rmd	importiert	posts/ims-kap-04-01/ims-kap-04-01.rmd		schoice	OK
+regression/ims-kap-04-02.rmd	importiert	posts/ims-kap-04-02/ims-kap-04-02.rmd		schoice	OK
+regression/ims-kap-04-03.rmd	importiert	posts/ims-kap-04-03/ims-kap-04-03.rmd		schoice	OK
+regression/ims-kap-04-04.rmd	importiert	posts/ims-kap-04-04/ims-kap-04-04.rmd		schoice	OK
+regression/ims-kap-04-05.rmd	importiert	posts/ims-kap-04-05/ims-kap-04-05.rmd		schoice	OK
+regression/ims-kap-04-06.rmd	importiert	posts/ims-kap-04-06/ims-kap-04-06.rmd		schoice	OK
+regression/interaktionseffekt1.rmd	dublette	posts/interaktionseffekt1/interaktionseffekt1.rmd	gleicher Name		
+regression/interpret-koeff-lm.rmd	dublette	posts/interpret-koeff-lm/interpret-koeff-lm.rmd	gleicher Name		
+regression/interpret-koeff.rmd	dublette	posts/interpret-koeff/interpret-koeff.rmd	gleicher Name		
+regression/korr-als-regr.rmd	dublette	posts/korr-als-regr/korr-als-regr.rmd	gleicher Name		
+regression/linearitaet.rmd	importiert	posts/linearitaet/linearitaet.rmd		schoice	OK
+regression/linearitaet1a.rmd	dublette	posts/linearitaet1a/linearitaet1a.rmd	gleicher Name		
+regression/lm-mario1.rmd	dublette	posts/lm-mario1/lm-mario1.rmd	gleicher Name		
+regression/lm-mario2.rmd	dublette	posts/lm-mario2/lm-mario2.rmd	gleicher Name		
+regression/lm-mario3.rmd	dublette	posts/lm-mario3/lm-mario3.rmd	gleicher Name		
+regression/lm-standardfehler.rmd	dublette	posts/lm-standardfehler/lm-standardfehler.rmd	gleicher Name		
+regression/lm1.rmd	dublette	posts/lm1/lm1.rmd	gleicher Name		
+regression/log-y-regr1.rmd	dublette	posts/log-y-regr1/log-y-regr1.rmd	gleicher Name		
+regression/log-y-regr2.rmd	dublette	posts/log-y-regr2/log-y-regr2.rmd	gleicher Name		
+regression/log-y-regr3.rmd	dublette	posts/log-y-regr3/log-y-regr3.rmd	gleicher Name		
+regression/logression1.rmd	importiert	posts/logression1/logression1.rmd		?	ERROR: length of exsolution (= 6) and questionlist (= 5) does not match in '_home_sebastian-sauer_GDrive_3X_Lehre_36_Lehre-Entwicklung_06_aufgabensammlung_posts_logression1_logression1'
+regression/modellguete-testset.rmd	dublette	posts/modellguete-testset/modellguete-testset.rmd	gleicher Name		
+regression/mtcars-regr01.rmd	dublette	posts/mtcars-regr01/mtcars-regr01.rmd	gleicher Name		
+regression/nichtlineare-regr1.rmd	dublette	posts/nichtlineare-regr1/nichtlineare-regr1.rmd	gleicher Name		
+regression/nom-praed-in-regression.rmd	importiert	posts/nom-praed-in-regression/nom-praed-in-regression.rmd		schoice	OK
+regression/penguins-regr02.rmd	dublette	posts/penguins-regr02/penguins-regr02.rmd	gleicher Name		
+regression/penguins-regr02a.rmd	dublette	posts/penguins-regr02a/index.rmd	gleicher Name		
+regression/penguins-regr03.rmd	importiert	posts/penguins-regr03/penguins-regr03.rmd		?	ERROR: Failed at retrieving data :( Please provide original model or data   through the `data` argument
+regression/penguins-stan-01.rmd	dublette	posts/penguins-stan-01/penguins-stan-01.rmd	gleicher Name		
+regression/penguins-stan-02.rmd	dublette	posts/penguins-stan-02/penguins-stan-02.rmd	gleicher Name		
+regression/penguins-stan-03.rmd	dublette	posts/penguins-stan-03/penguins-stan-03.rmd	gleicher Name		
+regression/penguins-stan-04.rmd	dublette	posts/penguins-stan-04/penguins-stan-04.rmd	gleicher Name		
+regression/penguins-stan-05.rmd	dublette	posts/penguins-stan-05/penguins-stan-05.rmd	gleicher Name		
+regression/prädiktoren-zentrieren.rmd	importiert	posts/prädiktoren-zentrieren/prädiktoren-zentrieren.rmd		?	ERROR: no exsolution specified
+regression/punktschaetzer-reicht-nicht.rmd	dublette	posts/punktschaetzer-reicht-nicht/punktschaetzer-reicht-nicht.rmd	gleicher Name		
+regression/punktschaetzer-reicht-nicht2.rmd	importiert	posts/punktschaetzer-reicht-nicht2/punktschaetzer-reicht-nicht2.rmd		string	OK
+regression/regr-bayes-interpret.rmd	dublette	posts/regr-bayes-interpret/regr-bayes-interpret.rmd	gleicher Name		
+regression/regr-bayes-interpret02.rmd	dublette	posts/regr-bayes-interpret02/regr-bayes-interpret02.rmd	gleicher Name		
+regression/regr-bayes-interpret03.rmd	dublette	posts/regr-bayes-interpret03/regr-bayes-interpret03.rmd	gleicher Name		
+regression/regression.rmd	importiert	posts/regression/regression.rmd		num	OK
+regression/regression1.rmd	dublette	posts/regression1/regression1.rmd	gleicher Name		
+regression/regression1b.rmd	dublette	posts/regression1b/regression1b.rmd	gleicher Name		
+regression/regression3.rmd	dublette	posts/regression3/regression3.rmd	gleicher Name		
+regression/regression4.rmd	dublette	posts/regression4/regression4.rmd	gleicher Name		
+regression/regression5.rmd	dublette	posts/regression5/regression5.rmd	gleicher Name		
+regression/regression6.rmd	dublette	posts/regression6/regression6.rmd	gleicher Name		
+regression/regression6a.rmd	importiert	posts/regression6a/regression6a.rmd		schoice	OK
+regression/regressionbegriff.rmd	importiert	posts/regressionbegriff/regressionbegriff.rmd		string	OK
+regression/ttest-als-regr.rmd	dublette	posts/ttest-als-regr/ttest-als-regr.rmd	gleicher Name		
+regression/ttest-als-regr_var1.rmd	importiert	posts/ttest-als-regr_var1/ttest-als-regr_var1.rmd		cloze	OK
+regression/ttest-als-regr_var2.rmd	importiert	posts/ttest-als-regr_var2/ttest-als-regr_var2.rmd		string	OK
+regression/umrechnung-r-b.rmd	importiert	posts/umrechnung-r-b/umrechnung-r-b.rmd		num	OK
+regression/ungewiss-arten-regr.rmd	dublette	posts/ungewiss-arten-regr/ungewiss-arten-regr.rmd	gleicher Name		
+regression/within-design-analysis1.rmd	dublette	posts/within-design-analysis1/within-design-analysis1.rmd	gleicher Name		
+regression/within-design-analysis2.rmd	importiert	posts/within-design-analysis2/within-design-analysis2.rmd		?	ERROR: Objekt 't2mt1' nicht gefunden
+statistical-learning/bike01.rmd	dublette	posts/bike01/bike01.rmd	gleicher Name		
+statistical-learning/bike02.rmd	dublette	posts/bike02/bike02.rmd	gleicher Name		
+statistical-learning/bike03.rmd	dublette	posts/bike03/bike03.rmd	gleicher Name		
+statistical-learning/bike04.rmd	dublette	posts/bike04/bike04.rmd	gleicher Name		
+statistical-learning/boosting1.rmd	dublette	posts/boosting1/boosting1.rmd	gleicher Name		
+statistical-learning/boosting2.rmd	dublette	posts/boosting2/boosting2.rmd	gleicher Name		
+statistical-learning/bootstrap.rmd	dublette	posts/bootstrap/bootstrap.rmd	gleicher Name		
+statistical-learning/bootstrap1.rmd	dublette	posts/bootstrap1/bootstrap1.rmd	gleicher Name		
+statistical-learning/breiman.rmd	dublette	posts/breiman/breiman.rmd	gleicher Name		
+statistical-learning/cluster01.rmd	dublette	posts/cluster01/cluster01.rmd	gleicher Name		
+statistical-learning/cluster02.rmd	dublette	posts/cluster02/cluster02.rmd	gleicher Name		
+statistical-learning/cv1.rmd	dublette	posts/cv1/cv1.rmd	gleicher Name		
+statistical-learning/diamonds-tidymodels01.rmd	dublette	posts/diamonds-tidymodels01/diamonds-tidymodels01.rmd	gleicher Name		
+statistical-learning/draft/tidymodels-ames-06.rmd	dublette	posts/tidymodels-penguins01/tidymodels-penguins01.qmd	Fragetext 92% ähnlich		
+statistical-learning/draft/wf_set01.rmd	ausgelassen		Entwurf (draft-Ordner)		
+statistical-learning/ds-quiz.rmd	dublette	posts/ds-quiz/ds-quiz.rmd	gleicher Name		
+statistical-learning/ds-quiz2.rmd	dublette	posts/ds-quiz2/ds-quiz2.rmd	gleicher Name		
+statistical-learning/flex-vs-nichtflex-methode.rmd	dublette	posts/flex-vs-nichtflex-methode/flex-vs-nichtflex-methode.rmd	gleicher Name		
+statistical-learning/flex-vs-nichtflex-methode2.rmd	dublette	posts/flex-vs-nichtflex-methode2/flex-vs-nichtflex-methode2.rmd	gleicher Name		
+statistical-learning/flex-vs-nichtflex-methode3.rmd	dublette	posts/flex-vs-nichtflex-methode3/flex-vs-nichtflex-methode3.rmd	gleicher Name		
+statistical-learning/gini-plot.rmd	dublette	posts/gini-plot/gini-plot.rmd	gleicher Name		
+statistical-learning/knn-ames01.rmd	dublette	posts/knn-ames01/knn-ames01.qmd	gleicher Name		
+statistical-learning/mse.rmd	dublette	posts/mse/mse.rmd	gleicher Name		
+statistical-learning/n-se.rmd	dublette	posts/n-se/n-se.rmd	gleicher Name		
+statistical-learning/nyc_casestudy.rmd	dublette	posts/nyc_casestudy/nyc_casestudy.rmd	gleicher Name		
+statistical-learning/ols-minimierung.rmd	dublette	posts/ols-minimierung/ols-minimierung.rmd	gleicher Name		
+statistical-learning/pca.rmd	dublette	posts/pca/pca.rmd	gleicher Name		
+statistical-learning/pca1.rmd	dublette	posts/pca1/pca1.rmd	gleicher Name		
+statistical-learning/predictioncontest1.rmd	dublette	posts/predictioncontest1/predictioncontest1.rmd	gleicher Name		
+statistical-learning/regr-tree01.rmd	dublette	posts/regr-tree01/regr-tree01.rmd	gleicher Name		
+statistical-learning/regr-tree02.rmd	dublette	posts/regr-tree02/regr-tree02.rmd	gleicher Name		
+statistical-learning/regr-tree03.rmd	dublette	posts/regr-tree03/regr-tree03.rmd	gleicher Name		
+statistical-learning/rf-finalize.rmd	dublette	posts/rf-finalize/rf-finalize.rmd	gleicher Name		
+statistical-learning/rf-finalize2.rmd	dublette	posts/rf-finalize2/rf-finalize2.rmd	gleicher Name		
+statistical-learning/rf-finalize3.rmd	dublette	posts/rf-finalize3/rf-finalize3.rmd	gleicher Name		
+statistical-learning/rf-usemodels.rmd	dublette	posts/rf-usemodels/rf-usemodels.rmd	gleicher Name		
+statistical-learning/shrinkage1.rmd	dublette	posts/shrinkage1/shrinkage1.rmd	gleicher Name		
+statistical-learning/smape.rmd	dublette	posts/smape/smape.rmd	gleicher Name		
+statistical-learning/step-dummy.rmd	dublette	posts/step-dummy/step-dummy.rmd	gleicher Name		
+statistical-learning/supervisedlearning.rmd	dublette	posts/supervisedlearning/supervisedlearning.rmd	gleicher Name		
+statistical-learning/szenario-charakterisieren1.rmd	dublette	posts/szenario-charakterisieren1/szenario-charakterisieren1.rmd	gleicher Name		
+statistical-learning/tengku-hanis01.rmd	dublette	posts/tengku-hanis01/tengku-hanis01.rmd	gleicher Name		
+statistical-learning/test-mse1.rmd	dublette	posts/test-mse1/test-mse1.rmd	gleicher Name		
+statistical-learning/test-mse2.rmd	dublette	posts/test-mse2/test-mse2.rmd	gleicher Name		
+statistical-learning/tidymodels-ames-01.rmd	dublette	posts/tidymodels-ames-01/tidymodels-ames-01.qmd	gleicher Name		
+statistical-learning/tidymodels-ames-02.rmd	dublette	posts/tidymodels-ames-02/tidymodels-ames-02.qmd	gleicher Name		
+statistical-learning/tidymodels-ames-03.rmd	dublette	posts/tidymodels-ames-03/tidymodels-ames-03.qmd	gleicher Name		
+statistical-learning/tidymodels-ames-04.rmd	dublette	posts/tidymodels-ames-04/tidymodels-ames-04.qmd	gleicher Name		
+statistical-learning/tidymodels-ames-05.rmd	dublette	posts/tidymodels-ames-05/tidymodels-ames-05.qmd	gleicher Name		
+statistical-learning/tidymodels-ames-06-boost.qmd	dublette	posts/tidymodels-ames-05/tidymodels-ames-05.qmd	Fragetext 92% ähnlich		
+statistical-learning/tidymodels-error1.rmd	dublette	posts/tidymodels-error1/tidymodels-error1.qmd	gleicher Name		
+statistical-learning/tidymodels-lasso.rmd	dublette	posts/tidymodels-lasso/tidymodels-lasso.qmd	gleicher Name		
+statistical-learning/tidymodels-lasso2.rmd	dublette	posts/tidymodels-lasso2/tidymodels-lasso2.qmd	gleicher Name		
+statistical-learning/tidymodels-lasso3.rmd	dublette	posts/tidymodels-lasso3/tidymodels-lasso3.qmd	gleicher Name		
+statistical-learning/tidymodels-penguins01.rmd	dublette	posts/tidymodels-penguins01/tidymodels-penguins01.qmd	gleicher Name		
+statistical-learning/tidymodels-penguins02.rmd	dublette	posts/tidymodels-penguins02/tidymodels-penguins02.rmd	gleicher Name		
+statistical-learning/tidymodels-penguins03.rmd	dublette	posts/tidymodels-penguins03/tidymodels-penguins03.rmd	gleicher Name		
+statistical-learning/tidymodels-penguins04.rmd	dublette	posts/tidymodels-penguins04/tidymodels-penguins04.rmd	gleicher Name		
+statistical-learning/tidymodels-penguins05.rmd	dublette	posts/tidymodels-penguins05/tidymodels-penguins05.rmd	gleicher Name		
+statistical-learning/tidymodels-penguins06.rmd	dublette	posts/tidymodels-penguins06/tidymodels-penguins06.qmd	gleicher Name		
+statistical-learning/tidymodels-penguins07.rmd	dublette	posts/tidymodels-penguins07/tidymodels-penguins07.qmd	gleicher Name		
+statistical-learning/tidymodels-poly01.rmd	dublette	posts/tidymodels-poly01/tidymodels-poly01.rmd	gleicher Name		
+statistical-learning/tidymodels-poly02.rmd	dublette	posts/tidymodels-poly02/tidymodels-poly02.qmd	gleicher Name		
+statistical-learning/tidymodels-remove-na.rmd	dublette	posts/tidymodels-remove-na/tidymodels-remove-na.qmd	gleicher Name		
+statistical-learning/tidymodels-remove-na2.rmd	dublette	posts/tidymodels-remove-na2/tidymodels-remove-na2.qmd	gleicher Name		
+statistical-learning/tidymodels-simple1.rmd	importiert	posts/tidymodels-simple1/tidymodels-simple1.rmd		num	OK
+statistical-learning/tidymodels-simple2.rmd	importiert	posts/tidymodels-simple2/tidymodels-simple2.rmd		?	"ERROR: konnte Funktion ""exams__fmt"" nicht finden"
+statistical-learning/tidymodels-simple3.rmd	importiert	posts/tidymodels-simple3/tidymodels-simple3.rmd		?	ERROR: `x` seems to be outputted from the rstanarm package. ℹ Tidiers for mixed model output now live in broom.mixed.
+statistical-learning/tidymodels-simple4.rmd	importiert	posts/tidymodels-simple4/tidymodels-simple4.rmd		?	"ERROR: konnte Funktion ""exams__fmt"" nicht finden"
+statistical-learning/tidymodels-simple5.rmd	importiert	posts/tidymodels-simple5/tidymodels-simple5.rmd		?	ERROR: Objekt 'd2' nicht gefunden
+statistical-learning/tidymodels-tree1.rmd	dublette	posts/tidymodels-tree1/tidymodels-tree1.rmd	gleicher Name		
+statistical-learning/tidymodels-tree2.rmd	dublette	posts/tidymodels-tree2/tidymodels-tree2.rmd	gleicher Name		
+statistical-learning/tidymodels-tree3.rmd	dublette	posts/tidymodels-tree3/tidymodels-tree3.rmd	gleicher Name		
+statistical-learning/tidymodels-tree4.rmd	dublette	posts/tidymodels-tree4/tidymodels-tree4.rmd	gleicher Name		
+statistical-learning/tidymodels-tree5.rmd	dublette	posts/tidymodels-tree5/tidymodels-tree5.rmd	gleicher Name		
+statistical-learning/tidymodels-vorlage.rmd	dublette	posts/tidymodels-vorlage/tidymodels-vorlage.rmd	gleicher Name		
+statistical-learning/tidymodels-vorlage2.rmd	dublette	posts/tidymodels-vorlage2/tidymodels-vorlage2.qmd	gleicher Name		
+statistical-learning/tidymodels-vorlage3.rmd	dublette	posts/tidymodels-vorlage3/tidymodels-vorlage3.qmd	gleicher Name		
+statistical-learning/tidymodels01.rmd	importiert	posts/tidymodels01/tidymodels01.rmd		?	ERROR: Objekt 'sol' nicht gefunden
+statistical-learning/tidymodels1.rmd	dublette	posts/tidymodels1/tidymodels1.rmd	gleicher Name		
+statistical-learning/tidymodels2.rmd	dublette	posts/tidymodels2/tidymodels2.rmd	gleicher Name		
+statistical-learning/tidymodels3.rmd	dublette	posts/tidymodels3/tidymodels3.rmd	gleicher Name		
+statistical-learning/tidymodels_workflowset01.rmd	dublette	posts/tidymodels_workflowset01/tidymodels_workflowset01.qmd	gleicher Name		
+statistical-learning/tidytext.rmd	dublette	posts/tidytext/tidytext.qmd	gleicher Name		
+statistical-learning/titanic_casestudy.rmd	dublette	posts/titanic_casestudy/titanic_casestudy.rmd	gleicher Name		
+statistical-learning/tmdb01.rmd	dublette	posts/tmdb01/tmdb01.rmd	gleicher Name		
+statistical-learning/tmdb02.rmd	dublette	posts/tmdb02/tmdb02.qmd	gleicher Name		
+statistical-learning/tmdb03.rmd	dublette	posts/tmdb03/tmdb03.qmd	gleicher Name		
+statistical-learning/tmdb04.rmd	dublette	posts/tmdb04/tmdb04.qmd	gleicher Name		
+statistical-learning/tmdb05.rmd	dublette	posts/tmdb05/tmdb05.qmd	gleicher Name		
+statistical-learning/tmdb06.rmd	dublette	posts/tmdb06/tmdb06.rmd	gleicher Name		
+statistical-learning/tmdb07.rmd	dublette	posts/tmdb07/tmdb07.rmd	gleicher Name		
+statistical-learning/tmdb08.rmd	dublette	posts/tmdb08/tmdb08.rmd	gleicher Name		
+statistical-learning/wfsets_penguins01.rmd	dublette	posts/wfsets_penguins01/wfsets_penguins01.rmd	gleicher Name		
+statistical-learning/wfsets_penguins02.rmd	dublette	posts/wfsets_penguins02/wfsets_penguins02.rmd	gleicher Name		
+textmining/count-emoji-emo.rmd	dublette	posts/count-emoji-emo/count-emoji-emo.qmd	gleicher Name		
+textmining/count-emojis.qmd	dublette	posts/count-emojis/count-emojis.qmd	gleicher Name		
+textmining/count-lexicon.rmd	dublette	posts/count-lexicon/count-lexicon.qmd	gleicher Name		
+textmining/count-words01.qmd	dublette	posts/count-words01/count-words01.qmd	gleicher Name		
+textmining/emojis1.qmd	dublette	posts/emojis1/emojis1.qmd	gleicher Name		
+textmining/germeval-senti01.qmd	dublette	posts/germeval-senti01/germeval-senti01.qmd	gleicher Name		
+textmining/germeval-textfeatures01.qmd	dublette	posts_buggy/germeval-textfeatures01/germeval-textfeatures01.qmd	gleicher Name		
+textmining/germeval01-textfeatures.qmd	dublette	posts_buggy/germeval01-textfeatures/germeval01-textfeatures.qmd	gleicher Name		
+textmining/germeval02.qmd	dublette	posts/germeval02/germeval02.qmd	gleicher Name		
+textmining/germeval03.qmd	dublette	posts_buggy/germeval03/germeval03.qmd	gleicher Name		
+textmining/germeval04.qmd	dublette	posts_buggy/germeval04/germeval04.qmd	gleicher Name		
+textmining/germeval05.qmd	dublette	posts/germeval05/germeval05.qmd	gleicher Name		
+textmining/germeval06.qmd	dublette	posts/germeval06/germeval06.qmd	gleicher Name		
+textmining/germeval07.qmd	dublette	posts/germeval07/germeval07.qmd	gleicher Name		
+textmining/germeval08-extract-spacy.qmd	dublette	posts/germeval08-extract-spacy/germeval08-extract-spacy.qmd	gleicher Name		
+textmining/germeval08-schimpf.qmd	dublette	posts/germeval08-schimpf/germeval08-schimpf.qmd	gleicher Name		
+textmining/germeval09-tfidf.qmd	dublette	posts/germeval09-tfidf/germeval09-tfidf.qmd	gleicher Name		
+textmining/germeval10-wordvec-rf.qmd	dublette	posts/germeval10-wordvec-rf/germeval10-wordvec-rf.qmd	gleicher Name		
+textmining/movie-sentiment1.rmd	dublette	posts/movie-sentiment1/movie-sentiment1.qmd	gleicher Name		
+textmining/regex-insert-char.rmd	dublette	posts/regex-insert-char/regex-insert-char.rmd	gleicher Name		
+textmining/regex01.qmd	dublette	posts/regex01/regex01.qmd	gleicher Name		
+textmining/regex02.qmd	dublette	posts/regex02/regex02.qmd	gleicher Name		
+textmining/regex03.rmd	dublette	posts/regex03/regex03.qmd	gleicher Name		
+textmining/sentiws2.qmd	dublette	posts/sentiws2/sentiws2.qmd	gleicher Name		
+textmining/twitter01.rmd	dublette	posts_buggy/twitter01/twitter01.rmd	gleicher Name		
+textmining/twitter02.rmd	dublette	posts_buggy/twitter02/twitter02.qmd	gleicher Name		
+textmining/twitter03.rmd	dublette	posts_buggy/twitter03/twitter03.qmd	gleicher Name		
+textmining/twitter04.rmd	dublette	posts_buggy/twitter04/twitter04.qmd	gleicher Name		
+textmining/twitter05.rmd	dublette	posts_buggy/twitter05/twitter05.qmd	gleicher Name		
+textmining/twitter06.rmd	dublette	posts_buggy/twitter06/twitter06.rmd	gleicher Name		
+textmining/twitter07.rmd	dublette	posts_buggy/twitter07/twitter07.rmd	gleicher Name		
+textmining/twitter08.rmd	importiert	posts/twitter08/twitter08.rmd		?	ERROR: es gibt kein Paket namens 'academictwitteR'
+textmining/zipf1.rmd	importiert	posts/zipf1/zipf1.rmd		schoice	OK
+versuchsdesign/dag-graph.rmd	dublette	posts/dag-graph/dag-graph.qmd	gleicher Name		
+versuchsdesign/praesi-versuchsdesign.rmd	importiert	posts/praesi-versuchsdesign/praesi-versuchsdesign.rmd		string	OK
+versuchsdesign/var-vs-stufe.rmd	dublette	posts/var-vs-stufe/var-vs-stufe.rmd	gleicher Name		
+verteilungen/dyn/verteilungen1.rmd	importiert	posts/verteilungen1/verteilungen1.rmd		schoice	OK
+verteilungen/dyn/zwert1.rmd	importiert	posts/zwert1/zwert1.rmd		schoice	OK
+verteilungen/normalverteilung1.rmd	importiert	posts/normalverteilung1/normalverteilung1.rmd		?	ERROR: Objekt 'punkte' nicht gefunden
+verteilungen/normvert-perzentil2.rmd	importiert	posts/normvert-perzentil2/normvert-perzentil2.rmd		?	ERROR: Objekt 'mu' nicht gefunden
+verteilungen/normvert-perzentil3.rmd	importiert	posts/normvert-perzentil3/normvert-perzentil3.rmd		schoice	OK
+verteilungen/normvert-perzentile.rmd	importiert	posts/normvert-perzentile/normvert-perzentile.rmd		?	ERROR: Objekt 'z_quantile' nicht gefunden
+verteilungen/normvert-prozentwert.rmd	importiert	posts/normvert-prozentwert/normvert-prozentwert.rmd		schoice	OK
+verteilungen/normvert-quantile.rmd	importiert	posts/normvert-quantile/normvert-quantile.rmd		?	"ERROR: konnte Funktion ""%>%"" nicht finden"
+verteilungen/verteilungen-quiz/verteilungen-quiz-01.rmd	dublette	posts/verteilungen-quiz-01/verteilungen-quiz-01.qmd	gleicher Name		
+verteilungen/verteilungen-quiz/verteilungen-quiz-02.rmd	dublette	posts/verteilungen-quiz-02/verteilungen-quiz-02.rmd	gleicher Name		
+verteilungen/verteilungen-quiz/verteilungen-quiz-03.rmd	dublette	posts/verteilungen-quiz-03/verteilungen-quiz-03.rmd	gleicher Name		
+verteilungen/verteilungen-quiz/verteilungen-quiz-04.rmd	dublette	posts/verteilungen-quiz-04/verteilungen-quiz-04.rmd	gleicher Name		
+verteilungen/verteilungen-quiz/verteilungen-quiz-05.rmd	dublette	posts/verteilungen-quiz-05/verteilungen-quiz-05.rmd	gleicher Name		
+verteilungen/verteilungen-quiz/verteilungen-quiz-06.rmd	dublette	posts/verteilungen-quiz-06/verteilungen-quiz-06.rmd	gleicher Name		
+verteilungen/verteilungen-quiz/verteilungen-quiz-07.rmd	dublette	posts/verteilungen-quiz-07/verteilungen-quiz-07.rmd	gleicher Name		
+verteilungen/verteilungen-quiz/verteilungen-quiz-08.rmd	dublette	posts/verteilungen-quiz-08/verteilungen-quiz-08.rmd	gleicher Name		
+verteilungen/verteilungen-quiz/verteilungen-quiz-09.rmd	dublette	posts/verteilungen-quiz-09/verteilungen-quiz-09.rmd	gleicher Name		
+verteilungen/verteilungen-quiz/verteilungen-quiz-10.rmd	dublette	posts/verteilungen-quiz-10/verteilungen-quiz-10.rmd	gleicher Name		
+verteilungen/verteilungen-quiz/verteilungen-quiz-11.rmd	dublette	posts/verteilungen-quiz-11/verteilungen-quiz-11.rmd	gleicher Name		
+verteilungen/verteilungen-quiz/verteilungen-quiz-12.rmd	dublette	posts/verteilungen-quiz-12/verteilungen-quiz-12.rmd	gleicher Name		
+verteilungen/verteilungen-quiz/verteilungen-quiz-13.rmd	dublette	posts/verteilungen-quiz-13/verteilungen-quiz-13.rmd	gleicher Name		
+verteilungen/verteilungen-quiz/verteilungen-quiz-14.rmd	dublette	posts/verteilungen-quiz-14/verteilungen-quiz-14.rmd	gleicher Name		
+verteilungen/verteilungen-quiz/verteilungen-quiz-15.rmd	dublette	posts/verteilungen-quiz-15/verteilungen-quiz-15.rmd	gleicher Name		
+verteilungen/verteilungen-quiz/verteilungen-quiz-16.rmd	dublette	posts/verteilungen-quiz-16/verteilungen-quiz-16.rmd	gleicher Name		
+verteilungen/verteilungen-quiz/verteilungen-quiz-17.rmd	dublette	posts/verteilungen-quiz-17/verteilungen-quiz-17.rmd	gleicher Name		
+verteilungen/verteilungen-quiz/verteilungen-quiz-18.rmd	dublette	posts/verteilungen-quiz-18/verteilungen-quiz-18.rmd	gleicher Name		
+verteilungen/verteilungen1a.rmd	dublette-intern	verteilungen/dyn/verteilungen1.rmd	identischer Fragetext in der Quelle		
+verteilungen/verteilungen2a.rmd	importiert	posts/verteilungen2a/verteilungen2a.rmd		schoice	OK
+verteilungen/z-wert-nicht-norm-verteilt.rmd	importiert	posts/z-wert-nicht-norm-verteilt/z-wert-nicht-norm-verteilt.rmd		schoice	OK
+verteilungen/zwert1a.rmd	dublette-intern	verteilungen/dyn/zwert1.rmd	identischer Fragetext in der Quelle		
+verteilungen/zwert2a.rmd	importiert	posts/zwert2a/zwert2a.rmd		schoice	OK
+vis/anim01.rmd	dublette	posts/anim01/anim01.rmd	gleicher Name		
+vis/anim02.rmd	dublette	posts/anim02/anim02.rmd	gleicher Name		
+vis/anim03.rmd	dublette	posts/anim03/anim03.qmd	gleicher Name		
+vis/anim04.rmd	dublette	posts/anim03/anim03.qmd	Fragetext 98% ähnlich		
+vis/choroplethen.rmd	importiert	posts/choroplethen/choroplethen.rmd		?	ERROR: es gibt kein Paket namens 'rnaturalearth'
+vis/corona-dashboard.rmd	importiert	posts/corona-dashboard/corona-dashboard.rmd		?	ERROR: file.exists(full_img_path) ist nicht TRUE
+vis/corrplot.rmd	importiert	posts/corrplot/corrplot.rmd		?	"ERROR: Cannot find the file(s): ""corrplot.png"""
+vis/dashboard-tools.rmd	importiert	posts/dashboard-tools/dashboard-tools.rmd		string	OK
+vis/dashboards.rmd	importiert	posts/dashboards/dashboards.rmd		schoice	OK
+vis/datenvis-moderndive-1.rmd	importiert	posts/datenvis-moderndive-1/datenvis-moderndive-1.rmd		string	OK
+vis/datenvis-moderndive-barplot1.rmd	importiert	posts/datenvis-moderndive-barplot1/datenvis-moderndive-barplot1.rmd		string	OK
+vis/datenvis-moderndive-boxplot1.rmd	importiert	posts/datenvis-moderndive-boxplot1/datenvis-moderndive-boxplot1.rmd		string	OK
+vis/datenvis-moderndive-histogramm1.rmd	importiert	posts/datenvis-moderndive-histogramm1/datenvis-moderndive-histogramm1.rmd		string	OK
+vis/datenvis-moderndive-scatterplot1.rmd	importiert	posts/datenvis-moderndive-scatterplot1/datenvis-moderndive-scatterplot1.rmd		string	OK
+vis/datenvis-moderndive-scatterplot2.rmd	importiert	posts/datenvis-moderndive-scatterplot2/datenvis-moderndive-scatterplot2.rmd		?	ERROR: Objekt 'gapminder' nicht gefunden
+vis/diamonds-histogram-rcode.rmd	importiert	posts/diamonds-histogram-rcode/diamonds-histogram-rcode.rmd		schoice	OK
+vis/diamonds-histogram.rmd	dublette	posts/diamonds-histogram/diamonds-histogram.rmd	gleicher Name		
+vis/diamonds-histogramm-vergleich.rmd	dublette	posts/diamonds-histogramm-vergleich/diamonds-histogramm-vergleich.rmd	gleicher Name		
+vis/diamonds-histogramm-vergleich2.rmd	dublette	posts/diamonds-histogramm-vergleich2/diamonds-histogramm-vergleich2.rmd	gleicher Name		
+vis/flights-geom_point-geom-lm.rmd	importiert	posts/flights-geom_point-geom-lm/flights-geom_point-geom-lm.rmd		schoice	OK
+vis/flights-geovis.rmd	importiert	posts/flights-geovis/flights-geovis.rmd		mchoice	OK
+vis/geom_point-geom-lm.rmd	dublette-intern	vis/flights-geom_point-geom-lm.rmd	identischer Fragetext in der Quelle		
+vis/ggstatsplot01.rmd	importiert	posts/ggstatsplot01/ggstatsplot01.rmd		string	OK
+vis/heatmap-mosaic.rmd	importiert	posts/heatmap-mosaic/heatmap-mosaic.rmd		schoice	OK
+vis/heatmap.rmd	importiert	posts/heatmap/heatmap.rmd		schoice	OK
+vis/histogramm-in-boxplot.rmd	dublette	posts/histogramm-in-boxplot/histogramm-in-boxplot.rmd	gleicher Name		
+vis/max-corr1.rmd	dublette	posts/max-corr1/max-corr1.rmd	gleicher Name		
+vis/max-corr2.rmd	dublette	posts/max-corr2/max-corr2.rmd	gleicher Name		
+vis/min-corr1.rmd	dublette	posts/min-corr1/min-corr1.rmd	gleicher Name		
+vis/movies-vis1.rmd	dublette	posts/movies-vis1/movies-vis1.rmd	gleicher Name		
+vis/movies-vis2.rmd	dublette	posts/movies-vis2/movies-vis2.rmd	gleicher Name		
+vis/n-vars-diagram.rmd	dublette	posts/n-vars-diagram/n-vars-diagram.rmd	gleicher Name		
+vis/postvert-vis-zwielicht.rmd	dublette	posts/postvert-vis-zwielicht/postvert-vis-zwielicht.qmd	gleicher Name		
+vis/ridges-vergleichen.rmd	dublette	posts/ridges-vergleichen/ridges-vergleichen.rmd	gleicher Name		
+vis/ridges-vergleichen2.rmd	importiert	posts/ridges-vergleichen2/ridges-vergleichen2.rmd		schoice	OK
+vis/streudiagramm.rmd	dublette	posts/streudiagramm/streudiagramm.rmd	gleicher Name		
+vis/vis-gapminder.rmd	dublette	posts/vis-gapminder/vis-gapminder.rmd	gleicher Name		
+vis/vis-mariokart-variab.rmd	dublette	posts/vis-mariokart-variab/vis-mariokart-variab.rmd	gleicher Name		
+vis/vis-mtcars.rmd	dublette	posts/vis-mtcars/vis-mtcars.rmd	gleicher Name		
+vis/vis-penguins.rmd	dublette	posts/vis-penguins/vis-penguins.rmd	gleicher Name		
+vis/viz-geom-point.rmd	importiert	posts/viz-geom-point/viz-geom-point.rmd		schoice	OK
+vis/viz-geom-point10.rmd	importiert	posts/viz-geom-point10/viz-geom-point10.rmd		schoice	OK
+vis/viz-geom-point2.rmd	importiert	posts/viz-geom-point2/viz-geom-point2.rmd		schoice	OK
+vis/viz-geom-point3.rmd	dublette-intern	vis/viz-geom-point2.rmd	identischer Fragetext in der Quelle		
+vis/viz-geom-point4.rmd	dublette-intern	vis/viz-geom-point2.rmd	identischer Fragetext in der Quelle		
+vis/viz-geom-point5.rmd	importiert	posts/viz-geom-point5/viz-geom-point5.rmd		schoice	OK
+vis/viz-geom-point6.rmd	importiert	posts/viz-geom-point6/viz-geom-point6.rmd		schoice	OK
+vis/viz-geom-point7.rmd	importiert	posts/viz-geom-point7/viz-geom-point7.rmd		schoice	OK
+vis/viz-geom-point8.rmd	dublette-intern	vis/viz-geom-point6.rmd	identischer Fragetext in der Quelle		
+vis/viz-geom-point9.rmd	importiert	posts/viz-geom-point9/viz-geom-point9.rmd		schoice	OK
+vis/wozu-balkendiagramm.rmd	dublette	posts/wozu-balkendiagramm/wozu-balkendiagramm.rmd	gleicher Name		
+vis/wozu-streudiagramm.rmd	dublette	posts/wozu-streudiagramm/wozu-streudiagramm.rmd	gleicher Name		
+wahrscheinlichkeit/abh-ereignisse.rmd	dublette	posts/abh-ereignisse/abh-ereignisse.qmd	gleicher Name		
+wahrscheinlichkeit/abh-ereignisse2.rmd	dublette	posts/abh-ereignisse2/abh-ereignisse2.qmd	gleicher Name		
+wahrscheinlichkeit/additionssatz1.qmd	dublette	posts/additionssatz1/additionssatz1.qmd	gleicher Name		
+wahrscheinlichkeit/alphafehler-inflation.rmd	dublette	posts/alphafehler-inflation4/alphafehler-inflation4.qmd	Fragetext 97% ähnlich		
+wahrscheinlichkeit/alphafehler-inflation2.rmd	dublette	posts/alphafehler-inflation2/alphafehler-inflation2.qmd	gleicher Name		
+wahrscheinlichkeit/alphafehler-inflation3.rmd	dublette	posts/alphafehler-inflation3/alphafehler-inflation3.qmd	gleicher Name		
+wahrscheinlichkeit/alphafehler-inflation4.rmd	dublette	posts/alphafehler-inflation4/alphafehler-inflation4.qmd	gleicher Name		
+wahrscheinlichkeit/bath42.rmd	dublette	posts/bath42/bath42.qmd	gleicher Name		
+wahrscheinlichkeit/bsp-binomial.rmd	dublette	posts/bsp-binomial/bsp-binomial.qmd	gleicher Name		
+wahrscheinlichkeit/bus1.rmd	dublette	posts/bus1/bus1.qmd	gleicher Name		
+wahrscheinlichkeit/corona-blutgruppe.rmd	dublette	posts/corona-blutgruppe/corona-blutgruppe.qmd	gleicher Name		
+wahrscheinlichkeit/dyn/abhaengige-es.rmd	importiert	posts/abhaengige-es/abhaengige-es.rmd		schoice	OK
+wahrscheinlichkeit/dyn/bayes-theorem1.rmd	dublette	posts/bayes-theorem1/bayes-theorem1.qmd	gleicher Name		
+wahrscheinlichkeit/dyn/bed-gem-wskt.rmd	importiert	posts/bed-gem-wskt/bed-gem-wskt.rmd		?	ERROR: es gibt kein Paket namens 'config'
+wahrscheinlichkeit/dyn/bed-wskt1.rmd	dublette	posts/bed-wskt1/bed-wskt1.qmd	gleicher Name		
+wahrscheinlichkeit/dyn/bed-wskt2.rmd	dublette	posts/bed-wskt2/bed-wskt2.qmd	gleicher Name		
+wahrscheinlichkeit/dyn/bed-wskt3.rmd	dublette	posts/bed-wskt3/bed-wskt3.qmd	gleicher Name		
+wahrscheinlichkeit/dyn/gem-wskt1.rmd	dublette	posts/gem-wskt1/gem-wskt1.rmd	gleicher Name		
+wahrscheinlichkeit/dyn/gem-wskt2.rmd	dublette	posts/gem-wskt2/gem-wskt2.qmd	gleicher Name		
+wahrscheinlichkeit/dyn/gem-wskt3.rmd	dublette	posts/gem-wskt3/gem-wskt3.qmd	gleicher Name		
+wahrscheinlichkeit/dyn/k-coins-k-hits.rmd	dublette	posts/k-coins-k-hits/k-coins-k-hits.qmd	gleicher Name		
+wahrscheinlichkeit/dyn/k-coins-nicht-k-hits.rmd	importiert	posts/k-coins-nicht-k-hits/k-coins-nicht-k-hits.rmd		?	ERROR: Objekt 'config' nicht gefunden
+wahrscheinlichkeit/dyn/klausur-raten.rmd	dublette	posts/klausur-raten/klausur-raten.qmd	gleicher Name		
+wahrscheinlichkeit/dyn/likelihood1.rmd	importiert	posts/likelihood1/likelihood1.rmd		num	OK
+wahrscheinlichkeit/dyn/lose-nieten-binomial-grid.rmd	dublette	posts/lose-nieten-binomial-grid/lose-nieten-binomial-grid.rmd	gleicher Name		
+wahrscheinlichkeit/dyn/lose-nieten-binomial-grid2.rmd	importiert	posts/lose-nieten-binomial-grid2/lose-nieten-binomial-grid2.rmd		num	OK
+wahrscheinlichkeit/dyn/mtcars-abhaengig_var2.rmd	dublette	posts/mtcars-abhaengig_var2/mtcars-abhaengig_var2.rmd	gleicher Name		
+wahrscheinlichkeit/fattails01.rmd	dublette	posts/fattails01/fattails01.rmd	gleicher Name		
+wahrscheinlichkeit/fattails02.rmd	dublette	posts/fattails02/fattails02.rmd	gleicher Name		
+wahrscheinlichkeit/iq01.rmd	dublette	posts/iq01/iq01.qmd	gleicher Name		
+wahrscheinlichkeit/iq02.rmd	dublette	posts/iq02/iq02.qmd	gleicher Name		
+wahrscheinlichkeit/iq03.rmd	dublette	posts/iq03/iq03.qmd	gleicher Name		
+wahrscheinlichkeit/iq04.rmd	dublette	posts/iq04/iq04.qmd	gleicher Name		
+wahrscheinlichkeit/iq05.rmd	dublette	posts/iq05/iq05.qmd	gleicher Name		
+wahrscheinlichkeit/iq06.rmd	dublette	posts/iq06/iq06.qmd	gleicher Name		
+wahrscheinlichkeit/iq07.rmd	dublette	posts/iq07/iq07.qmd	gleicher Name		
+wahrscheinlichkeit/iq08.rmd	dublette	posts/iq08/iq08.qmd	gleicher Name		
+wahrscheinlichkeit/iq09.rmd	dublette	posts/iq09/iq09.qmd	gleicher Name		
+wahrscheinlichkeit/iq10.rmd	dublette	posts/iq10/iq10.qmd	gleicher Name		
+wahrscheinlichkeit/klausuren-bestehen.qmd	dublette	posts/klausuren-bestehen/klausuren-bestehen.qmd	gleicher Name		
+wahrscheinlichkeit/korr-vs-entropie1.qmd	importiert	posts/korr-vs-entropie1/korr-vs-entropie1.qmd		?	ERROR: es gibt kein Paket namens 'entropy'
+wahrscheinlichkeit/krebs1.qmd	dublette	posts/krebs1/krebs1.qmd	gleicher Name		
+wahrscheinlichkeit/mtcars-abhaengig.rmd	dublette	posts/mtcars-abhaengig/mtcars-abhaengig.rmd	gleicher Name		
+wahrscheinlichkeit/mtcars-abhaengig_var1.rmd	importiert	posts/mtcars-abhaengig_var1/mtcars-abhaengig_var1.rmd		num	OK
+wahrscheinlichkeit/mtcars-abhaengig_var3.rmd	dublette	posts/mtcars-abhaengig_var3/mtcars-abhaengig_var3.qmd	gleicher Name		
+wahrscheinlichkeit/mtcars-abhaengig_var3a.rmd	dublette	posts/mtcars-abhaengig_var3a/mtcars-abhaengig_var3a.qmd	gleicher Name		
+wahrscheinlichkeit/nerd-gelockert.qmd	dublette	posts/nerd-gelockert/nerd-gelockert.qmd	gleicher Name		
+wahrscheinlichkeit/odds1.rmd	importiert	posts/odds1/odds1.rmd		num	OK
+wahrscheinlichkeit/optionalstopping.rmd	importiert	posts/optionalstopping/optionalstopping.rmd		schoice	OK
+wahrscheinlichkeit/rethink2m1.rmd	dublette	posts/rethink2m1/rethink2m1.qmd	gleicher Name		
+wahrscheinlichkeit/rethink2m2.rmd	dublette	posts/rethink2m2/rethink2m2.qmd	gleicher Name		
+wahrscheinlichkeit/rethink2m3.rmd	dublette	posts/rethink2m3/rethink2m3.qmd	gleicher Name		
+wahrscheinlichkeit/rethink2m4.rmd	dublette	posts/rethink2m4/rethink2m4.qmd	gleicher Name		
+wahrscheinlichkeit/rethink2m5.rmd	dublette	posts/rethink2m5/rethink2m5.qmd	gleicher Name		
+wahrscheinlichkeit/rethink2m6.rmd	dublette	posts/rethink2m6/rethink2m6.qmd	gleicher Name		
+wahrscheinlichkeit/rethink2m7.rmd	dublette	posts/rethink2m7/rethink2m7.qmd	gleicher Name		
+wahrscheinlichkeit/rethink_2e4.rmd	importiert	posts/rethink_2e4/rethink_2e4.rmd		string	OK
+wahrscheinlichkeit/sicherheit.qmd	dublette	posts/sicherheit/sicherheit.qmd	gleicher Name		
+wahrscheinlichkeit/sicherheit2.qmd	dublette	posts/sicherheit2/sicherheit2.qmd	gleicher Name		
+wahrscheinlichkeit/totale-wskt1.qmd	dublette	posts/totale-Wskt1/totale-wskt1.qmd	gleicher Name		
+wahrscheinlichkeit/urne1.qmd	dublette	posts/urne1/urne1.qmd	gleicher Name		
+wahrscheinlichkeit/urne2.qmd	dublette	posts/urne2/urne2.qmd	gleicher Name		
+wahrscheinlichkeit/verteilungen-quiz-01.rmd	importiert	posts/verteilungen-quiz-01-b/verteilungen-quiz-01-b.rmd	namensgleich mit anderer Aufgabe in 06, daher umbenannt	schoice	OK
+wahrscheinlichkeit/verteilungen-quiz-02.rmd	importiert	posts/verteilungen-quiz-02-b/verteilungen-quiz-02-b.rmd	namensgleich mit anderer Aufgabe in 06, daher umbenannt	?	ERROR: length of exsolution (= 4) and questionlist (= 3) does not match in '_home_sebastian-sauer_GDrive_3X_Lehre_36_Lehre-Entwicklung_06_aufgabensammlung_posts_verteilungen-quiz-02-b_verteilungen-quiz-02-b'
+wahrscheinlichkeit/verteilungen-quiz-03.rmd	importiert	posts/verteilungen-quiz-03-b/verteilungen-quiz-03-b.rmd	namensgleich mit anderer Aufgabe in 06, daher umbenannt	schoice	OK
+wahrscheinlichkeit/verteilungen-quiz-04.rmd	importiert	posts/verteilungen-quiz-04-b/verteilungen-quiz-04-b.rmd	namensgleich mit anderer Aufgabe in 06, daher umbenannt	?	ERROR: length of exsolution (= 4) and questionlist (= 1) does not match in '_home_sebastian-sauer_GDrive_3X_Lehre_36_Lehre-Entwicklung_06_aufgabensammlung_posts_verteilungen-quiz-04-b_verteilungen-quiz-04-b'
+wahrscheinlichkeit/voll-normal.rmd	dublette	posts/voll-normal/index.qmd	gleicher Name		
+wahrscheinlichkeit/wskt-quiz01.rmd	dublette	posts/wskt-quiz01/wskt-quiz01.qmd	gleicher Name		
+wahrscheinlichkeit/wskt-quiz02.rmd	dublette	posts/wskt-quiz02/wskt-quiz02.qmd	gleicher Name		
+wahrscheinlichkeit/wskt-quiz03.rmd	dublette	posts/wskt-quiz03/wskt-quiz03.qmd	gleicher Name		
+wahrscheinlichkeit/wskt-quiz04.rmd	dublette	posts/wskt-quiz04/wskt-quiz04.qmd	gleicher Name		
+wahrscheinlichkeit/wskt-quiz05.rmd	dublette	posts/wskt-quiz05/wskt-quiz05.qmd	gleicher Name		
+wahrscheinlichkeit/wskt-quiz06.rmd	dublette	posts/wskt-quiz06/wskt-quiz06.qmd	gleicher Name		
+wahrscheinlichkeit/wskt-quiz07.rmd	dublette	posts/wskt-quiz07/wskt-quiz07.qmd	gleicher Name		
+wahrscheinlichkeit/wskt-quiz08.rmd	dublette	posts/wskt-quiz08/wskt-quiz08.qmd	gleicher Name		
+wahrscheinlichkeit/wskt-quiz09.rmd	dublette	posts/wskt-quiz09/wskt-quiz09.qmd	gleicher Name		
+wahrscheinlichkeit/wskt-quiz10.rmd	dublette	posts/wskt-quiz10/wskt-quiz10.qmd	gleicher Name		
+wahrscheinlichkeit/wskt-quiz11.rmd	dublette	posts/wskt-quiz11/wskt-quiz11.qmd	gleicher Name		
+wahrscheinlichkeit/wskt-quiz12.rmd	dublette	posts/wskt-quiz12/wskt-quiz12.qmd	gleicher Name		
+wahrscheinlichkeit/wskt-quiz13.rmd	dublette	posts/wskt-quiz13/wskt-quiz13.qmd	gleicher Name		
+wahrscheinlichkeit/wskt-quiz14.rmd	dublette	posts/wskt-quiz14/wskt-quiz14.qmd	gleicher Name		
+wahrscheinlichkeit/wskt-quiz15.rmd	dublette	posts/wskt-quiz15/wskt-quiz15.qmd	gleicher Name		
+wahrscheinlichkeit/wskt-quiz16.rmd	dublette	posts/wskt-quiz16/wskt-quiz16.qmd	gleicher Name		
+wahrscheinlichkeit/wskt-quiz17.rmd	dublette	posts/wskt-quiz17/wskt-quiz17.qmd	gleicher Name		
+wahrscheinlichkeit/wskt-quiz18.rmd	dublette	posts/wskt-quiz18/wskt-quiz18.qmd	gleicher Name		
+wahrscheinlichkeit/wskt-quiz19.rmd	dublette	posts/wskt-quiz19/wskt-quiz19.qmd	gleicher Name		
+wahrscheinlichkeit/wskt-quiz20.rmd	dublette	posts/wskt-quiz20/wskt-quiz20.qmd	gleicher Name		
+wahrscheinlichkeit/wuerfel01.rmd	dublette	posts/wuerfel01/wuerfel01.rmd	gleicher Name		
+wahrscheinlichkeit/wuerfel02.rmd	dublette	posts/wuerfel02/wuerfel02.rmd	gleicher Name		
+wahrscheinlichkeit/wuerfel03.rmd	dublette	posts/wuerfel03/wuerfel03.rmd	gleicher Name		
+wahrscheinlichkeit/wuerfel04.rmd	dublette	posts/wuerfel04/wuerfel04.rmd	gleicher Name		
+wahrscheinlichkeit/wuerfel05.qmd	dublette	posts/wuerfel05/wuerfel05.qmd	gleicher Name		
+wahrscheinlichkeit/wuerfel05a.qmd	dublette	posts/wuerfel05/wuerfel05.qmd	identischer Fragetext		
+wahrscheinlichkeit/wuerfel06.qmd	dublette	posts/wuerfel06/wuerfel06.qmd	gleicher Name		
+wahrscheinlichkeit/wuerfel06a.qmd	importiert	posts/wuerfel06a/wuerfel06a.qmd		?	ERROR: Objekt 'sol_tol' nicht gefunden
+wiss-schreiben-lesen/buggy/paper-lesen1.rmd	importiert	posts_buggy/paper-lesen1/paper-lesen1.rmd		?	ERROR: Objekt 'y' nicht gefunden
+wiss-schreiben-lesen/dyn/cochrane1.rmd	importiert	posts/cochrane1/cochrane1.rmd		?	ERROR: kann Verbindung nicht öffnen
+wiss-schreiben-lesen/dyn/paper-recherchieren1.rmd	importiert	posts/paper-recherchieren1/paper-recherchieren1.rmd		?	ERROR: es gibt kein Paket namens 'rcrossref'
+wiss-schreiben-lesen/dyn/papers-qualitaet-einschaetzen.rmd	importiert	posts/papers-qualitaet-einschaetzen/papers-qualitaet-einschaetzen.rmd		schoice	OK
+wiss-schreiben-lesen/dyn/rechtschreibung1.rmd	importiert	posts/rechtschreibung1/rechtschreibung1.rmd		schoice	OK
+wiss-schreiben-lesen/dyn/schminke1.rmd	importiert	posts/schminke1/schminke1.rmd		?	"ERROR: konnte Funktion ""%>%"" nicht finden"
+wiss-schreiben-lesen/dyn/twitter1.rmd	importiert	posts/twitter1/twitter1.rmd		string	OK
+wiss-schreiben-lesen/dyn/zitieren3.rmd	importiert	posts/zitieren3/zitieren3.rmd		schoice	OK
+wiss-schreiben-lesen/dyn/zitieren3a.rmd	dublette-intern	wiss-schreiben-lesen/dyn/zitieren3.rmd	identischer Fragetext in der Quelle		
+wiss-schreiben-lesen/exzessiv1.rmd	importiert	posts/exzessiv1/exzessiv1.rmd		mchoice	OK
+wiss-schreiben-lesen/subitizing.rmd	importiert	posts/subitizing/subitizing.rmd		schoice	OK
+wiss-schreiben-lesen/wachstum_corona.rmd	importiert	posts/wachstum_corona/wachstum_corona.rmd		?	ERROR: <ggplot2::labels> object is invalid: - every label must be named.
+wiss-schreiben-lesen/wissschreib1.rmd	importiert	posts/wissschreib1/wissschreib1.rmd		?	ERROR: length of exsolution (= 6) and questionlist (= 1) does not match in '_home_sebastian-sauer_GDrive_3X_Lehre_36_Lehre-Entwicklung_06_aufgabensammlung_posts_wissschreib1_wissschreib1'
+wiss-schreiben-lesen/zitieren-buch1.rmd	importiert	posts/zitieren-buch1/zitieren-buch1.rmd		string	OK
+wiss-schreiben-lesen/zitieren-buchkapitel1.rmd	importiert	posts/zitieren-buchkapitel1/zitieren-buchkapitel1.rmd		string	OK
+wiss-schreiben-lesen/zitieren-paper1.rmd	importiert	posts/zitieren-paper1/zitieren-paper1.rmd		string	OK
+wiss-schreiben-lesen/zitieren-paper2.rmd	dublette-intern	wiss-schreiben-lesen/zitieren-paper1.rmd	identischer Fragetext in der Quelle		
+wiss-schreiben-lesen/zitieren-thesis1.rmd	importiert	posts/zitieren-thesis1/zitieren-thesis1.rmd		string	OK
+wisstheorie/aprioriwissen.rmd	importiert	posts/aprioriwissen/aprioriwissen.rmd		schoice	OK
+wisstheorie/buggy/ho-schema.rmd	importiert	posts_buggy/ho-schema/ho-schema.rmd		?	ERROR: single choice items must have exactly one correct solution
+wisstheorie/buggy/logik1.rmd	importiert	posts_buggy/logik1/logik1.rmd		?	ERROR: kann Verbindung nicht öffnen
+wisstheorie/buggy/logik2_buggy.rmd	importiert	posts_buggy/logik2_buggy/logik2_buggy.rmd		schoice	OK
+wisstheorie/buggy/modus-tollens2.rmd	importiert	posts_buggy/modus-tollens2/modus-tollens2.rmd		?	ERROR: kann Verbindung nicht öffnen
+wisstheorie/deduktion.rmd	importiert	posts/deduktion/deduktion.rmd		cloze	OK
+wisstheorie/denkfehler-verifikation.rmd	importiert	posts/denkfehler-verifikation/denkfehler-verifikation.rmd		schoice	OK
+wisstheorie/dyn/falsifik1.rmd	importiert	posts/falsifik1/falsifik1.rmd		schoice	OK
+wisstheorie/dyn/falsifik2.rmd	importiert	posts/falsifik2/falsifik2.rmd		schoice	OK
+wisstheorie/dyn/ho-schema1a.rmd	importiert	posts/ho-schema1a/ho-schema1a.rmd		schoice	OK
+wisstheorie/dyn/implikation1-babynames.rmd	importiert	posts/implikation1-babynames/implikation1-babynames.rmd		?	ERROR: es gibt kein Paket namens 'babynames'
+wisstheorie/dyn/implikation1.rmd	importiert	posts/implikation1/implikation1.rmd		?	ERROR: kann Verbindung nicht öffnen
+wisstheorie/dyn/logik1-babynames.rmd	dublette-intern	wisstheorie/buggy/logik1.rmd	identischer Fragetext in der Quelle		
+wisstheorie/dyn/logik3.rmd	dublette-intern	wisstheorie/buggy/logik2_buggy.rmd	identischer Fragetext in der Quelle		
+wisstheorie/dyn/modus-tollens1.rmd	dublette-intern	wisstheorie/buggy/modus-tollens2.rmd	identischer Fragetext in der Quelle		
+wisstheorie/dyn/modus-tollens1a.rmd	dublette-intern	wisstheorie/buggy/modus-tollens2.rmd	identischer Fragetext in der Quelle		
+wisstheorie/dyn/praedikatenlogik1.rmd	importiert	posts/praedikatenlogik1/praedikatenlogik1.rmd		?	"ERROR: konnte Funktion ""%>%"" nicht finden"
+wisstheorie/dyn/theoretiker-empirismusrationalismus.rmd	importiert	posts/theoretiker-empirismusrationalismus/theoretiker-empirismusrationalismus.rmd		string	OK
+wisstheorie/empiriker-induktiv.rmd	importiert	posts/empiriker-induktiv/empiriker-induktiv.rmd		string	OK
+wisstheorie/generalisieren-population.rmd	importiert	posts/generalisieren-population/generalisieren-population.rmd		schoice	OK
+wisstheorie/induktionsprinzip.rmd	importiert	posts/induktionsprinzip/induktionsprinzip.rmd		schoice	OK
+wisstheorie/induktive-verallgemeinerung.rmd	importiert	posts/induktive-verallgemeinerung/induktive-verallgemeinerung.rmd		schoice	OK
+wisstheorie/modalitätsspezifisch.rmd	importiert	posts/modalitätsspezifisch/modalitätsspezifisch.rmd		schoice	OK
+wisstheorie/operationalismus.rmd	importiert	posts/operationalismus/operationalismus.rmd		mchoice	OK
+wisstheorie/schlussarten-abduktion-formel.rmd	importiert	posts/schlussarten-abduktion-formel/schlussarten-abduktion-formel.rmd		schoice	OK
+wisstheorie/schlussarten-deduktion-formel.rmd	importiert	posts/schlussarten-deduktion-formel/schlussarten-deduktion-formel.rmd		schoice	OK
+wisstheorie/schlussarten-induktion-formel.rmd	importiert	posts/schlussarten-induktion-formel/schlussarten-induktion-formel.rmd		schoice	OK
+wisstheorie/variab-referenzklasse.rmd	importiert	posts/variab-referenzklasse/variab-referenzklasse.rmd		schoice	OK
+wisstheorie/verifikationismus.rmd	importiert	posts/verifikationismus/verifikationismus.rmd		string	OK
+all_chapters/achsen_trick.rmd	importiert	posts/achsen_trick/achsen_trick.rmd		schoice	OK
+all_chapters/anscombe_logik.rmd	importiert	posts/anscombe_logik/anscombe_logik.rmd		schoice	OK
+all_chapters/arrange.rmd	importiert	posts/arrange/arrange.rmd		schoice	OK
+all_chapters/arrange_minus.rmd	importiert	posts/arrange_minus/arrange_minus.rmd		schoice	OK
+all_chapters/aufgaben_statistik.rmd	importiert	posts/aufgaben_statistik/aufgaben_statistik.rmd		schoice	OK
+all_chapters/balken_normierung.rmd	importiert	posts/balken_normierung/balken_normierung.rmd		schoice	OK
+all_chapters/bosplot_schiefe.rmd	importiert	posts/bosplot_schiefe/bosplot_schiefe.rmd		schoice	OK
+all_chapters/causal_err.rmd	importiert	posts/causal_err/causal_err.rmd		schoice	OK
+all_chapters/cohen_kategorisierung.rmd	importiert	posts/cohen_kategorisierung/cohen_kategorisierung.rmd		schoice	OK
+all_chapters/count_nominal.rmd	importiert	posts/count_nominal/count_nominal.rmd		schoice	OK
+all_chapters/datentypen_coercion.rmd	importiert	posts/datentypen_coercion/datentypen_coercion.rmd		schoice	OK
+all_chapters/def_datenjudo.rmd	importiert	posts/def_datenjudo/def_datenjudo.rmd		schoice	OK
+all_chapters/definition_dataframe.rmd	importiert	posts/definition_dataframe/definition_dataframe.rmd		schoice	OK
+all_chapters/definition_punktmodell.rmd	importiert	posts/definition_punktmodell/definition_punktmodell.rmd		schoice	OK
+all_chapters/definition_statistik.rmd	importiert	posts/definition_statistik/definition_statistik.rmd		schoice	OK
+all_chapters/dollar_operator.rmd	importiert	posts/dollar_operator/dollar_operator.rmd		schoice	OK
+all_chapters/dummykodier.rmd	importiert	posts/dummykodier/dummykodier.rmd		schoice	OK
+all_chapters/file_drawer_problem.rmd	importiert	posts/file_drawer_problem/file_drawer_problem.rmd		schoice	OK
+all_chapters/filter.rmd	dublette-intern	r/filter.rmd	gleicher Name in der Quelle		
+all_chapters/filter_logik.rmd	importiert	posts/filter_logik/filter_logik.rmd		schoice	OK
+all_chapters/filter_syntax.rmd	importiert	posts/filter_syntax/filter_syntax.rmd		schoice	OK
+all_chapters/funktionsargumente.rmd	importiert	posts/funktionsargumente/funktionsargumente.rmd		schoice	OK
+all_chapters/funktionsargumente_defaults.rmd	importiert	posts/funktionsargumente_defaults/funktionsargumente_defaults.rmd		schoice	OK
+all_chapters/group_summarise.rmd	importiert	posts/group_summarise/group_summarise.rmd		schoice	OK
+all_chapters/groupby.rmd	importiert	posts/groupby/groupby.rmd		schoice	OK
+all_chapters/gruppen_modell_vorteil.rmd	importiert	posts/gruppen_modell_vorteil/gruppen_modell_vorteil.rmd		schoice	OK
+all_chapters/güte_streuung.rmd	importiert	posts/güte_streuung/güte_streuung.rmd		schoice	OK
+all_chapters/interaktion.rmd	importiert	posts/interaktion/interaktion.rmd		schoice	OK
+all_chapters/intercept_m.rmd	importiert	posts/intercept_m/intercept_m.rmd		schoice	OK
+all_chapters/kauslalinterp.rmd	importiert	posts/kauslalinterp/kauslalinterp.rmd		schoice	OK
+all_chapters/korrelation_na_handling.rmd	importiert	posts/korrelation_na_handling/korrelation_na_handling.rmd		schoice	OK
+all_chapters/korrelation_richtung.rmd	importiert	posts/korrelation_richtung/korrelation_richtung.rmd		schoice	OK
+all_chapters/korrelation_z_logik.rmd	importiert	posts/korrelation_z_logik/korrelation_z_logik.rmd		schoice	OK
+all_chapters/kovarianz_null.rmd	importiert	posts/kovarianz_null/kovarianz_null.rmd		schoice	OK
+all_chapters/kovarianz_skalierung.rmd	importiert	posts/kovarianz_skalierung/kovarianz_skalierung.rmd		schoice	OK
+all_chapters/lego_prinzip_logik.rmd	importiert	posts/lego_prinzip_logik/lego_prinzip_logik.rmd		schoice	OK
+all_chapters/logigkodier.rmd	importiert	posts/logigkodier/logigkodier.rmd		schoice	OK
+all_chapters/logikprüfung_anwendung.rmd	importiert	posts/logikprüfung_anwendung/logikprüfung_anwendung.rmd		schoice	OK
+all_chapters/logikprüfung_gleichheit.rmd	importiert	posts/logikprüfung_gleichheit/logikprüfung_gleichheit.rmd		schoice	OK
+all_chapters/mae_berechnung.rmd	importiert	posts/mae_berechnung/mae_berechnung.rmd		schoice	OK
+all_chapters/mean_na_standard.rmd	importiert	posts/mean_na_standard/mean_na_standard.rmd		schoice	OK
+all_chapters/median_gerade_n.rmd	importiert	posts/median_gerade_n/median_gerade_n.rmd		schoice	OK
+all_chapters/modell_gleichung.rmd	importiert	posts/modell_gleichung/modell_gleichung.rmd		schoice	OK
+all_chapters/modellvergleich_mae.rmd	importiert	posts/modellvergleich_mae/modellvergleich_mae.rmd		schoice	OK
+all_chapters/mutate.rmd	importiert	posts/mutate/mutate.rmd		schoice	OK
+all_chapters/mutate_neu.rmd	importiert	posts/mutate_neu/mutate_neu.rmd		schoice	OK
+all_chapters/mw_eigenschaft.rmd	importiert	posts/mw_eigenschaft/mw_eigenschaft.rmd		schoice	OK
+all_chapters/na_bedeutung.rmd	importiert	posts/na_bedeutung/na_bedeutung.rmd		schoice	OK
+all_chapters/na_handling_transfer.rmd	importiert	posts/na_handling_transfer/na_handling_transfer.rmd		schoice	OK
+all_chapters/na_philosophie.rmd	importiert	posts/na_philosophie/na_philosophie.rmd		schoice	OK
+all_chapters/neg_slope.rmd	importiert	posts/neg_slope/neg_slope.rmd		schoice	OK
+all_chapters/nichtlineare_korrelation.rmd	importiert	posts/nichtlineare_korrelation/nichtlineare_korrelation.rmd		schoice	OK
+all_chapters/normal_rechnen.rmd	importiert	posts/normal_rechnen/normal_rechnen.rmd		schoice	OK
+all_chapters/null_vs_lin.rmd	importiert	posts/null_vs_lin/null_vs_lin.rmd		schoice	OK
+all_chapters/nullmodell_r.rmd	importiert	posts/nullmodell_r/nullmodell_r.rmd		schoice	OK
+all_chapters/nutzen_modelle.rmd	importiert	posts/nutzen_modelle/nutzen_modelle.rmd		schoice	OK
+all_chapters/okabe_ito.rmd	importiert	posts/okabe_ito/okabe_ito.rmd		schoice	OK
+all_chapters/ols_prinzip.rmd	importiert	posts/ols_prinzip/ols_prinzip.rmd		schoice	OK
+all_chapters/overfitting.rmd	importiert	posts/overfitting/overfitting.rmd		schoice	OK
+all_chapters/pfade_reproduzierbarkeit.rmd	importiert	posts/pfade_reproduzierbarkeit/pfade_reproduzierbarkeit.rmd		schoice	OK
+all_chapters/pfeife.rmd	importiert	posts/pfeife/pfeife.rmd		schoice	OK
+all_chapters/pfeife2.rmd	dublette-intern	all_chapters/pfeife.rmd	identischer Fragetext in der Quelle		
+all_chapters/pipe_vorteil.rmd	importiert	posts/pipe_vorteil/pipe_vorteil.rmd		schoice	OK
+all_chapters/plot_wahl.rmd	importiert	posts/plot_wahl/plot_wahl.rmd		schoice	OK
+all_chapters/ppdac_modell.rmd	importiert	posts/ppdac_modell/ppdac_modell.rmd		schoice	OK
+all_chapters/praxis_datenjudo.rmd	importiert	posts/praxis_datenjudo/praxis_datenjudo.rmd		schoice	OK
+all_chapters/predict_r.rmd	importiert	posts/predict_r/predict_r.rmd		schoice	OK
+all_chapters/quantil_transfer.rmd	importiert	posts/quantil_transfer/quantil_transfer.rmd		schoice	OK
+all_chapters/r2_logik.rmd	importiert	posts/r2_logik/r2_logik.rmd		schoice	OK
+all_chapters/r_syntax_correlation.rmd	importiert	posts/r_syntax_correlation/r_syntax_correlation.rmd		schoice	OK
+all_chapters/r_vs_r2.rmd	importiert	posts/r_vs_r2/r_vs_r2.rmd		schoice	OK
+all_chapters/r_vs_rstudio.rmd	importiert	posts/r_vs_rstudio/r_vs_rstudio.rmd		schoice	OK
+all_chapters/range_restriction.rmd	importiert	posts/range_restriction/range_restriction.rmd		schoice	OK
+all_chapters/regebene.rmd	importiert	posts/regebene/regebene.rmd		schoice	OK
+all_chapters/reproduzierbarkeit.rmd	importiert	posts/reproduzierbarkeit/reproduzierbarkeit.rmd		schoice	OK
+all_chapters/resid_calc.rmd	importiert	posts/resid_calc/resid_calc.rmd		schoice	OK
+all_chapters/residuen_summe.rmd	importiert	posts/residuen_summe/residuen_summe.rmd		schoice	OK
+all_chapters/residuen_vergleich.rmd	importiert	posts/residuen_vergleich/residuen_vergleich.rmd		schoice	OK
+all_chapters/residuum_definition.rmd	importiert	posts/residuum_definition/residuum_definition.rmd		schoice	OK
+all_chapters/rmse_sd_bezug.rmd	importiert	posts/rmse_sd_bezug/rmse_sd_bezug.rmd		schoice	OK
+all_chapters/robuste_streuung.rmd	importiert	posts/robuste_streuung/robuste_streuung.rmd		schoice	OK
+all_chapters/rstudio_gui_view.rmd	importiert	posts/rstudio_gui_view/rstudio_gui_view.rmd		schoice	OK
+all_chapters/samplesplit.rmd	importiert	posts/samplesplit/samplesplit.rmd		schoice	OK
+all_chapters/scatter_ellipse.rmd	importiert	posts/scatter_ellipse/scatter_ellipse.rmd		schoice	OK
+all_chapters/schein_korr.rmd	importiert	posts/schein_korr/schein_korr.rmd		schoice	OK
+all_chapters/scheinkorrelation_glatze.rmd	importiert	posts/scheinkorrelation_glatze/scheinkorrelation_glatze.rmd		schoice	OK
+all_chapters/schiefe_interpolation.rmd	importiert	posts/schiefe_interpolation/schiefe_interpolation.rmd		schoice	OK
+all_chapters/sd_vs_varianz.rmd	importiert	posts/sd_vs_varianz/sd_vs_varianz.rmd		schoice	OK
+all_chapters/select.rmd	dublette-intern	r/select.rmd	gleicher Name in der Quelle		
+all_chapters/select_anwendung.rmd	importiert	posts/select_anwendung/select_anwendung.rmd		schoice	OK
+all_chapters/simpsonpara.rmd	importiert	posts/simpsonpara/simpsonpara.rmd		schoice	OK
+all_chapters/skalenniveau_intervall.rmd	importiert	posts/skalenniveau_intervall/skalenniveau_intervall.rmd		schoice	OK
+all_chapters/skalenniveau_ordinal.rmd	importiert	posts/skalenniveau_ordinal/skalenniveau_ordinal.rmd		schoice	OK
+all_chapters/slope_inter.rmd	importiert	posts/slope_inter/slope_inter.rmd		schoice	OK
+all_chapters/stichprobengroesse_genauigkeit.rmd	importiert	posts/stichprobengroesse_genauigkeit/stichprobengroesse_genauigkeit.rmd		schoice	OK
+all_chapters/struktur_dataframe.rmd	importiert	posts/struktur_dataframe/struktur_dataframe.rmd		schoice	OK
+all_chapters/summarize.rmd	importiert	posts/summarize/summarize.rmd		schoice	OK
+all_chapters/tidy_data.rmd	importiert	posts/tidy_data/tidy_data.rmd		schoice	OK
+all_chapters/tidyverse-verben.rmd	dublette-intern	all_chapters/pfeife.rmd	identischer Fragetext in der Quelle		
+all_chapters/torten_kritik.rmd	importiert	posts/torten_kritik/torten_kritik.rmd		schoice	OK
+all_chapters/typ-fehler-r-01.rmd	dublette	posts/typ-fehler-r-01/typ-fehler-r-01.rmd	gleicher Name		
+all_chapters/typ-fehler-r-02.rmd	dublette	posts/typ-fehler-r-02/typ-fehler-r-02.rmd	gleicher Name		
+all_chapters/typ-fehler-r-03.rmd	dublette	posts/typ-fehler-r-03/typ-fehler-r-03.rmd	gleicher Name		
+all_chapters/typ-fehler-r-04.rmd	dublette	posts/typ-fehler-r-04/typ-fehler-r-04.rmd	gleicher Name		
+all_chapters/typ-fehler-r-06a.rmd	dublette	posts/typ-fehler-r-06a/typ-fehler-r-06a.rmd	gleicher Name		
+all_chapters/typ-fehler-r-07.rmd	dublette	posts/typ-fehler-r-07/typ-fehler-r-07.qmd	gleicher Name		
+all_chapters/uv_av_unterscheidung.rmd	importiert	posts/uv_av_unterscheidung/uv_av_unterscheidung.rmd		schoice	OK
+all_chapters/variablenwahl.rmd	importiert	posts/variablenwahl/variablenwahl.rmd		schoice	OK
+all_chapters/variation01.rmd	dublette	posts/variation01/variation01.rmd	gleicher Name		
+all_chapters/vektor_erstellung.rmd	importiert	posts/vektor_erstellung/vektor_erstellung.rmd		schoice	OK
+all_chapters/vektorielles_rechnen_transfer.rmd	importiert	posts/vektorielles_rechnen_transfer/vektorielles_rechnen_transfer.rmd		schoice	OK
+all_chapters/vektorisierung_logik.rmd	importiert	posts/vektorisierung_logik/vektorisierung_logik.rmd		schoice	OK
+all_chapters/verschachtelte_funktionen.rmd	importiert	posts/verschachtelte_funktionen/verschachtelte_funktionen.rmd		schoice	OK
+all_chapters/vorteil_skripte.rmd	importiert	posts/vorteil_skripte/vorteil_skripte.rmd		schoice	OK
+all_chapters/z_transformation_effekt.rmd	importiert	posts/z_transformation_effekt/z_transformation_effekt.rmd		schoice	OK
+all_chapters/z_wert_interpretation.rmd	importiert	posts/z_wert_interpretation/z_wert_interpretation.rmd		schoice	OK
+all_chapters/zentrierung.rmd	importiert	posts/zentrierung/zentrierung.rmd		schoice	OK
+all_chapters/ziele_statistik.rmd	importiert	posts/ziele_statistik/ziele_statistik.rmd		schoice	OK
+all_chapters/zuweisung_operator.rmd	importiert	posts/zuweisung_operator/zuweisung_operator.rmd		schoice	OK

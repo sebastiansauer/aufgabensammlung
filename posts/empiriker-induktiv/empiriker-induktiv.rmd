@@ -1,0 +1,27 @@
+
+
+Question
+========
+Vervollständigen Sie: "Der Empiriker geht ______ vor."
+
+
+*Hinweis*: Beziehen Sie sich auf den Stoff, so wie im Unterricht behandelt.
+
+
+
+Solution
+========
+```{r echo = FALSE}
+sol <- "induktiv"
+```
+
+`r sol`
+
+
+
+Meta-information
+================
+extype: string
+exsolution: `r sol`
+exname: empiriker-induktiv
+expoints: 1

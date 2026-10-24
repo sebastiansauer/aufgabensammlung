@@ -1,0 +1,243 @@
+<!-- Achtung, es kann passieren, dass mehrere Antwortoptionen den Wert "0" anzeigen, -->
+<!-- was von Studis als "Fehler" gesehen werden kann. Muss noch korrigiert werden. -->
+
+```{r libs, include = FALSE}
+library(tidyverse)
+library(rstanarm)
+library(exams)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      cache = FALSE,
+                      echo = FALSE,
+                      message = FALSE,
+                      fig.show = "hold")
+
+options(mc.cores = parallel::detectCores())
+
+#chains <- 1  # set to one for debugging, set to 4 for production
+```
+
+
+
+
+
+Question
+========
+
+
+
+
+
+
+```{r message=FALSE, results = "hide"}
+d_df <-
+  tibble(datasets_names = c("penguins", "mtcars"),
+         av = c("bill_length_mm", "mpg"),
+         source = c(
+           "https://vincentarelbundock.github.io/Rdatasets/csv/palmerpenguins/penguins.csv",
+           "https://vincentarelbundock.github.io/Rdatasets/csv/datasets/mtcars.csv"
+         ))
+
+d_selected <-
+  d_df %>% 
+  slice_sample(n = 1)
+
+d_name <- d_selected$datasets_names
+
+d <- read_csv(d_selected$source)
+
+
+if ("...1" %in% names(d)) d <- d %>% select(-"...1")
+
+
+d <-
+  d %>% 
+  select(where(is.numeric))
+
+vars <- names(d)
+
+av <- d_selected$av
+preds <- setdiff(vars, av)
+
+question <- "Was ist der Medianwert des Regressionskoeffizienten aus der Posterior-Verteilung?"
+
+k <- 2  # number of predictors to be chosen
+
+preds_chosen_nr <- sample(1:length(preds), k)
+preds_chosen <- preds[preds_chosen_nr]
+```
+
+
+<!-- Hart verdrahtet für mtcars! -->
+
+Im Folgenden ist der Datensatz ``r d_name`` zu analysieren,
+genauer gesagt geht es um Prädiktoren der AV, `r av`. 
+
+Eine Möglichkeit, den Datensatz zu beziehen, ist [diese Sammlung an Datensätzen](https://vincentarelbundock.github.io/Rdatasets/articles/data.html). Suchen Sie dort nach dem Namen des Datensatzes.
+Importieren Sie dann die Daten in R.
+
+Hilfe zum Datensatz ist [auf dieser Webseite](https://vincentarelbundock.github.io/Rdatasets/articles/data.html) abrufbar.
+
+
+
+
+Zur Lösung dieser Aufgabe ist folgendes lineares Modell zu berechnen:
+
+
+AV: `r av`.
+
+UVs: `r preds_chosen`.
+
+Im Folgenden wird *ein* Prädiktor aus der Menge der UV näher betrachtet.
+Der gewählte Prädiktor ist: ``r preds_chosen[1]``.
+
+
+*Aufgabe*: **`r question`**
+
+
+*Hinweise*:
+
+- Verwenden Sie Standardwerte der R-Funktionen, soweit nicht anders angegeben.
+- Runden Sie auf eine Dezimalstelle.
+- Verwenden Sie Methoden der Bayes-Statistik für inferenzstatistische Analysen.
+- Geben Sie keine Prozentzahlen an, sondern Anteile (also nicht "50%", sondern "0.5" etc.)
+- Findet sich in einer Auswahlliste möglicher Antworten nicht die exakte Lösung, wählen Sie die am besten passende.
+- Beziehen Sie sich im Zweifel auf den Stoff, so wie im Unterricht behandelt.
+
+
+
+```{r results = "hide", echo = FALSE}
+preds_formula <- paste(preds_chosen, collapse = " + ")
+mod_formula <- as.formula(paste0(av, " ~", preds_formula))
+mod <- stan_glm(mod_formula, data = d, refresh = 0, chains = chains)
+
+mod_formula_string <- paste0(av, " ~ ", preds_formula)
+```
+
+
+
+```{r}
+solutions <- explanations <- list("")
+```
+
+
+```{r message=FALSE,results="hide"}
+# do NOT run this line interactively!
+include_supplement(file = "build-answer-options.R", recursive = TRUE)
+source("build-answer-options.R")
+```
+
+
+
+```{r}
+#options(digits = 5)
+sol <- coef(mod)[preds_chosen[1]] %>% round(1) %>% as.numeric()
+#undebug(build_answer_options)
+answer_options <- build_answer_options(correct_answer = sol, algo_wrong_answers = "coef")
+answer_options <- exams::fmt(answer_options)
+```
+
+
+
+
+
+
+```{r}
+sol_df_raw <-
+  tibble(
+    id = 1:5,
+    answer_options = answer_options,
+    solutions = c(TRUE, F, F, F, F),
+    solutions_str = ifelse(solutions == TRUE, "1", "0"),
+    explanations =  ifelse(solutions, "Richtig", "Falsch"))
+
+sol <- sol_df_raw$answer_options[1]
+
+sol_df <-
+  sol_df_raw %>% 
+  slice_sample(n = nrow(sol_df_raw))
+
+solutions_str <- exams::mchoice2string(sol_df$solutions, single = TRUE)
+```
+
+
+Wählen Sie die am besten passende Antwortoption!
+
+
+
+```{r questionlist, echo = FALSE, results = "asis"}
+answerlist(sol_df$answer_options, markup = "markdown")
+```
+
+
+
+Solution
+========
+
+
+
+
+*MUSTERLÖSUNG*
+
+Der Datensatz heißt: `r d_selected$datasets_names`.
+Er ist unter [dieser Quelle](`r d_selected$source`) zu beziehen.
+
+Die Prädiktoren (UVs) des Modells lauten: `r preds_chosen`.
+
+
+
+
+
+Dann berechnet man das Modell, etwa so `r glue::glue("mod <- stan_glm({mod_formula_string}, data = d)")`.
+
+
+Ausgabe der Ergebnisse:
+
+```{r echo = TRUE}
+print(mod)
+```
+
+
+
+
+So kann man sich den Wert für jeden Koeffizienten (d.h. das Regressionsgewicht) ausgeben lassen:
+
+```{r eval=FALSE, echo = TRUE}
+coef(mod)
+```
+
+Und dann liest man einfach den gesuchten Wert von der Ausgabe an.
+
+
+Der Medianwert des Modellkoeffizienten wird auf ``r sol`` geschätzt.
+
+
+
+```{r sollist, echo = FALSE, results = "asis"}
+answerlist(ifelse(sol_df$solutions, "Richtig", "Falsch"), markup = "markdown")
+```
+
+
+
+
+
+
+Meta-information
+================
+exname: post2a
+extype: schoice
+exsolution: `r solutions_str`
+exshuffle: false
+expoints: 1 
+categories:
+- bayes
+- regression
+
+

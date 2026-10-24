@@ -1,0 +1,259 @@
+
+
+```{r libs, include = FALSE}
+library(tidyverse)
+library(glue)
+library(gt)
+library(exams)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      echo = FALSE,
+                      message = FALSE,
+                      fig.show = "hold")
+```
+
+
+
+
+
+Question
+========
+
+
+
+```{r results = "hide"}
+supp_file <- "Reviews_Cochrane.rds"
+include_supplement(file = supp_file,
+           recursive = TRUE)
+```
+
+
+
+```{r}
+sanitize_review_url <- function(review_url,
+                                verbose = NULL) {
+  
+  #flog.info("sanitize_review_url", name = "funlog")
+  #flog.trace("sanitizing review url")
+  #if (is.null(verbose)) verbose <- config$verbose
+  
+  delete_string <- "http[s]*://www.cochranelibrary.com/cdsr/doi/10.1002/"
+  delete_string2 <- "http[s]*://[dx.]*doi.org/10.1002/"
+  
+  output <- str_remove(review_url,
+                       delete_string) %>% 
+    str_remove(delete_string2) %>% 
+    str_remove("/full") %>%
+    str_squish()
+  
+  # if (verbose) print(output)
+  
+  return(output)
+  
+  
+}
+```
+
+
+```{r}
+build_cochrane_url_from_doi <- function(review_url) {
+  
+  #flog.info("build_cochrane_url_from_doi", name = "funlog")  
+  
+  # example OK: https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD008268.pub3/full
+  
+  # ex. NOT OK: http://dx.doi.org/10.1002/14651858.CD008268.pub3
+  # 
+  url_is_doi_type <- 
+    review_url %>% 
+    str_detect("^https?://(dx.)?doi.org/10.1002/")
+  
+
+  if (url_is_doi_type) {
+    # get url stem:
+    url_stem <- sanitize_review_url(review_url) }
+  
+  
+  url_is_stem <-
+    review_url %>% 
+    str_detect("^\\d+\\.CD\\d+")
+  
+  if (url_is_stem) url_stem <- review_url
+  
+  if (url_is_doi_type | url_is_stem) {
+    #flog.trace("URL is of type doi or of type Cochrane Stem (eg., '14651858.CD001180.pub4')")
+    # rebuild it to www.cochranelibrary.com form:
+    url_cochrane <- 
+      paste0("https://www.cochranelibrary.com/cdsr/doi/10.1002/", url_stem, "/full")
+    output <- url_cochrane %>% str_squish()
+    #flog.trace(paste0("This url has now been build: ", url_cochrane))
+    
+  } else {
+    output <- review_url %>% 
+      str_squish()
+  }
+  
+  return(output)
+  
+}
+
+```
+
+
+
+
+
+
+```{r eval = FALSE}
+# run this only once!
+# 
+reviews_cochrane_raw <- 
+  readxl::read_xlsx("reviews_output_machine_jh_2.xlsx")
+
+reviews <-
+  reviews_cochrane_raw %>% 
+  select(id_review,
+         publication_date, 
+         title, 
+         doi = doi...8, 
+         authors, 
+         is_withdrawn, 
+         is_most_recent_version, 
+         is_paywalled, 
+         SoF_table_number, 
+         n_participants, 
+         n_studies, 
+         Outcomes,
+         effect_size,
+         id_measure,)
+
+reviews_filtered <-
+  reviews %>% 
+  filter(is_withdrawn == FALSE,
+         is_most_recent_version == TRUE,
+         is_paywalled == FALSE,
+         SoF_table_number == 1,
+         id_measure == 1)
+
+reviews_url_fixed <-
+  reviews_filtered %>% 
+  mutate(doi = build_cochrane_url_from_doi(doi))
+
+write_rds(reviews_url_fixed, file = "Reviews_Cochrane.rds")
+```
+
+
+```{r}
+reviews <- read_rds(supp_file)
+```
+
+
+```{r}
+if (length(unique(reviews$doi)) == 1) stop("all dois are equal.")
+```
+
+
+
+Die [Cochrane Library](https://www.cochrane.de/de/cochrane-library) "umfasst verschiedene Datenbanken mit hochwertiger, unabhängiger Evidenz, um informierte Entscheidungen in der Gesundheitsversorgung zu unterstützen". 
+
+
+Weiter auf der gleichen Webseite:
+
+>    [Systematische Reviews](https://www.cochrane.de/de/systematische-uebersichtsarbeiten) sind die wichtigsten Publikationen von Cochrane. In diesen Reviews wird die beste verfügbare Evidenz aus Studien kritisch bewertet und zusammengefasst. Die Reviews sind als Volltexte elektronisch in der Cochrane Database of Systematic Reviews (CDSR) der [Cochrane Library](https://www.cochranelibrary.com/) veröffentlicht. 
+
+In jedem Review wird der Effekt einer Intervention auf eine Zielgröße (abhängige Variable) untersucht.
+
+
+Im Folgenden sehen Sie eine Auswahl von DOIs zu Reviews von der Cochrane Library.
+
+```{r}
+is_selected <- sample(c(TRUE, FALSE, FALSE, FALSE, FALSE))
+
+reviews_sample <-
+  reviews %>% 
+  filter(n_participants != 0) %>% 
+  filter(!is.na(n_participants)) %>% 
+  filter(Outcomes != "") %>% 
+  filter(!is.na(Outcomes)) %>% 
+  sample_n(5) %>% 
+  select(doi, title, authors, n_participants, Outcomes) %>% 
+  mutate(selected = is_selected)
+
+
+
+reviews_sample %>% 
+  select(doi, title) %>% 
+  gt()
+```
+
+
+Recherchieren Sie aus den vorgestellten Cochrane-Reviews den Reviews mit dieser Zielgröße:
+
+*`r reviews_sample$Outcomes[reviews_sample$selected == TRUE]`*.
+
+
+Wie groß ist die Anzahl der berichteten Versuchspersonen?
+
+
+```{r}
+items <- 
+  reviews_sample %>% 
+  pull(n_participants)
+```
+
+```{r testthat}
+stopifnot(length(items) == 5)
+if (any(is.na(items))) stop("NAs not allowed.")
+if (any(items == 0)) stop("Zeros not allowed.")
+if (length(unique(items)) == 1) stop("All values are identical")
+```
+
+
+
+
+
+TIPP: Suchen Sie diese Information im Abschnitt *Summary of Findings*.
+
+
+
+```{r questionlist, echo = FALSE, results = "asis"}
+answerlist(items, markup = "markdown")
+```
+
+
+
+Solution
+========
+
+
+```{r}
+reviews_sample %>% 
+  select(doi, title, Outcomes, n_participants, selected) %>% 
+  gt()
+```
+
+
+
+
+Richtige Lösung:
+
+```{r solutionlist, echo = FALSE, results = "asis"}
+answerlist(ifelse(reviews_sample$selected, "Wahr", "Falsch"), markup = "markdown")
+```
+
+Meta-information
+================
+exname: cochrane1
+extype: schoice
+exsolution:  `r mchoice2string(reviews_sample$selected, single = TRUE)`
+exshuffle: false
+extol: 1
+expoints: 1
+

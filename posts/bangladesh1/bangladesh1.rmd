@@ -1,0 +1,208 @@
+
+
+```{r libs, include = FALSE}
+library(tidyverse)
+library(rstanarm)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      echo = FALSE,
+                      message = FALSE,
+                      fig.show = "hold")
+
+options(mc.cores = parallel::detectCores())
+options(width = 80)
+```
+
+
+
+
+
+Question
+========
+
+Eine Studie untersuchte den Arsengehalt `arsenic` in Brunnen in Bangladesh. 
+Die Forschis untersuchten u.a., ob die Menschen bereit waren, 
+auf einen Brunnen zu wechseln `switch`, 
+der nicht mit Arsen belastet war,
+und welche Rolle die Entfernung (in Einheiten von 100 Meter, `dist100`) zum nächsten unbelasteten Brunnen spielt.
+
+Die Daten sind hier zu beziehen:
+
+```{r echo = TRUE}
+d_path <- "https://raw.githubusercontent.com/avehtari/ROS-Examples/master/Arsenic/data/wells.csv"
+
+d <- read_csv(d_path)
+```
+
+
+Hier ist das Regressionsmodell:
+
+
+```{r echo = TRUE}
+m1 <- stan_glm(switch ~ dist100 + arsenic, 
+               family = binomial(link = "logit"),
+               data = d,
+               refresh = 0)
+```
+
+```{r}
+print(m1, digits = 2)
+```
+
+a) 
+Vergleichen Sie zwei Personen mit der gleichen Distanz zum nächsten
+unbelasteten Brunnen,
+wobei eine Person einen Arsenwert von 0.5 hat und 
+die andere Person einen Wert von 1.0.
+
+Wie groß ist der Unterschied in Wahrscheinlichkeit zwischen 
+erster und zweiter Person, den Brunnen zu wechseln (laut dem obigen Modell)?
+
+Beziehen Sie sich auf die Daten der Post-Verteilung.
+
+
+b)
+Vergleichen Sie zwei Personen mit der gleichen Distanz zum nächsten
+unbelasteten Brunnen,
+wobei eine Person einen Arsenwert von 0.5 hat und 
+die andere Person einen Wert von 1.0.
+
+Wie groß ist der Unterschied in Wahrscheinlichkeit, dass die zweite Person den Brunnen wechselt? 
+Geben Sie einen Punktschätzer auf 
+Basis des Mittelwerts der Post-Verteilung an! 
+Beziehen Sie sich auf die Daten der PPV.
+
+
+
+Questionlist
+------------
+* Wie groß ist die Wahrscheinlichkeit bei Frage a?
+* Wie groß ist die Wahrscheinlichkeit bei Frage b?
+
+Solution
+========
+
+a) 
+
+```{r echo = TRUE}
+invlogit <- plogis
+```
+
+
+```{r echo = TRUE}
+preds_a <- 
+  posterior_linpred(m1, newdata = tibble(dist100 = c(1, 1), arsenic = c(0.5, 1)))
+
+preds_a_summ <- 
+  preds_a %>% 
+  as_tibble() %>% 
+  pivot_longer(everything(), 
+               names_to = "arsenic_level",
+               values_to = "switch_logit") %>% 
+  mutate(switch_p = invlogit(switch_logit)) %>% 
+  group_by(arsenic_level) %>% 
+  summarise(switch_mean = mean(switch_p),
+            switch_q05 = quantile(switch_p, prob = .05),
+            switch_q95 = quantile(switch_p, prob = .95),
+            switch_sd = sd(switch_p))
+
+preds_a_summ
+```
+
+Die Antwort lautet also: 
+
+```{r echo = TRUE}
+sol_a <- preds_a_summ$switch_mean[2] - preds_a_summ$switch_mean[1]
+sol_a <- sol_a %>% round(2)
+sol_a
+```
+
+`r sol_a`.
+
+Auf dieser Basis könn(t)en wir Punktschätzer plus ihre Ungewissheit quantifizieren und visualisieren.
+
+Mit `posterior_epded()` bekommt man das gleicher Ergebnis wie mit `posterior_linpred() %>% invlogit()`. 
+
+
+Man könnte auch `predict()` nutzen;
+dann bekommt man den Punktschätzer (auf Basis des Medians)
+aber ohne Angaben der Ungewissheit der Schätzung.
+Daher ist `predict()` nicht so nützlich.
+
+```{r echo = TRUE}
+preds_a <- predict(m1, 
+                   newdata = tibble(dist100 = c(1, 1), arsenic = c(0.5, 1)),
+        type = "response")
+
+preds_a
+```
+
+Der Unterschied beträgt ca. `r preds_a[2] - preds_a[1]`.
+
+`predict()` gibt uns den *Punktschätzer`, $\hat{a} + \hat{b}x$. 
+Da wir nur den Punktschätzer bekommen, 
+fehlt uns die Einschätzung der Ungewissheit der Koeffizienten.
+
+Vgl. ROS, S. 92, Kap. 9.2.
+
+
+b)
+Berechnen wir die PPV:
+
+```{r echo = TRUE}
+preds_b <- post_predict(m1,
+                             newdata = tibble(dist100 = c(1, 1), 
+                                              arsenic = c(0.5, 1)))
+```
+
+`posterior_predict` zieht Werte aus der PPV.
+
+
+Was ist die Wahrscheinlichkeit für `switch` in jeder Gruppe? 
+
+```{r echo = TRUE}
+preds_b_summ <-
+  preds_b %>% 
+  as_tibble() %>% 
+  summarise(wechsler_gruppe_a = mean(`1`),
+            wechsler_gruppe_b = mean(`2`)) %>% 
+  mutate(diff = wechsler_gruppe_b - wechsler_gruppe_a)
+
+preds_b_summ
+```
+
+Die Differenz der beiden Werte gibt uns einen Schätzwert für den Unterschied in der Wahrscheinlichkeit in den beiden Gruppen hinsichtlich des Wechselns des Brunnens.
+
+Die Antwort für b) lautet also:
+
+```{r echo = TRUE}
+sol_b <- 
+  preds_b_summ %>% 
+  pull(diff)
+
+sol_b
+```
+
+
+
+Solutionlist
+------------
+* Der Wert beträgt `r sol_a`.
+* Der Wert beträgt `r sol_b`.
+
+Meta-information
+================
+exname: bangladesh1
+extype: cloze
+exclozetype: num|num
+exsolution: `r sol_a`|`r sol_b`
+exshuffle: false
+expoints: 0.5
+

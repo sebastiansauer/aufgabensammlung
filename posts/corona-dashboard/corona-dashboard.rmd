@@ -1,0 +1,82 @@
+
+```{r libs, include = FALSE}
+
+library(tidyverse)
+library(mosaic)
+
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "")
+```
+
+
+
+Question
+========
+
+```{r ex-setup, include=FALSE}
+# General exercise variable definitions/computations
+
+my_abs_path <- paste0(here::here(), "/img/")
+img_name <- "coronadashboard.png"
+
+
+
+full_img_path <- paste0(my_abs_path, img_name)
+
+stopifnot(file.exists(full_img_path))
+```
+
+Dashboards sind eine gängige Methode, um Datenbestände und inhärente Strukturen darzustellen. Im Zuge der Corona-Pandemie wurde folgendes Dashboard veröffentlicht (vgl. https://towardsdatascience.com/covid-19-open-source-dashboard-fa1d2b4cd985).
+
+
+```{r echo = FALSE, fig.out = 5, fig.asp=.618, EVAL = FALSE}
+knitr::include_graphics(full_img_path)
+```
+
+```{r eval = TRUE, include = FALSE}
+include_supplement(img_name, dir = my_abs_path)
+```
+
+
+
+- Beschreiben Sie Vorteile der Verwendung eines Dashboards *im Allgemeinen*, um die Entwicklung von Coronafällen zu visualisieren.
+
+- Beschreiben Sie Vorteile der Verwendung dieses Dashboards *im Speziellen*, um die Entwicklung von Coronafällen zu visualisieren.
+
+- Welche Nachteile können sich aus der Verwendung dieses Dashboards ergeben?
+
+
+
+
+
+Solution
+========
+
+
+- Einfacheres Verständnis komplexer Datenstrukturen, Überwindung der Grenzen von Statistiken (vgl. Anscombes Quartett), höhere Zugänglichkeit für ein Publikum ohne Vorbildung in Datenanalyse
+
+- Übersichtlich, open source, gängiges Tool (R), aktualisierbar, leicht pflegbar
+
+- Zur Bearbeitung sind Kenntnisse in R nötig (nicht allgemein verfügbar), es muss ein Shiny-Server laufen
+
+
+```{r}
+sol <- "s. Text"
+```
+
+
+
+
+Meta-information
+================
+extype: string
+exsolution: `r sol`
+exname: corona-dashboard
+expoints: 10

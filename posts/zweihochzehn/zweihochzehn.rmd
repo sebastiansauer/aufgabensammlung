@@ -1,0 +1,20 @@
+
+
+Question
+========
+Die Zweier-Potenzreihe ($2^x$) spielt in der Datenanalyse wie auch in anderen Disziplinen eine wichtige Rolle. 
+
+Wie lautet der Wert der Zweier-Potenzreihe für $x=10$?
+
+
+```{r echo = FALSE, results = "hide"}
+res <- 2^10
+```
+
+
+
+Meta-information
+================
+extype: num
+exsolution: `r res`
+exname: zweihochzehn

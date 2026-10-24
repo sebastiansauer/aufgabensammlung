@@ -1,0 +1,34 @@
+Question
+========
+Welche der folgenden Formeln gibt Induktion am besten wieder?
+
+Answerlist
+----------
+* $\exists  x: x \Rightarrow y$
+* $\forall  x: x \Rightarrow y$
+* Es könnte sein, dass $\exists  x: x \Rightarrow y$
+* Es könnte sein, dass $\forall  x: x \Rightarrow y$
+* Keine der genannten Antworten
+* Keine Antwort möglich
+
+
+Solution
+========
+Induktion zeigt, dass in mindestens einem, vielleicht in allen Fällen gilt $x \Rightarrow y$.
+
+Answerlist
+----------
+* Wahr
+* Falsch
+* Falsch
+* Falsch
+* Falsch
+* Falsch
+
+
+Meta-information
+================
+exname: induktion-formel
+extype: schoice
+exsolution: 100000
+exshuffle: 5

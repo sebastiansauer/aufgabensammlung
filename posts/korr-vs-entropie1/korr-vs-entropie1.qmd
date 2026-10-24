@@ -1,0 +1,74 @@
+
+<!-- ACHTUNG! DIESE AUFGABE IST BRUCHSTÜCKHAFT! -->
+
+
+```{r global-knitr-options, include=FALSE, message=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      echo = TRUE,
+                      message = FALSE,
+                      warning = FALSE,
+                      fig.show = "hold")
+```
+
+
+Question
+========
+
+Gegeben seien diese beiden Vektoren:
+
+```{r}
+x <- c(rep(1, 99), 0)
+y <- c(rep(1, 99), 0)
+```
+
+*Aufgabe*: Berechnen Sie die Korrelation und die Gegenseitige Information (Mutual Information) von x und y.
+
+
+Hinweise:
+
+- Orientieren Sie sich im Übrigen an den [allgemeinen Hinweisen des Datenwerks](https://datenwerk.netlify.app/hinweise).
+
+
+
+
+Solution
+
+========
+
+```{r}
+library(entropy)
+```
+
+
+```{r}
+cor(x,y)
+```
+
+
+```{r}
+mi.empirical(x, y)
+```
+
+
+```{r echo = FALSE}
+sol <- "loesung <- 42"
+```
+
+``r sol``
+
+
+Meta-information
+================
+
+exname: NAME-DER-AUFGABE 
+expoints: 1
+extype: string
+exsolution: NA
+categories:
+- 2023
+
+

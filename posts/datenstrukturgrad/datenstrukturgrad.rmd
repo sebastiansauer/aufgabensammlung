@@ -1,0 +1,40 @@
+Question
+========
+
+```{r include = FALSE}
+degree <- c("hoher", "mittler", "geringer")
+degree_chosen <- sample(degree, 1)
+```
+
+
+
+Daten lassen sich anhand ihres Strukturierungsgrads klassifizieren. Nennen Sie jeweils ein Beispiel für
+Daten mit `r degree_chosen` Strukturierung.
+
+
+
+
+Solution
+========
+
+```{r}
+solutions <- c("hoch: Exceltabellen", "mittel: XML", "gering: Emails")
+sol_chosen <- solutions[which(degree == degree_chosen)]
+```
+
+
+
+
+```{r}
+sol <- sol_chosen
+```
+
+
+
+
+Meta-information
+================
+extype: string
+exsolution: `r sol`
+exname: strukturgrad
+expoints: 5

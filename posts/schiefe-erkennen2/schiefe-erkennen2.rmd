@@ -1,0 +1,167 @@
+
+
+```{r libs, include = FALSE}
+
+library(tidyverse)
+library(mosaic)
+library(testthat)
+library(e1071)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      cache = FALSE)
+```
+
+
+
+
+
+
+Question
+========
+Betrachten Sie die Histogramme. 
+
+
+```{r solution, echo = FALSE}
+sol_set <- c("MW < Md", "MW > Md", "Md < MW", "Md > MW")  
+
+sol <- sample(sol_set, 1)
+```
+
+
+Wählen Sie das Histogramm, welches am deutlichsten folgende Eigenschaft  aufweist:
+
+
+$`r sol`$
+
+
+
+*Hinweis*: $MW$ steht für *Mittelwert* und $Md$ steht für *Median*.
+
+
+
+
+
+
+
+
+
+
+```{r generate-data, echo = FALSE}
+n <- 1000
+
+d_symm <- rnorm(n = n) %>% zscore() %>%  as_tibble()
+d_left1 <- rbeta(n, 5, 2) %>% zscore() %>% as_tibble()
+d_right1 <- rbeta(n, 2, 5) %>% zscore() %>% as_tibble()
+
+d_right2 <- rexp(n, 10) %>% zscore()%>% as_tibble()
+d_left2 <- -rexp(n, 10) %>% zscore()%>% as_tibble()
+
+d_uniform <- runif(n = n) %>% zscore() %>% as_tibble()
+
+
+
+
+d_raw <- tibble(
+  data = list(d_symm,
+              d_uniform,
+              #d_left1,
+              d_left2,
+              #d_right1,
+              d_right2)) %>% 
+    mutate(id = c("d_symm",
+                  "d_uniform",
+                  #"d_left1", 
+                  "d_left2", 
+                  #"d_right1", 
+                  "d_right2"))
+
+
+
+d <-
+  d_raw %>% 
+  mutate(skew = map_dbl(data, ~ skewness(.x[[1]]))) %>%  # as .x is a tibble, we need to access its first column
+ # mutate(skew = unlist(skew)) %>% 
+  mutate(avg = map_dbl(data, ~ mean(.x[[1]])),
+         med = map_dbl(data, ~ median(.x[[1]])),
+         med_minus_avg = med - avg) %>% 
+  sample_n(size = nrow(.)) %>%   # shuffle it
+  mutate(plot_id = LETTERS[1:nrow(.)])
+
+```
+
+
+```{r generate-solution, echo = FALSE}
+
+d <- 
+  d %>% 
+  mutate(correct_plot = case_when(
+    sol == "MW < Md" | sol == "Md > MW" ~ plot_id[which.min(skew)],
+    sol == "MW > Md" | sol == "Md < MW"  ~ plot_id[which.max(skew)],
+#    sol == "MW \\approx Md" ~ plot_id[which.min(abs(skew))],
+    TRUE ~ NA_character_
+  )) %>% 
+  mutate(is_correct = plot_id == correct_plot)
+
+#stopifnot(d$is_correct[1] != NA)  # "`is_correct` must not be NA."
+```
+
+
+
+
+```{r generate-histograms, echo = FALSE, message = FALSE, fig.show='hold', comment="", results="hide"}
+
+gg_hist <- function(data, title) {
+  ggplot(data = data) +
+    aes(x = value) +
+    geom_histogram() +
+    ggtitle(glue("Diagramm {title}"))
+}
+
+
+
+
+
+map2(.x = d$data,
+     .y = d$plot_id,
+     .f = ~ gg_hist(.x, .y))
+
+```
+
+
+
+```{r questionlist, echo = FALSE, results = "asis"}
+exams::answerlist(d$plot_id, markup = "markdown")
+```
+
+
+
+
+Solution
+========
+
+Das Histogramm ``r d$plot_id[d$is_correct == TRUE]`` zeigt die Eigenschaft $`r sol`$ am deutlichsten.
+
+
+```{r solutionlist, echo = FALSE, results = "asis"}
+exams::answerlist(ifelse(d$is_correct, "Wahr", "Falsch"), markup = "markdown")
+```
+
+
+
+Meta-information
+================
+exname: schiefe2
+extype: schoice
+exsolution: `r mchoice2string(d$is_correct, single = TRUE)`
+exshuffle: false  
+categories:
+- dyn
+- eda
+- lagemaße

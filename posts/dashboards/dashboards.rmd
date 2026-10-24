@@ -1,0 +1,32 @@
+
+
+Question
+========
+Dashboards sind -- gerade im Management -- eine beliebte Form der Darstellung quantitativer Daten und insbesondere von zentralen Unternehmenskennzahlen.
+
+Es existiert eine Vielzahl von Produkten, um Dashboards zu erzeugen. 
+
+Welche der folgenden Produkte ist *nicht* (!) bzw. am wenigsten geeignet, um Dashboards zu erzeugen?
+ 
+
+
+Answerlist
+----------
+* Shiny
+* Plotly
+* Flexdashboards
+* Tableau
+* SPSS
+* MS PowerBI
+
+
+Solution
+========
+SPSS
+
+
+Meta-information
+================
+extype: schoice
+exsolution:  000010
+exname: dashboards

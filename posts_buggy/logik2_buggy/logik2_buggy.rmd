@@ -1,0 +1,168 @@
+
+
+<!-- BUGGY!!! -->
+
+
+
+
+```{r libs, include = FALSE}
+library(tidyverse)
+library(testthat)
+library(glue)
+library(exams)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      echo = FALSE,
+                      message = FALSE,
+                      fig.show = "hold",
+                      comment = "")
+```
+
+
+
+
+
+Question
+========
+
+
+```{r logic-df}
+
+
+logic_type_set1 <- c("$\\exists$", "$\\forall$", "$\\neg \\exists$")
+# replace "exists" operator for "not all" operator:
+logic_type_set2 <- c("$\\neg \\forall$", "$\\forall$", "$\\neg \\exists$")
+
+# sometimes use "exists", and sometimes "not all":
+logic_set_flag <- sample(c(1,2), 1)
+
+logic_df <-
+  tibble(
+    logic_type_set = c("any", "all", "none"),
+    logic_type_symbol = ifelse(logic_set_flag == 1, logic_type_set1, logic_type_set2)
+  )
+
+
+
+
+logic_df_sample <- 
+  logic_df %>% 
+  sample_n(size = 1)
+
+```
+
+
+
+
+```{r random-x-y}
+xy_df <-
+  tibble(
+        x = rnorm(5) %>% round(1),
+        y = (rnorm(5)-1.2) %>% round(1)
+  )
+
+
+x <- xy_df$x
+y <- xy_df$y
+
+```
+
+
+
+Gegeben seien die Mengen $X$ und $Y$ mit jeweils folgenden $n=`r nrow(xy_df)`$ Elementen:
+
+
+`X={`r  xy_df$x`}`
+
+`Y={`r  xy_df$y`}`
+
+
+```{r compute-itemlist}
+
+itemlist <- 
+  xy_df %>% 
+  summarise(
+    any_x_lt_y_sol = any(x < y),
+    all_x_lt_y_sol = all(x < y),
+    none_x_lt_y_sol = !any(x < y),
+    any_x_ge_y_sol = any(x >= y),
+    all_x_ge_y_sol = all(x >= y),
+    none_x_ge_y_sol = !any(x >= y)
+    ) %>% 
+  pivot_longer(everything(),
+               names_to = "logic_type",
+               values_to = "is_correct") %>% 
+  mutate(proposition_tex = c(
+    "$\\exists x[x < y])$ ",
+    "$\\forall x[x < y])$",
+    "$\\neg \\exists x[x < y])$ ",
+    "$\\exists x[x \\ge y])$",
+    "$\\forall x[x \\ge y])$",
+    "$\\neg \\exists x[x \\ge y])$"
+    )) %>% 
+  mutate(is_incorrect = !is_correct) %>% 
+  pivot_longer(-c(logic_type, proposition_tex),
+              names_to = "sol_type",
+              values_to = "sol_lgl") %>% 
+  sample_n(size = nrow(.)) %>%  # shuffle it
+  mutate(sol_type_de = ifelse(sol_type=="is_correct", "wahr", "falsch")) %>% 
+  mutate(proposition = glue("'{proposition_tex} ist {sol_type_de}.'")) %>% 
+  group_by(sol_type) %>% 
+  mutate(id = row_number()) %>% 
+  ungroup() %>% 
+  filter( (id == 1 & sol_type == "is_correct") | (between(id, 1, 4) & sol_type == "is_incorrect"))
+
+#knitr::kable(itemlist)
+```
+
+
+*Hinweis*: $\neg A$ steht für Negation der Aussage $A$, also das (logische) Gegenteil von $A$.
+
+
+
+
+
+
+
+Wählen Sie die korrekte Aussage aus!
+
+
+```{r itemlist, results="asis"}
+answerlist(itemlist$proposition, markup = "markdown")
+```
+
+
+
+
+
+
+Solution
+========
+
+```{r sol}
+sol <- itemlist$proposition[itemlist$sol_type=="is_correct"]
+```
+
+
+Die richtige Aussage lautet "`r sol`".
+
+
+
+```{r itemlist_answer, results="asis"}
+answerlist(ifelse(itemlist$sol_type=="is_correct", "Wahr", "Falsch"), markup = "markdown")
+```
+
+
+Meta-information
+================
+exname: modustollens1
+extype: schoice
+exsolution: `r  mchoice2string(itemlist$sol_type=="is_correct")`
+exshuffle: false

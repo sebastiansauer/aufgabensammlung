@@ -1,0 +1,258 @@
+<!-- Achtung, es kann passieren, dass mehrere Antwortoptionen den Wert "0" anzeigen, -->
+<!-- was von Studis als "Fehler" gesehen werden kann. Muss noch korrigiert werden. -->
+
+```{r libs, include = FALSE}
+library(tidyverse)
+library(rstanarm)
+library(exams)
+library(assertthat)
+library(glue)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      cache = FALSE,
+                      echo = FALSE,
+                      message = FALSE,
+                      fig.show = "hold")
+
+options(mc.cores = parallel::detectCores())
+
+#chains <- 1  # set to one for debugging, set to 4 for production
+```
+
+
+
+
+
+Question
+========
+
+
+
+
+
+
+```{r message=FALSE}
+d_df <-
+  tibble(datasets_names = c("penguins", "mtcars"),
+         av = c("bill_length_mm", "mpg"),
+         source = c(
+           "https://vincentarelbundock.github.io/Rdatasets/csv/palmerpenguins/penguins.csv",
+           "https://vincentarelbundock.github.io/Rdatasets/csv/datasets/mtcars.csv"
+         ))
+
+d_selected <-
+  d_df %>% 
+  slice_sample(n = 1)
+
+d_name <- d_selected$datasets_names
+
+d <- read_csv(d_selected$source)
+
+
+if ("...1" %in% names(d)) d <- d %>% select(-"...1")
+
+
+d <-
+  d %>% 
+  select(where(is.numeric))
+
+vars <- names(d)
+
+av <- d_selected$av
+preds <- setdiff(vars, av)
+
+# preds_k <- sample(1:5, 1)
+preds_k <- 0
+
+question <- glue("Was ist der Wert der SD in der PPV für eine Beobachtung, bei der alle Prädiktoren den Wert 0 aufweisen?")
+
+k <- 2  # number of predictors to be chosen
+```
+
+
+<!-- Hart verdrahtet für mtcars! -->
+
+Im Folgenden ist der Datensatz ``r d_name`` zu analysieren. Er ist unter dieser [Quelle](`r d_path`) erhältlich: `r d_path`.
+
+Eine Möglichkeit, den Datensatz zu beziehen, ist [diese Sammlung an Datensätzen](https://vincentarelbundock.github.io/Rdatasets/articles/data.html). Suchen Sie dort nach dem Namen des Datensatzes.
+Importieren Sie dann die Daten in R.
+
+Hilfe zum Datensatz ist [auf dieser Webseite](https://vincentarelbundock.github.io/Rdatasets/articles/data.html) abrufbar.
+
+
+
+
+Berechnen Sie das folgende lineare Modell:
+
+
+```{r}
+preds_chosen_nr <- sample(1:length(preds), k)
+preds_chosen <- preds[preds_chosen_nr]
+```
+
+AV: `r av`.
+
+UVs: `r preds_chosen`.
+
+
+
+
+*Aufgabe*: **`r question`**
+
+
+*Hinweise*:
+
+- Verwenden Sie Standardwerte der R-Funktionen, soweit nicht anders angegeben.
+- Runden Sie auf eine Dezimalstelle.
+- Verwenden Sie Methoden der Bayes-Statistik für inferenzstatistische Analysen.
+- Geben Sie keine Prozentzahlen an, sondern Anteile (also nicht "50%", sondern "0.5" etc.)
+- Findet sich in einer Auswahlliste möglicher Antworten nicht die exakte Lösung, wählen Sie die am besten passende.
+- Beziehen Sie sich im Zweifel auf den Stoff, so wie im Unterricht behandelt.
+
+
+
+```{r results = "hide", echo = FALSE}
+preds_formula <- paste(preds_chosen, collapse = " + ")
+mod_formula <- as.formula(paste0(av, " ~", preds_formula))
+mod <- stan_glm(mod_formula, data = d, refresh = 0, chains = chains)
+
+mod_formula_string <- paste0(av, " ~ ", preds_formula)
+```
+
+
+
+
+```{r message=FALSE,results="hide"}
+# do NOT run this line interactively!
+include_supplement(file = "build-answer-options.R", recursive = TRUE)
+source("build-answer-options.R")
+```
+
+
+
+```{r compute-estimate, results = "hide"}
+d_newdata <- tibble()
+d_newdata[1, preds_chosen] <- matrix(c(preds_k, preds_k), nrow = 1)
+
+sol <- posterior_predict(mod, newdata = d_newdata) %>% sd() %>% round(1) %>% unname()
+sol
+```
+
+```{r build-answer-options, results = "hide"}
+answer_options <- build_answer_options(sol, algo_wrong_answers = "coef")
+answer_options <- exams::fmt(answer_options)
+assert_that(exists("answer_options"), msg = "Objekt `answer_options` existiert nicht.")
+```
+
+
+
+
+
+
+
+```{r build-sol-df, message = FALSE, results='hide'}
+sol_df_raw <-
+  tibble(
+    id = 1:5,
+    answer_options = answer_options,
+    correct_answer = c(TRUE, F, F, F, F),
+    solutions_str = ifelse(correct_answer == TRUE, "1", "0"),
+    explanations =  ifelse(correct_answer, "Richtig", "Falsch"))
+
+sol <- sol_df_raw$answer_options[1]
+
+sol_df <-
+  sol_df_raw %>% 
+  slice_sample(n = nrow(sol_df_raw))
+
+
+assert_that(exists("sol_df"), msg = "Objekt 'sol_df'  existiert nicht.")
+assert_that(nrow(sol_df) == 5)
+
+
+solutions_str <- exams::mchoice2string(sol_df$correct_answer, single = TRUE)
+assert_that(exists("solutions_str"), msg = "Objekt `solutions_str` existiert nicht")
+```
+
+
+Wählen Sie die am besten passende Antwortoption!
+
+
+```{r questionlist, echo = FALSE, results = "asis"}
+answerlist(sol_df$answer_options, markup = "markdown")
+```
+
+
+
+Solution
+========
+
+
+
+Der Datensatz heißt: `r d_selected$datasets_names`.
+Er ist unter [dieser Quelle](`r d_selected$source`) zu beziehen.
+
+Die Prädiktoren (UVs) des Modells lauten: `r preds_chosen`.
+
+
+
+
+
+Dann berechnet man das Modell, etwa so `r glue::glue("mod <- stan_glm({mod_formula_string}, data = d)")`.
+
+
+Ausgabe der Ergebnisse:
+
+```{r echo = TRUE}
+print(mod)
+```
+
+
+
+
+
+
+
+```{r }
+pred_str <- glue::glue("posterior_predict(mod, newdata = tibble({preds_chosen[1]} = {preds_k}, {preds_chosen[2]} = {preds_k}))  %>%  sd()")
+```
+
+
+Je nachdem, welche Prädiktoren in Ihrem Modell auftauchen,
+würden Sie schreiben: ``r pred_str``.
+
+
+
+Dann lesen Sie den vorhergesagten Wert ab, runden, und reichen ihn ein.
+
+
+```{r}
+sol
+```
+
+
+
+```{r sollist, echo = FALSE, results = "asis"}
+answerlist(ifelse(sol_df$correct_answer, "Richtig", "Falsch"), markup = "markdown")
+```
+
+
+
+
+
+
+Meta-information
+================
+exname: ppv1c
+extype: schoice
+exsolution: `r solutions_str`
+exshuffle: false
+expoints: 1 
+

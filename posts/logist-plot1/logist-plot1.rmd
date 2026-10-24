@@ -1,0 +1,177 @@
+
+
+```{r libs, include = FALSE}
+library(tidyverse)
+library(Ryacas0)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      echo = FALSE,
+                      message = FALSE,
+                      fig.show = "hold")
+```
+
+
+
+
+
+Question
+========
+
+Geben Sie die Funktion für jedes Diagramm an!
+
+
+
+
+
+```{r}
+logist <- function(x) (exp(x)/(1+exp(x)))
+```
+
+
+```{r}
+p1 <- ggplot() +
+  geom_function(fun = logist) +
+  xlim(-5,5)
+```
+
+
+```{r}
+logist2 <- function(x) logist(2+x)
+
+p2 <- ggplot() +
+  geom_function(fun = logist2) +
+  xlim(-7 ,5)
+```
+
+
+```{r}
+logist3 <- function(x) logist(2*x)
+p3 <- ggplot() +
+  geom_function(fun = logist3) +
+  xlim(-7 ,5)
+
+```
+
+
+
+```{r}
+logist4 <- function(x) logist(2+2*x)
+p4 <- ggplot() +
+  geom_function(fun = logist4) +
+  xlim(-7 ,5)
+
+```
+
+
+
+
+```{r}
+logist5 <- function(x) logist(-2*x)
+p5 <- ggplot() +
+  geom_function(fun = logist5) +
+  xlim(-5 ,5)
+```
+
+
+
+a) Diagramm A:
+
+```{r}
+p1
+```
+
+b) Diagramm B:
+
+```{r}
+p2
+```
+
+
+c) Diagramm C:
+
+```{r}
+p3
+```
+
+d) Diagramm D:
+
+```{r}
+p4
+```
+
+
+e) Diagramm E:
+
+```{r}
+p5
+```
+
+
+
+
+
+Solution
+========
+
+a) Diagramm A:
+
+```{r}
+body(logist)
+```
+
+`exp(x)` bezeichent die e-Funktion: $e^x$, mit $e\approx 2.7178$, 
+der Eulerschen Zahl.
+
+Oder anders gesagt:
+
+$Pr(y=1)= \mathcal{L}(x) = \frac{e^x}{1+e^x}$
+
+wobei $\mathcal{L}$ die *logistische Funktion* bezeichnet 
+(im Folgenden mit `logist` abgekürzt).
+
+Oder:
+
+$Pr(y=1) =  \mathcal{L}^{-1}(x)$
+
+b) Diagramm B:
+
+```{r}
+body(logist2)
+```
+
+
+c) Diagramm C:
+
+```{r}
+body(logist3)
+```
+
+
+d) Diagramm D:
+
+
+```{r}
+body(logist4)
+```
+
+e) Diagramm E:
+
+```{r}
+body(logist5)
+```
+
+
+
+Meta-information
+================
+exname: plot-logist1
+extype: string
+exsolution: NULL
+

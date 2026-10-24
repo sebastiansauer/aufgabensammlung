@@ -1,0 +1,260 @@
+
+
+```{r libs, include = FALSE}
+library(tidyverse)
+library(rstanarm)
+library(testthat)
+library(exams)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      cache = FALSE,
+                      echo = FALSE,
+                      message = FALSE,
+                      fig.show = "hold")
+
+options(mc.cores = parallel::detectCores())
+
+```
+
+
+
+```{r load-libs, message = FALSE}
+data(mtcars)
+library(tidyverse)
+library(rstanarm)
+library(bayesplot)  # Histogramm-Plots für Post-Vert.
+library(bayestestR)  # rope
+```
+
+
+
+
+Question
+========
+
+
+<!-- Hart verdrahtet für mtcars! -->
+
+Im Folgenden ist der Datensatz `mtcars` zu analysieren,
+genauer gesagt geht es um Prädiktoren des Spritverbrauchs, `mpg`. 
+
+Der Datensatz ist Teil des des R-Pakets `datasets` und damit beim Start von R automatisch geladen.
+
+Alternativ ist der Datensatz als CSV-Datei [hier](https://vincentarelbundock.github.io/Rdatasets/csv/datasets/mtcars.csv) abrufbar.
+
+Hilfe zum Datensatz ist via `help("name_des_datensatzes")` oder [auf dieser Webseite](https://vincentarelbundock.github.io/Rdatasets/doc/datasets/mtcars.html) abrufbar.
+
+
+
+
+
+
+```{r init-data-frame-used}
+d_name <- "mtcars"
+data(list = d_name)
+av <- "mpg"
+vars <- names(eval(parse(text = d_name))) 
+preds <- setdiff(vars, av)
+
+# d is the abstracted name of the dataset:
+d <- eval(parse(text = d_name))
+```
+
+
+
+
+
+
+Im Datensatz `mtcars`: Ist der (mittlere) Unterschied im Spritverbrauch zwischen den beiden Stufen von `vs` vernachlässigbar klein?
+Definieren Sie “vernachlässigbar klein” mit “höchstens eine Meile”.
+
+Berechnen Sie dazu ein lineares Modell!
+
+
+Hinweise:
+
+- Verwenden Sie Standardwerte der R-Funktionen, soweit nicht anders angegeben.
+- Runden Sie auf eine Dezimalstelle.
+- Verwenden Sie Methoden der Bayes-Statistik für inferenzstatistische Analysen.
+- Geben Sie keine Prozentzahlen an, sondern Anteile (also nicht "50%", sondern "0.5" etc.)
+- Findet sich in einer Auswahlliste möglicher Antworten nicht die exakte Lösung, wählen Sie die am besten passende.
+- Beziehen Sie sich im Zweifel auf den Stoff, so wie im Unterricht behandelt.
+
+
+
+
+```{r compute-mod1}
+m1 <- stan_glm(mpg ~ vs, data = d,
+               refresh = 0)
+
+coef_m1 <- coef(m1)
+```
+
+
+
+```{r init-result-objects}
+questions <- solutions <- explanations <- answer_options <- item_stems <- rep(list(""), 3)
+type <- rep(list("numeric"), 3)
+```
+
+
+
+```{r ex-a}
+post_m1_vs <- posterior_interval(m1, prob = .95,
+                   pars = "vs")
+breite_pi <- post_m1_vs[2] - post_m1_vs[1]
+breite_pi <- breite %>% round(2)
+```
+
+
+
+```{r}
+#  a)
+item_stems[[1]] <- "Geben Sie die Breite des 95% PI an (im Bezug zur gesuchten Größe)."
+questions[[1]] <- paste0(item_stems[[1]])
+solutions[[1]] <- explanations[[1]] <- breite_pi
+```
+
+
+
+```{r ex-b}
+hdi1<- 
+bayestestR::hdi(m1) %>% 
+  as.tibble() 
+
+
+breite_hdi <-
+  hdi1 %>% 
+  filter(Parameter == "vs") %>% 
+  mutate(breite = CI_high - CI_low) %>% 
+  pull(breite) %>% 
+  round(2)
+```
+
+
+
+
+```{r}
+#  b)
+item_stems[[2]] <- "Geben Sie die Breite des 95% HDI an (im Bezug zur gesuchten Größe)."
+questions[[2]] <- paste0(item_stems[[2]])
+solutions[[2]] <- explanations[[2]] <- breite_hdi
+```
+
+
+
+
+```{r  eval = TRUE}
+#  c)
+item_stems[[3]] <- "Im Hinblick auf die Rope-Methode: Ist der Unterschied vernachlässigbar klein? "
+answer_options[[3]] <- c("Ja", "Nein", "Unentschieden", "Keine Antwort möglich")
+questions[[3]] <- paste0(item_stems[[3]], answer_options[[3]])
+explanations[[3]] <- solutions[[3]] <- c(F, TRUE, F, F)
+type[[3]] <- "schoice"
+solutions[[3]] <- mchoice2string(solutions[[3]])
+```
+
+
+
+```{r}
+#explanations <- lapply(explanations[3], function(x) ifelse(x, "Richtig", "Falsch"))
+solutions <- lapply(solutions[3], mchoice2string)
+```
+
+
+```{r}
+# check if length is alsways equal to 5
+expect_true(all(map(solutions, nchar) == 5))
+```
+
+```{r}
+questions %>% 
+  map(fmt)
+```
+
+
+
+```{r questionlist, echo = FALSE, results = "asis"}
+answerlist(format(unlist(questions)), markup = "markdown")
+```
+
+
+
+Solution
+========
+
+
+
+
+**MUSTERLÖSUNG**
+
+
+Setup:
+
+```{r ref.label="load-libs"}
+
+```
+
+
+Modell berechnen:
+
+
+```{r ref.label="compute-mod1"}
+
+```
+
+
+Ausgabe der Ergebnisse:
+
+```{r echo = TRUE}
+print(m1)
+```
+
+
+
+a)
+
+```{r ref.label = "ex-a"}
+
+```
+
+
+b)
+
+```{r ref.label = "ex-b"}
+
+```
+
+c)
+
+```{r ref.label = "ex-c"}
+
+```
+
+
+
+
+```{r solutionlist, echo = FALSE, results = "asis"}
+answerlist(paste(unlist(explanations), ".", sep = ""), markup = "markdown")
+```
+
+
+
+
+
+Meta-information
+================
+exname: post3
+extype: cloze
+exsolution: `r paste(solutions, collapse = "|")`
+exclozetype: `r paste(type, collapse = "|")`
+exshuffle: false
+expoints: `r length(questions)`
+

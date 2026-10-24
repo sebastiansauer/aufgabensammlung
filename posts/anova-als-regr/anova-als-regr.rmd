@@ -1,0 +1,169 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r libs, include = FALSE}
+
+library(tidyverse)
+
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      echo = TRUE,
+                      cache = TRUE)
+```
+
+
+
+
+
+
+
+
+Question
+========
+
+Die *Varianzanalyse* (Analysis of Variance; Anova) ist ein statistisches Verfahren, um die Gleichheit zweier oder mehr Populationsmittelwerte zu testen: $\mu_1 = \mu_2 = \ldots =\mu_n$.
+
+Wie viele andere Verfahren kann die Anova als ein Spezialfall der Regression bzw. des linearen Modells $y = \beta_0 + \beta_1 + \ldots \beta_n + \epsilon$ betrachtet werden.
+
+Als ein spezielles Beispiel betrachten wir die Frage, ob Diamanten (Datensatz `diamonds`) verschiedener Schliffart (`cut`) sich nicht in ihrem mittleren Preis (`price`) unterscheiden.
+
+Den Datensatz können Sie so laden:
+
+```{r}
+library(tidyverse)
+data(diamonds)
+```
+
+a) Nennen Sie UV und AV! Geben Sie jeweils das Skalenniveau an!
+
+b) Nennen Sie die Regressionsformel für diese Forschungsfrage!
+
+c) Betrachten Sie die Ausgabe von R, die den Preisunterschied von Diamanenten in Abhängigkeit der Schliffart angibt. Folgendes Regressionsmodell liegt zugrunde: `price ~ cut`.
+
+
+
+```{r stan1, message=FALSE, eval = FALSE, echo = FALSE}
+library(rstanarm)
+library(tidyverse)
+data(diamonds, package = "ggplot2")
+glimpse(d2)
+
+d2 <- diamonds %>% 
+  mutate(cut = factor(cut, ordered = FALSE))
+lm1 <- stan_glm(price ~ factor(cut), data = d2, refresh = 0, chains = 1)
+lm2 <- lm(price ~ factor(cut), data = d2)
+library(easystats)
+
+parameters(lm1) %>% 
+  select(1:5) %>% 
+  as_tibble()
+```
+
+
+````
+# A tibble: 5 × 5
+  Parameter            Median    CI  CI_low CI_high
+  <chr>                 <dbl> <dbl>   <dbl>   <dbl>
+1 (Intercept)           4356.  0.95  4166.    4547.
+2 factor(cut)Good       -428.  0.95  -645.    -214.
+3 factor(cut)Very Good  -373.  0.95  -576.    -169.
+4 factor(cut)Premium     230.  0.95    24.6    431.
+5 factor(cut)Ideal      -899.  0.95 -1096.    -699.
+````
+
+
+
+Hinweise:
+
+- Die Spalte `Median`  gibt den Punktschätzer des Parameters der jeweiligen Zeile an.
+- Die Spalte `CI` gibt die Größe des im Folgenden berichteteten Konfidenzintervall an.
+- Die beiden folgenden Spalten geben den oberen bzw. unteren Grenzwert des Schätzbereichs (Konfidenzintervalls) an.
+
+
+c) Vor diesem Hintergrund: Würden Sie die Hypothese der Gleichheit aller Mittelwerte der Gruppen (an Schliffarten) ablehnen oder beibehalten?
+
+
+
+
+
+
+
+
+Solution
+========
+
+a) UV: `cut`, AV: `price`; `cut` ist nominal (mehrstufig) und `price` ist metrisch (verhältnisskaliert)
+
+b) `price ~ cut`
+
+
+
+d) Mit hoher Wahrscheinlichkeit ist die Hypothese der Gleichheit aller Gruppenmittelwerte abzulehnen, laut diesem Modell: Die Null ist nicht in den Konfidenzintervallen enthalten.
+
+Das Modell wurde übrigens so berechnet:
+
+
+```{r message=FALSE}
+library(rstanarm)
+library(tidyverse)
+library(easystats)
+
+data(diamonds, package = "ggplot2")
+
+d2 <- diamonds %>% 
+  mutate(cut = factor(cut, ordered = FALSE))
+
+lm1 <- stan_glm(price ~ factor(cut), data = d2, refresh = 0)
+#parameters(lm1)
+```
+
+
+
+
+
+
+Ein "klassisches" Regressionsmodell kommt übrigens zu ähnlichen Werten:
+
+```{r}
+lm1 <- lm(price ~ cut, data = d2)
+summary(lm1)
+```
+
+
+Die einzelnen Stufen (*levels*) von `cut` lassen sich z.B. so ermitteln:
+
+```{r}
+diamonds %>% 
+  summarise(stufen_von_cut = levels(cut))
+```
+
+
+Alternativ:
+
+```{r}
+diamonds %>% 
+  count(cut)
+```
+
+
+
+Meta-information
+================
+extype: string
+exsolution: NA
+exname: anova-als-regression
+expoints: 1
+categories:
+- regression
+- bayes
+- anova

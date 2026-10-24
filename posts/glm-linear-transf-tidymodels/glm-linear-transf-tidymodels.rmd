@@ -1,0 +1,291 @@
+
+
+```{r message = FALSE}
+library(tidyverse)
+options(mc.cores = parallel::detectCores())
+
+```
+
+
+Question
+========
+
+*Forschungsfrage*: Ist der Zusammenhang von Körpergröße und 'Mann' positiv? 
+Gehen also höhere Werte in Körpergröße `height` 
+einher mit einer höheren Wahrscheinlichkeit, 
+dass es sich um einen Mann `male` handelt?
+
+
+
+**Berechnen Sie ein Bayes-Modell mit `tidymodels` und geben Sie die Modellgüte an!**
+
+
+
+
+Hinweise:
+
+- Rechnen Sie in Zentimeter um.
+- Die AV sollte vom Typ `factor` sein bei einer Klassifikation, sonst beschwert sich Tidymodels.
+- Stratifizieren Sie bei der Aufteilung von Train- und Test-Sample.
+- Verwenden Sie eine 10-fache Kreuzvalidierung mit 10 Wiederholungen.
+- Geben Sie die Modellgüte für folgende Koeffizienten an: ROC AUC, Sensitivität, Spezifität, PPV
+- Verwenden Sie Rezept-Schritte (`steps`) nach eigenem Dafürhalten.
+- Stoppen Sie die Zeit, die Ihr Computer braucht, um das Modell zu berechnen.
+- Viel Spaß :-)
+
+
+
+
+  
+Solution
+========
+
+
+## Vorbereitung
+
+```{r message = FALSE}
+library(tidymodels)
+library(tidyverse)
+library(tictoc)  # Zeitmessung der Rechenzeit
+```
+
+
+```{r echo = TRUE}
+d <- read_csv(
+"https://vincentarelbundock.github.io/Rdatasets/csv/openintro/speed_gender_height.csv")
+```
+
+Bereiten wir die Daten vor:
+
+
+
+
+## Datenaufteilung
+
+
+Es ist praktisch, die AV vorab in einen Faktor umzuwandeln (s. weiter unten):
+
+```{r}
+d <-
+  d %>% 
+  mutate(gender = factor(gender))
+```
+
+
+Zur Erinnerung: `tidymodels` modelliert die *erste Stufe* der AV:
+
+```{r}
+levels(d$gender)
+```
+
+
+Also lieber re-leveln:
+
+```{r}
+d <-
+  d %>% 
+  mutate(gender = relevel(gender, ref = "male"))
+
+
+levels(d$gender)  # check
+```
+
+
+
+Dann kommt die initial Datenaufteilung:
+
+```{r}
+d_split <- initial_split(d, strata = "gender")
+d_train <- training(d_split)
+d_test <- testing(d_split)
+```
+
+
+
+
+
+
+## Modelldefinition
+
+
+```{r}
+logist_mod <-
+  logistic_reg()
+
+rsmpling <- vfold_cv(d_train, strata = "gender", repeats = 5)
+
+recipe1 <- recipe(gender ~ height, data = d_train)  %>% 
+  step_mutate(height = height * 2.54) %>% 
+  step_impute_knn()
+
+wf1 <-
+  workflow() %>% 
+  add_model(logist_mod) %>% 
+  add_recipe(recipe1)
+```
+
+
+## Modell fitten
+
+
+```{r fit1}
+tic()  # Stoppuhr an
+fit1 <-
+  fit_resamples(wf1, 
+                rsmpling,
+                metrics = metric_set(roc_auc, sens, spec, ppv)
+  )
+toc()  # Stoppuhr aus
+```
+
+
+```{r}
+fit1
+```
+
+
+
+
+## Ergebnisse im Train-Sample
+
+```{r}
+collect_metrics(fit1)
+```
+
+
+Da wir *nicht* gesagt haben, dass die Vorhersagen gespeichert werden sollen,
+können wir Sie uns auch nicht anschauen:
+
+```{r error= TRUE}
+collect_predictions(fit1)
+```
+
+
+Das hätten wir so machen können, also mit `control()`, dann können wir die Vorhersagen speichern:
+
+```{r fit2}
+tic()  # Stoppuhr an
+fit2 <-
+  fit_resamples(wf1, 
+                rsmpling,
+                metrics = metric_set(roc_auc, sens, spec, ppv),
+                control = control_resamples(save_pred = TRUE)  # NEUE ZEILE
+
+  )
+toc()  # Stoppuhr aus
+```
+
+
+Dauert schon ein bisschen... 
+
+Dabei ist die logistische Regression sehr *wenig* rechenintensiv.
+
+```{r}
+fit2
+```
+
+
+```{r}
+collect_metrics(fit2)
+```
+
+
+## Vorhersagen im Train-Sample
+
+
+Schauen wir uns die Vorhersagen im Train-Sample, zusammengefasst über die alle Faltungen und Wiederholungen (`?collect_predictions`).
+
+
+```{r error= TRUE}
+collect_predictions(fit2, summarize = TRUE)
+```
+
+
+ROC-Kurve im Train-Sample
+
+
+```{r}
+roc_data <- 
+  fit2 %>% 
+  collect_predictions(summarize = TRUE) %>% 
+  select(.pred_male) %>% 
+  bind_cols(d_train) %>% 
+  roc_curve(truth = gender, estimate = .pred_male)
+
+roc_data
+```
+
+
+
+Plotten:
+
+```{r}
+roc_data %>% 
+  ggplot(aes(x = 1- specificity, sensitivity)) +
+  geom_path() +
+  geom_abline(lty = 3) +
+  coord_equal() +
+  theme_bw()
+```
+
+
+Gar nicht schlecht!
+
+
+## Vorhersagegüte im Test-Sample
+
+
+```{r}
+lm1_lastfit <- 
+  last_fit(wf1, d_split,
+           metrics = metric_set(roc_auc, sens, spec, ppv)
+  )
+
+lm1_lastfit
+```
+
+```{r}
+collect_metrics(lm1_lastfit)
+```
+
+
+```{r}
+collect_predictions(lm1_lastfit)
+```
+
+
+## ROC-Kurve
+
+```{r}
+lm1_lastfit %>% 
+  collect_predictions() %>% 
+  roc_curve(truth = gender, estimate = .pred_male) %>% 
+  ggplot(aes(x = 1 - specificity, sensitivity )) +
+  geom_path() +
+  geom_abline(lty = 3) +
+  coord_equal() +
+  theme_bw()
+```
+
+
+## Shinymodels
+
+Mit (dem R-Paket) `{{shinymodels}}` kann man sich eine App ausgeben lassen,
+zur Erkundung der Modellergebnisse:
+
+```{r eval = FALSE}
+library(shinymodels)
+
+explore(fit2)
+```
+
+
+Weitere Infos [finden sich hier](https://shinymodels.tidymodels.org/index.html).
+
+
+Meta-information
+================
+extype: string
+exname: glm-linear-transf-tidymodels
+expoints: 1
+exsolution: NA

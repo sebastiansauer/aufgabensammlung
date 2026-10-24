@@ -1,0 +1,54 @@
+
+
+```{r global-knitr-options, include=FALSE, message=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      echo = FALSE,
+                      message = FALSE,
+                      fig.show = "hold")
+```
+
+
+
+
+
+Question
+========
+
+
+Wählen Sie die korrekte Definition der Verteilungsfunktion einer Zufallsvariablen aus.
+
+
+Answerlist
+----------
+* F(X)
+
+
+Solution
+========
+
+
+Answerlist
+----------
+
+* Falsch
+* Falsch
+* Falsch
+* Wahr
+
+
+
+Meta-information
+================
+exname: verteilungen-quiz-04-b
+extype: schoice
+exsolution: 001‚
+exshuffle: false
+categories:
+- distribution
+- probability
+
+

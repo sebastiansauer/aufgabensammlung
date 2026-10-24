@@ -1,0 +1,113 @@
+
+
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      cache = TRUE,
+                      echo = TRUE,
+                      message = FALSE,
+                      fig.show = "hold")
+
+library(tidyverse)
+library(exams)
+```
+
+
+
+
+
+Question
+========
+
+Verwenden Sie den minimalen Code, um ein lineares Modell mit Tidymodels zu berechnen und die Güte auszugeben.
+
+Modellgleichung `mpg ~ hp, data = mtcars`.
+
+Hinweise:
+
+- Nutzen Sie den RMSE als Gütemaßstab.
+- Fitten Sie nur das Modell, verzichten Sie auf übrige Maßnahmen des Maschinellen Lernens.
+- Verwenden Sie Standards der Funktionen, soweit nicht anders vorgegeben.
+
+
+Solution
+========
+
+## Setup
+```{r}
+library(tidymodels)
+data(mtcars)
+```
+
+
+## Fitten
+
+```{r}
+fit1 <- fit(linear_reg(), mpg ~ hp, data = mtcars)
+fit1
+```
+
+
+## Modellgüte
+
+Leider geht `collect_metrics` nicht für Objekte vom Typ `fit`.
+
+```{r eval=FALSE}
+collect_metrics(fit1)
+```
+
+Wir können aber die Modellgüte von Hand berechnen.
+
+
+
+Dazu ziehen wir uns aus dem Tidymodels-Objekt `fit1` das `lm`-Objekt heraus.
+
+```{r}
+fit1_lm <- extract_fit_engine(fit1)
+```
+
+Mit diesem Objekt können wir dann wie gewohnt arbeiten:
+
+```{r}
+rmse_vec(truth = mtcars$mpg,
+         estimate = fitted(fit1_lm))
+```
+
+Oder so:
+
+```{r}
+fit1_lm %>%
+  summary()
+```
+
+Oder so:
+
+
+```{r}
+performance::r2(fit1_lm)
+performance::rmse(fit1_lm)
+```
+
+
+
+Meta-information
+================
+
+exname: tidymodels01 
+extype: num
+exsolution: `r exams::fmt(sol)`
+exshuffle: false
+expoints: 1
+categories:
+- R
+- statlearning
+- tidymodels
+- lm
+
+
+

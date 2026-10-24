@@ -1,0 +1,114 @@
+
+
+```{r libs, include = FALSE}
+library(tidyverse)
+library(testthat)
+library(glue)
+library(knitr)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      echo = FALSE,
+                      message = FALSE,
+                      fig.show = "hold")
+```
+
+
+
+
+
+Question
+========
+
+
+[Gapminder](http://www.gapminder.org/data/) ist eine Organisation, die Daten zu vielen Themen von allgemeinem Interesse zusammenstellt:
+
+
+>    Gapminder is an independent educational non-proﬁt ﬁghting global misconceptions.
+
+
+Die folgende Tabelle zeigt einen Auszug von Daten von gapminder.
+
+
+```{r}
+gapminder %>% 
+  head() %>% 
+  kable()
+```
+
+
+Die Hilfeseite in R (bekommt man mit `?gapminder`, wenn das Paket `{gapminder}` geladen ist) liefert folgende Informationen zu den Variablen dieser Tabelle:
+
+
+The main data frame gapminder has 1704 rows and 6 variables:
+
+*country*
+factor with 142 levels
+
+*continent*
+factor with 5 levels
+
+*year*
+ranges from 1952 to 2007 in increments of 5 years
+
+*lifeExp*
+life expectancy at birth, in years
+
+*pop*
+population
+
+*gdpPercap*
+GDP per capita (US$, inflation-adjusted)
+
+
+
+Welche Aussage zum Variablentyp (Skalenniveau) ist richtig?
+
+
+
+
+
+Answerlist
+----------
+
+* `pop` ist eine stetige metrische Variable
+* `country` ist eine nominale Variable
+* `pop` ist eine diskrete nominale Variable
+* `gdpPercap` ist eine diskrete metrische Variable
+* `gdpPercap` ist eine diskrete nominale Variable
+
+
+Solution
+========
+
+`country` ist eine nominale Variable
+
+
+Answerlist
+----------
+
+
+* Falsch
+* Wahr
+* Falsch
+* Falsch
+* Falsch
+
+
+
+Meta-information
+================
+exname: messniveau
+extype: schoice
+exsolution: 01000
+exshuffle: false
+categories:
+- data
+- basics
+

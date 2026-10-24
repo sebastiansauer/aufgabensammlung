@@ -1,0 +1,229 @@
+
+```{r}
+library(tidyverse)
+library(rstanarm)
+options(mc.cores = parallel::detectCores())
+```
+
+
+
+Question
+========
+
+Betrachten Sie den Datensatz `mtcars`.
+Die Forschungsfrage betreffe den Einfluss vom Spritverbrauch, $x_1$, UV1, 
+sowie von der Zahl der Zylinder (als Faktor-Variable), $x_2$, UV2, 
+auf die Wahrscheinlichkeit, dass es sich um ein Auto mit Automatik-Schaltung, 
+$y$, AV, handelt. 
+Modellieren Sie dabei einen Interaktionseffekt.
+
+
+
+Aufgaben:
+
+
+a) Überschneiden sich die Graphen der drei Gruppen?
+b) Visualisieren Sie das Modell! Einmal mit der Y-Achse skaliert in Logits...
+c) ... einmal mit der Y-Achse skaliert in Wahrscheinlichkeiten.
+  
+
+
+Hinweise:
+
+- Runden Sie auf zwei Dezimalstellen.
+- Berechnen Sie ein lineares Modell auf Basis der Bayes-Statistik.
+- Orientieren Sie sich am Vorgehen aus dem Unterricht.
+
+
+Solution
+========
+
+a) *Überschneiden sich die Graphen der drei Gruppen?*
+
+
+```{r echo = TRUE}
+data(mtcars)
+mtcars2 <-
+  mtcars %>% 
+  mutate(cyl_f = factor(cyl))
+
+m1 <- 
+  stan_glm(am ~ mpg + cyl_f + mpg:cyl_f, 
+          data = mtcars2,
+           refresh = 0,
+           family = binomial(link = "logit"))
+
+coef(m1)
+```
+
+Plotten wir das Modell zur Orientierung.
+Eine einfache Methode zum Plotten geht so:
+
+```{r echo = TRUE}
+mtcars2 %>% 
+  ggplot(aes(x = mpg, y = am, color = cyl_f)) +
+  geom_jitter(width = 0.1, alpha = .7) +
+  geom_smooth(method = "glm", method.args=list(family="binomial"))
+```
+
+Dabei ist zu beachten, dass hier ein uniformer Prior (für das lineare Modell) verwendet wird.
+
+Im Gegensatz zu einer Geraden ist die Steigung bei einer Kurve wie unserer Ogive
+unterschiedlich in Abhängigkeit vom X-Wert.
+
+*Ja*, die Ogiven überschneiden sich.
+
+Die Visualisierung wird nicht allen Wünschen gerecht,
+weil die Regressionskurve nur entlang des Wertebereichs der Daten gezeigt wird.
+
+
+
+b) *Visualisieren Sie das Modell! Einmal mit der Y-Achse skaliert in Logits...*
+
+Bei b) soll das Modell visualisiert werden, also los.
+
+Sagen wir, wir wollen y-Werte für Werte von `mpg` von 10 bis 35 vorhersagen, für alle 3 Gruppen von `cyl`.
+
+Sagen wir dafür entsprechend die Logit-Werte vorher:
+
+```{r echo = TRUE}
+preds_df <-
+  tibble(
+    mpg = 10:35,
+    preds_cyl4 = predict(m1, newdata = 
+                           tibble(mpg = mpg,
+                                  cyl_f = "4")),
+    preds_cyl6 = predict(m1, newdata =
+                           tibble(mpg = mpg,
+                                  cyl_f = "6")),
+    preds_cyl8 = predict(m1, newdata =
+                           tibble(mpg = mpg,
+                                  cyl_f = "8"))
+  )
+```
+
+
+
+
+
+Alternativ könnten wir direkt die Regressionskoeffizienten nutzen, für `geom_abline()`:
+
+```{r echo = TRUE}
+preds_df %>% 
+  ggplot(aes(x = mpg,
+             y = preds_cyl4)) +
+  scale_x_continuous(limits = c(10, 35)) +
+  scale_y_continuous(limits = c(-10, 10)) +
+  geom_abline(slope = coef(m1)[2],
+              intercept = coef(m1)[1],
+              color = "blue") +
+  geom_abline(slope = coef(m1)[2] + coef(m1)["mpg:cyl_f6"],
+              intercept = coef(m1)[1] + coef(m1)["cyl_f6"],
+              color = "green") +
+  geom_abline(slope = coef(m1)[2] + coef(m1)["mpg:cyl_f8"],
+              intercept = coef(m1)[1] + coef(m1)["cyl_f8"],
+              color = "red")
+```
+
+
+c)
+
+
+
+```{r echo = TRUE}
+preds_df2 <-
+  tibble(
+    mpg = 10:35,
+    preds_cyl4 = predict(m1, newdata = 
+                           tibble(mpg = mpg,
+                                  cyl_f = "4"),
+                         type = "response"),
+    preds_cyl6 = predict(m1, newdata =
+                           tibble(mpg = mpg,
+                                  cyl_f = "6"),
+                         type = "response"),
+    preds_cyl8 = predict(m1, newdata =
+                           tibble(mpg = mpg,
+                                  cyl_f = "8"),
+                         type = "response")
+  )
+```
+
+
+
+
+Das können wir dann visualisieren:
+
+```{r echo = TRUE}
+preds_df2 %>% 
+  ggplot(aes(x = mpg)) +
+  geom_line(aes(y = preds_cyl4),
+            color = "blue")  +
+  geom_line(aes(y = preds_cyl6),
+            color = "green")  +
+  geom_line(aes(y = preds_cyl8),
+            color = "red") 
+```
+
+
+c) *... einmal mit der Y-Achse skaliert in Wahrscheinlichkeiten.*
+
+Um die Ungewissheit zu visualisieren, 
+müssen wir die Stichproben aus der Post-Verteilung visualisieren.
+
+Dabei hlefen die Pakete `tidybayes` und `modelr`:
+
+```{r echo = TRUE}
+library(tidybayes)
+library(modelr)  # für `data_grid()`
+```
+
+
+Zuerst erstellen wir ein "Grid" mit den Prädiktorwerten, 
+für die wir eine Vorhersage wollen:
+
+```{r}
+mtcars_grid <- 
+  data_grid(mtcars2,
+          mpg = seq_range(mpg, 10) ,  # den Range von mpg in 10 Stufen
+          cyl_f)
+```
+
+Jetzt fügen wir die Stichproben aus der Post-Verteilung von `m1` hinzu,
+gleich in der Wskt-Skalierung.
+Das ging doch mit `posterior_epred()`...
+
+```{r}
+mtcars_post_samples <-
+  mtcars_grid %>% 
+  add_epred_draws(m1)
+
+mtcars_post_samples %>% 
+  slice_head(n=10)
+```
+
+Für jede der 30 Fälle (`.row`) wurden 4000 Stichproben (`draw`) gezogen, in Summe als 120,000.
+
+Diese Stichproben(-Fülle) können wir uns jetzt komfortabel plotten lassen von `tidybayes`:
+
+
+```{r}
+mtcars_post_samples %>% 
+  ggplot() +
+  aes(x = mpg, color = cyl_f, y = am) + 
+  stat_lineribbon(aes(y = .epred))  +
+  geom_point(data = mtcars2) +
+  scale_fill_brewer(palette = "Greys") +
+  scale_color_brewer(palette = "Set2")
+```
+
+Das Diagramm sieht nicht gerade vertrauenserweckend aus...
+Zu viel Ungewissheit in unserem Modell.
+
+
+Meta-information
+================
+extype: num
+exsolution: `r sol`
+exname: logist-mtcars3
+extol: 0.02

@@ -1,0 +1,131 @@
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 8,
+                      fig.cap = "", 
+                      fig.path = "",
+                      echo = FALSE,
+                      message = FALSE,
+                      dpi = 72,
+                      fig.show = "hold")
+```
+
+
+
+
+
+Question
+========
+
+
+
+In dieser Aufgabe geht es um folgenden Originalartikel:
+
+Erlandsson, A., Nilsson, A., Tinghög, G., & Västfjäll, D. (2018). Bullshit-sensitivity predicts prosocial behavior. *PLOS ONE, 13*(7), e0201474. https://doi.org/10.1371/journal.pone.0201474
+
+
+
+
+Den Volltext können Sie über diese URL ansteuern:
+
+<https://doi.org/10.1371/journal.pone.0201474>
+
+
+
+
+
+```{r}
+d2 <- data.frame(
+            stringsAsFactors = FALSE,
+                 check.names = FALSE,
+                    Variable = c("Geschlecht","Alter","Bildungsgrad",
+                                 "Zahlenbildung (numeracy)","Reflexionsfähigkeit",
+                                 "Bearbeitungsdauer des Fragebogens","Religiosität",
+                                 "Konservative Orientierung (right wing orientation)",
+                                 "Spenden (Donation experience)",
+                                 "Ehrenamt (volunteering exeprience)"),
+      `Bullshit-receptivity` = c(-0.05,
+                                 -0.11,-0.18,-0.3,-0.35,-0.22,0.34,-0.01,
+                                 -0.05,-0.21),
+  `Profoundness-receptivity` = c(-0.1,0.26,
+                                 0.15,0.16,0.16,0.28,0.07,0.03,0.2,0.23)
+) %>% 
+  pivot_longer(-Variable) %>% 
+  mutate(corr_sign = ifelse(value>=0, "positiv", "negativ"))
+
+
+
+
+
+sol <- 
+  d2 %>% 
+  mutate(is_incorrect = ifelse(corr_sign == "positiv", "negativ", "positiv")) %>% 
+  pivot_longer(-c(Variable, name, value),
+               names_to = "correct_sol",
+               values_to = "sign") %>% 
+  group_by(correct_sol) %>% 
+  mutate(id = row_number()) %>% 
+  ungroup() %>% 
+  filter( (correct_sol == "corr_sign" & id == 1) | (correct_sol == "is_incorrect" & between(id, 1, 4))) %>% 
+  mutate(proposition = glue("Die Korrelation von *{Variable}* und *{name}* ist *{sign}*.")) %>% 
+  mutate(is_correct = case_when(
+    correct_sol == "corr_sign" ~ TRUE,
+    correct_sol == "is_incorrect" ~ FALSE    
+  )) %>% 
+  sample_n(size = nrow(.))  # shuffle
+
+
+```
+
+
+
+
+
+Wählen Sie die richtige Aussage!
+
+
+
+
+*Hinweise*: 
+
+- *Tiefen-Empfänglichkeit* ist die Übersetzung für *profoundness-receptivity*
+- *Bullshit-Empfänglichkeit* ist die Übersetzung für *bullshit-receptivity*
+
+
+```{r itemlist, results='asis'}
+answerlist(sol$proposition, markup = "markdown")
+```
+
+
+
+
+
+Solution
+========
+
+
+Auszug aus dem Artikel:
+
+
+>    Bivariate correlations
+
+>    The bivariate rank-order correlations between all included variables can be seen in Table 2. Age, level of education, numeracy, reflective ability and time spent completing the survey all correlated positively with profoundness-receptivity, but negatively with bullshit-receptivity (and as a logical consequence positively with bullshit-sensitivity). Religiosity was positively correlated primarily with bullshit-receptivity. Participants’ sex and their political self-placement were only weakly related to bullshit-receptivity and profoundness-receptivity.
+
+
+
+Die richtige Aussage lautet: "`r sol$proposition[sol$is_correct]`"
+
+
+
+```{r answerlist, results='asis'}
+answerlist(ifelse(sol$is_correct, "Wahr", "Falsch"), markup = "markdown")
+```
+
+
+Meta-information
+================
+exname: Bullshit2
+extype: schoice
+exsolution: `r mchoice2string(sol$is_correct, single = TRUE)`
+

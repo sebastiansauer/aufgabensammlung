@@ -1,0 +1,88 @@
+Question
+========
+Wir analysieren jetzt den Datensatz `flights`. Hier ist ein Überblick des Datensatzes:
+
+
+```{r message = FALSE, echo = FALSE}
+library(tidyverse)
+library(nycflights13)
+data(flights)
+```
+
+
+```{r}
+glimpse(flights)
+```
+
+Dabei begrenzen wir uns auf ein paar Airlines: "AS", "F9", "OO", "YV", "VX", "FL".
+
+Welcher Datensa
+
+```{r echo = FALSE}
+usa_map <- map_data("usa")
+
+airports <- read.csv("https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat", stringsAsFactors = FALSE, header = FALSE)
+airports <- airports[, c(5, 7, 8)]
+names(airports) <- c("code", "lat", "long")
+orig <- airports %>% dplyr::rename(origin = code, long_o = long, lat_o = lat)
+dest <- airports %>% dplyr::rename(dest = code, long_d = long, lat_d = lat)
+
+d <- flights %>%
+       left_join(orig) %>% 
+       left_join(dest) %>% 
+       filter(carrier %in% c("AS", "F9", "OO", "YV", "VX", "FL"))
+
+d_bg <- d %>% select(-carrier)
+
+ggplot(d) +
+  geom_polygon(data = usa_map, aes(long, lat, group = region)) +
+  geom_segment(data = d_bg, colour = "grey", alpha = .7,
+               aes(x = long_o, y = lat_o,
+                   xend = long_d, yend = lat_d)) +
+  geom_segment(aes(x = long_o, y = lat_o,
+                   xend = long_d, yend = lat_d,
+                   colour = carrier)) +
+  facet_wrap(~ carrier) +
+  guides(colour = FALSE) +
+  theme_bw()
+```
+
+
+```{r}
+d %>% group_by(carrier, dest) %>% 
+  summarise(dest_n = n())
+```
+
+
+
+Answerlist
+----------
+* nomologisch
+* deduktiv
+* induktiv
+* fallspezifisch
+* abduktiv
+
+
+
+Solution
+========
+
+Answerlist
+----------
+* Richtig
+* Richtig
+* Falsch
+* Falsch
+* Falsch
+
+
+Meta-information
+================
+exname: Operationalismus
+extype: mchoice
+exsolution: 11000
+exshuffle: FALSE
+categories:
+- STUB
+

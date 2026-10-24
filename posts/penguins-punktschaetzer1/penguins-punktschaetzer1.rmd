@@ -1,0 +1,93 @@
+
+
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      cache = TRUE,
+                      echo = FALSE,
+                      message = FALSE,
+                      fig.show = "hold")
+```
+
+
+
+
+
+Question
+========
+
+
+Berechnen Sie ein Interaktionsmodell:
+
+-   Datensatz: penguins
+
+-   AV: body_mass_g
+
+-   UVs: bill_length_mm, sex
+
+**Geben Sie den Punktschätzer des Interaktionseffekts an!**
+
+Beachten Sie bitte die üblichen Hinweise.
+
+Solution
+========
+
+*Musterlösung*
+
+Setup:
+
+```{r include=FALSE}
+data(penguins, package = "palmerpenguins")
+library(tidyverse)
+library(rstanarm)
+library(easystats)
+```
+
+Dann berechnen wir das Modell:
+
+```{r}
+mod1 <- stan_glm(body_mass_g ~ bill_length_mm + sex + bill_length_mm:sex,
+                 data = penguins,
+                 refresh = 0,
+                 seed = 42)
+```
+
+Hier sind die Parameter:
+
+```{r}
+parameters(mod1)
+```
+
+
+*Antwort*: **Der Punktschätzer der Interaktionseffekts beträgt ca. -8.19.**
+
+Wenn die Breite auszurechnen wäre, z.B. für den Effekt von \`bill_length_mm\` ,
+kann man das so machen:
+
+```{r}
+98.24 - 59.37
+```
+Man bildet einfach die Differenz der beiden Intervallgrenzen.
+Dabei ist es egal, "wie rum" man die Differenz rechnet (oben-unten oder unten-oben),
+solange man nur den Absolutbetrag, die "Distanz" oder "Breite" des Intervalls betrachtet.
+
+```{r}
+59.37 - 98.24
+```
+
+Bitte immer den Absolutbetrag angeben in diesem Fall.
+
+Meta-information
+================
+exname: penguins-punktschaetzer1
+extype: num
+exsolution: `r y`
+exshuffle: false
+extol: 1
+expoints: 1
+

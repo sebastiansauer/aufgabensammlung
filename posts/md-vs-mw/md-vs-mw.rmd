@@ -1,0 +1,155 @@
+
+
+```{r}
+library(tidyverse)
+library(mosaic)
+library(gridExtra)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 7,
+                      fig.cap = "", 
+                      fig.path = "",
+                      echo = FALSE,
+                      message = FALSE,
+                      fig.show = "hold")
+```
+
+
+
+
+Question
+========
+
+Für welche Abbildung gilt, dass der  Median kleiner ist als der (zugehörige) arithmetischer Mittelwert?
+
+Anders gesagt, gesucht ist $md < \bar{x}$
+
+```{r}
+# Code by Karstne Lübke
+
+set.seed(1896)
+xsym <- rnorm(1000)
+xls <- 1 - rchisq(1000, 2)
+xrs <- rchisq(1000, 2)
+
+hls <- gf_histogram( ~ xls, 
+                     xlab = NULL, 
+                     title = "A", 
+                     fill = viridis(1, alpha = 0.6), 
+                     color = "darkgrey") %>% 
+         gf_theme(axis.text.x = element_blank())
+
+hsym <- gf_histogram( ~ xsym, 
+                      xlab = NULL, 
+                      title = "B", 
+                      fill = viridis(1, alpha = 0.6), 
+                      color = "darkgrey") %>% 
+          gf_theme(axis.text.x = element_blank())
+
+hrs <- gf_histogram( ~ xrs, 
+                     xlab = NULL, 
+                     title = "C", 
+                     fill = viridis(1, alpha = 0.6), 
+                     color = "darkgrey") %>% 
+         gf_theme(axis.text.x = element_blank())
+
+grid.arrange(hls, hsym, hrs, nrow = 3)
+```
+
+
+
+
+
+
+Answerlist
+----------
+* A
+* B
+* C
+* keine Antwort möglich
+
+
+
+Solution
+========
+
+Der Mittelwert ist i. d. R. in Richtung "des langen Endes" einer Verteilung 
+verschoben, daher **C**. 
+
+Faustregel:
+
+
+ Linksschief           |   Symmetrisch                |  Rechtschief
+---------------------- | ---------------------------- | -----------------------
+Mittelwert $<$ Median  |  Mittelwert $\approx$ Median | Mittelwert $>$ Median
+
+Bei (sehr) schiefen Daten beschreibt der Median (blau, gestrichelt) den 
+Schwerpunkt der Beobachtungen besser als der arithmetische Mittelwert (rot).
+
+```{r echo=FALSE, fig.align="center"}
+hls <- gf_histogram( ~ xls, 
+                     xlab = NULL, 
+                     title = "A", 
+                     fill = viridis(1, alpha = 0.6), 
+                     color = "darkgrey") %>% 
+      gf_theme(axis.text.x = element_blank()) %>%
+      gf_vline(xintercept = ~median(xls), 
+               color = viridis(1, alpha = 0.6), 
+               linetype = "dashed") %>%
+      gf_vline(xintercept = ~mean(xls), 
+               color = "red") 
+
+hsym <- gf_histogram( ~ xsym, 
+                      xlab = NULL, 
+                      title = "B", 
+                      fill = viridis(1, alpha = 0.6), 
+                      color = "darkgrey") %>% 
+        gf_theme(axis.text.x = element_blank()) %>%
+        gf_vline(xintercept = ~median(xsym), 
+                 color = viridis(1, alpha = 0.6), 
+                 linetype = "dashed") %>%
+        gf_vline(xintercept = ~mean(xsym), 
+                 color = "red") 
+
+hrs <- gf_histogram( ~ xrs, 
+                     xlab = NULL, 
+                     title = "C", 
+                     fill = viridis(1, alpha = 0.6), 
+                     color = "darkgrey") %>%
+       gf_theme(axis.text.x = element_blank()) %>%
+       gf_vline(xintercept = ~median(xrs), 
+                color = viridis(1, alpha = 0.6), 
+                linetype = "dashed") %>%
+       gf_vline(xintercept = ~mean(xrs), 
+                color = "red") 
+
+grid.arrange(hls, hsym, hrs, nrow = 3)
+
+```
+
+
+
+Answerlist
+----------
+
+
+* Falsch
+* Falsch
+* Wahr
+* Falsch
+
+
+
+
+
+Meta-information
+================
+extype: schoice
+exsolution: 0010
+exname: md-vs-mw
+expoints: 1
+

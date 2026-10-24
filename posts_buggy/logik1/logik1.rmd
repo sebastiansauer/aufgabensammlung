@@ -1,0 +1,171 @@
+
+<!-- ACHTUNG: Die Verwendung der "Wenn-Dann-Kalküle erscheint mir hier falsch! -->
+
+
+```{r libs, include = FALSE}
+library(tidyverse)
+library(testthat)
+library(glue)
+library(exams)
+library(here)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      echo = FALSE,
+                      message = FALSE,
+                      fig.show = "hold",
+                      comment = "")
+```
+
+
+
+
+
+Question
+========
+
+```{r include=FALSE}
+include_supplement("destinations.R",
+                   recursive = TRUE)
+```
+
+
+```{r}
+source("destinations.R")
+```
+
+
+
+```{r terms-sample}
+terms_sample <- sample(destinations, 2)
+```
+
+
+Betrachten Sie folgende Aussage $A$, eine Implikation:
+
+
+"Wenn *`r terms_sample[1]`*, dann *`r terms_sample[2]`*."
+
+
+
+*Hinweis*: "Nicht-A" bedeutet, dass A *nicht* der Fall ist.
+
+
+Welche Antwort ist im Hinblick auf $A$ formallogisch korrekt? Wählen Sie die korrekte Antwort aus!
+
+
+
+
+```{r truth_table_implication}
+tt_implication <-  # CORRECT
+  tibble(
+    p = c(T, T, F, F),
+    q = c(T, F, T, F),
+    pq = c("TT", "TF", "FT", "FF"),
+    implic = c(T, F, T, T)
+  ) %>% 
+  mutate(p_sample = paste0(ifelse(p==TRUE,"", "Nicht-"), terms_sample[1]),
+         q_sample = paste0(ifelse(q==TRUE,"", "Nicht-"), terms_sample[2]),
+         implic_de = ifelse(implic, "wahr", "falsch"),
+         is_correct = c(T, T, T, T)) %>% 
+  mutate(proposition = paste0("*",p_sample, "* ist der Fall und *", q_sample,"* ist der Fall. Also ist die oben genannte Implikation ", implic_de,"."))
+```
+
+
+
+
+```{r}
+itemlist_correct <- 
+  tt_implication %>% 
+  sample_n(1)
+```
+
+
+```{r}
+tt_implication_false <-  # INCORRECT
+    tibble(
+    p = c(T, T, F, F),
+    q = c(T, F, T, F),
+    pq = c("TT", "TF", "FT", "FF"),
+    implic = c(FALSE, TRUE, FALSE, FALSE)
+  ) %>% 
+  mutate(p_sample = paste0(ifelse(p==TRUE,"", "Nicht-"), terms_sample[1]),
+         q_sample = paste0(ifelse(q==TRUE,"", "Nicht-"), terms_sample[2]),
+         implic_de = ifelse(implic, "wahr", "falsch"),
+         is_correct = c(F, F, F, F)) %>% 
+  mutate(proposition = paste0("*",p_sample, "* ist der Fall und *", q_sample,"* ist der Fall. Also ist die oben genannte Implikation ", implic_de,".")) 
+```
+
+
+
+
+```{r}
+tt_modus_tollens_false <-  # INCORRECT
+  tibble(
+    p = c(T, T, F, F),
+    q = c(T, F, T, F),
+    pq = c("TT", "TF", "FT", "FF"),
+    implic = c(T, T, T, F)
+  ) %>% 
+  mutate(p_sample = paste0(ifelse(p==TRUE,"", "Nicht-"), terms_sample[1]),
+         q_sample = paste0(ifelse(q==TRUE,"", "Nicht-"), terms_sample[2]),
+         implic_de = ifelse(implic, "wahr", "falsch"),
+         is_correct = c(F, F, F, F)) %>% 
+  mutate(proposition = glue("Wenn *{q_sample}*, dann *{p_sample}*. Also ist die oben genannte Implikation {implic_de}.")) 
+```
+
+
+
+
+
+```{r}
+itemlist_incorrect <- 
+  tt_implication_false %>% 
+  bind_rows(tt_modus_tollens_false) %>% 
+  sample_n(size = 4)  # 4 wrong options
+
+
+itemlist <-
+  itemlist_correct %>% 
+  bind_rows(itemlist_incorrect) #%>% 
+  #sample_n(size = nrow(.))  # shuffle_it
+```
+
+
+
+
+
+```{r itemlist, results="asis"}
+answerlist(itemlist$proposition, markup = "markdown")
+```
+
+
+
+
+
+
+
+Solution
+========
+
+Die richtige Aussage lautet "`r itemlist$proposition[itemlist$is_correct==TRUE]`".
+
+
+
+```{r itemlist_asnwer, results="asis"}
+answerlist(ifelse(itemlist$is_correct, "Wahr", "Falsch"), markup = "markdown")
+```
+
+
+Meta-information
+================
+exname: logik1
+extype: schoice
+exsolution: `r  mchoice2string(itemlist$is_correct)`
+exshuffle: true

@@ -1,0 +1,193 @@
+
+<!-- STILL BUGGY!!! -->
+
+
+
+
+```{r libs, include = FALSE}
+library(tidyverse)
+library(testthat)
+library(glue)
+library(exams)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      echo = FALSE,
+                      message = FALSE,
+                      fig.show = "hold",
+                      comment = "")
+```
+
+
+
+
+
+Question
+========
+
+
+```{r results = "hide"}
+include_supplement(file = "destinations.R")
+```
+
+
+```{r}
+r <- source("destinations.R")
+```
+
+
+
+```{r terms-sample}
+terms_sample <- sample(destinations, 2)
+```
+
+
+Betrachten Sie folgende Aussage:
+
+
+"Wenn *`r terms_sample[1]`*, dann *`r terms_sample[2]`*."
+
+
+
+*Hinweis*: "Nicht-A" bedeutet, dass A *nicht* der Fall ist.
+
+
+Welche Aussage wendet den *Modus tollens* richtig an?
+
+
+```{r fun_modustollens}
+
+
+
+modus_tollens <- function(p, q) {
+  
+  out <- FALSE
+  
+  if (p==FALSE & q==FALSE) out <- TRUE
+  
+  return(out)
+}
+
+```
+
+
+
+```{r truth_table_implication}
+tt_modus_tollens <-  # CORRECT
+  tibble(
+    p = c(T, T, F, F),
+    q = c(T, F, T, F),
+    pq = c("TT", "TF", "FT", "FF"),
+    implic = c(F, F, F, T)
+  ) %>% 
+  mutate(p_sample = paste0(ifelse(p==TRUE,"", "Nicht-"), terms_sample[1]),
+         q_sample = paste0(ifelse(q==TRUE,"", "Nicht-"), terms_sample[2]),
+         implic_de = ifelse(implic, "wahr", "falsch"),
+         is_correct = c(T, T, T, T)) %>% 
+  mutate(proposition = glue("Wenn *{q_sample}*, dann *{p_sample}*"))
+```
+
+
+
+
+```{r}
+itemlist_correct <- 
+  tt_modus_tollens %>% 
+  #sample_n(1)
+  filter(implic == TRUE)
+```
+
+
+```{r}
+tt_modus_tollens_false1 <-  # INCORRECT
+  tibble(
+    p = c(T, T, F, F),
+    q = c(T, F, T, F),
+    pq = c("TT", "TF", "FT", "FF"),
+    implic = c(T, T, T, F)
+  ) %>% 
+  mutate(p_sample = paste0(ifelse(p==TRUE,"", "Nicht-"), terms_sample[1]),
+         q_sample = paste0(ifelse(q==TRUE,"", "Nicht-"), terms_sample[2]),
+         implic_de = ifelse(implic, "wahr", "falsch"),
+         is_correct = c(F, F, F, F)) %>% 
+  mutate(proposition = glue("Wenn *{q_sample}*, dann *{p_sample}*")) 
+```
+
+
+
+```{r}
+# here we change q and q. Modus tollens means "not-q -> not-p", but here we state "not-p -> not-q"
+tt_modus_tollens_false2 <-  # INCORRECT
+  tibble(
+    p = c(T, T, F, F),
+    q = c(T, F, T, F),
+    pq = c("TT", "TF", "FT", "FF"),
+    implic = c(T, T, T, F)
+  ) %>% 
+  mutate(p_sample = paste0(ifelse(p==TRUE,"", "Nicht-"), terms_sample[1]),
+         q_sample = paste0(ifelse(q==TRUE,"", "Nicht-"), terms_sample[2]),
+         implic_de = ifelse(implic, "wahr", "falsch"),
+         is_correct = c(F, F, F, F)) %>% 
+  mutate(proposition = glue("Wenn *{p_sample}*, dann *{q_sample}*")) 
+```
+
+
+
+
+
+
+```{r}
+itemlist_incorrect <- 
+  tt_modus_tollens_false1 %>% 
+  bind_rows(tt_modus_tollens_false2) %>%   
+  filter(implic == TRUE)  %>% # if this INCORRECt implication is true...
+  sample_n(4)  # only four wrong answer alternatives
+
+
+
+itemlist <-
+  itemlist_correct %>% 
+  bind_rows(itemlist_incorrect) #%>% 
+  #sample_n(size = nrow(.))  # shuffle_it
+```
+
+
+
+Wählen Sie die korrekte Aussage aus!
+
+
+```{r itemlist, results="asis"}
+answerlist(itemlist$proposition, markup = "markdown")
+```
+
+
+
+
+
+
+
+Solution
+========
+
+Die richtige Aussage lautet "`r itemlist$proposition[itemlist$is_correct==TRUE]`".
+
+
+
+```{r itemlist_asnwer, results="asis"}
+answerlist(ifelse(itemlist$is_correct, "Wahr", "Falsch"), markup = "markdown")
+```
+
+
+Meta-information
+================
+exname: modustollens2
+extype: schoice
+exsolution: `r  mchoice2string(itemlist$is_correct)`
+exshuffle: true
+exdyn: true

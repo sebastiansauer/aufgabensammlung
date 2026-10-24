@@ -1,0 +1,151 @@
+
+
+
+
+
+
+Question
+========
+
+
+Laden Sie $n=10^k$ Tweets von Twitter herunter (mit $k=5$) und zwar pro Nutzerkonto wie unten angegeben .
+die Tweets sollen jeweils an eine prominente Person gerichtet sein.
+
+
+Hinweise:
+
+- Begrenzen Sie sich auf das aktuelle Jahr.
+- Beziehen Sie sich auf [diese Politikis](https://github.com/sebastiansauer/datascience-text/blob/main/data/twitter-german-politicians.csv).
+- Nutzen Sie die Twitter-API.
+
+
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+
+
+Solution
+========
+
+Wir starten die benötigten R-Pakete:
+
+```{r}
+library(academictwitteR)
+library(tidyverse)
+library(askpass)
+library(rio)
+```
+
+
+Hier ist der Datensatz mit den Twitterkonten,
+für die wir die Daten herunterladen sollen:
+
+```{r}
+politicians_path <- "https://raw.githubusercontent.com/sebastiansauer/datascience-text/main/data/twitter-german-politicians.csv"
+politicians <- import(politicians_path)
+politicians
+```
+
+
+
+Wir müssen noch das Passwort bereitstellen:
+
+```{r eval=FALSE}
+#| eval: false
+bearer_token <- askpass::askpass("bearer token")
+```
+
+
+
+Und dann definieren wir eine Funktion, 
+die das Gewichtheben für uns erledigt:
+
+```{r}
+get_all_tweets_politicians <- function(screenname, n = 1e0) {
+  get_all_tweets(query = paste0("to:", screenname, " -is:retweet"),
+                 start_tweets = "2022-01-01T00:00:00Z",
+                 end_tweets = "2022-10-31T23:59:59Z",
+                 bearer_token = bearer_token,
+                 file = glue::glue("~/datasets/Twitter/hate-speech/tweets-to-{screenname}_2022.rds"),
+                 data_path = glue::glue("~/datasets/Twitter/hate-speech/{screenname}-2022"),
+                 n = n)
+}
+```
+
+
+Jetzt wenden wir die Funktion auf jedes Twitterkonto unserer Liste (alle Politikis) an:
+
+```{r eval=FALSE}
+#| eval: false
+d <- politicians$screenname %>% 
+  map(get_all_tweets_politicians, n = 1e05)
+```
+
+
+Wir könnten noch die Spalten herausziehen,
+die uns am meisten interessieren,
+das das Objket `d` ja doch recht groß geworden ist.
+
+
+So könnten wir aus den Daten des ersten Nutzerkontos die relevanten Elemente herausziehen:
+
+```{r eval=FALSE}
+to_keep <- c("conversation_id", "author_id", "id", "text", "created_at")
+
+d1 <- 
+d[[1]][to_keep]
+```
+
+
+Da das Datenobjekt eine Liste und kein Tibble ist,
+ist das Vorgehen etwas ungewohnt.
+
+
+Das machen wir jetzt für jedes Listenelement:
+
+```{r eval=FALSE}
+d2 <- 
+  d %>% 
+  map(`[`, to_keep)
+```
+
+
+Und schließlich wandeln wir die Liste in eine Tabelle um.
+Vermutlich ist diese Frage einer am häufigsten gegoogelten R-Fragen ...
+
+
+```{r eval=FALSE}
+d3 <-
+  bind_rows(d2)
+```
+
+
+Und diesen Datensatz können wir jetzt speichern:
+
+
+```{r eval=FALSE}
+write_rds(d3, file = "~/datasets/Twitter/hate-speech/hate-speech-politicians-2021.rds")
+```
+
+
+
+Meta-information
+================
+extype: string
+exsolution: NA
+exname: twitter07
+expoints: 1
+categories:
+- textmining
+- twitter
+- programming
+

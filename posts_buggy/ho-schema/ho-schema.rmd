@@ -1,0 +1,34 @@
+Question
+========
+Nach Hempel und Oppenheim ist ein Phänomen nur dann wissenschaftlich erklärt, wenn einige Voraussetzungen im Hinblick auf eine Erklärung erfüllt sind. Kreuzen Sie die richtige Antwort an.
+
+
+Answerlist
+----------
+* nomologisch
+* deduktiv
+* induktiv
+* fallspezifisch
+* abduktiv
+* randomisiert
+* zufällig
+
+
+
+Solution
+========
+
+Answerlist
+----------
+* Richtig
+* Richtig
+* Falsch
+* Falsch
+* Falsch
+
+Meta-information
+================
+exname: HO1
+extype: schoice
+exsolution: 1100000
+exshuffle: TRUE

@@ -1,0 +1,141 @@
+
+
+```{r libs, include = FALSE}
+library(tidyverse)
+library(testthat)
+library(glue)
+library(printr)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      echo = TRUE,
+                      message = FALSE,
+                      fig.show = "hold")
+```
+
+
+
+
+
+Question
+========
+
+
+
+
+Betrachten Sie den Datensatz zur Größe der !Kung:
+
+```{r}
+library(rio)
+library(tidyverse)
+url_kung <- "https://raw.githubusercontent.com/rmcelreath/rethinking/master/data/Howell1.csv"
+d <-
+  import(url_kung)  # Strichpunkt als Trennzeichen in der CSV-Datei
+```
+
+
+
+Gegeben dem folgenden Modell, berechnen Sie die PPV und geben Sie ein 95%-HDI an!
+
+
+
+Likelihood:
+$h_i \sim \mathcal{N}(\mu, \sigma)$
+
+Prior für $\mu$:
+$\mu \sim \mathcal{N}(0, 1)$
+
+Prior für $\sigma$:
+$\sigma \sim \mathcal{U}(0, 10)$
+
+
+
+Hinweise:
+
+- `h` steht für die Körpergröße (height)
+- Der Befehl `check_model()` aus dem Paket `{easystats}` visualisiert die PPV für Sie.
+
+
+Solution
+========
+
+```{r eval = FALSE}
+library(rstanarm)
+
+m1 <-
+  stan_glm(height ~ 1,
+           prior_intercept = normal(0,1),
+           prior_aux = exponential(0.1),
+           data = d,
+           refresh = 0
+  )
+```
+
+Die Post-Verteilung könnten wir uns z.B. so komfortabel ausgeben lassen.
+
+```{r}
+library(easystats)
+describe_posterior(m1)
+```
+
+
+Mit `check_predictions` oder `check_posterior_predictions` (synonym) bekommen Sie 
+eine Visualisierung der PPV ($y_rep$) vs. der beobachteten Verteilung, $y$:
+
+```{r}
+check_posterior_predictions(m1)
+```
+
+
+Mit `posterior_predict` bekommt man die Vorhersagen laut PPV,
+hier für die Körpergrößen von 100cm bis 200cm.
+
+Da `posterior_predict` keine brave Tabelle ausgibt,
+bietet es sich an, mit `as_tibble` in einen Tibble (eine brave R-Tabelle) umzuwandeln:
+
+```{r}
+m1_ppv <- post_predict(m1, newdata = tibble(height = 100:200)) %>% as_tibble()
+m1_ppv
+```
+
+In jeder Spalte stehen die (im Default 4000) Vorhersagen pro Wert der Körpergröße,
+hier also die Spalte für die Werte von 100 bis 200 (also 101 Spalten).
+
+
+```{r}
+library(easystats)
+check_model(m1)
+```
+
+Wie man sieht,
+deckt sich die PPV (blau) schlecht mit der wahren Verteilung (grün) der Körpergrößen im Datensatz.
+Unser Modell ist nicht gut!
+
+Ein Grund könnte sein,
+dass wir auch Kinder beinhalten im Datensatz - 
+aber von einer mittleren Körpergröße ausgeben,
+die sich auf Erwachsene bezieht.
+
+Das sollten wir besser machen.
+
+
+
+
+Meta-information
+================
+extype: string
+exsolution: NA
+exname: ppv01-kung
+expoints: 1
+categories:
+- probability
+- bayes
+- ppv
+
+

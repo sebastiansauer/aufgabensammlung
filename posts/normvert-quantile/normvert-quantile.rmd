@@ -1,0 +1,91 @@
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      out.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      dpi = 300,
+                      message = FALSE)
+
+library(exams)
+```
+
+
+
+
+
+
+Question
+========
+Geben Sie das am besten passende *Quantil* für das im Folgenden dargestellten Wert der Verteilungsfunktion an.
+
+Gehen Sie von dieser Verteilung aus: $\mathcal{N}(\mu = 0, \sigma = 1)$.
+
+
+
+
+
+
+
+
+```{r p-quantile-normvert, message = FALSE, echo = FALSE}
+#library(mosaic)
+
+#perzentil_vec <- c(0.001349, .024, 0.16, 0.5, .84, .975, .998)
+percentile_vec <- pnorm(c(-3, -2, -1, 0, 1, 2, 3))
+percentile <- sample(percentile_vec, 1)
+
+
+quantile_vec <- qnorm(percentile_vec)
+
+
+
+correct_quantile <- qnorm(percentile)
+
+
+
+
+questions <- quantile_vec %>% round(3)
+
+solutions <- quantile_vec == correct_quantile
+
+
+o <- sample(1:length(percentile_vec))
+questions <- questions[o]
+solutions <- solutions[o]
+
+# questions
+# solutions
+```
+
+Der Wert der Verteilungsfunktion lautet: `r percentile`.
+
+```{r questionlist, echo = FALSE, results = "asis"}
+answerlist( fmt(questions, 3), markup = "markdown")
+```
+
+
+
+
+
+Solution
+========
+
+Das Quantil von $z = `r percentile`$ ist `r fmt(correct_quantile, 2)`.
+
+```{r solutionlist, echo = FALSE, results = "asis"}
+answerlist(ifelse(solutions, "Richtig", "Falsch"), markup = "markdown")
+```
+
+
+
+
+
+Meta-information
+================
+exname: normvert-quantile
+extype: schoice
+exsolution: `r mchoice2string(solutions, single = TRUE)`
+exshuffle: 5
+expoints: 1
+

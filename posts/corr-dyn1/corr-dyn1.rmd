@@ -1,0 +1,180 @@
+
+```{r libs, include = FALSE}
+#library(rstanarm)
+library(tidyverse)
+#library(teachertools)
+library(easystats)
+#library(exams)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      cache = FALSE,
+                      echo = TRUE,
+                      message = FALSE,
+                      fig.show = "hold")
+
+options(mc.cores = parallel::detectCores())
+config <- config::get(file = "/Users/sebastiansaueruser/github-repos/rexams-exercises/config.yml")
+```
+
+
+
+
+
+Question
+========
+
+
+
+
+
+
+```{r prep-data, message=FALSE, results = "hide", echo=FALSE}
+all_dfs <- teachertools::teaching_df()
+
+d <- teachertools::teaching_df("random")
+
+
+d_name <- attr(d, "df_name")
+d_path <- attr(d, "d_path")
+d_doc <- attr(d, "d_doc")
+preds_chosen <- attr(d, "preds_chosen")
+preds_chosen_idx <- 1:length(preds_chosen)
+focus_pred <- attr(d, "focus_pred")
+output_var <- attr(d, "output_var")
+av <- output_var
+k <- length(preds_chosen)  # number of predictors chosen
+```
+
+
+
+
+```{r question, echo = FALSE}
+question <-  glue::glue("Berechnen Sie die Korrelation von {av} und {focus_pred}!")
+```
+
+
+
+Im Folgenden ist der Datensatz ``r d_name`` zu analysieren. Er ist unter dieser [Quelle](`r d_path`) erhältlich: `r d_path`.
+
+Eine Möglichkeit, den Datensatz zu beziehen, ist [diese Sammlung an Datensätzen](https://vincentarelbundock.github.io/Rdatasets/articles/data.html). Suchen Sie dort nach dem Namen des Datensatzes.
+Importieren Sie dann die Daten in R.
+
+Hilfe zum Datensatz ist [auf dieser Webseite](https://vincentarelbundock.github.io/Rdatasets/articles/data.html) abrufbar.
+
+
+
+
+
+
+
+*Aufgabe*: **`r question`**
+
+
+[Beachten Sie die Bearbeitungshinweise.](https://hinweisbuch.netlify.app/030-hinweise-pruefung-klausur-frame)
+
+
+
+
+
+
+
+
+
+
+Solution
+========
+
+
+
+
+*MUSTERLÖSUNG*
+
+
+Datenquelle: `r paste0("<", d_path, ">")`.
+
+
+
+Pakete starten:
+
+```{r eval = FALSE}
+library(tidyverse)
+library(easystats)
+#library(rstanarm)
+```
+
+
+
+Daten importieren:
+
+```{r echo = FALSE}
+txt_import <- paste0("d <- read_csv('", d_path, "')")
+```
+
+``r txt_import``
+
+
+
+
+
+
+Die Korrelation lässt sich z.B. so berechnen:
+
+
+
+```{r mod, echo = TRUE}
+d %>% 
+  correlation()
+```
+
+
+Dann liest man den gesuchten Wert aus der Tabelle ab.
+
+
+*Lösung*: 
+
+
+
+
+```{r sol-format, echo = FALSE}
+sol_raw <- cor(d$av, d$uv1, use = "complete.obs")
+sol <- exams::fmt(sol_raw)
+sol
+```
+
+
+
+```{r tol, echo = FALSE}
+min_tol <- 0.05 
+sol_tol <- exams::num2tol(sol_raw, min = config$tol_abs, reltol = .05) %>% exams::fmt(3)
+```
+
+
+
+---
+
+Aufgaben-ID: corr-dyn1, Toleranzbreite: `r sol_tol`
+
+
+
+
+Meta-information
+================
+exname: corr-dyn1 
+extype: num
+exsolution: `r sol`
+extol: `r sol_tol`
+exshuffle: false
+expoints: 1 
+categories:
+- correlation 
+- dyn
+
+
+

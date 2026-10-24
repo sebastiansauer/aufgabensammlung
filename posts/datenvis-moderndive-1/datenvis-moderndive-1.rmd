@@ -1,0 +1,47 @@
+
+```{r libs, include = FALSE}
+
+library(tidyverse)
+library(mosaic)
+
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "")
+```
+
+
+
+
+
+
+
+
+Question
+========
+
+Weisen Sie dem Objekt `loesung` den Wert `42` zu. Geben Sie den korrekten R-Code dafür ein.
+
+
+
+Solution
+========
+
+```{r echo = FALSE}
+sol <- "loesung <- 42"
+```
+
+``r sol``
+
+
+Meta-information
+================
+extype: string
+exsolution: `r sol`
+exname: wertzuweisen
+expoints: 5

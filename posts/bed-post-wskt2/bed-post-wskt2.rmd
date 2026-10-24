@@ -1,0 +1,275 @@
+<!-- Achtung, es kann passieren, dass mehrere Antwortoptionen den Wert "0" anzeigen, -->
+<!-- was von Studis als "Fehler" gesehen werden kann. Muss noch korrigiert werden. -->
+
+```{r libs, include = FALSE}
+library(tidyverse)
+library(rstanarm)
+#library(exams)
+#library(assertthat)
+library(glue)
+library(easystats)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      cache = FALSE,
+                      echo = FALSE,
+                      message = FALSE,
+                      fig.show = "hold")
+
+options(mc.cores = parallel::detectCores())
+
+#config <- config::get(file = "/Users/sebastiansaueruser/github-repos/rexams-exercises/config.yml")
+```
+
+
+
+
+
+Question
+========
+
+
+
+
+
+
+```{r prep-data, message=FALSE, results = "hide"}
+all_dfs <- teachertools::teaching_df()
+
+# take data set only if correlation is strong enough:
+repeat{
+  d <- teachertools::teaching_df("random")
+  cor_av_uv1 <- cor(d$av, d$uv1, use = "complete.obs")
+  if (cor_av_uv1 > 0.2){
+    break
+  }
+}
+
+  
+d_name <- attr(d, "df_name")
+
+d_path <- all_dfs |> 
+  dplyr::filter(datasets_names == d_name) |> 
+  dplyr::pull(source)
+
+preds_chosen <- attr(d, "preds_chosen")
+focus_pred <- attr(d, "focus_pred")
+output_var <- attr(d, "output_var")
+av <- output_var
+
+d2 <- d |> 
+  select(av, uv1)
+```
+
+
+
+
+
+Im Folgenden ist der Datensatz ``r d_name`` zu analysieren. Er ist unter dieser [Quelle](`r d_path`) erhältlich: `r d_path`.
+
+Eine Möglichkeit, den Datensatz zu beziehen, ist [diese Sammlung an Datensätzen](https://vincentarelbundock.github.io/Rdatasets/articles/data.html). Suchen Sie dort nach dem Namen des Datensatzes.
+Importieren Sie dann die Daten in R.
+
+Hilfe zum Datensatz ist [auf dieser Webseite](https://vincentarelbundock.github.io/Rdatasets/articles/data.html) abrufbar.
+
+
+
+
+Zur Lösung dieser Aufgabe ist folgendes lineares Modell zu berechnen:
+
+
+AV: `r output_var`.
+
+UV: `r focus_pred` (uv1).
+
+
+
+
+Im Modell sollen alle Variablen z-standardisiert sein, also z-transformieren wir:
+
+
+```{r standardize-df, echo = TRUE}
+library(easystats)
+d_z <- standardize(d)
+```
+
+
+
+
+
+```{r mod, echo = TRUE}
+mod <- stan_glm(av ~ uv1, 
+                data = d_z, 
+                refresh = 0, 
+                seed = 42)
+```
+
+
+Hier sind die Parameter des Modells:
+
+
+```{r echo = TRUE}
+parameters(mod)
+```
+
+
+
+
+
+
+
+```{r}
+missing_sign <- "\\Box"
+eq <- paste0("$$Pr(\\text{", av, "}_i = 0|\\text{",focus_pred, "}_i=0, \\alpha, \\beta, \\sigma) \\quad", 
+             missing_sign,  
+             "\\quad Pr(\\text{", av, "}_i = 0|\\text{",focus_pred, "}_i=1, \\alpha, \\beta, \\sigma)$$")
+```
+
+
+Betrachten Sie dazu  folgende Beziehung (Gleichung bzw. Ungleichung):
+
+
+```{r results = "asis"}
+cat(eq)
+```
+
+
+
+
+
+
+Die in der obigen Beziehung angegebenen Parameter beziehen sich auf dargestellte Regressionsmodell, `mod`.
+
+**Aufgabe**: Geben Sie als Antwort *genau eines* der folgenden Zeichen ein: 
+
+- `<`
+- `>`
+- `=`
+- `?`
+
+
+*Hinweise*:
+
+- Das Fragezeichen `?` als Antwortoption bedeutet, dass keine Antwort möglich ist (auf Basis der Angabe).
+- Verwenden Sie Standardwerte der R-Funktionen, soweit nicht anders angegeben.
+- Verwenden Sie Methoden der Bayes-Statistik für inferenzstatistische Analysen.
+- Geben Sie keine Prozentzahlen an, sondern Anteile (also nicht "50%", sondern "0.5" etc.)
+- Findet sich in einer Auswahlliste möglicher Antworten nicht die exakte Lösung, wählen Sie die am besten passende.
+- Beziehen Sie sich im Zweifel auf den Stoff, so wie im Unterricht behandelt.
+- Z-Skalieren Sie alle Variablen (d.h. Prädiktoren und AV).
+- Geben Sie *nur ein Zeichen, wie oben angegeben an*, andere Eingaben werden als *falsch* gewertet.
+- Gehen Sie davon aus, dass der Likelihood normalverteilt ist.
+
+
+
+
+
+Solution
+========
+
+Das Modell kann so berechnet werden:
+
+
+```{r ref.label="mod", echo = TRUE, eval = FALSE}
+```
+
+
+```{r results = "hide"}
+predictions <- predict(mod, newdata = tibble(uv1 = c(0,1)))
+
+diff_pred_zero1 <- abs(round(predictions[1], 1))
+diff_pred_zero2 <- abs(round(predictions[2], 1))
+if (diff_pred_zero1 < diff_pred_zero2) sol <- ">"
+if (diff_pred_zero1 > diff_pred_zero2) sol <- "<"
+if (diff_pred_zero1 == diff_pred_zero2) sol <- "="
+
+#assert_that(exists("sol"))
+```
+
+
+
+
+
+Die Aufgabe fragt, wie wahrscheinlich es ist, dass das Modell $y=0$ (also den Mittelwert der AV) 
+vorhersagt, wenn $x=0$ bzw. wenn $x=1$ ist.
+
+Daher lassen wir uns die Vorhersagen zunächst ausgeben.
+
+
+```{r}
+pred_str <- glue::glue("predict(mod, newdata = tibble({focus_pred} = c(0,1))")
+```
+
+
+Je nachdem, wie Ihr Prädiktor heißt, könnten Sie sich die Vorhersagen z.B. so ausgeben lassen: ``r pred_str``.
+
+```{r}
+predictions
+```
+
+
+Eine Visualisierung ist hilfreich:
+
+```{r message = FALSE, echo = TRUE}
+ggplot(d_z, aes(x = uv1, y = av)) +
+  geom_point() +
+  geom_smooth(method = "lm")
+```
+
+
+Die Regressionsgerade zeigt (mehr oder weniger) deutlich, bei welchem Wert, $x=0$ oder $x=1$ die vorhergesagten Werte näher an Null liegen. 
+Wenn der Punktschätzer einer Vorhersage näher an Null ist, so ist es wahrscheinlicher, 
+dass der Wert Null ist (im Verhältnis zu einer Vorhersage, deren Punktschätzer weiter weg von Null liegt).
+
+Also: Je näher der Wert von $y$ an Null ist, desto größer seine Wahrscheinlichkeit, Null zu sein.
+
+Man betrachtet also die beiden Vorhersagen (x=0 vs. x=1) und sucht die Zahl,
+die näher an Null ist. 
+Für diesen Wert ist die Wahrscheinlichkeit höher, dass $y=0$.
+
+In diesem Fall gilt also:
+
+
+```{r}
+missing_sign <- sol
+eq <- paste0("$$Pr(\\text{", av, "}_i = 0|\\text{",preds_chosen, "}_i=0, \\alpha, \\beta, \\sigma) \\quad", 
+             missing_sign,  
+             "\\quad Pr(\\text{", av, "}_i = 0|\\text{",preds_chosen, "}_i=1, \\alpha, \\beta, \\sigma)$$")
+```
+
+
+
+```{r results = "asis"}
+cat(eq)
+```
+
+
+Die richtige Lösung lautet also: **`r sol`**.
+
+
+---
+
+Aufgaben-ID: Bed-Post-Wskt2
+
+
+
+
+
+Meta-information
+================
+exname: Bed-Post-Wskt2
+extype: string
+exsolution: `r sol`
+exshuffle: false
+expoints: 1
+categories:
+- post
+- bayes
+- dyn
+

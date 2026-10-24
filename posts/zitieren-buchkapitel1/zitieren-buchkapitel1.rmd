@@ -1,0 +1,51 @@
+
+```{r libs, include = FALSE}
+
+library(tidyverse)
+library(mosaic)
+
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "")
+```
+
+
+
+
+
+
+
+
+Question
+========
+
+Zitieren Sie als Kurzverweis  (d.h. eine Quellenangabe im Text) eine Kernaussage aus [diesem Buchkapitel](https://link.springer.com/chapter/10.1007%2F978-3-658-23397-6_11).
+
+
+
+Richten Sie sich nach den Vorgaben der DGPs.
+
+
+
+Solution
+========
+
+```{r echo = FALSE}
+sol <- "Sauer und Sülzenbrück (2019) stellen Ungewissheit und den Umgang damit als zentrale Aufgabe des Forschens heraus."
+```
+
+`r sol`
+
+
+Meta-information
+================
+extype: string
+exsolution: `r sol`
+exname: kurzverweis-buchkapitel1
+expoints: 1

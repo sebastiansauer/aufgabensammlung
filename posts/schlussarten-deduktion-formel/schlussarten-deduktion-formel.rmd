@@ -1,0 +1,33 @@
+Question
+========
+Welche der folgenden Formeln gibt *Deduktion* am besten wieder?
+
+Answerlist
+----------
+* $\exists  x: x \Rightarrow y$
+* $\forall  x: x \Rightarrow y$
+* Es könnte sein, dass $\exists  x: x \Rightarrow y$
+* Es könnte sein, dass $\forall  x: x \Rightarrow y$
+* Es gibt eine hohe Wahrscheinlichkeit, dass  $\exists  x: x \Rightarrow y$
+
+
+Solution
+========
+$\forall  x: x \Rightarrow y$
+
+Answerlist
+----------
+* Falsch
+* Wahr
+* Falsch
+* Falsch
+* Falsch
+
+
+
+Meta-information
+================
+exname: deduktion-formel
+extype: schoice
+exsolution: 01000
+exshuffle: true

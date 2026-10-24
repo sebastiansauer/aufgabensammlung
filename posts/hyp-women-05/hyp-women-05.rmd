@@ -1,0 +1,172 @@
+
+
+```{r libs, include = FALSE}
+library(tidyverse)
+#library(glue)
+options(mc.cores = parallel::detectCores())
+library(rstanarm)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      echo = TRUE,
+                      message = FALSE,
+                      fig.show = "hold")
+```
+
+
+
+
+
+Question
+========
+
+Der Datensatz `wo_men` Untersucht Geschlechtsunterschiede u.a. in Körpergröße.
+
+Sie können ihn hier herunterladen:
+
+
+```{r echo = TRUE}
+wo_men_path <- "https://raw.github.com/sebastiansauer/modar/master/datasets/wo_men.csv"
+d <- read_csv(wo_men_path)
+```
+Testen Sie anhand dieses Datensatzes folgende Hypothese $H$:
+
+
+"Männer sind im Schnitt größer als Frauen!"
+
+
+Diese Aussage soll wie folgt verstanden werden:
+
+Der Anteil erklärter Varianz $R^2$ in einem entsprechenden Modell soll größer als 
+ein kritischer Wert $c$, der die Grenze zu einem vernachlässigbar kleinen Effekt 
+kennzeichnet.
+
+Nehmen Sie an: $c = .10$. 
+
+Das Geschlecht soll also mindestens 10% der Gesamtvarianz erklären.
+
+Geben Sie an, ob der Median des (Bayes-)$R^2$-Koeffizienten den Wert $c$ erreicht,
+ob also gilt $R^2 \ge c$.
+
+
+
+
+
+
+
+Solution
+========
+
+Betrachten wir zunächst die Daten:
+
+
+```{r}
+d %>% 
+  ggplot(aes(x = height, fill = sex)) +
+  geom_density()
+```
+
+Wie man sieht, scheint es einige "komische" Werte zu geben. 
+Besser wir entfernen diese vorab.
+
+```{r}
+d2 <- 
+  d %>% 
+  filter(between(height, 150, 210))
+```
+
+
+Hat's was gebracht?
+
+
+
+
+```{r}
+d2 %>% 
+  ggplot(aes(x = height, fill = sex)) +
+  geom_density()
+```
+
+Naja, einigermaßen besser.
+
+```{r}
+lm2 <- stan_glm(height ~ sex, data = d2, refresh = 0)
+```
+
+
+
+```{r}
+lm2_r2 <- bayes_R2(lm2) %>%
+  as_tibble()
+```
+
+
+Da die meisten Funktionen aus `rstanarm` keine Tabellen zurückliefern,
+aber mit `as_tibble()` leicht in eine Tabelle (ein "Tibble") umgewandelt werden können,
+haben wir das hier (und an anderen Stellen) gemacht.
+
+
+Wieder bekommen wir viele Stichproben aus der Post-Verteilung:
+
+```{r}
+lm2_r2 %>% 
+  ggplot(aes(x = value)) +
+  geom_density()
+```
+
+Rechnen wir noch flux die Quantile für 2.5% und 97.5% aus:
+
+```{r}
+lm2_r2 %>% 
+  summarise(qs = quantile(value, probs = c(.025, .975)))
+```
+
+Unser $R^2$ liegt also mit hoher Wahrscheinlichkeit in diesem Bereich (behauptet zumindest unser Golem).
+
+Aber es wurde nach dem Median gefragt:
+
+```{r}
+lm2_r2 %>% 
+  summarise(r2_md = median(value))
+```
+
+
+Das Geschlecht erklärt also fast die Hälfte der Varianz in der Größe der Gesamt-Stichprobe (bzw. auch in der Population).
+
+Das ist mal ein *superstarker* Effekt. Die allermeisten Effekte,
+die man in der Psychologie findet, sind viel kleiner.
+
+Merken Sie sich mal den Wert von $R^2$,
+als Vergleich, wenn Sie andere Werte von sehen.
+
+
+
+Die Antwort (solution, `sol`) lautet also, laut diesem Modell (mit gegebener Simulationsvarianz):
+
+```{r}
+sol <- lm2_r2 %>% 
+  summarise(r2_md = median(value)) %>% 
+  as.numeric()
+
+sol
+```
+
+
+
+
+
+
+Meta-information
+================
+exname: hyp-wo-men04
+extype: num
+exsolution: `r sol`
+extol: .05
+expoints: 1
+

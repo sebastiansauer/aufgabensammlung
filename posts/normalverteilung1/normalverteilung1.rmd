@@ -1,0 +1,70 @@
+<!-- based on work by Karsten Luebke et al. -->
+
+```{r libs, include = FALSE}
+
+library(tidyverse)
+library(mosaic)
+
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "")
+```
+
+
+
+
+
+Question
+========
+
+```{r, include=FALSE}
+punkte_set <- c(30,40,50,60,80)
+punkte_kandidatin <- sample(punkte_set, 1)
+
+mu = 50
+sigma = 10
+```
+
+Angenommen, die Punkte eines Leistungstests seien normalverteilt mit $\mu=`r mu`$ und $\sigma=`r sigma`$. Eine Kandidatin erreicht $x=`r punkte`$ Punkte; vgl. die Abbildung.
+
+```{r, message=FALSE, results="hide"}
+xpnorm(punkte, mean = mu, sd = sigma)
+```
+
+Was können Sie über die (relative) Eignung der Kandidatin aussagen?
+
+Geben Sie den Prozentrang der Kandidatin an!
+
+
+```{r build-solution, echo = FALSE}
+d <-
+  tibble(punkte = punkte_set) %>% 
+  mutate(Prozentrang = pnorm(punkte, mean = mu, sd = sigma) %>% round(3)) %>% 
+  mutate(is_correct = punkte == punkte_kandidatin)
+```
+
+
+
+
+Solution
+========
+
+
+Der Prozentrang der Kandidatin ist etwa `r d$Prozentrang[d$is_correct == TRUE]`.
+
+
+
+
+Meta-information
+================
+exname: mittelwert-berechnen
+extype: num
+exsolution: `r d$Prozentrang[d$is_correct == TRUE]`
+exshuffle: true
+extol: 0.05

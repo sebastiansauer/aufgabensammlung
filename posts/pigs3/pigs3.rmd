@@ -1,0 +1,140 @@
+
+
+```{r libs, include = FALSE}
+library(tidyverse)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      echo = FALSE,
+                      message = FALSE,
+                      fig.show = "hold")
+```
+
+
+
+
+
+Question
+========
+
+```{r}
+library(tidyverse)  # Datenjudo
+library(rstanarm)  # Bayes-Inferenz
+```
+
+
+Laden Sie den Datensatz `toothgrowth`, da wird ein einfaches Experiment geschildert:
+
+
+```{r}
+d <- read_csv(data_url)
+```
+
+
+
+Forschungsfragen:
+
+1. Hat die Dosis (`dose`) einen (kausalen) Effekt auf die AV?
+2. Hat die Darreichungsform (`supp`) einen (kausalen) Effekt auf die AV?
+3. Gibt es einen Interaktionseffekt zwischen beiden UV?
+
+Wir sind also nicht nur an dem Interaktionseffekt interessiert,
+sondern auch an den beiden Haupteffekten (also die Effekte der beiden UV).
+Insgesamt haben wir also drei Einflussgrößen in unserem Modell.
+
+Wir gehen mal einfach davon aus, dass der Faktor experimentell (also randomisiert und auf Störeffekte hin kontrollliert) verarbreicht wurde. Sonst wäre eine Kausalinterpretation nicht (ohne Weiteres) möglich.
+
+
+# Aufgabe
+
+Berechnen Sie ein 95%-HDI oder 95%-PI für die Effekte!
+
+
+
+
+
+
+Solution
+========
+
+1. Schritt: Modell berechnen
+
+```{r}
+lm3 <- stan_glm(len ~ dose + supp + dose:supp, data = d,
+                refresh = 0)
+```
+
+Zur Erinnerung: Bei der Regressionsformel gilt immer `av ~  uv`.
+
+
+2. Schritt: Posteriori-Verteilung betrachten
+
+Mit `summary()` kriegt man einen guten Überblick:
+
+```{r}
+summary(lm3)
+```
+
+Aber man kann z.B. auch mit `posterior_interval()` sich sein Wunsch-Intervall (PI) ausgeben lassen:
+
+```{r}
+posterior_interval(lm3, prob = .95)
+```
+
+Alle drei Modelle zeigen Schätzbereiche an, in denen die Null nicht enthalten ist;
+die Nullhypothese ist demnach jeweils auszuschließen (falls das jemanden interessiert).
+
+Das können wir auch plotten:
+
+```{r}
+plot(lm3)
+```
+
+Man kann sich auch ein HDI ausgeben, aber nicht mit `rstanarm`,
+das kann nur PI.
+Aber mit `{bayesTestR}` geht das:
+
+```{r}
+library(bayestestR)
+hdi(lm3, ci = .95)
+```
+
+
+¨
+Schauen wir uns mal zum Vergleich die Stichproben-Daten an:
+
+```{r}
+d %>% 
+  ggplot(aes(y = len, x = dose)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  facet_wrap(~ supp)
+```
+
+Oder so, vielleicht besser:
+
+
+```{r}
+d %>% 
+  ggplot(aes(y = len, x = dose, color = supp)) +
+  geom_point() +
+  geom_smooth(method = "lm") 
+```
+
+Man sieht deutlich einen positiven Effekt für `dose`: Die Regressionsgerade steigt.
+Außerdem gibt es - in den Stichprobendaten zumindest - einen Interaktionseffekt: Die Geraden sind nicht parralel.
+Drittens ist der Mittelwert der Gruppe `OJ` augenscheinlich höher als in der angeren Gruppe:
+Die Darbietungsform hat offenbar einen Effekt.
+
+
+Meta-information
+================
+exname: pigs3
+extype: string
+exsolution: NA

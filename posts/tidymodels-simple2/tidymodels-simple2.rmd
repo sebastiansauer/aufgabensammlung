@@ -1,0 +1,92 @@
+
+
+
+
+
+Question
+========
+
+
+Schreiben Sie einen maximal einfachen Code für ein lineares Modell mit `tidymodels`.
+
+Hinweise:
+
+- Setzen Sie $\lambda$ (penalty) auf 0.1
+- Verwenden Sie die L1-Norm (Lasso)
+- Datensatz: `mtcars`
+- Modellformel: `mpg ~ hp + am`
+- Verzichten Sie auf Resampling jeder Art
+
+
+
+Berichten Sie die `RMSE` des Modells.
+
+
+Solution
+========
+
+## Setup
+
+```{r}
+library(tidymodels)
+data(mtcars)
+```
+
+
+
+
+## Fitten
+
+
+```{r}
+m1 <-
+  fit(linear_reg(penalty = 0.1, engine = "glmnet",
+                 mixture = 1), mpg ~ hp + am, data = mtcars)
+```
+
+
+```{r}
+m1 %>% tidy()
+```
+
+
+```{r}
+augment(m1, new_data = mtcars) %>%  # fügt predictions und residuals hinzu
+  rmse(truth = mpg, estimate = .pred)
+```
+
+
+```{r echo=FALSE}
+sol <-
+  augment(m1, new_data = mtcars) %>%  # fügt predictions und residuals hinzu
+  rmse(truth = mpg, estimate = .pred) %>% 
+  pull(.estimate)
+```
+
+
+
+
+**Lösung**: `r exams::fmt(sol)`.
+
+Meta-information
+================
+
+exname: tidymodels-simple2 
+extype: num
+exsolution: `r exams__fmt(sol)`
+exshuffle: false
+expoints: 1
+categories:
+- R
+- tidymodels
+- lm
+- statlearning
+- penalty
+- simple
+- lasso
+
+
+
+
+
+

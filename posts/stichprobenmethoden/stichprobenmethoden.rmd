@@ -1,0 +1,66 @@
+
+
+```{r libs, include = FALSE}
+library(tidyverse)
+library(testthat)
+library(glue)
+```
+
+
+```{r global-knitr-options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H',
+                      fig.asp = 0.618,
+                      fig.width = 4,
+                      fig.cap = "", 
+                      fig.path = "",
+                      echo = FALSE,
+                      message = FALSE,
+                      fig.show = "hold")
+```
+
+
+
+
+
+Question
+========
+
+Um eine Stichprobe zu ziehen, stehen Forscher:innen verschiedene Möglichkeiten zur Verfügung. 
+
+Welche der folgenden Aussagen ist in diesem Zusammenhang korrekt?
+
+
+Answerlist
+----------
+
+* Entscheidend für die Repräsentativität einer Stichprobe ist die Größe der Stichprobe.
+* Bei stratifizierten Stichproben (stratified samples) wird. i.A. eine Vollerhebung pro Stratum durchgeführt.
+* Eine Zufallstichprobe (random sampling) ist ein sinnvoller Weg, um zu einer repräsentativen Stichprobe zu gelangen.
+* Bei Cluster-Stichproben (Klumpenstichproben) wird i.A. eine Zufallsstichprobe pro Cluster erhoben.
+* Multistage Sampling ist i.A. die zu bevorzugende Art von Stichprobenziehung.
+
+
+Solution
+========
+
+Eine Statistik (statistic) ist ein Kennwert,  der in der Stichprobe berechnet wird.
+
+
+Answerlist
+----------
+
+
+* Falsch
+* Falsch
+* Wahr
+* Falsch
+* Falsch
+
+
+
+Meta-information
+================
+exname: parameter-statistik
+extype: schoice
+exsolution: 00100
+exshuffle: false
