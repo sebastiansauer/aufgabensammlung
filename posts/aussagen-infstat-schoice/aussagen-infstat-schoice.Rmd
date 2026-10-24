@@ -2,6 +2,8 @@
 title: aussagen-infstat-schoice
 categories:
 - inference
+- exam24
+- schoice
 ---
 
 Question

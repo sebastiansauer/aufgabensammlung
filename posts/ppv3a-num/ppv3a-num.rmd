@@ -1,6 +1,11 @@
 ---
 title: ppv3a-num
-categories: null
+categories:
+- qm2
+- bayes
+- ppv
+- inference
+- prediction
 ---
 
 ```{r libs, include = FALSE}

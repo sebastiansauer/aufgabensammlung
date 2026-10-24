@@ -2,6 +2,8 @@
 title: bayesmod-bestimmen01-schoice
 categories:
 - regression
+- bayes
+- prior
 ---
 
 ```{r libs, include=FALSE}
