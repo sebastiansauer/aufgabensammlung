@@ -86,7 +86,7 @@ Answerlist
 
 Meta-information
 ================
-exname: r-fehler2
+exname: typ-fehler-r-02
 extype: schoice
 exsolution: 10000
 exshuffle: FALSE

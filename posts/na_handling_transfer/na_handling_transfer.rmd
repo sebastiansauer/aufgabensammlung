@@ -25,7 +25,7 @@ Answerlist
 
 Meta-information
 ================
-exname: NA_Handling_Transfer
+exname: na_handling_transfer
 extype: schoice
 exsolution: 01000
 exshuffle: TRUE

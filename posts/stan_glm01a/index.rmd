@@ -1,7 +1,7 @@
 ---
 extype: string
 exsolution: NA
-exname: stan_glm1a
+exname: stan_glm01a
 title: stan_glm01a
 expoints: 1
 categories:

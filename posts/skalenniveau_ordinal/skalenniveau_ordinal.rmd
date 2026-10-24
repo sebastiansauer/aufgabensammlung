@@ -24,7 +24,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Skalenniveau_Ordinal
+exname: skalenniveau_ordinal
 extype: schoice
 exsolution: 01000
 exshuffle: TRUE

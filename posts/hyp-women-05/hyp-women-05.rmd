@@ -164,7 +164,7 @@ sol
 
 Meta-information
 ================
-exname: hyp-wo-men04
+exname: hyp-women-05
 extype: num
 exsolution: `r sol`
 extol: .05

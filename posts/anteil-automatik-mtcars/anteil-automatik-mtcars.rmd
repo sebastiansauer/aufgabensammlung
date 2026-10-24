@@ -65,5 +65,5 @@ Meta-information
 ================
 extype: string
 exsolution: NA
-exname: mtcars-am
+exname: anteil-automatik-mtcars
 expoints: 1

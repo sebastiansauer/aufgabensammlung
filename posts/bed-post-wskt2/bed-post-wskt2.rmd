@@ -263,7 +263,7 @@ Aufgaben-ID: Bed-Post-Wskt2
 
 Meta-information
 ================
-exname: Bed-Post-Wskt2
+exname: bed-post-wskt2
 extype: string
 exsolution: `r sol`
 exshuffle: false

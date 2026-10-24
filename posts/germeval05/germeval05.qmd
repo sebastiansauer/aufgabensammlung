@@ -1,5 +1,5 @@
 ---
-exname: germeval05-glove6b
+exname: germeval05
 expoints: 1
 extype: string
 exsolution: NA

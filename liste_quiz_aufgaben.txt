@@ -33,7 +33,6 @@ kausal07/kausal07.rmd
 kausal08/kausal08.rmd
 kausal09/kausal09.rmd
 kausal10/kausal10.rmd
-kausal24/kausal28.rmd
 kausal29/kausal29.rmd
 kausale-verben/kausale-verben.rmd
 kennwert-robust/kennwert-robust.rmd

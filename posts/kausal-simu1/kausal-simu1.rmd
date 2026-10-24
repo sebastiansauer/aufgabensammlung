@@ -116,7 +116,7 @@ Meta-information
 ================
 extype: string
 exsolution: NA
-exname: stoerche
+exname: kausal-simu1
 expoints: 1
 tags:
 - causal

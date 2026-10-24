@@ -36,5 +36,5 @@ Meta-information
 ================
 extype: string
 exsolution: `r sol`
-exname: strukturgrad
+exname: datenstrukturgrad
 expoints: 5

@@ -24,7 +24,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Tidy_Data
+exname: tidy_data
 extype: schoice
 exsolution: 00100
 exshuffle: TRUE

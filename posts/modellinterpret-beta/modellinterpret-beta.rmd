@@ -343,7 +343,7 @@ Aufgaben-ID: Modellinterpret-beta, Toleranzbreite: `r sol_tol`
 
 Meta-information
 ================
-exname: Modellinterpret-beta
+exname: modellinterpret-beta
 extype: num
 exsolution: `r sol`
 extol: `r sol_tol`

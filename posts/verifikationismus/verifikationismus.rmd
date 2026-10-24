@@ -48,5 +48,5 @@ Meta-information
 ================
 extype: string
 exsolution: `r sol`
-exname: my_exercise_label
+exname: verifikationismus
 expoints: 5

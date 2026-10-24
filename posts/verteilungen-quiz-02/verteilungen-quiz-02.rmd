@@ -1,5 +1,5 @@
 ---
-exname: Verteilungen-Quiz-02
+exname: verteilungen-quiz-02
 extype: schoice
 exsolution: 10
 exshuffle: no

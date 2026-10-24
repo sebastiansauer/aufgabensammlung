@@ -1,5 +1,5 @@
 ---
-exname: diamonds-nullhpy-mws
+exname: diamonds-nullhyp-mws
 extype: schoice
 exsolution: 8
 exshuffle: no

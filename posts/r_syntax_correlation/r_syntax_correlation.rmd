@@ -26,7 +26,7 @@ Answerlist
 
 Meta-information
 ================
-exname: R_Syntax_Correlation
+exname: r_syntax_correlation
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

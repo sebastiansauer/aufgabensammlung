@@ -24,7 +24,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Vektorielles_Rechnen_Transfer
+exname: vektorielles_rechnen_transfer
 extype: schoice
 exsolution: 01000
 exshuffle: TRUE

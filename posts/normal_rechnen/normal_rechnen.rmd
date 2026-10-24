@@ -29,7 +29,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Normal_Rechnen
+exname: normal_rechnen
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

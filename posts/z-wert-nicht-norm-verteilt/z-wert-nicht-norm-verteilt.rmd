@@ -78,7 +78,7 @@ Answerlist
 
 Meta-information
 ================
-exname: geom-point1
+exname: z-wert-nicht-norm-verteilt
 extype: schoice
 exsolution: 00010
 exshuffle: false

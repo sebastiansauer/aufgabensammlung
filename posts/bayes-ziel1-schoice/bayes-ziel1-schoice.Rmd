@@ -31,7 +31,7 @@ Answerlist
 
 Meta-information
 ================
-exname: bayes-ziel1
+exname: bayes-ziel1-schoice
 extype: schoice
 exsolution: 10000
 exshuffle: 5

@@ -50,7 +50,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Kennwert-robust2
+exname: kennwert-robust2
 extype: schoice
 exsolution: 000100
 exshuffle: 5

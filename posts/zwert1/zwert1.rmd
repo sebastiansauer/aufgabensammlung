@@ -44,5 +44,5 @@ Meta-information
 extype: schoice
 expoints: 1
 exsolution: `r mchoice2string(solutions, single = TRUE)`
-exname: z-Wert 1
+exname: zwert1
 exshuffle: 4

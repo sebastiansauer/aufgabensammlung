@@ -80,7 +80,7 @@ was noch deutlicher macht, dass die Likelihood die Wahrscheinlichkeit der Daten 
 
 Meta-information
 ================
-exname: ReThink4e1
+exname: rethink4e1
 extype: schoice
 exsolution: 0001
 exshuffle: FALSE

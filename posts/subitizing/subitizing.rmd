@@ -29,7 +29,7 @@ Answerlist
 
 Meta-information
 ================
-exname: name-der-aufgabe
+exname: subitizing
 extype: schoice
 exsolution: 100000
 exshuffle: true

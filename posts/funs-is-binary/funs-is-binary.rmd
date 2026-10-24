@@ -164,5 +164,5 @@ Meta-information
 ================
 extype: string
 exsolution: NA
-exname: funs-has-to-values
+exname: funs-is-binary
 expoints: 1

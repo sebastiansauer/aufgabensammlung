@@ -175,7 +175,7 @@ Answerlist
 
 Meta-information
 ================
-exname: hyp-wo-men02
+exname: hyp-women-02
 extype: schoice
 exsolution: 100
 extol: .05

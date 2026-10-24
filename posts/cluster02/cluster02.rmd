@@ -76,7 +76,7 @@ Answerlist
 
 Meta-information
 ================
-exname: cluster1
+exname: cluster02
 extype: schoice
 exsolution: 1000
 exshuffle: TRUE

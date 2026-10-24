@@ -79,7 +79,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Operationalismus
+exname: flights-geovis
 extype: mchoice
 exsolution: 11000
 exshuffle: FALSE

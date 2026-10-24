@@ -1,5 +1,5 @@
 ---
-exname: DAG-Graph
+exname: dag-graph
 expoints: 1
 extype: string
 exsolution: NA

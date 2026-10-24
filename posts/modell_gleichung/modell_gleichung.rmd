@@ -26,7 +26,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Modell_Gleichung
+exname: modell_gleichung
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

@@ -131,7 +131,7 @@ Das Skalenviveau der Variablen ``r names_of_cols_to_keep[1]`` lautet ``r selecte
 
 Meta-information
 ================
-exname: Skalenniveau2
+exname: skalenniveau2
 extype: string
 exsolution: `r selected_cols_scale_level`
 exshuffle: true

@@ -1,7 +1,7 @@
 ---
 extype: string
 exsolution: NA
-exname: interpret-regression-koeff-bayes
+exname: interpret-koeff
 expoints: 1
 categories:
 - regression

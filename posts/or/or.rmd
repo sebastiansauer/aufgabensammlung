@@ -68,7 +68,7 @@ Die Chance Chance von "gesund zu krank"  ist bei Nicht-Rauchern fast 9 mal so ho
 
 Meta-information
 ================
-exname: or-berechnen
+exname: or
 extype: num
 exsolution: `r sol`
 exshuffle: false

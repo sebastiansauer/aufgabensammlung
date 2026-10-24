@@ -29,7 +29,7 @@ Answerlist
 
 Meta-information
 ================
-exname: r_vs_R2
+exname: r_vs_r2
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

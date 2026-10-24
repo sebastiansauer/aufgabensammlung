@@ -95,5 +95,5 @@ Meta-information
 ================
 extype: string
 exsolution: NA
-exname: wertzuweisen
+exname: effectsize-groups
 expoints: 1

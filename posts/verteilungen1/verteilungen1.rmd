@@ -83,4 +83,4 @@ Meta-information
 extype: schoice
 expoints: 1
 exsolution: `r mchoice2string(solutions, single = TRUE)`
-exname: Verteilungen 1
+exname: verteilungen1

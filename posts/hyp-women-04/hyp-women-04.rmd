@@ -145,7 +145,7 @@ sol <- 1
 
 Meta-information
 ================
-exname: hyp-wo-men04
+exname: hyp-women-04
 extype: num
 exsolution: `r sol`
 extol: .05

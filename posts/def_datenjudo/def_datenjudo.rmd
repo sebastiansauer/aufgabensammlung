@@ -24,7 +24,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Definition_Datenjudo
+exname: def_datenjudo
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

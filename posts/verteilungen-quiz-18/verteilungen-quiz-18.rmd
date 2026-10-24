@@ -100,7 +100,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Verteilungen-Quiz-18
+exname: verteilungen-quiz-18
 extype: schoice
 exsolution: 01
 exshuffle: FALSE

@@ -64,5 +64,5 @@ Meta-information
 ================
 extype: num
 exsolution: `r fmt(sol, 3)`
-exname: Prediction
+exname: regression
 extol: 0.01

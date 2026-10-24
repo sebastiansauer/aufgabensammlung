@@ -27,7 +27,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Boxplot_Schiefe
+exname: bosplot_schiefe
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

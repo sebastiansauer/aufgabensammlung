@@ -1,7 +1,7 @@
 ---
 extype: string
 exsolution: NA
-exname: ReThink4e3 
+exname: rethink4e3
 expoints: 1
 categories:
 - bayes

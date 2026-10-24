@@ -82,6 +82,6 @@ Meta-information
 ================
 extype: num
 exsolution: `r exams::fmt(sol)`
-exname: Lose-Nieten-Binomial-Grid2
+exname: lose-nieten-binomial-grid2
 expoints: 1
 extol: `r sol_tol`

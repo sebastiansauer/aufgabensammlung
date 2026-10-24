@@ -64,7 +64,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Aussagen-einfache-Regr 
+exname: aussagen-einfache-regr
 extype: schoice
 exsolution: 01000
 exshuffle: false

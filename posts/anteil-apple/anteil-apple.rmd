@@ -1,7 +1,7 @@
 ---
 extype: string
 exsolution: NA
-exname: Apple
+exname: anteil-apple
 expoints: 1
 categories:
 - bayes

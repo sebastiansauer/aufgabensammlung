@@ -155,7 +155,7 @@ answerlist(ifelse(d_five_options$is_correct, "Richtig", "Falsch"), markup = "mar
 
 Meta-information
 ================
-exname: Regression3
+exname: regression3
 extype: schoice
 exsolution: `r mchoice2string(d_five_options$is_correct, single = TRUE)`
 exshuffle: FALSE

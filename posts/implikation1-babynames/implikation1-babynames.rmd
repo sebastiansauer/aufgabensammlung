@@ -153,7 +153,7 @@ answerlist(ifelse(itemlist$is_correct, "Wahr", "Falsch"), markup = "markdown")
 
 Meta-information
 ================
-exname: implikation1
+exname: implikation1-babynames
 extype: schoice
 exsolution: `r  mchoice2string(itemlist$is_correct)`
 exshuffle: true

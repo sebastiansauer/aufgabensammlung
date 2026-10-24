@@ -83,7 +83,7 @@ Answerlist
 
 Meta-information
 ================
-exname: log-ress1
+exname: logression1
 extype: schoice
 exsolution: 100000
 exshuffle: true

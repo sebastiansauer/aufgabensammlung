@@ -1,5 +1,5 @@
 ---
-exname: germeval02-sentiment
+exname: germeval02
 expoints: 1
 extype: string
 exsolution: NA

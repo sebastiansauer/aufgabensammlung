@@ -44,5 +44,5 @@ Meta-information
 ================
 extype: string
 exsolution: NA
-exname: wertzuweisen
+exname: ggstatsplot01
 expoints: 1

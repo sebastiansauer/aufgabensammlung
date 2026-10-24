@@ -37,7 +37,7 @@ Solution
 
 Meta-information
 ================
-exname: mittelwert-berechnen
+exname: paper-lesen1
 extype: num
 exsolution: `r y`
 exshuffle: false

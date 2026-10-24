@@ -34,4 +34,4 @@ Meta-information
 ================
 extype: schoice
 exsolution: 00100
-exname: heatmap
+exname: heatmap-mosaic

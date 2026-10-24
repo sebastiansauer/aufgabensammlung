@@ -82,7 +82,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Verteilungen-Quiz-14
+exname: verteilungen-quiz-14
 extype: schoice
 exsolution: 10
 exshuffle: FALSE

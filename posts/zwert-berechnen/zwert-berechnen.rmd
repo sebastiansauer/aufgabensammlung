@@ -1,5 +1,5 @@
 ---
-exname: zwert1
+exname: zwert-berechnen
 extype: num
 exsolution: r x1_z
 exshuffle: no

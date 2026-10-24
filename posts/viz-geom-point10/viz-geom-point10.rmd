@@ -76,7 +76,7 @@ Answerlist
 
 Meta-information
 ================
-exname: geom-point9
+exname: viz-geom-point10
 extype: schoice
 exsolution: 00010
 exshuffle: false

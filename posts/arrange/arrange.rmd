@@ -24,7 +24,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Sortieren_Arrange
+exname: arrange
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

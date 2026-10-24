@@ -149,7 +149,7 @@ answerlist(ifelse(papers_sample$selected, "Wahr", "Falsch"), markup = "markdown"
 
 Meta-information
 ================
-exname: paperslesen1
+exname: paper-recherchieren1
 extype: schoice
 exsolution: `r mchoice2string(papers_sample$selected, single = TRUE)`
 exshuffle: false

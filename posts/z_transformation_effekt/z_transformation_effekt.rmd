@@ -26,7 +26,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Z_Transformation_Effekt
+exname: z_transformation_effekt
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

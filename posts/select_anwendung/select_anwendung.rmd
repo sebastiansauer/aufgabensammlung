@@ -28,7 +28,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Select_Anwendung
+exname: select_anwendung
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

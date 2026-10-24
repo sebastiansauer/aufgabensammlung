@@ -162,7 +162,7 @@ answerlist(ifelse(itemlist$sol_type=="is_correct", "Wahr", "Falsch"), markup = "
 
 Meta-information
 ================
-exname: modustollens1
+exname: logik2_buggy
 extype: schoice
 exsolution: `r  mchoice2string(itemlist$sol_type=="is_correct")`
 exshuffle: false

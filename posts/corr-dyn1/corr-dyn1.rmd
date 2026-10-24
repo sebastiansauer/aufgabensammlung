@@ -166,7 +166,7 @@ Aufgaben-ID: corr-dyn1, Toleranzbreite: `r sol_tol`
 
 Meta-information
 ================
-exname: corr-dyn1 
+exname: corr-dyn1
 extype: num
 exsolution: `r sol`
 extol: `r sol_tol`

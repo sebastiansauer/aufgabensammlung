@@ -177,7 +177,7 @@ Answerlist
 
 Meta-information
 ================
-exname: variability02
+exname: variation02
 extype: schoice
 exsolution: 0001
 exshuffle: FALSE

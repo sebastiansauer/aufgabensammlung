@@ -121,7 +121,7 @@ Der Unterschied im Bestehen beträgt `r unterschied_bestehen_sample`
 
 Meta-information
 ================
-exname: Kontingenztabelle1
+exname: kontingenztabelle1
 extype: num
 exsolution: `r unterschied_bestehen_sample`
 extol: 0.05

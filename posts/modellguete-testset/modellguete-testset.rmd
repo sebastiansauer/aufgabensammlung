@@ -1,5 +1,5 @@
 ---
-exname: modellgute-testset
+exname: modellguete-testset
 expoints: 1
 extype: string
 exsolution: NA

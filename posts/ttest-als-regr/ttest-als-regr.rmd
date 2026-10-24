@@ -2,7 +2,7 @@
 extype: cloze
 exclozetype: string|string|string|string
 exsolution: binär|metrisch|XXX|XXX
-exname: ttest-als-regression
+exname: ttest-als-regr
 expoints: 0.25
 categories:
 - regression

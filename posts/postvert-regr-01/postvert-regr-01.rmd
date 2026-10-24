@@ -1,5 +1,5 @@
 ---
-exname: post-regression-1
+exname: postvert-regr-01
 extype: schoice
 exsolution: 64
 exshuffle: no

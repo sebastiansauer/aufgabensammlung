@@ -83,7 +83,7 @@ Answerlist
 
 Meta-information
 ================
-exname: ReThink4e2
+exname: rethink4e2
 extype: schoice
 exsolution: 00100
 exshuffle: false

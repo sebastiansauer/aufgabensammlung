@@ -1,7 +1,7 @@
 ---
 extype: string
 exsolution: NA
-exname: Pupil-size2
+exname: pupil-size2
 expoints: 1
 categories:
 - probability

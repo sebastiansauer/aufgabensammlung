@@ -55,5 +55,5 @@ Meta-information
 extype: schoice
 expoints: 1
 exsolution: `r mchoice2string(solutions, single = TRUE)`
-exname: Robustheit
+exname: robustheit
 exshuffle: 4

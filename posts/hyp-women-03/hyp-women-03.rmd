@@ -189,7 +189,7 @@ round(sol, 2)
 
 Meta-information
 ================
-exname: hyp-wo-men03
+exname: hyp-women-03
 extype: num
 exsolution: `r sol`
 extol: .05

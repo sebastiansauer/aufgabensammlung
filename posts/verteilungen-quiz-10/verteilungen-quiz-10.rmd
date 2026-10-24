@@ -71,7 +71,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Verteilungen-Quiz-10
+exname: verteilungen-quiz-10
 extype: schoice
 exsolution: 01
 exshuffle: FALSE

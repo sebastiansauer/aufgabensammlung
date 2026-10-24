@@ -24,7 +24,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Skalenniveau_Intervall
+exname: skalenniveau_intervall
 extype: schoice
 exsolution: 00100
 exshuffle: TRUE

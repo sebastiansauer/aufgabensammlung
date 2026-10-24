@@ -1,7 +1,7 @@
 ---
 extype: string
 exsolution: NA
-exname: bayes-subjektiv
+exname: subjektiv-bayes
 expoints: 1
 date: '2022-11-05'
 slug: subjektiv-Bayes

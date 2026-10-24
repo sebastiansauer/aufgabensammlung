@@ -27,7 +27,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Scheinkorrelation_Glatze
+exname: scheinkorrelation_glatze
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

@@ -1,5 +1,5 @@
 ---
-exname: Typ-Fehler-R-08-name-clash
+exname: typ-fehler-r-08-name-clash
 expoints: 1
 extype: string
 exsolution: NA

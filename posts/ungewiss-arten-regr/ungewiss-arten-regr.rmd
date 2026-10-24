@@ -1,7 +1,7 @@
 ---
 extype: string
 exsolution: NA
-exname: ungewiss-arten-regression
+exname: ungewiss-arten-regr
 expoints: 1
 categories:
 - qm2

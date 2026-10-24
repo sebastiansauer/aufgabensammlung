@@ -52,7 +52,7 @@ Meta-information
 ================
 extype: schoice
 exsolution: 10000
-exname: bayes-theorem1
+exname: bayes-theorem1-schoice
 exshuffle: true
 excategory: bayes
 excategory: probability

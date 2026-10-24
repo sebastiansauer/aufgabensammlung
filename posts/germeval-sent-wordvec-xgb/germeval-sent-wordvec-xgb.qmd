@@ -1,5 +1,5 @@
 ---
-exname: germeval03-sent-wrodvec-xgb
+exname: germeval-sent-wordvec-xgb
 expoints: 1
 extype: string
 exsolution: NA

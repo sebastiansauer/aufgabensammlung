@@ -27,7 +27,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Pipe_Vorteil
+exname: pipe_vorteil
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

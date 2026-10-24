@@ -131,7 +131,7 @@ sol <-
 Meta-information
 ================
 
-exname: tidymodels-simple4
+exname: tidymodels-simple5
 extype: num
 exsolution: `r exams__fmt(sol)`
 exshuffle: false

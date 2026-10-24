@@ -62,7 +62,7 @@ exams::answerlist(ifelse(solutions, "Richtig", "Falsch"), markup = "markdown")
 
 Meta-information
 ================
-exname: Schiefe 1
+exname: schiefe1
 extype: schoice
 exsolution: `r mchoice2string(solutions, single = TRUE)`
 exshuffle: FALSE

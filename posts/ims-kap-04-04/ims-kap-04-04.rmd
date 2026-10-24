@@ -88,7 +88,7 @@ Answerlist
 
 Meta-information
 ================
-exname: multreg3
+exname: ims-kap-04-04
 extype: schoice
 exsolution: 01000
 exshuffle: false

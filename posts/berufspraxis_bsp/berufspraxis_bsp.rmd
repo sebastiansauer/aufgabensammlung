@@ -29,6 +29,6 @@ Meta-information
 ================
 extype: string
 exsolution: s. Beispiel
-exname: berufspraxis1
+exname: berufspraxis_bsp
 expoints: 5
 

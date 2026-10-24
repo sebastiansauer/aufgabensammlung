@@ -74,7 +74,7 @@ Answerlist
 
 Meta-information
 ================
-exname: ttest-aussagen 
+exname: ttest-aussagen
 extype: schoice
 exsolution: 1110000000000000
 exshuffle: 5

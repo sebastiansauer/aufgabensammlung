@@ -26,7 +26,7 @@ Answerlist
 
 Meta-information
 ================
-exname: File_Drawer_Problem
+exname: file_drawer_problem
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

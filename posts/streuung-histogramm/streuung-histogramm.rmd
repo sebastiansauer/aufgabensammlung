@@ -182,7 +182,7 @@ exams::answerlist(ifelse(sol_df$is_correct, "Wahr", "Falsch"), markup = "markdow
 
 Meta-information
 ================
-exname: Streuung-Histogramm
+exname: streuung-histogramm
 extype: schoice
 exsolution: `r mchoice2string(sol_df$is_correct, single = TRUE)`
 exshuffle: FALSE

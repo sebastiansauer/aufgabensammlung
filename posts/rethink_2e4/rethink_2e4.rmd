@@ -47,7 +47,7 @@ Meta-information
 ================
 extype: string
 exsolution: NA
-exname: rethink2e4
+exname: rethink_2e4
 expoints: 1
 categories:
 - probability

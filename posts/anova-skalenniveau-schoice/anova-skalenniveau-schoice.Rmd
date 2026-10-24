@@ -33,5 +33,5 @@ Meta-information
 ================
 extype: schoice
 exsolution: 10000
-exname: anova-skalenniveau
+exname: anova-skalenniveau-schoice
 exshuffle: true

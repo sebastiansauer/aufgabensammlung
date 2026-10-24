@@ -1,5 +1,5 @@
 ---
-exname: Kausale-Begriffe
+exname: kausale-verben
 extype: mchoice
 exsolution: 10001
 exshuffle: yes

@@ -26,7 +26,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Struktur_Dataframe
+exname: struktur_dataframe
 extype: schoice
 exsolution: 01000
 exshuffle: TRUE

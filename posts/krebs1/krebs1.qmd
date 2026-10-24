@@ -1,7 +1,7 @@
 ---
 extype: num
 exsolution: r sol
-exname: Krebs1
+exname: krebs1
 expoints: 1
 categories:
 - bayes

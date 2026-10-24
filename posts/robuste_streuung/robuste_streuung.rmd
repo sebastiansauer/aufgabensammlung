@@ -27,7 +27,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Robuste_Streuung
+exname: robuste_streuung
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

@@ -77,7 +77,7 @@ Answerlist
 
 Meta-information
 ================
-exname: boosting1
+exname: boosting2
 extype: schoice
 exsolution: 00010
 exshuffle: FALSE

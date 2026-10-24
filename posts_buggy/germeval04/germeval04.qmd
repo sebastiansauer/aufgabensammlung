@@ -1,5 +1,5 @@
 ---
-exname: germeval04-sent-textfeatures-nn
+exname: germeval04
 expoints: 1
 extype: string
 exsolution: NA

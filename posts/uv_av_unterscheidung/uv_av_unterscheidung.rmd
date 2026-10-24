@@ -24,7 +24,7 @@ Answerlist
 
 Meta-information
 ================
-exname: UV_AV_Unterscheidung
+exname: uv_av_unterscheidung
 extype: schoice
 exsolution: 00100
 exshuffle: TRUE

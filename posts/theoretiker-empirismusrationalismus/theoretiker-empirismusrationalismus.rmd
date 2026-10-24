@@ -26,4 +26,4 @@ Meta-information
 ================
 extype: string
 exsolution: `r position`
-exname: Theoretiker Empirismus Rationalismus
+exname: theoretiker-empirismusrationalismus

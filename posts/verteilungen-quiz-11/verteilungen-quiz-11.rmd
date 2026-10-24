@@ -79,7 +79,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Verteilungen-Quiz-11
+exname: verteilungen-quiz-11
 extype: schoice
 exsolution: 01
 exshuffle: FALSE

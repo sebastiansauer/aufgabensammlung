@@ -1,5 +1,5 @@
 ---
-exname: gini-loss
+exname: gini-plot
 expoints: 1
 extype: string
 exsolution: NA

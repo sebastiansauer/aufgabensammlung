@@ -1,5 +1,5 @@
 ---
-exname: Regression4
+exname: regression4
 extype: num
 exsolution: r yhat_selected
 extol: r max(0.1*yhat_selected, 3)

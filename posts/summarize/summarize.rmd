@@ -24,7 +24,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Zusammenfassung_Summarise
+exname: summarize
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

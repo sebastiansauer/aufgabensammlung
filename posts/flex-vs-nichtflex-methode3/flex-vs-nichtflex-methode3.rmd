@@ -78,7 +78,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Flex-vs-nichtflex-Methode3
+exname: flex-vs-nichtflex-methode3
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

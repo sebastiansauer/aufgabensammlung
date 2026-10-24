@@ -1,5 +1,5 @@
 ---
-exname: log-y-reg2
+exname: log-y-regr2
 extype: num
 exsolution: 1.07
 exshuffle: no

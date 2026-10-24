@@ -46,7 +46,7 @@ Meta-information
 ================
 extype: string
 exsolution: NA
-exname: stiprovert-live-exp 
+exname: stiprovert-life-exp
 expoints: 1
 categories:
 - simulation

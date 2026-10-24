@@ -24,7 +24,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Logikprüfung_Anwendung
+exname: logikpruefung_anwendung
 extype: schoice
 exsolution: 01000
 exshuffle: TRUE

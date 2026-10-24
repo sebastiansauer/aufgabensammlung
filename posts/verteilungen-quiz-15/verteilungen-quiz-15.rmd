@@ -91,7 +91,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Verteilungen-Quiz-15
+exname: verteilungen-quiz-15
 extype: schoice
 exsolution: 01
 exshuffle: FALSE

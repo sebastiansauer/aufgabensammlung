@@ -76,7 +76,7 @@ answerlist(ifelse(items$solutions, "Richtig", "Falsch"), markup = "markdown")
 
 Meta-information
 ================
-exname: uv-av
+exname: av-uv.de
 extype: schoice
 exsolution: `r mchoice2string(items$solutions, single = TRUE)`
 exshuffle: false

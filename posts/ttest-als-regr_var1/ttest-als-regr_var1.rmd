@@ -78,5 +78,5 @@ Meta-information
 extype: cloze
 exclozetype: string|string|string|string
 exsolution: binär|metrisch|XXX|XXX
-exname: ttest-als-regression
+exname: ttest-als-regr_var1
 expoints: 0.25

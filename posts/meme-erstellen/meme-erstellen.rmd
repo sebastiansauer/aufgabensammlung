@@ -78,5 +78,5 @@ Meta-information
 ================
 extype: string
 exsolution: NA
-exname: meme
+exname: meme-erstellen
 expoints: 1

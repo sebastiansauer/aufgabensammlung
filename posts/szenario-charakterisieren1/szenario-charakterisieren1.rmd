@@ -1,5 +1,5 @@
 ---
-exname: szenario-klassifik1
+exname: szenario-charakterisieren1
 extype: schoice
 exsolution: 10000
 exshuffle: yes

@@ -81,7 +81,7 @@ Answerlist
 
 Meta-information
 ================
-exname: test-mse2
+exname: test-mse1
 extype: schoice
 exsolution: 100000
 exshuffle: 5

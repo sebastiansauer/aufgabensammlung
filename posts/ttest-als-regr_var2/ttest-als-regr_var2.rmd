@@ -71,5 +71,5 @@ Meta-information
 ================
 extype: string
 exsolution: metrisch
-exname: ttest-als-regression_var2
+exname: ttest-als-regr_var2
 expoints: 1

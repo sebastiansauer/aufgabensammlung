@@ -161,7 +161,7 @@ Meta-information
 ================
 extype: string
 exsolution: NA
-exname: anova-als-regression
+exname: anova-als-regr
 expoints: 1
 categories:
 - regression

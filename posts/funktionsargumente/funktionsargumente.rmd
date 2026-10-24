@@ -24,7 +24,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Funktionsargumente
+exname: funktionsargumente
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

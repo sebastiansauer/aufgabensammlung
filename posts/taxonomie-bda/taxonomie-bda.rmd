@@ -19,4 +19,4 @@ Meta-information
 ================
 extype: schoice
 exsolution: 0100
-exname: prescription
+exname: taxonomie-bda

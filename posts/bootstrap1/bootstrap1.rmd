@@ -73,7 +73,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Bootstrap1
+exname: bootstrap1
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

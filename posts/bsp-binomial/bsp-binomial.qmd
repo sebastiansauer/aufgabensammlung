@@ -1,7 +1,7 @@
 ---
 extype: string
 exsolution: NA
-exname: Bsp-Binomial
+exname: bsp-binomial
 expoints: 1
 categories:
 - probability

@@ -137,7 +137,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Regression6a
+exname: regression6a
 extype: schoice
 exsolution: 10000
 exshuffle: false 

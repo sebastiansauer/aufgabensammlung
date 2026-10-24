@@ -1,5 +1,5 @@
 ---
-exname: Skalenniveau1b
+exname: skalenniveau1b
 extype: mchoice
 exsolution: r sol
 exshuffle: no

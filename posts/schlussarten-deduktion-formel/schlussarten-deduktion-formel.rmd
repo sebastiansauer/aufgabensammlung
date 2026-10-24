@@ -27,7 +27,7 @@ Answerlist
 
 Meta-information
 ================
-exname: deduktion-formel
+exname: schlussarten-deduktion-formel
 extype: schoice
 exsolution: 01000
 exshuffle: true

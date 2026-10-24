@@ -282,7 +282,7 @@ sol <- exams::mchoice2string(sol_df$correct_answer, single = TRUE)
 
 Meta-information
 ================
-exname: Modelldef2
+exname: modelldef2
 extype: schoice
 exsolution: `r sol`
 exshuffle: false

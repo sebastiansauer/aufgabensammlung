@@ -72,5 +72,5 @@ Meta-information
 ================
 extype: string
 exsolution: NA
-exname: wertzuweisen
+exname: stipro-beschreiben
 expoints: 1

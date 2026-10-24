@@ -115,5 +115,5 @@ Meta-information
 extype: cloze
 exsolution: `r paste(solutions, collapse = "|")`
 exclozetype: `r paste(type, collapse = "|")`
-exname: Boxplot and histogram
+exname: boxhist2
 extol: 0|0|0|`r tol`|`r tol`|`r tol`

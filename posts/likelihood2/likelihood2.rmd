@@ -88,7 +88,7 @@ Answerlist
 
 Meta-information
 ================
-exname: lik2
+exname: likelihood2
 extype: schoice
 exsolution: 01000
 exshuffle: FALSE

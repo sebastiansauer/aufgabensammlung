@@ -205,7 +205,7 @@ Aufgaben-ID: post-effekt-1sd, Toleranzbreite: `r sol_tol`
 
 Meta-information
 ================
-exname: post-effekt-1sd 
+exname: post-effekt-1sd
 extype: num
 exsolution: `r sol`
 extol: `r sol_tol`

@@ -82,7 +82,7 @@ sol <-  d_selected$Value[1]
 
 Meta-information
 ================
-exname: Schminke1
+exname: schminke1
 extype: num
 exsolution: `r sol`
 extol: 0.03

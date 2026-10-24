@@ -2,7 +2,7 @@
 extype: cloze
 exsolution: r paste(sol, collapse = "|")
 exclozetype: num|num|num|num
-exname: Gem-Wskt2
+exname: gem-wskt2
 extol: 0.05
 expoints: 0.25
 categories:

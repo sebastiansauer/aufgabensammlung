@@ -1,5 +1,5 @@
 ---
-exname: mariokart-sd
+exname: mariokart-sd3
 extype: num
 exsolution: r sol
 exshuffle: no

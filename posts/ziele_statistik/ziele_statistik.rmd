@@ -24,7 +24,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Ziele_Statistik
+exname: ziele_statistik
 extype: schoice
 exsolution: 01000
 exshuffle: TRUE

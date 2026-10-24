@@ -26,7 +26,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Cohen_Kategorisierung
+exname: cohen_kategorisierung
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

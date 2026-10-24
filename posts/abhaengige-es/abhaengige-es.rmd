@@ -123,7 +123,7 @@ sol <- exams::mchoice2string(sol_df$correct_answer, single = TRUE)
 
 Meta-information
 ================
-exname: Abhaengige-Es 
+exname: abhaengige-es
 extype: schoice
 exsolution: `r sol`
 exshuffle: false

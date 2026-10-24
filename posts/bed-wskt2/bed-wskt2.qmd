@@ -1,5 +1,5 @@
 ---
-exname: Bed-Wskt2
+exname: bed-wskt2
 extype: num
 exsolution: r sol
 expoints: 1

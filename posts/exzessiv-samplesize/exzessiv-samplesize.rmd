@@ -27,7 +27,7 @@ sol <- 273
 
 Meta-information
 ================
-exname: BSS-SA-03
+exname: exzessiv-samplesize
 extype: num   
 exsolution: `r sol`
 extol: 0

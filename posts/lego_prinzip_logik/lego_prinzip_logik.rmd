@@ -26,7 +26,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Lego_Prinzip_Logik
+exname: lego_prinzip_logik
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

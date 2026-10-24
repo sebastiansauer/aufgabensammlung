@@ -119,7 +119,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Diamonds-Histogramm-Vergleich2
+exname: diamonds-histogramm-vergleich2
 extype: schoice
 exsolution: 0100
 exshuffle: TRUE

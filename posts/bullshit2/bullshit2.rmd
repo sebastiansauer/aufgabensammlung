@@ -125,7 +125,7 @@ answerlist(ifelse(sol$is_correct, "Wahr", "Falsch"), markup = "markdown")
 
 Meta-information
 ================
-exname: Bullshit2
+exname: bullshit2
 extype: schoice
 exsolution: `r mchoice2string(sol$is_correct, single = TRUE)`
 

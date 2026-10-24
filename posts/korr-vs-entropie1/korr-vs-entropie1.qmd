@@ -64,7 +64,7 @@ sol <- "loesung <- 42"
 Meta-information
 ================
 
-exname: NAME-DER-AUFGABE 
+exname: korr-vs-entropie1
 expoints: 1
 extype: string
 exsolution: NA

@@ -60,7 +60,7 @@ Answerlist
 
 Meta-information
 ================
-exname: kategorial-pred
+exname: nom-praed-in-regression
 extype: schoice
 exsolution: 10000
 exshuffle: false

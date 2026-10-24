@@ -1,5 +1,5 @@
 ---
-exname: bayesmodbestimmen01
+exname: bayesmod-bestimmen01
 extype: string
 exsolution: r  sol
 exshuffle: no

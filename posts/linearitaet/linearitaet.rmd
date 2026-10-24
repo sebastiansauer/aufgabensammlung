@@ -53,4 +53,4 @@ Meta-information
 extype: schoice
 expoints: 1
 exsolution: `r mchoice2string(solutions, single = TRUE)`
-exname: Linearitaet
+exname: linearitaet

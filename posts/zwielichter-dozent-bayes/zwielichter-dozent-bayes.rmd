@@ -1,7 +1,7 @@
 ---
 extype: string
 exsolution: NA
-exname: zwielichter-dozent
+exname: zwielichter-dozent-bayes
 expoints: 1
 categories:
 - bayes

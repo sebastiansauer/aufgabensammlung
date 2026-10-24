@@ -117,5 +117,5 @@ Meta-information
 ================
 extype: string
 exsolution: NA
-exname: moderndive-boxplot
+exname: datenvis-moderndive-boxplot1
 expoints: 1

@@ -74,5 +74,5 @@ Meta-information
 ================
 extype: string
 exsolution: `r sol`
-exname: r-fehler5
+exname: typ-fehler-r-05
 expoints: 1

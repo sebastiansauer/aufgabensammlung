@@ -47,5 +47,5 @@ Meta-information
 ================
 extype: schoice
 exsolution: 00100
-exname: anz-params
+exname: anz-params-schoice
 exshuffle: true

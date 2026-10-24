@@ -165,7 +165,7 @@ Meta-information
 ================
 extype: string
 exsolution: NA
-exname: Simu-p-Wert
+exname: simu-p-wert
 expoints: 1
 categories:
 - inference

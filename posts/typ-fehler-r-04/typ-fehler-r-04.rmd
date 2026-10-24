@@ -1,7 +1,7 @@
 ---
 extype: string
 exsolution: mean(c(1,2,3,4),na.rm=TRUE)
-exname: r-fehler4
+exname: typ-fehler-r-04
 expoints: 1
 categories:
 - R

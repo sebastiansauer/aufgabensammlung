@@ -1,5 +1,5 @@
 ---
-exname: germeval06-de-wordvec-resamples
+exname: germeval06
 expoints: 1
 extype: string
 exsolution: NA

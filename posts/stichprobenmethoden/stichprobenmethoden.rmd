@@ -60,7 +60,7 @@ Answerlist
 
 Meta-information
 ================
-exname: parameter-statistik
+exname: stichprobenmethoden
 extype: schoice
 exsolution: 00100
 exshuffle: false

@@ -28,7 +28,7 @@ Answerlist
 
 Meta-information
 ================
-exname: HO1
+exname: ho-schema
 extype: schoice
 exsolution: 1100000
 exshuffle: TRUE

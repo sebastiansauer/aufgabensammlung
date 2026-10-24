@@ -1,5 +1,5 @@
 ---
-exname: log-y-regression3
+exname: log-y-regr3
 extype: num
 exsolution: 1.07
 exshuffle: no

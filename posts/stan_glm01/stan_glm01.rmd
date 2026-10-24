@@ -1,7 +1,7 @@
 ---
 extype: string
 exsolution: NA
-exname: stan_glm1
+exname: stan_glm01
 expoints: 1
 categories:
 - probability

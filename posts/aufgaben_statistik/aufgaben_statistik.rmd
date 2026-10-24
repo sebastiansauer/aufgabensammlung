@@ -56,7 +56,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Aufgaben_Statistik
+exname: aufgaben_statistik
 extype: schoice
 exsolution: 0100000
 exshuffle: 5

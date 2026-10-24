@@ -1,7 +1,7 @@
 ---
 extype: Logikpruefung2
 exsolution: NA
-exname: Logikpruefung2
+exname: logikpruefung2
 expoints: 1
 categories:
 - R

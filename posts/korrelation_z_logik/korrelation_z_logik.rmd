@@ -28,7 +28,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Korrelation_Z_Logik
+exname: korrelation_z_logik
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

@@ -1,5 +1,5 @@
 ---
-exname: stan-glm-parameterzahl-simple
+exname: stan_glm_parameterzahl_simple
 extype: num
 exsolution: r sol
 exshuffle: no

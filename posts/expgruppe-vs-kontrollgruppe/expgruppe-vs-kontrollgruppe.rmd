@@ -76,7 +76,7 @@ exams::answerlist(ifelse(items$solutions, "Richtig", "Falsch"), markup = "markdo
 
 Meta-information
 ================
-exname: exp-vs-kontrollgruppe
+exname: expgruppe-vs-kontrollgruppe
 extype: schoice
 exsolution: `r mchoice2string(items$solutions, single = TRUE)`
 exshuffle: false

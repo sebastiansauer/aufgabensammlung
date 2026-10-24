@@ -27,7 +27,7 @@ Answerlist
 
 Meta-information
 ================
-exname: RMSE_SD_Bezug
+exname: rmse_sd_bezug
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

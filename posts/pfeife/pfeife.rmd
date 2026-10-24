@@ -24,7 +24,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Konzept_Pfeife
+exname: pfeife
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

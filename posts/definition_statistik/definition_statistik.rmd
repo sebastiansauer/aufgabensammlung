@@ -24,7 +24,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Definition_Statistik
+exname: definition_statistik
 extype: schoice
 exsolution: 01000
 exshuffle: TRUE

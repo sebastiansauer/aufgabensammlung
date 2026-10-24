@@ -63,7 +63,7 @@ Der Prozentrang der Kandidatin ist etwa `r d$Prozentrang[d$is_correct == TRUE]`.
 
 Meta-information
 ================
-exname: mittelwert-berechnen
+exname: normalverteilung1
 extype: num
 exsolution: `r d$Prozentrang[d$is_correct == TRUE]`
 exshuffle: true

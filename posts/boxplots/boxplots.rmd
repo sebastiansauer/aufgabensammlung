@@ -149,4 +149,4 @@ Meta-information
 ================
 extype: mchoice
 exsolution: `r mchoice2string(solutions)`
-exname: Parallel boxplots
+exname: boxplots

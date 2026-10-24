@@ -213,7 +213,7 @@ Aufgaben-ID: Bed-gem-Wskt, Toleranzbreite: `r sol_tol`
 
 Meta-information
 ================
-exname: Bed-gem-Wskt
+exname: bed-gem-wskt
 extype: num
 exsolution: `r sol`
 extol: `r sol_tol`

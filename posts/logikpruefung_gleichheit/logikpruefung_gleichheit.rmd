@@ -24,7 +24,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Logikprüfung_Gleichheit
+exname: logikpruefung_gleichheit
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

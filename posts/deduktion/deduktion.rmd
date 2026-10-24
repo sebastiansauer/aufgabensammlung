@@ -47,7 +47,7 @@ Meta-information
 extype: cloze
 exclozetype: verbatim
 exsolution: :SHORTANSWER:=modus tollens~=modustollens~=modus tolens~=modustolens~=Modus tollens~=Modus Tollens~=Modus Tolens~=Modus Tollens~=Modustollens
-exname: Deduktion
+exname: deduktion
 expoints: 1
 
 

@@ -106,7 +106,7 @@ Answerlist
 
 Meta-information
 ================
-exname: dag5
+exname: kausal05
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

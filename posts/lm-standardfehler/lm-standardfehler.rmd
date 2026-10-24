@@ -169,7 +169,7 @@ Answerlist
 
 Meta-information
 ================
-exname: lm-Standardfehler
+exname: lm-standardfehler
 extype: schoice
 exsolution: 00001
 exshuffle: FALSE

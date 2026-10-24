@@ -224,7 +224,7 @@ Aufgaben-ID: Post2-rope, Toleranzbreite: `r sol_tol`
 
 Meta-information
 ================
-exname: Post2-rope
+exname: post2-rope
 extype: num
 exsolution: `r sol`
 exshuffle: false

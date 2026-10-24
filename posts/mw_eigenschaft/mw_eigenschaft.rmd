@@ -29,7 +29,7 @@ Answerlist
 
 Meta-information
 ================
-exname: MW_Eigenschaft
+exname: mw_eigenschaft
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

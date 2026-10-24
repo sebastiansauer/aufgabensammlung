@@ -30,7 +30,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Zentrierung
+exname: zentrierung
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

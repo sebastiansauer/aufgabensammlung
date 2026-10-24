@@ -27,7 +27,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Mutate_Neu
+exname: mutate_neu
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

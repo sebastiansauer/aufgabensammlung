@@ -31,7 +31,7 @@ Answerlist
 
 Meta-information
 ================
-exname: name-der-aufgabe
+exname: wissschreib1
 extype: schoice
 exsolution: 100000
 exshuffle: true

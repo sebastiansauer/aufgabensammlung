@@ -24,7 +24,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Residuum_Definition
+exname: residuum_definition
 extype: schoice
 exsolution: 01000
 exshuffle: TRUE

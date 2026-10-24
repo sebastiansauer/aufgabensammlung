@@ -131,7 +131,7 @@ Answerlist
 
 Meta-information
 ================
-exname: geom-point1
+exname: post-befragen1
 extype: schoice
 exsolution: 00010
 exshuffle: FALSE

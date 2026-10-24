@@ -1,5 +1,5 @@
 ---
-exname: poaerior_interval
+exname: posterior_interval
 extype: schoice
 exsolution: 8
 exshuffle: no

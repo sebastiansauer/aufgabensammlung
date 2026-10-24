@@ -110,7 +110,7 @@ Answerlist
 
 Meta-information
 ================
-exname: geom-point2
+exname: viz-geom-point2
 extype: schoice
 exsolution: 01000
 exshuffle: false

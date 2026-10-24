@@ -211,7 +211,7 @@ Aufgaben-ID: PPV3a-num, Toleranzbreite: `r sol_tol`
 
 Meta-information
 ================
-exname: PPV3a-num
+exname: ppv3a-num
 extype: num
 exsolution: `r sol`
 exshuffle: false

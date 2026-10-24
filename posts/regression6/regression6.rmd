@@ -156,7 +156,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Regression6
+exname: regression6
 extype: schoice
 exsolution: 10000
 exshuffle: FALSE

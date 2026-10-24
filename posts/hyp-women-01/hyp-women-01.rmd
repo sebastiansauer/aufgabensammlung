@@ -118,7 +118,7 @@ laut unserem Modell.
 
 Meta-information
 ================
-exname: hyp-wo-men01
+exname: hyp-women-01
 extype: num
 exsolution: `r sol`
 exshuffle: false

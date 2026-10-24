@@ -27,7 +27,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Z_Wert_Interpretation
+exname: z_wert_interpretation
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

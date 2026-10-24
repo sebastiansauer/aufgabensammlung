@@ -106,5 +106,5 @@ Meta-information
 extype: cloze
 exclozetype: num|num
 exsolution: `r sol_a`|`r sol_b`
-exname: logist-mtcars5
+exname: logist-bayes-mtcars5
 extol: 0.02

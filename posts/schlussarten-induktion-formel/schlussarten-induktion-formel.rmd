@@ -28,7 +28,7 @@ Answerlist
 
 Meta-information
 ================
-exname: induktion-formel
+exname: schlussarten-induktion-formel
 extype: schoice
 exsolution: 100000
 exshuffle: 5

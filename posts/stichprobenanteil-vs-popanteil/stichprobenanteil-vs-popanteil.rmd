@@ -112,7 +112,7 @@ Answerlist
 
 Meta-information
 ================
-exname: stichprobenantel-vs-popanteil
+exname: stichprobenanteil-vs-popanteil
 extype: schoice
 exsolution: 00010
 exshuffle: true

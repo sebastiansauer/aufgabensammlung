@@ -27,7 +27,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Count_Nominal
+exname: count_nominal
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

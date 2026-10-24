@@ -1,5 +1,5 @@
 ---
-exname: regression-tree01
+exname: regr-tree01
 expoints: 1
 extype: string
 exsolution: NA

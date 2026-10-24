@@ -27,7 +27,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Nullmodell_R
+exname: nullmodell_r
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

@@ -58,5 +58,5 @@ Meta-information
 ================
 extype: schoice
 exsolution: `r mchoice2string(solutions, single = TRUE)`
-exname: Verteilungen 2
+exname: verteilungen2a
 exshuffle: 4

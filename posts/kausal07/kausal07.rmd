@@ -152,7 +152,7 @@ Answerlist
 
 Meta-information
 ================
-exname: dag7
+exname: kausal07
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

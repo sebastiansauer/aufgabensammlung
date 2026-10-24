@@ -29,7 +29,7 @@ Answerlist
 
 Meta-information
 ================
-exname: R2_Logik
+exname: r2_logik
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

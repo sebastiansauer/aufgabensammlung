@@ -56,5 +56,5 @@ Meta-information
 ================
 extype: string
 exsolution: 00001
-exname: my_exercise_label
+exname: dashboard-tools
 expoints: 5

@@ -1,5 +1,5 @@
 ---
-exname: Kaefer2
+exname: kaefer2
 extype: num
 exsolution: r exams::fmt(sol)
 exshuffle: no

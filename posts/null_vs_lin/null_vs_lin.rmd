@@ -27,7 +27,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Null_vs_Lin
+exname: null_vs_lin
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

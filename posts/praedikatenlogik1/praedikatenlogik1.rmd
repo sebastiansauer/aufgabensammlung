@@ -90,7 +90,7 @@ Solution
 
 Meta-information
 ================
-exname: praedikaten1
+exname: praedikatenlogik1
 extype: string
 exsolution: `r sol$Praedikatenlogik[1]`
 

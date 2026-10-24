@@ -218,7 +218,7 @@ answerlist(ifelse(sol_df$is_correct, "Richtig", "Falsch"), markup = "markdown")
 
 Meta-information
 ================
-exname: dag11
+exname: _kausal11
 extype: schoice
 exsolution: `r mchoice2string(sol_df$is_correct, single = TRUE)`
 exshuffle: false

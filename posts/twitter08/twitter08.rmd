@@ -142,7 +142,7 @@ Meta-information
 ================
 extype: string
 exsolution: NA
-exname: twitter07
+exname: twitter08
 expoints: 1
 categories:
 - textmining

@@ -1,5 +1,5 @@
 ---
-exname: Urne2
+exname: urne2
 extype: num
 exsolution: r exams::fmt(sol)
 exshuffle: no

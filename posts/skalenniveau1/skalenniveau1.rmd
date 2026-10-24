@@ -145,7 +145,7 @@ exams::answerlist(ifelse(d_prepared$is_correct_item, "Richtig", "Falsch"), marku
 
 Meta-information
 ================
-exname: Skalenniveau1
+exname: skalenniveau1
 extype: schoice
 exsolution: `r mchoice2string(d_prepared$is_correct_item, single = TRUE)`
 exshuffle: false

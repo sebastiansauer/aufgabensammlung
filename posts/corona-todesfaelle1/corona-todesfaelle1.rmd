@@ -124,7 +124,7 @@ Answerlist
 
 Meta-information
 ================
-exname: corona-tod1
+exname: corona-todesfaelle1
 extype: schoice
 exsolution: 10000
 exshuffle: false

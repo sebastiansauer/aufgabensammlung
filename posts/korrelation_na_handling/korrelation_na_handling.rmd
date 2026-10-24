@@ -28,7 +28,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Korrelation_NA_Handling
+exname: korrelation_na_handling
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

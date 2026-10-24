@@ -225,5 +225,5 @@ Meta-information
 ================
 extype: num
 exsolution: `r sol`
-exname: logist-mtcars3
+exname: logist-bayes-mtcars4
 extol: 0.02

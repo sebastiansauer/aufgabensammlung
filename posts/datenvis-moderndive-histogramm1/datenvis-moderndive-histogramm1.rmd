@@ -117,5 +117,5 @@ Meta-information
 ================
 extype: string
 exsolution: `r sol`
-exname: moderndive-histogram
+exname: datenvis-moderndive-histogramm1
 expoints: 5

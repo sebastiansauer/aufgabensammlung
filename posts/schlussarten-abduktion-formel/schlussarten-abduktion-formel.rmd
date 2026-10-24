@@ -38,7 +38,7 @@ Answerlist
 
 Meta-information
 ================
-exname: abduktion-formel
+exname: schlussarten-abduktion-formel
 extype: schoice
 exsolution: 10000
 exshuffle: true

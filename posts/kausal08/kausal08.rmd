@@ -166,7 +166,7 @@ Answerlist
 
 Meta-information
 ================
-exname: dag8
+exname: kausal08
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

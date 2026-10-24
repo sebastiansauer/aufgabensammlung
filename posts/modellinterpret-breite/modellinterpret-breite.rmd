@@ -198,7 +198,7 @@ Aufgaben-ID: post-md3, Toleranzbreite: `r sol_tol`
 
 Meta-information
 ================
-exname: post-md3
+exname: modellinterpret-breite
 extype: num
 exsolution: `r sol`
 extol: `r sol_tol`

@@ -46,5 +46,5 @@ Meta-information
 ================
 extype: schoice
 exsolution: `r mchoice2string(solutions, single = TRUE)`
-exname: z-Wert 2
+exname: zwert2a
 exshuffle: 4

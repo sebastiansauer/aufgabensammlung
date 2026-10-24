@@ -24,7 +24,7 @@ Answerlist
 
 Meta-information
 ================
-exname: PPDAC_Modell
+exname: ppdac_modell
 extype: schoice
 exsolution: 01000
 exshuffle: TRUE

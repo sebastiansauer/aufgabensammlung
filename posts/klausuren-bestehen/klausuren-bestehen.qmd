@@ -1,5 +1,5 @@
 ---
-exname: Klausuren-bestehen
+exname: klausuren-bestehen
 extype: num
 exsolution: r exams::fmt(sol)
 exshuffle: no

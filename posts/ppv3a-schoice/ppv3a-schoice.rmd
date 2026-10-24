@@ -250,7 +250,7 @@ answerlist(ifelse(sol_df$correct_answer, "Richtig", "Falsch"), markup = "markdow
 
 Meta-information
 ================
-exname: ppv3a
+exname: ppv3a-schoice
 extype: schoice
 exsolution: `r solutions_str`
 exshuffle: false

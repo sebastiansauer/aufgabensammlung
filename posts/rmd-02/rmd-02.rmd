@@ -50,6 +50,6 @@ Meta-information
 ================
 extype: schoice
 exsolution: 00001
-exname: rmd02
+exname: rmd-02
 expoints: 1
 shuffle: TRUE

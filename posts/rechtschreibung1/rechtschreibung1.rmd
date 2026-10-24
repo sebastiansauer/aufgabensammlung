@@ -170,7 +170,7 @@ answerlist(ifelse(d_long$is_correct, "Wahr", "Falsch"), markup  = "markdown")
 
 Meta-information
 ================
-exname: Rechtschreibung1
+exname: rechtschreibung1
 extype: schoice
 exsolution:  `r mchoice2string(d_long$is_correct, single = TRUE)`
 exshuffle: true

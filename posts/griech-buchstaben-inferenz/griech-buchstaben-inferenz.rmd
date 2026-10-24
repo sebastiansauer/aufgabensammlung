@@ -1,7 +1,7 @@
 ---
 extype: string
 exsolution: NA
-exname: griech-buchstaben
+exname: griech-buchstaben-inferenz
 expoints: 1
 categories:
 - qm2

@@ -24,7 +24,7 @@ Answerlist
 
 Meta-information
 ================
-exname: RStudio_GUI_View
+exname: rstudio_gui_view
 extype: schoice
 exsolution: 00100
 exshuffle: TRUE

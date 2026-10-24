@@ -47,5 +47,5 @@ Meta-information
 ================
 extype: string
 exsolution: `r sol`
-exname: kurzverweis-thesis1
+exname: zitieren-thesis1
 expoints: 1

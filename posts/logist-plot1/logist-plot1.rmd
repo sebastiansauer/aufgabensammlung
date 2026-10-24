@@ -171,7 +171,7 @@ body(logist5)
 
 Meta-information
 ================
-exname: plot-logist1
+exname: logist-plot1
 extype: string
 exsolution: NULL
 

@@ -93,7 +93,7 @@ Answerlist
 
 Meta-information
 ================
-exname: streudiagramm-dino
+exname: streudiagramm
 extype: schoice
 exsolution: 01000
 exshuffle: TRUE

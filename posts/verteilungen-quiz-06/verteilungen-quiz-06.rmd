@@ -80,7 +80,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Verteilungen-Quiz-06
+exname: verteilungen-quiz-06
 extype: schoice
 exsolution: 01
 exshuffle: FALSE

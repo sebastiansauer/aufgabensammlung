@@ -1,5 +1,5 @@
 ---
-exname: mittelwert-berechnen
+exname: tidymodels_workflowset01
 extype: num
 exsolution: r y
 exshuffle: no

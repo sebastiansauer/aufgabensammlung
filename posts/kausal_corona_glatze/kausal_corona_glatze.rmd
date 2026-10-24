@@ -1,7 +1,7 @@
 ---
 extype: string
 exsolution: r sol
-exname: corona_haarausfall
+exname: kausal_corona_glatze
 expoints: 1
 categories:
 - dag

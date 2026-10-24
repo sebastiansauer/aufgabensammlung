@@ -1,5 +1,5 @@
 ---
-exname: joint-prob1
+exname: gem-wskt1
 extype: num
 exsolution: r sol
 extol: 0.05

@@ -127,7 +127,7 @@ Answerlist
 
 Meta-information
 ================
-exname: dag4
+exname: kausal04
 extype: schoice
 exsolution: 01000
 exshuffle: TRUE

@@ -1,5 +1,5 @@
 ---
-exname: Additionssatz1
+exname: additionssatz1
 extype: num
 exsolution: r exams::fmt(sol)
 exshuffle: no

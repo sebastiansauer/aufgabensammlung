@@ -24,7 +24,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Stichprobengroesse_Genauigkeit
+exname: stichprobengroesse_genauigkeit
 extype: schoice
 exsolution: 00100
 exshuffle: TRUE

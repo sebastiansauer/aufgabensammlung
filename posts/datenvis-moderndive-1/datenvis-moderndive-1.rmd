@@ -43,5 +43,5 @@ Meta-information
 ================
 extype: string
 exsolution: `r sol`
-exname: wertzuweisen
+exname: datenvis-moderndive-1
 expoints: 5

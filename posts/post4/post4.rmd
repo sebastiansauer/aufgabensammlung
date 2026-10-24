@@ -250,7 +250,7 @@ answerlist(paste(unlist(explanations), ".", sep = ""), markup = "markdown")
 
 Meta-information
 ================
-exname: post3
+exname: post4
 extype: cloze
 exsolution: `r paste(solutions, collapse = "|")`
 exclozetype: `r paste(type, collapse = "|")`

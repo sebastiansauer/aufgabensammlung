@@ -75,5 +75,5 @@ Meta-information
 ================
 extype: string
 exsolution: NA
-exname: ggplot-prog 
+exname: ggplot-prog
 expoints: 1

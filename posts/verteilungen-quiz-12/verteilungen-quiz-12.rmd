@@ -63,7 +63,7 @@ Ja, $A$ ist wahr.
 
 Meta-information
 ================
-exname: Verteilungen-Quiz-12
+exname: verteilungen-quiz-12
 extype: schoice
 exsolution: 10
 exshuffle: FALSE

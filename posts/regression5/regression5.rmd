@@ -1,5 +1,5 @@
 ---
-exname: Regression5
+exname: regression5
 extype: num
 exsolution: r y
 exshuffle: yes

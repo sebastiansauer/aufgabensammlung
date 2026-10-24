@@ -24,7 +24,7 @@ Answerlist
 
 Meta-information
 ================
-exname: R_vs_RStudio
+exname: r_vs_rstudio
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

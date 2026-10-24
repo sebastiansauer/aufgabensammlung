@@ -103,5 +103,5 @@ Meta-information
 ================
 extype: string
 exsolution: NA
-exname: moderndive-barplot1
+exname: datenvis-moderndive-barplot1
 expoints: 5

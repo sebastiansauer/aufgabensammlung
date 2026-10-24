@@ -65,7 +65,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Ridges-vergleichen2
+exname: ridges-vergleichen2
 extype: schoice
 exsolution: 0001
 exshuffle: TRUE

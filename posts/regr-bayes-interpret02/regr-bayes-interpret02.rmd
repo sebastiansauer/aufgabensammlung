@@ -1,7 +1,7 @@
 ---
 extype: string
 exsolution: NA
-exname: Regr-Bayes-interpret2
+exname: regr-bayes-interpret02
 expoints: 1
 categories:
 - bayes

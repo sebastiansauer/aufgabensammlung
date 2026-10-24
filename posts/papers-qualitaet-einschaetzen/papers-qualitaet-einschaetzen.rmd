@@ -143,7 +143,7 @@ answerlist(ifelse(items_df$selected, "Wahr", "Falsch"), markup = "markdown")
 
 Meta-information
 ================
-exname: papers-quali-einschaetzen
+exname: papers-qualitaet-einschaetzen
 extype: schoice
 exsolution: `r mchoice2string(items_df$selected, single = TRUE)`
 exshuffle: false

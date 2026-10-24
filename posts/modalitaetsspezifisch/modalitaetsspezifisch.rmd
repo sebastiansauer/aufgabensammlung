@@ -44,7 +44,7 @@ Answerlist
 
 Meta-information
 ================
-exname: modalitaetsspezifisch1
+exname: modalitaetsspezifisch
 extype: schoice
 exsolution: 100000
 exshuffle: 5

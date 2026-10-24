@@ -24,7 +24,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Vektor_Erstellung
+exname: vektor_erstellung
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

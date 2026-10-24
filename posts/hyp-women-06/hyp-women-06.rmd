@@ -243,7 +243,7 @@ sol
 
 Meta-information
 ================
-exname: hyp-wo-men06
+exname: hyp-women-06
 extype: num
 exsolution: `r sol`
 extol: .2

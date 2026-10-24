@@ -87,7 +87,7 @@ answerlist(ifelse(solutions, "Richtig", "Falsch"), markup = "markdown")
 
 Meta-information
 ================
-exname: normvert-perzentil2
+exname: normvert-perzentil3
 extype: schoice
 exsolution: `r mchoice2string(solutions, single = TRUE)`
 exshuffle: TRUE

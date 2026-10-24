@@ -1,7 +1,7 @@
 ---
 extype: string
 exsolution: NA
-exname: Mediterran-Alk
+exname: mediterran-alk
 expoints: 1
 date: '2022-12-19'
 slug: Mediterran-Alk

@@ -129,7 +129,7 @@ sol <- "Möglichkeit 1: Y-Achse logarithmieren. Möglichkeit 2: Kurven so kalibr
 Meta-information
 ================
 extype: string
-exname: coronakurve
+exname: wachstum_corona
 expoints: 10
 exsolution: `r sol`
 

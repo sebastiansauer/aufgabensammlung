@@ -76,7 +76,7 @@ Answerlist
 
 Meta-information
 ================
-exname: filter1
+exname: filter
 extype: schoice
 exsolution: 10000
 exshuffle: FALSE

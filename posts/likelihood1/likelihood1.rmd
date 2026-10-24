@@ -76,6 +76,6 @@ Meta-information
 ================
 extype: num
 exsolution: `r sol`
-exname: Lose2
+exname: likelihood1
 expoints: 1
 extol: 2

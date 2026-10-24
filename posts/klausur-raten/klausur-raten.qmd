@@ -1,6 +1,6 @@
 ---
 extype: num
-exname: Klausur-raten
+exname: klausur-raten
 expoints: 1
 extol: sol_tol
 categories:

@@ -96,7 +96,7 @@ Answerlist
 
 Meta-information
 ================
-exname: multreg1
+exname: ims-kap-04-02
 extype: schoice
 exsolution: 00100
 exshuffle: false

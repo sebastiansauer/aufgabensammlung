@@ -80,7 +80,7 @@ Die Aussage ist also
 
 Meta-information
 ================
-exname: Verteilungen-Quiz-05
+exname: verteilungen-quiz-05
 extype: schoice
 exsolution: 10
 exshuffle: FALSE

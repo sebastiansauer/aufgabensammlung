@@ -64,7 +64,7 @@ sol <-
 Meta-information
 ================
 
-exname: tidymodels-simple2 
+exname: tidymodels-simple1
 extype: num
 exsolution: `r exams::fmt(sol)`
 exshuffle: false

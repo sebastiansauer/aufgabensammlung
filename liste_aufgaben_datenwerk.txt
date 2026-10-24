@@ -90,7 +90,6 @@
 ./wertzuweisen/wertzuweisen.rmd
 ./import-data/index.qmd
 ./verteilungen-quiz-04/verteilungen-quiz-04.rmd
-./totale-Wskt1/totale-wskt1.qmd
 ./tidymodels-penguins03/tidymodels-penguins03.rmd
 ./rethink2m1/rethink2m1.qmd
 ./chatgpt-curl/chatgpt-curl.qmd
@@ -447,7 +446,7 @@
 ./regression4/regression4.rmd
 ./typ-fehler-r-06a/typ-fehler-r-06a.rmd
 ./mw-berechnen/mw-berechnen.rmd
-./mw-berechnen/mw-berechnen2.rmd
+./mw-berechnen2/mw-berechnen2.rmd
 ./kennwert-robust2/kennwert-robust2.rmd
 ./mariokart-mean2/mariokart-mean2.rmd
 ./rope-luecke/index.qmd
@@ -564,7 +563,6 @@
 ./wskt-schluckspecht2a/index.qmd
 ./wskt-quiz02/wskt-quiz02.qmd
 ./kausal24/kausal24.rmd
-./kausal24/kausal28.rmd
 ./smartphone_addict/index.qmd
 ./anova-skalenniveau/anova-skalenniveau.rmd
 ./filter-na5/filter-na5.rmd

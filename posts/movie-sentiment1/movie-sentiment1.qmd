@@ -576,7 +576,7 @@ answerlist(ifelse(syntax_chosen_df$correct, "Richtig", "Falsch"),
 
 Meta-information
 ================
-exname: movie-sentiments1
+exname: movie-sentiment1
 extype: schoice
 exsolution: `r mchoice2string(syntax_chosen_df$correct, single = TRUE)`
 exshuffle: FALSE

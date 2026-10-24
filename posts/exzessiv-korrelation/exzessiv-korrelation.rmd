@@ -30,7 +30,7 @@ sol <- 0.27
 
 Meta-information
 ================
-exname: BSS-SA-02
+exname: exzessiv-korrelation
 extype: num
 exsolution: `r sol`
 extol: 0.01

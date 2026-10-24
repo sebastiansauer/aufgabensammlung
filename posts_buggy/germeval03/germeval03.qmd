@@ -1,5 +1,5 @@
 ---
-exname: germeval03-sent-textfeatures-rand-for
+exname: germeval03
 expoints: 1
 extype: string
 exsolution: NA

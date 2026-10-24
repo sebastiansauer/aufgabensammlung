@@ -37,7 +37,7 @@ Answerlist
 
 Meta-information
 ================
-exname: formel-induktive-verallgemeinerung
+exname: induktive-verallgemeinerung
 extype: schoice
 exsolution: 100000
 exshuffle: 5

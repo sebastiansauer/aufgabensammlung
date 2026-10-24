@@ -53,7 +53,7 @@ Answerlist
 
 Meta-information
 ================
-exname: rmd-fehler-01
+exname: rmd-01
 extype: schoice
 exsolution: 00100
 exshuffle: FALSE

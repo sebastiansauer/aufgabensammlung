@@ -107,7 +107,7 @@ sol <- d_selected$value[1]
 
 Meta-information
 ================
-exname: Bullshit1
+exname: bullshit1
 extype: num
 exsolution: `r sol`
 extol: 0.01

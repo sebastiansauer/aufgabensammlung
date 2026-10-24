@@ -1,5 +1,5 @@
 ---
-exname: mw_berechnen
+exname: mwberechnen
 extype: num
 exsolution: r sol
 extol: 0.1

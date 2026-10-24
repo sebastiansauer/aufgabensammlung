@@ -1,7 +1,7 @@
 ---
 extype: string
 exsolution: NA
-exname: tengku01
+exname: tengku-hanis01
 expoints: 1
 categories:
 - tidymodels

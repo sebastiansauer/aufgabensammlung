@@ -156,7 +156,7 @@ ggplot(data = data.frame(x = c(-3, 10)), aes(x)) +
 
 Meta-information
 ================
-exname: geom-point1
+exname: priori-streuung
 extype: schoice
 exsolution: 00100
 exshuffle: FALSE

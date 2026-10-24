@@ -231,7 +231,7 @@ answerlist(ifelse(sol_df$solutions, "Richtig", "Falsch"), markup = "markdown")
 
 Meta-information
 ================
-exname: post2a
+exname: post2-md-post
 extype: schoice
 exsolution: `r solutions_str`
 exshuffle: false

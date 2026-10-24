@@ -162,7 +162,7 @@ answerlist(ifelse(joins_df$is_correct, "Wahr", "Falsch"),
 
 Meta-information
 ================
-exname: join1
+exname: joins
 extype: schoice
 exsolution: `r mchoice2string(joins_df$is_correct, single = TRUE)`
 exshuffle: false

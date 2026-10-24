@@ -34,4 +34,4 @@ Meta-information
 ================
 extype: string
 exsolution: `r sol`
-exname: choroplethen01
+exname: choroplethen

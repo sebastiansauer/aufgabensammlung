@@ -125,4 +125,4 @@ Meta-information
 ================
 extype: mchoice
 exsolution: `r mchoice2string(solutions)`
-exname: Analysis of variance
+exname: anova

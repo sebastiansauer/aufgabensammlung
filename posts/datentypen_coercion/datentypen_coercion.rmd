@@ -24,7 +24,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Datentypen_Coercion
+exname: datentypen_coercion
 extype: schoice
 exsolution: 01000
 exshuffle: TRUE

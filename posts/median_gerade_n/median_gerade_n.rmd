@@ -26,7 +26,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Median_Gerade_N
+exname: median_gerade_n
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

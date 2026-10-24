@@ -111,7 +111,7 @@ Answerlist
 
 Meta-information
 ================
-exname: multreg3
+exname: ims-kap-04-05
 extype: schoice
 exsolution: 00010 
 exshuffle: false

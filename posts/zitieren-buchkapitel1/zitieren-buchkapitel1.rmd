@@ -47,5 +47,5 @@ Meta-information
 ================
 extype: string
 exsolution: `r sol`
-exname: kurzverweis-buchkapitel1
+exname: zitieren-buchkapitel1
 expoints: 1

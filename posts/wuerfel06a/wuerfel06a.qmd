@@ -69,7 +69,7 @@ Die Lösung lautet ``r sol``.
 Meta-information
 ================
 
-exname: wuerfel06
+exname: wuerfel06a
 extype: num
 exsolution: `r exams::fmt(sol)`
 exshuffle: false

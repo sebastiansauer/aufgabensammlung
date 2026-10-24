@@ -1,5 +1,5 @@
 ---
-exname: Bed-Wskt1
+exname: bed-wskt1
 extype: num
 exsolution: r exams::fmt(sol)
 extol: 0.03

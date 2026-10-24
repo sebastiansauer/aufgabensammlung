@@ -80,7 +80,7 @@ Answerlist
 
 Meta-information
 ================
-exname: lik1
+exname: likelihood-identifizieren
 extype: schoice
 exsolution: 10000
 exshuffle: FALSE

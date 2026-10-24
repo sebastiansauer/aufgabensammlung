@@ -1,5 +1,5 @@
 ---
-exname: Var-vs-Stufe
+exname: var-vs-stufe
 expoints: 1
 extype: schoice
 exsolution: NA

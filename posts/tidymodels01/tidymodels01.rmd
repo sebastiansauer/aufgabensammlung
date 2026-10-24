@@ -98,7 +98,7 @@ performance::rmse(fit1_lm)
 Meta-information
 ================
 
-exname: tidymodels01 
+exname: tidymodels01
 extype: num
 exsolution: `r exams::fmt(sol)`
 exshuffle: false

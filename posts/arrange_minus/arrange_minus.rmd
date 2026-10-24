@@ -25,7 +25,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Arrange_Minus
+exname: arrange_minus
 extype: schoice
 exsolution: 10000
 exshuffle: TRUE

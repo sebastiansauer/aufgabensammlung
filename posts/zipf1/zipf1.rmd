@@ -72,7 +72,7 @@ Answerlist
 
 Meta-information
 ================
-exname: geom-point1
+exname: zipf1
 extype: schoice
 exsolution: 110000000000
 exshuffle: 5

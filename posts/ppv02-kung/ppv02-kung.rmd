@@ -131,7 +131,7 @@ Meta-information
 ================
 extype: string
 exsolution: NA
-exname: ppv01-kung
+exname: ppv02-kung
 expoints: 1
 categories:
 - probability

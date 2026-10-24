@@ -34,7 +34,7 @@ Meta-information
 ================
 extype: schoice
 exsolution: 10000
-exname: bayes-theorem1-fix
+exname: bayes-theorem1-schoice-fix
 exshuffle: true
 excategory: bayes
 excategory: probability

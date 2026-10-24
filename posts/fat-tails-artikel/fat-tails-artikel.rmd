@@ -1,7 +1,7 @@
 ---
 extype: string
 exsolution: NA
-exname: fattailsarticle
+exname: fat-tails-artikel
 expoints: 1
 categories:
 - probability

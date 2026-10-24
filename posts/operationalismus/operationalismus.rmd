@@ -29,7 +29,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Operationalismus
+exname: operationalismus
 extype: mchoice
 exsolution: 101011
 exshuffle: TRUE
