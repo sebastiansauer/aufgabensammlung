@@ -94,5 +94,5 @@ Meta-information
 ================
 exname: logression1
 extype: schoice
-exsolution: 100000
+exsolution: 10000
 exshuffle: true

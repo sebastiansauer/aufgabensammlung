@@ -15,15 +15,16 @@ Welcher Operator wird in R primär empfohlen, um einer Variablen einen Wert zuzu
 
 Answerlist
 ----------
-* <-
-* ==
-* =>
-* %in%
+* `<-`
+* `==`
+* `=>`
+* `%in%`
 * `~`
 
 Solution
 ========
-Obwohl das Gleichheitszeichen (=) auch funktioniert, ist der Zuweisungspfeil (<-) in R präziser und wird daher bevorzugt verwendet.
+Obwohl das Gleichheitszeichen (`=`) auch funktioniert, ist der Zuweisungspfeil (`<-`) in R präziser 
+und wird daher bevorzugt verwendet.
 
 
 Aufgabenname: `zuweisung_operator`

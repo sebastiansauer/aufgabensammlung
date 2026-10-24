@@ -24,7 +24,7 @@ Question
 ========
 
 
-Wählen Sie das Adjektiv aus, das *nicht* zum Begriff der Zufallsvariable gehört.
+Wählen Sie den Begriff aus, das *nicht* zum Begriff der Zufallsvariable gehört.
 
 
 Answerlist
@@ -32,6 +32,7 @@ Answerlist
 * stetig
 * diskret
 * determiniert
+* keinen der genannten
 
 
 
@@ -49,6 +50,7 @@ Answerlist
 * Falsch
 * Falsch
 * Wahr
+* Falsch
 
 
 
@@ -56,7 +58,7 @@ Meta-information
 ================
 exname: verteilungen-quiz-02-b
 extype: schoice
-exsolution: 001‚
+exsolution: 0010
 exshuffle: false
 categories:
 - distribution
