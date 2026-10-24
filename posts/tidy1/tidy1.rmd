@@ -47,7 +47,7 @@ Hinweise:
 
 - Alle Variablen sollen nicht konstant sein, also mehr als einen uniquen Wert aufweisen.
 - Alle Variablen sollen keine fehlenden Werte aufweisen, also komplett sein.
-- Alle Variablen sollen numerisch sein.
+- Alle Variablen sollen numerisch sein. Numerische Werte werden mit einem Punkt als Dezimaltrennzeichen gekennzeichnet.
 
 
 ```{r some-constants}
@@ -294,7 +294,7 @@ untidy_df10 <-
   tidy_df %>% 
   mutate(across(all_of(col_names_random), as.character))
 
-untidy_df10[row_random, col_names_random_position] <- "1,2"
+untidy_df10[row_random, col_names_random_position] <- "a"
 
 untidy_tibbles <- 
 untidy_tibbles %>% 

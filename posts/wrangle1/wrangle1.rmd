@@ -7,6 +7,7 @@ categories:
 - schoice
 - paper
 - quiz
+- easy
 date: '2023-03-27'
 slug: wrangle1
 title: wrangle1
@@ -52,6 +53,43 @@ Alternativ können Sie den Datensatz [hier](https://vincentarelbundock.github.io
 Hilfe zum Datensatz (Codebook) finden Sie [hier](https://vincentarelbundock.github.io/Rdatasets/doc/nycflights13/flights.html).
 
 
+Hier ist eine Aufstellung der Spalten:
+
+*year, month, day*
+Date of departure.
+
+*dep_time, arr_time*
+Actual departure and arrival times (format HHMM or HMM), local tz.
+
+*sched_dep_time, sched_arr_time*
+Scheduled departure and arrival times (format HHMM or HMM), local tz.
+
+*dep_delay, arr_delay*
+Departure and arrival delays, in minutes. Negative times represent early departures/arrivals.
+
+*carrier*
+Two letter carrier abbreviation. See airlines to get name.
+
+*flight*
+Flight number.
+
+*tailnum*
+Plane tail number. See planes for additional metadata.
+
+*origin, dest*
+Origin and destination. See airports for additional metadata.
+
+*air_time*
+Amount of time spent in the air, in minutes.
+
+*distance*
+Distance between airports, in miles.
+
+*hour, minute*
+Time of scheduled departure broken into hour and minutes.
+
+*time_hour*
+Scheduled date and hour of the flight as a POSIXct date. Along with origin, can be used to join flights data to weather data.Book Flights
 
 
 
