@@ -56,7 +56,7 @@ Answerlist
 * `filter(flights, day == 1)`
 * `filter(month == 1, day == 1)`
 * `filter(month = 1, day == 1)`
-* `filter(flights, month == 1, day == 1)`
+* `filter(month == 1, day == 1, flights)`
 
 
 Solution
@@ -78,9 +78,9 @@ Answerlist
 
 * Falsch
 * Falsch
-* Falsch
-* Falsch
 * Wahr
+* Falsch
+* Falsch
 
 
 
@@ -90,7 +90,7 @@ Meta-information
 exname: wrangle4
 extype: schoice
 expoints: 1
-exsolution: 00001
+exsolution: 00100
 exshuffle: FALSE
 
 
