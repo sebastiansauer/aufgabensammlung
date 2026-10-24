@@ -292,7 +292,7 @@ tibbles_listdf %>%
 ```{r}
 untidy_df10 <-
   tidy_df %>% 
-  mutate(!!col_names_random := as.character(!!col_names_random))
+  mutate(across(all_of(col_names_random), as.character))
 
 untidy_df10[row_random, col_names_random_position] <- "1,2"
 
@@ -305,7 +305,7 @@ tibbles_listdf <-
 tibbles_listdf %>% 
   bind_rows(tibble(type = "untidy", data = list(untidy_df10),
                    explanation = paste0("Die Spalte ", col_names_random, 
-                                        "weißt einen nicht erlaubten Wert auf.")))
+                                        " weist einen nicht erlaubten Wert auf.")))
 ```
 
 
