@@ -1,3 +1,14 @@
+---
+categories:
+- R
+- schoice
+- quiz
+date: '2026-10-24'
+slug: vektorielles_rechnen_transfer
+title: vektorielles_rechnen_transfer
+
+---
+
 Question
 ========
 Gegeben ist der Vektor `werte <- c(10, 20, 30)`. Welches Ergebnis liefert der Befehl `sum(werte - mean(werte))`?

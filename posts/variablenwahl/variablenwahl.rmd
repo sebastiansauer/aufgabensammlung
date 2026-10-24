@@ -1,3 +1,14 @@
+---
+categories:
+- regression
+- schoice
+- quiz
+date: '2026-10-24'
+slug: variablenwahl
+title: variablenwahl
+
+---
+
 Question
 ========
 Welche Richtlinie gilt für die Aufnahme von Variablen in ein Prognosemodell, wenn maximale Güte das Ziel ist?

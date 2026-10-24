@@ -1,3 +1,14 @@
+---
+categories:
+- association
+- schoice
+- quiz
+date: '2026-10-24'
+slug: kovarianz_skalierung
+title: kovarianz_skalierung
+
+---
+
 Question
 ========
 Ein Forscher untersucht den Zusammenhang zwischen dem monatlichen Einkommen (in Euro) und der Lebenszufriedenheit.

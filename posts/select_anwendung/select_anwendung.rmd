@@ -1,3 +1,14 @@
+---
+categories:
+- datawrangling
+- schoice
+- quiz
+date: '2026-10-24'
+slug: select_anwendung
+title: select_anwendung
+
+---
+
 Question
 ========
 Stellen Sie sich vor, Sie haben eine Tabelle mit 100 Variablen (Spalten).

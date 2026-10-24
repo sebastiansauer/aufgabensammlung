@@ -1,3 +1,14 @@
+---
+categories:
+- association
+- schoice
+- quiz
+date: '2026-10-24'
+slug: korrelation_richtung
+title: korrelation_richtung
+
+---
+
 Question
 ========
 Sie betrachten den Zusammenhang zwischen „Lernzeit“ und „Freizeit“ bei Studierenden.

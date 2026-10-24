@@ -1,3 +1,14 @@
+---
+categories:
+- regression
+- schoice
+- quiz
+date: '2026-10-24'
+slug: regebene
+title: regebene
+
+---
+
 Question
 ========
 In einem Modell mit zwei metrischen UVs (`y ~ x1 + x2`) wird die Regressionsgerade grafisch erweitert.

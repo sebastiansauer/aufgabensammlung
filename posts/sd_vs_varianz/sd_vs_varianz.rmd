@@ -1,3 +1,14 @@
+---
+categories:
+- variability
+- schoice
+- quiz
+date: '2026-10-24'
+slug: sd_vs_varianz
+title: sd_vs_varianz
+
+---
+
 Question
 ========
 Warum wird in der Statistik die Standardabweichung (SD) oft der Varianz vorgezogen, wenn es um die Beschreibung von Daten geht?

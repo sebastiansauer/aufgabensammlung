@@ -1,3 +1,14 @@
+---
+categories:
+- regression
+- schoice
+- quiz
+date: '2026-10-24'
+slug: slope_inter
+title: slope_inter
+
+---
+
 Question
 ========
 Die Steigung einer Regressionsgeraden wird mit 0,88 angegeben.

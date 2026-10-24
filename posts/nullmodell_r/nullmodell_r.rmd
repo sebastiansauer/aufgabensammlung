@@ -1,3 +1,14 @@
+---
+categories:
+- eda
+- schoice
+- quiz
+date: '2026-10-24'
+slug: nullmodell_r
+title: nullmodell_r
+
+---
+
 Question
 ========
 Sie führen in R den Befehl `lm(total_pr ~ 1, data = mariokart)` aus.

@@ -1,3 +1,14 @@
+---
+categories:
+- eda
+- schoice
+- quiz
+date: '2026-10-24'
+slug: gruppen_modell_vorteil
+title: gruppen_modell_vorteil
+
+---
+
 Question
 ========
 Warum kann ein gruppiertes Mittelwert-Modell (z. B. getrennt nach Geschlecht) besser sein als ein ungruppierter Mittelwert?

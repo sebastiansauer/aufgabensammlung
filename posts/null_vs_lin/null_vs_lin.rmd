@@ -1,3 +1,14 @@
+---
+categories:
+- regression
+- schoice
+- quiz
+date: '2026-10-24'
+slug: null_vs_lin
+title: null_vs_lin
+
+---
+
 Question
 ========
 Ein Forscher stellt fest, dass ein Geradenmodell genau die gleiche Vorhersagegüte (MSE) liefert wie ein Punktmodell (Nullmodell).

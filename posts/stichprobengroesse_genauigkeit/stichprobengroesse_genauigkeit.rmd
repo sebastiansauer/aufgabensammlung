@@ -1,3 +1,14 @@
+---
+categories:
+- rahmen
+- schoice
+- quiz
+date: '2026-10-24'
+slug: stichprobengroesse_genauigkeit
+title: stichprobengroesse_genauigkeit
+
+---
+
 Question
 ========
 Welchen Effekt hat eine größere Stichprobengröße ($n$) auf die Schätzgenauigkeit?

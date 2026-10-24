@@ -1,3 +1,14 @@
+---
+categories:
+- vis
+- schoice
+- quiz
+date: '2026-10-24'
+slug: normal_rechnen
+title: normal_rechnen
+
+---
+
 Question
 ========
 Gegeben ist eine normalverteilte Variable (IQ) mit einem Mittelwert von 100 und einer Streuung von 15.

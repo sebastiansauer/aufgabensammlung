@@ -1,3 +1,14 @@
+---
+categories:
+- regression
+- schoice
+- quiz
+date: '2026-10-24'
+slug: samplesplit
+title: samplesplit
+
+---
+
 Question
 ========
 Was ist der entscheidende Unterschied zwischen einem „Analyse-Sample“ und einem „Assessment-Sample“ im PPDAC-Prozess?

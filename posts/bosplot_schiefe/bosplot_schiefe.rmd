@@ -1,3 +1,14 @@
+---
+categories:
+- vis
+- schoice
+- quiz
+date: '2026-10-24'
+slug: bosplot_schiefe
+title: bosplot_schiefe
+
+---
+
 Question
 ========
 Sie betrachten einen Boxplot, bei dem der dicke Median-Strich deutlich näher an der unteren Kante der Box liegt.

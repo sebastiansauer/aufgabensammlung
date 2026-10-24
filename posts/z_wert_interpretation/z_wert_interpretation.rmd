@@ -1,3 +1,14 @@
+---
+categories:
+- variability
+- schoice
+- quiz
+date: '2026-10-24'
+slug: z_wert_interpretation
+title: z_wert_interpretation
+
+---
+
 Question
 ========
 Ein Student hat in einem Statistiktest einen z-Wert von -2,0 erzielt.

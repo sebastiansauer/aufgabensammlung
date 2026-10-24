@@ -1,3 +1,14 @@
+---
+categories:
+- variability
+- schoice
+- quiz
+date: '2026-10-24'
+slug: rmse_sd_bezug
+title: rmse_sd_bezug
+
+---
+
 Question
 ========
 In R berechnen Sie für ein Nullmodell (Punktmodell) den RMSE.

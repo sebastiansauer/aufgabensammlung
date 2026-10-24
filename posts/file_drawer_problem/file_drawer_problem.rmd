@@ -1,3 +1,14 @@
+---
+categories:
+- eda
+- schoice
+- quiz
+date: '2026-10-24'
+slug: file_drawer_problem
+title: file_drawer_problem
+
+---
+
 Question
 ========
 Was versteht man unter dem "File-Drawer-Problem" (Schubladenproblem) im Kontext wissenschaftlicher Redlichkeit?

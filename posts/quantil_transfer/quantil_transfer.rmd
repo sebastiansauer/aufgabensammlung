@@ -1,3 +1,14 @@
+---
+categories:
+- eda
+- schoice
+- quiz
+date: '2026-10-24'
+slug: quantil_transfer
+title: quantil_transfer
+
+---
+
 Question
 ========
 Ein Immobilienportal gibt das 0.90-Quantil für Hauspreise in einer Stadt mit 800.000 Euro an.

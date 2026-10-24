@@ -1,3 +1,14 @@
+---
+categories:
+- rahmen
+- schoice
+- quiz
+date: '2026-10-24'
+slug: uv_av_unterscheidung
+title: uv_av_unterscheidung
+
+---
+
 Question
 ========
 In der Forschungsfrage „Hat Lernen einen Einfluss auf den Prüfungserfolg?“ ist das „Lernen“ die ...?

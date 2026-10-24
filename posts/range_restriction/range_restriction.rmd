@@ -1,3 +1,14 @@
+---
+categories:
+- association
+- schoice
+- quiz
+date: '2026-10-24'
+slug: range_restriction
+title: range_restriction
+
+---
+
 Question
 ========
 In einer Studie soll der Zusammenhang zwischen Intelligenz und Studienerfolg untersucht werden.

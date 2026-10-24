@@ -1,3 +1,14 @@
+---
+categories:
+- eda
+- schoice
+- quiz
+date: '2026-10-24'
+slug: definition_punktmodell
+title: definition_punktmodell
+
+---
+
 Question
 ========
 Was ist das entscheidende Merkmal eines "Punktmodells" in der Statistik?

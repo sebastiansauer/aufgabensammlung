@@ -1,3 +1,14 @@
+---
+categories:
+- R
+- schoice
+- quiz
+date: '2026-10-24'
+slug: definition_dataframe
+title: definition_dataframe
+
+---
+
 Question
 ========
 Was ist ein „Dataframe“ in R?

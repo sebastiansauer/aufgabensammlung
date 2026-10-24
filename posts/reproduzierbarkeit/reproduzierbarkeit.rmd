@@ -1,3 +1,14 @@
+---
+categories:
+- R
+- schoice
+- quiz
+date: '2026-10-24'
+slug: reproduzierbarkeit
+title: reproduzierbarkeit
+
+---
+
 Question
 ========
 Was versteht man in der Statistik unter dem Begriff „Reproduzierbarkeit“?

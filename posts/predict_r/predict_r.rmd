@@ -1,3 +1,14 @@
+---
+categories:
+- regression
+- schoice
+- quiz
+date: '2026-10-24'
+slug: predict_r
+title: predict_r
+
+---
+
 Question
 ========
 Sie haben ein Modell `m1 <- lm(preis ~ alter, data = autos)` erstellt.

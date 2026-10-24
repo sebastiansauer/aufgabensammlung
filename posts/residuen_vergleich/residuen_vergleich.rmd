@@ -1,3 +1,14 @@
+---
+categories:
+- variability
+- schoice
+- quiz
+date: '2026-10-24'
+slug: residuen_vergleich
+title: residuen_vergleich
+
+---
+
 Question
 ========
 Sie betrachten ein einfaches Punktmodell für Klausurnoten.

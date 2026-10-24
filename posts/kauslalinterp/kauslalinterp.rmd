@@ -1,3 +1,14 @@
+---
+categories:
+- regression
+- schoice
+- quiz
+date: '2026-10-24'
+slug: kauslalinterp
+title: kauslalinterp
+
+---
+
 Question
 ========
 Wann ist es laut Skript methodisch zulässig, einen Regressionskoeffizienten kausal zu interpretieren?

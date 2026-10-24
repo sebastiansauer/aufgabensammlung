@@ -1,3 +1,14 @@
+---
+categories:
+- datawrangling
+- schoice
+- quiz
+date: '2026-10-24'
+slug: count_nominal
+title: count_nominal
+
+---
+
 Question
 ========
 Sie arbeiten mit einem Datensatz über Kunden.

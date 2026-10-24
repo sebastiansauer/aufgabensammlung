@@ -1,3 +1,14 @@
+---
+categories:
+- regression
+- schoice
+- quiz
+date: '2026-10-24'
+slug: resid_calc
+title: resid_calc
+
+---
+
 Question
 ========
 Gegeben ist die Gleichung $y_i = \beta_0 + \beta_1 \cdot x_i + \epsilon_i$.

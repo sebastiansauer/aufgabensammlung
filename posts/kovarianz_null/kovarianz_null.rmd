@@ -1,3 +1,14 @@
+---
+categories:
+- association
+- schoice
+- quiz
+date: '2026-10-24'
+slug: kovarianz_null
+title: kovarianz_null
+
+---
+
 Question
 ========
 Stellen Sie sich vor, Sie berechnen die Kovarianz für einen Datensatz.

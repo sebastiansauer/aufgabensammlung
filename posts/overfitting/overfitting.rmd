@@ -1,3 +1,14 @@
+---
+categories:
+- regression
+- schoice
+- quiz
+date: '2026-10-24'
+slug: overfitting
+title: overfitting
+
+---
+
 Question
 ========
 Ein Modell zur Vorhersage von Hauspreisen erzielt im Train-Sample ein R-Quadrat von 0,95.

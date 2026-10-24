@@ -1,3 +1,14 @@
+---
+categories:
+- regression
+- schoice
+- quiz
+date: '2026-10-24'
+slug: dummykodier
+title: dummykodier
+
+---
+
 Question
 ========
 Ein Modell nutzt eine nominale Variable „Wohnort“ mit den Stufen Berlin, Hamburg und München als Prädiktor.

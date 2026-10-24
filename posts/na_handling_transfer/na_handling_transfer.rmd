@@ -1,3 +1,14 @@
+---
+categories:
+- R
+- schoice
+- quiz
+date: '2026-10-24'
+slug: na_handling_transfer
+title: na_handling_transfer
+
+---
+
 Question
 ========
 Ein Datensatz `umfrage` enthält eine Spalte `alter` mit den Werten `c(20, 25, NA, 30)`. Welcher der folgenden Befehle führt dazu, dass R einen numerischen Wert für den Mittelwert ausgibt, anstatt `NA`?

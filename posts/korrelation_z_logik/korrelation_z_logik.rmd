@@ -1,3 +1,14 @@
+---
+categories:
+- association
+- schoice
+- quiz
+date: '2026-10-24'
+slug: korrelation_z_logik
+title: korrelation_z_logik
+
+---
+
 Question
 ========
 Die Korrelation r wird oft als „mittleres z-Produkt“ bezeichnet.

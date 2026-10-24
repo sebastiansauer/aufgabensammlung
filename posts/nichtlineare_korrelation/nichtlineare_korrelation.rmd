@@ -1,3 +1,14 @@
+---
+categories:
+- association
+- schoice
+- quiz
+date: '2026-10-24'
+slug: nichtlineare_korrelation
+title: nichtlineare_korrelation
+
+---
+
 Question
 ========
 Sie betrachten ein Streudiagramm, in dem die Datenpunkte eine perfekte U-Form bilden.

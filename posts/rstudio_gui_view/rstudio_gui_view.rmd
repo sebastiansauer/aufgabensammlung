@@ -1,3 +1,14 @@
+---
+categories:
+- R
+- schoice
+- quiz
+date: '2026-10-24'
+slug: rstudio_gui_view
+title: rstudio_gui_view
+
+---
+
 Question
 ========
 Was passiert in RStudio, wenn Sie im Reiter „Environment“ auf das kleine Tabellensymbol neben einem Dataframe klicken?

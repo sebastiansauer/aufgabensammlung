@@ -1,3 +1,14 @@
+---
+categories:
+- vis
+- schoice
+- quiz
+date: '2026-10-24'
+slug: balken_normierung
+title: balken_normierung
+
+---
+
 Question
 ========
 Warum sollten gefüllte Balkendiagramme zum Vergleich von Gruppenanteilen auf 100 % (gleiche Gesamtlänge) normiert werden?

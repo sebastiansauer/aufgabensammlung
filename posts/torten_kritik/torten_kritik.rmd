@@ -1,3 +1,14 @@
+---
+categories:
+- vis
+- schoice
+- quiz
+date: '2026-10-24'
+slug: torten_kritik
+title: torten_kritik
+
+---
+
 Question
 ========
 Warum wird in der Statistik-Lehre oft drastisch von Tortendiagrammen abgeraten?

@@ -1,3 +1,14 @@
+---
+categories:
+- R
+- schoice
+- quiz
+date: '2026-10-24'
+slug: vektor_erstellung
+title: vektor_erstellung
+
+---
+
 Question
 ========
 Mit welchem Befehl werden mehrere Werte zu einem Vektor zusammengefügt?

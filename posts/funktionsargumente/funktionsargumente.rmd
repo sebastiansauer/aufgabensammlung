@@ -1,3 +1,14 @@
+---
+categories:
+- R
+- schoice
+- quiz
+date: '2026-10-24'
+slug: funktionsargumente
+title: funktionsargumente
+
+---
+
 Question
 ========
 Welche Aussage über Funktionsargumente in R ist korrekt?

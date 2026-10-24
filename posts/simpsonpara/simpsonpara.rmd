@@ -1,3 +1,14 @@
+---
+categories:
+- regression
+- schoice
+- quiz
+date: '2026-10-24'
+slug: simpsonpara
+title: simpsonpara
+
+---
+
 Question
 ========
 Bei der Analyse von Pinguinen zeigt sich ohne Berücksichtigung der Spezies ein negativer Zusammenhang von Schnabellänge und -tiefe.

@@ -1,3 +1,14 @@
+---
+categories:
+- eda
+- schoice
+- quiz
+date: '2026-10-24'
+slug: modell_gleichung
+title: modell_gleichung
+
+---
+
 Question
 ========
 Was bedeutet die Aussage $y = m + e$ im Kontext eines statistischen Punktmodells?

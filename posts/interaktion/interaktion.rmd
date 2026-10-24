@@ -1,3 +1,14 @@
+---
+categories:
+- regression
+- schoice
+- quiz
+date: '2026-10-24'
+slug: interaktion
+title: interaktion
+
+---
+
 Question
 ========
 Sie betrachten ein Modell mit einer Interaktion: `y ~ x1 + x2 + x1:x2`.

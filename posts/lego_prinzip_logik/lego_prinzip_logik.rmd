@@ -1,3 +1,14 @@
+---
+categories:
+- datawrangling
+- schoice
+- quiz
+date: '2026-10-24'
+slug: lego_prinzip_logik
+title: lego_prinzip_logik
+
+---
+
 Question
 ========
 Das "Lego-Prinzip" im Datenjudo besagt, dass man komplexe Analysen in kleine Teilschritte zerlegen sollte.

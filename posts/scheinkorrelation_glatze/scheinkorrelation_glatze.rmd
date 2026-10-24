@@ -1,3 +1,14 @@
+---
+categories:
+- association
+- schoice
+- quiz
+date: '2026-10-24'
+slug: scheinkorrelation_glatze
+title: scheinkorrelation_glatze
+
+---
+
 Question
 ========
 Männer mit Glatze haben ein höheres Risiko für einen schweren Corona-Verlauf.

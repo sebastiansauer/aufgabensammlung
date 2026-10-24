@@ -1,3 +1,14 @@
+---
+categories:
+- R
+- schoice
+- quiz
+date: '2026-10-24'
+slug: vektorisierung_logik
+title: vektorisierung_logik
+
+---
+
 Question
 ========
 In R ist das „vektorisierte Rechnen“ ein zentrales Konzept. Angenommen, Sie haben einen Vektor `x <- c(10, 20, 30)`. Welches Ergebnis liefert die Eingabe `mean(x == 20)`?

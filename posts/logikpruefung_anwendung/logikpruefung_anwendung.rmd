@@ -1,3 +1,14 @@
+---
+categories:
+- R
+- schoice
+- quiz
+date: '2026-10-24'
+slug: logikpruefung_anwendung
+title: logikpruefung_anwendung
+
+---
+
 Question
 ========
 Was ist das Ergebnis der Logikprüfung `x <- 5; x == 6`?

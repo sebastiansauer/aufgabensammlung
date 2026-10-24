@@ -1,3 +1,14 @@
+---
+categories:
+- rahmen
+- schoice
+- quiz
+date: '2026-10-24'
+slug: residuum_definition
+title: residuum_definition
+
+---
+
 Question
 ========
 Wie ist ein „Residuum“ (Abweichung) formal definiert [3, 4]?

@@ -1,3 +1,14 @@
+---
+categories:
+- vis
+- schoice
+- quiz
+date: '2026-10-24'
+slug: plot_wahl
+title: plot_wahl
+
+---
+
 Question
 ========
 Ein Marktforscher möchte untersuchen, ob sich die Kaufbereitschaft (metrisch) zwischen drei Altersgruppen unterscheidet.

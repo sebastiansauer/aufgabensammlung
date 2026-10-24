@@ -1,3 +1,14 @@
+---
+categories:
+- association
+- schoice
+- quiz
+date: '2026-10-24'
+slug: cohen_kategorisierung
+title: cohen_kategorisierung
+
+---
+
 Question
 ========
 Sie analysieren den Mariokart-Datensatz und finden eine Korrelation von r = 0,33 zwischen der Anzahl der Lenkräder und dem Preis.

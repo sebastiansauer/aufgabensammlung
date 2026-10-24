@@ -1,3 +1,14 @@
+---
+categories:
+- association
+- schoice
+- quiz
+date: '2026-10-24'
+slug: r_syntax_correlation
+title: r_syntax_correlation
+
+---
+
 Question
 ========
 Sie möchten in R die Korrelationen zwischen allen metrischen Variablen eines Dataframes `d` gleichzeitig berechnen.

@@ -1,3 +1,14 @@
+---
+categories:
+- R
+- schoice
+- quiz
+date: '2026-10-24'
+slug: vorteil_skripte
+title: vorteil_skripte
+
+---
+
 Question
 ========
 Warum ist das Schreiben von Skripten (z. B. in einer .R-Datei) der direkten Eingabe in die Konsole vorzuziehen?

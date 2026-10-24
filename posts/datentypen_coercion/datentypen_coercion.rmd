@@ -1,3 +1,14 @@
+---
+categories:
+- R
+- schoice
+- quiz
+date: '2026-10-24'
+slug: datentypen_coercion
+title: datentypen_coercion
+
+---
+
 Question
 ========
 Sie erstellen einen Vektor mit folgendem Befehl: `test_vektor <- c(1, "2", 3)`. Was passiert, wenn Sie versuchen, den Mittelwert mit `mean(test_vektor)` zu berechnen?

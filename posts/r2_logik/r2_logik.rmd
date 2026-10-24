@@ -1,3 +1,14 @@
+---
+categories:
+- regression
+- schoice
+- quiz
+date: '2026-10-24'
+slug: r2_logik
+title: r2_logik
+
+---
+
 Question
 ========
 Ein Statistiker vergleicht ein Nullmodell (Punktmodell) mit einem einfachen Geradenmodell.

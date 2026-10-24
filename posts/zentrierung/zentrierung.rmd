@@ -1,3 +1,14 @@
+---
+categories:
+- regression
+- schoice
+- quiz
+date: '2026-10-24'
+slug: zentrierung
+title: zentrierung
+
+---
+
 Question
 ========
 Sie untersuchen den Einfluss der Jahreszeit auf den Stromverbrauch.

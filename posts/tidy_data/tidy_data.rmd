@@ -1,3 +1,14 @@
+---
+categories:
+- rahmen
+- schoice
+- quiz
+date: '2026-10-24'
+slug: tidy_data
+title: tidy_data
+
+---
+
 Question
 ========
 Welche Bedingung muss für das „Tidy-Format“ von Daten erfüllt sein?

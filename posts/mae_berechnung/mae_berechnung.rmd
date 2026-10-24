@@ -1,3 +1,14 @@
+---
+categories:
+- variability
+- schoice
+- quiz
+date: '2026-10-24'
+slug: mae_berechnung
+title: mae_berechnung
+
+---
+
 Question
 ========
 Vier Abweichungen von einem Mittelwert betragen: 1, -3, 1 und 1.

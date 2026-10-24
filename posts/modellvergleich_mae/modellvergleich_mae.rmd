@@ -1,3 +1,14 @@
+---
+categories:
+- variability
+- schoice
+- quiz
+date: '2026-10-24'
+slug: modellvergleich_mae
+title: modellvergleich_mae
+
+---
+
 Question
 ========
 Sie haben ein Modell `lm1` (nur Mittelwert) und ein Modell `lm2` (mit einer UV).

@@ -1,3 +1,14 @@
+---
+categories:
+- datawrangling
+- schoice
+- quiz
+date: '2026-10-24'
+slug: group_summarise
+title: group_summarise
+
+---
+
 Question
 ========
 Sie möchten den durchschnittlichen Gewinn pro Verkäufergruppe berechnen.

@@ -1,3 +1,14 @@
+---
+categories:
+- regression
+- schoice
+- quiz
+date: '2026-10-24'
+slug: intercept_m
+title: intercept_m
+
+---
+
 Question
 ========
 Ein Regressionsmodell zur Vorhersage von Klausurpunkten (y) basierend auf der Lernzeit (x) ergibt einen Intercept von 46.

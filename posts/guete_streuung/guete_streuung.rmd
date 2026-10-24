@@ -1,3 +1,14 @@
+---
+categories:
+- variability
+- schoice
+- quiz
+date: '2026-10-24'
+slug: guete_streuung
+title: guete_streuung
+
+---
+
 Question
 ========
 Zwei Medikamente zur Gewichtsreduktion zeigen in einer Studie den exakt gleichen mittleren Effekt.

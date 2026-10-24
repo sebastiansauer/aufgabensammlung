@@ -1,3 +1,14 @@
+---
+categories:
+- vis
+- schoice
+- quiz
+date: '2026-10-24'
+slug: schein_korr
+title: schein_korr
+
+---
+
 Question
 ========
 Der Zusammenhang zwischen Schokoladenkonsum und Nobelpreisen pro Land gilt als klassisches Beispiel für eine Scheinkorrelation.

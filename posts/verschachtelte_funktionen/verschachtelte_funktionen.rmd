@@ -1,3 +1,14 @@
+---
+categories:
+- R
+- schoice
+- quiz
+date: '2026-10-24'
+slug: verschachtelte_funktionen
+title: verschachtelte_funktionen
+
+---
+
 Question
 ========
 Betrachten Sie den Befehl `mein_wert <- mean(c(1, 2, 3))`. In welcher Reihenfolge arbeitet R diesen verschachtelten Befehl ab?

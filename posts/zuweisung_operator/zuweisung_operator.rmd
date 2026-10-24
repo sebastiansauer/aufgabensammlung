@@ -1,3 +1,14 @@
+---
+categories:
+- R
+- schoice
+- quiz
+date: '2026-10-24'
+slug: zuweisung_operator
+title: zuweisung_operator
+
+---
+
 Question
 ========
 Welcher Operator wird in R primär empfohlen, um einer Variablen einen Wert zuzuweisen?

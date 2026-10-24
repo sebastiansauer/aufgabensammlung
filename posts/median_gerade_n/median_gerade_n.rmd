@@ -1,3 +1,14 @@
+---
+categories:
+- eda
+- schoice
+- quiz
+date: '2026-10-24'
+slug: median_gerade_n
+title: median_gerade_n
+
+---
+
 Question
 ========
 Sie haben einen Vektor mit den Werten: 10, 20, 30, 40.

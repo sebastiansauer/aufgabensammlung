@@ -1,3 +1,14 @@
+---
+categories:
+- vis
+- schoice
+- quiz
+date: '2026-10-24'
+slug: anscombe_logik
+title: anscombe_logik
+
+---
+
 Question
 ========
 Sie vergleichen zwei Datensätze, die identische Mittelwerte und Standardabweichungen aufweisen.

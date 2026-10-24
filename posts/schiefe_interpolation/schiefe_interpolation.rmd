@@ -1,3 +1,14 @@
+---
+categories:
+- eda
+- schoice
+- quiz
+date: '2026-10-24'
+slug: schiefe_interpolation
+title: schiefe_interpolation
+
+---
+
 Question
 ========
 In einem Datensatz ist der Mittelwert deutlich größer als der Median.

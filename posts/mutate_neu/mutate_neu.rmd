@@ -1,3 +1,14 @@
+---
+categories:
+- datawrangling
+- schoice
+- quiz
+date: '2026-10-24'
+slug: mutate_neu
+title: mutate_neu
+
+---
+
 Question
 ========
 Angenommen, Sie haben eine Spalte `preis_usd`.

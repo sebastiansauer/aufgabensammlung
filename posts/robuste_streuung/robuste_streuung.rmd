@@ -1,3 +1,14 @@
+---
+categories:
+- variability
+- schoice
+- quiz
+date: '2026-10-24'
+slug: robuste_streuung
+title: robuste_streuung
+
+---
+
 Question
 ========
 Ein Datensatz weist einen sehr extremen Ausreißer auf.

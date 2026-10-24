@@ -1,3 +1,14 @@
+---
+categories:
+- R
+- schoice
+- quiz
+date: '2026-10-24'
+slug: r_vs_rstudio
+title: r_vs_rstudio
+
+---
+
 Question
 ========
 Welche Analogie beschreibt das Verhältnis zwischen R und RStudio am besten?

@@ -1,3 +1,14 @@
+---
+categories:
+- regression
+- schoice
+- quiz
+date: '2026-10-24'
+slug: r_vs_r2
+title: r_vs_r2
+
+---
+
 Question
 ========
 Zwei Modelle vergleichen die Güte über den Korrelationskoeffizienten r zwischen vorhergesagten und echten Werten.

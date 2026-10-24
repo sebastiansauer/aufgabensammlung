@@ -1,3 +1,14 @@
+---
+categories:
+- R
+- schoice
+- quiz
+date: '2026-10-24'
+slug: na_philosophie
+title: na_philosophie
+
+---
+
 Question
 ==========
 Sie möchten die Modellgüte erhöhen, indem Sie fehlende Werte (NAs) in Ihrem Datensatz korrekt handhaben. Warum liefert R bei der Funktion `mean()` standardmäßig `NA` zurück, wenn nur ein einziger Wert im Vektor fehlt?

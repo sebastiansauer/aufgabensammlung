@@ -1,3 +1,14 @@
+---
+categories:
+- association
+- schoice
+- quiz
+date: '2026-10-24'
+slug: korrelation_na_handling
+title: korrelation_na_handling
+
+---
+
 Question
 ========
 Ihr Datensatz enthält einige fehlende Werte (NAs) in den Spalten für Preis und Gewicht.

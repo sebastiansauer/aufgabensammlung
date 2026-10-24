@@ -1,3 +1,14 @@
+---
+categories:
+- variability
+- schoice
+- quiz
+date: '2026-10-24'
+slug: residuen_summe
+title: residuen_summe
+
+---
+
 Question
 ========
 Was ist das mathematische Resultat, wenn man alle (nicht-absoluten) Residuen einer Verteilung vom Mittelwert aufsummiert?

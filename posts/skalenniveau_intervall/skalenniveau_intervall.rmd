@@ -1,3 +1,14 @@
+---
+categories:
+- rahmen
+- schoice
+- quiz
+date: '2026-10-24'
+slug: skalenniveau_intervall
+title: skalenniveau_intervall
+
+---
+
 Question
 ========
 Warum ist die Temperatur in Celsius nur „intervallskaliert“ und nicht verhältnisskaliert?

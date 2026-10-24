@@ -1,3 +1,14 @@
+---
+categories:
+- regression
+- schoice
+- quiz
+date: '2026-10-24'
+slug: ols_prinzip
+title: ols_prinzip
+
+---
+
 Question
 ========
 Wie werden die Koeffizienten eines linearen Modells in R (Funktion `lm`) standardmäßig berechnet?

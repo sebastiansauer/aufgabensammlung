@@ -1,3 +1,14 @@
+---
+categories:
+- datawrangling
+- schoice
+- quiz
+date: '2026-10-24'
+slug: pipe_vorteil
+title: pipe_vorteil
+
+---
+
 Question
 ========
 Sie nutzen die Pfeife `|>` um mehrere Befehle zu verketten.
