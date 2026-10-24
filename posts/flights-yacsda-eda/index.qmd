@@ -18,7 +18,6 @@ categories:
 - association
 
 
-bibliography: "../../library-ses.bib"
 
 
 ---

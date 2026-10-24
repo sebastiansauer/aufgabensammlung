@@ -2,7 +2,8 @@
 date: '2023-05-17'
 slug: Szenario-charakterisieren1
 title: Szenario-charakterisieren1
-categories: schoice
+categories:
+- schoice
 - quiz
 
 ---

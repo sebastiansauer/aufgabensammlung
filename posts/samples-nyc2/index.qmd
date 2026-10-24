@@ -22,7 +22,6 @@ format:
   html: 
    df-print: "kable"
 
-bibliography: "../../library-ses.bib"
 
 
 ---

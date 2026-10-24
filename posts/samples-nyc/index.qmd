@@ -18,7 +18,6 @@ categories:
 - story
 - yacsda
 
-bibliography: "../../library-ses.bib"
 
 
 ---

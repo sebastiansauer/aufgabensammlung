@@ -74,5 +74,5 @@ Meta-information
 ================
 exname: experimente
 extype: schoice
-exsolution: `r mchoice2string(items$solutions, single = TRUE)`
+exsolution: `r exams::mchoice2string(items$solutions, single = TRUE)`
 exshuffle: false

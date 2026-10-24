@@ -2,7 +2,8 @@
 date: '2023-05-17'
 slug: OLS-Minimierung
 title: OLS-Minimierung
-categories: schoice
+categories:
+- schoice
 - quiz
 
 ---
