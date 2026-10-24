@@ -1,11 +1,11 @@
 ---
 exname: def-statistik01
 extype: schoice
-exsolution: 0001 
+exsolution: 00010
 exshuffle: no
 date: '2023-02-02'
-slug: Def-Statistik01
-title: Def-Statistik01
+slug: def-statistik01
+title: def-statistik01
 categories: 
 - schoice
 - paper
@@ -88,6 +88,6 @@ Meta-Information
 ================
 exname: def-statistik01
 extype: schoice
-exsoluton: 00010
+exsolution: 00010
 exshuffle: 5
 
