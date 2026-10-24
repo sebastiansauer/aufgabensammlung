@@ -35,5 +35,6 @@ Meta-information
 ================
 extype: schoice
 exsolution:  00010
-exname: corrplot
+exname: antijoin
+
 
