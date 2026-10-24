@@ -617,3 +617,4 @@
 ./penguins-stan-06/index.qmd
 ./germeval09-tfidf/germeval09-tfidf.qmd
 ./germeval-sent-wordvec-xgb-tune/germeval-sent-wordvec-xgb-tune.qmd
+./muenzwurf/index.qmd

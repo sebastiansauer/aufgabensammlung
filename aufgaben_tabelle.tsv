@@ -547,6 +547,7 @@ mtcars-simple2	posts/mtcars-simple2/mtcars-simple2.rmd	num	nein	nein		regression
 mtcars-simple3	posts/mtcars-simple3/mtcars-simple3.rmd	schoice	nein	nein		regression, en, bayes, frequentist, qm1, stats-nutshell, qm2, mtcars, quiz	090-regression2.qmd
 mu-bedingt-berechnen-schoice	posts/mu-bedingt-berechnen-schoice/mu-bedingt-berechnen-schoice.Rmd	schoice	nein	nein		bayes	080-regression1.qmd
 muenze-weird	posts/muenze-weird/index.qmd	(fehlt)	nein	nein		probability	keines
+muenzwurf	posts/muenzwurf/index.qmd	schoice	nein	nein		probability	keines
 multiple-regr-kontrolle-schoice	posts/multiple-regr-kontrolle-schoice/multiple-regr-kontrolle-schoice.Rmd	schoice	nein	nein		bayes	090-regression2.qmd
 multiplikationssatz-ohne-zuruecklegen-schoice	posts/multiplikationssatz-ohne-zuruecklegen-schoice/multiplikationssatz-ohne-zuruecklegen-schoice.Rmd	schoice	nein	nein		wahrscheinlichkeit	keines
 mutate	posts/mutate/mutate.rmd	schoice	nein	nein			030-aufbereiten.qmd
