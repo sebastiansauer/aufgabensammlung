@@ -24,6 +24,10 @@ Solution
 ========
 Es könnte sein, dass $\forall  x: x \Rightarrow y$
 
+
+Aufgabenname: `schlussarten-abduktion-formel`
+
+
 Answerlist
 ----------
 

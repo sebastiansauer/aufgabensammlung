@@ -58,6 +58,10 @@ Solution
 $Pr(A|B) = \frac{Pr(A \cap B)}{Pr(B)} = \frac{Pr(A) \cdot Pr(B)}{Pr(B)} = Pr(A)$
 
 
+Aufgabenname: `wskt-quiz01`
+
+
+
 
 Answerlist
 ----------

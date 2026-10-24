@@ -29,6 +29,10 @@ Solution
 `select()` wird verwendet, um eine Teilmenge der Variablen (Spalten) auszuwählen.
 `filter()` bezieht sich hingegen auf die Zeilen.
 
+
+Aufgabenname: `select_anwendung`
+
+
 Answerlist
 ----------
 * Richtig

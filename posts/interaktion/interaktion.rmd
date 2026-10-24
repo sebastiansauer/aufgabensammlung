@@ -29,6 +29,10 @@ Solution
 Nicht-parallele Geraden sind das grafische Kennzeichen eines Interaktionseffekts.
 Dies bedeutet, dass es keinen einheitlichen Effekt der UV gibt, sondern dieser je nach Gruppe variiert.
 
+
+Aufgabenname: `interaktion`
+
+
 Answerlist
 ----------
 * Richtig

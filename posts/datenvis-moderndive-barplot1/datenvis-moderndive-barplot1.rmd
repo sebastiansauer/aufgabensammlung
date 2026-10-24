@@ -98,6 +98,10 @@ D) Afrika
 E) Ozeanien
 
 
+Aufgabenname: `datenvis-moderndive-barplot1`
+
+
+
 
 Meta-information
 ================

@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option vertauscht die Gewichte der beiden Parameterwerte ($0{,}7$ statt $0{,}3$ für $\pi=0{,}5$ und umgekehrt) und gewichtet damit den weniger wahrscheinlichen Parameterwert stärker als den wahrscheinlicheren.
 * Die fünfte Option addiert lediglich die beiden Gewichte (die sich per Definition zu 1 aufsummieren müssen) und ignoriert dabei komplett die eigentlichen Stichprobenverteilungen (die `dbinom`-Werte).
 
+
+Aufgabenname: `ppv-mixtur-treffer-schoice`
+
+
 Answerlist
 ----------
 * Wahr

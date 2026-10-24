@@ -141,6 +141,10 @@ mean(w == 8)
 [Quelle](https://sr2-solutions.wjakethompson.com/bayesian-inference.html#chapter-3)
 
 
+Aufgabenname: `rethink3m3`
+
+
+
 Meta-information
 ================
 extype: string

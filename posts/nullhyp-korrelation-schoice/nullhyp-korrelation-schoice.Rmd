@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist als *Alternativhypothese* ($H_1$) formuliert (es besteht ein Zusammenhang) und beantwortet damit nicht die Frage nach der *Nullhypothese*; zudem ist die Benennung ($H_1$ statt $H_0$) hier explizit falsch zugeordnet.
 * $H_0: \mu_1 = \mu_2$ bezieht sich auf einen Mittelwertsvergleich zwischen zwei Gruppen und ist die passende Nullhypothese für einen Gruppenvergleich (z. B. t-Test), nicht für einen Zusammenhang zwischen zwei metrischen Variablen wie Schlafdauer und Konzentrationsfähigkeit.
 
+
+Aufgabenname: `nullhyp-korrelation-schoice`
+
+
 Answerlist
 ----------
 * Wahr

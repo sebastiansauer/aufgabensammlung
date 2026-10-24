@@ -98,6 +98,10 @@ $$
 Die Lösung lautet also `r loesung`.
 
 
+Aufgabenname: `alphafehler-inflation2`
+
+
+
 
 
 ---

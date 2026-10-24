@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch: `pd` ist eine Wahrscheinlichkeit und liegt daher im Bereich zwischen 0 und 1 (bzw. 50 % und 100 %), nicht im Bereich $-1$ bis $1$ wie ein Korrelationskoeffizient.
 * Die fünfte Option beschreibt kein sinnvolles Konzept aus dem Kapitel: `pd` bezieht sich auf die *Richtung eines geschätzten Effekts in der Post-Verteilung*, nicht auf einen Vergleich von Priori- und Post-Verteilung.
 
+
+Aufgabenname: `probability-of-direction-schoice`
+
+
 Answerlist
 ----------
 * Wahr

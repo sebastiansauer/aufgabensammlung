@@ -14,6 +14,10 @@ Solution
 ========
 Die Pfeife verknüpft Befehle so, dass der Output einer Funktion automatisch als Input für die nächste dient, was man als „und dann“ lesen kann.
 
+
+Aufgabenname: `pfeife`
+
+
 Answerlist
 ----------
 * Richtig

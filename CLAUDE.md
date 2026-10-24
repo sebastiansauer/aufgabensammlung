@@ -18,6 +18,8 @@ All `schoice` exercises in `posts/` are meant to be readable by the `exams` pack
 - no `</br>` spacer lines between the question's Answerlist and `Solution` (exams would append them to the last option)
 - a `Meta-information` block (underlined with `================`) holding `exname`, `extype`, `exsolution`, `exshuffle` — the only place for these fields; it sits before the `---` / `Categories:` footer
 
+Every exercise names itself at the end of its solution with a line ``Aufgabenname: `<name>` ``. In R/exams files it must sit *before* the solution's `Answerlist`/`Solutionlist` (or the chunk calling `answerlist()`), since exams appends any text after the list to the last item; otherwise it goes right before `Meta-information`. In `## Lösung` files it goes before the `---` / `Categories:` footer.
+
 `exsolution` must be a 0/1 string with exactly one `1` and as many digits as options, or inline R such as `` `r mchoice2string(x, single = TRUE)` ``. Beware: a YAML round trip turned values like `0100` into `64` (octal) or `00001` into `1`; that is why `ex*` fields no longer live in the YAML header.
 
 Check an exercise with `exams::xexams(file, driver = list(sweave = list(quiet = TRUE), read = NULL))`.

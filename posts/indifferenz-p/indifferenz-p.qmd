@@ -81,4 +81,8 @@ Man sieht: Wahrscheinlichkeit ist keine Beschreibung der Natur,
 sondern des Wissens einer bestimmten Person.
 
 
+Aufgabenname: `indifferenz-p`
+
+
+
 

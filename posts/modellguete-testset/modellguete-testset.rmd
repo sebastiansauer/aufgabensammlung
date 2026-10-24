@@ -117,6 +117,10 @@ Der Mittelwert als Vorhersagewert ist was "R-Quadrat gleich Null" meint.
 (Darüber hinaus wird das R-Quadrat hier auf Basis der Korrelation berechnet, und wir haben einen konstanten Wert bei `pred`).
 
 
+Aufgabenname: `modellguete-testset`
+
+
+
 
 
 

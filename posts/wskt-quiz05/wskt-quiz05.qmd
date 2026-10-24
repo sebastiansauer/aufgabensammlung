@@ -67,6 +67,10 @@ Wahrscheinlichkeit 2: Die Wahrscheinlichkeit, dass die Probe von Erde stammt, we
 Beide Wahrscheinlichkeiten sind nicht (notwendig) gleich.
 
 
+Aufgabenname: `wskt-quiz05`
+
+
+
 Answerlist
 ----------
 

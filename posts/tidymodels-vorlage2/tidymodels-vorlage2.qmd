@@ -119,6 +119,10 @@ collect_metrics(wf1_fit_final)
 ```
 
 
+Aufgabenname: `tidymodels-vorlage2`
+
+
+
 
 
 ---

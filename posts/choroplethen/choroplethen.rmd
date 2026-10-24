@@ -29,6 +29,10 @@ Solution
 `r sol`
 
 
+Aufgabenname: `choroplethen`
+
+
+
 
 Meta-information
 ================

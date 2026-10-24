@@ -354,6 +354,10 @@ Verzichtet man auf ein Rezept mit viel Datenvolument (Wordvektoren blähen das R
 Schneller auch deshalb, weil ggf. kein Swapping zwischen Speicher und Festplatte mehr nötig ist.
 
 
+Aufgabenname: `germeval-sent-wordvec-xgb-plain`
+
+
+
 
 
 

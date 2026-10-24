@@ -90,6 +90,10 @@ sol <- "sum(abs(mean(x)-x))"
 Die Antwort lautet: ``r sol``.
 
 
+Aufgabenname: `typ-fehler-r-06a`
+
+
+
 
 
 

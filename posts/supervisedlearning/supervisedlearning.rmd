@@ -38,6 +38,10 @@ Solution
 * Wahr
 
 
+Aufgabenname: `supervisedlearning`
+
+
+
 
 
 

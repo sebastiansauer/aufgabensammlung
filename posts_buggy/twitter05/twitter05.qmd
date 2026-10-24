@@ -135,6 +135,10 @@ karl7 %>%
 Achtung, Sentimentanalyse sollte *vor* dem Stemming kommen.
 
 
+Aufgabenname: `twitter05`
+
+
+
 
 
 

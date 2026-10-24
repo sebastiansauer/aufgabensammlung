@@ -17,6 +17,10 @@ Solution
 Bei geringer Variabilität der Elemente der Referenzklasse genügen wenige Beobachtungen für einen glaubwürdigen Induktionsschluss.
 
 
+Aufgabenname: `variab-referenzklasse`
+
+
+
 
 Answerlist
 ----------

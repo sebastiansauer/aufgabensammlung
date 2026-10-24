@@ -73,6 +73,10 @@ C. Die Daten wurden aus unkorrelierten Populationen (jeweils normalverteilt) gez
 Hinweis: Griechische Buchstaben werden hier verwendet, um Variablen aus Populationen zu beschreiben (Parameter),
 lateinische Buchstaben werden für Stichproben verwendet.
 
+
+Aufgabenname: `korr01`
+
+
 Answerlist
 ----------
 

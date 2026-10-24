@@ -153,6 +153,10 @@ Die Evidenz ist die Summe der Posterior-Wahrscheinlichkeiten multipliziert mit d
 Die Post-Wahrscheinlichkeit ist die durch die Evidenz dividierte unstandardisierte Post-Wahrscheinlichkeit: $Pr(H|D)=.083$ bzw. $.092$.
 
 
+Aufgabenname: `krebs1`
+
+
+
 
 ---
 

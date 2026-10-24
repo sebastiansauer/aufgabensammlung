@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch: Auch wenn die Priori keine unterschiedliche Gewichtung mehr vornimmt, muss man weiterhin durch die Evidenz (die Summe der Likelihoods) teilen, damit sich die resultierende Verteilung zu 1 aufsummiert -- die Likelihood alleine ist keine auf 1 normierte Verteilung über die Hypothesen.
 * Die fünfte Option widerspricht dem Sinn der Standardisierung: Per Konstruktion (Division durch die Evidenz) summieren sich die standardisierten Post-Wahrscheinlichkeiten *immer* zu 1, unabhängig davon, ob die Priori uniform ist oder nicht.
 
+
+Aufgabenname: `post-bei-uniformer-priori-schoice`
+
+
 Answerlist
 ----------
 * Wahr

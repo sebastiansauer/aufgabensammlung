@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ($12^5$) unterstellt fälschlich, dass mit Zurücklegen und mit Beachtung der Reihenfolge gezogen wird (wie bei 5 unabhängigen Ziehungen aus je 12 Möglichkeiten) -- hier wird aber jedes Mitglied höchstens einmal gewählt.
 * Die fünfte Option ($12-5=7$) verwechselt die Fragestellung mit einer einfachen Differenz und hat inhaltlich nichts mit der Anzahl der Kombinationsmöglichkeiten zu tun.
 
+
+Aufgabenname: `binomialkoeffizient-ausschuss-schoice`
+
+
 Answerlist
 ----------
 * Wahr

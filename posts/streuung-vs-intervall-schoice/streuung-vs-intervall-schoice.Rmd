@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch: Der IQR ist im Kapitel explizit als eine der berechneten Streuungsgrößen genannt und liefert durchaus sinnvolle (wenn auch weniger direkt interpretierbare) Information zur Streuung der Post-Verteilung.
 * Die fünfte Option kehrt die im Kapitel implizit vermittelte Einschätzung um: Gerade weil Intervalle konkrete, inhaltlich greifbare Grenzwerte liefern, werden sie in der Praxis der Bayes-Statistik einem einzelnen abstrakten Streuungsmaß meist vorgezogen, nicht umgekehrt.
 
+
+Aufgabenname: `streuung-vs-intervall-schoice`
+
+
 Answerlist
 ----------
 * Wahr

@@ -17,6 +17,10 @@ Solution
 S. Skript
 
 
+Aufgabenname: `def-statistik01-schoice`
+
+
+
 Answerlist
 ----------
 * True

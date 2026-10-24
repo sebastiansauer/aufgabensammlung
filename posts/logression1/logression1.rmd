@@ -70,6 +70,10 @@ Solution
 ========
 * Der Logit des Bestehens steigt für jede Stufe von Lernzeit um ca. 0.72.
 
+
+Aufgabenname: `logression1`
+
+
 Answerlist
 ----------
 * Wahr

@@ -16,6 +16,10 @@ Solution
 ========
 Induktion zeigt, dass in mindestens einem, vielleicht in allen Fällen gilt $x \Rightarrow y$.
 
+
+Aufgabenname: `schlussarten-induktion-formel`
+
+
 Answerlist
 ----------
 * Wahr

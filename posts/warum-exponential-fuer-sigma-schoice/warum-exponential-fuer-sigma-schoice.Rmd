@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch: $\mu$ (Mittelwert der Körpergröße, kann im Prinzip jeden Wert annehmen, auch wenn unrealistisch) und $\sigma$ (eine notwendigerweise positive Streuung) haben inhaltlich unterschiedliche Wertebereiche -- genau deshalb werden unterschiedliche Verteilungstypen für die beiden Parameter gewählt.
 * Die fünfte Option beschreibt keinen sinnvollen Grund: Die Exponentialverteilung wird hier nicht für Körpergrößen selbst verwendet (dafür ist ja die Normalverteilung in der Likelihood zuständig), sondern speziell für das notwendigerweise positive Streuungsmaß $\sigma$.
 
+
+Aufgabenname: `warum-exponential-fuer-sigma-schoice`
+
+
 Answerlist
 ----------
 * Wahr

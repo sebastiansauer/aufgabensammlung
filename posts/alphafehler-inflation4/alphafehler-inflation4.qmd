@@ -198,6 +198,10 @@ Antworten:
 * $R_{20}= r^{20} = `r R20`$
 
 
+Aufgabenname: `alphafehler-inflation4`
+
+
+
 
 
 

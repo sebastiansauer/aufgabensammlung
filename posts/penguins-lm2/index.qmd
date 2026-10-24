@@ -112,3 +112,7 @@ Plot the model:
 plot(estimate_relation(lm2))
 ```
 
+
+Aufgabenname: `penguins-lm2`
+
+

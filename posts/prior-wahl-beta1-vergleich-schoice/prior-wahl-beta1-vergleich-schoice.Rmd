@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch: `stan_glm()` kann problemlos mit informativeren (engeren) Priori-Verteilungen umgehen, wie im Kapitel am Modell `m_kung_starkes_beta1` explizit demonstriert wird.
 * Die fünfte Option ist falsch: Der beschriebene Unterschied zwischen beiden Modellen betrifft explizit die Priori-Verteilung von $\beta_1$ (nicht $\beta_0$, dessen Priori in beiden Modellen identisch bei $\mathcal{N}(178,20)$ bleibt).
 
+
+Aufgabenname: `prior-wahl-beta1-vergleich-schoice`
+
+
 Answerlist
 ----------
 * Wahr

@@ -134,6 +134,10 @@ print( adjustmentSets( smoking_ca_dag, "smo", "ca" ,
 ```
 
 
+Aufgabenname: `kausal07`
+
+
+
 
 
 Answerlist

@@ -78,6 +78,10 @@ Solution
 ========
 
 
+Aufgabenname: `streudiagramm`
+
+
+
 Answerlist
 ----------
 

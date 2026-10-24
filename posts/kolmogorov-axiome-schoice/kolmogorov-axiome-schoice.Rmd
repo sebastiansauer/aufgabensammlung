@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Bei der vierten Option ergibt sich zwar additiv $0{,}6+0{,}6=1{,}2$, doch eine Wahrscheinlichkeit von $1{,}2$ überschreitet den zulässigen Maximalwert von $1$ (das sichere Ereignis $\Omega$ hat höchstens Wahrscheinlichkeit 1) -- das *Normierungsaxiom* ist verletzt.
 * Die fünfte Option gibt $Pr(\Omega) = 0{,}9$ an; nach dem Normierungsaxiom muss aber $Pr(\Omega) = 1$ gelten (das sichere Ereignis hat immer Wahrscheinlichkeit 1) -- auch hier ist das *Normierungsaxiom* verletzt.
 
+
+Aufgabenname: `kolmogorov-axiome-schoice`
+
+
 Answerlist
 ----------
 * Wahr

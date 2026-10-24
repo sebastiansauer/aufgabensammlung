@@ -81,3 +81,7 @@ ggscatter(d, x = "bill_depth_mm", y = "body_mass_g")
 Wie man sieht, tritt der Zusammenhang klarer hervor, wenn man die Daten in die von `species` definierten Gruppen aufteilt. 
 
 
+Aufgabenname: `penguins-vis-bodymass2`
+
+
+

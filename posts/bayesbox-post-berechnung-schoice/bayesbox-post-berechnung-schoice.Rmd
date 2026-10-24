@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwechselt die Apriori-Wahrscheinlichkeit einer einzelnen Hypothese ($1/3$) mit einer Rechnung, die überhaupt keinen Bezug zu den Likelihoods bzw. den beobachteten Daten hat.
 * Die fünfte Option verwendet im Zähler versehentlich die Likelihood der falschen Hypothese ($\pi=0{,}3$ statt $\pi=0{,}7$) und berechnet damit $\text{Post}(\pi=0{,}3)$ statt der gefragten Post-Wahrscheinlichkeit für $\pi=0{,}7$.
 
+
+Aufgabenname: `bayesbox-post-berechnung-schoice`
+
+
 Answerlist
 ----------
 * Wahr

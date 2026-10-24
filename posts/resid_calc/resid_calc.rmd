@@ -30,6 +30,10 @@ Solution
 Das Residuum ist definiert als beobachteter Wert minus vorhergesagter Wert: $e = y - \hat{y}$.
 Hier: 85 - 80 = 5.
 
+
+Aufgabenname: `resid_calc`
+
+
 Answerlist
 ----------
 * Richtig

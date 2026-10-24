@@ -110,6 +110,10 @@ Aufgaben-ID: Abhaengige-Es
 ---
 
 
+Aufgabenname: `abhaengige-es`
+
+
+
 
 ```{r sollist, echo = FALSE, results = "asis"}
 answerlist(ifelse(sol_df$correct_answer, "Richtig", "Falsch"), sol_df$explanations, markup = "markdown")

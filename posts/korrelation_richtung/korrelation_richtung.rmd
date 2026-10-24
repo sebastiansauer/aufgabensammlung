@@ -28,6 +28,10 @@ Solution
 ========
 Ein gegensinniger Zusammenhang (viel von X, wenig von Y) führt mathematisch zu einer negativen Korrelation.
 
+
+Aufgabenname: `korrelation_richtung`
+
+
 Answerlist
 ----------
 * Richtig

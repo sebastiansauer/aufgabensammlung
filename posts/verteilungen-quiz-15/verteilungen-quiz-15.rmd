@@ -75,6 +75,10 @@ knitr::include_graphics("https://easystats.github.io/bayestestR/reference/figure
 [Quelle](https://easystats.github.io/bayestestR/#uncertainty-ci)
 
 
+Aufgabenname: `verteilungen-quiz-15`
+
+
+
 Answerlist
 ----------
 

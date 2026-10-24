@@ -68,6 +68,10 @@ Nur wenn alle anderen Hypothesen (Wasseranteile) eine Wahrscheinlichkeit von Nul
 könnten wir sicher sein, dass der Wasseranteil $\pi=.7$ beträgt.
 
 
+Aufgabenname: `verteilungen-quiz-01`
+
+
+
 
 Answerlist
 ----------

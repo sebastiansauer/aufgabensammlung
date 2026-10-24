@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist eine gängige Fehlvorstellung: Auch bei vorhandener Interaktion bleiben die Haupteffekte im Modell (und behalten dann eine spezifische, meist bedingte Interpretation, z. B. "Effekt bei Referenzwert des anderen Prädiktors"), sie werden nicht entfernt.
 * Die fünfte Option ist falsch: Das Beispiel im Kapitel (`mom_iq:mom_hs`) zeigt gerade eine Interaktion zwischen einer *metrischen* Variable (`mom_iq`) und einer *nominalen/binären* Variable (`mom_hs`) -- Interaktionen sind für beliebige Kombinationen von Skalenniveaus definierbar.
 
+
+Aufgabenname: `interaktion-konzept-schoice`
+
+
 Answerlist
 ----------
 * Wahr

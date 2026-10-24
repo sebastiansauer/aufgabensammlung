@@ -178,6 +178,10 @@ Solution
 Die richtige Aussage lautet "`r itemlist$proposition[itemlist$is_correct==TRUE]`".
 
 
+Aufgabenname: `modus-tollens2`
+
+
+
 
 ```{r itemlist_asnwer, results="asis"}
 answerlist(ifelse(itemlist$is_correct, "Wahr", "Falsch"), markup = "markdown")

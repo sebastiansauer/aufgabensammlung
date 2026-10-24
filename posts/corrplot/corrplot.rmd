@@ -26,6 +26,10 @@ Solution
 
 C: Die zweite Hauptkomponente ist unkorreliert zur ersten – und beinhaltet weniger Variation. Sie steht senkrecht zur ersten, und dort streuen die Daten weniger.
 
+
+Aufgabenname: `corrplot`
+
+
 Meta-information
 ================
 extype: schoice

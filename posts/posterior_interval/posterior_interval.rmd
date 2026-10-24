@@ -65,6 +65,10 @@ help(posterior_interval)
 ```
 
 
+Aufgabenname: `posterior_interval`
+
+
+
 
 Answerlist
 ----------

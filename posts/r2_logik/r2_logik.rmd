@@ -30,6 +30,10 @@ Solution
 R-Quadrat berechnet sich als (MSE_null - MSE_modell) / MSE_null.
 Hier: (200 - 150) / 200 = 50 / 200 = 0,25.
 
+
+Aufgabenname: `r2_logik`
+
+
 Answerlist
 ----------
 * Richtig

@@ -166,12 +166,15 @@ sol_c <- sol_c %>% pull(pi95_width)
 ```
 
 
+Aufgabenname: `logist-bayes-mtcars2`
+
 
 Solutionlist
 ------------
 * `r sol_a`
 * `r sol_b`
 * `r sol_c`
+
 
 Meta-information
 ================

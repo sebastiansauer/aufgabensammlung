@@ -27,6 +27,10 @@ Solution
 Statistik allein liefert keine Kausalität.
 Nur mit einer fundierten Theorie oder einem Kausalmodell dürfen Koeffizienten als „Ursache“ interpretiert werden.
 
+
+Aufgabenname: `kauslalinterp`
+
+
 Answerlist
 ----------
 * Richtig

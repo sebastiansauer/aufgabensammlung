@@ -140,3 +140,7 @@ pr_AorB_alt
 
 Beide Methoden führen zum gleichen Ergebnis: Die Wahrscheinlichkeit, dass mindestens eines der beiden Ereignisse eintritt, beträgt **80%**.
 
+
+Aufgabenname: `prob-vereinigung`
+
+

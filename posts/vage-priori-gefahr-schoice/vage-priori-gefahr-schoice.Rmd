@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch: Eine vagere Priori führt nicht automatisch zu einer *genaueren* Post-Verteilung -- im Gegenteil, sie lässt tendenziell mehr (auch unplausible) Werte zu und kann die Schätzung dadurch weniger informativ bzw. weniger realistisch machen.
 * Die fünfte Option zieht eine falsche Schlussfolgerung: Das Problem liegt hier an der *Kombination* aus sehr breiter Priori für $\mu$ und $\sigma$, nicht an der grundsätzlichen Eignung der Normalverteilung als Likelihood-Modell für (annähernd normalverteilte) Körpergrößen.
 
+
+Aufgabenname: `vage-priori-gefahr-schoice`
+
+
 Answerlist
 ----------
 * Wahr

@@ -106,6 +106,10 @@ Fast gleich!
 Mehr Erläuterung zu flachen Prioris bei `stan_glm()` findet sich [hier](http://mc-stan.org/rstanarm/articles/priors.html#how-to-specify-flat-priors-and-why-you-typically-shouldn-t-).
 
 
+Aufgabenname: `stan_glm_priors_null`
+
+
+
 
 
 Meta-information

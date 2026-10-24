@@ -16,6 +16,10 @@ Solution
 ========
 Induktion zeigt, dass in mindestens einem oder einigen, vielleicht in allen Fällen gilt $x \Rightarrow y$.
 
+
+Aufgabenname: `induktionsprinzip`
+
+
 Answerlist
 ----------
 * Wahr

@@ -27,6 +27,10 @@ Solution
 Durch das Abziehen des Mittelwerts (Zentrieren) verschiebt sich das Zentrum auf 0.
 Durch das Teilen durch die SD wird die Streuung auf 1 normiert.
 
+
+Aufgabenname: `z_transformation_effekt`
+
+
 Answerlist
 ----------
 * Richtig

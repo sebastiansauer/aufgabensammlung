@@ -64,6 +64,10 @@ Diese Behauptung ist *nur* wahr,
 wenn sie für alle möglichen (erlaubten) Werte von $x$ und $y$ gilt.
 
 
+Aufgabenname: `verteilungen-quiz-11`
+
+
+
 
 Answerlist
 ----------

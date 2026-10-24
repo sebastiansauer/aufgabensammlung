@@ -175,6 +175,10 @@ model_dashboard(m1)
 ```
 
 
+Aufgabenname: `penguins-stan-01a`
+
+
+
 
 
 

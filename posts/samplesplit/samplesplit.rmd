@@ -28,6 +28,10 @@ Solution
 Diese Aufteilung (Validation Split) dient dazu, eine überoptimistische Schätzung der Modellgüte zu vermeiden.
 Man lernt aus dem Analyse-Teil und prüft das Gelernte am Assessment-Teil.
 
+
+Aufgabenname: `samplesplit`
+
+
 Answerlist
 ----------
 * Richtig

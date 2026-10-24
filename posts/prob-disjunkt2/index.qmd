@@ -48,6 +48,10 @@ Solution
 C) Ja, da eine Karte nicht gleichzeitig ein König und eine Dame sein kann.
 
 
+Aufgabenname: `prob-disjunkt2`
+
+
+
 Answerlist
 ----------
 

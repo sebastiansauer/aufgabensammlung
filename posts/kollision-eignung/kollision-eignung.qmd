@@ -181,6 +181,10 @@ hdi(m_eignung_gesamtpop)
 Wie man sieht, löst sich der Zusammenhang zwischen Fleiss und Intelligenz auf, wenn man `studium` *nicht* kontrolliert.
 
 
+Aufgabenname: `kollision-eignung`
+
+
+
 
 
 

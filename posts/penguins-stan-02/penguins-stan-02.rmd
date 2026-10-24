@@ -124,6 +124,10 @@ sol <- parameters(m1, ci_method = "hdi", ci = .9, keep = "bill_length_mm")$CI_hi
 Die Lösung lautet also, wie aus der Ausgabe von `parameters()` ersichtlich, `r round(sol, 2)`.
 
 
+Aufgabenname: `penguins-stan-02`
+
+
+
 
 
 ---

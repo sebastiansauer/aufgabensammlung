@@ -32,6 +32,10 @@ sol <- solutions[my_index]
 `r sol`
 
 
+Aufgabenname: `bigdata3v`
+
+
+
 
 Meta-information
 ================

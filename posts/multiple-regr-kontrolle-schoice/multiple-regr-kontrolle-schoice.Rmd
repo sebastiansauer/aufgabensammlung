@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwechselt den Regressionskoeffizienten mit einem Anteil erklärter Varianz (wie $R^2$) -- das sind unterschiedliche Kennzahlen mit unterschiedlichen Einheiten und Wertebereichen.
 * Die fünfte Option verwechselt den (unstandardisierten) Regressionskoeffizienten mit einem Korrelationskoeffizienten -- Letzterer ist auf den Bereich $[-1,1]$ beschränkt, ein Regressionskoeffizient wie 6 (in IQ-Punkten) hingegen nicht.
 
+
+Aufgabenname: `multiple-regr-kontrolle-schoice`
+
+
 Answerlist
 ----------
 * Wahr

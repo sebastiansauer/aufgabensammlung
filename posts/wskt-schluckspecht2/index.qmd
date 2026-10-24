@@ -205,3 +205,7 @@ Man sieht es auch im Diagramm recht gut.
 
 5. UV: binär, AV: kontinuierlich
 
+
+Aufgabenname: `wskt-schluckspecht2`
+
+

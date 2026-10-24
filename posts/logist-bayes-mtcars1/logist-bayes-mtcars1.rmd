@@ -73,6 +73,7 @@ sol_c
 ```
 
 
+Aufgabenname: `logist-bayes-mtcars1`
 
 
 Solutionlist
@@ -80,6 +81,7 @@ Solutionlist
 * `r sol_a`
 * `r sol_b`
 * `r sol_c`
+
 
 Meta-information
 ================

@@ -27,6 +27,10 @@ Solution
 Wenn nur "schöne" Ergebnisse veröffentlicht werden und negative Befunde in der Schublade bleiben, entsteht ein verzerrtes Bild (Publikationsbias).
 Dies gilt als wissenschaftliches Fehlverhalten.
 
+
+Aufgabenname: `file_drawer_problem`
+
+
 Answerlist
 ----------
 * Richtig

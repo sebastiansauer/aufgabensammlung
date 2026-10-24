@@ -24,6 +24,10 @@ res <- 2^x_chosen
 ```
 
 
+Aufgabenname: `zweihochx`
+
+
+
 Meta-information
 ================
 extype: num

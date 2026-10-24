@@ -237,6 +237,10 @@ sol
 ```
 
 
+Aufgabenname: `hyp-women-06`
+
+
+
 
 
 

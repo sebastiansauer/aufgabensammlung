@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option erfindet ein im Kapitel nicht genanntes, willkürliches Kriterium (50 % der Streuung der AV) -- die tatsächliche Definition bezieht sich allein darauf, ob Null im Schätzbereich liegt.
 * Die fünfte Option nennt eine im Kapitel nicht erwähnte feste Mindeststichprobengröße als Kriterium für Signifikanz -- die Definition ist unabhängig von einer konkreten Stichprobengröße formuliert (auch wenn die Stichprobengröße die *Breite* des Schätzbereichs beeinflusst).
 
+
+Aufgabenname: `signifikanz-gelman-definition-schoice`
+
+
 Answerlist
 ----------
 * Wahr

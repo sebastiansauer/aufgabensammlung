@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist zu pessimistisch: Kennt man das zugrundeliegende Kausalmodell (wie hier gegeben), lässt sich sehr wohl eine begründete Entscheidung treffen -- das Problem ist nicht grundsätzliche Uninterpretierbarkeit, sondern dass man ohne Kausalmodell nicht weiß, welche Betrachtungsweise korrekt ist.
 * Die fünfte Option widerspricht dem gesamten Kapitel: Die Wahl zwischen Gesamt- und Teildaten hat hier gravierende inhaltliche Konsequenzen (Medikament hilft vs. Medikament schadet) und ist keineswegs beliebig.
 
+
+Aufgabenname: `studie-a-oestrogen-stratifizieren-schoice`
+
+
 Answerlist
 ----------
 * Wahr

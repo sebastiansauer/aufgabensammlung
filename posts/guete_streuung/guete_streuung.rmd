@@ -30,6 +30,10 @@ Solution
 Ein gutes Modell zeichnet sich durch geringe Fehlerbalken (Residuen) aus.
 Geringe Streuung bedeutet, dass der Mittelwert die einzelnen Beobachtungen gut repräsentiert.
 
+
+Aufgabenname: `guete_streuung`
+
+
 Answerlist
 ----------
 * Richtig

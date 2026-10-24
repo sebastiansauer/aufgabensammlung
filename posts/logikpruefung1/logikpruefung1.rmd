@@ -58,6 +58,10 @@ x < 100 & x > 0
 ```
 
 
+Aufgabenname: `logikpruefung1`
+
+
+
 
 ---
 

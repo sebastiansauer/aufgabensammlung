@@ -50,6 +50,10 @@ Solution
 ========
 
 
+Aufgabenname: `verteilungen2a`
+
+
+
 ```{r solutionlist, echo = FALSE, results = "asis"}
 answerlist(ifelse(solutions, "Wahr", "Falsch"), markup = "markdown")
 ```

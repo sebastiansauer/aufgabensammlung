@@ -258,6 +258,10 @@ Die richtige Lösung lautet also: **`r sol`**.
 Aufgaben-ID: Bed-Post-Wskt2
 
 
+Aufgabenname: `bed-post-wskt2`
+
+
+
 
 
 

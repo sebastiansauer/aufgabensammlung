@@ -166,6 +166,10 @@ g_paths
 Offenen Pfade sind der/die Pfad/e, die in der obigen Ausgabe unter `$open` mit `TRUE` gekennzeichnet sind.
 
 
+Aufgabenname: `kausal29`
+
+
+
 
 
 

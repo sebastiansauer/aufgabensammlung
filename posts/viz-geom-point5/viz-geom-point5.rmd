@@ -47,6 +47,10 @@ Solution
 
 Diagramm E
 
+
+Aufgabenname: `viz-geom-point5`
+
+
 Answerlist
 ----------
 

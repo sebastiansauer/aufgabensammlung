@@ -208,6 +208,10 @@ Auch hier ist das Modell sehr meinungsstark:
 Mit einer Wahrscheinlichkeit von 100% ist der Koeffizient (Veränderung von t2 zu t3) positiv.
 
 
+Aufgabenname: `within-design-analysis1`
+
+
+
 
 
 ---

@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist die zentrale Warnung des Kapitels: Was in der kleinen Welt des Modells funktioniert, muss nicht in der großen Welt (der Realität) funktionieren -- Vorsicht vor schnellen Schlüssen und vermeintlicher Gewissheit.
 * Die fünfte Option ist falsch: Der Text nennt explizit auch ein Regressionsmodell als Beispiel für ein Modell aus der kleinen Welt -- das Konzept ist also nicht auf Bayes-Modelle beschränkt.
 
+
+Aufgabenname: `kleine-grosse-welt-schoice`
+
+
 Answerlist
 ----------
 * Wahr

@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwendet versehentlich $p=0{,}4$ (40 %) statt der angegebenen $p=0{,}04$ (4 %) -- eine Zehnerpotenz-Verwechslung, die zu einem drastisch anderen (und angesichts der Aufgabenstellung unplausibel niedrigen) Ergebnis führt.
 * Die fünfte Option berechnet naiv einen simplen Bruch ($2/25$) ohne jeden Bezug zur Binomialverteilung oder zur gegebenen Klickwahrscheinlichkeit.
 
+
+Aufgabenname: `binomialverteilung-marketing-schoice`
+
+
 Answerlist
 ----------
 * Wahr

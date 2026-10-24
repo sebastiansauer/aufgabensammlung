@@ -189,3 +189,7 @@ d |>
   filter(!(A == 1)) |> 
   count(B)
 ```
+
+
+Aufgabenname: `wskt-df-r`
+

@@ -41,6 +41,10 @@ Solution
 D) Ein einzelnes, nicht weiter zerlegbares Ergebnis eines Zufallsexperiments.
 
 
+Aufgabenname: `prob-elementarereignis`
+
+
+
 Answerlist
 ----------
 

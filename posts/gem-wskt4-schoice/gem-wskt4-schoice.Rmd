@@ -33,6 +33,10 @@ Die Distraktoren entstehen durch typische Fehler: $\frac{2}{3}$ (Vereinigung $A 
 $\frac{1}{6}$ (Schnittmenge fälschlich als einelementig angenommen), $\frac{1}{4}$ (naive Multiplikation $P(A) \cdot P(B)$ unter der falschen Annahme der Unabhängigkeit).
 
 
+Aufgabenname: `gem-wskt4-schoice`
+
+
+
 Answerlist
 ----------
 * True

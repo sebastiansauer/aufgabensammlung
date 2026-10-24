@@ -98,3 +98,7 @@ $$\begin{align*}
 4. \qquad  \beta_1 &\sim \operatorname{Normal}(0, 124) && \text{Prior Regressionsgewicht} \\
 5.  \qquad \sigma &\sim \operatorname{Exp}(0.049) && \text{Prior Vorhersagegüte}
 \end{align*}$$
+
+
+Aufgabenname: `finde-prior`
+

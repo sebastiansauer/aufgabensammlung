@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option (12 und 12) übersieht, dass es zwar 12 mögliche "Randwerte" für einen einzelnen Würfel (2 mal 6) geben könnte, tatsächlich aber die Summe von 2 bis 12 reicht, was **11** (nicht 12) verschiedene Werte sind ($12-2+1=11$).
 * Die fünfte Option verwechselt die Mächtigkeit des Ergebnisraums mit der Anzahl der Seiten *eines einzelnen* Würfels (6); beim *zweifachen* Wurf müssen aber beide Würfel gemeinsam betrachtet werden, was $6 \times 6 = 36$ Kombinationen ergibt.
 
+
+Aufgabenname: `maechtigkeit-augensumme-schoice`
+
+
 Answerlist
 ----------
 * Wahr

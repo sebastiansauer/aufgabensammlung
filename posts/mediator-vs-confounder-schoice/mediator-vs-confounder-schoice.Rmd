@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Das Kapitel zeigt gerade, dass das Medikament *zwei* reale, aber gegenläufige Effekte hat (toxisch und heilsam) -- nicht, dass gar kein Effekt vorliegt und alles Zufall wäre.
 * Das Kausalmodell zu Studie B enthält keine Geschlechtsvariable; die Aussage, man kontrolliere "automatisch" auch nach Geschlecht, ist im Modell nicht angelegt und frei erfunden.
 
+
+Aufgabenname: `mediator-vs-confounder-schoice`
+
+
 Answerlist
 ----------
 * Wahr

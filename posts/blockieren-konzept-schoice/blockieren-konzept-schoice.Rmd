@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwechselt "d-verbunden" mit "immer unassoziiert" -- tatsächlich bedeutet "d-connected" gerade, dass zwei Variablen (potenziell) statistisch assoziiert *sein können*, weil ein offener Pfad zwischen ihnen existiert.
 * Die fünfte Option ist falsch: Das gesamte Kapitel demonstriert das Konzept des Blockierens/Kontrollierens explizit anhand von *Beobachtungsstudien* (Saratoga-Hauspreise, Nierenstein-Studie) -- gerade dort ist es besonders wichtig, da keine Randomisierung vorliegt.
 
+
+Aufgabenname: `blockieren-konzept-schoice`
+
+
 Answerlist
 ----------
 * Wahr

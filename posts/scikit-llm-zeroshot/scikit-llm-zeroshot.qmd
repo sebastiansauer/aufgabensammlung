@@ -268,5 +268,9 @@ Predicted Sentiment: OTHER
 ````
 
 
+Aufgabenname: `scikit-llm-zeroshot`
+
+
+
 
 

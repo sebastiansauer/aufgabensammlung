@@ -132,6 +132,10 @@ coef(lm2)["flipper_length_mm_z"]
 Man könnte hier noch einen Interaktionseffekt ergänzen.
 
 
+Aufgabenname: `adjustieren1b`
+
+
+
 
 ---
 

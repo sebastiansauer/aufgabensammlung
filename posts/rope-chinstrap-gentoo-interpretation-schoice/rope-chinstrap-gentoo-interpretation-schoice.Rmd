@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option überinterpretiert eine *teilweise* Überlappung als *vollständige* Bestätigung eines Null-Effekts -- das Kapitel betont gerade, dass eine teilweise Überlappung zu *keiner* Entscheidung führt, weder für noch gegen einen substanziellen Effekt.
 * Die fünfte Option ignoriert, dass beide Ergebnisse laut Kapitel gerade *unterschiedlich* ausfallen -- nur für *Gentoo*, nicht für *Chinstrap*, lässt sich ein klarer Schluss ziehen.
 
+
+Aufgabenname: `rope-chinstrap-gentoo-interpretation-schoice`
+
+
 Answerlist
 ----------
 * Wahr

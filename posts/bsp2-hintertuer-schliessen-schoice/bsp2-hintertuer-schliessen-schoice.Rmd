@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option widerspricht der zentralen Lehre des Kapitels zur Hintertür: Konfundierende (Hintertür-)Pfade müssen gerade *geschlossen* werden, um den kausalen Effekt unverzerrt zu schätzen -- das Kontrollieren von Nicht-Kollisionsvariablen auf einem Hintertürpfad erzeugt keine neue Scheinkorrelation, sondern beseitigt eine bestehende Verzerrung.
 * Die fünfte Option beruht auf einem Missverständnis: Man kontrolliert Drittvariablen auf den *Pfaden zwischen* UV und AV, nicht die AV selbst -- die AV zu kontrollieren ergibt im Rahmen der Hintertür-Analyse keinen Sinn.
 
+
+Aufgabenname: `bsp2-hintertuer-schliessen-schoice`
+
+
 Answerlist
 ----------
 * Wahr

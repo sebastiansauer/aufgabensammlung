@@ -375,6 +375,10 @@ ggbarplot(d_count, x = "y_dicho", y = "prop", facet.by = "x1", label = TRUE)
 ```
 
 
+Aufgabenname: `vis-gapminder`
+
+
+
 
 
 ---

@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch: Die PPV *setzt* die Post-Verteilung sogar voraus -- sie wird gerade *aus* der Post-Verteilung berechnet (als gewichtete Mittelung der zugehörigen Stichprobenverteilungen), nicht als Ersatz für eine unbekannte Post-Verteilung.
 * Die fünfte Option kehrt die im Kapitel beschriebene Beziehung um: Die Post-Verteilung zeigt nur die Ungewissheit über die Parameterwerte; die PPV berücksichtigt *zusätzlich* auch die intrinsische Ungewissheit (welche Beobachtung bei einem gegebenen Parameterwert eintritt) -- die PPV bildet also *mehr*, nicht weniger, Ungewissheitsquellen ab als die Post-Verteilung.
 
+
+Aufgabenname: `ppv-vs-post-parameterwerte-schoice`
+
+
 Answerlist
 ----------
 * Wahr

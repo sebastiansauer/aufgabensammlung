@@ -126,6 +126,10 @@ sol <- "Möglichkeit 1: Y-Achse logarithmieren. Möglichkeit 2: Kurven so kalibr
 ```
 
 
+Aufgabenname: `wachstum_corona`
+
+
+
 Meta-information
 ================
 extype: string

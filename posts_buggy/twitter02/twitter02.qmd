@@ -132,6 +132,10 @@ head(karl_tweets)
 ```
 
 
+Aufgabenname: `twitter02`
+
+
+
 
 
 

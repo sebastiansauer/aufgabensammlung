@@ -60,6 +60,10 @@ Solution
 Die *pd* gibt an, mit welcher Wahrscheinlichkeit ein Parameter das gleiche Vorzeichen hat wie sein Median und variiert zwischen 50% (maximale Unsicherheit über die Richtung) und 100% (vollständige Gewissheit über die Richtung des Effekts).
 
 
+Aufgabenname: `pd1`
+
+
+
 Answerlist
 ----------
 

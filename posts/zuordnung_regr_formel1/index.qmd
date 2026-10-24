@@ -89,6 +89,10 @@ Solution
 B) Ist die Anzahl der aktuell gemieteten Fahrrädern abhängig vom Wochentag?
 
 
+Aufgabenname: `zuordnung_regr_formel1`
+
+
+
 Answerlist
 ----------
 

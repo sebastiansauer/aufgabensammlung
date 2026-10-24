@@ -29,6 +29,10 @@ Solution
 Eine negative Steigung bedeutet einen gegensinnigen Zusammenhang.
 Steigt die eine Variable (Fehlzeiten), sinkt die Vorhersage für die andere (Punkte).
 
+
+Aufgabenname: `neg_slope`
+
+
 Answerlist
 ----------
 * Richtig

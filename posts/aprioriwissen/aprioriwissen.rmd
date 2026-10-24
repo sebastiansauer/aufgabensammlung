@@ -20,6 +20,10 @@ Solution
 Apriorisches Wissen ist wahr, ohne dass wir es empirisch überprüfen müssten.
 
 
+Aufgabenname: `aprioriwissen`
+
+
+
 Answerlist
 ----------
 * Wahr

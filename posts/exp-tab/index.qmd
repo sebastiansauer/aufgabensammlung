@@ -130,3 +130,7 @@ library(teacherplot)
 exp_plot(r = lambda, max = 5)
 ```
 
+
+Aufgabenname: `exp-tab`
+
+

@@ -109,6 +109,10 @@ Falls Sie Teile der R-Syntax nicht kennen: Im Zweifel einfach ignorieren :-)
 *Antwort*: Es werden 8 Statistiken berichtet (im Default).
 
 
+Aufgabenname: `mariokart-desk01`
+
+
+
 
 
 ---

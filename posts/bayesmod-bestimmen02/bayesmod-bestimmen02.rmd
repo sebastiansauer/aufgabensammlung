@@ -88,6 +88,10 @@ sol <- "s~Exp(1)"
 `r sol`
 
 
+Aufgabenname: `bayesmod-bestimmen02`
+
+
+
 
 
 

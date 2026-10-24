@@ -90,6 +90,10 @@ coef(m1)
 - *hp:am*:  Der Interaktionseffekt ist praktisch Null: Der Zusammenhang von PS-Zahl und Spritverbrauch unterscheidet sich nicht (wesentlich) zwischen Autos mit bzw. ohne Automatikantrieb.
 
 
+Aufgabenname: `regr-bayes-interpret`
+
+
+
 
 
 ---

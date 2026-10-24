@@ -90,6 +90,10 @@ sol <- "Siehe Antworten. Es erfolgt keine automatische Bewertung dieser Aufgabe.
 ``r sol``
 
 
+Aufgabenname: `datenvis-moderndive-scatterplot2`
+
+
+
 Meta-information
 ================
 extype: string

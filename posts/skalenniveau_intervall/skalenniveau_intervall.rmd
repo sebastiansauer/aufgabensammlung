@@ -25,6 +25,10 @@ Solution
 ========
 Bei der Celsius-Skala ist der Nullpunkt willkürlich gesetzt (Gefrierpunkt von Wasser) und stellt keine absolute Abwesenheit von Wärmeenergie dar.
 
+
+Aufgabenname: `skalenniveau_intervall`
+
+
 Answerlist
 ----------
 * Falsch

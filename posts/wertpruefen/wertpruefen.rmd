@@ -72,6 +72,10 @@ sol <- "loesung==42"
 ``r sol``
 
 
+Aufgabenname: `wertpruefen`
+
+
+
 
 
 ---

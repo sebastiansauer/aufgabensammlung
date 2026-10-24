@@ -25,6 +25,10 @@ Solution
 SPSS
 
 
+Aufgabenname: `dashboards`
+
+
+
 Meta-information
 ================
 extype: schoice

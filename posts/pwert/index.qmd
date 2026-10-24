@@ -86,3 +86,7 @@ F) Falsch! Fehlende Evidenz ≠ Evidenz für Fehlen.
 G) Falsch! Das wäre die Reproduzierbarkeit, nicht der p-Wert.
 H) Falsch! Statistische und praktische Signifikanz sind verschiedene Konzepte.
 
+
+Aufgabenname: `pwert`
+
+

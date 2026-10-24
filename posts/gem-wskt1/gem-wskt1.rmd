@@ -211,6 +211,10 @@ der Quotient der Zellenhäufigkeit und der Gesamthäufigkeit:
 $Pr(`r symbol_ergebnis` \cap `r symbol_lerntyp`) = \frac{n(`r symbol_ergebnis` \cap `r symbol_lerntyp`)}{n_{gesamt}} = \frac{`r n_selected`}{`r sample_size`} = `r sol`$
 
 
+Aufgabenname: `gem-wskt1`
+
+
+
 
 
 

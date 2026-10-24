@@ -61,6 +61,10 @@ Solution
 ========
 
 
+Aufgabenname: `boosting2`
+
+
+
 Answerlist
 ----------
 

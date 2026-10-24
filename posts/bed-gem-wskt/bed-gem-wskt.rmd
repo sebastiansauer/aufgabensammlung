@@ -209,6 +209,10 @@ sol_tol <- exams::num2tol(sol_raw, min = config$tol_abs, reltol = .05) %>% exams
 Aufgaben-ID: Bed-gem-Wskt, Toleranzbreite: `r sol_tol`
 
 
+Aufgabenname: `bed-gem-wskt`
+
+
+
 
 
 Meta-information

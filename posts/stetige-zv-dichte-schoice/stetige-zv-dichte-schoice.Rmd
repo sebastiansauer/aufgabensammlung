@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch, weil für stetige Zufallsvariablen sehr wohl sinnvolle Wahrscheinlichkeitsaussagen möglich sind -- allerdings nur für *Intervalle* (z. B. $Pr(0<X<5)$), nicht für einzelne Punkte.
 * Die fünfte Option begeht einen Fehlschluss: Aus der Tatsache, dass jeder *einzelne* Punkt im Intervall die Wahrscheinlichkeit Null hat, folgt *nicht*, dass auch das gesamte *Intervall* die Wahrscheinlichkeit Null hat. Tatsächlich ist $Pr(0<X<5) = 5 \cdot f(x) = 5 \cdot 0{,}1 = 0{,}5$ (50 %), wie im Kapitel am Busbeispiel gezeigt.
 
+
+Aufgabenname: `stetige-zv-dichte-schoice`
+
+
 Answerlist
 ----------
 * Wahr

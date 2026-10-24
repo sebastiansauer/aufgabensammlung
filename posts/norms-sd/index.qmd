@@ -80,4 +80,8 @@ Der Bereich MW±2SD enthält 95% der Werte.
 Daher beträgt die SD 1/2 Grad.
 
 
+Aufgabenname: `norms-sd`
+
+
+
 

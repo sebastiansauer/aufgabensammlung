@@ -58,6 +58,10 @@ Solution
 B) Passt nur zur Frequentistischen, nicht zur Bayesianischen Statistik
 
 
+Aufgabenname: `interpret-ci2`
+
+
+
 Answerlist
 ----------
 

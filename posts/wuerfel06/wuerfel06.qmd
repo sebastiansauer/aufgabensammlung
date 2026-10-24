@@ -109,6 +109,10 @@ sol <- Pr_A
 Die Lösung lautet ``r sol``.
 
 
+Aufgabenname: `wuerfel06`
+
+
+
 
 
 

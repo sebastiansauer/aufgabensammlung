@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option beschreibt gerade eine typische *Nullhypothese* (die Münze sei fair, $\pi=0{,}5$ als Referenzwert ohne Effekt), nicht eine Alternativhypothese.
 * Die fünfte Option ist falsch: Im Kapitel wird gezeigt, dass Schätzbereiche (Konfidenzintervalle) implizit Hypothesentests erlauben -- liegt der Nullwert nicht im Konfidenzintervall, spricht das für die Alternativhypothese (einen vorhandenen Effekt).
 
+
+Aufgabenname: `alternativhypothese-definition-schoice`
+
+
 Answerlist
 ----------
 * Wahr

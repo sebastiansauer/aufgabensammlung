@@ -19,6 +19,10 @@ Solution
 Passt nur zur Bayesianischen, nicht zur Frequentistischen Statistik.
 
 
+Aufgabenname: `interpret-ci-schoice`
+
+
+
 Answerlist
 ----------
 * True

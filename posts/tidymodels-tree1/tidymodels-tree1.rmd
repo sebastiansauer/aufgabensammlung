@@ -223,6 +223,10 @@ collect_metrics(final_fit)
 Wie man sieht, ist die Modellgüte im Test-Sample schlechter als in den Train- bzw. Validierungssamples; ein typischer Befund.
 
 
+Aufgabenname: `tidymodels-tree1`
+
+
+
 
 
 

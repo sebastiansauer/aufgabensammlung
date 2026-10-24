@@ -57,6 +57,10 @@ Solution
 Um Zusammenhänge zwischen zwei metrischen Variablen darzustellen.
 
 
+Aufgabenname: `wozu-streudiagramm`
+
+
+
 
 Answerlist
 ----------

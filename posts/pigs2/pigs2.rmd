@@ -156,6 +156,10 @@ sol
 ```
 
 
+Aufgabenname: `pigs2`
+
+
+
 
 
 ---

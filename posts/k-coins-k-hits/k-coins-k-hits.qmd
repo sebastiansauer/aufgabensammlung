@@ -90,6 +90,10 @@ sol
 ```
 
 
+Aufgabenname: `k-coins-k-hits`
+
+
+
 ---
 
 Aufgaben-ID: k-coins-k-hits

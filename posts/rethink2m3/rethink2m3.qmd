@@ -195,6 +195,10 @@ graph LR
 Insgesamt kann man also 3/20 + 10/20 = 13/20 als Wahrscheinlichkeit für Land berechnen. Davon entfallen 3/20 auf die Erde. Das ergibt 3/13.
 
 
+Aufgabenname: `rethink2m3`
+
+
+
 ---
 
 Categories: 

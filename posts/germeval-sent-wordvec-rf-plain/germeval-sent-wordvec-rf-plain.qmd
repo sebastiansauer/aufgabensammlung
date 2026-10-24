@@ -282,6 +282,10 @@ Verzichtet man auf ein Rezept mit viel Datenvolumen (Wordvektoren blähen das Re
 Schneller auch deshalb, weil ggf. kein Swapping zwischen Speicher und Festplatte mehr nötig ist.
 
 
+Aufgabenname: `germeval-sent-wordvec-rf-plain`
+
+
+
 
 
 

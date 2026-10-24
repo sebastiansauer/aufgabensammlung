@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch: Das Beispiel im Kapitel (Saratoga-Hauspreise) ist eine *Beobachtungsstudie*; ein Simpson-Paradox ist gerade ein typisches Risiko bei Beobachtungsdaten mit unkontrollierten Konfundierern, nicht bei sauber randomisierten Experimenten.
 * Die fünfte Option nennt einen im Kapitel nicht erwähnten, sachlich unpassenden Grund -- ein Simpson-Paradox ist ein *strukturelles* (durch das Kausalmodell bedingtes) Phänomen, keine bloße Frage der Stichprobengröße.
 
+
+Aufgabenname: `simpson-paradox-vorzeichenwechsel-schoice`
+
+
 Answerlist
 ----------
 * Wahr

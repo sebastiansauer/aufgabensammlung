@@ -16,6 +16,10 @@ Solution
 ========
 *Subitizing* meint die Fähigkeit, die Anzahl von Dingen bis etwa einer Zahl von 5-7 zu erfassen, ohne zu zählen.
 
+
+Aufgabenname: `subitizing`
+
+
 Answerlist
 ----------
 * Falsch

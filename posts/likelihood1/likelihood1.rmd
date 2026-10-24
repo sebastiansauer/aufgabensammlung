@@ -72,6 +72,10 @@ d %>%
 Der gesuchte Werte beträgt: `r sol`.
 
 
+Aufgabenname: `likelihood1`
+
+
+
 Meta-information
 ================
 extype: num

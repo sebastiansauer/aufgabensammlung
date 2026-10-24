@@ -30,6 +30,10 @@ Ein Wert von 130 entspricht dem Mittelwert plus zwei Standardabweichungen.
 Innerhalb von zwei Standardabweichungen liegen 95 %, außerhalb also 5 %.
 Da die Verteilung symmetrisch ist, entfallen 2,5 % auf den Bereich über 130.
 
+
+Aufgabenname: `normal_rechnen`
+
+
 Answerlist
 ----------
 * Richtig

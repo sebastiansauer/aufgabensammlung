@@ -50,6 +50,10 @@ Solution
 ========
 
 
+Aufgabenname: `ttest-aussagen`
+
+
+
 Answerlist
 ----------
 

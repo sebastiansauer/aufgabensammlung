@@ -27,6 +27,10 @@ Solution
 Die Zerlegung in Teilschritte (Lego-Prinzip) dient primär der Übersichtlichkeit und der Fehlervermeidung.
 Verschachtelter Code ist für Menschen sehr schwer zu interpretieren.
 
+
+Aufgabenname: `lego_prinzip_logik`
+
+
 Answerlist
 ----------
 * Richtig

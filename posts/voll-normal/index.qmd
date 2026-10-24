@@ -81,6 +81,10 @@ c) Mehrere der Annahmen sind diskutabel. So könnten die Eigenschaften nicht una
 ## Variante
 
 
+Aufgabenname: `voll-normal`
+
+
+
 
 
 ---

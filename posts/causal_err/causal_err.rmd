@@ -27,6 +27,10 @@ Solution
 Ohne Kenntnis der Kausalstruktur kann man nur deskriptive Zusammenhänge beschreiben.
 Statistik allein kann nicht entscheiden, ob eine Variable die Ursache für eine andere ist.
 
+
+Aufgabenname: `causal_err`
+
+
 Answerlist
 ----------
 * Richtig

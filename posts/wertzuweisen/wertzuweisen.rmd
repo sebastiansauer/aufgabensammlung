@@ -48,6 +48,10 @@ sol <- "loesung<-42"
 `r sol`
 
 
+Aufgabenname: `wertzuweisen`
+
+
+
 
 
 ---

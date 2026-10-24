@@ -93,4 +93,8 @@ Hinweise:
 $4: \beta_0, \beta_1, \beta_2, \sigma$
 
 
+Aufgabenname: `anz-params`
+
+
+
 

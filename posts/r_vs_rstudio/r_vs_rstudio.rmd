@@ -25,6 +25,10 @@ Solution
 ========
 R besorgt die eigentliche Rechenarbeit (Engine), während RStudio als grafische Benutzeroberfläche (GUI) für Komfort und Übersicht sorgt.
 
+
+Aufgabenname: `r_vs_rstudio`
+
+
 Answerlist
 ----------
 * Richtig

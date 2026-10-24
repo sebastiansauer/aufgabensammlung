@@ -47,6 +47,10 @@ Solution
 ========
 Die Beobachtungen sollten zufällig aus der Population gezogen werden.
 
+
+Aufgabenname: `generalisieren-population`
+
+
 Answerlist
 ----------
 

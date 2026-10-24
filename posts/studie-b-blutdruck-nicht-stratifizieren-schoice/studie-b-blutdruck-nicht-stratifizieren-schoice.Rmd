@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option nennt einen im Kapitel nicht erwähnten und sachlich irrelevanten Grund (Stichprobengröße) -- die Richtigkeit von Stratifizieren vs. Gesamtdaten hängt vom *Kausalmodell* ab, nicht von der Stichprobengröße.
 * Die fünfte Option ist falsch: Beide Studien werden im Kapitel als (fiktive) *Beobachtungsstudien* beschrieben, nicht als randomisierte Experimente -- gerade deshalb ist die Kenntnis des Kausalmodells hier so wichtig.
 
+
+Aufgabenname: `studie-b-blutdruck-nicht-stratifizieren-schoice`
+
+
 Answerlist
 ----------
 * Wahr

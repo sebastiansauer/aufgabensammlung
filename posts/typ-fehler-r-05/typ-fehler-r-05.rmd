@@ -70,6 +70,10 @@ sol <- "filter(noten,IQ==10)"
 Die Antwort lautet: ``r sol``.
 
 
+Aufgabenname: `typ-fehler-r-05`
+
+
+
 Meta-information
 ================
 extype: string

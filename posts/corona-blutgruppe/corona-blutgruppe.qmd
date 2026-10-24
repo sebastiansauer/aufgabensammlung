@@ -81,6 +81,10 @@ $Pr(S|A) = Pr(S|A^C) = Pr(S)$
 Hinweis: $A^C$ meint das *Komplement* von $A$, auch als $\neg A$ bezeichnet.
 
 
+Aufgabenname: `corona-blutgruppe`
+
+
+
 
 
 

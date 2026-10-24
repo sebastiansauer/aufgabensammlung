@@ -57,6 +57,10 @@ Die Wahrscheinlichkeitsmasse eines unendlich schmalen Intervalls ist (praktisch)
 Aussage $A$ ist also falsch.
 
 
+Aufgabenname: `verteilungen-quiz-10`
+
+
+
 Answerlist
 ----------
 

@@ -112,6 +112,10 @@ sol <- .164
 Die Wahrscheinlichkeit, dass der Käfer zur Art "B" gehört, ist relativ klein: 16%.
 
 
+Aufgabenname: `kaefer1`
+
+
+
 
 
 

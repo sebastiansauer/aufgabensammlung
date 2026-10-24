@@ -82,6 +82,10 @@ ggdag(g) + theme_dag()
 ```
 
 
+Aufgabenname: `kausal-einfach`
+
+
+
 
 
 

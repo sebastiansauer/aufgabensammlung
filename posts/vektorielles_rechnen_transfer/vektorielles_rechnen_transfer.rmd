@@ -25,6 +25,10 @@ Solution
 ========
 Dies ist ein Beispiel für vektorielles Rechnen. Der Mittelwert von (10, 20, 30) ist 20. R rechnet: (10-20) + (20-20) + (30-20) = -10 + 0 + 10 = 0. Die Summe der Abweichungen vom Mittelwert ist mathematisch immer Null.
 
+
+Aufgabenname: `vektorielles_rechnen_transfer`
+
+
 Answerlist
 ----------
 * Falsch

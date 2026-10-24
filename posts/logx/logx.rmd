@@ -27,6 +27,10 @@ res <- x_chosen
 `r res` 
 
 
+Aufgabenname: `logx`
+
+
+
 Meta-information
 ================
 extype: string

@@ -80,6 +80,10 @@ x1_z = (x1 - x_mw) / x_sd
 `r x1_z`
 
 
+Aufgabenname: `zwert-berechnen`
+
+
+
 
 
 

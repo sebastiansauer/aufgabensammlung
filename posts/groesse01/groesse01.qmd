@@ -201,6 +201,10 @@ bayes_box2 |>
 ```
 
 
+Aufgabenname: `groesse01`
+
+
+
 
 
 

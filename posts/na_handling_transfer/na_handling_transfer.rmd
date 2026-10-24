@@ -26,6 +26,10 @@ Solution
 Standardmäßig geben viele Funktionen in R `NA` zurück, wenn nur ein fehlender Wert vorhanden ist. 
 Das Argument `na.rm = TRUE` (NA remove) weist R an, die fehlenden Werte für die Berechnung zu ignorieren.
 
+
+Aufgabenname: `na_handling_transfer`
+
+
 Answerlist
 ----------
 * Falsch

@@ -90,6 +90,10 @@ sol <- exams::fmt(49.88)
 **Lösung:** `r sol`. 
 
 
+Aufgabenname: `mariokart-mean1`
+
+
+
 
 
 

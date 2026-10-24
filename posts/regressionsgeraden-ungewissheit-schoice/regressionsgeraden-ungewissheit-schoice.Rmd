@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwechselt die *Visualisierung* der bereits vorhandenen Ungewissheit mit einer *Veränderung* der tatsächlichen Ungewissheit: Das Einzeichnen von mehr Geraden macht die (bereits vorhandene) Ungewissheit nur besser sichtbar, es erzeugt keine zusätzliche Ungewissheit im Modell selbst.
 * Die fünfte Option ist falsch: Die "Wolke" der Geraden entsteht gerade durch die Variation von $\beta_0$ und $\beta_1$ zwischen den Stichproben -- die Streuung um jede einzelne Gerade herum (also $\sigma$) wird durch diese Visualisierung gar nicht dargestellt.
 
+
+Aufgabenname: `regressionsgeraden-ungewissheit-schoice`
+
+
 Answerlist
 ----------
 * Wahr

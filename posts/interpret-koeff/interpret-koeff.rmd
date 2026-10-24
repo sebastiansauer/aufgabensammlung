@@ -85,6 +85,10 @@ Daher muss man vorsichtig sein, wenn man von einem "Effekt" spricht. Vorsichtige
 Den Punktschätzer des Regressionskoeffizienten  ($\beta_1$) kann man in der Tabelle mit den Parameterwerten auslesen, in der Spalte `Median`. 
 
 
+Aufgabenname: `interpret-koeff`
+
+
+
 
 ---
 

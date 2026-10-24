@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option behält für den Nenner des zweiten Zugs fälschlich die ursprüngliche Kugelanzahl (6) bei, obwohl nach dem ersten Zug ohne Zurücklegen nur noch 5 Kugeln in der Urne sind. Der Nenner (Gesamtzahl der Kugeln) muss sich beim Ziehen ohne Zurücklegen mit verringern.
 * Die fünfte Option vergisst, dass durch den ersten Zug bereits eine *rote* Kugel entnommen wurde -- im Zähler des zweiten Bruchs müssten daher nur noch 3 (nicht 4) rote Kugeln stehen, da eine rote Kugel schon gezogen wurde.
 
+
+Aufgabenname: `multiplikationssatz-ohne-zuruecklegen-schoice`
+
+
 Answerlist
 ----------
 * Wahr

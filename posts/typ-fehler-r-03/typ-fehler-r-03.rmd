@@ -88,6 +88,10 @@ sol <- "x+Y"
 Die Antwort lautet: ``r sol``.
 
 
+Aufgabenname: `typ-fehler-r-03`
+
+
+
 
 
 

@@ -65,6 +65,10 @@ Die Distraktoren entstehen durch typische Fehler: $\pi$ direkt als Antwort verwe
 Die ".14" ist ein willkürlicher Distraktor. 
 
 
+Aufgabenname: `globus2-schoice`
+
+
+
 Answerlist
 ----------
 * True

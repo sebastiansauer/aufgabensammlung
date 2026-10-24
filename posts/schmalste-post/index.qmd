@@ -61,6 +61,10 @@ Solution
 A
 
 
+Aufgabenname: `schmalste-post`
+
+
+
 Answerlist
 ----------
 

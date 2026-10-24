@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option berechnet die Steigung korrekt, verwendet beim Auflösen nach $\beta_0$ aber das falsche Vorzeichen (Addition statt Subtraktion), was zu einem unplausibel hohen Achsenabschnitt führt.
 * Die fünfte Option berechnet weder Steigung noch Achsenabschnitt nach der korrekten linearen Formel, sondern bildet nur eine einfache Differenz der Preise, ohne die Zimmerzahl-Differenz zu berücksichtigen.
 
+
+Aufgabenname: `m1-koeffizienten-berechnen-schoice`
+
+
 Answerlist
 ----------
 * Wahr

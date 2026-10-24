@@ -240,6 +240,10 @@ Steht auch in der Tabelle,
 die von `parameters` ausgegeben wird.
 
 
+Aufgabenname: `penguins-stan-01`
+
+
+
 
 ---
 

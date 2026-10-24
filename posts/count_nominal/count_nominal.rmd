@@ -28,6 +28,10 @@ Solution
 Bei nominalen Daten ist das Zählen der Häufigkeiten die Standardoperation.
 `count()` ist dafür die effizienteste Funktion.
 
+
+Aufgabenname: `count_nominal`
+
+
 Answerlist
 ----------
 * Richtig

@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * $D$ = "höchstens zweimal Kopf" umfasst sieben der acht Ausgänge (alle außer $KKK$) -- auch das ist deutlich mehr als ein Element und daher kein Elementarereignis.
 * $E = \Omega$, das sichere Ereignis, umfasst per Definition *alle* acht möglichen Ausgänge -- das genaue Gegenteil eines Elementarereignisses (das nur *einen* Ausgang umfasst).
 
+
+Aufgabenname: `elementarereignis-muenzwurf-schoice`
+
+
 Answerlist
 ----------
 * Wahr

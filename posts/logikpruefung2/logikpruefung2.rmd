@@ -48,6 +48,10 @@ x > 0
 ```
 
 
+Aufgabenname: `logikpruefung2`
+
+
+
 
 
 

@@ -117,6 +117,10 @@ $1 - \mathit{RSS}_1/\mathit{RSS}_0 = 1 - `r rss[2]`/`r rss[1]` =
   
 The statements above can now be evaluated as right or wrong.
 
+
+Aufgabenname: `anova`
+
+
 ```{r solutionlist, echo = FALSE, results = "asis"}
 answerlist(ifelse(solutions, "True", "False"), explanations, markup = "markdown")
 ```

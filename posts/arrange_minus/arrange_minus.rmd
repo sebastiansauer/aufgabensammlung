@@ -26,6 +26,10 @@ Solution
 ========
 In der Funktion `arrange()` bewirkt ein Minuszeichen vor dem Variablennamen eine absteigende Sortierung (große Werte zuerst).
 
+
+Aufgabenname: `arrange_minus`
+
+
 Answerlist
 ----------
 * Richtig

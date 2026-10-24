@@ -30,6 +30,10 @@ Solution
 Der Mittelwert wirkt wie ein physikalischer Schwerpunkt (Wippe).
 Die Summe der Abweichungen nach oben und unten gleicht sich exakt aus, sodass ihre Summe Null ergibt.
 
+
+Aufgabenname: `mw_eigenschaft`
+
+
 Answerlist
 ----------
 * Richtig

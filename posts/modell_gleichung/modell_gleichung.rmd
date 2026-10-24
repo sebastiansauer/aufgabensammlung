@@ -27,6 +27,10 @@ Solution
 In der Statistik gilt: Daten = Modell + Rest.
 Der beobachtete Wert $y$ wird durch den Modellwert $m$ vorhergesagt, wobei $e$ die Abweichung beschreibt.
 
+
+Aufgabenname: `modell_gleichung`
+
+
 Answerlist
 ----------
 * Richtig

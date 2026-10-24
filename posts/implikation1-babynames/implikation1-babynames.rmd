@@ -145,6 +145,10 @@ Solution
 Die richtige Aussage lautet "`r itemlist$proposition[itemlist$is_correct==TRUE]`".
 
 
+Aufgabenname: `implikation1-babynames`
+
+
+
 
 ```{r itemlist_asnwer, results="asis"}
 answerlist(ifelse(itemlist$is_correct, "Wahr", "Falsch"), markup = "markdown")

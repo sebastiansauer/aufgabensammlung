@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option übertreibt: Der Koeffizient ist nicht bedeutungslos, sondern hat eine *spezifische, bedingte* Bedeutung (nämlich bei `hp=0`) -- man muss nur wissen, wie man ihn korrekt interpretiert.
 * Die fünfte Option widerspricht dem Kapitel direkt: "Da `hp=0` kein realistischer Wert ist, ist das Modell schwer zu interpretieren." -- kein Auto im Datensatz hat 0 PS, weshalb genau dieser Interpretationsfehler besonders tückisch ist.
 
+
+Aufgabenname: `interaktion-falsch-interpretiert-schoice`
+
+
 Answerlist
 ----------
 * Wahr

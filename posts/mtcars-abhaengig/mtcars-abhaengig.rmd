@@ -165,6 +165,10 @@ tally(mpg_high ~ hp_high,
 ```
 
 
+Aufgabenname: `mtcars-abhaengig`
+
+
+
 
 
 

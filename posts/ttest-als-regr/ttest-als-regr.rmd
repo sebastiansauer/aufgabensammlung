@@ -105,6 +105,10 @@ mtcars %>%
 ```
 
 
+Aufgabenname: `ttest-als-regr`
+
+
+
 
 
 

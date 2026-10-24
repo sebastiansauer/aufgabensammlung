@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch: Wie im Kapitel explizit betont wird, ist die Stichprobenverteilung *keine* empirische Verteilung -- sie wird am Computer simuliert (z. B. mit `rbinom`), nicht durch tatsächlich durchgeführte Wiederholungen des Experiments gewonnen.
 * Die fünfte Option widerspricht der Aussage des Kapitels direkt: "Die meisten Forschungsfragen lassen sich mit der Post-Verteilung beantworten, nicht mit der Stichprobenverteilung."
 
+
+Aufgabenname: `stichprobenvert-vs-postvert-schoice`
+
+
 Answerlist
 ----------
 * Wahr

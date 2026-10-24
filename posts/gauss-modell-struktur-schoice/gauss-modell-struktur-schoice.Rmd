@@ -31,6 +31,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwechselt Priori-Verteilung und Likelihood: Die erste Zeile beschreibt die Ungewissheit über den *Parameter* $\mu$, nicht die Verteilung der beobachteten *Einzeldaten* -- Letztere wird durch die dritte Zeile (Likelihood) beschrieben.
 * Die fünfte Option ist falsch: Die Exponentialverteilung ist per Definition nur für *positive* Werte definiert -- genau deshalb wurde sie hier gewählt, um sicherzustellen, dass $\sigma$ (eine Streuung, die niemals negativ sein kann) nur plausible, positive Werte annimmt.
 
+
+Aufgabenname: `gauss-modell-struktur-schoice`
+
+
 Answerlist
 ----------
 * Wahr

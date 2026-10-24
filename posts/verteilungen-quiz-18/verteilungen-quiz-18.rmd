@@ -81,6 +81,10 @@ Laut unseren Daten profitiert ei Teilnehmi mit einer Wahrscheinlichkeit von ca. 
 Die angegebene Wahrscheinlichkeit von 95% kann nicht bestätigt werden.
 
 
+Aufgabenname: `verteilungen-quiz-18`
+
+
+
 Answerlist
 ----------
 

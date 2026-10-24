@@ -80,6 +80,10 @@ sol <-  d_selected$Value[1]
 ```
 
 
+Aufgabenname: `schminke1`
+
+
+
 Meta-information
 ================
 exname: schminke1

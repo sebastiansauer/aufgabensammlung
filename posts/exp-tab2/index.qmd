@@ -131,3 +131,7 @@ Untere Grenze: `r quantiles_df_rounded[quantiles_df_rounded$rate == lambda, 2]`
   Obere Grenze: `r quantiles_df_rounded[quantiles_df_rounded$rate == lambda, 6]`
 
 
+Aufgabenname: `exp-tab2`
+
+
+

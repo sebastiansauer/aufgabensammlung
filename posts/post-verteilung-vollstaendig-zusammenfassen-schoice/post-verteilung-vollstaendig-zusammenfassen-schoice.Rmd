@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option widerspricht dem Kapitel direkt, das die Visualisierung der Post-Verteilung ausdrücklich *empfiehlt*, gerade weil zusammenfassende Kennzahlen allein nicht alle Information transportieren.
 * Die fünfte Option kehrt die logische Beziehung um: Eine Zusammenfassung kann per Definition nicht mehr Information enthalten als das Original, aus dem sie berechnet wurde -- höchstens gleich viel (im Idealfall) oder (praktisch immer) weniger.
 
+
+Aufgabenname: `post-verteilung-vollstaendig-zusammenfassen-schoice`
+
+
 Answerlist
 ----------
 * Wahr

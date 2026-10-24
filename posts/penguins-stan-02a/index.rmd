@@ -119,6 +119,10 @@ hdi(m1, ci = .9) |> plot()
 ```
 
 
+Aufgabenname: `penguins-stan-02a`
+
+
+
 
 ---
 

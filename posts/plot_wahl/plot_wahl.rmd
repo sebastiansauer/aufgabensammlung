@@ -27,6 +27,10 @@ Solution
 ========
 Laut der Nomenklatur ist der Boxplot das Standardwerkzeug, um Unterschiede einer quantitativen Variable zwischen Gruppen zu zeigen.
 
+
+Aufgabenname: `plot_wahl`
+
+
 Answerlist
 ----------
 * Richtig

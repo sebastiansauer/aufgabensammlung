@@ -29,6 +29,10 @@ Solution
 Anscombes Quartett und der „Datasaurus“ zeigen, dass völlig unterschiedliche Datenstrukturen dieselben Kennwerte haben können.
 Nur eine Visualisierung macht diese Unterschiede sichtbar.
 
+
+Aufgabenname: `anscombe_logik`
+
+
 Answerlist
 ----------
 * Richtig

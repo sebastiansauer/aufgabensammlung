@@ -63,6 +63,10 @@ mosaic::xpnorm(c(-2,2), 0, 1)
 ```
 
 
+Aufgabenname: `verteilungen-quiz-14`
+
+
+
 
 
 

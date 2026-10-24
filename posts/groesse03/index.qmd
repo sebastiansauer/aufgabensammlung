@@ -171,3 +171,7 @@ Dieser Bereich überdeckt den oben angenommenen Mittelwert in der männlichen Ge
 Es ist also *nicht* auszuschließen, dass die mittlere Körpergröße der männlichen Studenten der der männlichen Allgemeinbevölkerung entspricht.
 
 Die Hypothese, dass Studenten im Mittel gleich groß sind wie die männliche Allgemeinbevölkerung, kann also nicht ausgeschlossen (verworfen) werden.
+
+
+Aufgabenname: `groesse03`
+

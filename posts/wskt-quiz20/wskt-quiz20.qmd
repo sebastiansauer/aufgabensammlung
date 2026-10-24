@@ -59,6 +59,10 @@ Deskriptiv- und Inferenzstatistik haben unterschiedliche Aufgaben.
 Die eine fasst Daten zusammen, die andere schließt von einer Stichprobe auf eine Grundgesamtheit (Verteilung).
 
 
+Aufgabenname: `wskt-quiz20`
+
+
+
 Answerlist
 ----------
 

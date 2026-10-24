@@ -62,6 +62,10 @@ mtcars %>% filter(cyl == 8)
 ```
 
 
+Aufgabenname: `filter`
+
+
+
 Answerlist
 ----------
 

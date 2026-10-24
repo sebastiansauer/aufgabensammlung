@@ -159,6 +159,10 @@ Achtung, jetzt kommt eine Definition:
 *Den Anteil von 8 oder mehr Treffern (also ein Ergebnis, das mindestens so extrem ist wie unsere Daten) nennt man den p-Wert.*
 
 
+Aufgabenname: `simu-p-wert`
+
+
+
 
 
 Meta-information

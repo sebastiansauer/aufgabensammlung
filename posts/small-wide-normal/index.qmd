@@ -91,6 +91,10 @@ Solution
 **C**
 
 
+Aufgabenname: `small-wide-normal`
+
+
+
 Answerlist
 ----------
 

@@ -150,6 +150,10 @@ Reinhart und Rogoff haben den Excel-Fehler eingeräumt, hielten aber an ihrer Gr
 - Reinhart, C. M., & Rogoff, K. S. (2010). Growth in a time of debt. *American Economic Review, 100*(2), 573--578.
 - Herndon, T., Ash, M., & Pollin, R. (2014). Does high public debt consistently stifle economic growth? A critique of Reinhart and Rogoff. *Cambridge Journal of Economics, 38*(2), 257--279.
 
+
+Aufgabenname: `fallstudie-excel-r`
+
+
 ---
 
 Categories:

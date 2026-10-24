@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwechselt die kausale Rolle von Mediator und Konfundierer: Ein Mediator liegt *auf dem Kausalpfad* zwischen UV und AV, ein Konfundierer wirkt hingegen *gemeinsam als Ursache* auf UV und AV -- beide erfordern unterschiedliche Handlungsempfehlungen.
 * Die fünfte Option nennt ein im Kapitel nicht getroffenes, sachlich unbegründetes Unterscheidungskriterium (Skalenniveau des Mediators) -- die Empfehlung, Mediatoren nicht zu kontrollieren, gilt unabhängig vom Skalenniveau.
 
+
+Aufgabenname: `mediator-kontrollieren-fehler-schoice`
+
+
 Answerlist
 ----------
 * Wahr

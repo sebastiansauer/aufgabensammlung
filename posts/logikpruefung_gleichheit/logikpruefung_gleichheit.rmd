@@ -25,6 +25,10 @@ Solution
 ========
 Zur Prüfung auf Gleichheit muss das doppelte Gleichheitszeichen (==) verwendet werden. Ein einzelnes Gleichheitszeichen dient der Definition oder Bestimmung von Argumenten.
 
+
+Aufgabenname: `logikpruefung_gleichheit`
+
+
 Answerlist
 ----------
 * Richtig

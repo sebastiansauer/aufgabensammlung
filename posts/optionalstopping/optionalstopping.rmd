@@ -168,6 +168,10 @@ Das nennt man auch "preregistration".
 * Richtig
 
 
+Aufgabenname: `optionalstopping`
+
+
+
 
 
 Meta-information

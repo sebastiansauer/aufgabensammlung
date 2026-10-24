@@ -25,6 +25,10 @@ Solution
 ========
 Im Standard liefert mean() NA zurück, um den Nutzer darauf aufmerksam zu machen, dass Daten fehlen. Um dies zu ändern, muss das Argument na.rm = TRUE gesetzt werden.
 
+
+Aufgabenname: `mean_na_standard`
+
+
 Answerlist
 ----------
 * Richtig

@@ -111,6 +111,10 @@ Solution
 
 Antwort D; s. [hier](https://www.datanovia.com/en/blog/how-to-create-a-map-using-ggplot2/) eine Vertiefung
 
+
+Aufgabenname: `viz-geom-point9`
+
+
 Answerlist
 ----------
 

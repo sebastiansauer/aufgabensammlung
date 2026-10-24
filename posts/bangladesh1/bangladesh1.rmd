@@ -191,11 +191,14 @@ sol_b
 ```
 
 
+Aufgabenname: `bangladesh1`
+
 
 Solutionlist
 ------------
 * Der Wert beträgt `r sol_a`.
 * Der Wert beträgt `r sol_b`.
+
 
 Meta-information
 ================

@@ -134,6 +134,10 @@ d_sol %>% gt::gt()
 Die richtige Antwort lautet: **`r  sol`**.
 
 
+Aufgabenname: `skalenniveau1a`
+
+
+
 
 
 Meta-information

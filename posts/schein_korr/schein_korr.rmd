@@ -27,6 +27,10 @@ Solution
 ========
 Wohlstand (Entwicklungsstand) führt sowohl zu höherem Konsum von Luxusgütern als auch zu besserer Forschungsinfrastruktur.
 
+
+Aufgabenname: `schein_korr`
+
+
 Answerlist
 ----------
 * Richtig

@@ -80,6 +80,10 @@ Es ist übrigens egal, ob Sie für die Priori-Werte .5 oder 1 (oder eine andere 
 solange Sie für alle Hypothesen die gleiche Zahl verwenden – das Ergebnis bleibt dann gleich.
 
 
+Aufgabenname: `kekse01-schoice`
+
+
+
 Answerlist
 ----------
 * True

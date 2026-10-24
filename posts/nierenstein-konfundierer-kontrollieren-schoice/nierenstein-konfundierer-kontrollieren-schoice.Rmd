@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verdreht die Fragestellung: Gefragt ist explizit nach dem Effekt von `treatment` auf `recovery` -- dafür muss gerade der Konfundierer `size` kontrolliert werden, nicht `treatment` selbst (das wäre die zu schätzende Ursache).
 * Die fünfte Option widerspricht ebenfalls der Modellannahme: Laut Kausalmodell hat `size` *zwei* Pfade zu `recovery` -- einen direkten ($\text{size}\rightarrow\text{recovery}$) und einen indirekten über `treatment` ($\text{size}\rightarrow\text{treatment}\rightarrow\text{recovery}$) -- nicht nur den indirekten.
 
+
+Aufgabenname: `nierenstein-konfundierer-kontrollieren-schoice`
+
+
 Answerlist
 ----------
 * Wahr

@@ -28,6 +28,10 @@ Solution
 `mutate()` wird verwendet, um neue Spalten zu berechnen oder bestehende zu verändern.
 Die Anzahl der Zeilen bleibt dabei immer gleich.
 
+
+Aufgabenname: `mutate_neu`
+
+
 Answerlist
 ----------
 * Richtig

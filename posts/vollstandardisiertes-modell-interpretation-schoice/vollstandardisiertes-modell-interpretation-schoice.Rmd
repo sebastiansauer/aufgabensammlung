@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option interpretiert den Koeffizienten fälschlich als einen Anteilswert von Personen -- ein standardisierter Regressionskoeffizient ist aber ein Zusammenhangsmaß, keine Prozentangabe über Personen.
 * Die fünfte Option widerspricht gerade dem zentralen Vorteil der z-Standardisierung: Genau *weil* beide Prädiktoren auf eine gemeinsame Skala (SD-Einheiten) gebracht wurden, sind ihre Koeffizienten nun direkt miteinander vergleichbar -- das Kapitel nutzt dies explizit, um zu zeigen, dass mütterlicher IQ "deutlich wichtiger" ist als mütterliches Alter.
 
+
+Aufgabenname: `vollstandardisiertes-modell-interpretation-schoice`
+
+
 Answerlist
 ----------
 * Wahr

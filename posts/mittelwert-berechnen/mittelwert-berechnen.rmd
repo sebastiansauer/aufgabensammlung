@@ -59,6 +59,10 @@ mean(x)
 ```
 
 
+Aufgabenname: `mittelwert-berechnen`
+
+
+
 
 
 Meta-information

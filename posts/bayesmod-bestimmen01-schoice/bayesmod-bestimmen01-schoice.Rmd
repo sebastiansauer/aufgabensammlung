@@ -35,6 +35,10 @@ Normalverteilung mit MW=0 und SD=1.5 als Prior.
 Die Exponentialverteilung gilt
 nur für $\sigma$ (hier: `s`).
 
+
+Aufgabenname: `bayesmod-bestimmen01-schoice`
+
+
 Meta-information
 ================
 extype: schoice

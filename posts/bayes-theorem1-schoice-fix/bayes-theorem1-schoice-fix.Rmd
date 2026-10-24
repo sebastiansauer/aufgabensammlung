@@ -22,6 +22,10 @@ Solution
 
 $$Pr(K+|T+) = \frac{Pr(T+|K+) \cdot Pr(K+)}{Pr(T+|K+) \cdot Pr(K+) + Pr(T+|K-) \cdot Pr(K-)} = \frac{0.9 \cdot 0.01}{0.9 \cdot 0.01 + 0.05 \cdot 0.99} = 0.15$$
 
+
+Aufgabenname: `bayes-theorem1-schoice-fix`
+
+
 Answerlist
 ----------
 * Wahr

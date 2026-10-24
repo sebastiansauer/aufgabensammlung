@@ -81,6 +81,10 @@ pnorm(130, mean = 100, sd = 15, lower.tail = FALSE)
 ```
 
 
+Aufgabenname: `iq01a`
+
+
+
 
 
 

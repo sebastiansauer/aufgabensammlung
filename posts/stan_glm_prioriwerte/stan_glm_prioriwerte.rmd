@@ -120,6 +120,10 @@ plot(hdi(m1), data = m1)
 ```
 
 
+Aufgabenname: `stan_glm_prioriwerte`
+
+
+
 
 
 

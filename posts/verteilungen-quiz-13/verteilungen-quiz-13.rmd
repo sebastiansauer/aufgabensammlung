@@ -65,6 +65,10 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/c/cc/Rel
 [Quelle](https://en.wikipedia.org/wiki/Skewness#/media/File:Relationship_between_mean_and_median_under_different_skewness.png) Diva Jain, CC-BY-SA 4.0, Wikipedia, By Diva Jain - https://codeburst.io/2-important-statistics-terms-you-need-to-know-in-data-science-skewness-and-kurtosis-388fef94eeaa, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=84219892
 
 
+Aufgabenname: `verteilungen-quiz-13`
+
+
+
 
 
 Answerlist

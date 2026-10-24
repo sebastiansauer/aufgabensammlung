@@ -25,6 +25,10 @@ Solution
 ========
 Bei großen Stichproben gibt es weniger Variation um den Mittelwert, was die Schätzung präziser macht.
 
+
+Aufgabenname: `stichprobengroesse_genauigkeit`
+
+
 Answerlist
 ----------
 * Falsch

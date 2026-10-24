@@ -25,6 +25,10 @@ Solution
 ========
 Statistische Analysen dienen dazu, Sachverhalte zu beschreiben, zukünftige Werte vorherzusagen oder kausale Einflüsse zu erklären [5].
 
+
+Aufgabenname: `ziele_statistik`
+
+
 Answerlist
 ----------
 * Falsch

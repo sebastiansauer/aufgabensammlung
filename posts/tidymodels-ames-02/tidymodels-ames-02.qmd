@@ -242,6 +242,10 @@ Zur Interpretation von Log10-Werten
 ```
 
 
+Aufgabenname: `tidymodels-ames-02`
+
+
+
 
 
 

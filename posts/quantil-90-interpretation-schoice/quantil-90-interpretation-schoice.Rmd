@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwechselt das Quantil mit einer Häufigkeitsaussage über exakt diesen einen Wert -- tatsächlich haben typischerweise nur sehr wenige (oder gar keine) Stichproben exakt den Wert 0,78, das Quantil bezieht sich auf die *kumulierte* Verteilung, nicht auf einen Einzelwert.
 * Die fünfte Option verwechselt das Quantil mit dem arithmetischen *Mittelwert* der Verteilung -- beide sind unterschiedliche Kennwerte, die bei schiefen Verteilungen deutlich auseinanderfallen können.
 
+
+Aufgabenname: `quantil-90-interpretation-schoice`
+
+
 Answerlist
 ----------
 * Wahr

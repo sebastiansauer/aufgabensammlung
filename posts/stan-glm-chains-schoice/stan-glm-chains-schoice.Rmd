@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch: Bei korrekt konvergierender Berechnung liefern mehrere Ketten im Wesentlichen dieselbe (nicht eine systematisch andere) Post-Verteilung wie eine einzelne Kette -- der Vorteil mehrerer Ketten liegt in der *Prüfbarkeit* der Konvergenz, nicht in einem anderen Ergebnis.
 * Die fünfte Option ist falsch: Das Konzept der "Ketten" ist spezifisch für MCMC-Verfahren (wie Stan sie verwendet) relevant -- die (hier nicht mehr verwendete) Bayesbox-Methode kennt dieses Konzept gar nicht, da sie nicht auf zufälligem Stichprobenziehen mittels Markov-Ketten beruht.
 
+
+Aufgabenname: `stan-glm-chains-schoice`
+
+
 Answerlist
 ----------
 * Wahr

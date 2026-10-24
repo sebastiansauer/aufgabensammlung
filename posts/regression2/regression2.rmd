@@ -158,6 +158,10 @@ gf_point(yi ~ x) %>%
 ```
 
 
+Aufgabenname: `regression2`
+
+
+
 
 ```{r solutionlist, echo = FALSE, results = "asis"}
 answerlist(ifelse(d_five_options$is_correct, "Richtig", "Falsch"), markup = "markdown")

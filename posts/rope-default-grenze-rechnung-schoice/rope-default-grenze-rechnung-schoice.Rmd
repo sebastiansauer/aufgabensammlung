@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwendet fälschlich 50 % statt 10 % der SD.
 * Die fünfte Option addiert die Prozentzahl (10) fälschlich direkt zur SD, statt die SD mit dem Anteil (10 % $=0{,}10$) zu multiplizieren -- das ergibt eine völlig andere (und dimensional unsinnige) Rechnung.
 
+
+Aufgabenname: `rope-default-grenze-rechnung-schoice`
+
+
 Answerlist
 ----------
 * Wahr

@@ -29,6 +29,10 @@ Solution
 Durch ein komplexeres Modell (Gruppierung) passen sich die Vorhersagen besser an die Daten an.
 Dies führt dazu, dass die Abweichungen der beobachteten Werte von den (gruppenbezogenen) Modellwerten sinken.
 
+
+Aufgabenname: `residuen_vergleich`
+
+
 Answerlist
 ----------
 * Richtig

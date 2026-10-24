@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch: Die Stichprobenverteilung basiert gerade auf einem *einzigen festen* Parameterwert und berücksichtigt daher *keine* Parameterungewissheit -- genau deshalb wird die PPV zusätzlich benötigt, um diese Ungewissheit einzubeziehen.
 * Die fünfte Option ist falsch: Die PPV bezieht sich, genau wie die Stichprobenverteilung, auf *Beobachtungen* (z. B. Trefferzahlen), nicht auf Parameterwerte -- nur die Post-Verteilung äußert sich zu Parameterwerten.
 
+
+Aufgabenname: `drei-verteilungen-vergleich-schoice`
+
+
 Answerlist
 ----------
 * Wahr

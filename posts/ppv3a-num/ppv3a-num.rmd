@@ -207,6 +207,10 @@ sol_tol <- exams::num2tol(sol_raw, min = min_tol, reltol = config$tol_rel) %>% e
 Aufgaben-ID: PPV3a-num, Toleranzbreite: `r sol_tol`
 
 
+Aufgabenname: `ppv3a-num`
+
+
+
 
 
 Meta-information

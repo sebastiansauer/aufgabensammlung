@@ -133,6 +133,10 @@ d %>%
 The important piece is that there are *two* ways that a all-black card (*bb*) can show a black side, since ist has two black sides.
 
 
+Aufgabenname: `rethink2m4`
+
+
+
 
 
 

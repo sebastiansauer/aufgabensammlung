@@ -14,6 +14,10 @@ Solution
 ========
 Durch das Gruppieren wird die Tabelle intern in „Teiltabellen“ aufgeteilt. Alle nachfolgenden Berechnungen werden dann für jede dieser Gruppen separat durchgeführt.
 
+
+Aufgabenname: `groupby`
+
+
 Answerlist
 ----------
 * Richtig

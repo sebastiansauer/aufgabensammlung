@@ -70,6 +70,10 @@ Solution
 
 Das Paket `XXX` ist nicht installiert auf dem aktuellen Rechner.
 
+
+Aufgabenname: `typ-fehler-r-02`
+
+
 Answerlist
 ----------
 

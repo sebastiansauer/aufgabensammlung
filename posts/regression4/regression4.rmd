@@ -183,6 +183,10 @@ yhat_selected <- predict(lm_true,
 $\hat{y}$ beträgt im Fall der vorliegenden Parameter und dem vorliegenden Modell $`r yhat_selected`$.
 
 
+Aufgabenname: `regression4`
+
+
+
 
 
 

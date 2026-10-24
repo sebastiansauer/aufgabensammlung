@@ -59,6 +59,10 @@ Solution
 Der Prozentrang der Kandidatin ist etwa `r d$Prozentrang[d$is_correct == TRUE]`.
 
 
+Aufgabenname: `normalverteilung1`
+
+
+
 
 
 Meta-information

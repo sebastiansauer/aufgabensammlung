@@ -188,6 +188,10 @@ Da bei schiefen Verteilungen der Bereich mit der höchsten Wahrscheinlichkeit (D
 nicht im ETI liegen kann, würde ich in diesem Fall das HDI vorziehen.
 
 
+Aufgabenname: `eti-hdi`
+
+
+
 
 
 

@@ -75,6 +75,10 @@ Die Aussage ist also
 * Wahr
 
 
+Aufgabenname: `verteilungen-quiz-05`
+
+
+
 
 
 

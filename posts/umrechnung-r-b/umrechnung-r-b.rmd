@@ -46,6 +46,10 @@ sol <- 0.7
 Die richtige Antwort lautet: `r sol`.
 
 
+Aufgabenname: `umrechnung-r-b`
+
+
+
 Meta-information
 ================
 exname: umrechnung-r-b

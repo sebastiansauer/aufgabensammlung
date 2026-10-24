@@ -163,6 +163,10 @@ plot(rope(m1, range = c(-1,1)))
 Wir verwerfen also die H0-Rope.
 
 
+Aufgabenname: `mtcars-rope1`
+
+
+
   
   
 

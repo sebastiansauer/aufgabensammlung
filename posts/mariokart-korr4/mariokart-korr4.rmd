@@ -108,6 +108,10 @@ sol <- exams::fmt(solution[1,1], digits = 1)
 **Lösung:** `r sol`. 
 
 
+Aufgabenname: `mariokart-korr4`
+
+
+
 
 
 

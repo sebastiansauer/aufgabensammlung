@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Kausale Unabhängigkeit hat nichts mit der Stichprobengröße zu tun -- sie betrifft die zugrundeliegende Wirkungsstruktur (z. B. dargestellt in einem Kausaldiagramm), die unabhängig davon existiert, wie viele Daten man erhoben hat.
 * Auch die fünfte Option erfindet einen Zusammenhang zur Stichprobengröße, der im Kapitel an keiner Stelle hergestellt wird; der Unterschied zwischen stochastischer und kausaler (Un-)Abhängigkeit ist konzeptueller, nicht stichprobenbedingter Natur.
 
+
+Aufgabenname: `stochastisch-vs-kausal-unabhaengig-schoice`
+
+
 Answerlist
 ----------
 * Wahr

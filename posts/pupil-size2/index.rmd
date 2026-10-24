@@ -260,6 +260,10 @@ m_pupil_eti$CI_high - m_pupil_eti$CI_low
 `eti()` verwendet im Default eine 95%-Intervall.
 
 
+Aufgabenname: `pupil-size2`
+
+
+
 ---
 
 Categories: 

@@ -120,6 +120,10 @@ Parameter des Modells:
 display(parameters(m))
 ```
 
+
+Aufgabenname: `log-y-regr3`
+
+
 Answerlist
 ----------
 * TRUE

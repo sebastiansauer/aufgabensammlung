@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist zu eng gefasst: Die Definition schließt sowohl Unterschiede (z. B. zwischen Gruppen) als auch Zusammenhänge (z. B. zwischen metrischen Variablen) mit ein.
 * Die fünfte Option verwechselt zwei unterschiedliche Konzepte: Der p-Wert ist eine bedingte Wahrscheinlichkeit im Rahmen eines Hypothesentests, der Effekt hingegen eine Kennzahl zur *Größe* eines Zusammenhangs oder Unterschieds -- beide sind eng verwandt, aber nicht identisch.
 
+
+Aufgabenname: `effekt-definition-nicht-kausal-schoice`
+
+
 Answerlist
 ----------
 * Wahr

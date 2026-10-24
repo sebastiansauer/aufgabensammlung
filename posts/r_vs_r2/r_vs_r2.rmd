@@ -30,6 +30,10 @@ Solution
 Da $R^2 = r^2$ gilt, ist der Zusammenhang nicht linear.
 Ein Sprung von 0,7 auf 0,8 bedeutet einen viel größeren Gewinn an Modellgüte als von 0,1 auf 0,2.
 
+
+Aufgabenname: `r_vs_r2`
+
+
 Answerlist
 ----------
 * Richtig

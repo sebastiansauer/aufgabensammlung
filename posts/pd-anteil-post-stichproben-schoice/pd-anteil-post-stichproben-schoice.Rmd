@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option teilt die Anzahl der Treffer fälschlich durch die Anzahl der Nicht-Treffer statt durch die *Gesamtzahl* aller Stichproben (4000); der resultierende Wert (199) ist weit außerhalb des gültigen Wahrscheinlichkeitsbereichs $[0,1]$.
 * Die fünfte Option gibt schlicht die absolute Anzahl der Treffer zurück, ohne diese ins Verhältnis zur Gesamtzahl der Stichproben zu setzen.
 
+
+Aufgabenname: `pd-anteil-post-stichproben-schoice`
+
+
 Answerlist
 ----------
 * Wahr

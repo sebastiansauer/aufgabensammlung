@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ignoriert, dass die Dichte einer Gleichverteilung genau so skaliert ist ($f(x)=1/(b-a)$), dass die Fläche unter der Kurve immer exakt 1 ergibt, unabhängig von der Breite des Intervalls.
 * Die fünfte Option ist falsch: Gleichverteilungen gibt es sowohl im diskreten als auch im stetigen Fall, z. B. eine stetige Gleichverteilung auf einem Intervall $[a,b]$.
 
+
+Aufgabenname: `gleichverteilung-eigenschaften-schoice`
+
+
 Answerlist
 ----------
 * Wahr

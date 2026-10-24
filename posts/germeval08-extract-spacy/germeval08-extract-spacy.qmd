@@ -151,6 +151,10 @@ df.to_csv("germeval_spacy_embed.csv")
 ```
 
 
+Aufgabenname: `germeval08-extract-spacy`
+
+
+
 
 
 ---

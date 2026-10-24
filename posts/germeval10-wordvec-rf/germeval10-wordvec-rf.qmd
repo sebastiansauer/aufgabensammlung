@@ -257,6 +257,10 @@ Das Modell braucht doch ganz schön viel Rechenzeit.
 Achtung: Mit dem Parameter `save_pred = TRUE` wird der Workflow größer als 3 GB.
 
 
+Aufgabenname: `germeval10-wordvec-rf`
+
+
+
 
 
 

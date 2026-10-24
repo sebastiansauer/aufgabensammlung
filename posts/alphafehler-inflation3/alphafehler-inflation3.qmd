@@ -176,6 +176,10 @@ Die Antwort lautet:
 * $R_{10}= 1-r^{10} = 1 - `r R10` = `r solution`$
 
 
+Aufgabenname: `alphafehler-inflation3`
+
+
+
 
 
 

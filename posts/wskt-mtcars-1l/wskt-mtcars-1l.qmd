@@ -148,3 +148,7 @@ sol <- prop |> filter(`am >= 5` == TRUE) |> pull(prop) |> round(2)
 ### Antwort
 
 Laut unserem Modell beträgt die Wahrscheinlichkeit für obige Hypothese `r sol`.
+
+
+Aufgabenname: `wskt-mtcars-1l`
+

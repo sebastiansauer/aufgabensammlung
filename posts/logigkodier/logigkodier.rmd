@@ -28,6 +28,10 @@ Solution
 R behandelt logische Variablen automatisch als binäre Variablen.
 Dabei wird FALSE als 0 und TRUE als 1 kodiert.
 
+
+Aufgabenname: `logigkodier`
+
+
 Answerlist
 ----------
 * Richtig

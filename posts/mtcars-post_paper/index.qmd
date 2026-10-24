@@ -145,6 +145,10 @@ hdi(m1) |> plot(show_intercept = TRUE)
 ```
 
 
+Aufgabenname: `mtcars-post_paper`
+
+
+
 
 ---
 

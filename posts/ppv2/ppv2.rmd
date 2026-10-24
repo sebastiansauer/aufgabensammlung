@@ -190,6 +190,10 @@ Daher sind auch andere, einfachere Lösungen möglich.
 Die Wahrscheinlichkeit, dass die Beobachtung mit dem um 1 höheren Prädiktorwert einen höheren Wert in der AV aufweist, beträgt: ``r Wskt_AV_hoeher_bei_xgleich1``.
 
 
+Aufgabenname: `ppv2`
+
+
+
 
 Meta-information
 ================

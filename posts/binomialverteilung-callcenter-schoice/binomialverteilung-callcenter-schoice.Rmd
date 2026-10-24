@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option vergisst den Faktor $(1-p)^{n-k}=0{,}7^5$ für die 5 Misserfolge; das Ergebnis ist folgerichtig größer als 1 und kann daher schon aus formalen Gründen keine gültige Wahrscheinlichkeit sein.
 * Die fünfte Option berechnet naiv einen Anteil $3/8$ und ignoriert dabei vollständig die binomiale Struktur des Problems (Erfolgswahrscheinlichkeit $p$ sowie die Anzahl möglicher Pfade über den Binomialkoeffizienten).
 
+
+Aufgabenname: `binomialverteilung-callcenter-schoice`
+
+
 Answerlist
 ----------
 * Wahr

@@ -25,6 +25,10 @@ Solution
 ========
 Modelle fassen Daten prägnant zusammen und werfen bewusst Informationen weg, um den Kern eines Sachverhalts verständlich zu machen.
 
+
+Aufgabenname: `nutzen_modelle`
+
+
 Answerlist
 ----------
 * Falsch

@@ -61,6 +61,12 @@ sol <- "loesung <- 42"
 ``r sol``
 
 
+Solution
+========
+
+Aufgabenname: `korr-vs-entropie1`
+
+
 Meta-information
 ================
 

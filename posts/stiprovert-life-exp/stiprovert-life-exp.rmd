@@ -42,6 +42,10 @@ Solution
 individuell
 
 
+Aufgabenname: `stiprovert-life-exp`
+
+
+
 Meta-information
 ================
 extype: string

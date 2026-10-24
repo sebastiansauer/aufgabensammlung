@@ -140,6 +140,10 @@ Das Histogramm ``r d$plot_id[d$is_correct == TRUE]`` zeigt die Eigenschaft ``r s
 ` am deutlichsten.
 
 
+Aufgabenname: `schiefe-erkennen`
+
+
+
 ```{r solutionlist, echo = FALSE, results = "asis"}
 exams::answerlist(ifelse(d$is_correct, "Wahr", "Falsch"), markup = "markdown")
 ```

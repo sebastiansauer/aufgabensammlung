@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option zieht den Schnitt fälschlich *zweimal* ab, statt nur einmal, und erhält damit einen unplausibel niedrigen Wert ($0{,}15$), der sogar unterhalb beider Einzelwahrscheinlichkeiten liegt -- das kann für eine Vereinigungswahrscheinlichkeit nicht korrekt sein, da $Pr(S_1B \cup S_2B)$ mindestens so groß sein muss wie die größere der beiden Einzelwahrscheinlichkeiten.
 * Die fünfte Option multipliziert die beiden Wahrscheinlichkeiten -- das wäre die (hier ohnehin unpassende) Formel für die gemeinsame Wahrscheinlichkeit *unabhängiger* Ereignisse, nicht die Formel für die Vereinigung zweier (hier zudem gar nicht unabhängiger) Ereignisse.
 
+
+Aufgabenname: `additionssatz-mindestens-eine-klausur-schoice`
+
+
 Answerlist
 ----------
 * Wahr

@@ -33,6 +33,10 @@ Solution
 ========
 
 
+Aufgabenname: `verteilungen-quiz-01-b`
+
+
+
 Answerlist
 ----------
 

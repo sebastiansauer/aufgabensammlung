@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option nennt zwar korrekt die Zielart *Beschreiben*, behauptet aber fälschlich, die Verallgemeinerung auf die Population sei das Ziel -- das widerspricht der Definition der Deskriptivstatistik direkt.
 * Die fünfte Option verwechselt *Beschreiben* mit *Populationsinferenz*: Im Beispiel wird der Mittelwert nur für die anwesenden Studierenden berichtet, nicht auf eine Grundgesamtheit verallgemeinert.
 
+
+Aufgabenname: `zielart-beschreiben-definition-schoice`
+
+
 Answerlist
 ----------
 * Wahr

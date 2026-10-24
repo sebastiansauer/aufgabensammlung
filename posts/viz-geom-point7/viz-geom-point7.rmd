@@ -48,6 +48,10 @@ summarises the y values for each unique x value, to draw attention to the summar
 
 vgl. [hier](https://r4ds.had.co.nz/data-visualisation.html#statistical-transformations)
 
+
+Aufgabenname: `viz-geom-point7`
+
+
 Answerlist
 ----------
 

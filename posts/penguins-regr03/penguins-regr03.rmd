@@ -57,6 +57,10 @@ Mit einer Wahrscheinlichkeit von 100% (gerundet auf 2 Dezimalstellen) ist der Ef
 laut unserem Modell.
 
 
+Aufgabenname: `penguins-regr03`
+
+
+
 Meta-information
 ================
 extype: string

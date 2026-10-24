@@ -25,6 +25,10 @@ Solution
 ========
 Ein wissenschaftlicher Befund gilt als reproduzierbar, wenn Dritte unter Verwendung derselben Daten und derselben Syntax zum identischen Ergebnis gelangen.
 
+
+Aufgabenname: `reproduzierbarkeit`
+
+
 Answerlist
 ----------
 * Richtig

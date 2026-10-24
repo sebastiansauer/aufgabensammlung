@@ -143,6 +143,10 @@ Solution
 Der Modellfehler $\epsilon$ hat den Anteil $`r e`$ im Vergleich zur Streuung von $y$.
 
 
+Aufgabenname: `regression3`
+
+
+
 
 ```{r solutionlist, echo = FALSE, results = "asis"}
 answerlist(ifelse(d_five_options$is_correct, "Richtig", "Falsch"), markup = "markdown")

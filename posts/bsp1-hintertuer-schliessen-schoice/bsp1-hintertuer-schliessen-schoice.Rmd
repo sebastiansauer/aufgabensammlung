@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ergibt keinen Sinn im Rahmen der Hintertür-Logik: Man kontrolliert Drittvariablen, um Hintertürpfade zur UV zu schließen -- die UV selbst zu "kontrollieren" ist kein sinnvolles Konzept in diesem Zusammenhang.
 * Die fünfte Option ignoriert, dass explizit *ein* Hintertürpfad ($X\leftarrow U\leftarrow A\rightarrow C\rightarrow Y$) als *offen* beschrieben wird -- dieser muss also aktiv geschlossen werden, ist nicht automatisch schon blockiert.
 
+
+Aufgabenname: `bsp1-hintertuer-schliessen-schoice`
+
+
 Answerlist
 ----------
 * Wahr

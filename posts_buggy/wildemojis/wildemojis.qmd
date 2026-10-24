@@ -173,3 +173,7 @@ txt |> count_lexicon(wild_emojis)
 
 
 Oh nein! Ein Bug. Hier ist noch Arbeit nötig.
+
+
+Aufgabenname: `wildemojis`
+

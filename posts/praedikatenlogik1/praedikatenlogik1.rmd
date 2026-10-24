@@ -88,6 +88,10 @@ Solution
 
 `r sol$Praedikatenlogik[1]`
 
+
+Aufgabenname: `praedikatenlogik1`
+
+
 Meta-information
 ================
 exname: praedikatenlogik1

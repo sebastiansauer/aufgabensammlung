@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option widerspricht dem Kapitel direkt: Der Grenzwert für "praktisch gleich" bzw. "kaum unterschiedlich" wird explizit als *subjektiv* bezeichnet und muss von den Forschenden inhaltlich begründet festgelegt werden (im Beispiel: 5 IQ-Punkte).
 * Die fünfte Option beschreibt eher die *exakte* Nullhypothese (Effekt $=0$), die die klassische Signifikanztestung prüft -- der Witz am ROPE-Verfahren ist gerade, dass es über die exakte Null hinausgeht und einen ganzen Bereich "praktisch bedeutungsloser" Werte berücksichtigt.
 
+
+Aufgabenname: `rope-konzept-schoice`
+
+
 Answerlist
 ----------
 * Wahr

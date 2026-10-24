@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option widerspricht dem Kapitel direkt, das ausdrücklich "die vier Atome der Kausalinferenz" (Konfundierung, Kollision, Mediation, Nachfahre) als vollständige Grundbausteine benennt.
 * Die fünfte Option verwechselt zwei grundlegend unterschiedliche Strukturen: Bei Konfundierung ist die Drittvariable gemeinsame *Ursache* von UV und AV, bei Mediation liegt die Drittvariable hingegen *zwischen* UV und AV auf dem Kausalpfad.
 
+
+Aufgabenname: `vier-atome-uebersicht-schoice`
+
+
 Answerlist
 ----------
 * Wahr

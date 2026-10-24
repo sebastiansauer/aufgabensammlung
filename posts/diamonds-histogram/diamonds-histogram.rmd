@@ -72,6 +72,10 @@ Solution
 ========
 
 
+Aufgabenname: `diamonds-histogram`
+
+
+
 Answerlist
 ----------
 * Falsch

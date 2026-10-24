@@ -123,6 +123,10 @@ sol <- "s. text"
 ```
 
 
+Aufgabenname: `titanic_casestudy`
+
+
+
 
 ---
 

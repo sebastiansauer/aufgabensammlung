@@ -57,6 +57,10 @@ Solution
 Ja, $A$ ist wahr.
 
 
+Aufgabenname: `verteilungen-quiz-12`
+
+
+
 
 
 

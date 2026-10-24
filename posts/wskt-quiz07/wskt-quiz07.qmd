@@ -55,6 +55,10 @@ Solution
 
 Richtig wäre: $Pr(H|D) = \frac{Pr(D\cap H)} {Pr(D)}$.
 
+
+Aufgabenname: `wskt-quiz07`
+
+
 Answerlist
 ----------
 

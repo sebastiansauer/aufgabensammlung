@@ -106,3 +106,7 @@ ggboxplot(penguins_filtered,
   geom_jitter(width=0.1, alpha = .6) +
   stat_summary(geom = "point", fun = mean, color = "red", size = 3)
 ```
+
+
+Aufgabenname: `boxplot_with_points`
+

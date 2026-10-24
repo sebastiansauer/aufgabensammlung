@@ -68,3 +68,7 @@ D) $Pr(A_1) + Pr(A_2) + Pr(A_3) = 1$
 | D      | ✅ Richtig      | Disjunkt + vollständig → Summe = 1             |
 
 
+Aufgabenname: `prob-voll-esystem`
+
+
+

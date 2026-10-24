@@ -247,3 +247,7 @@ plot(rope_m_interact)
 Das 95%-Post-Intervall ist komplett innerhalb des ROPE.
 
 Wir können die ROPE-Hypothese daher bestätigen.
+
+
+Aufgabenname: `penguins-interact`
+

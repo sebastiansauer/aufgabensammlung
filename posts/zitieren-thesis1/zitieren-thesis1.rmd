@@ -43,6 +43,10 @@ sol <- "Zwar bescheinigt eine Studie dem NLP positive Auswirkungen auf berufsrel
 `r sol`
 
 
+Aufgabenname: `zitieren-thesis1`
+
+
+
 Meta-information
 ================
 extype: string

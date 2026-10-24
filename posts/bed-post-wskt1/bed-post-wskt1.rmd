@@ -195,6 +195,10 @@ Wie man im Diagramm sieht, ist die Wahrscheinlichkeit bei `x = `r x`` für `y=15
 Die Wahrscheinlichkeit für einen bestimmten Y-Wert gegeben x = `r x`` ist auf der Regressionsgeraden am größten (blauer Punkt).
 Die Punkte auf der Regressionsgeraden sind die vorhergesagten Y-Wert ($\hat{y}$) für die gegebenen X-Werte.
 
+
+Aufgabenname: `bed-post-wskt1`
+
+
 Answerlist
 ----------
 

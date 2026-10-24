@@ -114,6 +114,10 @@ sol <- loesung$wkst[2] |> round(2)
 
 *Lösung*: `r sol`.
 
+
+Aufgabenname: `stipro-bayesbox02`
+
+
 Meta-information
 ================
 

@@ -279,3 +279,7 @@ Visualisierung:
 rope(lm1_bayes) |> plot()
 ```
 
+
+Aufgabenname: `mariokart_desk-inf-mod`
+
+

@@ -26,6 +26,10 @@ Warum die Distraktoren falsch sind:
 * Die Breite des Konfidenzintervalls für $\beta_1$ hängt zwar auch von $\sigma$ ab, aber ebenso von der Stichprobengröße (größere Stichproben führen tendenziell zu engeren Konfidenzintervallen) sowie von der Streuung der UV. Die vierte Option ist daher eine unzulässige Vereinfachung.
 * $R^2$ und $\sigma$ sind laut Kapitel zwei Kennwerte, "die die gleiche Aussage machen" -- sie hängen also eng zusammen (beide quantifizieren die Vorhersagegüte/den Vorhersagefehler). Die fünfte Option behauptet das Gegenteil.
 
+
+Aufgabenname: `ungewissheit-beta-sigma-schoice`
+
+
 Answerlist
 ----------
 * Wahr

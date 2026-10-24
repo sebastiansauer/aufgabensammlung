@@ -14,6 +14,10 @@ Solution
 ========
 Mit `mutate` berechnet man Spalten neu oder transformiert sie (z.B. Umrechnung von Währungen oder Einheiten), wobei die Funktion auf jede Zeile angewendet wird.
 
+
+Aufgabenname: `mutate`
+
+
 Answerlist
 ----------
 * Richtig

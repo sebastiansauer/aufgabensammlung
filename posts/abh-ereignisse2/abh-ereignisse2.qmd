@@ -86,6 +86,10 @@ Hinweise:
 - $Pr(BA) = Pr(B|A) \cdot Pr(A) = 3/5 \cdot 5/8 = 3/8$
 
 
+Aufgabenname: `abh-ereignisse2`
+
+
+
 
 
 

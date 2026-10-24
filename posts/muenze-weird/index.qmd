@@ -72,3 +72,7 @@ Hinweise:
 Die Frage lässt sich ohne Vorannahme zur Trefferwahrscheinlichkeit der Münze nicht beantworten.
 
 
+Aufgabenname: `muenze-weird`
+
+
+

@@ -36,6 +36,10 @@ Solution
 - Angenommen, der Weltklimarat prognostiziert einen mittleren Temperaturanstieg von 2.5 Grad, so ist es wichtig zu wissen, dass das Modell der Forschis auch Werte im Bereich von (z.B.) +0.5 bis +4.5 Grad für plausibel hält.
 
 
+Aufgabenname: `punktschaetzer-reicht-nicht2`
+
+
+
 Meta-information
 ================
 extype: string

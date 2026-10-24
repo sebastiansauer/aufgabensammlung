@@ -26,6 +26,10 @@ Solution
 ========
 Längenvergleiche (wie im Balkendiagramm) sind für den visuellen Cortex viel einfacher und präziser als Flächen- oder Winkelvergleiche.
 
+
+Aufgabenname: `torten_kritik`
+
+
 Answerlist
 ----------
 * Richtig

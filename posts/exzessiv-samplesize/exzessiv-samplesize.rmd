@@ -25,6 +25,10 @@ sol <- 273
 ```
 
 
+Aufgabenname: `exzessiv-samplesize`
+
+
+
 Meta-information
 ================
 exname: exzessiv-samplesize

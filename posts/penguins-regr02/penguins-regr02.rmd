@@ -73,6 +73,10 @@ plot(rope(m1))
 Hier ist also keine klare Aussage zur Frage, ob der Effekt vernachlässigbar klein ist oder größer, möglich.
 
 
+Aufgabenname: `penguins-regr02`
+
+
+
 
 
 

@@ -222,6 +222,10 @@ Solution
 Das Streudiagramm ``r d_five_options_with_sim_data$id[d_five_options_with_sim_data$is_correct == TRUE]`` zeigt *keinen* Interaktionseffekt.
 
 
+Aufgabenname: `interaktionseffekt1`
+
+
+
 ```{r solutionlist, echo = FALSE, results = "asis"}
 answerlist(ifelse(d_five_options_with_sim_data$is_correct, "Wahr", "Falsch"), markup = "markdown")
 ```

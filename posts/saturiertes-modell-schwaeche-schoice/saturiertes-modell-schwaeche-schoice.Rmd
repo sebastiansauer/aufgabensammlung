@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option übertreibt: Das Kapitel bezeichnet ein saturiertes Modell nicht als "falsch", sondern als wissenschaftlich wenig aussagekräftig, weil es kaum falsifizierbar ist -- das ist ein Unterschied zwischen "falsch" und "wenig informativ".
 * Die fünfte Option ist inhaltlich falsch begründet: Die Schwäche liegt nicht an einer bestimmten Parameterzahl, sondern daran, dass das Modell *keine* überprüfbaren Unabhängigkeitsbehauptungen (Nullkorrelationen) macht, die es widerlegbar machen würden.
 
+
+Aufgabenname: `saturiertes-modell-schwaeche-schoice`
+
+
 Answerlist
 ----------
 * Wahr

@@ -139,6 +139,10 @@ Eine Statistikerin würde also eher fragen:
 Aber genug davon für diese Aufgabe :-)
 
 
+Aufgabenname: `euro-bayes`
+
+
+
 
 ---
 

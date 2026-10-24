@@ -31,6 +31,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwechselt $\beta_0$ (Achsenabschnitt, gibt die mittlere Größe bei Gewicht $=0$ bzw. bei zentriertem Gewicht $\text{weightcentered}=0$ an) mit $\beta_1$ (der Steigung, die den Unterschied in der Größe pro Kilogramm Gewichtsunterschied angibt).
 * Die fünfte Option ignoriert den Streuungsparameter $\sigma$ in der Likelihood-Zeile: Die Körpergrößen $h_i$ streuen laut Modell *normalverteilt* um $\mu_i$ mit Streuung $\sigma$, sie entsprechen also gerade *nicht* exakt (ohne jede Streuung) dem vorhergesagten Mittelwert.
 
+
+Aufgabenname: `regressionsmodell-struktur-schoice`
+
+
 Answerlist
 ----------
 * Wahr

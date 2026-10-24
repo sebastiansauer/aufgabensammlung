@@ -90,6 +90,10 @@ Da alle Elementarereignisse gleich wahrscheinlisch sind,
 ist das Ereignis "4 Treffer" wahrscheinlicher als das Ereignis "8 Treffer".
 
 
+Aufgabenname: `vier_oder_acht`
+
+
+
 Answerlist
 ----------
 

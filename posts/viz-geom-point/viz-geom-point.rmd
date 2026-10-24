@@ -53,6 +53,10 @@ Solution
 
 Es sollen zwei Plots gezeichnet werden (daher `+`).
 
+
+Aufgabenname: `viz-geom-point`
+
+
 Answerlist
 ----------
 

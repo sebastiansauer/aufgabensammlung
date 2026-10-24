@@ -154,6 +154,10 @@ sol <- exams::fmt(sol_raw, 2)
 Aufgaben-ID: bayes-r2-dyn, Toleranzbreite: `r sol_tol`
 
 
+Aufgabenname: `bayes-r2-dyn`
+
+
+
 
 
 

@@ -79,6 +79,10 @@ d2 %>%
 ```
 
 
+Aufgabenname: `purrr-map02`
+
+
+
 
 
 ---

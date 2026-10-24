@@ -56,6 +56,10 @@ Solution
 Ja, sind wir vorab (apriori) sicher, dass die Hypothese wahr ist, sind wir auch sicher, dass alle anderen Hypothesen falsch sind.
 
 
+Aufgabenname: `wskt-quiz18`
+
+
+
 Answerlist
 ----------
 

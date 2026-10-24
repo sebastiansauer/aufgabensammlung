@@ -200,6 +200,10 @@ n_group <-
 *Antwort*: Der gesuchte Wert liegt bei $`r n` / `r n_group` =  `r sol`$.
 
 
+Aufgabenname: `bed-wskt1`
+
+
+
 
 
 ---

@@ -42,6 +42,10 @@ Solution
 C) 6
 
 
+Aufgabenname: `prob-ereignisraum`
+
+
+
 Answerlist
 ----------
 

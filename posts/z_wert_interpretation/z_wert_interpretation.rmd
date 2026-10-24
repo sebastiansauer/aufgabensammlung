@@ -28,6 +28,10 @@ Solution
 Ein z-Wert gibt an, wie viele Standardabweichungen ein Wert vom Mittelwert entfernt ist.
 Ein negatives Vorzeichen bedeutet, dass der Wert unter dem Durchschnitt liegt.
 
+
+Aufgabenname: `z_wert_interpretation`
+
+
 Answerlist
 ----------
 * Richtig

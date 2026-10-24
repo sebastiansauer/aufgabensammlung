@@ -226,6 +226,10 @@ sol <-
 Daher lautet die richtige Antwort *`r sol`*.
 
 
+Aufgabenname: `post3c`
+
+
+
 
 Meta-information
 ================

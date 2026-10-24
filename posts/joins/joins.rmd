@@ -151,6 +151,10 @@ Solution
 
 Weiterführende Informationen zu Joins finden sich z.B. [hier](https://r4ds.had.co.nz/relational-data.html#relational-data).
 
+
+Aufgabenname: `joins`
+
+
 ```{r itemlist_answer, results="asis"}
 answerlist(ifelse(joins_df$is_correct, "Wahr", "Falsch"), 
            joins_df$joins,

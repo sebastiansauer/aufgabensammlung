@@ -122,6 +122,10 @@ sol <- A_cond_B %>% round(2)
 
 Der gesuchte Wert lautet: `r sol`.
 
+
+Aufgabenname: `bed-wskt3`
+
+
 ------------------------------------------------------------------------
 
 Categories:

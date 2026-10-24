@@ -28,6 +28,10 @@ Solution
 Das Simpson-Paradox beschreibt die Situation, in der ein Zusammenhang auf Gesamtebene durch die Aufteilung in Untergruppen umgekehrt wird.
 Es zeigt, wie wichtig die Auswahl der richtigen UVs ist.
 
+
+Aufgabenname: `simpsonpara`
+
+
 Answerlist
 ----------
 * Richtig

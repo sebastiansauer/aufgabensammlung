@@ -180,3 +180,7 @@ Die Breite der Verteilung zeigt die Varinaz.
 ```{r}
 ggdensity(penguins, x = "body_mass_g", add = "mean")
 ```
+
+
+Aufgabenname: `verteilungsfunktion-penguins`
+

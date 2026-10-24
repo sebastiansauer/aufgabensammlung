@@ -156,6 +156,10 @@ sol <- sol[sol_sample_idx]
 *Lösung*: Der gesuchte Wert lautet: `r sol`.
 
 
+Aufgabenname: `gem-wskt3`
+
+
+
 
 
 ---

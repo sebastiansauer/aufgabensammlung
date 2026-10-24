@@ -109,6 +109,10 @@ Solution
 Boxplot ``r boxplot_df$boxplot_id[boxplot_df$is_correct == TRUE]`` spiegelt das Histogramm am genauesten wider.
 
 
+Aufgabenname: `histogramm-in-boxplot`
+
+
+
 ```{r solutionlist, echo = FALSE, results = "asis"}
 answerlist(ifelse(boxplot_df$is_correct, "Wahr", "Falsch"), markup = "markdown")
 ```

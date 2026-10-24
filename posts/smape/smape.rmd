@@ -32,6 +32,10 @@ Solution
 SMAPE-Werte können sinnvoll eingesetzt werden, um Variablen verschiedener Skalierung einzusetzen.
 
 
+Aufgabenname: `smape`
+
+
+
 
 Meta-information
 ================

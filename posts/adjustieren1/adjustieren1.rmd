@@ -149,6 +149,10 @@ mtcars %>%
 Man könnte hier noch einen Interaktionseffekt ergänzen.
 
 
+Aufgabenname: `adjustieren1`
+
+
+
 
 ---
 

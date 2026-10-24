@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwechselt $\lambda$ mit dem Kehrwert von $\lambda$: Der Erwartungswert (und die Streuung) der Exponentialverteilung ist $1/\lambda$, nicht $\lambda$ selbst.
 * Die fünfte Option widerspricht der im Text beschriebenen Eigenschaft: Extremwerte sind bei der Exponentialverteilung gerade *wahrscheinlicher* als bei der halben Normalverteilung, nicht seltener -- das ist einer der Hauptunterschiede zwischen beiden Verteilungen.
 
+
+Aufgabenname: `exponentialverteilung-eigenschaften-schoice`
+
+
 Answerlist
 ----------
 * Wahr

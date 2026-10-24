@@ -243,6 +243,10 @@ Hier haben wir einen Entscheidungsbaum berechnet, der ist nicht so sehr parallel
 Bei einem "Wald-Modell", wie Random Forests, sollte der Vorteil der Parallisierung viel deutlich sein.
 
 
+Aufgabenname: `tidymodels-tree4`
+
+
+
 
 
 

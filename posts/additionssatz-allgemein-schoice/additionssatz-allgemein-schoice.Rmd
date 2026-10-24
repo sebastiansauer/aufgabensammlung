@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option berechnet stattdessen das Produkt $Pr(A) \cdot Pr(B)$ -- das wäre die Formel für die *gemeinsame* Wahrscheinlichkeit $Pr(A \cap B)$ bei *unabhängigen* Ereignissen, nicht die Formel für die *Vereinigung* $Pr(A \cup B)$.
 * Die fünfte Option gibt einfach den Wert von $Pr(A \cap B)$ (den Schnitt) zurück, anstatt die gefragte Vereinigungswahrscheinlichkeit zu berechnen.
 
+
+Aufgabenname: `additionssatz-allgemein-schoice`
+
+
 Answerlist
 ----------
 * Wahr

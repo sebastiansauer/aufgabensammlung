@@ -28,6 +28,10 @@ Solution
 Ein lineares Modell mit der Formel `~ 1` ist ein Punktmodell.
 Dabei schätzt R den Achsenabschnitt so, dass er dem Mittelwert der abhängigen Variable entspricht.
 
+
+Aufgabenname: `nullmodell_r`
+
+
 Answerlist
 ----------
 * Richtig

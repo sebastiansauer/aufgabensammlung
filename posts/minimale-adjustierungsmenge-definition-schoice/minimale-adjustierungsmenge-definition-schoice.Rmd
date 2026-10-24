@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwechselt die minimale Adjustierungsmenge (eine Menge von *Variablen*) mit einer Frage der Stichprobengröße (einer Anzahl von *Beobachtungen*) -- beide Konzepte sind unabhängig voneinander.
 * Die fünfte Option kehrt die Definition ins Gegenteil um: Die minimale Adjustierungsmenge benennt gerade die Variablen, die kontrolliert werden *sollen* (um Hintertüren zu schließen), nicht solche, die niemals kontrolliert werden dürfen.
 
+
+Aufgabenname: `minimale-adjustierungsmenge-definition-schoice`
+
+
 Answerlist
 ----------
 * Wahr

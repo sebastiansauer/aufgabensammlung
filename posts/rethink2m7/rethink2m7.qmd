@@ -197,6 +197,10 @@ tibble::tribble(
 Whenever the probability of all paths (in a tree diagram) is the same, as it is the case in the present example, we do not need to write down the probability of the path for the likelihood. It is enough to write the number of paths (of course we can if we want).
 
 
+Aufgabenname: `rethink2m7`
+
+
+
 
 
 ---

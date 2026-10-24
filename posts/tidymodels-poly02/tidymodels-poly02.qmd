@@ -194,6 +194,10 @@ sol
 Die Antwort lautet: `r sol`.
 
 
+Aufgabenname: `tidymodels-poly02`
+
+
+
 
 ---
 

@@ -172,3 +172,7 @@ m1_params$CI_high - m1_params$CI_low
 
 Zu diesem Wert kommt man, wenn man in der Tabelle der Post-Verteilung die Differenz der beiden Werte in der Spalte `95% CI` berechnet (für die Zeile `(Intercept)`).
 
+
+Aufgabenname: `groesse04`
+
+

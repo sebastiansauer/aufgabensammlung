@@ -109,6 +109,10 @@ Möchte man  den `MAA` nicht von Hand ausrechnen, so kann man die Funktion `Mean
 Die Lösung lautet: 7.00
 
 
+Aufgabenname: `summarise05`
+
+
+
 
 ---
 

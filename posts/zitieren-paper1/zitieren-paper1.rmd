@@ -47,6 +47,10 @@ sol <- "Eine experimentell-randomisierte Studie fand Belege, dass geschminkte Fr
 "Eine experimentell-randomisierte Studie fand Belege, dass geschminkte Frau – zumindest bei flüchtiger Betrachtung – u.&thinsp;a. als attraktiver und kompetenter wahrgenommen werden (Etcoff et al., 2011)."
 
 
+Aufgabenname: `zitieren-paper1`
+
+
+
 Meta-information
 ================
 extype: string

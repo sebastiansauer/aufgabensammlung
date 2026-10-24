@@ -134,6 +134,10 @@ Man darf dabei nicht vergessen, dass wir wir uns hier auf die Schnelle ein Model
 Ob es in Wirklichkeit so ist, wie unser Modell meint, ist eine andere Sache!
 
 
+Aufgabenname: `log-y-regr1`
+
+
+
 
 ---
 

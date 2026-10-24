@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwendet das falsche Vorzeichen (Subtraktion statt Addition) für den Term $\beta_1\cdot x$.
 * Die fünfte Option addiert $\beta_0$, $\beta_1$ und $x$ direkt, statt $\beta_1$ mit $x$ zu multiplizieren und erst danach $\beta_0$ zu addieren -- das widerspricht der multiplikativen Struktur der linearen Modellgleichung.
 
+
+Aufgabenname: `regressionsgleichung-berechnen-schoice`
+
+
 Answerlist
 ----------
 * Wahr

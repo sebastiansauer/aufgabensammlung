@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist problematisch: Gerade bei schiefen Verteilungen kann der Mittelwert stark durch die "lange" Seite der Verteilung verzerrt werden und den plausibelsten Bereich schlecht repräsentieren -- deshalb werden in der Bayes-Statistik meist eher Intervalle (wie HDI oder PI) statt einzelner Punktschätzer berichtet.
 * Die fünfte Option widerspricht einer bekannten Eigenschaft von Lageparametern: Der Median ist robuster gegenüber extremen bzw. asymmetrisch verteilten Werten als der Mittelwert -- er reagiert also gerade *nicht* genauso empfindlich wie der Mittelwert auf Schiefe.
 
+
+Aufgabenname: `lageparameter-schiefe-post-schoice`
+
+
 Answerlist
 ----------
 * Wahr

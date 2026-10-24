@@ -29,6 +29,10 @@ Solution
 Der Korrelationskoeffizient r nach Pearson misst nur den linearen Zusammenhang.
 Bei einer perfekt symmetrischen U-Form gleichen sich die Trends aus, und r erkennt keinen linearen Zusammenhang.
 
+
+Aufgabenname: `nichtlineare_korrelation`
+
+
 Answerlist
 ----------
 * Richtig

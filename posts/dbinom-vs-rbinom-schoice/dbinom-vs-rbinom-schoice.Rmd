@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch: `dbinom()` benötigt zwingend das Argument `prob`, um überhaupt eine Wahrscheinlichkeit berechnen zu können -- die Funktion schätzt nichts automatisch, sondern rechnet mit dem vorgegebenen Wert.
 * Die fünfte Option widerspricht dem im Kapitel gezeigten Ergebnis: Bei großer Anzahl an Simulationen (z. B. $n=10^6$) nähert sich die simulierte Häufigkeitsverteilung von `rbinom()` gerade *sehr gut* an die theoretische Verteilung von `dbinom()` an, statt systematisch davon abzuweichen.
 
+
+Aufgabenname: `dbinom-vs-rbinom-schoice`
+
+
 Answerlist
 ----------
 * Wahr

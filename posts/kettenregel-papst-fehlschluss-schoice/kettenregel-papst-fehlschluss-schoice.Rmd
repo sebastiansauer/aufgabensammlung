@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option berechnet $Pr(A) \cdot Pr(B)$ -- das wäre die Formel für $Pr(A \cap B)$ *im Falle von Unabhängigkeit*, was hier weder verlangt noch (wie gezeigt) erfüllt ist; zudem ist das keine bedingte, sondern eine gemeinsame Wahrscheinlichkeit.
 * Die fünfte Option gibt korrekt den Zwischenschritt $Pr(A \cap B) = 0{,}12$ an, vergisst aber, durch $Pr(A)$ zu teilen, um daraus die gesuchte *bedingte* Wahrscheinlichkeit $Pr(B\mid A)$ zu erhalten.
 
+
+Aufgabenname: `kettenregel-papst-fehlschluss-schoice`
+
+
 Answerlist
 ----------
 * Wahr

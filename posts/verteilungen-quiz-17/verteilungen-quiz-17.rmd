@@ -89,6 +89,10 @@ Wir können uns also - gegeben der Daten - sicher sein,
 dass der Mittelwert nicht größer ist als ca. 168.
 
 
+Aufgabenname: `verteilungen-quiz-17`
+
+
+
 Answerlist
 ----------
 

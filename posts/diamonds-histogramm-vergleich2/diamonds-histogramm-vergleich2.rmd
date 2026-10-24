@@ -104,6 +104,10 @@ Solution
 ========
 
 
+Aufgabenname: `diamonds-histogramm-vergleich2`
+
+
+
 Answerlist
 ----------
 * Falsch

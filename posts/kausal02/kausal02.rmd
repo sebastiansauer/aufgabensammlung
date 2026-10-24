@@ -93,6 +93,10 @@ Anmerkung: *Kein* Pfeil bedeutet, dass kein kausaler Pfad geöffnet ist.
 Der DAG zeigt eine Konfundierung.
 
 
+Aufgabenname: `kausal02`
+
+
+
 Answerlist
 ----------
 

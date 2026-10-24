@@ -36,6 +36,10 @@ sol
 Die gesuchte Wahrscheinlichkeit beträgt `r round(sol, 2)`, also ca. 84 %.
 
 
+Aufgabenname: `likelihood-nv`
+
+
+
 Meta-information
 ================
 exname: likelihood-nv

@@ -54,6 +54,10 @@ Wir erfragen die Körpergröße der Studis und betrachten den Mittelwert einer S
 Individuell
 
 
+Aufgabenname: `stichprobenziehen1`
+
+
+
 
 ---
 

@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch: Die Standardisierung der Prädiktoren ändert nichts an der grundsätzlichen Existenz eines Interaktionseffekts im Modell, sofern dieser weiterhin spezifiziert wird.
 * Die fünfte Option ist falsch: Die z-Standardisierung ist eine reine (lineare) Reskalierung der Variablen und ändert daher nicht, ob ein Effekt statistisch von Null unterscheidbar ist -- nur die *Einheit*, in der der Koeffizient ausgedrückt wird, ändert sich.
 
+
+Aufgabenname: `z-standardisierung-vergleich-schoice`
+
+
 Answerlist
 ----------
 * Wahr

@@ -97,6 +97,10 @@ Solution
 * Wenn die Behandlung in Wirklichkeit eine bessere Erfolgsquote hat als die Kontrollbehandlung, dann kann es trotzdem sein, dass die Erfolgsquote der Behandlung in der Stichprobe der Experimentalgruppe schlechter ausfällt als in der Stichprobe der Kontrollgruppe.
 
 
+Aufgabenname: `stichprobenanteil-vs-popanteil`
+
+
+
 Answerlist
 ----------
 

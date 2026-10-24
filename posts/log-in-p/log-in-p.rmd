@@ -64,12 +64,15 @@ sol_c <- logits_sample[3] %>% invlogit() %>% round(2)
 ```
 
 
+Aufgabenname: `log-in-p`
+
 
 Solutionlist
 ------------
 * `r sol_a`
 * `r sol_b`
 * `r sol_c`
+
 
 Meta-information
 ================

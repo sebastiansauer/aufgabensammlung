@@ -234,6 +234,10 @@ Mit Speed-up ist schneller also ohne.
 Ein Random-Forest ist ein Modelltyp, der von Parallelisierung gut profitiert.
 
 
+Aufgabenname: `tidymodels-tree5`
+
+
+
 
 
 

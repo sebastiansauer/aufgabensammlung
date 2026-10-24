@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option widerspricht der multiplikativen Struktur der Bayesbox: Ist die Apriori-Wahrscheinlichkeit exakt Null, so ist auch der unstandardisierte Post-Wert ($0\cdot L = 0$) und damit auch die standardisierte Post-Wahrscheinlichkeit stets Null, unabhängig davon, wie hoch die Likelihood ausfällt.
 * Die fünfte Option ist nur im Sonderfall wahr, dass die Evidenz zufällig genau 1 beträgt; im Allgemeinen unterscheiden sich unstandardisierter und standardisierter Post-Wert um genau den Faktor Evidenz (per Definition der Standardisierung).
 
+
+Aufgabenname: `bayes-post-aussagen-schoice`
+
+
 Answerlist
 ----------
 * Wahr

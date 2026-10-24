@@ -74,6 +74,10 @@ Solution
 
 der Prozentwert von $x = `r z`$ ist `r fmt(correct_percent, 2)`.
 
+
+Aufgabenname: `normvert-prozentwert`
+
+
 ```{r solutionlist, echo = FALSE, results = "asis"}
 answerlist(ifelse(solutions, "Richtig", "Falsch"), markup = "markdown")
 ```

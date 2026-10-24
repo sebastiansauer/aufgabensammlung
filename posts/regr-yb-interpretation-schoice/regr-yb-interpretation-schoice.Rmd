@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option widerspricht der Definition des Fehlerterms: `error` bildet gerade die individuelle, von Kind zu Kind unterschiedliche Abweichung vom vorhergesagten Wert ab, ist also nicht konstant.
 * Die fünfte Option verwechselt die beiden Gruppen: Ein vorhergesagter Wert von 78 (ohne Zuschlag) gilt für $\text{mom\_hs}=0$, nicht für $\text{mom\_hs}=1$.
 
+
+Aufgabenname: `regr-yb-interpretation-schoice`
+
+
 Answerlist
 ----------
 * Wahr

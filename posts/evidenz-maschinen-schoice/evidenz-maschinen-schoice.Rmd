@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option berücksichtigt nur den Beitrag von Maschine 1 und vergisst die Beiträge von Maschine 2 und Maschine 3 vollständig, obwohl auch diese zur Gesamt-Ausschussquote beitragen.
 * Die fünfte Option vertauscht die Produktionsanteile den falschen Maschinen zu (0,2 statt 0,5 für $M_1$ usw.) und berechnet damit die Evidenz für ein anderes, nicht das gegebene Szenario.
 
+
+Aufgabenname: `evidenz-maschinen-schoice`
+
+
 Answerlist
 ----------
 * Wahr

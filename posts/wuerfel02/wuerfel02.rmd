@@ -163,6 +163,10 @@ loesung
 ```
 
 
+Aufgabenname: `wuerfel02`
+
+
+
 
 
 

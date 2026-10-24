@@ -102,6 +102,10 @@ d <- read_csv("penguins.csv")  # die Datei muss im aktuellen Verzeichnis liegen
 ```
 
 
+Aufgabenname: `pfad`
+
+
+
 
 
 

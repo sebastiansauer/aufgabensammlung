@@ -33,6 +33,10 @@ sol <- "loesung <- 42"
 ``r sol``
 
 
+Aufgabenname: `praesi-versuchsdesign`
+
+
+
 Meta-information
 ================
 extype: string

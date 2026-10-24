@@ -76,6 +76,10 @@ sol_tol <- 0.025
 Aufgaben-ID: Lose-Nieten-Binomial-Grid2, Toleranzbreite: `r sol_tol`
 
 
+Aufgabenname: `lose-nieten-binomial-grid2`
+
+
+
 
 
 Meta-information

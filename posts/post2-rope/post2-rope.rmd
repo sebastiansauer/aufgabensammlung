@@ -221,6 +221,10 @@ sol_tol <- exams::num2tol(sol_raw, min = config$tol_abs, reltol = config$tol_rel
 Aufgaben-ID: Post2-rope, Toleranzbreite: `r sol_tol`
 
 
+Aufgabenname: `post2-rope`
+
+
+
 
 Meta-information
 ================

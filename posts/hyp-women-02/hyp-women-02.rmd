@@ -159,6 +159,10 @@ Das ist gleichbedeutend mit der Aussage, dass wir die Null mit einer
 Sicherheit von mind. 95% auschließen können (laut unserem Modell).
 
 
+Aufgabenname: `hyp-women-02`
+
+
+
 
 
 

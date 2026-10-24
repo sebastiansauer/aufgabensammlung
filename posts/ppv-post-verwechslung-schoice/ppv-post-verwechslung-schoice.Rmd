@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch: Die PPV enthält gerade *keine* Parameterwerte, sondern vorhergesagte *Beobachtungswerte* der AV -- das ist ja genau der definierende Unterschied zur Post-Verteilung.
 * Die fünfte Option widerspricht der zentralen Warnung des Kapitels: Die Verwechslung beider Konzepte wird explizit als "Lieblingsfehler" bezeichnet, der zu falschen Interpretationen führen kann (z. B. Verwechslung von Parameterungewissheit und Vorhersageungewissheit für Einzelbeobachtungen).
 
+
+Aufgabenname: `ppv-post-verwechslung-schoice`
+
+
 Answerlist
 ----------
 * Wahr

@@ -128,3 +128,7 @@ Ist man am *direkten* Effekt von `G` auf `K` interessiert, so muss man folgende 
 Falls man `U` nicht kontrollieren kann (was der Namen `U` andeutet), so ist der gesuchte kausale Effekt nicht idenfizierbar.
 
 
+Aufgabenname: `hintertuer`
+
+
+

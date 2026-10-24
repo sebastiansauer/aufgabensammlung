@@ -60,6 +60,10 @@ The estimated amount of money spent by a firm with
 \hat y = `r round(a, 5)` + `r round(b, 5)` \cdot `r X` = `r sol`.
 \end{eqnarray*}
 
+
+Aufgabenname: `regression`
+
+
 Meta-information
 ================
 extype: num

@@ -124,6 +124,10 @@ Insofern ist eine klarere Annäherung an die Normalverteilung zu erwarten,
 wenn man die Geschlechter einzeln betrachtet.
 
 
+Aufgabenname: `kung-height2`
+
+
+
 
 
 

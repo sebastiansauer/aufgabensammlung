@@ -208,6 +208,10 @@ head(d_test_w_preds)
 ```
 
 
+Aufgabenname: `diamonds-tidymodels01`
+
+
+
 
 
 

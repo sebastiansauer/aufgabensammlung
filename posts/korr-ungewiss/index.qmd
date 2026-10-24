@@ -68,4 +68,8 @@ Hinweise:
 C) Das Berechnen des Mittelwerts in einer Population erfolgt unter Ungewissheit.
 
 
+Aufgabenname: `korr-ungewiss`
+
+
+
 

@@ -28,6 +28,10 @@ Solution
 Der IQR basiert auf Quantilen (Q3 - Q1) und ignoriert die extremen Ränder der Verteilung.
 Dadurch bleibt er stabil, selbst wenn einzelne Werte extrem abweichen.
 
+
+Aufgabenname: `robuste_streuung`
+
+
 Answerlist
 ----------
 * Richtig

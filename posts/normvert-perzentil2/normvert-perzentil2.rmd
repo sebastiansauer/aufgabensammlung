@@ -74,6 +74,10 @@ Solution
 
 Der Wert der Verteilungsfunktion von $z = `r z`$ ist `r fmt(correct_percentile, 2)`.
 
+
+Aufgabenname: `normvert-perzentil2`
+
+
 ```{r solutionlist, echo = FALSE, results = "asis"}
 answerlist(ifelse(solutions, "Richtig", "Falsch"), markup = "markdown")
 ```

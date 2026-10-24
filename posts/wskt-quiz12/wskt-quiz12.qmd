@@ -57,6 +57,10 @@ $L := Pr(D|H)$
 Der Likelihood gibt die Wahrscheinlichkeit der Daten an, gegeben der Hypothese (bzw. dem Parameterwert).
 
 
+Aufgabenname: `wskt-quiz12`
+
+
+
 Answerlist
 ----------
 

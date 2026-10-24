@@ -82,6 +82,10 @@ solution
 ```
 
 
+Aufgabenname: `odds1`
+
+
+
 
 Meta-information
 ================

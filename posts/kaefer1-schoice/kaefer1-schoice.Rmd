@@ -76,6 +76,10 @@ Man erhält sie durch Anwendung des Satzes von Bayes: Prior × Likelihood, normi
 $(.1 \times .9) / (.6\times.5 + .1\times.9 + .3\times.4) = .09/.51 = .176$.
 
 
+Aufgabenname: `kaefer1-schoice`
+
+
+
 Answerlist
 ----------
 * True

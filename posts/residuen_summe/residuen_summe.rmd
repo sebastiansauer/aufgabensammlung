@@ -27,6 +27,10 @@ Solution
 Da der Mittelwert der Schwerpunkt einer Verteilung ist, gleichen sich positive und negative Abweichungen exakt aus.
 Die Summe der einfachen Residuen ist daher immer Null.
 
+
+Aufgabenname: `residuen_summe`
+
+
 Answerlist
 ----------
 * Richtig

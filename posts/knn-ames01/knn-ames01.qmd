@@ -182,6 +182,10 @@ sol <- collect_metrics(fit_test) %>% filter(.metric == "rmse") %>% pull(.estimat
 Damit haben wir die Lösung.
 
 
+Aufgabenname: `knn-ames01`
+
+
+
 
 
 ---

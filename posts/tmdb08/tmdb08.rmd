@@ -320,6 +320,10 @@ write_csv(submission_df, file = "submission_regul_lm.csv")
 Leider ein schlechter Score: `5.77945`.
 
 
+Aufgabenname: `tmdb08`
+
+
+
 
 
 

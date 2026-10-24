@@ -116,6 +116,10 @@ Solution
 Der Unterschied im Bestehen beträgt `r unterschied_bestehen_sample`
 
 
+Aufgabenname: `kontingenztabelle1`
+
+
+
 
 
 

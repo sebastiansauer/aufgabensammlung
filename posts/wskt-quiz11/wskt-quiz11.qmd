@@ -63,6 +63,10 @@ Wie groß ist denn die Wahrscheinlichkeit für den gesuchten Wertebereich von $X
 Dieser Wert ist kleiner als .2, also ist obige Behauptung wahr.
 
 
+Aufgabenname: `wskt-quiz11`
+
+
+
 
 Answerlist
 ----------

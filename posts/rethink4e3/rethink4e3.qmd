@@ -114,6 +114,10 @@ um die gemeinsame Wahrscheinlichkeit zu erhalten,
 also die Wahrscheinlichkeit für ein bestimmten "Mu-Sigma-Pärchen", etwa $\mu=194,\sigma=12$.
 
 
+Aufgabenname: `rethink4e3`
+
+
+
 
 
 

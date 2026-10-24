@@ -207,6 +207,10 @@ c20 / c19
 In beiden Fällen ist es ein Faktor von knapp 16.
 
 
+Aufgabenname: `nasa03`
+
+
+
 
 
 

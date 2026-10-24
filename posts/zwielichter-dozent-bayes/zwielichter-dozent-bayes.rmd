@@ -279,6 +279,10 @@ Nützlicher erscheint daher vielleicht doch eine Priori-Verteilung,
 die extreme Werte von $p$ als unwahrscheinlich bemisst. 
 
 
+Aufgabenname: `zwielichter-dozent-bayes`
+
+
+
 
 
 ---

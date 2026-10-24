@@ -90,6 +90,10 @@ Erklärung:
 Hat man innerhalb eines Strings ein Anführungszeichen, so setzt man außen das einfache und innerhalb des Strings das doppelte Anführungszeichen.
 
 
+Aufgabenname: `regex-insert-char`
+
+
+
 
 
 ---

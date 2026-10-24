@@ -92,6 +92,10 @@ sol <- "b~Normal(0, 1.5)"
 `r sol`
 
 
+Aufgabenname: `bayesmod-bestimmen01`
+
+
+
 
 
 

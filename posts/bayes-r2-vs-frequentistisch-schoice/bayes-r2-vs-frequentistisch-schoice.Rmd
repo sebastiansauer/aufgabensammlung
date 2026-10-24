@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist eine unzulässige Übertragung: Ein hohes $R^2$ (egal ob frequentistisch oder Bayes'sch) zeigt nur, wie gut das Modell die *Daten* erklärt (Vorhersagegüte) -- es sagt nichts über *Kausalität* aus, wie im Kapitel wiederholt betont wird.
 * Die fünfte Option widerspricht dem Kapitel: "$R^2$ und $\sigma$ sind negativ assoziiert: In einem Datensatz mit hohem $R^2$ ist $\sigma$ gering und umgekehrt" -- beide Kennzahlen basieren auf $\sigma$ und stehen daher in einem systematischen (negativen) Zusammenhang.
 
+
+Aufgabenname: `bayes-r2-vs-frequentistisch-schoice`
+
+
 Answerlist
 ----------
 * Wahr

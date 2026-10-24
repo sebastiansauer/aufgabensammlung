@@ -285,6 +285,10 @@ method7 |> head()
 Deutlich langsamer als mit `tokenizers`.
 
 
+Aufgabenname: `count-words01`
+
+
+
 
 
 ---

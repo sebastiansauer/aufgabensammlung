@@ -25,6 +25,10 @@ Solution
 ========
 Obwohl das Gleichheitszeichen (=) auch funktioniert, ist der Zuweisungspfeil (<-) in R präziser und wird daher bevorzugt verwendet.
 
+
+Aufgabenname: `zuweisung_operator`
+
+
 Answerlist
 ----------
 * Richtig

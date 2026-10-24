@@ -59,6 +59,10 @@ Ja, obige Gleichung ist korrekt.
 Man kann auch schreiben: $Pr(A|B) = \frac{Pr(AB)}{Pr(B)}$.
 
 
+Aufgabenname: `wskt-quiz16`
+
+
+
 Answerlist
 ----------
 

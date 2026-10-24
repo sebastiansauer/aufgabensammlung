@@ -18,6 +18,10 @@ sol <- "induktiv"
 `r sol`
 
 
+Aufgabenname: `empiriker-induktiv`
+
+
+
 
 Meta-information
 ================

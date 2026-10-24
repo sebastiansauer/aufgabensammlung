@@ -146,3 +146,7 @@ Da die Verteilung symmetrisch ist, ist die Wahrscheinlichkeit, dass ein Wert gr√
 ```{r}
 xpnorm(q = 3.42, mean = 3.42, sd = .86)
 ```
+
+
+Aufgabenname: `bfi10`
+

@@ -58,6 +58,10 @@ Die Aussage ist *richtig.* Die Post-Verteilung gibt die Wahrscheinlichkeit der H
 $Pr_{\text{Post}} := Pr(H|D)$
 
 
+Aufgabenname: `wskt-quiz13`
+
+
+
 Answerlist
 ----------
 

@@ -61,6 +61,10 @@ Solution
 Die Nullhypothese (H₀) ist die Annahme, dass kein Effekt, Unterschied oder Zusammenhang vorliegt. Sie wird als Ausgangspunkt für statistische Tests verwendet und kann entweder beibehalten oder verworfen werden, basierend auf den empirischen Daten. Mit neueren Ansätzen wir dem ROPE-Konzept kann eine "Rope-Nullhypothese" auch bestätigt werden.
 
 
+Aufgabenname: `def-nullhyp`
+
+
+
 Answerlist
 ----------
 

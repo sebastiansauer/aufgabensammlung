@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwechselt *statistische* Signifikanz mit *praktischer* Bedeutsamkeit (Effektgröße). Ein kleiner p-Wert sagt nichts über die Größe oder praktische Relevanz eines Effekts aus -- das Kapitel warnt ausdrücklich vor dieser Verwechslung.
 * Die fünfte Option begeht den "Replikations-Fehlschluss": Der p-Wert einer einzelnen Studie sagt nichts darüber aus, wie wahrscheinlich ein erneut signifikantes Ergebnis bei Replikation ist; diese Wahrscheinlichkeit hängt von der (unbekannten) tatsächlichen Effektgröße, der Power der Studie und weiteren Faktoren ab, nicht einfach vom Komplement des p-Werts.
 
+
+Aufgabenname: `pwert-interpretation-schoice`
+
+
 Answerlist
 ----------
 * Wahr

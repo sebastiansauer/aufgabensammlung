@@ -140,6 +140,10 @@ Solution
 Der Code-Auszug ``r d$id[d$is_correct==TRUE]`` ist korrekt.
 
 
+Aufgabenname: `flights-geom_point-geom-lm`
+
+
+
 
 ```{r solutionlist, echo = FALSE, results = "asis"}
 answerlist(ifelse(d$is_correct, "Wahr", "Falsch"), markup = "markdown")

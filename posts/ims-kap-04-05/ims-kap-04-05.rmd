@@ -96,6 +96,10 @@ predict(lm1, newdata = data.frame(annual_income = 0,
 ```
 
 
+Aufgabenname: `ims-kap-04-05`
+
+
+
 
 Answerlist
 ----------

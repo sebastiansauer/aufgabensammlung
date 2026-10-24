@@ -107,4 +107,8 @@ knitr:
 17. Der Bayes'sche Ansatz wird subjektiv genannt, weil er das Vorwissen eines Forschers berücksichtigt. *R*
 
 
+Aufgabenname: `qm2-quiz-inferenz`
+
+
+
 

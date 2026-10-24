@@ -65,6 +65,10 @@ sol <- OR
 Die Chance Chance von "gesund zu krank"  ist bei Nicht-Rauchern fast 9 mal so hoch wie bei Rauchern.
 
 
+Aufgabenname: `or`
+
+
+
 
 Meta-information
 ================

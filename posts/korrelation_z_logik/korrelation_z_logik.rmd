@@ -29,6 +29,10 @@ Solution
 Wenn die z-Werte das gleiche Vorzeichen haben, ist ihr Produkt immer positiv.
 Da die Korrelation der Mittelwert dieser Produkte ist, muss das Ergebnis ebenfalls positiv sein.
 
+
+Aufgabenname: `korrelation_z_logik`
+
+
 Answerlist
 ----------
 * Richtig

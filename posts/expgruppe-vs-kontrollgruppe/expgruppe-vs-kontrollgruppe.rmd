@@ -67,6 +67,10 @@ Solution
 UV: Lernen, AV: Energieverbrauch
 
 
+Aufgabenname: `expgruppe-vs-kontrollgruppe`
+
+
+
 
 
 ```{r solutionlist, echo = FALSE, results = "asis"}

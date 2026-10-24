@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwechselt den *Realisationswert* $x=4$ selbst mit der zugehörigen *Wahrscheinlichkeit* $F(4)$ -- eine Wahrscheinlichkeit muss aber stets zwischen 0 und 1 liegen, niemals einen Wert wie $4$ annehmen.
 * Die fünfte Option ist unnötig: Da es sich laut Aufgabenstellung um einen *fairen* Würfel handelt (ein Laplace-Experiment mit gleichwahrscheinlichen Elementarereignissen), lässt sich $F(4)$ direkt theoretisch berechnen, ohne eine empirische Datenerhebung durchführen zu müssen.
 
+
+Aufgabenname: `verteilungsfunktion-wuerfel-schoice`
+
+
 Answerlist
 ----------
 * Wahr

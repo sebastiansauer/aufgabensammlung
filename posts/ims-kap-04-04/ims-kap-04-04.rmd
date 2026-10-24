@@ -72,6 +72,10 @@ lm(interest_rate ~ annual_income + application_type, data = loans_full_schema)
 ```
 
 
+Aufgabenname: `ims-kap-04-04`
+
+
+
 
 
 Answerlist

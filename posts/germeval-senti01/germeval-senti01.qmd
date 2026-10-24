@@ -223,6 +223,10 @@ d_train |>
 ```
 
 
+Aufgabenname: `germeval-senti01`
+
+
+
 
 
 

@@ -72,6 +72,10 @@ Answerlist
 Solution
 ========
 
+
+Aufgabenname: `ridges-vergleichen`
+
+
 Answerlist
 ----------
 * Falsch

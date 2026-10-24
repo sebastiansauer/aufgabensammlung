@@ -118,6 +118,10 @@ Die Antwort auf die Frage
 lautet also `r solution`.
 
 
+Aufgabenname: `iq06`
+
+
+
 
 
 ---

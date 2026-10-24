@@ -70,6 +70,10 @@ Answerlist
 * Falsch. Normalerweise steigt die Modellgüte mit der Anzahl der Bäume bis zu einem Sättigungsniveau, ab welchem zusätzliche Bäume die Vorhersagegüte nicht mehr beeinflussen (allerdings die Rechenzeit schon).
 
 
+Aufgabenname: `ds-quiz`
+
+
+
 
 
 ---

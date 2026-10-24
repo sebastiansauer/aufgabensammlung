@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Disjunktheit und Unabhängigkeit sind zwei unterschiedliche mengen- bzw. wahrscheinlichkeitstheoretische Konzepte, die in aller Regel nicht zusammenfallen; die vierte Option behauptet fälschlich eine allgemeine Gleichsetzung.
 * Unabhängigkeit ist auch für einfache Ereignisse (Teilmengen von $\Omega$) definiert, wie im Kapitel dargestellt ($Pr(A)=Pr(A\mid B)$); die Beschränkung auf "metrische Zufallsvariablen" in der fünften Option ist erfunden und sachlich falsch.
 
+
+Aufgabenname: `disjunkt-impliziert-nicht-unabhaengig-schoice`
+
+
 Answerlist
 ----------
 * Wahr

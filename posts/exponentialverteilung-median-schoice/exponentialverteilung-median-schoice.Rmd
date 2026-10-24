@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option vertauscht Zähler und Nenner der Formel ($\lambda\cdot\ln(2)$ statt $\ln(2)/\lambda$) -- ein klassischer Kehrwertfehler.
 * Die fünfte Option gibt schlicht den Parameter $\lambda$ selbst zurück, ohne die Formel für den Median überhaupt anzuwenden.
 
+
+Aufgabenname: `exponentialverteilung-median-schoice`
+
+
 Answerlist
 ----------
 * Wahr

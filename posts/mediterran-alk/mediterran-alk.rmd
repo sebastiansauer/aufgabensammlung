@@ -102,6 +102,10 @@ ggdag::confounder_triangle(x = "A", y = "G", z = "L") %>%  # DAG definieren
 Übrigens: Eine Art von Diagramm, das Kausalbeziehungen zwischen Variablen aufzeigt, ist ein sog. *Directed Acyclic Graph*, oder kurz ein DAG. Hier ist so ein DAG gezeichnet.
 
 
+Aufgabenname: `mediterran-alk`
+
+
+
 
 
 

@@ -25,6 +25,10 @@ Solution
 ========
 In R kennzeichnet NA fehlende Werte, die beispielsweise durch Verweigerung von Angaben bei Umfragen oder technische Fehler entstehen können.
 
+
+Aufgabenname: `na_bedeutung`
+
+
 Answerlist
 ----------
 * Richtig

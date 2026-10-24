@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option bringt fälschlich die Parität von $n$ ins Spiel -- diese hat mit der Symmetrie der Verteilung nichts zu tun, entscheidend ist allein der Wert von $p$.
 * Die fünfte Option widerspricht dem Fall $p=0{,}5$, bei dem gerade *keine* Schiefe vorliegt; die Binomialverteilung ist also nicht grundsätzlich, sondern nur für $p\ne 0{,}5$ schief.
 
+
+Aufgabenname: `binomialverteilung-symmetrie-schoice`
+
+
 Answerlist
 ----------
 * Wahr

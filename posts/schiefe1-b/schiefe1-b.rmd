@@ -61,6 +61,10 @@ Solution
 Die Variable ``r d_selected_item$variable_set[1]`` lässt sich am ehesten beschreiben mit der Verteilungsform ``r d_selected_item$Verteilungsform[1]``.
 
 
+Aufgabenname: `schiefe1-b`
+
+
+
 
 ```{r solutionlist, echo = FALSE, results = "asis"}
 exams::answerlist(ifelse(items$is_correct, "Richtig", "Falsch"), markup = "markdown")

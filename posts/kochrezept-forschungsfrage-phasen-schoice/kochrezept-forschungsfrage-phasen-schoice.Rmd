@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option widerspricht der logischen und im Kapitel dargestellten Reihenfolge: Man plant und erhebt zunächst Daten (empirische Phase, Schritte 5-6), bevor man diese Daten analysiert und das Modell darauf berechnet (analytische Phase, Schritte 7-10) -- nicht umgekehrt.
 * Die fünfte Option widerspricht dem Kapitel direkt: "Modell prüfen/kritisieren" ist explizit als Schritt 9 der analytischen Phase aufgeführt, ein notwendiger Teil des Forschungsprozesses.
 
+
+Aufgabenname: `kochrezept-forschungsfrage-phasen-schoice`
+
+
 Answerlist
 ----------
 * Wahr

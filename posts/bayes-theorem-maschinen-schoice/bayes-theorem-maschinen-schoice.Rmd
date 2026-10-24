@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option kehrt den Bruch um (Evidenz geteilt durch Zähler statt umgekehrt); das Ergebnis ist größer als 1 und kann daher keine gültige Wahrscheinlichkeit sein.
 * Die fünfte Option gibt schlicht die *Apriori*-Wahrscheinlichkeit $Pr(M_2)=0{,}3$ zurück, ohne die neue Information (dass das Teil Ausschuss ist) über die Likelihood und die Bayes-Formel überhaupt einzubeziehen.
 
+
+Aufgabenname: `bayes-theorem-maschinen-schoice`
+
+
 Answerlist
 ----------
 * Wahr

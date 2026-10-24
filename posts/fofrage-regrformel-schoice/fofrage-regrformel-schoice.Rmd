@@ -31,6 +31,10 @@ Die Regressionsformel lautet: `body_mass_g ~ sex + bill_length_mm + sex:bill_len
 Sie enthält beide Haupteffekte (`sex`, `bill_length_mm`) sowie den Interaktionsterm (`sex:bill_length_mm`) und hat `body_mass_g` korrekt als abhängige Variable.
 
 
+Aufgabenname: `fofrage-regrformel-schoice`
+
+
+
 Answerlist
 ----------
 * True

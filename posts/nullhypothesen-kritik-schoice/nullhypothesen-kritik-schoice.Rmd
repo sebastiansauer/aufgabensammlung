@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist eine unzulässige Übertreibung: Die Kritik an der *exakten* Nullhypothese bedeutet nicht, dass man in der Bayes-Statistik generell keine Hypothesen mehr aufstellen könnte -- im Gegenteil, das ROPE-Verfahren und andere im Kapitel vorgestellte Methoden erlauben weiterhin sinnvolle (nur eben andere) Hypothesentests.
 * Die fünfte Option ist falsch: Das Zitat bezieht sich explizit auch auf die Praxis der (frequentistischen) Null-Hypothesen-Signifikanztestung ("null hypothesis significance testing") und ist nicht auf die Bayes-Statistik beschränkt.
 
+
+Aufgabenname: `nullhypothesen-kritik-schoice`
+
+
 Answerlist
 ----------
 * Wahr

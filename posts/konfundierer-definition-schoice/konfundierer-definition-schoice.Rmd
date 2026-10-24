@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option beschreibt einen *Mediator* (der auf dem Pfad UV $\rightarrow$ Mediator $\rightarrow$ AV liegt), nicht einen Konfundierer, der UV und AV als gemeinsame Ursache beeinflusst.
 * Die fünfte Option widerspricht der Definition direkt: Ein Konfundierer ist typischerweise sowohl mit der UV als auch mit der AV assoziiert -- genau das erzeugt ja die (irreführende) Scheinkorrelation zwischen UV und AV.
 
+
+Aufgabenname: `konfundierer-definition-schoice`
+
+
 Answerlist
 ----------
 * Wahr

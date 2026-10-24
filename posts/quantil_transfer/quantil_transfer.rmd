@@ -28,6 +28,10 @@ Solution
 Ein p-Quantil ist der Wert, der von p Prozent der Werte nicht überschritten wird.
 Hier liegen also 90 % der Preise unter oder auf der Marke von 800.000 Euro.
 
+
+Aufgabenname: `quantil_transfer`
+
+
 Answerlist
 ----------
 * Richtig

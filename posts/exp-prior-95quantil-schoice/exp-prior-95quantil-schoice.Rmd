@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwendet fälschlich den dekadischen Logarithmus $\log_{10}$ statt des natürlichen Logarithmus $\ln$ in der Quantilsformel.
 * Die fünfte Option vertauscht Zähler und Nenner der Formel (multipliziert mit $\lambda$ statt zu dividieren) -- ein klassischer Kehrwertfehler, der zudem einen unplausibel kleinen Wert liefert.
 
+
+Aufgabenname: `exp-prior-95quantil-schoice`
+
+
 Answerlist
 ----------
 * Wahr

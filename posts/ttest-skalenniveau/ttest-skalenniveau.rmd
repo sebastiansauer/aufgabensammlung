@@ -76,6 +76,10 @@ Solution
 
 Ein t-Test kann nur durchgeführt werden, wenn die abhängige Variable metrisch ist und die unabhängige Variable zweistufig nominal ist.
 
+
+Aufgabenname: `ttest-skalenniveau`
+
+
 Answerlist
 ----------
   

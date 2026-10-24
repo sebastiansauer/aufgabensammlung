@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist absurd: Randomisierung soll gerade einen *unverzerrten* Blick auf den *tatsächlichen* Effekt der UV auf die AV ermöglichen, nicht diesen Effekt eliminieren.
 * Die fünfte Option widerspricht dem Kapitel direkt: Gerade der *Vorteil* von Experimenten ist, dass man (bei guter Durchführung) *kein* vollständiges Kausalmodell aller möglichen Konfundierer kennen muss, um dennoch einen unverzerrten Kausalschluss ziehen zu können.
 
+
+Aufgabenname: `experiment-vs-beobachtung-konfundierung-schoice`
+
+
 Answerlist
 ----------
 * Wahr

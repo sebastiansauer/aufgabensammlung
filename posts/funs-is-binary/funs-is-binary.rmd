@@ -160,6 +160,10 @@ is_binary <- function(var){
 ```
 
 
+Aufgabenname: `funs-is-binary`
+
+
+
 Meta-information
 ================
 extype: string

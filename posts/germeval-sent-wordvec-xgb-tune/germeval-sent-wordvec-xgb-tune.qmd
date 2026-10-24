@@ -284,6 +284,10 @@ my_metrics(d_test,
 ```
 
 
+Aufgabenname: `germeval-sent-wordvec-xgb-tune`
+
+
+
 
 
 

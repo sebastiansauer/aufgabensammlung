@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Historisch und logisch ist es umgekehrt: t-Test, ANOVA und Korrelation sind *Spezialfälle* der (allgemeineren) Regression, nicht die Regression ein Spezialfall des t-Tests. Die vierte Option kehrt das Verhältnis fälschlich um.
 * Das Kapitel betont ausdrücklich, dass diese Verfahren *keine* eigenständigen, unverbundenen Methoden sind, sondern sich als Spezialfälle des linearen Modells auffassen lassen (vgl. Lindeløv: "t-Test und Co. sind Spezialfälle der Regression"). Die fünfte Option widerspricht dieser zentralen Aussage.
 
+
+Aufgabenname: `regr-spezialfaelle-schoice`
+
+
 Answerlist
 ----------
 * Wahr

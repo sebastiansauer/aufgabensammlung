@@ -102,6 +102,10 @@ options(digits = 2)
 Nassim Taleb hat dieses Argument in seinem Buch "Statistical Consequences of Fat Tails" aufgegriffen (ein anspruchsvolles Buch). [Hier](https://www.johndcook.com/blog/2018/05/31/six-sigma-events/) finden Sie eine interessante Darstellung eines Arguments daraus. 
 
 
+Aufgabenname: `priorwahl1`
+
+
+
 
 
 ---

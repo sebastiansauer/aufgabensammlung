@@ -333,6 +333,10 @@ ggplot(day, aes(x = hum, y = cnt, color = as.factor(workingday))) +
 Das ist der Unterschied in den Steigungen pro Einheit in der UV zwischen den Gruppen.
 
 
+Aufgabenname: `bike06`
+
+
+
 
 
 

@@ -12,6 +12,11 @@ res <- 2^10
 ```
 
 
+Solution
+========
+
+Aufgabenname: `zweihochzehn`
+
 
 Meta-information
 ================

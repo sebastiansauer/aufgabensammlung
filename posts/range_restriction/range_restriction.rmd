@@ -29,6 +29,10 @@ Solution
 Durch die Einschränkung der Spannweite (Range Restriction) sinkt die Variabilität.
 Dies führt mathematisch dazu, dass der beobachtete Korrelationskoeffizient r kleiner ausfällt als in der Gesamtpopulation.
 
+
+Aufgabenname: `range_restriction`
+
+
 Answerlist
 ----------
 * Richtig

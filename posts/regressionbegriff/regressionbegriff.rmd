@@ -23,6 +23,10 @@ sol <- "Regression"
 Die Lösung lautet: `r sol`.
 
 
+Aufgabenname: `regressionbegriff`
+
+
+
 Meta-information
 ================
 extype: string

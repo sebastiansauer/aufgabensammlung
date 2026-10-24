@@ -155,6 +155,10 @@ Die Wahrscheinlichkeit, dass die Variable normalverteilt ist, ist seeeeehr klein
 Das ist kleiner als kleiner als 0.005%.
 
 
+Aufgabenname: `fattails01`
+
+
+
 Answerlist
 ----------
 * FALSE

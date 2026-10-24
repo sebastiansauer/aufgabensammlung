@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist eine unzulässige Übertragung: Weder Parameterschätzung noch Hypothesentests liefern für sich genommen automatisch kausale Aussagen -- beide sind zunächst statistische (assoziative) Verfahren, wie das Kapitel wiederholt betont.
 * Die fünfte Option widerspricht dem Grundprinzip der Bayes-Statistik: Ein Schätzbereich *quantifiziert* Ungewissheit (z. B. über die Breite des Intervalls), er eliminiert sie nicht -- vollständige Sicherheit gibt es in der Regel nicht.
 
+
+Aufgabenname: `vorteil-parameterschaetzung-schoice`
+
+
 Answerlist
 ----------
 * Wahr

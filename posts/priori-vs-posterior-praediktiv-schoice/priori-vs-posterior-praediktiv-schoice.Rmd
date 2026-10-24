@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist zu grob vereinfacht bzw. verdreht: Die Priori-Prädiktiv-Verteilung dient zur Prüfung, ob die *Priori-Werte* selbst plausibel sind (z. B. ob sie unrealistische negative Körpergrößen implizieren) -- nicht zur Prüfung der Post-Verteilung.
 * Die fünfte Option ist falsch: Der Text zeigt explizit R-Code (`rnorm`, `rexp`), mit dem die Priori-Prädiktiv-Verteilung (`sim`) simuliert wird -- sie ist also sehr wohl praktisch berechenbar, nicht rein theoretisch.
 
+
+Aufgabenname: `priori-vs-posterior-praediktiv-schoice`
+
+
 Answerlist
 ----------
 * Wahr

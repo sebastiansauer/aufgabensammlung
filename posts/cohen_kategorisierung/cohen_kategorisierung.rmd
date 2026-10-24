@@ -27,6 +27,10 @@ Solution
 ========
 Laut Cohen (1988) gelten Werte ab 0,10 als schwach, ab 0,30 als mittel und ab 0,50 als stark.
 
+
+Aufgabenname: `cohen_kategorisierung`
+
+
 Answerlist
 ----------
 * Richtig

@@ -109,6 +109,10 @@ exams::answerlist(questions, markup = "markdown")
 Solution
 ========
 
+
+Aufgabenname: `scatterplot-de`
+
+
 ```{r solutionlist, echo = FALSE, results = "asis"}
 exams::answerlist(ifelse(solutions, "Wahr", "Falsch"), explanations, markup = "markdown")
 ```

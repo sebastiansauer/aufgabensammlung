@@ -210,6 +210,10 @@ wenn man zunächst alle Prädiktoren in ID-Variablen umwandelt: Damit
 sind alle Rollen wieder sauber.
 
 
+Aufgabenname: `tidymodels2`
+
+
+
 
 
 

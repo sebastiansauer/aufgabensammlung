@@ -227,6 +227,10 @@ so heißt das, dass es nur eine Gruppe gibt (und nicht zwei).
 Die Häufigkeit der nicht vorhandenen Gruppe ist demnach Null.
 
 
+Aufgabenname: `mtcars-abhaengig_var3a`
+
+
+
 
 
 

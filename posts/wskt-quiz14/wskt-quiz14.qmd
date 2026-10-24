@@ -66,6 +66,10 @@ die einfachere Gleichung:
 $Pr(AB) = Pr(A \cap B) =  Pr(A) \cdot Pr(B)$
 
 
+Aufgabenname: `wskt-quiz14`
+
+
+
 Answerlist
 ----------
 

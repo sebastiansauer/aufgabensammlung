@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwendet 4 Pfade -- das entspräche eher der Fragestellung "*mindestens* zwei Treffer" (2 oder 3 Treffer: $3+1=4$ Pfade), nicht der hier gefragten *genau* zwei Treffer.
 * Die fünfte Option bewertet jeden Pfad fälschlich mit der Wahrscheinlichkeit $1/2$ (der Wahrscheinlichkeit eines einzelnen Wurfs) statt mit $(1/2)^3$ (der Wahrscheinlichkeit eines ganzen Pfades aus drei Würfen); das Ergebnis $1{,}5$ liegt zudem über 1 und kann daher schon aus diesem Grund keine gültige Wahrscheinlichkeit sein.
 
+
+Aufgabenname: `baumdiagramm-genau-zwei-treffer-schoice`
+
+
 Answerlist
 ----------
 * Wahr

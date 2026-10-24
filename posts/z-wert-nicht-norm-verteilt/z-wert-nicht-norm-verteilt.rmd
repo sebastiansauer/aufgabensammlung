@@ -64,6 +64,10 @@ Solution
 
 Es sollen zwei Plots gezeichnet werden (daher `+`).
 
+
+Aufgabenname: `z-wert-nicht-norm-verteilt`
+
+
 Answerlist
 ----------
 

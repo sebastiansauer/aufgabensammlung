@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch, weil beide Werte, $0{,}5$ und $0{,}75$, gültige Wahrscheinlichkeiten im Intervall $[0,1]$ sind; das Normierungsaxiom verlangt nur $Pr(\Omega)=1$ und $0 \le Pr(A) \le 1$, was hier für beide Aussagen erfüllt ist.
 * Die fünfte Option übersieht, dass gerade die *Ungewissheit* über den wahren Zustand der Münze (fair oder präpariert) der Grund ist, überhaupt eine Wahrscheinlichkeit anzugeben -- Wahrscheinlichkeit ist genau das Werkzeug, mit dem man mit einer solchen Ungewissheit umgeht, nicht ein Hindernis, das ihre Anwendung ausschließt.
 
+
+Aufgabenname: `bedingte-wahrscheinlichkeit-hintergrundwissen-schoice`
+
+
 Answerlist
 ----------
 * Wahr

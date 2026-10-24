@@ -195,6 +195,10 @@ plot(rope(m2_mtcars), data = m2_mtcars)
 ```
 
 
+Aufgabenname: `rope2`
+
+
+
 
 Answerlist
 ----------

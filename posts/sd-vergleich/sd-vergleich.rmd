@@ -109,6 +109,10 @@ Solution
 
 Die SD ist am größten in Diagramm C
 
+
+Aufgabenname: `sd-vergleich`
+
+
 Answerlist
 ----------
 

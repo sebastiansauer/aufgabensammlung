@@ -96,6 +96,10 @@ Solution
 
 Antwort B
 
+
+Aufgabenname: `viz-geom-point2`
+
+
 Answerlist
 ----------
 

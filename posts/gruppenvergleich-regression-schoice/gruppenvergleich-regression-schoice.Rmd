@@ -25,6 +25,10 @@ Die Flexibilität besteht u.a. darin, dass zusätliche Prädiktoren in das Model
 Allerdings sollten keine Konfundierungsvariablen in das Modell aufgenommen werden.
 
 
+Aufgabenname: `gruppenvergleich-regression-schoice`
+
+
+
 Answerlist
 ----------
 * True

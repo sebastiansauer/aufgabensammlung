@@ -26,6 +26,10 @@ sol <- 2^pow_chosen
 ```
 
 
+Aufgabenname: `bin2dec`
+
+
+
 
 
 Meta-information

@@ -62,6 +62,10 @@ Nennen Sie einen Aspekte der bayesianischen Analyse, der (in Teilen) subjektiv i
 - Wahl der Prädiktoren
 
 
+Aufgabenname: `subjektiv-bayes`
+
+
+
 
 
 

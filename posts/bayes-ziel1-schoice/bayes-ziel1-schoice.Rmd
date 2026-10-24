@@ -21,6 +21,10 @@ Solution
 Bei der Bayes-Analyse werden Schlussfolgerungen nicht allein auf Basis des
 Likelihoods gezogen – das ist ein Merkmal des frequentistischen Ansatzes.
 
+
+Aufgabenname: `bayes-ziel1-schoice`
+
+
 Answerlist
 ----------
 * Wahr

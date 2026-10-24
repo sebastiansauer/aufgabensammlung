@@ -105,6 +105,10 @@ hist(x, freq = FALSE, main = "")
 rug(x)
 ```
 
+
+Aufgabenname: `boxhist2`
+
+
 ```{r solutionlist, echo = FALSE, results = "asis"}
 answerlist(paste(unlist(explanations), ".", sep = ""), markup = "markdown")
 ```

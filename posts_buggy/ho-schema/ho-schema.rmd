@@ -18,6 +18,10 @@ Answerlist
 Solution
 ========
 
+
+Aufgabenname: `ho-schema`
+
+
 Answerlist
 ----------
 * Richtig

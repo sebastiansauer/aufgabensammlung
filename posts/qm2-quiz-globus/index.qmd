@@ -101,3 +101,7 @@ knitr:
 14. Wenn ein Krebstest eine Sicherheit von 90% hat (d.h. $Pr(+|K) = .9$), dann ist die Wahrscheinlichkeit, wirklich Krebs zu haben, wenn der Test positiv ist, gleich 90%. *F*
 
 
+Aufgabenname: `qm2-quiz-globus`
+
+
+

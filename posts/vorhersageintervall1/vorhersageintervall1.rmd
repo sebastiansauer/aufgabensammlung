@@ -84,6 +84,10 @@ predict(lm1, newdata = tibble(hp = mean(147)), interval = "prediction")
 ```
 
 
+Aufgabenname: `vorhersageintervall1`
+
+
+
 Answerlist
 ----------
 

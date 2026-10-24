@@ -76,6 +76,10 @@ sol <- logitwert %>% invlogit() %>% round(2)
 In diesem Fall lautet die Lösung: `r sol`.
 
 
+Aufgabenname: `log-in-p2`
+
+
+
 
 
 

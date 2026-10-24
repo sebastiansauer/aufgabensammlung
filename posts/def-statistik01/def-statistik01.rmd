@@ -54,6 +54,10 @@ Solution
 
 S. Skript
 
+
+Aufgabenname: `def-statistik01`
+
+
 Answerlist
 ----------
 

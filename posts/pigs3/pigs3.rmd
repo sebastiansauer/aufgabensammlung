@@ -133,6 +133,10 @@ Drittens ist der Mittelwert der Gruppe `OJ` augenscheinlich höher als in der an
 Die Darbietungsform hat offenbar einen Effekt.
 
 
+Aufgabenname: `pigs3`
+
+
+
 Meta-information
 ================
 exname: pigs3

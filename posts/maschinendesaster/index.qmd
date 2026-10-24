@@ -182,3 +182,7 @@ Ergebnisse in einem Data Frame speichern:
   annotate("text", x = 500, y = 0.52, label = "50% Ausfallrisiko", color = "blue")
 ```
 
+
+Aufgabenname: `maschinendesaster`
+
+

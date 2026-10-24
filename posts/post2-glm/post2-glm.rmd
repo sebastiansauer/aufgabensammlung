@@ -365,6 +365,10 @@ d) `r item_stems[[4]]` ...
 ```
 
 
+Aufgabenname: `post2-glm`
+
+
+
 
 
 

@@ -137,6 +137,10 @@ write_rds(d3, file = "~/datasets/Twitter/hate-speech/hate-speech-politicians-202
 ```
 
 
+Aufgabenname: `twitter08`
+
+
+
 
 Meta-information
 ================

@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option widerspricht dem Kapitel: "In der Wissenschaft -- wie auch oft in der Technik, Wirtschaft oder im Alltag -- betrachtet man einen Teil der Welt näher" mittels Modellieren; Modelle sind also keineswegs auf die Statistik beschränkt.
 * Die fünfte Option verkennt den eigentlichen Nutzen: Es geht primär um die inhaltliche Vereinfachung eines komplexen Sachverhalts, nicht (nur) um eine gute visuelle Darstellbarkeit.
 
+
+Aufgabenname: `modell-definition-schoice`
+
+
 Answerlist
 ----------
 * Wahr

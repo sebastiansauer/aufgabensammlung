@@ -27,6 +27,10 @@ Solution
 Bei einer geraden Anzahl an Werten gibt es kein einzelnes "mittleres" Element.
 Man berechnet stattdessen den Durchschnitt der beiden Werte, die der Mitte am nächsten liegen.
 
+
+Aufgabenname: `median_gerade_n`
+
+
 Answerlist
 ----------
 * Richtig

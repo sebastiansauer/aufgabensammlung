@@ -76,6 +76,10 @@ b) *hp* ($\beta_1$) ist der *Regressionskoeffizient* oder *Regressionsgewicht* u
 Daher muss man vorsichtig sein, wenn man von einem "Effekt" spricht. Vorsichtiger wäre zu sagen: "Ein Auto mit einem PS mehr, kommt im Mittel 0,1 Meilen weniger weit mit einer Gallone Sprit, laut diesem Modell". 
 
 
+Aufgabenname: `interpret-koeff-lm`
+
+
+
 
 
 ---

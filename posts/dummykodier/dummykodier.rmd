@@ -29,6 +29,10 @@ Solution
 Hat eine nominale Variable k Stufen, so wird sie in k-1 binäre Variablen umgewandelt.
 Eine Stufe dient dabei als Referenzgruppe und ist im Intercept enthalten.
 
+
+Aufgabenname: `dummykodier`
+
+
 Answerlist
 ----------
 * Richtig

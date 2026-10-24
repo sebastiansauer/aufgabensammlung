@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option bezieht sich ausdrücklich nur auf die *Stichprobe* ("gemessen in der vorliegenden Stichprobe") und ist damit ein Beispiel für *Beschreiben* (Deskriptivstatistik), nicht für Populationsinferenz, die gerade über die Stichprobe hinausgeht.
 * Die fünfte Option widerspricht der zentralen Unterscheidung des Kapitels: Populationsinferenz (Verallgemeinerung auf die Population) und Kausalinferenz (Identifikation von Ursache-Wirkung) sind zwei *unterschiedliche* Bedeutungen von "Erklären", die im Kapitel explizit getrennt behandelt werden.
 
+
+Aufgabenname: `erklaeren-population-vs-kausal-schoice`
+
+
 Answerlist
 ----------
 * Wahr

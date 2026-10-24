@@ -71,6 +71,10 @@ qnorm(p = .5, mean = 180, sd = 6)
 Die Aussage ist also wahr. Das 50%-Quantil von $X$ beträgt 180.
 
 
+Aufgabenname: `verteilungen-quiz-16`
+
+
+
 
 
 Answerlist

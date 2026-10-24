@@ -60,6 +60,10 @@ Das Einkommen von Musikern hat "fat Tails" (langen Rand).
 Damit ist die Aussage insgesamt falsch.
 
 
+Aufgabenname: `wskt-quiz19`
+
+
+
 
 Answerlist
 ----------

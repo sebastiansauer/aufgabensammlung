@@ -21,6 +21,10 @@ Solution
 Es gilt die Definition aus dem Unterricht: Der Zusammenhang zwischen dem (Nicht-)Enthaltensein der Null im Intervall und statistischer Signifikanz gilt in dieser Form nur für die Bayes-Statistik, nicht für die Frequentistische Statistik.
 
 
+Aufgabenname: `def-signif-schoice`
+
+
+
 Answerlist
 ----------
 * False 

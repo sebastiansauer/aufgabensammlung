@@ -108,6 +108,10 @@ ggdag_dseparated(from = "flu", to = "pox", controlling_for = "acetaminophen",
 ```
 
 
+Aufgabenname: `kausal06`
+
+
+
 
 Answerlist
 ----------

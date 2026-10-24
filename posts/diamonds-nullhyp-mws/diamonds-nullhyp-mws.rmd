@@ -119,6 +119,10 @@ wenn sich nur ein Wert von den anderen (vieren) unterscheidet. Wir verstehen dab
 dass sich die Null nicht im 95%-KI des Unterschieds zwischen zwei Werten befindet.
 
 
+Aufgabenname: `diamonds-nullhyp-mws`
+
+
+
 
 
 

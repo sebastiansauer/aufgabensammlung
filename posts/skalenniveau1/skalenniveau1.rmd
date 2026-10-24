@@ -137,6 +137,10 @@ gt::gt()
 Dementsprechend lauten die Lösungen zu den Items:
 
 
+Aufgabenname: `skalenniveau1`
+
+
+
 ```{r solutionlist, echo = FALSE, results = "asis"}
 exams::answerlist(ifelse(d_prepared$is_correct_item, "Richtig", "Falsch"), markup = "markdown")
 ```

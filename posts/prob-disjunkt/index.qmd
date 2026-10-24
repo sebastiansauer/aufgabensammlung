@@ -42,6 +42,10 @@ Solution
 C) $A\cap B= \emptyset$ (Ihr Durchschnitt ist die leere Menge.)
 
 
+Aufgabenname: `prob-disjunkt`
+
+
+
 Answerlist
 ----------
 

@@ -29,6 +29,10 @@ Solution
 Um Zeilen zu finden, die mehrere Kriterien gleichzeitig erfüllen müssen, nutzt man das logische UND (`&`).
 Das ODER (`|`) würde auch gebrauchte Spiele oder teure neue Spiele anzeigen.
 
+
+Aufgabenname: `filter_logik`
+
+
 Answerlist
 ----------
 * Richtig

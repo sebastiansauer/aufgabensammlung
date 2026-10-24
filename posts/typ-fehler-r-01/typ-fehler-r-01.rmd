@@ -75,6 +75,10 @@ sol <- "mean(x=c(1,5,10,52))"
 Die Antwort lautet: ``r sol``.
 
 
+Aufgabenname: `typ-fehler-r-01`
+
+
+
 
 
 ---

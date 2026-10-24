@@ -25,6 +25,10 @@ Solution
 ========
 Skripte speichern die Abfolge der Befehle. Dadurch kann die gesamte Analyse jederzeit exakt so wiederholt werden, was die Basis für wissenschaftliche Reproduzierbarkeit ist.
 
+
+Aufgabenname: `vorteil_skripte`
+
+
 Answerlist
 ----------
 * Falsch

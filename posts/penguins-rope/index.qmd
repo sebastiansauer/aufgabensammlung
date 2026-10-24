@@ -143,3 +143,7 @@ Das sieht man auch im ROPE-Diagramm gut (ROPE als blaues Rechteck dargestellt):
 m |> rope(range = c(-500, 500)) |> plot()
 ```
 
+
+Aufgabenname: `penguins-rope`
+
+

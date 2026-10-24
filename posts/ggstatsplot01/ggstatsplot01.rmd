@@ -39,6 +39,10 @@ Eine einfache Interpretation lautet,
 dass R-Quadrat in der Population auf [.54,.77] (95%-HDI) geschätzt wird.
 
 
+Aufgabenname: `ggstatsplot01`
+
+
+
 
 Meta-information
 ================

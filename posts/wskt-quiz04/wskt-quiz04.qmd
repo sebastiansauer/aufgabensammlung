@@ -62,6 +62,10 @@ Symmetrisch!
 Eine Binomialverteilung mit $p=1/2$ ist immer symmetrisch. (Bei $p\ne 1/2$ gilt das nicht.)
 
 
+Aufgabenname: `wskt-quiz04`
+
+
+
 
 Answerlist
 ----------

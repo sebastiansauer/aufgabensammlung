@@ -175,6 +175,10 @@ answerlist(questions, markup = "markdown")
 Solution
 ========
 
+
+Aufgabenname: `boxplots-de1a`
+
+
 ```{r solutionlist, echo = FALSE, results = "asis"}
 answerlist(ifelse(solutions, "Wahr", "Falsch"), explanations, markup = "markdown")
 ```

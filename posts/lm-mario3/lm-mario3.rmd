@@ -97,6 +97,10 @@ loesung
 Die *Lösung* lautet: `r loesung`.
 
 
+Aufgabenname: `lm-mario3`
+
+
+
 
 
 

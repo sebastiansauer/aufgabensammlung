@@ -47,6 +47,10 @@ Solution
 
 Ja; diese werden aber in Dummy-Variablen umgerechnet (also in zweistufige Variablen mit den Stufen `0` und `1`), bevor die Regression berechnet wird.
 
+
+Aufgabenname: `nom-praed-in-regression`
+
+
 Answerlist
 ----------
 

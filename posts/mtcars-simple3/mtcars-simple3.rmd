@@ -109,6 +109,10 @@ The predictors with the strongest impact is `disp`, and `cyl`.
 The weakest influence has `hp`.
 
 
+Aufgabenname: `mtcars-simple3`
+
+
+
 
 Answerlist
 ----------

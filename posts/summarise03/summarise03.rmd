@@ -99,6 +99,10 @@ summarise(mariokart_klein, pr_mean = mean(pr_mean))
 Die Lösung lautet: 56
 
 
+Aufgabenname: `summarise03`
+
+
+
 
 ---
 

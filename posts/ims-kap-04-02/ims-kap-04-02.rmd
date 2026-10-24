@@ -82,6 +82,10 @@ Solution
 
 `annual_income` muss nicht in eine Indikatorvariable umgewandelt werden, da es eine numerische Variable ist.
 
+
+Aufgabenname: `ims-kap-04-02`
+
+
 Answerlist
 ----------
 

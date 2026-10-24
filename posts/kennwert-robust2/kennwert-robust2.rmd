@@ -34,6 +34,10 @@ Solution
 ========
 
 
+Aufgabenname: `kennwert-robust2`
+
+
+
 Answerlist
 ----------
 

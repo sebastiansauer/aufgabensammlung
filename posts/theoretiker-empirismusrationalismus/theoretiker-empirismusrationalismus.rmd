@@ -22,6 +22,10 @@ Solution
 `r person` bekennt sich zur Position des `r position`.
 
 
+Aufgabenname: `theoretiker-empirismusrationalismus`
+
+
+
 Meta-information
 ================
 extype: string

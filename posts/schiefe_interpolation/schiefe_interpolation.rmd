@@ -28,6 +28,10 @@ Solution
 Wenn der Mittelwert "nach rechts" (zu höheren Werten) gezogen wird, liegt eine rechtsschiefe Verteilung vor.
 Extreme Werte am oberen Ende der Skala beeinflussen den Mittelwert stärker als den Median.
 
+
+Aufgabenname: `schiefe_interpolation`
+
+
 Answerlist
 ----------
 * Richtig

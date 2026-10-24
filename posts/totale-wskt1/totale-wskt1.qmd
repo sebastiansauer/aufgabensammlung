@@ -131,6 +131,10 @@ Insgesamt bekommen also 9+99 = 108 Personen (von 1000), d.h. ca. 11%, ein positi
 davon sind 9 tatsächlich krank und 99 sind gesund.
 
 
+Aufgabenname: `totale-wskt1`
+
+
+
 
 ---
 

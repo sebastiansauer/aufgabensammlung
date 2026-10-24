@@ -171,6 +171,10 @@ sol3 <- Pr_mind1_bestanden_3
 Die Lösung lautet ``r sol3``.
 
 
+Aufgabenname: `klausuren-bestehen`
+
+
+
 
 
 

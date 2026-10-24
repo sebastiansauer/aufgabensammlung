@@ -163,6 +163,10 @@ Das führt zu ähnlichen Ergebnissen.
 Man könnte hier noch einen Interaktionseffekt ergänzen.
 
 
+Aufgabenname: `adjustieren2_var1`
+
+
+
 
 ---
 

@@ -131,6 +131,10 @@ ggplot(simulation, aes(x = tosses, y = avg_width)) +
 [Quelle](https://sr2-solutions.wjakethompson.com/bayesian-inference.html#chapter-3)
 
 
+Aufgabenname: `rethink3m6`
+
+
+
 
 
 ---

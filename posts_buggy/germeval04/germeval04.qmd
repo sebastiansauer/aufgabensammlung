@@ -206,6 +206,10 @@ my_metrics(d_test,
 Eine Reihe der Text-Features passen nicht gut auf nicht-englische Texte.
 
 
+Aufgabenname: `germeval04`
+
+
+
 
 
 ---

@@ -94,6 +94,10 @@ sol <- exams::fmt(solution[1,1])
 **Lösung:** `r sol`. 
 
 
+Aufgabenname: `mariokart-mean3`
+
+
+
 
 
 

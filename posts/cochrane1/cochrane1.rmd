@@ -244,6 +244,10 @@ reviews_sample %>%
 
 Richtige Lösung:
 
+
+Aufgabenname: `cochrane1`
+
+
 ```{r solutionlist, echo = FALSE, results = "asis"}
 answerlist(ifelse(reviews_sample$selected, "Wahr", "Falsch"), markup = "markdown")
 ```

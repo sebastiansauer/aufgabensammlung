@@ -196,6 +196,10 @@ sol_tol <- exams::num2tol(sol_raw, min = min_tol, reltol = config$tol_rel) %>% e
 Aufgaben-ID: post-md3, Toleranzbreite: `r sol_tol`
 
 
+Aufgabenname: `modellinterpret-breite`
+
+
+
 Meta-information
 ================
 exname: modellinterpret-breite

@@ -68,6 +68,10 @@ ggplot(mtcars) +
 ```
 
 
+Aufgabenname: `stipro-beschreiben`
+
+
+
 Meta-information
 ================
 extype: string

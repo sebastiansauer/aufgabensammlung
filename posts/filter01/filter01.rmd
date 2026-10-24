@@ -97,6 +97,10 @@ mariokart2 <- filter(mariokart, total_pr > 50.00 & ship_pr > 0)  # R bentzt Dezi
 Die Lösung lautet: *32* Zeilen verbleiben im Datensatz nach dem Filtern.
 
 
+Aufgabenname: `filter01`
+
+
+
 
 ---
 

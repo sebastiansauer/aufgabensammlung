@@ -82,3 +82,7 @@ Hinweise:
 
 Mit der Regression kann man z.B. zusätzliche Variablen in das Modell aufnehmen.
 
+
+Aufgabenname: `gruppenvergleich-regression`
+
+

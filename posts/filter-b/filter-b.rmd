@@ -14,6 +14,10 @@ Solution
 ========
 Das kaufmännische Und (`&`) wird verwendet, um zwei Bedingungen logisch so zu verknüpfen, dass beide erfüllt sein müssen.
 
+
+Aufgabenname: `filter-b`
+
+
 Answerlist
 ----------
 * Richtig

@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option widerspricht dem Kapitel direkt: "Sicher ist man sich hingegen für die Stichprobe (Messfehler einmal ausgeblendet)" -- die Ungewissheit betrifft gerade die Verallgemeinerung auf die Population, nicht die (bekannte) Stichprobe selbst.
 * Die fünfte Option verwechselt Rundung (eine rein numerische Darstellungsfrage) mit der inhaltlichen Ungewissheit über den wahren Populationswert -- Runden ändert nichts an der zugrundeliegenden Unsicherheit.
 
+
+Aufgabenname: `inferenz-ungewissheit-notwendig-schoice`
+
+
 Answerlist
 ----------
 * Wahr

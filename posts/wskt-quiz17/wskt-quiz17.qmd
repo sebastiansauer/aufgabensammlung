@@ -56,6 +56,10 @@ Solution
 Ja, denn Post-unstand = Prior * Likelihood.
 
 
+Aufgabenname: `wskt-quiz17`
+
+
+
 Answerlist
 ----------
 

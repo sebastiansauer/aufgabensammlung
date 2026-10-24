@@ -31,6 +31,10 @@ Durch das Zentrieren wird der Mittelwert der UV auf Null gesetzt.
 Da der Intercept als Y-Wert an der Stelle x=0 definiert ist, zeigt er nun den Wert beim Mittelwert der UV.
 Die Steigung bleibt dabei unverändert.
 
+
+Aufgabenname: `zentrierung`
+
+
 Answerlist
 ----------
 * Richtig

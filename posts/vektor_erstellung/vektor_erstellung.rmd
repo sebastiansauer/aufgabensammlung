@@ -25,6 +25,10 @@ Solution
 ========
 Der Befehl c steht für „combine“ (kombinieren) und wird genutzt, um einzelne Elemente zu einer geordneten Folge, einem Vektor, zu verbinden.
 
+
+Aufgabenname: `vektor_erstellung`
+
+
 Answerlist
 ----------
 * Richtig

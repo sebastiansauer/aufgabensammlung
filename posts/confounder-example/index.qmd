@@ -153,6 +153,10 @@ Bei kleinen Stichproben wirkt der "Zufall" der Aufteilung, das Gesetz der große
 Insgesamt ist der Forschergruppe zu raten, ggf. auf Konfundierung durch Skeptizismus oder andere (Persönlichkeit-)Merkmale zu kontrollieren.
 
 
+Aufgabenname: `confounder-example`
+
+
+
 
 
 

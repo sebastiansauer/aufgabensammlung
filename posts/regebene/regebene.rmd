@@ -28,6 +28,10 @@ Solution
 Bei zwei metrischen Prädiktoren wird für jede Kombination von x1 und x2 ein Wert vorhergesagt.
 Diese Werte bilden eine flache Ebene im dreidimensionalen Raum.
 
+
+Aufgabenname: `regebene`
+
+
 Answerlist
 ----------
 * Richtig

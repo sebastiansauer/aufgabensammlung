@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist eine unzulässige Umkehrung: Aus der (korrekten) Aussage "Zusammenhang beweist keine Kausalität" folgt logisch nicht die (falsche) Umkehrung "kein Zusammenhang beweist keine Kausalität" -- ein kausaler Effekt könnte z. B. durch andere Effekte überlagert und dadurch statistisch unsichtbar werden.
 * Die fünfte Option definiert Linearität falsch: Laut Kapitel bedeutet Linearität, dass der *Zuwachs* in $Y$ relativ zu $X$ *konstant* ist (bei jedem Anstieg von $X$ um eine Einheit steigt $Y$ um denselben Betrag $b$) -- das ist etwas anderes als eine proportionale Verdopplung.
 
+
+Aufgabenname: `linearer-zshg-nicht-kausal-schoice`
+
+
 Answerlist
 ----------
 * Wahr

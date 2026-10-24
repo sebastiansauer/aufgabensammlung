@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option erfindet eine im Kapitel nicht genannte Zusatzbedingung; eine Priori-Verteilung ist gerade das Kennzeichen der *Bayes*-Inferenz, nicht Voraussetzung für die Interpretation eines frequentistischen Konfidenzintervalls.
 * Die fünfte Option ignoriert den zentralen, im Kapitel betonten *konzeptuellen* Unterschied (Wahrscheinlichkeitsaussage über den Parameter erlaubt vs. nicht erlaubt) und reduziert ihn fälschlich auf eine bloße Rechenformel.
 
+
+Aufgabenname: `ki-interpretation-bayes-freq-schoice`
+
+
 Answerlist
 ----------
 * Wahr

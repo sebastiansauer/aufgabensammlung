@@ -29,6 +29,10 @@ Solution
 Die Steigung gibt an, um wie viele Einheiten y steigt, wenn x um eine Einheit zunimmt.
 Bei 10 Einheiten x (Stunden) verändert sich y also um 10 * 0,88 = 8,8.
 
+
+Aufgabenname: `slope_inter`
+
+
 Answerlist
 ----------
 * Richtig

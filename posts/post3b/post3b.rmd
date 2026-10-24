@@ -228,6 +228,10 @@ sol <- mchoice2string(sol_df$correct_answer, single = TRUE)
 ```
 
 
+Aufgabenname: `post3b`
+
+
+
 
 ```{r sollist, echo = FALSE, results = "asis"}
 answerlist(sol_df$correct_answer, markup = "markdown")

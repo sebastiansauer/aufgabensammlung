@@ -147,6 +147,10 @@ sind sie in der Auszählung der Häufigkeiten nicht aufgenommen;
 in den Daten gibt es nur 7 der 12 Gruppen.
 
 
+Aufgabenname: `haeufigkeit01`
+
+
+
 
 
 ---

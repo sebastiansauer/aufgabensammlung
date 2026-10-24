@@ -25,6 +25,10 @@ Solution
 ========
 Tidy Data zeichnet sich dadurch aus, dass jede Zeile eine Beobachtungseinheit, jede Spalte eine Variable und jede Zelle einen Wert darstellt [2].
 
+
+Aufgabenname: `tidy_data`
+
+
 Answerlist
 ----------
 * Falsch

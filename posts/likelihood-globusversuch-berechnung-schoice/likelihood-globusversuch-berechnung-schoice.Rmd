@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwendet den falschen Datenwert ($W=6$ statt der tatsächlich beobachteten $W=7$ Treffer) -- die Likelihood muss sich immer auf die *tatsächlich beobachteten* Daten beziehen.
 * Die fünfte Option vergisst den Faktor $(1-\pi)^{n-x}=0{,}4^3$ für die 3 "Land"-Ergebnisse; das Resultat ist folgerichtig größer als 1 und kann daher keine gültige Wahrscheinlichkeit sein.
 
+
+Aufgabenname: `likelihood-globusversuch-berechnung-schoice`
+
+
 Answerlist
 ----------
 * Wahr

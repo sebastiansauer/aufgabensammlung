@@ -54,6 +54,10 @@ Die Lösung lautet **74 %**.
 Die Distrkatoren sind willkürlich gewählt.
 
 
+Aufgabenname: `klausuren-bestehen-schoice`
+
+
+
 Answerlist
 ----------
 * True

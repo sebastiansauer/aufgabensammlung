@@ -199,6 +199,10 @@ hat im Laufe der Dekaden immer mal wieder geschwankt.
 Falls Sie Teile der R-Syntax nicht kennen: Machen Sie sich nichts daraus.  😄
 
 
+Aufgabenname: `nasa02`
+
+
+
 
 
 

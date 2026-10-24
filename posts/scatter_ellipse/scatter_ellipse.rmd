@@ -28,6 +28,10 @@ Solution
 Eine ansteigende Gerade bedeutet einen positiven Zusammenhang.
 Eine schmale Ellipse weist auf einen starken Zusammenhang hin.
 
+
+Aufgabenname: `scatter_ellipse`
+
+
 Answerlist
 ----------
 * Richtig

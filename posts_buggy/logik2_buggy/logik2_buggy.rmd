@@ -154,6 +154,10 @@ sol <- itemlist$proposition[itemlist$sol_type=="is_correct"]
 Die richtige Aussage lautet "`r sol`".
 
 
+Aufgabenname: `logik2_buggy`
+
+
+
 
 ```{r itemlist_answer, results="asis"}
 answerlist(ifelse(itemlist$sol_type=="is_correct", "Wahr", "Falsch"), markup = "markdown")

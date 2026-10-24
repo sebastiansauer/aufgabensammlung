@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwechselt die Vorhersage des *Mittelwerts* $\mu$ mit einer Vorhersage für eine *einzelne neue Beobachtung* -- Letztere müsste zusätzlich die Streuung $\sigma$ berücksichtigen (ähnlich der Posterior-Prädiktiv-Verteilung aus einem früheren Kapitel), was das gezeigte Band allein nicht leistet.
 * Die fünfte Option kehrt die übliche Interpretation um: Ein *breiteres* Unsicherheitsband zeigt in der Regel *mehr*, nicht weniger Ungewissheit im Modell -- die reine Bandbreite sagt zudem nichts direkt über die Modellgüte (Passung an die Daten) aus.
 
+
+Aufgabenname: `estimate-expectation-schoice`
+
+
 Answerlist
 ----------
 * Wahr

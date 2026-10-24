@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option vertauscht die Eigenschaften der beiden Intervalltypen: Das PI schneidet an beiden Rändern *gleich* viel Wahrscheinlichkeitsmasse ab (daher auch "Equal-Tails-Intervall"), während beim HDI die abgeschnittenen Ränder gerade *nicht* zwangsläufig gleich groß sein müssen.
 * Die fünfte Option kehrt die im Kapitel beschriebene Beziehung um: Bei *symmetrischen* Verteilungen sind PI und HDI ähnlich oder identisch, während sie sich gerade bei *schiefen* Verteilungen deutlich unterscheiden können.
 
+
+Aufgabenname: `pi-vs-hdi-schiefe-schoice`
+
+
 Answerlist
 ----------
 * Wahr

@@ -245,3 +245,7 @@ plot(rope_m1)
 Das 90%-Intervall ist knapp außerhalb des ROPE.
 
 Wir können die ROPE-Hypothese daher zurückweisen.
+
+
+Aufgabenname: `penguins-stan-06`
+

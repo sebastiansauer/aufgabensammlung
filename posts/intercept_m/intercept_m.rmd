@@ -29,6 +29,10 @@ Solution
 Der Achsenabschnitt (Intercept) gibt den Wert der abhängigen Variable an, wenn der Prädiktor (x) den Wert Null annimmt.
 In diesem Fall sind das die Basispunkte ohne Lernen.
 
+
+Aufgabenname: `intercept_m`
+
+
 Answerlist
 ----------
 * Richtig

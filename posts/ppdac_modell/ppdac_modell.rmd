@@ -25,6 +25,10 @@ Solution
 ========
 Das PPDAC-Modell beschreibt den Ablauf vom Verstehen des Problems über die Planung und Datenerhebung bis hin zur Analyse und den Schlussfolgerungen [6, 7].
 
+
+Aufgabenname: `ppdac_modell`
+
+
 Answerlist
 ----------
 * Falsch

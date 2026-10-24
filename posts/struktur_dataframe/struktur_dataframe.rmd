@@ -27,6 +27,10 @@ Solution
 Ein Dataframe ist "rechteckig", was bedeutet, dass jede Spalte (Vektor) die gleiche Anzahl an Zeilen (Beobachtungen) haben muss. 
 Die Spalten selbst können jedoch unterschiedliche Datentypen haben (z. B. Alter als Zahl und Name als Text).
 
+
+Aufgabenname: `struktur_dataframe`
+
+
 Answerlist
 ----------
 * Falsch

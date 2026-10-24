@@ -116,6 +116,10 @@ plot_histogram(mariokart3)
 Jetzt sind die Daten deutlich weniger extrem.
 
 
+Aufgabenname: `ausreisser1`
+
+
+
 
 
 ---

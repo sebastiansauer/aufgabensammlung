@@ -112,6 +112,10 @@ Aus diesem Grund könnte der IQR hier gegenüber anderen Maßen bevorzugt werden
 *Lösung*: 12.82
 
 
+Aufgabenname: `summarise06`
+
+
+
 
 ---
 

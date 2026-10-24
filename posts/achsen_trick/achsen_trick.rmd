@@ -27,6 +27,10 @@ Solution
 ========
 Durch das „Abschneiden“ der Y-Achse (kein Nullpunkt) werden kleine Abweichungen optisch massiv vergrößert.
 
+
+Aufgabenname: `achsen_trick`
+
+
 Answerlist
 ----------
 * Richtig

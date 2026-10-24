@@ -28,6 +28,10 @@ Solution
 Die Pfeife (`|>` oder `%>%`) verbessert die Lesbarkeit, indem sie Daten wie am Fließband von links nach rechts durch Funktionen reicht.
 Das erste Argument der nachfolgenden Funktion wird dabei automatisch befüllt.
 
+
+Aufgabenname: `pipe_vorteil`
+
+
 Answerlist
 ----------
 * Richtig

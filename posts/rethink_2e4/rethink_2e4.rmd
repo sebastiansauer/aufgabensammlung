@@ -43,6 +43,10 @@ To express our uncertainty in the outcome, we use probability.
 Because we know that water is more likely than land, we may say that the probability of “water” is 0.7; however, we’ll never actually observe a result of 0.7 waters, or observe any probability. We will only ever observe the two results of “land” and “water.”
 
 
+Aufgabenname: `rethink_2e4`
+
+
+
 Meta-information
 ================
 extype: string

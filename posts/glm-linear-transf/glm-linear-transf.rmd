@@ -134,13 +134,15 @@ sol_d <- 1
 ```
 
 
+Aufgabenname: `glm-linear-transf`
+
+
 Solutionlist
 ------------
 * Ja; Transformation der Art $y = a + bx$ nennt man *linear*.
 * Nein; der Punktschätzer des Achsenabschnitts ändert sich nicht durch die Transformation.
 * Ja; der der Punktschätzer des Regressionsgewichts ändert sich durch die Transformation.
 * Ja; Bei zentrierten Daten ändert sich der Punktschätzer des Regressionsgewichts durch die Transformation.
-
 
 
 Meta-information

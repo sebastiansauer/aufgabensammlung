@@ -129,4 +129,8 @@ gsub("[0-9]+$","", col_names)
 ```
 
 
+Aufgabenname: `remove-digits`
+
+
+
 

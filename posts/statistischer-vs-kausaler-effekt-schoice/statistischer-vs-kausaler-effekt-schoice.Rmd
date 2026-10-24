@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option stellt eine unsinnige, im Kapitel nicht getroffene quantitative Behauptung auf -- die Größe eines Effekts hängt nicht davon ab, ob man ihn "statistisch" oder "kausal" nennt.
 * Die fünfte Option ist falsch: Regressionsmodelle werden im Kapitel explizit auch für Beobachtungsdaten (wie den Kung- oder Kidiq-Datensatz) verwendet, ohne dass diese aus Experimenten stammen -- nur die *kausale* Interpretation der Ergebnisse erfordert zusätzliche Vorsicht.
 
+
+Aufgabenname: `statistischer-vs-kausaler-effekt-schoice`
+
+
 Answerlist
 ----------
 * Wahr

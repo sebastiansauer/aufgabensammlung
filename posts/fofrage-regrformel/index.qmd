@@ -89,4 +89,8 @@ glimpse(penguins)
 Die Regressionsformel lautet: `body_mass_g ~ sex + bill_length_mm + sex:bill_length_mm`.
 
 
+Aufgabenname: `fofrage-regrformel`
+
+
+
 

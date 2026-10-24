@@ -69,5 +69,9 @@ Hinweise:
 ## Lösung
 
 
+Aufgabenname: `chatgpt-curl`
+
+
+
 
 

@@ -158,6 +158,10 @@ estimate_relation(lm3) |> plot()
 Man könnte hier noch einen Interaktionseffekt ergänzen.
 
 
+Aufgabenname: `adjustieren1a`
+
+
+
 
 ---
 

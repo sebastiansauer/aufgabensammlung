@@ -172,6 +172,10 @@ Solution
 Das Diagramm ``r sol_df$plot_id[sol_df$is_correct == TRUE]`` zeigt den Median am genauesten.
 
 
+Aufgabenname: `streuung-histogramm`
+
+
+
 ```{r solutionlist, echo = FALSE, results = "asis"}
 exams::answerlist(ifelse(sol_df$is_correct, "Wahr", "Falsch"), markup = "markdown")
 ```

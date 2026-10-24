@@ -147,6 +147,10 @@ sol <-  mchoice2string(ifelse(d_sol$metrisch, 1, 0))
 ```
 
 
+Aufgabenname: `skalenniveau1b`
+
+
+
 
 
 ---

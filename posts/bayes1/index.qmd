@@ -81,3 +81,7 @@ A) Fehlt die Division durch Pr(D), multipliziert stattdessen
 C) Pr(H) und Pr(D|H) sind vertauscht
 D) Division durch das Produkt Pr(H) × Pr(D) ist falsch
 E) Verwendet Addition statt Multiplikation und Division
+
+
+Aufgabenname: `bayes1`
+

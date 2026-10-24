@@ -72,4 +72,8 @@ Allerdings wissen Sie nicht, wann der Bus das letzte Mal abgefahren ist.
 **50%** der Zeit müssen Sie länger als 5 Minuten warten.
 
 
+Aufgabenname: `simu-unif2`
+
+
+
 

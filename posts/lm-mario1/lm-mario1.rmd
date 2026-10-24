@@ -134,6 +134,10 @@ predict(lm_mariokart, neues_spiel)  # predicte mir den Verkaufspreis
 ```
 
 
+Aufgabenname: `lm-mario1`
+
+
+
 
 
 

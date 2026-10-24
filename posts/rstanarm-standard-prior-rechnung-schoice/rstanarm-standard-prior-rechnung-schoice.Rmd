@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwendet fälschlich die Formel für die *Standard-Priori von $\mu$* (die den Faktor $2{,}5\cdot sd(Y)$ enthält), obwohl hier nach der Priori für $\sigma$ gefragt ist, die einer anderen Formel folgt.
 * Die fünfte Option verwechselt den Erwartungswert der Exponentialverteilung mit der *Varianz* von $Y$ ($sd(Y)^2$) -- das ist eine andere Größe, die mit der Formel für die Priori von $\sigma$ nichts zu tun hat.
 
+
+Aufgabenname: `rstanarm-standard-prior-rechnung-schoice`
+
+
 Answerlist
 ----------
 * Wahr

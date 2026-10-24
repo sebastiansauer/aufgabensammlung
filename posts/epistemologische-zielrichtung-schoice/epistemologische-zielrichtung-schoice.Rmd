@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist eine im Kapitel nicht getroffene, abwertende Fehlcharakterisierung -- deskriptive Forschungsfragen sind vollkommen legitim, solange man ihre Ergebnisse nicht fälschlich kausal interpretiert.
 * Die fünfte Option widerspricht der zentralen Warnung des gesamten Kapitels (und des vorherigen Kapitels zur Konfundierung): Statistische Modellierung allein reicht gerade *nicht* aus, um Kausaleffekte zu identifizieren -- dafür ist zusätzlich Kenntnis des (korrekten) Kausalmodells nötig.
 
+
+Aufgabenname: `epistemologische-zielrichtung-schoice`
+
+
 Answerlist
 ----------
 * Wahr

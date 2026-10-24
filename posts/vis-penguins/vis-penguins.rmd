@@ -391,6 +391,10 @@ ggbarplot(d_count, x = "y_dicho", y = "prop", facet.by = "x1", label = TRUE)
 Man beachten, dass sich die Anteile auf das "Gesamt-N" beziehen.
 
 
+Aufgabenname: `vis-penguins`
+
+
+
 
 
 

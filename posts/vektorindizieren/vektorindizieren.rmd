@@ -48,6 +48,10 @@ sol <- "noten[noten>3.3]"
 Die Antwort lautet: ``r sol``.
 
 
+Aufgabenname: `vektorindizieren`
+
+
+
 Meta-information
 ================
 extype: string

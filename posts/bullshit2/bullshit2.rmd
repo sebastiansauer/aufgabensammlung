@@ -117,6 +117,10 @@ Auszug aus dem Artikel:
 Die richtige Aussage lautet: "`r sol$proposition[sol$is_correct]`"
 
 
+Aufgabenname: `bullshit2`
+
+
+
 
 ```{r answerlist, results='asis'}
 answerlist(ifelse(sol$is_correct, "Wahr", "Falsch"), markup = "markdown")

@@ -27,6 +27,10 @@ Solution
 Ein Punktmodell fasst eine Wertereihe zu einer einzigen Zahl zusammen.
 Jede Person erhält somit die gleiche Vorhersage, unabhängig von anderen Merkmalen.
 
+
+Aufgabenname: `definition_punktmodell`
+
+
 Answerlist
 ----------
 * Richtig

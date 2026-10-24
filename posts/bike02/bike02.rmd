@@ -199,6 +199,10 @@ sol <- MSE
 ```
 
 
+Aufgabenname: `bike02`
+
+
+
 
 
 ---

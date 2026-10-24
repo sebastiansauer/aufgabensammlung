@@ -79,6 +79,10 @@ Die restlichen gemeinsamen Wahrscheinlichkeiten lassen sich durch Addieren und S
 Die falschen Antwortoptionen entstehen durch vertauschte Zeilen und/oder Spalten der Kontingenztafel (Verwechslung von $E$/$\overline{E}$ bzw. $R$/$\overline{R}$).
 
 
+Aufgabenname: `gem-wskt2-schoice`
+
+
+
 Answerlist
 ----------
 * True

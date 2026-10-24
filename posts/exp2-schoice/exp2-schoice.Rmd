@@ -19,6 +19,10 @@ Solution
 Der Erwartungswert der Exponentialverteilung ist $E(X) = 1/\lambda$. Je größer $\lambda$, desto kleiner also der Mittelwert der Verteilung.
 
 
+Aufgabenname: `exp2-schoice`
+
+
+
 Answerlist
 ----------
 * True

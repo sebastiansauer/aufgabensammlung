@@ -283,6 +283,10 @@ explore(fit2)
 Weitere Infos [finden sich hier](https://shinymodels.tidymodels.org/index.html).
 
 
+Aufgabenname: `glm-linear-transf-tidymodels`
+
+
+
 Meta-information
 ================
 extype: string

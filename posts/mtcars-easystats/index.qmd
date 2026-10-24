@@ -108,3 +108,7 @@ data_tabulate(mtcars, select = c("vs", "am", "gear")) |>
   print_md()
 ```
 
+
+Aufgabenname: `mtcars-easystats`
+
+

@@ -87,6 +87,10 @@ sol <- Pr_AB
 Die Lösung lautet ``r sol``.
 
 
+Aufgabenname: `wuerfel05`
+
+
+
 
 
 

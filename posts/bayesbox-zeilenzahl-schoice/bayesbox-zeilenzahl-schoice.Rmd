@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option vertauscht die Rollen von Parameteranzahl und Gitterwerten in der Formel ($4\cdot 50^2$ statt $50^4$) und unterschätzt damit die tatsächliche Kombinationsvielfalt drastisch.
 * Die fünfte Option dividiert das korrekte Ergebnis fälschlich noch durch die Anzahl der Parameter -- dafür gibt es keinen inhaltlichen Grund, da jede zusätzliche Parameter-Dimension die Anzahl der Kombinationen multiplikativ vergrößert, nicht verkleinert.
 
+
+Aufgabenname: `bayesbox-zeilenzahl-schoice`
+
+
 Answerlist
 ----------
 * Wahr

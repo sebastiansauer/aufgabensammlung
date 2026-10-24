@@ -79,6 +79,10 @@ Zur Erinnerung: Die Inferenzstatistik macht Aussagen bzgl. einer *Population*, n
 - Schulungsprogramm. Sie entwickeln ein Schulungsprogramm, das im großen Stil in einer Firma eingesetzt werden soll; mehrere Tausend Personen sollen das Programm durchlaufen. In einer Pilotstudie mit $n=90$ Personen erreichen $k=42$ nicht das Lernziel. Welche Parameterwerte für $p$ (Lernziel erreicht) sind plausibel?
 
 
+Aufgabenname: `bsp-binomial`
+
+
+
 
 
 

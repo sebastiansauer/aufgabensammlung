@@ -25,6 +25,10 @@ Solution
 ========
 Die Ordinalskala erlaubt das Ordnen von Objekten, jedoch können die Abstände dazwischen nicht in Einheiten gemessen werden.
 
+
+Aufgabenname: `skalenniveau_ordinal`
+
+
 Answerlist
 ----------
 * Falsch

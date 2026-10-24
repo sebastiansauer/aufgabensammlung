@@ -77,6 +77,10 @@ Man kann z.B. auch `\\d` verwenden anstelle von `[:digit:]`.
 Sicherlich gibt es noch mehrere weitere Lösungen.
 
 
+Aufgabenname: `regex02`
+
+
+
 
 
 

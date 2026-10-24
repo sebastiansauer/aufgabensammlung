@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option vertauscht die Definitionen: Der *Frequentismus* definiert Wahrscheinlichkeit über relative Häufigkeiten bei (gedanklich) unendlicher Wiederholung; die Bayes-Statistik lässt daneben auch subjektives Vorwissen (Priori) als Wahrscheinlichkeit zu.
 * Die fünfte Option ist falsch, da beide Ansätze -- je nach gewähltem Modell bzw. Prior -- durchaus zu unterschiedlichen Schlussfolgerungen (z. B. unterschiedlichen Interpretationen von Signifikanz oder Unsicherheit) gelangen können, auch bei identischen Rohdaten.
 
+
+Aufgabenname: `frequentismus-bayes-unterschied-schoice`
+
+
 Answerlist
 ----------
 * Wahr

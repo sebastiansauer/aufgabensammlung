@@ -19,6 +19,10 @@ Aus der Berufspraxis eines Professors:
 4. Auswertung: Deskriptiv - Vergleich der Mittelwerte der Gruppen bzw. der Testzeitpunkte ($t1, t2$); Inferenz: Bootstrapping des Mittelwertunterschieds
 
 
+Aufgabenname: `berufspraxis_bsp`
+
+
+
 
 
 

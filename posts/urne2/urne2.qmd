@@ -97,6 +97,10 @@ sol <- Pr_R1_R2
 Die Lösung lautet ``r sol``.
 
 
+Aufgabenname: `urne2`
+
+
+
 
 
 ---

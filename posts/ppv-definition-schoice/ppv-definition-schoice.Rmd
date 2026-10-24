@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option beschreibt wieder die Post-Verteilung, nicht die PPV -- die PPV bezieht sich auf vorhergesagte *Beobachtungen*, nicht auf den Parameter selbst.
 * Die fünfte Option ignoriert die zentrale Eigenschaft der PPV, nämlich die *Gewichtung* nach der Post-Wahrscheinlichkeit: Ein ungewichteter Durchschnitt würde unwahrscheinliche Parameterwerte genauso stark berücksichtigen wie plausible, was der Post-Verteilung widerspricht.
 
+
+Aufgabenname: `ppv-definition-schoice`
+
+
 Answerlist
 ----------
 * Wahr

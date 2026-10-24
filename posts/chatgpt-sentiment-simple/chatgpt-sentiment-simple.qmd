@@ -132,3 +132,7 @@ Und los:
 get_completion(my_prompt, client) 
 ```
 
+
+Aufgabenname: `chatgpt-sentiment-simple`
+
+

@@ -28,6 +28,10 @@ Solution
 `summarise()` reduziert eine Gruppe von Werten auf eine einzelne Kennzahl (z. B. den Mittelwert).
 `mutate()` hingegen würde die ursprüngliche Zeilenanzahl beibehalten.
 
+
+Aufgabenname: `group_summarise`
+
+
 Answerlist
 ----------
 * Richtig

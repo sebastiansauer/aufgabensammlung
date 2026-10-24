@@ -67,6 +67,10 @@ Solution
 
 Das Quantil von $z = `r z`$ ist `r fmt(z_quantile, 3)`.
 
+
+Aufgabenname: `normvert-perzentile`
+
+
 ```{r solutionlist, echo = FALSE, results = "asis"}
 answerlist(ifelse(solutions, "Richtig", "Falsch"), markup = "markdown")
 ```

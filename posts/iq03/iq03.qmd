@@ -117,6 +117,10 @@ Lösung: Die Wahrscheinlichkeit für "nicht überdurchschnittlich intelligent" b
 Das Ereignis  "nicht überdurchschnittlich intelligent" kann man vielleicht einfacher - und auf jeden Fall präziser benennen mit $iq \le 100$.
 
 
+Aufgabenname: `iq03`
+
+
+
 
 
 ---

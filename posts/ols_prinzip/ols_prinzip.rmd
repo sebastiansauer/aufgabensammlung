@@ -27,6 +27,10 @@ Solution
 ========
 Das Standardverfahren der linearen Regression (OLS - Ordinary Least Squares) minimiert die quadrierten Abweichungen der beobachteten Werte von der Geraden.
 
+
+Aufgabenname: `ols_prinzip`
+
+
 Answerlist
 ----------
 * Richtig

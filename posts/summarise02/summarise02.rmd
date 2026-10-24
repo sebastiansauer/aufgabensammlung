@@ -99,6 +99,10 @@ summarise(mariokart_klein, max_preis_mw = mean(max_preis))
 Die Lösung lautet: 201
 
 
+Aufgabenname: `summarise02`
+
+
+
 
 ---
 

@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwendet das falsche Vorzeichen (Subtraktion statt Addition) für den Term $12\cdot\text{mom\_hs}$.
 * Die fünfte Option multipliziert Achsenabschnitt und Regressionsgewicht miteinander, statt das Regressionsgewicht mit dem Prädiktorwert zu multiplizieren und zum Achsenabschnitt zu addieren -- das widerspricht der linearen Modellgleichung.
 
+
+Aufgabenname: `vorhersage-yb-berechnen-schoice`
+
+
 Answerlist
 ----------
 * Wahr

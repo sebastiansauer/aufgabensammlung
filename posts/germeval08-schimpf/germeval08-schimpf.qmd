@@ -243,6 +243,10 @@ d_train |>
 ```
 
 
+Aufgabenname: `germeval08-schimpf`
+
+
+
 
 ---
 

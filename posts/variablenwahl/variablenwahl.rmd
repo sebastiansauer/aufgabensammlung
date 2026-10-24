@@ -27,6 +27,10 @@ Solution
 Gelman empfiehlt unter anderem, mutmaßliche Ursachen aufzunehmen.
 Zudem sind UVs mit präzisen Schätzungen (kleines CI) für die Güte förderlich.
 
+
+Aufgabenname: `variablenwahl`
+
+
 Answerlist
 ----------
 * Richtig

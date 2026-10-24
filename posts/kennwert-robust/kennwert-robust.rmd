@@ -35,6 +35,10 @@ Solution
 ========
 
 
+Aufgabenname: `kennwert-robust`
+
+
+
 Answerlist
 ----------
 * Wahr

@@ -63,6 +63,10 @@ mit der Begründung, dass dies biologisch fundiert ist.
 Allerdings lässt `stan_glm()` nur normalverteilte Prior in diesem Fall zu.
 
 
+Aufgabenname: `priorwahl2`
+
+
+
 Answerlist
 ----------
 

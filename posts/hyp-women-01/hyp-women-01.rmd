@@ -114,6 +114,10 @@ Die Wahrscheinlichkeit, dass $\mu_M > \mu_F$ liegt bei `r round(sol, 2)`,
 laut unserem Modell.
 
 
+Aufgabenname: `hyp-women-01`
+
+
+
 
 
 Meta-information

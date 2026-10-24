@@ -87,3 +87,7 @@ d |> ggscatter(x = "flipper_length_mm", "body_mass_g")
 d |> ggscatter(x = "bill_depth_mm", "body_mass_g")
 ```
 
+
+Aufgabenname: `penguins-vis-bodymass1`
+
+

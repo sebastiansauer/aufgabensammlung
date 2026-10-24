@@ -185,3 +185,7 @@ Wir können daraus schließen, dass die Zufallszuteilung (Randomisierung) nicht 
 
 
 Anders gesagt verwerfen wir die (Null-)Hypothese einer zufälligen Zuteilung zu den Gruppen.
+
+
+Aufgabenname: `wikipedia`
+

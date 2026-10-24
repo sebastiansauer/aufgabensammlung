@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwendet den falschen Schwellenwert ($q=4$ statt $q=3$) und schließt damit den Fall "genau 4 Server laufen" fälschlich in die Ausfallwahrscheinlichkeit mit ein, obwohl bei 4 laufenden Servern der Betrieb laut Aufgabenstellung gerade noch aufrechterhalten werden kann.
 * Die fünfte Option berechnet naiv einen einfachen Bruch ($4/6$) ohne jeden Bezug zur Binomialverteilung oder zur gegebenen Ausfallwahrscheinlichkeit pro Server.
 
+
+Aufgabenname: `binomialverteilung-serverfarm-schoice`
+
+
 Answerlist
 ----------
 * Wahr

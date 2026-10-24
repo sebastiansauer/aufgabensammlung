@@ -61,6 +61,10 @@ $Pr(K|T) \ne Pr(T|K)$.
 $Pr(K|T)$ ist nicht nur von der Sicherheit des Tests abhängig, sondern auch von der Grundrate.
 
 
+Aufgabenname: `wskt-quiz06`
+
+
+
 Answerlist
 ----------
 

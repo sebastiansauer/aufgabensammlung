@@ -109,6 +109,10 @@ Es wäre ein fataler Fehler, nähme man den Mediator `Cholestorol` mit auf:
 `arrest ~ smoking + cholestorol`. ⛈️🛑
 
 
+Aufgabenname: `kausal04`
+
+
+
 
 
 

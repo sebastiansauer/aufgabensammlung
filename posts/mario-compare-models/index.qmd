@@ -110,5 +110,9 @@ ggscatter(mariokart |> filter(total_pr < 100),
 ```
 
 
+Aufgabenname: `mario-compare-models`
+
+
+
 
 

@@ -243,6 +243,10 @@ Wie viele Punkte hat man nach diesem Modell, wenn man 20 Stunden lernt?
 Antwort: $\hat{y}=7 + 0.5*20 = 7 + 10 = 17$. 
 
 
+Aufgabenname: `regression1a`
+
+
+
 
 
 

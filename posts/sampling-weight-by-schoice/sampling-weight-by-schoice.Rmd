@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwechselt `weight_by` mit dem Argument `n`: Die Anzahl der gezogenen Stichproben wird über `n = 1e4` festgelegt, nicht über `weight_by`.
 * Die fünfte Option erkennt zwar richtig, dass `replace = TRUE` mehr als 11 Ziehungen aus 11 Gitterwerten ermöglicht, unterschätzt aber dessen eigentliche inhaltliche Bedeutung: Ohne Zurücklegen würden sich die Ziehungswahrscheinlichkeiten der verbleibenden Werte mit jeder Ziehung verändern, was die Gewichtung nach `post` verzerren würde -- `replace = TRUE` ist also nicht nur eine technische Notwendigkeit, sondern inhaltlich wichtig für eine korrekte Annäherung an die Post-Verteilung.
 
+
+Aufgabenname: `sampling-weight-by-schoice`
+
+
 Answerlist
 ----------
 * Wahr

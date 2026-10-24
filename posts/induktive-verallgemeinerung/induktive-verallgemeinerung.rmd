@@ -23,6 +23,10 @@ Solution
 Beim Vorliegen von mindestens einem Fall $P(x)$ wird gefolgert, dass in allen Fällen $P(x)$ gilt.
 
 
+Aufgabenname: `induktive-verallgemeinerung`
+
+
+
 
 Answerlist
 ----------

@@ -91,6 +91,10 @@ Die Parameterwerte von `m3` zeigen, dass ein Interaktionseffekt nicht bestätigt
 bzw. dass die Null, also keine Interaktion, im Bereich plausibler Werte (d. h. innerhalb des Konfidenzintervalls) liegt.
 
 
+Aufgabenname: `fofrage-regrformel2-schoice`
+
+
+
 Answerlist
 ----------
 * True

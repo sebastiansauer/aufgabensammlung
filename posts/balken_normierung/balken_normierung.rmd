@@ -26,6 +26,10 @@ Solution
 ========
 Nur durch die Normierung auf 100 % lassen sich die Verhältnisse (Anteile) zwischen Gruppen optisch direkt vergleichen.
 
+
+Aufgabenname: `balken_normierung`
+
+
 Answerlist
 ----------
 * Richtig

@@ -83,6 +83,10 @@ p + transition_reveal(Day)
 Dieser Post orientiert sich an [dieser Quelle](https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/); dort finden sich auch mehr Beispiele.
 
 
+Aufgabenname: `anim03`
+
+
+
 
 ---
 

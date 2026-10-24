@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option widerspricht dem Konzept der *minimalen* Adjustierungsmenge: Es reicht (und ist oft vorzuziehen), eine möglichst *kleine* Menge zu kontrollieren, die alle Hintertüren schließt -- nicht zwangsläufig alle im DAG vorkommenden Variablen (mehr zu kontrollieren als nötig kann sogar neue Probleme wie Kollisionsverzerrung erzeugen).
 * Die fünfte Option ergibt keinen Sinn im Rahmen der Hintertür-Logik: Man kontrolliert Drittvariablen, um Verzerrungen des Effekts der UV auf die AV zu vermeiden -- die AV selbst zu "kontrollieren" widerspricht dem Ziel, gerade ihren Zusammenhang mit der UV zu schätzen.
 
+
+Aufgabenname: `doppelte-konfundierung-adjustment-set-schoice`
+
+
 Answerlist
 ----------
 * Wahr

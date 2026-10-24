@@ -63,6 +63,10 @@ dunif(x = 1, min = 0, max = 2)
 ```
 
 
+Aufgabenname: `wskt-quiz10`
+
+
+
 
 Answerlist
 ----------

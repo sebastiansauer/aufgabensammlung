@@ -54,6 +54,10 @@ Solution
 ========
 
 
+Aufgabenname: `ziele-statistik`
+
+
+
 Answerlist
 ----------
 

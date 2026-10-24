@@ -138,6 +138,10 @@ Verwechslung mit der Likelihood $Pr(t|g)=0.9$ (Base-Rate-Neglect),
 Verwechslung mit dem Prior $Pr(g)=0.01$, das Komplement $1-Pr(g|t)$, sowie die falsch-positiv-Rate $1-Pr(t|g)=0.1$.
 
 
+Aufgabenname: `genial-schoice`
+
+
+
 Answerlist
 ----------
 * True

@@ -28,6 +28,10 @@ Solution
 Man geht heute davon aus, dass Gedächtnisrepräsentationen von Objekten nicht modalitätsspezifisch sind.
 
 
+Aufgabenname: `modalitaetsspezifisch`
+
+
+
 
 
 

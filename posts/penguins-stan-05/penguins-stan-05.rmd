@@ -129,6 +129,10 @@ sol <- sol_raw$CI_high - sol_raw$CI_low
 Die Lösung lautet also, wie in der Ausgabe zu den Parametern ersichtlich, `r round(sol, 2)`.
 
 
+Aufgabenname: `penguins-stan-05`
+
+
+
 
 
 ---

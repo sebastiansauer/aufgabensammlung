@@ -94,6 +94,10 @@ die der z-Wert beantwortet:
 $z_i = \frac{x_i - \bar{X}}{sd(x)}$
 
 
+Aufgabenname: `iq02a`
+
+
+
 
 
 

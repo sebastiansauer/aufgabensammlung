@@ -108,6 +108,10 @@ Solution
 ========
 
 
+Aufgabenname: `diamonds-histogramm-vergleich`
+
+
+
 Answerlist
 ----------
 

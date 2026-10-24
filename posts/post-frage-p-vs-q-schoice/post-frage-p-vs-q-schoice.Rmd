@@ -19,6 +19,10 @@ Warum die Distraktoren falsch sind:
 * Die zweite, dritte und vierte Option sind allesamt p-Fragen: Hier ist jeweils der Parameterwert (bzw. -bereich) bereits gegeben (50 %, das Intervall 0,5 bis 0,75, bzw. 90 %), und gesucht ist die zugehörige Wahrscheinlichkeit -- also genau umgekehrt zur q-Frage.
 * Die fünfte Option ist ebenfalls eine p-Frage in Verkleidung: Auch hier ist der Parameterwert (0,5) fest vorgegeben, und gesucht ist ein Anteil (eine Wahrscheinlichkeit) -- lediglich die Formulierung über "Anteil der Stichproben" statt "Wahrscheinlichkeit" könnte hier täuschen, inhaltlich bleibt es aber eine p-Frage.
 
+
+Aufgabenname: `post-frage-p-vs-q-schoice`
+
+
 Answerlist
 ----------
 * Wahr

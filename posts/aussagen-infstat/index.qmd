@@ -88,3 +88,7 @@ Hinweise:
 
 **A**
 
+
+Aufgabenname: `aussagen-infstat`
+
+

@@ -82,6 +82,10 @@ dass ein bestimmtes Phänomen Fat-Tails zeigt!
 - [Kapitelmarkt](https://www.nasdaq.com/articles/fat-tail-risk-what-it-means-and-why-you-should-be-aware-it-2015-11-02)
 
 
+Aufgabenname: `fat-tails-artikel`
+
+
+
 
 ---
 

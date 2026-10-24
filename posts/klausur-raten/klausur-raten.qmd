@@ -108,6 +108,10 @@ sol_tol <- 0.025
 ```
 
 
+Aufgabenname: `klausur-raten`
+
+
+
 ---
 
 Aufgaben-ID: Klausur-raten, Toleranzbreite: `r sol_tol`

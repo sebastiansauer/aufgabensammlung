@@ -53,6 +53,10 @@ Dieses Diagramm gibt einen nützlichen Überblick:
 
 [Quelle](https://r4ds.had.co.nz/transform.html#logical-operators)
 
+
+Aufgabenname: `wrangle6`
+
+
 Answerlist
 ----------
 

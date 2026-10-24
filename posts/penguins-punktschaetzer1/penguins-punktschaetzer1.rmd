@@ -82,6 +82,10 @@ solange man nur den Absolutbetrag, die "Distanz" oder "Breite" des Intervalls be
 
 Bitte immer den Absolutbetrag angeben in diesem Fall.
 
+
+Aufgabenname: `penguins-punktschaetzer1`
+
+
 Meta-information
 ================
 exname: penguins-punktschaetzer1

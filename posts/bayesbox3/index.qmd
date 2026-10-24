@@ -181,3 +181,7 @@ ggline(d, x = "p", y = "Post",
        add = c("point", "smooth"))
 ```
 
+
+Aufgabenname: `bayesbox3`
+
+

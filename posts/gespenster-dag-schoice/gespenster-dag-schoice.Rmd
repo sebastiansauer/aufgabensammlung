@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option widerspricht der Prämisse: $U$ ist per Definition eine *ungemessene* (unbekannte) Variable -- man kann eine Variable, die man nicht beobachtet hat, nicht in ein Regressionsmodell aufnehmen.
 * Die fünfte Option beschreibt keinen im Kapitel genannten Grund und ist sachlich unbegründet -- das Fehlen eines direkten Pfeils zwischen zwei bestimmten Variablen macht einen DAG nicht per se "unheilbar".
 
+
+Aufgabenname: `gespenster-dag-schoice`
+
+
 Answerlist
 ----------
 * Wahr

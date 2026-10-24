@@ -149,6 +149,10 @@ Solution
 Das Histogramm ``r d$plot_id[d$is_correct == TRUE]`` zeigt die Eigenschaft $`r sol`$ am deutlichsten.
 
 
+Aufgabenname: `schiefe-erkennen2`
+
+
+
 ```{r solutionlist, echo = FALSE, results = "asis"}
 exams::answerlist(ifelse(d$is_correct, "Wahr", "Falsch"), markup = "markdown")
 ```

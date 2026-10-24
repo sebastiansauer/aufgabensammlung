@@ -25,6 +25,10 @@ Solution
 ========
 Der Dollar-Operator trennt den Namen der Tabelle vom Namen der gewünschten Spalte (Tabelle$Spalte).
 
+
+Aufgabenname: `dollar_operator`
+
+
 Answerlist
 ----------
 * Richtig

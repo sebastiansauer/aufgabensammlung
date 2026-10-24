@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option zieht das falsche Kriterium heran: Ob $A \cup C = \Omega$ gilt (Vollständigkeit der Zerlegung) ist eine andere Frage als die nach der Disjunktheit ($A \cap C = \emptyset$). Beide Eigenschaften sind unabhängig voneinander zu prüfen.
 * Die fünfte Option ist falsch, weil Disjunktheit eine rein mengentheoretische Eigenschaft ist (überschneiden sich die Mengen der Elementarereignisse oder nicht?) und keine Kenntnis von Wahrscheinlichkeiten erfordert.
 
+
+Aufgabenname: `disjunkte-ereignisse-schoice`
+
+
 Answerlist
 ----------
 * Wahr

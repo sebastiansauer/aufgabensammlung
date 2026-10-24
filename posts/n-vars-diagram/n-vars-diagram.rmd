@@ -83,6 +83,10 @@ sol <- 5
 ```
 
 
+Aufgabenname: `n-vars-diagram`
+
+
+
 
 
 ---

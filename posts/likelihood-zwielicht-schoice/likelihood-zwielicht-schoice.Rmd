@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwendet einen anderen Parameterwert ($\pi=0{,}8$ statt der hier gefragten Hypothese $\pi=0{,}5$) und beantwortet damit eine andere Frage.
 * Die fünfte Option verwendet den falschen Stichprobenumfang ($N=10$ statt der tatsächlichen $N=12$ Würfe) -- die Likelihood muss sich immer auf die tatsächlich durchgeführte Anzahl an Versuchen beziehen.
 
+
+Aufgabenname: `likelihood-zwielicht-schoice`
+
+
 Answerlist
 ----------
 * Wahr

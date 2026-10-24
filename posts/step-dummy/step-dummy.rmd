@@ -123,6 +123,10 @@ str(d_baked2)
 ```
 
 
+Aufgabenname: `step-dummy`
+
+
+
 
 Answerlist
 ----------

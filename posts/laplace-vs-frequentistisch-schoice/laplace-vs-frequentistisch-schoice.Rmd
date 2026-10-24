@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Dass der innere Mechanismus unbekannt ist, verhindert nicht, überhaupt eine Wahrscheinlichkeit zu schätzen -- genau dafür ist die frequentistische Definition gedacht (Schätzen durch Beobachtung/Wiederholung), auch ohne Kenntnis des Mechanismus.
 * Die Kolmogorov-Axiome legen lediglich formale *Eigenschaften* fest, die Wahrscheinlichkeiten erfüllen müssen (Nichtnegativität, Normierung, Additivität); sie liefern aber keine Methode, um aus dem Nichts einen konkreten Zahlenwert für eine unbekannte Wahrscheinlichkeit zu berechnen.
 
+
+Aufgabenname: `laplace-vs-frequentistisch-schoice`
+
+
 Answerlist
 ----------
 * Wahr

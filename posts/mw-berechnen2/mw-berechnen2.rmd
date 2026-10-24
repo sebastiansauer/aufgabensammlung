@@ -74,6 +74,10 @@ mean(zahlenreihe)
 *Antwort*: Der Mittelwert liegt bei `r sol`.
 
 
+Aufgabenname: `mw-berechnen2`
+
+
+
 
 
 

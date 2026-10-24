@@ -91,6 +91,10 @@ sol <- exams::fmt(25.688, digits = 1)
 **Lösung:** `r sol`. 
 
 
+Aufgabenname: `mariokart-sd2`
+
+
+
 
 
 

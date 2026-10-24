@@ -100,6 +100,10 @@ write_csv(d_subm, file = "einreichen-kaggle-modell1-yeah.csv")
 ```
 
 
+Aufgabenname: `ames-kaggle1`
+
+
+
 
 
 

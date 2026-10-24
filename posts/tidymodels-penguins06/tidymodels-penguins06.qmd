@@ -201,6 +201,10 @@ collect_metrics(lastfit2)
 ```
 
 
+Aufgabenname: `tidymodels-penguins06`
+
+
+
 
 Meta-information
 ================

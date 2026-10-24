@@ -209,6 +209,10 @@ g_paths
 Offenen Pfade sind der/die Pfad/e mit der/den Nummer/n: `r which(g_paths$open)`.
 
 
+Aufgabenname: `_kausal11`
+
+
+
 
 
 ```{r, echo = FALSE, results = "asis"}

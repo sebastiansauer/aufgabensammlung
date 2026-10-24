@@ -98,6 +98,10 @@ extra |>
 ```
 
 
+Aufgabenname: `rowmeans-groupby-summarise`
+
+
+
 
 
 

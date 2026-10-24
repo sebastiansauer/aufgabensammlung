@@ -25,6 +25,10 @@ Solution
 ========
 Ein Residuum beschreibt den „Rest“ oder Fehler, also die Abweichung eines beobachteten Werts vom Modellwert [3, 4].
 
+
+Aufgabenname: `residuum_definition`
+
+
 Answerlist
 ----------
 * Falsch

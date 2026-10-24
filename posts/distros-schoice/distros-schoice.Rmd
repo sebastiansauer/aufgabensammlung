@@ -470,6 +470,10 @@ Solution
 Bildquelle: Coded by Rasmus Bååth, rasmus.baath@lucs.lu.se, www.sumsar.net
 
 
+Aufgabenname: `distros-schoice`
+
+
+
 Answerlist
 ----------
 * True

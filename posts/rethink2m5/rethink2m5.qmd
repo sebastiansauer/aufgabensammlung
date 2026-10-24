@@ -127,6 +127,10 @@ The second Bayes Box yields the same probability as the first, which is reassuri
 However, it feels a bit akward (at least to me) to write down the same hypothesis twice.
 
 
+Aufgabenname: `rethink2m5`
+
+
+
 
 
 ---

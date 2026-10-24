@@ -77,6 +77,10 @@ ggline(d, x = "p", y = "posterior",
 [Quelle](https://sr2-solutions.wjakethompson.com/bayesian-inference.html#chapter-3)
 
 
+Aufgabenname: `rethink3m1`
+
+
+
 Meta-information
 ================
 extype: string

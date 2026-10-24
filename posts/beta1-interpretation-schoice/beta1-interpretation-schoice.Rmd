@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwechselt wiederum $\beta_1$ mit $\beta_0$: Die vorhergesagte Größe bei `weight_c = 0` wird durch den Achsenabschnitt $\beta_0$ angegeben, nicht durch die Steigung $\beta_1$.
 * Die fünfte Option verwechselt den Regressionskoeffizienten $\beta_1$ mit dem Korrelationskoeffizienten $r$ -- beide messen zwar verwandte Aspekte des Zusammenhangs, sind aber unterschiedliche Kennzahlen mit unterschiedlichen Einheiten und Wertebereichen ($r$ liegt zwischen $-1$ und $1$, $\beta_1$ kann beliebige Werte in der Einheit von AV/UV annehmen).
 
+
+Aufgabenname: `beta1-interpretation-schoice`
+
+
 Answerlist
 ----------
 * Wahr

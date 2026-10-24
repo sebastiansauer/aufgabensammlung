@@ -90,6 +90,10 @@ sollte man so früh wie möglich darüber deutlich informiert werden
 (und nicht erst, wenn die Marsrakete gestartet ist...).
 
 
+Aufgabenname: `mwberechnen`
+
+
+
 
 
 

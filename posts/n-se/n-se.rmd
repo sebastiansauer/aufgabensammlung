@@ -35,6 +35,10 @@ Solution
 *Falsch*: Ab einer Größe von $n=30$ sind Stichproben robust und ausreichend präzise Schätzer für den gesuchten Populationsparameter.
 
 
+Aufgabenname: `n-se`
+
+
+
 
 
 Meta-information

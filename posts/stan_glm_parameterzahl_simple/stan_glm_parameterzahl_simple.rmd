@@ -84,5 +84,9 @@ sol <- 6
 `r sol`.
 
 
+Aufgabenname: `stan_glm_parameterzahl_simple`
+
+
+
 
 

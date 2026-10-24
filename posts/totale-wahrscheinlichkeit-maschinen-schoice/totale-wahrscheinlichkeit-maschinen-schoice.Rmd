@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option wählt einfach die höchste Einzel-Ausschussquote (die von $M_2$) aus und ignoriert dabei vollständig die Produktionsanteile sowie die Beiträge der anderen beiden Maschinen.
 * Die fünfte Option multipliziert alle sechs Werte miteinander -- das entspricht keiner sinnvollen Formel der Wahrscheinlichkeitsrechnung für dieses Problem und liefert eine verschwindend kleine, nicht plausible Zahl.
 
+
+Aufgabenname: `totale-wahrscheinlichkeit-maschinen-schoice`
+
+
 Answerlist
 ----------
 * Wahr

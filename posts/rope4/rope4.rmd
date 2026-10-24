@@ -199,6 +199,10 @@ plot(rope(m1))
 ```
 
 
+Aufgabenname: `rope4`
+
+
+
 
 Answerlist
 ----------

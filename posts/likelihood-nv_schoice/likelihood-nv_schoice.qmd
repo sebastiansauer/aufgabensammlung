@@ -38,6 +38,10 @@ pnorm(115, mean = 100, sd = 15)
 
 Die gesuchte Wahrscheinlichkeit beträgt ca. 0.84, also ca. 84 %. Der Wert 115 liegt genau eine Standardabweichung über dem Mittelwert.
 
+
+Aufgabenname: `likelihood-nv_schoice`
+
+
 Answerlist
 ----------
 

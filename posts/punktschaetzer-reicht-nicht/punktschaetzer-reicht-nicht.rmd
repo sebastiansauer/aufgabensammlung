@@ -89,6 +89,10 @@ Welches der beiden Modelle ist zu bevorzugen? Begründen Sie.
 Modell `m1` hat eine *kleinere* Ungewissheit im Hinblick auf die Modellkoeffiziente $\beta_0, \beta_1$ und ist daher gegenüber `m2` zu bevorzugen.
 
 
+Aufgabenname: `punktschaetzer-reicht-nicht`
+
+
+
 
 
 

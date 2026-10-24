@@ -64,6 +64,10 @@ b) Für (grundsätzlich) alle: Die Methoden der Inferenzstatistik sind prinzipie
 c) In einigen Ausnahmefällen wird man auf eine Inferenzstatistik verzichten. Etwa wenn man bereits eine Vollerhebung durchgeführt hat, z.B. alle Mitarbeitis eines Unternehmens befragt hat, dann kennt man ja bereits den wahren Populationswert. Ein anderer Fall ist, wenn man nicht an Verallgemeinerungen interessiert ist: Kennt man etwa die Überlebenschance $p$ des Titanic-Unglücks, so ist es fraglich auf welche Grundgesamtheit man die Statistik $p$ bzw. zu welchem Parameter $\pi$ (kleines Pi) man generalisieren möchte.
 
 
+Aufgabenname: `inferenz-fuer-alle`
+
+
+
 
 
 ---

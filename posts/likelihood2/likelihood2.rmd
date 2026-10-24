@@ -73,6 +73,10 @@ Wir sehen: Je mehr Wahrscheinlichkeiten ("Anteile") man multipliziert,
 desto kleiner (näher an Null) das resultierende Produkt.
 
 
+Aufgabenname: `likelihood2`
+
+
+
 
 Answerlist
 ----------

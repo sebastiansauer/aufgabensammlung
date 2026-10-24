@@ -26,6 +26,10 @@ Solution
 Daten in der echten Welt sind selten "sauber".
 Das Aufbereiten, Bereinigen und Umformen ist der zeitintensivste Teil der Datenanalyse.
 
+
+Aufgabenname: `praxis_datenjudo`
+
+
 Answerlist
 ----------
 * Richtig

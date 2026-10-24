@@ -85,6 +85,10 @@ sol <- "Alter ist sowohl die Ursache von Haarausfall (bei Männern) als auch von
 `r sol`
 
 
+Aufgabenname: `kausal_corona_glatze`
+
+
+
 
 ---
 

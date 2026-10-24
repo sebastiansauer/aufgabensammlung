@@ -221,6 +221,10 @@ Das Diagramm sieht nicht gerade vertrauenserweckend aus...
 Zu viel Ungewissheit in unserem Modell.
 
 
+Aufgabenname: `logist-bayes-mtcars4`
+
+
+
 Meta-information
 ================
 extype: num

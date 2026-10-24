@@ -77,3 +77,7 @@ Pfad3 <- 17/20 * 16/19 * 3/18
 Gesamt_Pr <- Pfad1 + Pfad2 + Pfad3
 Gesamt_Pr
 ```
+
+
+Aufgabenname: `bertie-bott3`
+

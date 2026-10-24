@@ -42,6 +42,10 @@ sol <- c("Modus tollens", "Modus Tollens", "modus tollens", "Modus Tolens", "Mod
 `r sol`
 
 
+Aufgabenname: `deduktion`
+
+
+
 Meta-information
 ================
 extype: cloze

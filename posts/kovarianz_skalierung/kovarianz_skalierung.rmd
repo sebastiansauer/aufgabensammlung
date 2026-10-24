@@ -29,6 +29,10 @@ Solution
 Die Kovarianz ist abhängig von der Skalierung der Variablen.
 Da das Einkommen nun mit dem Faktor 100 multipliziert wird, steigt auch die Kovarianz an, während die Korrelation (r) skaleninvariant bleibt.
 
+
+Aufgabenname: `kovarianz_skalierung`
+
+
 Answerlist
 ----------
 * Richtig

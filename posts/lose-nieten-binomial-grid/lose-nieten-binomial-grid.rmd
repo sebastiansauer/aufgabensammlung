@@ -179,6 +179,10 @@ d5 %>%
 Der Modus und andere Maße der zentralen Tendenz bleiben gleich; die Streuung wird geringer.
 
 
+Aufgabenname: `lose-nieten-binomial-grid`
+
+
+
 
 
 ---

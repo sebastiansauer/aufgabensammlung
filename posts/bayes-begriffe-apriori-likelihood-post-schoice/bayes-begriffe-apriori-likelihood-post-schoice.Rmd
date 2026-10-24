@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option vertauscht die Reihenfolge der Bedingung: $Pr(H|D)$ ist die *Aposteriori*-Wahrscheinlichkeit, nicht die Likelihood -- Likelihood und Aposteriori-Wahrscheinlichkeit sind bedingte Wahrscheinlichkeiten mit vertauschten Ereignissen und im Allgemeinen nicht gleich.
 * Die fünfte Option widerspricht dem gesamten Sinn des Bayes-Updates: Gerade weil neue Daten das Vorwissen aktualisieren, unterscheiden sich Apriori- und Aposteriori-Verteilung in aller Regel -- außer im Sonderfall, dass die Likelihood für alle Hypothesen exakt gleich ist.
 
+
+Aufgabenname: `bayes-begriffe-apriori-likelihood-post-schoice`
+
+
 Answerlist
 ----------
 * Wahr

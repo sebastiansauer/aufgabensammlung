@@ -52,6 +52,10 @@ Solution
 ========
 
 
+Aufgabenname: `nullhyp-beispiel`
+
+
+
 Answerlist
 ----------
 

@@ -46,6 +46,10 @@ Solution
 Eine Statistik (statistic) ist ein Kennwert,  der in der Stichprobe berechnet wird.
 
 
+Aufgabenname: `stichprobenmethoden`
+
+
+
 Answerlist
 ----------
 

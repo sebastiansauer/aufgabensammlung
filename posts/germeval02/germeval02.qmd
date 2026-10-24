@@ -328,6 +328,10 @@ head(d)
 Insgesamt ist die Sentimentanalyse relativ rechenintensiv.
 
 
+Aufgabenname: `germeval02`
+
+
+
 
 ---
 

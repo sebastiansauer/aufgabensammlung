@@ -266,6 +266,10 @@ B: "Nope, mein Vorgehen ist in Wirklichkeit das Beste. Zumindest wenn ich von *j
 C: "Kann ja alles sein, aber mein Vorgehen hat am meisten Spaß gemacht. Übrigens B, deine neue Idee müsste man mal untersuchen. Wollen wir zwei uns das mal zusammen anschauen, nur wir zwei?"
 
 
+Aufgabenname: `samples-nyc`
+
+
+
 
 
 

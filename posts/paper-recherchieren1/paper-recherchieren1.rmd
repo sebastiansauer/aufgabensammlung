@@ -141,6 +141,10 @@ papers_sample %>%
 
 Richtige Lösung:
 
+
+Aufgabenname: `paper-recherchieren1`
+
+
 ```{r solutionlist, echo = FALSE, results = "asis"}
 answerlist(ifelse(papers_sample$selected, "Wahr", "Falsch"), markup = "markdown")
 ```

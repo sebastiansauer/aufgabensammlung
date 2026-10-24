@@ -69,6 +69,10 @@ Solution
 
 Es sollen zwei Plots gezeichnet werden (daher `+`).
 
+
+Aufgabenname: `post1`
+
+
 Answerlist
 ----------
 

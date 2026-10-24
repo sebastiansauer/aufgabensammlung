@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwechselt *statistische* Signifikanz mit *praktischer* Bedeutsamkeit. Gerade weil auch sehr kleine, praktisch irrelevante Effekte bei großen Stichproben signifikant werden können, ist diese Gleichsetzung eine der häufigsten Fehlinterpretationen, vor der das Kapitel warnt.
 * Die fünfte Option begeht den Fehlschluss "Abwesenheit von Evidenz ist Evidenz für Abwesenheit": Ein nicht-signifikantes Ergebnis, insbesondere bei kleiner Stichprobe (und entsprechend geringer Power), zeigt lediglich, dass der Nullwert nicht ausgeschlossen werden konnte -- es ist kein Beweis, dass kein Effekt existiert.
 
+
+Aufgabenname: `signifikanz-stichprobengroesse-schoice`
+
+
 Answerlist
 ----------
 * Wahr

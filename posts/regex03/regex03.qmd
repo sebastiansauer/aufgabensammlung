@@ -85,6 +85,10 @@ str_match(x, "[^\\s]+")[ , 1]
 ```
 
 
+Aufgabenname: `regex03`
+
+
+
 
 
 

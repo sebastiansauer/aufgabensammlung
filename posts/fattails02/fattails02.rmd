@@ -144,6 +144,10 @@ d
 Die Wahrscheinlichkeit, dass die Variable normalverteilt ist, ist seeeeehr klein, ca. $10^{-18}$.
 
 
+Aufgabenname: `fattails02`
+
+
+
 Answerlist
 ----------
 * FALSE

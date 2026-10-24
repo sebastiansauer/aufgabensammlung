@@ -219,6 +219,10 @@ Und dann liest man einfach den gesuchten Wert von der Ausgabe an.
 Der Medianwert des Modellkoeffizienten wird auf ``r sol`` geschätzt.
 
 
+Aufgabenname: `post2-md-post`
+
+
+
 
 ```{r sollist, echo = FALSE, results = "asis"}
 answerlist(ifelse(sol_df$solutions, "Richtig", "Falsch"), markup = "markdown")

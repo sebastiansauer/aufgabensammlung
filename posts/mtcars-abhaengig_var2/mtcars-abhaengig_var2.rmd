@@ -221,6 +221,10 @@ Das macht intuitiv Sinn.
 Der gesuchte Wert beträgt also `1`. 
 
 
+Aufgabenname: `mtcars-abhaengig_var2`
+
+
+
 
 
 

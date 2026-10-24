@@ -136,6 +136,10 @@ predict(wf1_fit, new_data = d) %>%
 Man beachte: Für regulierte Modelle sind Zentrierung und Skalierung nötig.
 
 
+Aufgabenname: `tidymodels-lasso2`
+
+
+
 
 ---
 

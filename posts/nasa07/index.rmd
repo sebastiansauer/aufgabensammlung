@@ -179,6 +179,10 @@ ggscatter(d_summarized, x = "decade", y = "temp_sd", add = "reg.line")
 Falls Sie Teile der R-Syntax nicht kennen: Machen Sie sich nichts daraus.  😄
 
 
+Aufgabenname: `nasa07`
+
+
+
 
 
 

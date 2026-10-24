@@ -31,6 +31,10 @@ Solution
 
 D: Es bleiben nur die Zeilen übrig, die in *keiner* der beiden Tabellen vorkommen.
 
+
+Aufgabenname: `antijoin`
+
+
 Meta-information
 ================
 extype: schoice

@@ -155,3 +155,7 @@ sol <- prop |> filter(`PS >= 0` == TRUE) |> pull(prop) |> round(2)
 ### Antwort
 
 Laut unserem Modell beträgt die Wahrscheinlichkeit für obige Hypothese `r sol`.
+
+
+Aufgabenname: `wskt-schluckspecht`
+

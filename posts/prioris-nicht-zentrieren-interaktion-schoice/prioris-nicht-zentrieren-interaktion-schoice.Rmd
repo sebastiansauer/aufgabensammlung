@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch: Zentrieren ändert -- wie in einem früheren Kapitel gezeigt -- nichts an den vorhergesagten Werten des Modells, nur an der Interpretierbarkeit der Koeffizienten.
 * Die fünfte Option ist eine unzutreffende Einschränkung: Der im Kapitel gezeigte Problemfall (`hp`) betrifft gerade einen *metrischen* Prädiktor -- die Zentrierungsempfehlung gilt in erster Linie für metrische, nicht für rein nominale Prädiktoren.
 
+
+Aufgabenname: `prioris-nicht-zentrieren-interaktion-schoice`
+
+
 Answerlist
 ----------
 * Wahr

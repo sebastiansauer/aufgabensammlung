@@ -97,6 +97,10 @@ head(d)
 Infos zur Funktion `paste()` findet sich z.B. [hier](https://www.rdocumentation.org/packages/utile.tools/versions/0.2.7/topics/paste).
 
 
+Aufgabenname: `purrr-map01`
+
+
+
 
 
 

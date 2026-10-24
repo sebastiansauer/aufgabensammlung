@@ -150,6 +150,10 @@ karl3 <- search_tweets("to:karl_lauterbach", n = 100)
 Ob man mit `@karl_lauterbach` sucht oder `to:karl_lauterbach", scheint keinen großen Unterschied zu machen (?).
 
 
+Aufgabenname: `twitter01`
+
+
+
 
 
 

@@ -118,6 +118,10 @@ samples %>%
 Die Grenzen des 50%-PI liegen ziemlich nahe an [.6, .8].
 
 
+Aufgabenname: `verteilungen-quiz-02`
+
+
+
 Answerlist
 ----------
 

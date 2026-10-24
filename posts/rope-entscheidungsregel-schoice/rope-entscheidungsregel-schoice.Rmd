@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option vertauscht die Zuordnung genau umgekehrt: Liegt der Großteil *außerhalb* des ROPE, wird die Praktisch-Null-Hypothese *verworfen*, nicht angenommen.
 * Die fünfte Option widerspricht der im Kapitel beschriebenen Voreinstellung: Per Default bezieht sich die Regel auf das *95 %-HDI* der Post-Verteilung (bzw. lässt sich auch auf andere Anteile wie ein 89 %-CI einstellen), nicht zwingend auf 100 % der Post-Verteilung.
 
+
+Aufgabenname: `rope-entscheidungsregel-schoice`
+
+
 Answerlist
 ----------
 * Wahr

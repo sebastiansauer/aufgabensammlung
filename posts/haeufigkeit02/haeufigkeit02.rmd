@@ -75,6 +75,10 @@ Solution
 ========
 
 
+Aufgabenname: `haeufigkeit02`
+
+
+
 
 Answerlist
 ----------

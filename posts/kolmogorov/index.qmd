@@ -59,6 +59,10 @@ Solution
 - **Antwort E** verletzt das erste Kolmogorov-Axiom der Nichtnegativität. Wahrscheinlichkeiten können niemals negative Werte annehmen, unabhängig davon, wie unwahrscheinlich ein Ereignis ist. Die kleinste mögliche Wahrscheinlichkeit ist 0 (unmögliches Ereignis).
 
 
+Aufgabenname: `kolmogorov`
+
+
+
 Answerlist
 ----------
 

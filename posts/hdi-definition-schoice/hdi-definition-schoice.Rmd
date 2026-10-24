@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option widerspricht der Definition und dem im Kapitel gezeigten Beispiel direkt: Ein zentraler Vorteil des HDI gegenüber dem PI ist ja gerade, dass es den wahrscheinlichsten Parameterwert (den Modus) stets enthält.
 * Die fünfte Option ist falsch: Ein HDI lässt sich für *jede* Verteilung berechnen, unabhängig von ihrer Form -- gerade bei schiefen Verteilungen ist es sogar besonders nützlich, weil es dort andere Ergebnisse liefert als das PI.
 
+
+Aufgabenname: `hdi-definition-schoice`
+
+
 Answerlist
 ----------
 * Wahr

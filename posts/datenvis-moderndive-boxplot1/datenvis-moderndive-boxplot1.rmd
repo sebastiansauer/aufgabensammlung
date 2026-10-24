@@ -111,6 +111,10 @@ E)
 - Ozeanien weist die geringste Streuung auf.
 
 
+Aufgabenname: `datenvis-moderndive-boxplot1`
+
+
+
 
 
 Meta-information

@@ -190,6 +190,10 @@ x &= 6.8 / 0.32 \approx 21
 $$
 
 
+Aufgabenname: `logist-bayes-mtcars3`
+
+
+
 
 Meta-information
 ================

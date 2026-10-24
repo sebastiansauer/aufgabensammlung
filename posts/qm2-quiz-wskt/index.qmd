@@ -105,3 +105,7 @@ knitr:
 18. Der allgemeine Multiplikationssatz für Wahrscheinlichkeiten lautet: $P(A \cap B) = P(A) \cdot Pr(B)$. *F*
 
 
+Aufgabenname: `qm2-quiz-wskt`
+
+
+

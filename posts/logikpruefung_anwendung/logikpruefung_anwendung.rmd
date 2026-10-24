@@ -25,6 +25,10 @@ Solution
 ========
 Der Befehl `x <- 5` weist der Variable den Wert 5 zu. Die Prüfung `x == 6` fragt R: "Ist der Inhalt von x gleich 6?". Da dies nicht der Fall ist, ist das Ergebnis der logische Wert `FALSE`.
 
+
+Aufgabenname: `logikpruefung_anwendung`
+
+
 Answerlist
 ----------
 * Falsch

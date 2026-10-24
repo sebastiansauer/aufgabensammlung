@@ -170,6 +170,10 @@ Likelihood für die Daten unter der Annahme einer *fairen* Münze:
 choose(n, (n-k)) * p_fair^(n-k) * (1-p_fair)^(k)
 ```
 
+
+Aufgabenname: `bayes2`
+
+
 ---
 
 Categories: 

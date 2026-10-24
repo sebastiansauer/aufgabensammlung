@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch: Der Interaktionseffekt bleibt im zentrierten Modell (`m10.5`) genauso enthalten wie im unzentrierten Modell (`m10.4`), nur die Interpretation des Achsenabschnitts (und der Haupteffekte bei Referenzwert Null) ändert sich.
 * Die fünfte Option kehrt die im Kapitel gegebene Empfehlung um: Dort wird explizit empfohlen, *metrische* Prädiktoren (wie `mom_iq`) zu zentrieren; bei nominalen Prädiktoren wie `mom_hs` ist eine Zentrierung hingegen für eine einfache Interpretation meist nicht sinnvoll.
 
+
+Aufgabenname: `zentrieren-mit-interaktion-schoice`
+
+
 Answerlist
 ----------
 * Wahr

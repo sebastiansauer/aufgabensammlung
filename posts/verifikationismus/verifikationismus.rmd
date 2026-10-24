@@ -44,6 +44,10 @@ sol <- "Verifikationismus"
 `r sol`
 
 
+Aufgabenname: `verifikationismus`
+
+
+
 Meta-information
 ================
 extype: string

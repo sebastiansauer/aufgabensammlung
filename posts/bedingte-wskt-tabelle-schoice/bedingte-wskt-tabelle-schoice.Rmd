@@ -36,6 +36,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option berechnet stattdessen $Pr(B \mid L) = 70/80$ -- die bedingte Wahrscheinlichkeit für die *Lerner*-Gruppe, nicht für die hier gefragte Gruppe der Nicht-Lerner.
 * Die fünfte Option berechnet $Pr(B) = 76/100$, die *unbedingte* Wahrscheinlichkeit des Bestehens über alle Studierenden hinweg, ohne überhaupt nach der Lerngruppe zu filtern bzw. zu bedingen.
 
+
+Aufgabenname: `bedingte-wskt-tabelle-schoice`
+
+
 Answerlist
 ----------
 * Wahr

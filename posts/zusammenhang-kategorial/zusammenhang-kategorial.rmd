@@ -43,6 +43,10 @@ Solution
 ========
 Es lässt auf einen Zusammenhang zwischen Passagierklasse und Überleben schließen.
 
+
+Aufgabenname: `zusammenhang-kategorial`
+
+
 Answerlist
 ----------
 * Falsch

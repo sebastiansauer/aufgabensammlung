@@ -29,6 +29,11 @@ Answerlist
 * Heatmaps sind insgesamt eine wenig geeignete Form der Datenanalyse
 
 
+Solution
+========
+
+Aufgabenname: `heatmap-mosaic`
+
 
 Meta-information
 ================

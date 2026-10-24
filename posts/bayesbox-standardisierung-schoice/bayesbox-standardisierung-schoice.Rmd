@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ignoriert, dass eine Standardisierung überhaupt nötig ist: Der unstandardisierte Post-Wert ist erst nach Division durch die Evidenz eine echte (auf 1 normierte) Wahrscheinlichkeit.
 * Die fünfte Option berechnet das Komplement ($1-0{,}05$), was inhaltlich nichts mit der Standardisierung anhand der Evidenz zu tun hat.
 
+
+Aufgabenname: `bayesbox-standardisierung-schoice`
+
+
 Answerlist
 ----------
 * Wahr

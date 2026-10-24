@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwechselt ebenfalls beide Konzepte genau umgekehrt: $F(x)$ liefert eine *Wahrscheinlichkeit* (zwischen 0 und 1), keinen Wert auf der X-Achse.
 * Die fünfte Option ist falsch: Sowohl Quantile als auch Verteilungsfunktionen sind für diskrete *und* stetige Verteilungen definiert (wenn auch mit leicht unterschiedlichen technischen Details bei diskreten Verteilungen).
 
+
+Aufgabenname: `quantil-verteilungsfunktion-unterschied-schoice`
+
+
 Answerlist
 ----------
 * Wahr

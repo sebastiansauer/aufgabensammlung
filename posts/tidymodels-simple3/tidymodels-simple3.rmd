@@ -72,6 +72,10 @@ sol <-
 
 **Lösung**: `r exams::fmt(sol)`.
 
+
+Aufgabenname: `tidymodels-simple3`
+
+
 Meta-information
 ================
 

@@ -253,6 +253,10 @@ Wie wir sehen, wirkt sich die Zentrierung nur (günstig) auf den Achsenabschnitt
 aber nicht auf den Standardfehler des Regressionskoeffizienten.
 
 
+Aufgabenname: `bangladesh2`
+
+
+
 
 
 Meta-information

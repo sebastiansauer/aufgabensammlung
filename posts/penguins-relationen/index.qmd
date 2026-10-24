@@ -249,3 +249,7 @@ sollten nur Tiere ohne fehlende Werte in diesen Spalten betrachtet werden.
 ```{r}
 penguins_nona <- penguins |> drop_na(body_mass_g, sex)
 ```
+
+
+Aufgabenname: `penguins-relationen`
+

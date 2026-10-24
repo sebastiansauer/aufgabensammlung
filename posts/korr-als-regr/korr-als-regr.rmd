@@ -145,6 +145,10 @@ d) Ja; die Zahl "3.81e-14" bezeichnet eine positive Zahl kleiner eins mit
 Der "Unsicherheitskorridor" reicht von etwa 0.87 bis 0.97.
 
 
+Aufgabenname: `korr-als-regr`
+
+
+
 
 
 ---

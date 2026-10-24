@@ -15,6 +15,10 @@ Solution
 ========
 $\forall  x: x \Rightarrow y$
 
+
+Aufgabenname: `schlussarten-deduktion-formel`
+
+
 Answerlist
 ----------
 * Falsch

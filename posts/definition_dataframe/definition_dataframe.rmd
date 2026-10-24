@@ -25,6 +25,10 @@ Solution
 ========
 Ein Dataframe ist das Standardformat für Tabellen in R. Er besteht aus Spalten (Vektoren), die alle dieselbe Länge aufweisen müssen, wodurch die Tabelle „rechteckig“ ist.
 
+
+Aufgabenname: `definition_dataframe`
+
+
 Answerlist
 ----------
 * Richtig

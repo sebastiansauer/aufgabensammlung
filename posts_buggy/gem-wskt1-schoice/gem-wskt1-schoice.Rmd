@@ -151,6 +151,10 @@ $Pr(`r Klausurergebnis_selected` \cap `r Lerntyp_selected`) = \frac{n(`r Klausur
 Die falschen Optionen entstehen durch typische Verwechslungen: die bedingte statt der gemeinsamen Wahrscheinlichkeit, die gemeinsame Wahrscheinlichkeit des jeweils anderen Klausurergebnisses bzw. der anderen Lerngruppe, sowie das naive Komplement (1 − Lösung).
 
 
+Aufgabenname: `gem-wskt1-schoice`
+
+
+
 Answerlist
 ----------
 * True

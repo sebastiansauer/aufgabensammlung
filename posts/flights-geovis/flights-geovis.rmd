@@ -68,6 +68,10 @@ Answerlist
 Solution
 ========
 
+
+Aufgabenname: `flights-geovis`
+
+
 Answerlist
 ----------
 * Richtig

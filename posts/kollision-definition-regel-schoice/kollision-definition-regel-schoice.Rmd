@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch: Bei Konfundierung ist die Empfehlung genau *entgegengesetzt* -- dort sollte man die Konfundierungsvariable kontrollieren, um eine Scheinkorrelation aufzulösen, während man bei einer Kollision genau das Gegenteil tun sollte.
 * Die fünfte Option beschreibt das Gegenteil des im Kapitel demonstrierten Effekts: Kontrollieren *erzeugt* hier die Scheinkorrelation, es lässt sie nicht verschwinden.
 
+
+Aufgabenname: `kollision-definition-regel-schoice`
+
+
 Answerlist
 ----------
 * Wahr

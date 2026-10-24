@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist die zentrale Fehlvorstellung, die das Beispiel widerlegen soll: Obwohl die Zahlen identisch sind, ist die richtige Empfehlung wegen der unterschiedlichen Kausalmodelle *nicht* identisch.
 * Die fünfte Option ignoriert die Kernaussage des Kapitels, dass Datenanalyse allein für Kausalschlüsse nicht ausreicht -- man benötigt zusätzlich ein Kausalmodell (Theorie), um zwischen Stratifizieren und Nicht-Stratifizieren zu entscheiden.
 
+
+Aufgabenname: `simpson-paradox-schoice`
+
+
 Answerlist
 ----------
 * Wahr

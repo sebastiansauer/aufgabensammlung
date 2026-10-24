@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch: Die im Kapitel gezeigten äquivalenten DAGs (@fig-kms) betreffen genau *dieselben* Variablen (`a`, `b`, `p`), unterscheiden sich aber in der *Richtung* mancher Pfeile -- nicht in der Anzahl der Variablen.
 * Die fünfte Option ist ein häufiges Missverständnis: Mehr Beobachtungen *derselben* Variablen helfen hier nicht, da das Problem nicht mangelnde Präzision, sondern eine grundsätzliche *Unidentifizierbarkeit* aus den vorhandenen Variablen ist -- dafür bräuchte man tatsächlich *zusätzliche, neue* Variablen (einen reichhaltigeren DAG), nicht nur mehr Fälle der bisherigen Variablen.
 
+
+Aufgabenname: `dag-aequivalenzklasse-schoice`
+
+
 Answerlist
 ----------
 * Wahr

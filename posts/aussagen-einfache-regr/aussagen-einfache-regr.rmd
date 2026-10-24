@@ -48,6 +48,10 @@ Solution
 ========
 
 
+Aufgabenname: `aussagen-einfache-regr`
+
+
+
 Answerlist
 ----------
 

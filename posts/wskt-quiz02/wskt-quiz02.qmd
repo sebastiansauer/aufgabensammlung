@@ -52,6 +52,10 @@ Solution
 ========
 
 
+Aufgabenname: `wskt-quiz02`
+
+
+
 
 Answerlist
 ----------

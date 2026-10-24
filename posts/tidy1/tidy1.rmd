@@ -366,6 +366,10 @@ Solution
 ========
 
 
+Aufgabenname: `tidy1`
+
+
+
 ```{r solutionlist, echo = FALSE, results = "asis"}
 answerlist(
   ifelse(tibbles_chosen$is_correct, "Richtig", "Falsch"),

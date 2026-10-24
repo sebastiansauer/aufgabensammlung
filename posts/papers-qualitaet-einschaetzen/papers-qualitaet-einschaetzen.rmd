@@ -136,6 +136,10 @@ items_df %>%
 
 Richtige Lösung:
 
+
+Aufgabenname: `papers-qualitaet-einschaetzen`
+
+
 ```{r solutionlist, echo = FALSE, results = "asis"}
 answerlist(ifelse(items_df$selected, "Wahr", "Falsch"), markup = "markdown")
 ```

@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option überinterpretiert 90 % außerhalb des ROPE als bereits ausreichend für eine eindeutige Ablehnung der Praktisch-Null-Hypothese -- je nach gewählter Entscheidungsschwelle (häufig nahe 100 %/0 %) reicht ein Rest-Anteil von 10 % im ROPE aber noch aus, um die Entscheidung als unklar einzustufen.
 * Die fünfte Option kehrt die Interpretation ins Gegenteil um: Ein *kleiner* ROPE-Anteil (10 %, nicht ein großer) spricht eher *gegen* einen vernachlässigbaren Effekt, nicht dafür.
 
+
+Aufgabenname: `robo-professor-rope-schoice`
+
+
 Answerlist
 ----------
 * Wahr

@@ -65,6 +65,10 @@ Solution
 
 Je enger die Punkte um die Gerade streuen, desto größer ist $R^2$.
 
+
+Aufgabenname: `rquadrat`
+
+
 ```{r solutionlist, echo = FALSE, results = "asis"}
 answerlist(ifelse(solutions, "Richtig", "Falsch"), markup = "markdown")
 ```

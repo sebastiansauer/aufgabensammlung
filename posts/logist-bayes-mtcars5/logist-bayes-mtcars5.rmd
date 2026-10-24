@@ -95,6 +95,10 @@ Diese Wahrscheinlichkeit ist (praktisch) 1, laut dem Modell.
 sol_b <- 1
 ```
 
+
+Aufgabenname: `logist-bayes-mtcars5`
+
+
 Solutionlist
 ------------
 * Nein, je höher die Zylinderzahl, desto geringer der Logit (und damit die Wahrscheinlichkeit) für ein manuelles Getriebe bzw. umso höher für ein Automatik-Getriebe.

@@ -59,6 +59,10 @@ Solution
 **H**
 
 
+Aufgabenname: `bsps-nullhyp`
+
+
+
 Answerlist
 ----------
 

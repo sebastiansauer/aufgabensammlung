@@ -60,6 +60,10 @@ Solution
 B.
 
 
+Aufgabenname: `ziel-bayes`
+
+
+
 Answerlist
 ----------
 

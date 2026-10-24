@@ -142,6 +142,10 @@ preds |>
 [Dieser SO-Post](https://stackoverflow.com/questions/72333419/error-on-running-predict-in-tidymodels-error-in-dplyrselect-cant-su) handelt von einem vergleichbarem Problem.
 
 
+Aufgabenname: `tidymodels-error1`
+
+
+
 
 
 

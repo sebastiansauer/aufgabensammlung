@@ -152,6 +152,10 @@ Solution
 ========
 Code B passt zum Diagramm.
 
+
+Aufgabenname: `diamonds-histogram-rcode`
+
+
 Answerlist
 ----------
 

@@ -48,6 +48,10 @@ sol <- "Nach einer weithin rezipierten Theorie lassen sich zwei Denkmodi untersc
 `r sol`
 
 
+Aufgabenname: `zitieren-buch1`
+
+
+
 Meta-information
 ================
 extype: string

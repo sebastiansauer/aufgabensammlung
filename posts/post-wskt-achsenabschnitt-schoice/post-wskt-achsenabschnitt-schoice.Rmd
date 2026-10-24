@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option kehrt den Bruch um (Gesamtzahl geteilt durch Trefferzahl statt umgekehrt); das Ergebnis ist größer als 1 und kann daher keine gültige Wahrscheinlichkeit sein.
 * Die fünfte Option gibt schlicht die absolute Anzahl der Treffer zurück, ohne diese ins Verhältnis zur Gesamtzahl der Stichproben zu setzen -- eine Wahrscheinlichkeit muss aber immer zwischen 0 und 1 liegen.
 
+
+Aufgabenname: `post-wskt-achsenabschnitt-schoice`
+
+
 Answerlist
 ----------
 * Wahr

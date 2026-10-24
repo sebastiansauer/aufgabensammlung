@@ -183,6 +183,10 @@ diamonds %>%
 Unsere Tabelle oben zeigte, dass alle Variablen Streuung haben.
 
 
+Aufgabenname: `praxisprobleme1`
+
+
+
 Meta-information
 ================
 extype: string

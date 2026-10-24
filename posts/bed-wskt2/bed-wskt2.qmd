@@ -363,6 +363,10 @@ $Pr(A|\neg B) = `r A_cond_Bneg`$.
 $Pr(\neg A|\neg B) = `r Aneg_cond_Bneg`$.
 
 
+Aufgabenname: `bed-wskt2`
+
+
+
 
 
 

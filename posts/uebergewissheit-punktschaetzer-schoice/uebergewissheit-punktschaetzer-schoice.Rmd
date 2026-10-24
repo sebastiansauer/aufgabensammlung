@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch: Die Ungewissheit über den Parameterwert selbst (dargestellt in der Post-Verteilung) verschwindet nicht automatisch bei größeren Stichproben aus vergangenen Daten, sofern man bei der *Vorhersage* trotzdem nur einen einzigen Parameterwert verwendet, statt die volle Post-Verteilung einzubeziehen.
 * Die fünfte Option widerspricht der zentralen Botschaft des Kapitels: PPV-basierte Vorhersagen haben tendenziell *mehr* Streuung als punktschätzerbasierte, weil sie zusätzlich die Parameterungewissheit einbeziehen.
 
+
+Aufgabenname: `uebergewissheit-punktschaetzer-schoice`
+
+
 Answerlist
 ----------
 * Wahr

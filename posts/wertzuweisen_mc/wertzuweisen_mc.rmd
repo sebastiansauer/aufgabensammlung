@@ -34,6 +34,10 @@ Solution
 
 Die Antwort lautet: `loesung <-42`.
 
+
+Aufgabenname: `wertzuweisen_mc`
+
+
 Answerlist
 ----------
 * Richtig

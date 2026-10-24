@@ -207,6 +207,10 @@ Wir brauchen also besser *nicht* gleichverteilte Priori-Verteilungen.
 Dazu an anderer Stelle mehr.
 
 
+Aufgabenname: `iq10`
+
+
+
 
 
 

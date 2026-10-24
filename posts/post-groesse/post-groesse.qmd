@@ -91,3 +91,7 @@ library(easystats)
 m1 <- stan_glm()
 ```
 
+
+Aufgabenname: `post-groesse`
+
+

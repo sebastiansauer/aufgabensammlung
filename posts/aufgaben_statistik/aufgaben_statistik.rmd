@@ -43,6 +43,10 @@ Solution
 ========
 
 
+Aufgabenname: `aufgaben_statistik`
+
+
+
 Answerlist
 ----------
 * Falsch

@@ -92,6 +92,10 @@ sol
 Die Lösung beträgt also: ``r sol``.
 
 
+Aufgabenname: `bayes-theorem1`
+
+
+
 
 
 ---

@@ -66,6 +66,10 @@ Solution
 UV: Lernen, AV: Energieverbrauch
 
 
+Aufgabenname: `av-uv.de`
+
+
+
 
 ```{r solutionlist, echo = FALSE, results = "asis"}
 answerlist(ifelse(items$solutions, "Richtig", "Falsch"), markup = "markdown")

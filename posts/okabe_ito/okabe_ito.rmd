@@ -26,6 +26,10 @@ Solution
 ========
 Die Okabe-Ito-Palette wurde entwickelt, um für Menschen mit verschiedenen Arten von Farbenblindheit gut unterscheidbar zu sein.
 
+
+Aufgabenname: `okabe_ito`
+
+
 Answerlist
 ----------
 * Richtig

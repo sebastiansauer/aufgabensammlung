@@ -106,6 +106,10 @@ mariokart_klein
 Die Lösung lautet: 327 Euro
 
 
+Aufgabenname: `summarise01`
+
+
+
 
 ---
 

@@ -62,6 +62,10 @@ Diese Aussage ist *falsch*: Bei Experimenten werden die Teilnehmer in der Regel 
 Es ist also *richtig* zu sagen, dass obige Aussage *falsch* ist :-)
 
 
+Aufgabenname: `experimente`
+
+
+
 
 ```{r solutionlist, echo = FALSE, results = "asis"}
 exams::answerlist(ifelse(items$solutions, "Richtig", "Falsch"), markup = "markdown")

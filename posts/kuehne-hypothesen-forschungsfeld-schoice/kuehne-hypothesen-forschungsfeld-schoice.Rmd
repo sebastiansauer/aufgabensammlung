@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ignoriert genau die im Kapitel gezogene Verbindung zwischen Reifegrad des Feldes und möglicher Präzision der Hypothesen.
 * Die fünfte Option ist unbegründet und widerspricht dem Beispiel: Die "gering ausgereifte" Hypothese im Beispiel ("Lernen bringt mehr...") ist gerade *vager* (weniger präzise), nicht präziser, als die "stark ausgereifte" (exakte Sonnenfinsternis-Vorhersage).
 
+
+Aufgabenname: `kuehne-hypothesen-forschungsfeld-schoice`
+
+
 Answerlist
 ----------
 * Wahr

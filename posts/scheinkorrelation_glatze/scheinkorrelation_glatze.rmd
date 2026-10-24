@@ -28,6 +28,10 @@ Solution
 ========
 Wenn eine Drittvariable (hier das Alter) zwei andere Variablen beeinflusst, entsteht ein statistischer Zusammenhang ohne direkte Ursache-Wirkungs-Beziehung zwischen diesen beiden.
 
+
+Aufgabenname: `scheinkorrelation_glatze`
+
+
 Answerlist
 ----------
 * Richtig

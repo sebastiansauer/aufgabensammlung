@@ -28,6 +28,10 @@ Solution
 Ein geringerer MAE bedeutet kürzere Fehlerbalken.
 Je kleiner der Fehler, desto höher ist die Modellgüte.
 
+
+Aufgabenname: `modellvergleich_mae`
+
+
 Answerlist
 ----------
 * Richtig

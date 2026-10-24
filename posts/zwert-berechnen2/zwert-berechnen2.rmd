@@ -55,6 +55,10 @@ sol
 *Lösung*: Der z-Wert lautet: `r x1_z`.
 
 
+Aufgabenname: `zwert-berechnen2`
+
+
+
 
 Meta-information
 ================

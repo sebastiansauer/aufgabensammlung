@@ -59,6 +59,10 @@ Zwar werden Balkendiagramme immer wieder eingesetzt, um Mittelwerte bzw. deren U
 aber [von dieser Praxis ist abzuraten](https://github.com/cxli233/FriendsDontLetFriends#1-friends-dont-let-friends-make-bar-plots-for-means-separation).
 
 
+Aufgabenname: `wozu-balkendiagramm`
+
+
+
 
 
 Answerlist

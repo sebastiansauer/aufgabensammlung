@@ -127,3 +127,7 @@ Für $W=`r W`$:
 choose(n, W) * pi^(W) * (1-pi)^(n-W)
 ```
 
+
+Aufgabenname: `globus-bin2`
+
+

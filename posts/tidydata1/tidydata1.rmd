@@ -113,6 +113,10 @@ Man sieht, dass nur Tabelle 1 "tidy" ist.
 [Quelle](http://garrettgman.github.io/tidying/)
 
 
+Aufgabenname: `tidydata1`
+
+
+
 
 
 Answerlist

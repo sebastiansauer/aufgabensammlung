@@ -28,6 +28,10 @@ Solution
 Beim Nullmodell ist der Vorhersagewert der Mittelwert.
 Die Wurzel aus dem mittleren quadrierten Fehler (RMSE) ist dann mathematisch äquivalent zur Standardabweichung.
 
+
+Aufgabenname: `rmse_sd_bezug`
+
+
 Answerlist
 ----------
 * Richtig

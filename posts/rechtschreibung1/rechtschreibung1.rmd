@@ -159,6 +159,10 @@ Weiter ist [hier im Dudden](https://www.duden.de/sprachwissen/sprachratgeber/Die
 Außerdem findet sich [hier im Duden](https://www.duden.de/sprachwissen/sprachratgeber/Schreibung-von-Fremdwortern-aus-dem-Englischen) eine Zusammmenfassung zur Schreibweise englischsprachiger Fremdwörter im Deutschen.
 
 
+Aufgabenname: `rechtschreibung1`
+
+
+
 
 
 

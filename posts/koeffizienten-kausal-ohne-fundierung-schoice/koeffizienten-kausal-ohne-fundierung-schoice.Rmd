@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option nennt ein sachlich unbegründetes Kriterium: Eine große Stichprobe reduziert die Ungewissheit der *Schätzung*, sagt aber nichts darüber aus, ob der geschätzte Zusammenhang auch *kausal* ist -- eine Scheinkorrelation bleibt auch bei riesigen Stichproben eine Scheinkorrelation.
 * Die fünfte Option verwechselt Modellgüte (Vorhersagegenauigkeit, $R^2$) mit kausaler Interpretierbarkeit -- ein Modell kann sehr gut vorhersagen und trotzdem keine kausalen Aussagen erlauben (rein deskriptive/prognostische Zielrichtung).
 
+
+Aufgabenname: `koeffizienten-kausal-ohne-fundierung-schoice`
+
+
 Answerlist
 ----------
 * Wahr

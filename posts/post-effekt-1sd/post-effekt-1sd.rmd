@@ -200,6 +200,10 @@ sol <- fmt(sol_raw, 2)
 Aufgaben-ID: post-effekt-1sd, Toleranzbreite: `r sol_tol`
 
 
+Aufgabenname: `post-effekt-1sd`
+
+
+
 
 
 

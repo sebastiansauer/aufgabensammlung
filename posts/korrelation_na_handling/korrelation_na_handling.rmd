@@ -29,6 +29,10 @@ Solution
 In R ist das Standardverhalten vieler Funktionen, NA zurückzugeben, wenn Daten fehlen.
 Man muss explizit `use = "complete.obs"` oder ähnliche Argumente verwenden, um dies zu umgehen.
 
+
+Aufgabenname: `korrelation_na_handling`
+
+
 Answerlist
 ----------
 * Richtig

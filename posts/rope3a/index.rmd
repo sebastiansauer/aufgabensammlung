@@ -157,6 +157,10 @@ Wie man sieht, kreuzt das "blaue Band" nicht den "roten Berg".
 Damit ist die Nullhypothese (ROPE) zu verwerfen.
 
 
+Aufgabenname: `rope3a`
+
+
+
 
 
 

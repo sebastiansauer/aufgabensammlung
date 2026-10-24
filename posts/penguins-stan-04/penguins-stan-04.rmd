@@ -131,6 +131,10 @@ sol <- pd(m1)$pd[2]
 Die Lösung lautet also `r round(sol, 2)`.
 
 
+Aufgabenname: `penguins-stan-04`
+
+
+
 
 
 ---

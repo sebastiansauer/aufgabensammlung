@@ -194,6 +194,10 @@ rope(m1)
 Wie man in der Ausgabe sieht, beträgt der Anteil *außerhalb* des ROPE für den gesuchten Koeffizienten `r anteil_ausserhalb_rope`.
 
 
+Aufgabenname: `post3a`
+
+
+
 Meta-information
 ================
 exname: post3a

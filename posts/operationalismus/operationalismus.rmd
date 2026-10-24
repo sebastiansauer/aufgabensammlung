@@ -17,6 +17,10 @@ Answerlist
 Solution
 ========
 
+
+Aufgabenname: `operationalismus`
+
+
 Answerlist
 ----------
 * Wahr.

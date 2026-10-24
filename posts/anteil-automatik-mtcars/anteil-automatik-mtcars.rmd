@@ -61,6 +61,10 @@ posterior_interval(m1, prob = .95) %>% invlogit()
 ```
 
 
+Aufgabenname: `anteil-automatik-mtcars`
+
+
+
 Meta-information
 ================
 extype: string

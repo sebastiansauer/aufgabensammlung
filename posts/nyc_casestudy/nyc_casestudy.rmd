@@ -193,6 +193,10 @@ sol <- "s. text"
 ```
 
 
+Aufgabenname: `nyc_casestudy`
+
+
+
 
 
 

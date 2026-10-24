@@ -53,6 +53,10 @@ Die klassische Regressionsanalyse minimiert diesen Ausdruck, um die Regressionge
 
 $\sum_{i=1}^{n}(y_i - \hat{y}_i)^2$
 
+
+Aufgabenname: `ols-minimierung`
+
+
 Answerlist
 ----------
 

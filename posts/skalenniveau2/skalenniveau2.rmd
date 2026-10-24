@@ -127,6 +127,10 @@ Solution
 Das Skalenviveau der Variablen ``r names_of_cols_to_keep[1]`` lautet ``r selected_cols_scale_level[1]``.
 
 
+Aufgabenname: `skalenniveau2`
+
+
+
 
 
 Meta-information

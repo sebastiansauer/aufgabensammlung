@@ -47,6 +47,10 @@ Solution
 
 Keine der genannten. In der multiplen Regression sind jegliche Skalenniveaus bei den Prädiktoren möglich. "Hinter den Kulissen" werden aber nominale Prädiktoren in metrische umgewandelt.
 
+
+Aufgabenname: `ims-kap-04-01`
+
+
 Answerlist
 ----------
 

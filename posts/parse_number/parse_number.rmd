@@ -112,6 +112,10 @@ d %>% mutate(i03_r = parse_number(as.character(i03)))
 ```
 
 
+Aufgabenname: `parse_number`
+
+
+
 Answerlist
 ----------
 

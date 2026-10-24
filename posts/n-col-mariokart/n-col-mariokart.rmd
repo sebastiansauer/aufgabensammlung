@@ -36,6 +36,10 @@ sol <- ncol(mariokart)
 **Antwort**: Die Tabelle verfügt über *`r sol`* Spalten.
 
 
+Aufgabenname: `n-col-mariokart`
+
+
+
 Meta-information
 ================
 exname: n-col-mariokart

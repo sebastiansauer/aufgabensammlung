@@ -172,5 +172,9 @@ also keine Interaktion, im Bereich plausibler Werte
 (d.h. innerhalb des Konfidenzintervalls) liegt.
 
 
+Aufgabenname: `fofrage-regrformel2`
+
+
+
 
 

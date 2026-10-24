@@ -17,6 +17,10 @@ Solution
 
 Korrekt ist die zweite Option: $Pr(H|D) = \dfrac{Pr(D|H) \times Pr(H)}{Pr(D)}$.
 
+
+Aufgabenname: `bayes1-schoice`
+
+
 Answerlist
 ----------
 - Option A: Fehlt die Division durch Pr(D), multipliziert stattdessen.

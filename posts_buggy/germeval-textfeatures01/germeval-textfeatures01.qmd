@@ -228,6 +228,10 @@ d_train |>
 ```
 
 
+Aufgabenname: `germeval-textfeatures01`
+
+
+
 
 
 

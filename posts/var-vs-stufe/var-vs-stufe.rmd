@@ -55,6 +55,10 @@ Eine Variable besteht aus mehreren Ausprägungen, auch als Stufen bezeichnet.
 In diesem Fall ist die Variable "Art des Graphs" die UV und hat zwei Stufen: animiert und statisch.
 
 
+Aufgabenname: `var-vs-stufe`
+
+
+
 
 Answerlist
 ----------

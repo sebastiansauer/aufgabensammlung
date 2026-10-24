@@ -41,6 +41,10 @@ Solution
 * `--` -- Es fehlt das dritte Minuszeichen.
 
 
+Aufgabenname: `rmd-01`
+
+
+
 
 Answerlist
 ----------

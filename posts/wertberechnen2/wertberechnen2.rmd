@@ -108,6 +108,10 @@ sol <- ergebnis
 Es wird `r sol` zurückgeliefert.
 
 
+Aufgabenname: `wertberechnen2`
+
+
+
 
 
 ---

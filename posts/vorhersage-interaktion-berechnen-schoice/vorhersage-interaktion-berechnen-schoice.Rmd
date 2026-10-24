@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option verwendet ein falsches Vorzeichen beim Interaktionsterm (Subtraktion des bereits negativen Werts $\beta_3=-0{,}1$ statt dessen Addition), was den Term versehentlich positiv statt negativ werden lässt.
 * Die fünfte Option setzt fälschlich alle Prädiktorwerte (`mom_hs`, `mom_iq`) auf 1 und addiert nur die Koeffizienten selbst, statt die tatsächlich gegebenen Werte ($\text{mom\_hs}=1$, $\text{mom\_iq}=100$) korrekt in die Modellgleichung einzusetzen.
 
+
+Aufgabenname: `vorhersage-interaktion-berechnen-schoice`
+
+
 Answerlist
 ----------
 * Wahr

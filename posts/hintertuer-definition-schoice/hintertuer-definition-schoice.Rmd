@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch: Das gesamte Kapitel demonstriert das Konzept der Hintertür gerade an *Beobachtungsstudien* (Saratoga-Hauspreise) -- bei gut durchgeführten Experimenten wird die Hintertür durch Randomisierung von vornherein geschlossen.
 * Die fünfte Option widerspricht der zentralen Warnung des Kapitels: Hintertüren können durchaus *offen* sein und müssen dann aktiv geschlossen werden (z. B. durch Kontrolle eines Konfundierers) -- sie sind nicht automatisch immer blockiert.
 
+
+Aufgabenname: `hintertuer-definition-schoice`
+
+
 Answerlist
 ----------
 * Wahr

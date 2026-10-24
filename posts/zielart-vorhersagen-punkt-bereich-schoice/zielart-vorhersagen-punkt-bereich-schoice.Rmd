@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option unterstellt eine Verallgemeinerung auf die Grundgesamtheit; im Beispiel wird aber ein konkreter Vorhersagewert für eine einzelne Person (Ali) berechnet, keine Aussage über die Population getroffen.
 * Die fünfte Option ist falsch: Punktschätzwert (eine einzelne Zahl) und Schätzbereich (ein Intervall von Werten) sind unterschiedliche, sich ergänzende Formen der Vorhersage -- der Schätzbereich drückt zusätzlich die Unsicherheit der Vorhersage aus, die der Punktschätzwert allein nicht zeigt.
 
+
+Aufgabenname: `zielart-vorhersagen-punkt-bereich-schoice`
+
+
 Answerlist
 ----------
 * Wahr

@@ -25,6 +25,10 @@ Solution
 ========
 Das Klicken auf das Symbol ist eine Abkürzung für den Befehl `View(dataframe_name)`. Es dient dazu, die Daten bequem in einer Tabellenansicht zu betrachten, ohne sie zu verändern.
 
+
+Aufgabenname: `rstudio_gui_view`
+
+
 Answerlist
 ----------
 * Falsch

@@ -80,6 +80,10 @@ model <-
 ```
 
 
+Aufgabenname: `stan_glm01`
+
+
+
 
 
 ---

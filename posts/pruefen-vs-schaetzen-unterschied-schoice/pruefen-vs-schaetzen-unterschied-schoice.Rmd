@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch: Beide Herangehensweisen (Testen und Schätzen) lassen sich sowohl in der frequentistischen als auch in der Bayes-Statistik umsetzen -- das Kapitel zeigt Parameterschätzung explizit im Bayes-Kontext, und auch ROPE-basiertes Testen ist ein Bayes'sches Verfahren.
 * Die fünfte Option widerspricht dem Kapitel direkt: "Ist ein bestimmter Wert, etwa die Null, nicht im Schätzbereich enthalten, so kann man die Hypothese verwerfen [...]. Das Hypothesen testen ist daher (implizit) im Parameter schätzen enthalten."
 
+
+Aufgabenname: `pruefen-vs-schaetzen-unterschied-schoice`
+
+
 Answerlist
 ----------
 * Wahr

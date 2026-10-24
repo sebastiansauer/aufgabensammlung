@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option vertauscht die Gewichte der beiden Parameterwerte und gewichtet damit den unwahrscheinlicheren Parameterwert ($\pi=0{,}5$) stärker als den wahrscheinlicheren ($\pi=0{,}8$).
 * Die fünfte Option ist ein Kategorienfehler: $X=0$ und $X=2$ sind bei $N=2$ Versuchen zwar die beiden "Extremfälle", aber es gibt noch das dazwischenliegende Ereignis $X=1$ -- die drei Wahrscheinlichkeiten $Pr(X=0)$, $Pr(X=1)$ und $Pr(X=2)$ summieren sich zu 1, nicht nur $Pr(X=0)$ und $Pr(X=2)$ allein.
 
+
+Aufgabenname: `ppv-mixtur-keine-treffer-schoice`
+
+
 Answerlist
 ----------
 * Wahr

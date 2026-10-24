@@ -218,6 +218,10 @@ oder ob die Steigung nicht vielleicht prozentual steigt (das wäre eine exponenz
 Falls Sie Teile der R-Syntax nicht kennen: Machen Sie sich nichts daraus.  😄
 
 
+Aufgabenname: `nasa06`
+
+
+
 
 
 

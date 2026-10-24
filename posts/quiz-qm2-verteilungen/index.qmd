@@ -101,4 +101,8 @@ $\in \mathbb{R}$ nennt man Zufallsvariable. *R*
 14. Ein Beispiel für eine randlastig verteilte Zufallsvariable ist die Anzahl von Treffern beim wiederholten Münzwurf. *F*
 
 
+Aufgabenname: `quiz-qm2-verteilungen`
+
+
+
 

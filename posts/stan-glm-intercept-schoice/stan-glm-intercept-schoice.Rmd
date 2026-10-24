@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option ist falsch: Der Text zeigt explizit, dass `stan_glm()` auch für Modelle ganz ohne Prädiktor (nur Achsenabschnitt) verwendet werden kann -- genau das ist im Kung-Beispiel der Fall.
 * Die fünfte Option verwechselt die Modellformel-Syntax mit einem Argument zur Steuerung der Stichprobenanzahl (dafür gibt es bei `stan_glm()` andere Argumente, nicht die Formel selbst).
 
+
+Aufgabenname: `stan-glm-intercept-schoice`
+
+
 Answerlist
 ----------
 * Wahr

@@ -51,6 +51,10 @@ Solution
 
 Bei der Bayes-Analyse werden die Schlussfolgerungen nicht nur auf Basis des Likelihoods gezogen (im Gegensatz zum Frequentistischen Ansatz).
 
+
+Aufgabenname: `bayes-ziel1`
+
+
 Answerlist
 ----------
 

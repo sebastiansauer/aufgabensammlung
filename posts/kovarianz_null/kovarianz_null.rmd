@@ -30,6 +30,10 @@ Solution
 Wenn die Summe der Abweichungsrechtecke Null ist, gleichen sich positive und negative Flächen gegenseitig aus.
 Dies bedeutet, dass kein systematischer linearer Trend (Kovarianz = 0) vorliegt.
 
+
+Aufgabenname: `kovarianz_null`
+
+
 Answerlist
 ----------
 * Richtig

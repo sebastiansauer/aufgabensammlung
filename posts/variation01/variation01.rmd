@@ -130,6 +130,10 @@ Solution
 ========
 
 
+Aufgabenname: `variation01`
+
+
+
 Answerlist
 ----------
 

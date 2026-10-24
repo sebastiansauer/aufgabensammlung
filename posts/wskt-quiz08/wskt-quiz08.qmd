@@ -133,6 +133,10 @@ bb
 Falsch. Die Daten sprechen eher für die Erde.
 
 
+Aufgabenname: `wskt-quiz08`
+
+
+
 Answerlist
 ----------
 

@@ -25,6 +25,10 @@ Solution
 ========
 Die zentrale Aufgabe der Statistik besteht darin, Modelle durch das Zusammenfassen von Daten zu bilden, die Variabilität (Unterschiedlichkeit) zu analysieren und Ungewissheit zu beschreiben [1].
 
+
+Aufgabenname: `definition_statistik`
+
+
 Answerlist
 ----------
 * Falsch

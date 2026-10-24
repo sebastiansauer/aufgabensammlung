@@ -400,6 +400,10 @@ B: "Moment, C hat nur gewonnen, weil sie so viele Stichproben gezogen hat. Das w
 s
 
 
+Aufgabenname: `samples-nyc2`
+
+
+
 
 
 

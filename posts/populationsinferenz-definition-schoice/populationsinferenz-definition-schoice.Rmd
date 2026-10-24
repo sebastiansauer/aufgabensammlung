@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option widerspricht dem Sinn der Inferenzstatistik: Gerade weil man *nicht* die gesamte Population kennt (sondern nur eine Stichprobe), braucht man Inferenzstatistik, um dennoch Aussagen über die Population zu treffen.
 * Die fünfte Option verwechselt einen Teilschritt (Stichprobenziehung) mit dem eigentlichen inferenzstatistischen Vorgang (der Verallgemeinerung von der Stichprobe auf die Population); Populationsinferenz umfasst explizit auch diesen Verallgemeinerungsschritt.
 
+
+Aufgabenname: `populationsinferenz-definition-schoice`
+
+
 Answerlist
 ----------
 * Wahr

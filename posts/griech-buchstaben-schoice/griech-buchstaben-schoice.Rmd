@@ -64,6 +64,10 @@ tibble::tribble(
 Die falschen Optionen entstehen durch typische Verwechslungen: Streuung ($\sigma$) und Anteil ($\pi$) vertauscht, Korrelation ($\rho$) und Regressionsgewicht ($\beta$) vertauscht, sowie Mittelwert ($\mu$) und Streuung ($\sigma$) vertauscht.
 
 
+Aufgabenname: `griech-buchstaben-schoice`
+
+
+
 Answerlist
 ----------
 * True

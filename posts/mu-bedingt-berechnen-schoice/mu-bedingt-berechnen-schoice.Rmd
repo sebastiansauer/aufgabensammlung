@@ -21,6 +21,10 @@ Warum die Distraktoren falsch sind:
 * Die vierte Option addiert statt zu multiplizieren ($\beta_1 + \text{weight\_c}$ statt $\beta_1\cdot\text{weight\_c}$) und ignoriert damit die multiplikative Struktur der linearen Modellgleichung.
 * Die fünfte Option vertauscht die Rollen von $\beta_0$ und $\beta_1$ in der Formel und multipliziert fälschlich $\beta_0$ (statt $\beta_1$) mit `weight_c`, was zu einem völlig unplausiblen, viel zu großen Ergebnis führt.
 
+
+Aufgabenname: `mu-bedingt-berechnen-schoice`
+
+
 Answerlist
 ----------
 * Wahr

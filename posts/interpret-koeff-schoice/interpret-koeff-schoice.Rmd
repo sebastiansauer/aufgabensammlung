@@ -41,6 +41,10 @@ Den Punktschätzer des Regressionskoeffizienten kann man in der Parametertabelle
 Die Regressionsformel lautet: `mpg ~ hp`.
 
 
+Aufgabenname: `interpret-koeff-schoice`
+
+
+
 
 
 Answerlist

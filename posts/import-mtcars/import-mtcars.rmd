@@ -78,6 +78,10 @@ Anstelle von `data_read` aus `easystats` könnte man auch `read.csv` verwenden,
 das ist ein "eingebauter" Befehl in R, für den man kein Paket gestartet haben muss.
 
 
+Aufgabenname: `import-mtcars`
+
+
+
 
 
 

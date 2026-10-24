@@ -30,6 +30,10 @@ sol <- sol_chosen
 ```
 
 
+Aufgabenname: `datenstrukturgrad`
+
+
+
 
 
 Meta-information
