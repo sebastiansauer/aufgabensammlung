@@ -22,7 +22,7 @@ Sie geben in der Konsole folgende Syntax ein:
 
 
 ```{r eval = FALSE, echo = TRUE}
-gruess <- "hall 
+gruss <- "hallo 
 ```
 
 
