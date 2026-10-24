@@ -12,7 +12,8 @@ Folgende Informationen sind gegeben:
 - AV: `einnahmen`, UV: `werbebudget`
 - Alle empirischen Variablen sind z-standardisiert.
 - Alle Variablen sind normalverteilt, außer der Streuung der AV (exponentialverteilt mit Rate 1).
-- Streuungen der Normalverteilung: MW=0, SD=1.5.
+- Parameterwerte der Normalverteilung: MW=0.0, SD=1.5.
+
 
 Welche der folgenden Notationen beschreibt korrekt die *Priori-Verteilung des Regressionsgewichts* $\beta_1$?
 Wählen sie die korrekte Antwortoption!

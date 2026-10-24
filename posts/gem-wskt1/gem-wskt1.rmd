@@ -103,14 +103,15 @@ d <-
                      rep("Viellerner", times = n_viellerner))) %>% 
   mutate(Lerntyp = factor(Lerntyp)) %>% 
   mutate(Erfolg_p = case_when(
-    Lerntyp == "Weniglerner" ~ erfolgsquote_viellerner,
+    Lerntyp == "Weniglerner" ~ erfolgsquote_weniglerner,
     Lerntyp == "Viellerner" ~ erfolgsquote_viellerner,
     TRUE ~ NA_real_
   )) %>% 
   mutate(Klausurergebnis = map_chr(.x = Erfolg_p,
                                    .f = ~(sample(Klausurergebnis,
                                                  size = 1,
-                                                 prob = c(.x, 1-.x)))))
+                                                 prob = c(.x, 1-.x))))) %>% 
+  mutate(Klausurergebnis = factor(Klausurergebnis, levels = c("Bestehen", "Durchfallen")))
 
 
 ```
@@ -133,7 +134,7 @@ ggplot(d) +
 
 
 probs_sample <- d %>% 
-  count(Lerntyp, Klausurergebnis) %>% 
+  count(Lerntyp, Klausurergebnis, .drop = FALSE) %>% 
   group_by(Lerntyp) %>% 
   mutate(n_group = sum(n)) %>% 
   ungroup() %>% 
@@ -147,6 +148,15 @@ sol <-
          Klausurergebnis == Klausurergebnis_selected) %>% 
   pull(joint_prob) %>% 
   round(2)
+
+n_selected <-
+  probs_sample %>% 
+  filter(Lerntyp == Lerntyp_selected, 
+         Klausurergebnis == Klausurergebnis_selected) %>% 
+  pull(n)
+
+symbol_ergebnis <- if (Klausurergebnis_selected == "Bestehen") "B" else "\\neg B"
+symbol_lerntyp <- if (Lerntyp_selected == "Weniglerner") "WL" else "VL"
 
 ```
 
@@ -198,7 +208,7 @@ Die gemeinsame Wahrscheinlichkeit beträgt `r sol`.
 Die gemeinsame Wahrscheinlichkeit berechnet sich hier als 
 der Quotient der Zellenhäufigkeit und der Gesamthäufigkeit:
 
-$Pr(\negB \cap WL) = \frac{n(\negB \cap WL)}{n_{gesamt}} = \frac{`r probs_sample %>% filter(Lerntyp == "Weniglerner", Klausurergebnis == "Durchfallen") %>% pull(n)`}{`r sample_size`} = `r sol`$
+$Pr(`r symbol_ergebnis` \cap `r symbol_lerntyp`) = \frac{n(`r symbol_ergebnis` \cap `r symbol_lerntyp`)}{n_{gesamt}} = \frac{`r n_selected`}{`r sample_size`} = `r sol`$
 
 
 

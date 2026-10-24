@@ -24,6 +24,8 @@ R spuckt eine komische Fehlermeldung aus.
 Was ist nur los?
 Hat R einen schlechten Tag?
 
+Wir möchten mit `select()` aus dem Datensatz `mtcars` nur die Spalten `hp` und `am` auswählen:
+
 Schauen wir uns die Sache näher an:
 
 
