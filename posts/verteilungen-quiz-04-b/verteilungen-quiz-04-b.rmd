@@ -24,11 +24,16 @@ Wählen Sie die korrekte Definition der Verteilungsfunktion einer Zufallsvariabl
 
 Answerlist
 ----------
-* F(X)
+* $F(x) = P(X = x)$
+* $F(x) = P(X > x)$
+* $F(x) = \sum_{i} x_i \cdot P(X = x_i)$
+* $F(x) = P(X \le x)$
 
 
 Solution
 ========
+
+Die Verteilungsfunktion gibt für jeden Wert $x$ die Wahrscheinlichkeit an, dass die Zufallsvariable $X$ höchstens den Wert $x$ annimmt: $F(x) = P(X \le x)$.
 
 
 Aufgabenname: `verteilungen-quiz-04-b`
@@ -38,10 +43,10 @@ Aufgabenname: `verteilungen-quiz-04-b`
 Answerlist
 ----------
 
-* Falsch
-* Falsch
-* Falsch
-* Wahr
+* Falsch. Das ist die Wahrscheinlichkeitsfunktion einer diskreten Zufallsvariablen.
+* Falsch. Das ist die Gegenwahrscheinlichkeit $1 - F(x)$.
+* Falsch. Das ist der Erwartungswert einer diskreten Zufallsvariablen.
+* Wahr.
 
 
 
@@ -49,7 +54,7 @@ Meta-information
 ================
 exname: verteilungen-quiz-04-b
 extype: schoice
-exsolution: 001‚
+exsolution: 0001
 exshuffle: false
 categories:
 - distribution
