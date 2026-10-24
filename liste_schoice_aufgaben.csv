@@ -66,6 +66,7 @@ posts/cv1/cv1.rmd
 posts/dag-aequivalenzklasse-schoice/dag-aequivalenzklasse-schoice.Rmd
 posts/dag-bedingte-unabhaengigkeit-pruefen-schoice/dag-bedingte-unabhaengigkeit-pruefen-schoice.Rmd
 posts/dashboards/dashboards.rmd
+posts/dashboard-tools/dashboard-tools.rmd
 posts/datentypen_coercion/datentypen_coercion.rmd
 posts/dbinom-vs-rbinom-schoice/dbinom-vs-rbinom-schoice.Rmd
 posts/def_datenjudo/def_datenjudo.rmd
@@ -141,6 +142,7 @@ posts/group_summarise/group_summarise.rmd
 posts/gruppen_modell_vorteil/gruppen_modell_vorteil.rmd
 posts/gruppenvergleich-regression-schoice/gruppenvergleich-regression-schoice.Rmd
 posts/guete_streuung/guete_streuung.rmd
+posts/haeufigkeit02/haeufigkeit02.rmd
 posts/halbe-normalverteilung-eigenschaften-schoice/halbe-normalverteilung-eigenschaften-schoice.Rmd
 posts/hdi-definition-schoice/hdi-definition-schoice.Rmd
 posts/heatmap/heatmap.rmd
@@ -218,6 +220,7 @@ posts/lego_prinzip_logik/lego_prinzip_logik.rmd
 posts/likelihood2/likelihood2.rmd
 posts/likelihood-globusversuch-berechnung-schoice/likelihood-globusversuch-berechnung-schoice.Rmd
 posts/likelihood-identifizieren/likelihood-identifizieren.rmd
+posts/likelihood-nv_schoice/likelihood-nv_schoice.qmd
 posts/likelihood-zwielicht-schoice/likelihood-zwielicht-schoice.Rmd
 posts/linearer-zshg-nicht-kausal-schoice/linearer-zshg-nicht-kausal-schoice.Rmd
 posts/linearitaet1a/linearitaet1a.rmd
@@ -229,6 +232,7 @@ posts/logikpruefung_anwendung/logikpruefung_anwendung.rmd
 posts/logikpruefung_gleichheit/logikpruefung_gleichheit.rmd
 posts/logische-differenz-asymmetrie-schoice/logische-differenz-asymmetrie-schoice.Rmd
 posts/logression1/logression1.rmd
+posts/log-y-regr3/log-y-regr3.rmd
 posts/m1-koeffizienten-berechnen-schoice/m1-koeffizienten-berechnen-schoice.Rmd
 posts/mae_berechnung/mae_berechnung.rmd
 posts/maechtigkeit-augensumme-schoice/maechtigkeit-augensumme-schoice.Rmd
@@ -251,6 +255,7 @@ posts/mtcars-post2a/index.qmd
 posts/mtcars-post2/mtcars-post2.rmd
 posts/mtcars-post3a/index.qmd
 posts/mtcars-post3/mtcars-post3.rmd
+posts/mtcars-simple3/mtcars-simple3.rmd
 posts/mu-bedingt-berechnen-schoice/mu-bedingt-berechnen-schoice.Rmd
 posts/multiple-regr-kontrolle-schoice/multiple-regr-kontrolle-schoice.Rmd
 posts/multiplikationssatz-ohne-zuruecklegen-schoice/multiplikationssatz-ohne-zuruecklegen-schoice.Rmd
@@ -367,7 +372,6 @@ posts/rmse_sd_bezug/rmse_sd_bezug.rmd
 posts/robo-professor-rope-schoice/robo-professor-rope-schoice.Rmd
 posts/robuste_streuung/robuste_streuung.rmd
 posts/robustheit/robustheit.rmd
-posts/rope1/rope1.rmd
 posts/rope2a/index.rmd
 posts/rope2/rope2.rmd
 posts/rope3a/index.rmd
@@ -445,7 +449,6 @@ posts/tidydata1/tidydata1.rmd
 posts/tidy_data/tidy_data.rmd
 posts/tidymodels1/tidymodels1.rmd
 posts/tidymodels-penguins06/tidymodels-penguins06.qmd
-posts/tidymodels-penguins07/tidymodels-penguins07.qmd
 posts/tidytext/tidytext.qmd
 posts/torten_kritik/torten_kritik.rmd
 posts/totale-wahrscheinlichkeit-maschinen-schoice/totale-wahrscheinlichkeit-maschinen-schoice.Rmd

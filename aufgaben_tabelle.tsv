@@ -144,7 +144,7 @@ cv1	posts/cv1/cv1.rmd	schoice	nein	nein		statlearning, 2023, schoice, quiz	keine
 dag-aequivalenzklasse-schoice	posts/dag-aequivalenzklasse-schoice/dag-aequivalenzklasse-schoice.Rmd	schoice	nein	nein		kausalinferenz	keines
 dag-bedingte-unabhaengigkeit-pruefen-schoice	posts/dag-bedingte-unabhaengigkeit-pruefen-schoice/dag-bedingte-unabhaengigkeit-pruefen-schoice.Rmd	schoice	nein	nein		kausalinferenz	keines
 dag-graph	posts/dag-graph/dag-graph.qmd	string	nein	nein		fopro, researchdesign, causal, string	keines
-dashboard-tools	posts/dashboard-tools/dashboard-tools.rmd	string	nein	nein			keines
+dashboard-tools	posts/dashboard-tools/dashboard-tools.rmd	schoice	nein	nein			keines
 dashboards	posts/dashboards/dashboards.rmd	schoice	nein	nein			keines
 datenstrukturgrad	posts/datenstrukturgrad/datenstrukturgrad.rmd	string	ja	nein			010-rahmen.qmd
 datentypen_coercion	posts/datentypen_coercion/datentypen_coercion.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
@@ -313,7 +313,7 @@ gruppenvergleich-regression	posts/gruppenvergleich-regression/index.qmd	(fehlt)	
 gruppenvergleich-regression-schoice	posts/gruppenvergleich-regression-schoice/gruppenvergleich-regression-schoice.Rmd	schoice	nein	nein			090-regression2.qmd
 guete_streuung	posts/guete_streuung/guete_streuung.rmd	schoice	nein	nein		variability, schoice, quiz	060-modellguete.qmd
 haeufigkeit01	posts/haeufigkeit01/haeufigkeit01.rmd	string	nein	nein		datawrangling, eda, count, string, mtcars, computer	030-aufbereiten.qmd
-haeufigkeit02	posts/haeufigkeit02/haeufigkeit02.rmd	string	nein	nein			040-verbildlichen.qmd
+haeufigkeit02	posts/haeufigkeit02/haeufigkeit02.rmd	schoice	nein	nein			040-verbildlichen.qmd
 halbe-normalverteilung-eigenschaften-schoice	posts/halbe-normalverteilung-eigenschaften-schoice/halbe-normalverteilung-eigenschaften-schoice.Rmd	schoice	nein	nein		verteilungen	keines
 hdi-definition-schoice	posts/hdi-definition-schoice/hdi-definition-schoice.Rmd	schoice	nein	nein		bayes	keines
 heatmap	posts/heatmap/heatmap.rmd	schoice	nein	nein			040-verbildlichen.qmd
@@ -461,7 +461,7 @@ log-in-p	posts/log-in-p/log-in-p.rmd	cloze	ja	nein			keines
 log-in-p2	posts/log-in-p2/log-in-p2.rmd	num	ja	nein			keines
 log-y-regr1	posts/log-y-regr1/log-y-regr1.rmd	num	nein	nein		regression, lm, qm2, stats-nutshell	090-regression2.qmd
 log-y-regr2	posts/log-y-regr2/log-y-regr2.rmd	num	nein	nein		regression, lm, qm2, stats-nutshell	090-regression2.qmd
-log-y-regr3	posts/log-y-regr3/log-y-regr3.rmd	num	nein	nein		stats-nutshell, qm2, regression, log, quiz	090-regression2.qmd
+log-y-regr3	posts/log-y-regr3/log-y-regr3.rmd	schoice	nein	nein		stats-nutshell, qm2, regression, log, quiz	090-regression2.qmd
 log5	posts/log5/log5.rmd	num	nein	nein			keines
 logigkodier	posts/logigkodier/logigkodier.rmd	schoice	nein	nein		regression, schoice, quiz	090-regression2.qmd
 logikpruefung1	posts/logikpruefung1/logikpruefung1.rmd	string	nein	nein		R, 2023, computer	020-R.qmd
@@ -544,7 +544,7 @@ mtcars-regr01	posts/mtcars-regr01/mtcars-regr01.rmd	string	nein	nein		lm, mtcars
 mtcars-rope1	posts/mtcars-rope1/mtcars-rope1.rmd	cloze	nein	nein		bayes, regression, post, exam-22, qm2, mtcars, qm2-pruefung2023	keines
 mtcars-simple1	posts/mtcars-simple1/mtcars-simple1.rmd	num	nein	nein		regression, en, bayes, frequentist, qm1, stats-nutshell, mtcars	090-regression2.qmd
 mtcars-simple2	posts/mtcars-simple2/mtcars-simple2.rmd	num	nein	nein		regression, en, bayes, frequentist, qm1, stats-nutshell, mtcars	090-regression2.qmd
-mtcars-simple3	posts/mtcars-simple3/mtcars-simple3.rmd	num	nein	nein		regression, en, bayes, frequentist, qm1, stats-nutshell, qm2, mtcars, quiz	090-regression2.qmd
+mtcars-simple3	posts/mtcars-simple3/mtcars-simple3.rmd	schoice	nein	nein		regression, en, bayes, frequentist, qm1, stats-nutshell, qm2, mtcars, quiz	090-regression2.qmd
 mu-bedingt-berechnen-schoice	posts/mu-bedingt-berechnen-schoice/mu-bedingt-berechnen-schoice.Rmd	schoice	nein	nein		bayes	080-regression1.qmd
 muenze-weird	posts/muenze-weird/index.qmd	(fehlt)	nein	nein		probability	keines
 multiple-regr-kontrolle-schoice	posts/multiple-regr-kontrolle-schoice/multiple-regr-kontrolle-schoice.Rmd	schoice	nein	nein		bayes	090-regression2.qmd
@@ -823,7 +823,7 @@ rope-entscheidungsregel-schoice	posts/rope-entscheidungsregel-schoice/rope-entsc
 rope-konzept-schoice	posts/rope-konzept-schoice/rope-konzept-schoice.Rmd	schoice	nein	nein		bayes	keines
 rope-luecke	posts/rope-luecke/index.qmd	string	nein	nein		regression, rope, bayes	keines
 rope-regr	posts/rope-regr/rope-regr.rmd	num	nein	nein		bayes, regression, rope, qm2, qm2-pruefung2023	keines
-rope1	posts/rope1/rope1.rmd	schoice	nein	nein		rope, bayes	keines
+rope1	posts/rope1/rope1.rmd	string	nein	nein		rope, bayes	keines
 rope2	posts/rope2/rope2.rmd	schoice	nein	nein		rope, bayes, regression, exam-22, mtcars, quiz	keines
 rope2a	posts/rope2a/index.rmd	schoice	nein	nein		rope, bayes, regression, exam-22, mtcars, quiz	keines
 rope3	posts/rope3/rope3.rmd	schoice	nein	ja	R/exams, R-Code-Fehler: Failed at retrieving data :( Please provide original model or data   through the `data` argument	rope, bayes, quiz	keines
@@ -953,7 +953,7 @@ tidymodels-penguins03	posts/tidymodels-penguins03/tidymodels-penguins03.rmd	num	
 tidymodels-penguins04	posts/tidymodels-penguins04/tidymodels-penguins04.rmd	num	nein	nein		ds1, tidymodels, prediction, yacsda, statlearning, num	keines
 tidymodels-penguins05	posts/tidymodels-penguins05/tidymodels-penguins05.rmd	num	nein	nein		ds1, tidymodels, prediction, yacsda, statlearning, num	keines
 tidymodels-penguins06	posts/tidymodels-penguins06/tidymodels-penguins06.qmd	schoice	nein	ja	R/exams, R-Code-Fehler: `last_fit()` is not well-defined for a fitted workflow.	tidymodels, statlearning, schoice, quiz	keines
-tidymodels-penguins07	posts/tidymodels-penguins07/tidymodels-penguins07.qmd	schoice	nein	nein		tidymodels, statlearning, trees, schoice	keines
+tidymodels-penguins07	posts/tidymodels-penguins07/tidymodels-penguins07.qmd	num	nein	nein		tidymodels, statlearning, trees, num	keines
 tidymodels-poly01	posts/tidymodels-poly01/tidymodels-poly01.rmd	num	nein	nein		R, statlearning, tidymodels, num	keines
 tidymodels-poly02	posts/tidymodels-poly02/tidymodels-poly02.qmd	num	nein	nein		R, statlearning, tidymodels, num	keines
 tidymodels-remove-na	posts/tidymodels-remove-na/tidymodels-remove-na.qmd	string	nein	nein		tidymodels, statlearning, template, string	keines

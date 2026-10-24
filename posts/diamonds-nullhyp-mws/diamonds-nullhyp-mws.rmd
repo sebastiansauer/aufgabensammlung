@@ -1,8 +1,4 @@
 ---
-exname: diamonds-nullhyp-mws
-extype: schoice
-exsolution: 8
-exshuffle: no
 categories:
 - bayes
 - regression
@@ -37,7 +33,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Exercise
+Question
+========
 
 Betrachten Sie folgende Ausgabe eines Bayesmodells, das mit `rstanarm` "gefittet" wurde:
 
@@ -67,26 +64,14 @@ Hinweise:
 
 Answerlist
 ----------
-A) Die Nullhypothese ist (sicher) falsch.
-B) Die Nullhypothese ist (sicher) wahr.
-C) Man kann schließen, dass beim Parameter von `cutGood` der Wert Null *außerhalb* des 95%-PI der Posteriori-Verteilung liegt.
-D) Man kann schließen, dass alle Parameter positiv sind.
+* Die Nullhypothese ist (sicher) falsch.
+* Die Nullhypothese ist (sicher) wahr.
+* Man kann schließen, dass beim Parameter von `cutGood` der Wert Null *außerhalb* des 95%-PI der Posteriori-Verteilung liegt.
+* Man kann schließen, dass alle Parameter positiv sind.
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 
 
@@ -142,14 +127,22 @@ Answerlist
 ----------
 
 
-A) Falsch. Streng genommen können wir nicht *ganz* sicher sein, ob eine Hypothese auf Basis eines Modells richtig oder falsch ist.
-B) Falsch. Streng genommen können wir nicht *ganz* sicher sein, ob eine Hypothese auf Basis eines Modells richtig oder falsch ist.
-C) Richtig. Das 95%-ETI enthält die Null *nicht*; die Null liegt außerhalb des Intervalls.
-D) Falsch. `cutGood` hat z.B. negative Werte in seinem 95%-ETI der Postverteilung.
+* Falsch. Streng genommen können wir nicht *ganz* sicher sein, ob eine Hypothese auf Basis eines Modells richtig oder falsch ist.
+* Falsch. Streng genommen können wir nicht *ganz* sicher sein, ob eine Hypothese auf Basis eines Modells richtig oder falsch ist.
+* Richtig. Das 95%-ETI enthält die Null *nicht*; die Null liegt außerhalb des Intervalls.
+* Falsch. `cutGood` hat z.B. negative Werte in seinem 95%-ETI der Postverteilung.
 
 
 
 
+
+
+Meta-information
+================
+exname: diamonds-nullhyp-mws
+extype: schoice
+exsolution: 0010
+exshuffle: FALSE
 
 
 ---

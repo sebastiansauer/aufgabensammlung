@@ -89,7 +89,7 @@ Answerlist
 
 Meta-information
 ================
-extype: string
+extype: schoice
 exsolution: 0010
 exname: haeufigkeit02
 expoints: 1

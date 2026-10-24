@@ -1,8 +1,4 @@
 ---
-exname: def-statistik01
-extype: schoice
-exsolution: 00010
-exshuffle: no
 date: '2023-02-02'
 slug: def-statistik01
 title: def-statistik01
@@ -38,7 +34,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 Welche Definition von Statistik passt am besten?
 
@@ -52,20 +49,8 @@ Answerlist
 * Keine der genannten.
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 S. Skript
 
@@ -80,14 +65,11 @@ Answerlist
 * Falsch
 
 
-
-
-
-
-Meta-Information
+Meta-information
 ================
 exname: def-statistik01
 extype: schoice
 exsolution: 00010
-exshuffle: 5
+exshuffle: FALSE
+
 

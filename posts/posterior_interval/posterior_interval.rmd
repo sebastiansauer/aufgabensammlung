@@ -1,8 +1,4 @@
 ---
-exname: posterior_interval
-extype: schoice
-exsolution: 8
-exshuffle: no
 categories:
 - bayes
 - regression
@@ -39,7 +35,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Exercise
+Question
+========
 
 Welches Ergebnis hat der R-Befehl `posterior_interval()` (R-Paket `rstanarm`)?
 
@@ -58,20 +55,8 @@ Answerlist
 * Er liefert ein HDI-Vorhersageinterval aus der Posteriori-Verteilung.
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 So können Sie sich Hilfe zu diesem Befehl ausgeben lassen:
 
@@ -93,6 +78,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: posterior_interval
+extype: schoice
+exsolution: 00100
+exshuffle: FALSE
 
 
 ---

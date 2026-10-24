@@ -1,10 +1,4 @@
 ---
-exname: mtcars-simple3
-extype: num
-exsolution: 512
-exshuffle: yes
-extol: 0.1
-expoints: 1
 categories:
 - regression
 - en
@@ -48,7 +42,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Exercise
+Question
+========
 
 We will use the dataset `mtcars` in this exercise.
 
@@ -73,22 +68,8 @@ Answerlist
 * none of the above
 
 
-
-
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 ```{r message=FALSE}
 library(rstanarm)
@@ -141,6 +122,15 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: mtcars-simple3
+extype: schoice
+exsolution: 01000
+exshuffle: TRUE
+expoints: 1
 
 
 ---

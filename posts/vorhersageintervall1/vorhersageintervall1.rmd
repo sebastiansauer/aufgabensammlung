@@ -1,8 +1,4 @@
 ---
-exname: vorhersageintervall1
-extype: schoice
-exsolution: 1
-exshuffle: no
 categories:
 - lm
 - inference
@@ -22,7 +18,8 @@ library(tidyverse)
 ```
 
 
-## Exercise
+Question
+========
 
 
 Vorhersagen, etwa in einem Regressionsmodell,
@@ -58,21 +55,8 @@ Answerlist
 * Kommt auf weitere Faktoren an, keine pauschale Antwort möglich
 
 
-
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 Der mittlere Wert von `hp` beträgt:
 
@@ -111,6 +95,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: vorhersageintervall1
+extype: schoice
+exsolution: 0100
+exshuffle: FALSE
 
 
 ---

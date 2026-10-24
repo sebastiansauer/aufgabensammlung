@@ -1,8 +1,4 @@
 ---
-exname: argumente
-extype: schoice
-exsolution: 1
-exshuffle: no
 categories:
 - R
 - '2023'
@@ -40,7 +36,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 Welche der folgenden Syntax-Beispiele zeigt *fehlerhaften* Code? 
 
@@ -64,20 +61,8 @@ Answerlist
 * `mean(x, 0, FALSE)`
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 
@@ -92,6 +77,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: argumente
+extype: schoice
+exsolution: 0100
+exshuffle: FALSE
 
 
 ---

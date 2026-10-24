@@ -127,7 +127,7 @@ col_chosen <- sample(cols_n, 1)
 
 empty_col_df <- 
   tidy_df %>% 
-  select(all_of(col_chosen))
+  dplyr::select(all_of(col_chosen))
 
 empty_col_df[1] <- NA
 
@@ -138,7 +138,7 @@ empty_col_df[1] <- NA
 empty_col_noname_df <-
   tidy_df %>% 
   mutate(` ` = NA ) %>% 
-  select(last_col())
+  dplyr::select(last_col())
 ```
 
 

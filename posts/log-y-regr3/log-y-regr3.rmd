@@ -1,10 +1,4 @@
 ---
-exname: log-y-regr3
-extype: num
-exsolution: 1.07
-exshuffle: no
-extol: 0.05
-expoints: 1
 categories:
 - stats-nutshell
 - qm2
@@ -44,7 +38,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Exercise
+Question
+========
 
 ```{r}
 library(tidyverse)
@@ -92,22 +87,8 @@ Answerlist
 * married
 
 
-
-
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 
 ```{r}
@@ -149,6 +130,15 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: log-y-regr3
+extype: schoice
+exsolution: 10000
+exshuffle: FALSE
+expoints: 1
 
 
 ---

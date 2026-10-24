@@ -1,9 +1,4 @@
 ---
-exname: boxplot-aussagen
-extype: schoice
-exsolution: '100000000011'
-exshuffle: 5
-expoints: 1
 categories:
 - vis
 - eda
@@ -39,7 +34,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 *Hinweis: `Female` steht für Frauen; `Male` für Männer.*
@@ -76,18 +72,8 @@ Answerlist
 * Auf der X-Achse steht eine nominale (qualitative) Variable.
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 
@@ -110,6 +96,15 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: boxplot-aussagen
+extype: schoice
+exsolution: 100000000011
+exshuffle: 5
+expoints: 1
 
 
 ---

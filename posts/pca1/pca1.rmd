@@ -1,13 +1,9 @@
 ---
-exname: pca1
-extype: schoice
-exsolution: 11000000
-exshuffle: 5
-expoints: 4
 date: '2023-05-17'
 slug: PCA1
 title: PCA1
-categories: schoice
+categories:
+- schoice
 - quiz
 
 ---
@@ -31,7 +27,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 *Principal Component Analysis* (PCA) ist ein gängiges Verfahren zur Dimensionsreduktion eines $n \times p$ Datensatz $\boldsymbol{X}$. Welche Aussage ist in dem Zusammenhang (am ehesten) korrekt?
 
@@ -50,19 +47,8 @@ Answerlist
 * Ein Screeplot zeigt auf der $X$-Achse die kumulierte, erklärte Varianz.
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 
@@ -80,6 +66,15 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: pca1
+extype: schoice
+exsolution: 11000000
+exshuffle: 5
+expoints: 4
 
 
 ---
