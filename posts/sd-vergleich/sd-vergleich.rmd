@@ -52,7 +52,7 @@ gemessen in Standardabweichung (sd, sigma)?
 
 
 
-```{r echo = FALSE, warning=FALSE, message=FALSE}
+```{r echo = FALSE, warning=FALSE, message=FALSE, fig.width = 5.8, fig.asp = 0.75}
 
 # Code by Karsten Lübke
 
