@@ -335,6 +335,7 @@ Meta-information
 ================
 exname: tidymodels1
 extype: schoice
+expoints: 1
 exsolution: 100000
 exshuffle: 5
 

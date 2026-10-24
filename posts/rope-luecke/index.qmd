@@ -82,5 +82,6 @@ Meta-information
 ================
 exname: rope-luecke
 extype: schoice
+expoints: 1
 exsolution: 0100000000
 exshuffle: FALSE

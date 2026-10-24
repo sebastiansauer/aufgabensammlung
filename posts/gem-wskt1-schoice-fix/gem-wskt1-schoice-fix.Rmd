@@ -181,5 +181,6 @@ Meta-information
 ================
 exname: gem-wskt1-schoice-fix
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5

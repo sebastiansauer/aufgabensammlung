@@ -132,6 +132,7 @@ Meta-information
 ================
 exname: kausal06
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

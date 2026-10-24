@@ -1,6 +1,7 @@
 ---
 exname: bath42
 extype: num
+expoints: 1
 exsolution: 0.39
 extol: 0.02
 exshuffle: no

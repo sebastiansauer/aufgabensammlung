@@ -44,6 +44,7 @@ Meta-information
 ================
 exname: fleiss-macht-bloed-berkson-schoice
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5
 excategory: kausalinferenz

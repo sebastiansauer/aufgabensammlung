@@ -83,7 +83,7 @@ exname: szenario-charakterisieren1
 extype: schoice
 exsolution: 100000
 exshuffle: TRUE
-expoints: 3
+expoints: 1
 
 
 ---

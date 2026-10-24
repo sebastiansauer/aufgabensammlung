@@ -135,5 +135,6 @@ Meta-information
 ================
 exname: corona-todesfaelle1
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: false

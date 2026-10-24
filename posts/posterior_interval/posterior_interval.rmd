@@ -89,6 +89,7 @@ Meta-information
 ================
 exname: posterior_interval
 extype: schoice
+expoints: 1
 exsolution: 00100
 exshuffle: FALSE
 

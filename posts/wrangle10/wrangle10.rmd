@@ -1,6 +1,7 @@
 ---
 exname: wrangle10
 extype: num
+expoints: 1
 exsolution: 165
 extol: 0.1
 categories:

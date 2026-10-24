@@ -140,6 +140,6 @@ Meta-information
 ================
 extype: string
 exname: wachstum_corona
-expoints: 10
+expoints: 1
 exsolution: `r sol`
 

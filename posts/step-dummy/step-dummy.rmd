@@ -147,6 +147,7 @@ Meta-information
 ================
 exname: step-dummy
 extype: schoice
+expoints: 1
 exsolution: 0010
 exshuffle: FALSE
 

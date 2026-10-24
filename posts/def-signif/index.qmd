@@ -3,6 +3,7 @@
 date: 2024-07-01
 draft: true   # ACHTUNG DRAFT STEHT AUF TRUE!
 title: def-signif  # HIER TITEL DES POSTS EINGEBEN.
+expoints: 1
 execute: 
   eval: true 
 highlight-style: arrow 

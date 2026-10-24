@@ -59,4 +59,4 @@ Meta-information
 extype: string
 exsolution: `r sol`
 exname: verifikationismus
-expoints: 5
+expoints: 1

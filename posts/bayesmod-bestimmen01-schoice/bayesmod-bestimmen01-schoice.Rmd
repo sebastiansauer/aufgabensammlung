@@ -51,6 +51,7 @@ Aufgabenname: `bayesmod-bestimmen01-schoice`
 Meta-information
 ================
 extype: schoice
+expoints: 1
 exsolution: 10000
 exname: bayesmod-bestimmen01-schoice
 exshuffle: true

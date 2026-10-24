@@ -173,5 +173,6 @@ Meta-information
 ================
 exname: logik2_buggy
 extype: schoice
+expoints: 1
 exsolution: `r  mchoice2string(itemlist$sol_type=="is_correct")`
 exshuffle: false

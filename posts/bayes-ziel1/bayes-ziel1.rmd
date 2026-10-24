@@ -74,6 +74,7 @@ Meta-information
 ================
 exname: bayes-ziel1
 extype: schoice
+expoints: 1
 exsolution: 0001
 exshuffle: FALSE
 

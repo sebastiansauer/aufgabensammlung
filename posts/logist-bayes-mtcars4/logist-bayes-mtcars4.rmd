@@ -232,6 +232,7 @@ Aufgabenname: `logist-bayes-mtcars4`
 Meta-information
 ================
 extype: num
+expoints: 1
 exsolution: `r sol`
 exname: logist-bayes-mtcars4
 extol: 0.02

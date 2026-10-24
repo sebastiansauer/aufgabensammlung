@@ -84,5 +84,6 @@ Meta-information
 ================
 exname: ttest-aussagen
 extype: schoice
+expoints: 1
 exsolution: 1110000000000000
 exshuffle: 5

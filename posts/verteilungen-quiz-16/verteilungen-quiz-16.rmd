@@ -94,6 +94,7 @@ Meta-information
 ================
 exname: verteilungen-quiz-16
 extype: schoice
+expoints: 1
 exsolution: 10
 exshuffle: FALSE
 

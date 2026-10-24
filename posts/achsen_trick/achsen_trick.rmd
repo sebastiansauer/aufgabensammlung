@@ -44,5 +44,6 @@ Meta-information
 ================
 exname: achsen_trick
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

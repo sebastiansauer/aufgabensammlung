@@ -93,6 +93,7 @@ Meta-information
 ================
 exname: wskt-quiz15
 extype: schoice
+expoints: 1
 exsolution: 01
 exshuffle: FALSE
 

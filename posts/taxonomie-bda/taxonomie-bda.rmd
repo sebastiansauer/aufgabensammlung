@@ -29,5 +29,6 @@ Aufgabenname: `taxonomie-bda`
 Meta-information
 ================
 extype: schoice
+expoints: 1
 exsolution: 0100
 exname: taxonomie-bda

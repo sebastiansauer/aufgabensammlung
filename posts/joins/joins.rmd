@@ -175,5 +175,6 @@ Meta-information
 ================
 exname: joins
 extype: schoice
+expoints: 1
 exsolution: `r mchoice2string(joins_df$is_correct, single = TRUE)`
 exshuffle: false

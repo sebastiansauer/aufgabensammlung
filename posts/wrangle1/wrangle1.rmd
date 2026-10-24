@@ -140,6 +140,7 @@ Meta-information
 ================
 exname: wrangle1
 extype: schoice
+expoints: 1
 exsolution: 00000100
 exshuffle: 5
 

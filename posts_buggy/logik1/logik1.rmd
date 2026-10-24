@@ -177,5 +177,6 @@ Meta-information
 ================
 exname: logik1
 extype: schoice
+expoints: 1
 exsolution: `r  mchoice2string(itemlist$is_correct)`
 exshuffle: true

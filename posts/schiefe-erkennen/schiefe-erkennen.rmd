@@ -82,7 +82,7 @@ d <- tibble(
 
 d <-
   d %>% 
-  mutate(skew = map(data, ~ skewness(.x[[1]]))) %>%  # as .x is a tibble, we need to access its first column
+  mutate(skew = map(data, ~ e1071::skewness(.x[[1]]))) %>%  # as .x is a tibble, we need to access its first column
   mutate(skew = unlist(skew)) %>% 
   sample_n(size = nrow(.)) %>%   # shuffle it
   mutate(plot_id = LETTERS[1:nrow(.)])
@@ -157,6 +157,7 @@ Meta-information
 ================
 exname: schiefe-erkennen
 extype: schoice
+expoints: 1
 exsolution: `r exams::mchoice2string(d$is_correct, single = TRUE)`
 exshuffle: FALSE
 

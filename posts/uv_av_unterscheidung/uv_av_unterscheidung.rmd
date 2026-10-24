@@ -42,5 +42,6 @@ Meta-information
 ================
 exname: uv_av_unterscheidung
 extype: schoice
+expoints: 1
 exsolution: 00100
 exshuffle: TRUE

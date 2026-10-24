@@ -44,5 +44,6 @@ Meta-information
 ================
 exname: residuen_summe
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

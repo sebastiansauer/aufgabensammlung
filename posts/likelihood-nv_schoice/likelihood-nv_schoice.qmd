@@ -57,6 +57,7 @@ Meta-information
 ================
 exname: likelihood-nv_schoice
 extype: schoice
+expoints: 1
 exsolution: 00010
 exshuffle: TRUE
 

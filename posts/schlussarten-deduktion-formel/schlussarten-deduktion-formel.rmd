@@ -40,5 +40,6 @@ Meta-information
 ================
 exname: schlussarten-deduktion-formel
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: true

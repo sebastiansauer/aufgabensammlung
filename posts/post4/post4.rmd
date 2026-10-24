@@ -263,5 +263,5 @@ extype: cloze
 exsolution: `r paste(solutions, collapse = "|")`
 exclozetype: `r paste(type, collapse = "|")`
 exshuffle: false
-expoints: `r length(questions)`
+expoints: 1
 

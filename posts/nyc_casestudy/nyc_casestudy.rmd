@@ -2,7 +2,7 @@
 extype: string
 exsolution: r sol
 exname: nyc_casestudy
-expoints: 25
+expoints: 1
 categories:
 - ds1
 - tidymodels

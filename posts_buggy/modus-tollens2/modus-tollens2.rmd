@@ -198,6 +198,7 @@ Meta-information
 ================
 exname: modus-tollens2
 extype: schoice
+expoints: 1
 exsolution: `r  mchoice2string(itemlist$is_correct)`
 exshuffle: true
 exdyn: true

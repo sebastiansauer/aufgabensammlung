@@ -9,6 +9,7 @@ highlight-style: arrow
 cache: true
 
 extype: string
+expoints: 1
 exname: chatgpt-sentiment-loop
 exsolution: ""
 categories:

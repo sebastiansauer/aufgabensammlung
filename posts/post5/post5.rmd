@@ -196,5 +196,5 @@ exname: post5
 extype: num
 exsolution: `r paste(solutions, collapse = "|")`
 exshuffle: false
-expoints: `r length(questions)`
+expoints: 1
 

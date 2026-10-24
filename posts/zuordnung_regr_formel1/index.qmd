@@ -108,5 +108,6 @@ Meta-information
 ================
 exname: zuordnung_regr_formel1
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: FALSE

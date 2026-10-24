@@ -176,6 +176,7 @@ Meta-information
 ================
 exname: lm-standardfehler
 extype: schoice
+expoints: 1
 exsolution: 00001
 exshuffle: FALSE
 

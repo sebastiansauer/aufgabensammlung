@@ -68,6 +68,7 @@ Aufgabenname: `bsp-korr-kaus`
 Meta-information
 ================
 extype: string
+expoints: 1
 exsolution: nil
 exname: bsp-korr-kaus
 exextra[essay,logical]: TRUE

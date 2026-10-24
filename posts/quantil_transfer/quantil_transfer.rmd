@@ -45,5 +45,6 @@ Meta-information
 ================
 exname: quantil_transfer
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

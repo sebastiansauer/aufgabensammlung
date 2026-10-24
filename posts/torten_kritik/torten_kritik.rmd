@@ -43,6 +43,7 @@ Meta-information
 ================
 exname: torten_kritik
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

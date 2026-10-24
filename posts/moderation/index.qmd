@@ -100,5 +100,6 @@ Meta-information
 ================
 exname: moderation
 extype: schoice
+expoints: 1
 exsolution: 00010
 exshuffle: FALSE

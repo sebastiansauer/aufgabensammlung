@@ -231,6 +231,7 @@ Meta-information
 ================
 exname: _kausal11
 extype: schoice
+expoints: 1
 exsolution: `r mchoice2string(sol_df$is_correct, single = TRUE)`
 exshuffle: false
 

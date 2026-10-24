@@ -45,6 +45,7 @@ Meta-information
 ================
 exname: korrelation_richtung
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

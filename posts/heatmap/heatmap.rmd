@@ -57,5 +57,6 @@ Aufgabenname: `heatmap`
 Meta-information
 ================
 extype: schoice
+expoints: 1
 exsolution: 00100
 exname: heatmap

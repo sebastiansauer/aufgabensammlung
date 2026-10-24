@@ -42,6 +42,7 @@ Meta-information
 ================
 exname: post-frage-p-vs-q-schoice
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5
 excategory: bayes

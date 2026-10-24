@@ -59,6 +59,7 @@ Meta-information
 ================
 exname: kennwert-robust
 extype: schoice
+expoints: 1
 exsolution: 1000000
 exshuffle: 5
 

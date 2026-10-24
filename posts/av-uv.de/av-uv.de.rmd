@@ -88,6 +88,7 @@ Meta-information
 ================
 exname: av-uv.de
 extype: schoice
+expoints: 1
 exsolution: `r mchoice2string(items$solutions, single = TRUE)`
 exshuffle: false
 categories:

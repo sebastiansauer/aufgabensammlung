@@ -109,5 +109,6 @@ Meta-information
 ================
 exname: small-wide-normal
 extype: schoice
+expoints: 1
 exsolution: 0010
 exshuffle: FALSE

@@ -87,6 +87,7 @@ Meta-information
 ================
 exname: argumente
 extype: schoice
+expoints: 1
 exsolution: 0100
 exshuffle: FALSE
 

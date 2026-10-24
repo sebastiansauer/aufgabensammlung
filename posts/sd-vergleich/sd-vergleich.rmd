@@ -131,6 +131,7 @@ Meta-information
 ================
 exname: sd-vergleich
 extype: schoice
+expoints: 1
 exsolution: 00100
 exshuffle: FALSE
 

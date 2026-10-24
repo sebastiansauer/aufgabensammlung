@@ -85,6 +85,7 @@ Meta-information
 ================
 exname: priorwahl2
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: FALSE
 

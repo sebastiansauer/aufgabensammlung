@@ -56,5 +56,6 @@ Meta-information
 ================
 exname: fofrage-regrformel-schoice
 extype: schoice
+expoints: 1
 exsolution: 100000
 exshuffle: 5

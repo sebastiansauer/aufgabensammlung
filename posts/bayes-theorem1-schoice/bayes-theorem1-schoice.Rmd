@@ -63,6 +63,7 @@ Answerlist
 Meta-information
 ================
 extype: schoice
+expoints: 1
 exsolution: 10000
 exname: bayes-theorem1-schoice
 exshuffle: true

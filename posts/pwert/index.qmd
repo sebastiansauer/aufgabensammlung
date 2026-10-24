@@ -3,6 +3,7 @@
 date: 2024-07-02
 draft: ture   # ACHTUNG DRAFT STEHT AUF TRUE!
 title: pvalue1  # HIER TITEL DES POSTS EINGEBEN.
+expoints: 1
 execute: 
   eval: true 
 highlight-style: arrow 

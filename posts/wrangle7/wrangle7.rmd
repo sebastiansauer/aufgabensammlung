@@ -85,6 +85,7 @@ Meta-information
 ================
 exname: wrangle7
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: FALSE
 

@@ -123,5 +123,6 @@ Meta-information
 ================
 exname: stichprobenanteil-vs-popanteil
 extype: schoice
+expoints: 1
 exsolution: 00010
 exshuffle: true

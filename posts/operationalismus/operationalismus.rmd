@@ -42,5 +42,6 @@ Meta-information
 ================
 exname: operationalismus
 extype: mchoice
+expoints: 1
 exsolution: 101011
 exshuffle: TRUE

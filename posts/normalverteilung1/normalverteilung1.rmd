@@ -76,6 +76,7 @@ Meta-information
 ================
 exname: normalverteilung1
 extype: num
+expoints: 1
 exsolution: `r d$Prozentrang[d$is_correct == TRUE]`
 exshuffle: true
 extol: 0.05

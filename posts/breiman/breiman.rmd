@@ -52,6 +52,7 @@ Meta-information
 ================
 exname: breiman
 extype: schoice
+expoints: 1
 exsolution: 000001
 exshuffle: FALSE
 

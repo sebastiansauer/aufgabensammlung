@@ -47,6 +47,7 @@ Meta-information
 ================
 exname: resid_calc
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

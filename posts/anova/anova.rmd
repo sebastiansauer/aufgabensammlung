@@ -135,5 +135,6 @@ answerlist(ifelse(solutions, "True", "False"), explanations, markup = "markdown"
 Meta-information
 ================
 extype: mchoice
+expoints: 1
 exsolution: `r mchoice2string(solutions)`
 exname: anova

@@ -144,6 +144,7 @@ Meta-information
 ================
 exname: kausal03
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

@@ -112,6 +112,7 @@ Solutionlist
 Meta-information
 ================
 extype: cloze
+expoints: 1
 exclozetype: num|num
 exsolution: `r sol_a`|`r sol_b`
 exname: logist-bayes-mtcars5

@@ -116,6 +116,7 @@ Meta-information
 ================
 exname: messniveau
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: false
 categories:

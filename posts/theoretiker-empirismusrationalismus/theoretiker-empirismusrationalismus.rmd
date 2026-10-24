@@ -36,5 +36,6 @@ Aufgabenname: `theoretiker-empirismusrationalismus`
 Meta-information
 ================
 extype: string
+expoints: 1
 exsolution: `r position`
 exname: theoretiker-empirismusrationalismus

@@ -146,6 +146,7 @@ Meta-information
 ================
 exname: diamonds-nullhyp-mws
 extype: schoice
+expoints: 1
 exsolution: 0010
 exshuffle: FALSE
 

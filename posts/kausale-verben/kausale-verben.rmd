@@ -1,6 +1,7 @@
 ---
 exname: kausale-verben
 extype: mchoice
+expoints: 1
 exsolution: 10001
 exshuffle: yes
 categories:

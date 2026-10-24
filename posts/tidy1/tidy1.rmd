@@ -387,6 +387,7 @@ Meta-information
 ================
 exname: tidy1
 extype: schoice
+expoints: 1
 exsolution: `r mchoice2string(tibbles_chosen$is_correct, single = TRUE)`
 exshuffle: FALSE
 

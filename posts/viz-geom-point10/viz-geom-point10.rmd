@@ -87,5 +87,6 @@ Meta-information
 ================
 exname: viz-geom-point10
 extype: schoice
+expoints: 1
 exsolution: 00010
 exshuffle: false

@@ -74,5 +74,6 @@ Meta-information
 ================
 exname: pwert2
 extype: schoice
+expoints: 1
 exsolution: 0001
 exshuffle: FALSE

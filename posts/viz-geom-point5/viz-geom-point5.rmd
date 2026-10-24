@@ -72,5 +72,6 @@ Meta-information
 ================
 exname: viz-geom-point5
 extype: schoice
+expoints: 1
 exsolution: 000010
 exshuffle: false

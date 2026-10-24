@@ -45,5 +45,6 @@ Meta-information
 ================
 exname: z_wert_interpretation
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

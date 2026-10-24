@@ -108,6 +108,7 @@ Meta-information
 ================
 exname: kausal-einfach
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: FALSE
 

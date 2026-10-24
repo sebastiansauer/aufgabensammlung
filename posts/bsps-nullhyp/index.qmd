@@ -81,5 +81,6 @@ Meta-information
 ================
 exname: bsps-nullhyp
 extype: schoice
+expoints: 1
 exsolution: 00000001
 exshuffle: FALSE

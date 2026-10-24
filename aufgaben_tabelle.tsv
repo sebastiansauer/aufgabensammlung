@@ -102,7 +102,7 @@ boosting1	posts/boosting1/boosting1.rmd	mchoice	nein	nein		mchoice, statisticall
 boosting2	posts/boosting2/boosting2.rmd	schoice	nein	nein		schoice, quiz, paper	keines
 bootstrap	posts/bootstrap/bootstrap.rmd	schoice	nein	nein		statlearning, inference, schoice, mtcars, quiz, paper	keines
 bootstrap1	posts/bootstrap1/bootstrap1.rmd	schoice	nein	nein		statlearning, ds1, schoice, quiz, paper	keines
-bosplot_schiefe	posts/bosplot_schiefe/bosplot_schiefe.rmd	schoice	nein	nein		vis, schoice, quiz	040-verbildlichen.qmd
+boxplot_schiefe	posts/boxplot_schiefe/boxplot_schiefe.rmd	schoice	nein	nein		vis, schoice, quiz, paper	040-verbildlichen.qmd
 boxhist	posts/boxhist/boxhist.rmd	cloze	ja	nein		vis, eda, en, cloze, paper, dyn	040-verbildlichen.qmd
 boxhist2	posts/boxhist2/boxhist2.rmd	cloze	ja	nein		null	040-verbildlichen.qmd
 boxplot-aussagen	posts/boxplot-aussagen/boxplot-aussagen.rmd	schoice	ja	nein		vis, eda, dyn, schoice, paper, quiz	040-verbildlichen.qmd

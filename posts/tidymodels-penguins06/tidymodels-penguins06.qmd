@@ -211,6 +211,7 @@ Meta-information
 ================
 exname: tidymodels-penguins06
 extype: schoice
+expoints: 1
 exsolution: `r fmt(sol)`
 exshuffle: FALSE
 

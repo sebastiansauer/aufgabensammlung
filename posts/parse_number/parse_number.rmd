@@ -137,5 +137,6 @@ Meta-information
 ================
 exname: parse_number
 extype: schoice
+expoints: 1
 exsolution: 00010
 exshuffle: false

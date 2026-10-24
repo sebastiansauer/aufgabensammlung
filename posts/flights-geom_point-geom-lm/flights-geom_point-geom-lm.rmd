@@ -159,5 +159,6 @@ Meta-information
 ================
 exname: flights-geom_point-geom-lm
 extype: schoice
+expoints: 1
 exsolution: `r mchoice2string(d$is_correct, single = TRUE)`
 exshuffle: false

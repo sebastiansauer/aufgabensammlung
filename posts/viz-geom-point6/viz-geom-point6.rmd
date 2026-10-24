@@ -121,5 +121,6 @@ Meta-information
 ================
 exname: viz-geom-point6
 extype: schoice
+expoints: 1
 exsolution: 00100
 exshuffle: false

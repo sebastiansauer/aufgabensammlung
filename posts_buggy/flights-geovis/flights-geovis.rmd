@@ -91,6 +91,7 @@ Meta-information
 ================
 exname: flights-geovis
 extype: mchoice
+expoints: 1
 exsolution: 11000
 exshuffle: FALSE
 categories:

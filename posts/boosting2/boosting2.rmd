@@ -85,6 +85,7 @@ Meta-information
 ================
 exname: boosting2
 extype: schoice
+expoints: 1
 exsolution: 00010
 exshuffle: FALSE
 

@@ -144,4 +144,5 @@ Meta-information
 ================
 exname: pigs3
 extype: string
+expoints: 1
 exsolution: NA

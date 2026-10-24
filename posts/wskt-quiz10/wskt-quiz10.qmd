@@ -87,6 +87,7 @@ Meta-information
 ================
 exname: wskt-quiz10
 extype: schoice
+expoints: 1
 exsolution: 01
 exshuffle: FALSE
 

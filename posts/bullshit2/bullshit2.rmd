@@ -135,5 +135,6 @@ Meta-information
 ================
 exname: bullshit2
 extype: schoice
+expoints: 1
 exsolution: `r mchoice2string(sol$is_correct, single = TRUE)`
 

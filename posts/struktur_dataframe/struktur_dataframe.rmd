@@ -44,5 +44,6 @@ Meta-information
 ================
 exname: struktur_dataframe
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: TRUE

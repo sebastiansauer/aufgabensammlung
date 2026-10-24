@@ -44,5 +44,6 @@ Meta-information
 ================
 exname: definition_punktmodell
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

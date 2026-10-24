@@ -38,6 +38,7 @@ Aufgabenname: `corrplot`
 Meta-information
 ================
 extype: schoice
+expoints: 1
 exsolution:  1000
 exname: corrplot
 

@@ -182,5 +182,6 @@ Meta-information
 ================
 exname: logist-plot1
 extype: string
+expoints: 1
 exsolution: NULL
 

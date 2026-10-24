@@ -91,5 +91,6 @@ Meta-information
 ================
 exname: ims-kap-04-03
 extype: schoice
+expoints: 1
 exsolution: 00010
 exshuffle: false

@@ -51,6 +51,7 @@ Meta-information
 ================
 exname: supervisedlearning
 extype: schoice
+expoints: 1
 exsolution: 0001
 exshuffle: FALSE
 

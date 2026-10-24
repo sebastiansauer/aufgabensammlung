@@ -83,5 +83,6 @@ Meta-information
 ================
 exname: zipf1
 extype: schoice
+expoints: 1
 exsolution: 110000000000
 exshuffle: 5

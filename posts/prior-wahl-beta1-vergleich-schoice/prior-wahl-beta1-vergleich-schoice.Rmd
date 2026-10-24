@@ -44,6 +44,7 @@ Meta-information
 ================
 exname: prior-wahl-beta1-vergleich-schoice
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5
 excategory: bayes

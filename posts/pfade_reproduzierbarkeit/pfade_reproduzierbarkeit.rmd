@@ -46,5 +46,6 @@ Meta-information
 ================
 exname: pfade_reproduzierbarkeit
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

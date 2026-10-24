@@ -67,4 +67,4 @@ Meta-information
 extype: schoice
 exsolution: 00001
 exname: dashboard-tools
-expoints: 5
+expoints: 1

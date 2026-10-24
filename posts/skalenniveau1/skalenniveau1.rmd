@@ -158,6 +158,7 @@ Meta-information
 ================
 exname: skalenniveau1
 extype: schoice
+expoints: 1
 exsolution: `r mchoice2string(d_prepared$is_correct_item, single = TRUE)`
 exshuffle: false
 categories:

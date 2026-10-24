@@ -115,6 +115,7 @@ Meta-information
 ================
 exname: verteilungen-quiz-17
 extype: schoice
+expoints: 1
 exsolution: 01
 exshuffle: FALSE
 

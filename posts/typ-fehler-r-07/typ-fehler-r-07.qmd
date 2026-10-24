@@ -69,6 +69,7 @@ Meta-information
 ================
 exname: typ-fehler-r-07
 extype: schoice
+expoints: 1
 exsolution: 00100
 exshuffle: 5
 

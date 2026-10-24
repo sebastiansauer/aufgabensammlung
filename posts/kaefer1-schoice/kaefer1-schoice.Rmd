@@ -100,5 +100,6 @@ Meta-information
 ================
 exname: kaefer1-schoice
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: 5

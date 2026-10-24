@@ -56,6 +56,7 @@ Meta-information
 ================
 exname: verteilungen-quiz-01-b
 extype: schoice
+expoints: 1
 exsolution: 10
 exshuffle: false
 categories:

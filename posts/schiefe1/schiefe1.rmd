@@ -68,6 +68,7 @@ Meta-information
 ================
 exname: schiefe1
 extype: schoice
+expoints: 1
 exsolution: `r exams::mchoice2string(solutions, single = TRUE)`
 exshuffle: FALSE
 

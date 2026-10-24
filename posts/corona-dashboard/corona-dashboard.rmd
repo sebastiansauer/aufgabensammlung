@@ -89,4 +89,4 @@ Meta-information
 extype: string
 exsolution: `r sol`
 exname: corona-dashboard
-expoints: 10
+expoints: 1

@@ -52,5 +52,6 @@ Meta-information
 ================
 exname: falsifik1
 extype: schoice
+expoints: 1
 exsolution: 101010000
 exshuffle: 5

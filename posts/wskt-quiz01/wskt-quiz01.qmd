@@ -80,6 +80,7 @@ Meta-information
 ================
 exname: wskt-quiz01
 extype: schoice
+expoints: 1
 exsolution: 01
 exshuffle: FALSE
 

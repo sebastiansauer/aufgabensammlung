@@ -134,6 +134,7 @@ Meta-information
 ================
 exname: abhaengige-es
 extype: schoice
+expoints: 1
 exsolution: `r sol`
 exshuffle: false
 categories:

@@ -43,6 +43,7 @@ Meta-information
 ================
 exname: na_handling_transfer
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: TRUE
 

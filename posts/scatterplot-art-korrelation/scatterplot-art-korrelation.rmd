@@ -232,5 +232,6 @@ Meta-information
 ================
 exname: scatterplot-art-korrelation
 extype: schoice
+expoints: 1
 exsolution: `r mchoice2string(items$selected_id, single = TRUE)`
 exshuffle: false

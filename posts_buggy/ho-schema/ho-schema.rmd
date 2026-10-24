@@ -41,5 +41,6 @@ Meta-information
 ================
 exname: ho-schema
 extype: schoice
+expoints: 1
 exsolution: 1100000
 exshuffle: TRUE

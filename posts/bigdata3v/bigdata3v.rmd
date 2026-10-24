@@ -48,4 +48,4 @@ Meta-information
 extype: string
 exsolution: `r sol`
 exname: bigdata3v
-expoints: 5
+expoints: 1

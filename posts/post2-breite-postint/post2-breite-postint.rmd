@@ -221,7 +221,7 @@ Meta-information
 exname: post2-breite-postint
 extype: num
 exsolution: `r breite`
-expoints: 1 
+expoints: 1
 extol: `r sol_tol`
 categories:
 - bayes

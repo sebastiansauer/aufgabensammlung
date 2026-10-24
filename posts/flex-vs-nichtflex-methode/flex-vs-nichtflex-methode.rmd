@@ -80,6 +80,7 @@ Meta-information
 ================
 exname: flex-vs-nichtflex-methode
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

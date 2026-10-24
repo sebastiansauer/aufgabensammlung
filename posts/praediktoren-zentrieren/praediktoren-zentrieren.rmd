@@ -64,6 +64,7 @@ Aufgabenname: `praediktoren-zentrieren`
 Meta-information
 ================
 extype: string
+expoints: 1
 exname: praediktoren-zentrieren
 exsolution: `r sol`
 

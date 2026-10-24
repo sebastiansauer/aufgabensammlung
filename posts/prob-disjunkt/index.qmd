@@ -60,5 +60,6 @@ Meta-information
 ================
 exname: prob-disjunkt
 extype: schoice
+expoints: 1
 exsolution: 0010
 exshuffle: FALSE

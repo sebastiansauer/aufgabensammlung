@@ -40,9 +40,9 @@ knitr::opts_chunk$set(fig.pos = 'H',
 Question
 ========
 
+Welches der folgenden Boxplots spiegelt das Histogramm am genauesten wider?
 
-
-**Histogramm**:
+Histogramm:
 
 ```{r data-gen, echo = FALSE}
 n <- 1000  # sample size
@@ -54,7 +54,7 @@ ggplot(d, aes(x = value)) +
 ```
 
 
-**Boxplots**:
+Boxplots:
 
 
 ```{r boxplot-data, echo = FALSE}
@@ -125,6 +125,7 @@ Meta-information
 ================
 exname: histogramm-in-boxplot
 extype: schoice
+expoints: 1
 exsolution: `r mchoice2string(boxplot_df$is_correct, single = TRUE)`
 exshuffle: FALSE
 

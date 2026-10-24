@@ -37,6 +37,7 @@ Meta-information
 ================
 exname: def_datenjudo
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
   

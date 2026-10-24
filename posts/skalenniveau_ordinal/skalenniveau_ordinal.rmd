@@ -42,5 +42,6 @@ Meta-information
 ================
 exname: skalenniveau_ordinal
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: TRUE

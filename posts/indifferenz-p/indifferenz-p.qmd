@@ -24,6 +24,7 @@ knitr:
 
 exname: indifferenz-p
 extype: string
+expoints: 1
 ---
 
 

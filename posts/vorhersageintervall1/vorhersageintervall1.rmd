@@ -106,6 +106,7 @@ Meta-information
 ================
 exname: vorhersageintervall1
 extype: schoice
+expoints: 1
 exsolution: 0100
 exshuffle: FALSE
 

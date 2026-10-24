@@ -76,6 +76,7 @@ Meta-information
 ================
 exname: ols-minimierung
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

@@ -45,5 +45,6 @@ Meta-information
 ================
 exname: aprioriwissen
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: true

@@ -107,7 +107,7 @@ d_raw <- tibble(
 d <-
   d_raw %>% 
   mutate(quantiles = map(data, ~ quantile(.x[[1]]))) %>% 
-  mutate(skew = map_dbl(data, ~ skewness(.x[[1]]))) %>% 
+  mutate(skew = map_dbl(data, ~ e1071::skewness(.x[[1]]))) %>% 
   mutate(avg = map_dbl(data, ~ mean(.x[[1]]))) %>% 
   mutate(iqr = map_dbl(data, ~ IQR(.x[[1]]))) %>% 
   unnest_wider(quantiles) %>% 
@@ -188,6 +188,7 @@ Meta-information
 ================
 exname: streuung-histogramm
 extype: schoice
+expoints: 1
 exsolution: `r mchoice2string(sol_df$is_correct, single = TRUE)`
 exshuffle: FALSE
 

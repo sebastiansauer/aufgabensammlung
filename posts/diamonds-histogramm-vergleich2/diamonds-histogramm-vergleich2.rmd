@@ -125,6 +125,7 @@ Meta-information
 ================
 exname: diamonds-histogramm-vergleich2
 extype: schoice
+expoints: 1
 exsolution: 0100
 exshuffle: TRUE
 

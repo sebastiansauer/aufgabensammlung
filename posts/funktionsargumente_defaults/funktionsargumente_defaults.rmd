@@ -43,6 +43,7 @@ Meta-information
 ================
 exname: funktionsargumente_defaults
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: TRUE
 

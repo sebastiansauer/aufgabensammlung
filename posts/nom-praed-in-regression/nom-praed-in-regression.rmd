@@ -71,5 +71,6 @@ Meta-information
 ================
 exname: nom-praed-in-regression
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: false

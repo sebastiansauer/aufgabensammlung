@@ -42,5 +42,6 @@ Meta-information
 ================
 exname: vektorielles_rechnen_transfer
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: TRUE

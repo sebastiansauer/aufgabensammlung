@@ -72,6 +72,7 @@ Aufgabenname: `regression`
 Meta-information
 ================
 extype: num
+expoints: 1
 exsolution: `r fmt(sol, 3)`
 exname: regression
 extol: 0.01

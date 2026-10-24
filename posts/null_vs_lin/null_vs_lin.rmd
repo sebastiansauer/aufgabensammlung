@@ -45,6 +45,7 @@ Meta-information
 ================
 exname: null_vs_lin
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

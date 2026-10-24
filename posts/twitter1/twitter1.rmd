@@ -91,4 +91,4 @@ Meta-information
 extype: string
 exsolution: `r sol`
 exname: twitter1
-expoints: 10
+expoints: 1

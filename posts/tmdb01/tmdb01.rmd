@@ -1,6 +1,7 @@
 ---
 exname: tmdb01
 extype: num
+expoints: 1
 exsolution: r sol
 extol: 0.6
 categories:

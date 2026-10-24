@@ -210,5 +210,5 @@ extype: cloze
 exclozetype: num|num
 exsolution: `r sol_a`|`r sol_b`
 exshuffle: false
-expoints: 0.5
+expoints: 1
 

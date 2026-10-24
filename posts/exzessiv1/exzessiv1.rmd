@@ -43,5 +43,6 @@ Meta-information
 ================
 exname: exzessiv1
 extype: mchoice
+expoints: 1
 exsolution: 11000
 exshuffle: TRUE

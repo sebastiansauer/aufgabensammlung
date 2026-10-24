@@ -42,5 +42,6 @@ Meta-information
 ================
 exname: rstudio_gui_view
 extype: schoice
+expoints: 1
 exsolution: 00100
 exshuffle: TRUE

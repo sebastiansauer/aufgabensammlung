@@ -56,6 +56,7 @@ answerlist(ifelse(solutions, "True", "False"), markup = "markdown")
 Meta-information
 ================
 extype: schoice
+expoints: 1
 exsolution: `r mchoice2string(solutions, single = TRUE)`
 exname: zwert2a
 exshuffle: 4

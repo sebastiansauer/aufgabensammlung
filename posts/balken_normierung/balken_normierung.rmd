@@ -43,6 +43,7 @@ Meta-information
 ================
 exname: balken_normierung
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

@@ -79,6 +79,7 @@ Meta-information
 ================
 exname: wskt-quiz18
 extype: schoice
+expoints: 1
 exsolution: 01
 exshuffle: FALSE
 

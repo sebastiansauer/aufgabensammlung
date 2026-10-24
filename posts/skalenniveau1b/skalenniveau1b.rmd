@@ -1,6 +1,7 @@
 ---
 exname: skalenniveau1b
 extype: mchoice
+expoints: 1
 exsolution: r sol
 exshuffle: no
 dynamic: yes

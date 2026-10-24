@@ -181,5 +181,6 @@ Meta-information
 ================
 exname: rechtschreibung1
 extype: schoice
+expoints: 1
 exsolution:  `r mchoice2string(d_long$is_correct, single = TRUE)`
 exshuffle: true

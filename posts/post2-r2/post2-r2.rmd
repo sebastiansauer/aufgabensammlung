@@ -230,5 +230,5 @@ Meta-information
 exname: post2-r2
 extype: num
 exsolution: `r sol`
-expoints: 1 
+expoints: 1
 extol: `r sol_tol`

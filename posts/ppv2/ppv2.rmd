@@ -202,6 +202,7 @@ Meta-information
 ================
 exname: ppv2
 extype: num
+expoints: 1
 exsolution: `r Wskt_AV_hoeher_bei_xgleich1`
 extol: 0.2
 

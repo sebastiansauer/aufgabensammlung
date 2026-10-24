@@ -40,5 +40,5 @@ Meta-information
 extype: num
 exsolution: `r res`
 exname: zweihochx
-expoints: 5
+expoints: 1
 

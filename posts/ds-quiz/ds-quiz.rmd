@@ -1,6 +1,7 @@
 ---
 exname: ds-quiz
 extype: mchoice
+expoints: 1
 exsolution: 10010
 exshuffle: yes
 categories:

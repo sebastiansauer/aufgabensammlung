@@ -38,5 +38,6 @@ Meta-information
 ================
 exname: exzessiv-samplesize
 extype: num   
+expoints: 1
 exsolution: `r sol`
 extol: 0

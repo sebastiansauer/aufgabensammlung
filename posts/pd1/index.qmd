@@ -80,5 +80,6 @@ Meta-information
 ================
 exname: pd1
 extype: schoice
+expoints: 1
 exsolution: 010000
 exshuffle: FALSE

@@ -138,6 +138,7 @@ Meta-information
 ================
 exname: post-befragen1
 extype: schoice
+expoints: 1
 exsolution: 00010
 exshuffle: FALSE
 

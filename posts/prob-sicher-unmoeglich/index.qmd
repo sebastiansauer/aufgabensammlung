@@ -66,5 +66,6 @@ Meta-information
 ================
 exname: prob-sicher-unmoeglich
 extype: schoice
+expoints: 1
 exsolution: 0010
 exshuffle: FALSE

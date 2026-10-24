@@ -83,5 +83,6 @@ Meta-information
 ================
 exname: ziel-bayes
 extype: schoice
+expoints: 1
 exsolution: 010000000
 exshuffle: FALSE

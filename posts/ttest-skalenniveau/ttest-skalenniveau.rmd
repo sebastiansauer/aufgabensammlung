@@ -99,6 +99,7 @@ Meta-information
 ================
 exname: ttest-skalenniveau
 extype: schoice
+expoints: 1
 exsolution: 00001
 exshuffle: FALSE
 

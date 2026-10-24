@@ -125,7 +125,7 @@ extype: cloze
 exsolution: `r sol`
 exclozetype: string|string|string|string
 exname: stan_glm_priors_null
-expoints: 0.25
+expoints: 1
 categories:
 - bayes
 - regression

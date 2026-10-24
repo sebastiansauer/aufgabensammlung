@@ -286,6 +286,7 @@ Meta-information
 ================
 exname: kausal22
 extype: schoice
+expoints: 1
 exsolution: `r mchoice2string(sol_df$is_correct, single = TRUE)`
 exshuffle: FALSE
 

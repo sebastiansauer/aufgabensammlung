@@ -265,6 +265,7 @@ Meta-information
 ================
 exname: regression1a
 extype: schoice
+expoints: 1
 exsolution: `r mchoice2string(questions_sample$is_correct, single = TRUE)`
 exshuffle: FALSE
 

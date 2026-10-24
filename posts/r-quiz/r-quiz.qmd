@@ -13,6 +13,7 @@ cache: true
 number-sections: true
 
 extype: string
+expoints: 1
 exname: r-quiz
 exsolution: ""
 exshuffle: no

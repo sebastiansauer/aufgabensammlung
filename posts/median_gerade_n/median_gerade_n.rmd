@@ -44,5 +44,6 @@ Meta-information
 ================
 exname: median_gerade_n
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE

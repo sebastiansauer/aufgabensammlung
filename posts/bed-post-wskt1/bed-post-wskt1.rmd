@@ -218,6 +218,7 @@ Meta-information
 ================
 exname: bed-post-wskt1
 extype: schoice
+expoints: 1
 exsolution: 00100
 exshuffle: FALSE
 

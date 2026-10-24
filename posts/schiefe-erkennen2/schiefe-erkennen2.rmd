@@ -93,7 +93,7 @@ d_raw <- tibble(
 
 d <-
   d_raw %>% 
-  mutate(skew = map_dbl(data, ~ skewness(.x[[1]]))) %>%  # as .x is a tibble, we need to access its first column
+  mutate(skew = map_dbl(data, ~ e1071::skewness(.x[[1]]))) %>%  # as .x is a tibble, we need to access its first column
  # mutate(skew = unlist(skew)) %>% 
   mutate(avg = map_dbl(data, ~ mean(.x[[1]])),
          med = map_dbl(data, ~ median(.x[[1]])),
@@ -170,6 +170,7 @@ Meta-information
 ================
 exname: schiefe-erkennen2
 extype: schoice
+expoints: 1
 exsolution: `r mchoice2string(d$is_correct, single = TRUE)`
 exshuffle: false  
 categories:

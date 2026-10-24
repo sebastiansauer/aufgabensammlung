@@ -93,6 +93,7 @@ Meta-information
 ================
 exname: diamonds-histogram
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: TRUE
 

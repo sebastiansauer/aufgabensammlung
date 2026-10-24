@@ -87,5 +87,6 @@ Meta-information
 ================
 exname: expgruppe-vs-kontrollgruppe
 extype: schoice
+expoints: 1
 exsolution: `r exams::mchoice2string(items$solutions, single = TRUE)`
 exshuffle: false

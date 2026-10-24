@@ -75,6 +75,7 @@ Meta-information
 ================
 exname: aussagen-einfache-regr
 extype: schoice
+expoints: 1
 exsolution: 01000
 exshuffle: false
 categories:

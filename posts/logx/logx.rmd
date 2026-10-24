@@ -42,5 +42,5 @@ Meta-information
 extype: string
 exsolution: `r res`
 exname: logx
-expoints: 4
+expoints: 1
 

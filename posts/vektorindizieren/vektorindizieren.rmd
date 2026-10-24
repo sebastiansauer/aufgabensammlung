@@ -63,4 +63,4 @@ Meta-information
 extype: string
 exsolution: `r sol`
 exname: vektorindizieren
-expoints: 5
+expoints: 1

@@ -145,6 +145,7 @@ Meta-information
 ================
 exname: stan_glm_prioriwerte
 extype: schoice
+expoints: 1
 exsolution: 0100
 exshuffle: FALSE
 

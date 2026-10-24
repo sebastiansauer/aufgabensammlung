@@ -74,6 +74,7 @@ Meta-information
 ================
 exname: mittelwert-berechnen
 extype: num
+expoints: 1
 exsolution: `r sol`
 exshuffle: true
 extol: 0.2

@@ -90,6 +90,7 @@ Solutionlist
 Meta-information
 ================
 extype: cloze
+expoints: 1
 exsolution: `r sol_a`|`r sol_b`|`r sol_c`
 exclozetype: num|num|num
 exname: logist-bayes-mtcars1

@@ -81,5 +81,6 @@ Meta-information
 ================
 exname: def-nullhyp
 extype: schoice
+expoints: 1
 exsolution: 001000
 exshuffle: FALSE

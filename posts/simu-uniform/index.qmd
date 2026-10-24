@@ -62,5 +62,6 @@ Meta-information
 ================
 exname: simu-uniform
 extype: schoice
+expoints: 1
 exsolution: 1000
 exshuffle: FALSE

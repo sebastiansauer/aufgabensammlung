@@ -110,5 +110,6 @@ Meta-information
 ================
 exname: pigs1
 extype: string
+expoints: 1
 exsolution: NA
 exshuffle: false

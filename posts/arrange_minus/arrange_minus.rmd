@@ -43,6 +43,7 @@ Meta-information
 ================
 exname: arrange_minus
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: TRUE
 

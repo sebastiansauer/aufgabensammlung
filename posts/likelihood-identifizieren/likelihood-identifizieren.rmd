@@ -87,6 +87,7 @@ Meta-information
 ================
 exname: likelihood-identifizieren
 extype: schoice
+expoints: 1
 exsolution: 10000
 exshuffle: FALSE
 

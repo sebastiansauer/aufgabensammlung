@@ -95,6 +95,7 @@ Meta-information
 ================
 exname: korr01
 extype: schoice
+expoints: 1
 exsolution: 00100
 exshuffle: FALSE
 

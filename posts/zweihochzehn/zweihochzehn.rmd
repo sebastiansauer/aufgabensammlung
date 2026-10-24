@@ -26,5 +26,6 @@ Aufgabenname: `zweihochzehn`
 Meta-information
 ================
 extype: num
+expoints: 1
 exsolution: `r res`
 exname: zweihochzehn
