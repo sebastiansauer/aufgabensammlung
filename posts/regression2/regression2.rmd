@@ -1,8 +1,4 @@
 ---
-exname: regression2
-extype: schoice
-exsolution: r mchoice2string(d_five_options$is_correct, single = TRUE)
-exshuffle: no
 categories:
 - regression
 - dyn
@@ -43,7 +39,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Exercise
+Question
+========
 
 Ein Streudiagramm von $x$ und $y$ ergibt folgende Abbildung:
 
@@ -141,19 +138,8 @@ answerlist(d_five_options$item, markup = "markdown")
 ```
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 
 
@@ -180,6 +166,14 @@ answerlist(ifelse(d_five_options$is_correct, "Richtig", "Falsch"), markup = "mar
 
 
 
+
+
+Meta-information
+================
+exname: regression2
+extype: schoice
+exsolution: `r mchoice2string(d_five_options$is_correct, single = TRUE)`
+exshuffle: FALSE
 
 
 ---

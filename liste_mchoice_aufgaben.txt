@@ -1,0 +1,6 @@
+posts/boosting1/boosting1.rmd
+posts/ds-quiz2/ds-quiz2.rmd
+posts/ds-quiz/ds-quiz.rmd
+posts/kausale-verben/kausale-verben.rmd
+posts/skalenniveau1b/skalenniveau1b.rmd
+posts/typ-fehler-r-07/typ-fehler-r-07.qmd

@@ -1,8 +1,4 @@
 ---
-exname: step-dummy
-extype: schoice
-exsolution: 8
-exshuffle: no
 categories:
 - tidymodels
 - statlearning
@@ -11,7 +7,6 @@ categories:
 date: '2023-06-14'
 slug: step-dummy
 title: step-dummy
-execute: 
   error: true
   eval: false
 ---
@@ -22,7 +17,8 @@ execute:
 
 
 
-## Aufgabe
+Question
+========
 
 Viele Lernalgorithmen können nicht mit nominalen Variablen umgehen;
 daher muss man sie dummifizieren, um sie einer Verarbeitung zugänglich zu machen.
@@ -44,20 +40,8 @@ Answerlist
 * Weder Variablen vom Typ `factor` noch vom Typ `character`
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 ### Setup
@@ -151,6 +135,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: step-dummy
+extype: schoice
+exsolution: 0010
+exshuffle: FALSE
 
 
 ---

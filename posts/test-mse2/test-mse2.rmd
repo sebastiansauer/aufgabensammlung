@@ -1,9 +1,4 @@
 ---
-exname: test-mse2
-extype: schoice
-exsolution: 10000
-exshuffle: yes
-expoints: 4
 categories:
 - ds1
 - tidymodels
@@ -13,7 +8,6 @@ categories:
 date: '2023-05-17'
 slug: Test-MSE2
 title: Test-MSE2
-execute: 
   error: true
 ---
 
@@ -38,7 +32,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 Anhand der folgenden Abbildung sollen Aussagen zur Test-MSE (Mean Squared Error) untersucht werden.
 
@@ -63,19 +58,8 @@ Answerlist
 * Bei sehr hoher Modellflexibilität nähern sich die Kurven für Train- und Testfehler zunehmend an.
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 Answerlist
@@ -89,6 +73,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: test-mse2
+extype: schoice
+exsolution: 10000
+exshuffle: TRUE
 
 
 ---

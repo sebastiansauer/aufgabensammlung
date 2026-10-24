@@ -1,9 +1,4 @@
 ---
-exname: tidymodels-penguins06
-extype: schoice
-exsolution: r fmt(sol)
-exshuffle: no
-expoints: 1
 categories:
 - tidymodels
 - statlearning
@@ -12,7 +7,6 @@ categories:
 date: '2023-05-17'
 slug: tidymodels-penguins06
 title: tidymodels-penguins06
-execute:
   error: true
 ---
 
@@ -41,7 +35,8 @@ library(exams)
 
 
 
-## Aufgabe
+Question
+========
 
 Berechnen Sie ein kNN-Modell mit tidymodels und zwar anhand des penguins Datensatzes.
 
@@ -71,21 +66,8 @@ Answerlist
 * Keine Antwort möglich.
 
 
-
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 ### Setup
 
@@ -218,6 +200,14 @@ lastfit2 <- last_fit(bestfit2, d_split)
 collect_metrics(lastfit2)
 ```
 
+
+
+Meta-information
+================
+exname: tidymodels-penguins06
+extype: schoice
+exsolution: `r fmt(sol)`
+exshuffle: FALSE
 
 
 ---

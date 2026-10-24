@@ -1,8 +1,4 @@
 ---
-exname: tidy1
-extype: schoice
-exsolution: r mchoice2string(tibbles_chosen$is_correct, single = TRUE)
-exshuffle: no
 categories:
 - tidy
 - datawrangling
@@ -40,7 +36,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 Das Konzept von "tidy" Daten ("Tidyformat") spielt in der Datenanalyse eine wichtige Rolle.
 
@@ -361,20 +358,8 @@ answerlist(tibbles_chosen$id2, markup = "markdown")
 ```
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 ```{r solutionlist, echo = FALSE, results = "asis"}
@@ -388,6 +373,14 @@ answerlist(
 
 
 
+
+
+Meta-information
+================
+exname: tidy1
+extype: schoice
+exsolution: `r mchoice2string(tibbles_chosen$is_correct, single = TRUE)`
+exshuffle: FALSE
 
 
 ---

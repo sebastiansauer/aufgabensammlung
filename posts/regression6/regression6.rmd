@@ -1,9 +1,4 @@
 ---
-exname: Regression6
-extype: schoice
-exsolution: 10000
-exshuffle: no
-expoints: 1
 categories:
 - dyn
 - regression
@@ -45,7 +40,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 ```{r preds, include=FALSE}
@@ -130,19 +126,8 @@ Answerlist
 * Der mittlere erwartete  Gehaltsunterschied von Menschen ist eine Wirkung von genau drei Ursachen: ``r pred1``, ``r pred2``, ``r pred3``, laut dem Modell.
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 
@@ -167,6 +152,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: Regression6
+extype: schoice
+exsolution: 10000
+exshuffle: FALSE
 
 
 ---

@@ -1,9 +1,4 @@
 ---
-exname: shrinkage1
-extype: schoice
-exsolution: 10000
-exshuffle: no
-expoints: 4
 date: '2023-05-17'
 slug: Shrinkage1
 title: Shrinkage1
@@ -38,7 +33,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 *Shrinkage* (Penalisierung) ist eine Erweiterung der klassischen Linearen Modelle. Welche Aussage dazu ist richtig?
 
@@ -52,19 +48,8 @@ Answerlist
 * Die Lasso-Regression liefert im Vergleich zur Ridge-Regression tendenziell bessere Ergebnisse, wenn das Kriterium eine Funktion von vielen Prädiktoren ist, deren Koeffizienten jeweils etwa gleich stark sind.
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 Answerlist
@@ -79,6 +64,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: shrinkage1
+extype: schoice
+exsolution: 10000
+exshuffle: FALSE
 
 
 ---

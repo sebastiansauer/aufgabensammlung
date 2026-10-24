@@ -1,8 +1,4 @@
 ---
-exname: wskt-quiz09
-extype: schoice
-exsolution: 10
-exshuffle: no
 categories:
 - quiz
 - probability
@@ -35,7 +31,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 Sei $X \sim U(0, 1)$. 
@@ -54,18 +51,8 @@ Answerlist
 * Wahr
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 Nein. Bei dieser Gleichverteilung gilt an jeder Stelle: Die Dichte beträgt 1.
 
@@ -87,6 +74,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: wskt-quiz09
+extype: schoice
+exsolution: 10
+exshuffle: FALSE
 
 
 ---

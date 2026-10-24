@@ -1,8 +1,4 @@
 ---
-exname: wskt-quiz08
-extype: schoice
-exsolution: 10
-exshuffle: no
 categories:
 - quiz
 - probability
@@ -34,7 +30,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 Mehrere Proben werden zu einem unbekannten Planeten geschossen. Die Forschungsfrage lautet: Ist es die Erde (70% Wasseranteil) oder der Planet "Bath42" mit 90% Wasseranteil?
@@ -59,18 +56,8 @@ Answerlist
 * Wahr
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 Da wir indifferent apriori sind, ist der Parameterwert mit der höchsten Likelihood am wahrscheinlichsten.
@@ -158,6 +145,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: wskt-quiz08
+extype: schoice
+exsolution: 10
+exshuffle: FALSE
 
 
 ---

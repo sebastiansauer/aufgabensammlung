@@ -1,8 +1,4 @@
 ---
-exname: wskt-quiz01
-extype: schoice
-exsolution: 1
-exshuffle: no
 categories:
 - quiz
 - probability
@@ -32,7 +28,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 Sind die Ereignisse $A$ und $B$ unabhängig, so gilt $Pr(A|B) = P(A)$.
@@ -53,19 +50,8 @@ Answerlist
 * Wahr
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 
@@ -83,6 +69,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: wskt-quiz01
+extype: schoice
+exsolution: 01
+exshuffle: FALSE
 
 
 ---

@@ -1,8 +1,4 @@
 ---
-exname: dag9
-extype: schoice
-exsolution: 10000
-exshuffle: yes
 categories:
 - dag
 - causal
@@ -42,7 +38,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Exercise
+Question
+========
 
 Ein Forschungsteam aus Epidemiologen untersucht den (möglicherweise kausalen) 
 Zusammenhang von Erziehung (`education`) und Diabetes (`diabetes`). 
@@ -88,20 +85,8 @@ Answerlist
 * Ja, `Mother's Diabetes` sollte kontrolliert werden, da so eine Konfundierung vermieden wird.
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 Durch Kontrolle von `Mother's Diabetes` wird eine Scheinkorrelation erzeugt, 
 wo es vorher keine gab. 
@@ -144,6 +129,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: dag9
+extype: schoice
+exsolution: 10000
+exshuffle: TRUE
 
 
 ---

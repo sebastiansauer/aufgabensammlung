@@ -1,8 +1,4 @@
 ---
-exname: kausal2
-extype: schoice
-exsolution: 10000
-exshuffle: yes
 categories:
 - dag
 - causal
@@ -42,7 +38,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 Gegeben sei der DAG `g` (s.u.). Welche Variable/n sind zu kontrollieren, um den kausalen Effekt von `x` auf `y` zu identifizieren?
 
@@ -82,20 +79,8 @@ Answerlist
 * keine, nicht identifizierbar
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 Durch Kontrolle von `z` wird der kausale Effekt von `x` auf `y` identifiziert.
 
@@ -120,6 +105,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: kausal2
+extype: schoice
+exsolution: 10000
+exshuffle: TRUE
 
 
 ---

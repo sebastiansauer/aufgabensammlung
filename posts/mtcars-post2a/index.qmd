@@ -1,7 +1,4 @@
 ---
-extype: schoice
-exsolution: 8
-exname: mtcars-post2a
 categories:
 - bayes
 - regression
@@ -39,7 +36,8 @@ options(mc.cores = parallel::detectCores())
 
 
 
-## Aufgabe
+Question
+========
 
 
 
@@ -108,19 +106,8 @@ Answerlist
 * 8.7
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-
-## Lösung
+Solution
+========
 
 
 Man kann das Ergebnis direkt aus der Tabelle ablesen: CI_high - CI_low in der Zeile der UV.
@@ -151,6 +138,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: mtcars-post2a
+extype: schoice
+exsolution: 00010
+exshuffle: FALSE
 
 
 ---

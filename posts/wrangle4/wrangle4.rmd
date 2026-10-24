@@ -1,8 +1,4 @@
 ---
-exname: wrangle4
-extype: schoice
-exsolution: 1
-exshuffle: no
 categories:
 - eda
 - '2023'
@@ -42,7 +38,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 
@@ -62,19 +59,8 @@ Answerlist
 * `filter(flights, month == 1, day == 1)`
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 
@@ -93,6 +79,14 @@ Answerlist
 * Wahr
 
 
+
+
+Meta-information
+================
+exname: wrangle4
+extype: schoice
+exsolution: 00001
+exshuffle: FALSE
 
 
 ---

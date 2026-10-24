@@ -1,9 +1,4 @@
 ---
-exname: Bootstrap1
-extype: schoice
-exsolution: 10000
-exshuffle: yes
-expoints: 4
 categories:
 - statlearning
 - ds1
@@ -41,7 +36,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 Die Bootstrap-Methode ist eine beliebte numerische Methode im statistischen Lernen und in der Statistik allgemein. Welche der folgenden Aussagen zum Bootstrapping ist richtig?
 
@@ -55,20 +51,8 @@ Answerlist
 * Bootstrapping sollte *nicht* verwendet werden, um Standardfehler zu schätzen.
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 
@@ -85,6 +69,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: Bootstrap1
+extype: schoice
+exsolution: 10000
+exshuffle: TRUE
 
 
 ---

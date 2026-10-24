@@ -1,8 +1,4 @@
 ---
-exname: geom-point1
-extype: schoice
-exsolution: 64
-exshuffle: no
 categories:
 - probability
 - simulation
@@ -40,7 +36,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Exercise
+Question
+========
 
 Welche Verteilung ist (am besten) geeignet, um Streuung ($\sigma$) zu modellieren?
 
@@ -53,20 +50,8 @@ Answerlist
 * Exp(-1)
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 
 
@@ -167,6 +152,14 @@ ggplot(data = data.frame(x = c(-3, 10)), aes(x)) +
 
 
 
+
+
+Meta-information
+================
+exname: geom-point1
+extype: schoice
+exsolution: 00100
+exshuffle: FALSE
 
 
 ---

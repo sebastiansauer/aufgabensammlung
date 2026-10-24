@@ -1,8 +1,4 @@
 ---
-exname: dag6
-extype: schoice
-exsolution: 10000
-exshuffle: yes
 categories:
 - dag
 - causal
@@ -42,7 +38,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Exercise
+Question
+========
 
 
 
@@ -84,19 +81,8 @@ Answerlist
 * Nein, es ist nicht sinnvoll, da es nicht nötig ist (aber auch nicht schädlich)
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 
 Nein, es ist nicht sinnvoll zu kontrollieren,
@@ -135,6 +121,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: dag6
+extype: schoice
+exsolution: 10000
+exshuffle: TRUE
 
 
 ---

@@ -1,8 +1,4 @@
 ---
-exname: wskt-quiz16
-extype: schoice
-exsolution: 1
-exshuffle: no
 categories:
 - quiz
 - probability
@@ -34,7 +30,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 Behauptung: 
@@ -54,18 +51,8 @@ Answerlist
 * Wahr
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 Ja, obige Gleichung ist korrekt.
 
@@ -84,6 +71,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: wskt-quiz16
+extype: schoice
+exsolution: 01
+exshuffle: FALSE
 
 
 ---

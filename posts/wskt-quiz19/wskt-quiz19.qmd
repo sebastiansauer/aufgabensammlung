@@ -1,8 +1,4 @@
 ---
-exname: wskt-quiz19
-extype: schoice
-exsolution: 10
-exshuffle: no
 categories:
 - quiz
 - probability
@@ -35,7 +31,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 Behauptung: 
@@ -54,18 +51,8 @@ Answerlist
 * Wahr
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 Intelligenz (IQ) ist normalverteilt. 
 Das Einkommen von Musikern hat "fat Tails" (langen Rand).
@@ -86,6 +73,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: wskt-quiz19
+extype: schoice
+exsolution: 10
+exshuffle: FALSE
 
 
 ---

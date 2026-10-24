@@ -1,8 +1,4 @@
 ---
-exname: lik1
-extype: schoice
-exsolution: 10000
-exshuffle: no
 categories:
 - regression
 - bayes
@@ -38,7 +34,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Exercise
+Question
+========
 
 Welche Zeile der folgenden Modellspezifikation zeigt den Likelihood?
 
@@ -66,20 +63,8 @@ Answerlist
 * 5
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 
 Answerlist
@@ -91,6 +76,14 @@ Answerlist
 * Falsch. Prior Streuung der AV.
 
 
+
+
+Meta-information
+================
+exname: lik1
+extype: schoice
+exsolution: 10000
+exshuffle: FALSE
 
 
 ---

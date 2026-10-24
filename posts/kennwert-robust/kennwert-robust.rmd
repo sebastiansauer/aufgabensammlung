@@ -1,9 +1,4 @@
 ---
-exname: Kennwert-robust
-extype: schoice
-exsolution: 1000000
-exshuffle: 5
-expoints: 1
 categories:
 - eda
 - lagemaße
@@ -20,7 +15,8 @@ title: Kennwert-robust
 
 
 
-## Aufgabe
+Question
+========
 
 Welcher der folgenden Kennwerte ist robust (im statistischen Sinn)?
 
@@ -35,21 +31,8 @@ Answerlist
 * Minimalwert
 
 
-
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 Answerlist
@@ -66,6 +49,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: Kennwert-robust
+extype: schoice
+exsolution: 1000000
+exshuffle: 5
 
 
 ---

@@ -1,8 +1,4 @@
 ---
-exname: Verteilungen-Quiz-17
-extype: schoice
-exsolution: 1
-exshuffle: no
 categories:
 - distributions
 - Verteilungen-Quiz
@@ -39,7 +35,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Exercise
+Question
+========
 
 
 [Ei](https://gender-i.de/#artikel) Forschi untersucht die mittlere Körpergröße eines bis dato unbekannten Urwaldvolks.
@@ -64,19 +61,8 @@ Answerlist
 * Nein
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 ```{r}
 library(tidyverse)
@@ -118,6 +104,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: Verteilungen-Quiz-17
+extype: schoice
+exsolution: 01
+exshuffle: FALSE
 
 
 ---

@@ -1,8 +1,4 @@
 ---
-exname: bed-post-wskt1
-extype: schoice
-exsolution: 64
-exshuffle: no
 categories:
 - regression
 - bayes
@@ -63,7 +59,8 @@ x <- 10
 
 
 
-## Exercise
+Question
+========
 
 Beziehen Sie sich auf das Regressionsmodell, für das die Ausgabe mit `stan_glm()` hier dargestellt ist:
 
@@ -89,20 +86,8 @@ Answerlist
 * $=$
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 
 Als Prädiktorwert (X-Variable) wurde der Achsenabschnitt spezifiziert, also $x=`r x`$. 
@@ -224,6 +209,14 @@ Answerlist
 
 
 
+Meta-information
+================
+exname: bed-post-wskt1
+extype: schoice
+exsolution: 00100
+exshuffle: FALSE
+
+
 ---
 
 Categories: 
@@ -231,12 +224,4 @@ Categories:
 - regression
 - bayes
 - post
-
-
-Meta-information
-================
-exname: bed-post-wskt1-schoice
-extype: schoice
-exsolution: 00100
-exshuffle: 5
 

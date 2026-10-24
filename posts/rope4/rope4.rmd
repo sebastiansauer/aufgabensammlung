@@ -1,8 +1,4 @@
 ---
-exname: rope4
-extype: schoice
-exsolution: 64
-exshuffle: no
 categories:
 - rope
 - bayes
@@ -39,7 +35,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Exercise
+Question
+========
 
 Einer der (bisher) größten Studien der Untersuchung psychologischer Konsequenzen (oder Korrelate) 
 der Covid-Zeit ist die Studie [COVIDiStress](https://www.nature.com/articles/s41597-020-00784-9).
@@ -87,20 +84,8 @@ Answerlist
 * Auf Basis der bereitgestellten Informationen ist keine Entscheidung möglich.
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 Pakete laden:
 
@@ -226,6 +211,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: rope4
+extype: schoice
+exsolution: 0100
+exshuffle: FALSE
 
 
 ---

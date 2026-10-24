@@ -1,9 +1,4 @@
 ---
-extype: schoice
-exsolution: 10000
-exname: mse
-expoints: 4
-exshuffle: yes
 categories:
 - ds1
 - tidymodels
@@ -20,7 +15,8 @@ title: mse
 
 
 
-## Aufgabe
+Question
+========
 
 
 
@@ -36,19 +32,8 @@ Answerlist
 * $MSE= \frac{1}{n}\sum^n_{i=1}(y_i + \hat{f}(x_i))^2$
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 
@@ -61,6 +46,14 @@ Answerlist
 * Falsch
 
 
+
+
+Meta-information
+================
+exname: mse
+extype: schoice
+exsolution: 10000
+exshuffle: TRUE
 
 
 ---

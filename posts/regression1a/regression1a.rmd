@@ -1,9 +1,4 @@
 ---
-extype: schoice
-exname: regression1a
-exsolution: r mchoice2string(questions_sample$is_correct, single = TRUE)
-exshuffle: no
-expoints: 1
 categories:
 - regression
 - '2023'
@@ -201,7 +196,8 @@ questions_sample <-
 
 
 
-## Aufgabe
+Question
+========
 
 
 
@@ -229,20 +225,8 @@ answerlist(questions_sample$item, markup = "markdown")
 ```
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 
@@ -271,6 +255,14 @@ answerlist(ifelse(questions_sample$is_correct, "Wahr", "Falsch"), markup = "mark
 
 
 
+
+
+Meta-information
+================
+exname: regression1a
+extype: schoice
+exsolution: `r mchoice2string(questions_sample$is_correct, single = TRUE)`
+exshuffle: FALSE
 
 
 ---

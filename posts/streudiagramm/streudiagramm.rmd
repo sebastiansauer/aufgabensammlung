@@ -1,8 +1,4 @@
 ---
-exname: streudiagramm-dino
-extype: schoice
-exsolution: 512
-exshuffle: yes
 categories:
 - vis
 - '2023'
@@ -41,7 +37,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 
@@ -77,19 +74,8 @@ Answerlist
 * -1
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 Answerlist
@@ -103,6 +89,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: streudiagramm-dino
+extype: schoice
+exsolution: 01000
+exshuffle: TRUE
 
 
 ---

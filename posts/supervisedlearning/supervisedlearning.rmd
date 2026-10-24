@@ -1,9 +1,4 @@
 ---
-extype: schoice
-exsolution: 1
-exname: supervisedlearning
-exshuffle: no
-expoints: 1
 categories:
 - statlearning
 - ds1
@@ -19,7 +14,8 @@ title: supervisedlearning
 
 
 
-## Aufgabe
+Question
+========
 
 Welches der folgenden Verfahren ist ein Vertreter des *geleiteten* Lernens (*supervised learning*)?
 
@@ -33,20 +29,8 @@ Answerlist
 * Random Forest
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 * Falsch
 * Falsch
@@ -58,6 +42,14 @@ Answerlist
 
 
 
+Meta-information
+================
+exname: supervisedlearning
+extype: schoice
+exsolution: 0001
+exshuffle: FALSE
+
+
 ---
 
 Categories: 
@@ -65,4 +57,3 @@ Categories:
 - statlearning
 - ds1
 - schoice
-

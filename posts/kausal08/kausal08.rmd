@@ -1,8 +1,4 @@
 ---
-exname: dag8
-extype: schoice
-exsolution: 10000
-exshuffle: yes
 categories:
 - dag
 - causal
@@ -42,7 +38,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Exercise
+Question
+========
 
 Gegeben sei die Theorie (oder schlichter: das Modell), 
 demzufolge eine Anlage zu Suchtverhalten die Ursache von sowohl Rauchen als auch Kaffeegewohnheit darstellt. 
@@ -88,20 +85,8 @@ Answerlist
 * {Addictive Behavior *und* Lungenkrebs}
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 Durch Kontrolle von `Addictive Behavior` *oder aber* `Rauchen`
 wird der kausale Effekt von `Coffee` auf `Lung Cancer` identifiziert.
@@ -177,6 +162,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: dag8
+extype: schoice
+exsolution: 10000
+exshuffle: TRUE
 
 
 ---

@@ -23,9 +23,9 @@ Es gilt die Definition aus dem Unterricht: Der Zusammenhang zwischen dem (Nicht-
 
 Answerlist
 ----------
+* False 
+* False
 * True
-* False
-* False
 * False
 * False
 

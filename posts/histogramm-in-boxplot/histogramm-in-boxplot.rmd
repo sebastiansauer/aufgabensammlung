@@ -1,8 +1,4 @@
 ---
-exname: histogramm-in-boxplot
-extype: schoice
-exsolution: r mchoice2string(boxplot_df$is_correct, single = TRUE)
-exshuffle: no
 categories:
 - vis
 - '2023'
@@ -41,7 +37,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 
@@ -106,21 +103,8 @@ answerlist(boxplot_df$boxplot_id, markup = "markdown")
 ```
 
 
-
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 Boxplot ``r boxplot_df$boxplot_id[boxplot_df$is_correct == TRUE]`` spiegelt das Histogramm am genauesten wider.
 
@@ -133,6 +117,14 @@ answerlist(ifelse(boxplot_df$is_correct, "Wahr", "Falsch"), markup = "markdown")
 
 
 
+Meta-information
+================
+exname: histogramm-in-boxplot
+extype: schoice
+exsolution: `r mchoice2string(boxplot_df$is_correct, single = TRUE)`
+exshuffle: FALSE
+
+
 ---
 
 Categories: 
@@ -140,4 +132,3 @@ Categories:
 - vis
 - '2023'
 - schoice
-

@@ -1,8 +1,4 @@
 ---
-exname: wozu-balkendiagramm
-extype: schoice
-exsolution: 64
-exshuffle: no
 categories:
 - vis
 - '2023'
@@ -40,7 +36,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 Zu welchem Zweck ist ein *Balkendiagramm* am besten geeignet?
 
@@ -54,22 +51,8 @@ Answerlist
 * Um metrische Zusammenhänge darzustellen.
 
 
-
-
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 Balkendiagramme eignen sich, um Häufigkeiten darzustellen. 
 Zwar werden Balkendiagramme immer wieder eingesetzt, um Mittelwerte bzw. deren Unterschiede zwischen Gruppen zu visualisieren,
@@ -89,6 +72,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: wozu-balkendiagramm
+extype: schoice
+exsolution: 0100
+exshuffle: FALSE
 
 
 ---

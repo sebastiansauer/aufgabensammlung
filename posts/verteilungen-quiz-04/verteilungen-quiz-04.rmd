@@ -1,8 +1,4 @@
 ---
-exname: Verteilungen-Quiz-04
-extype: schoice
-exsolution: 1
-exshuffle: no
 categories:
 - distributions
 - Verteilungen-Quiz
@@ -42,7 +38,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Exercise
+Question
+========
 
 Ist folgende Aussage wahr?
 
@@ -55,19 +52,8 @@ Answerlist
 * Nein
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 Nein, aber der Umkehrschluss gilt: Eine normalverteilte Zufallsvariable hat 
 eine symmetrische Verteilungsform.
@@ -87,6 +73,14 @@ Answerlist
 * Wahr
 
 
+
+
+Meta-information
+================
+exname: Verteilungen-Quiz-04
+extype: schoice
+exsolution: 01
+exshuffle: FALSE
 
 
 ---

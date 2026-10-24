@@ -1,9 +1,4 @@
 ---
-exname: diamonds-histogram
-extype: schoice
-exsolution: 512
-exshuffle: yes
-expoints: 1
 categories:
 - vis
 - '2023'
@@ -36,7 +31,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 
@@ -72,20 +68,8 @@ Answerlist
 * Die Gruppierungsvariable `cut` wird hier als ordinale Variable, also mit Ordnungsstruktur, verwendet.
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 Answerlist
@@ -99,6 +83,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: diamonds-histogram
+extype: schoice
+exsolution: 01000
+exshuffle: TRUE
 
 
 ---

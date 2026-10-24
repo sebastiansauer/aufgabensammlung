@@ -1,9 +1,4 @@
 ---
-exname: kausal29
-expoints: 1
-extype: schoice
-exsolution: 8
-exshuffle: no
 categories:
 - dag
 - causal
@@ -48,7 +43,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 ```{r echo = TRUE}
 library(dagitty)
@@ -126,30 +122,8 @@ Answerlist
 * keine Lösung
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 Folgende minimale Variablenmenge muss kontrolliert werden, um den kausalen Effekt der UV auf die AV zu identifizieren: *leere Menge*.
@@ -212,6 +186,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: kausal29
+extype: schoice
+exsolution: 00010
+exshuffle: FALSE
 
 
 ---

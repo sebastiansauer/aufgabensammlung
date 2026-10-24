@@ -1,9 +1,4 @@
 ---
-exname: Ridges-vergleichen
-extype: schoice
-exsolution: 64
-exshuffle: 5
-expoints: 1
 categories:
 - vis
 - dyn
@@ -44,7 +39,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 
@@ -73,20 +69,8 @@ Answerlist
 * Einige Histogramme sind normalverteilt.
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 Answerlist
 ----------
@@ -98,6 +82,14 @@ Answerlist
 * Falsch
 
 
+
+
+Meta-information
+================
+exname: Ridges-vergleichen
+extype: schoice
+exsolution: 000100
+exshuffle: 5
 
 
 ---

@@ -1,8 +1,4 @@
 ---
-exname: nullhyp-beispiel
-extype: schoice
-exsolution: 10000
-exshuffle: no
 categories:
 - nullhypothesis
 - inference
@@ -38,7 +34,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Exercise
+Question
+========
 
 Welches der folgenden Beispiele ist *kein* Beispiel für eine Nullhypothese?
 
@@ -51,20 +48,8 @@ Answerlist
 * $\pi_1 = \pi_2$
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 
 Answerlist
@@ -79,6 +64,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: nullhyp-beispiel
+extype: schoice
+exsolution: 10000
+exshuffle: FALSE
 
 
 ---

@@ -1,8 +1,4 @@
 ---
-exname: wskt-quiz05
-extype: schoice
-exsolution: 10
-exshuffle: no
 categories:
 - quiz
 - probability
@@ -34,7 +30,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 Wasserplanet entdeckt (Er wurde auf den Namen "Bath42" getauft)! 
@@ -59,18 +56,8 @@ Answerlist
 * Wahr
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 Wahrscheinlichkeit 1: Die Wahrscheinlichkeit, dass die Probe aus Wasser besteht (und nicht aus Land), wenn sie von der Erde stammt (und nicht vom Wasserplaneten).
@@ -92,6 +79,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: wskt-quiz05
+extype: schoice
+exsolution: 10
+exshuffle: FALSE
 
 
 ---

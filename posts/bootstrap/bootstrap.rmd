@@ -1,7 +1,4 @@
 ---
-extype: schoice
-exsolution: 1000
-exname: bootstrap
 categories:
 - statlearning
 - inference
@@ -18,7 +15,8 @@ title: bootstrap
 
 
 
-## Aufgabe
+Question
+========
 
 
 In einer Analyse ist ein Team von Analysten interessiert, den Spritverbrauch von Fahrzeugen (gemessen in Meilen per Gallone `mpg`) in einem bestimmten Marksegment zu modellieren auf Basis der PS-Zahl (*horse power*, `hp`).
@@ -55,24 +53,19 @@ Answerlist
 * Eine Entscheidung zur statistischen Signifikanz des Prädiktors `hp` kann nicht abgeleitet werden.
 
 
+Solution
+========
 
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
 
 
-
+Meta-information
+================
+exname: bootstrap
+extype: schoice
+exsolution: 1000
+exshuffle: FALSE
 
 
 ---
@@ -82,4 +75,3 @@ Categories:
 - statlearning
 - inference
 - schoice
-

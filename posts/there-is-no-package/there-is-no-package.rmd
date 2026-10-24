@@ -1,8 +1,4 @@
 ---
-exname: there-is-no-package
-extype: schoice
-exsolution: 512
-exshuffle: no
 categories:
 - R
 - '2023'
@@ -42,7 +38,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 
@@ -74,20 +71,8 @@ Answerlist
 * R ist in Sie verliebt und versucht auf ungelenke Weise Kontakt aufzunehmen.
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 Es existiert kein Paket namens `tidyverse` auf Ihrem Rechner; vgl [hier](https://r4ds.had.co.nz/data-visualisation.html#prerequisites-1).
 
@@ -104,6 +89,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: there-is-no-package
+extype: schoice
+exsolution: 01000
+exshuffle: FALSE
 
 
 ---

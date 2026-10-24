@@ -1,8 +1,4 @@
 ---
-extype: schoice
-exsolution: 64
-exname: rope2
-expoints: 1
 categories:
 - rope
 - bayes
@@ -39,7 +35,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 Im Datensatz `mtcars`: Ist der (mittlere) Unterschied im Spritverbrauch (`mpg`) zwischen den beiden Gruppen 
 *Automatik* vs. *Schaltgetriebe* vernachlässigbar?
@@ -71,20 +68,8 @@ Answerlist
 * Auf Basis der bereitgestellten Informationen ist keine Antwort möglich. 
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 ```{r message=FALSE}
 library(easystats)
@@ -223,6 +208,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: rope2
+extype: schoice
+exsolution: 0100
+exshuffle: FALSE
 
 
 ---

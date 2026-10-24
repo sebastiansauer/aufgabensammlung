@@ -1,8 +1,4 @@
 ---
-exname: wskt-quiz12
-extype: schoice
-exsolution: 10
-exshuffle: no
 categories:
 - quiz
 - probability
@@ -34,7 +30,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 Behauptung: Der Likelihood $L$ gibt die Wahrscheinlichkeit einer *H*ypothese an, gegeben der *D*aten.
@@ -51,18 +48,8 @@ Answerlist
 * Wahr
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 $L := Pr(D|H)$
@@ -82,6 +69,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: wskt-quiz12
+extype: schoice
+exsolution: 10
+exshuffle: FALSE
 
 
 ---

@@ -1,8 +1,4 @@
 ---
-exname: dag10
-extype: schoice
-exsolution: 10000
-exshuffle: yes
 categories:
 - dag
 - causal
@@ -44,7 +40,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Exercise
+Question
+========
 
 Ein Forschungsteam aus Psychologen und Medizinern untersucht die Frage, 
 ob (höhere) *Bereitschaft* für eine OP und zu Veränderung 
@@ -122,20 +119,8 @@ Answerlist
 * Es sollte vom Forschungsteam auf `Measured Readiness` kontrolliert werden, um den kausalen Effekt zu identifizieren.
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 Es sollte auf `Baseline Pain` kontrolliert werden, 
 um den kausalen Effekt zu identifizieren.
@@ -207,6 +192,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: dag10
+extype: schoice
+exsolution: 10000
+exshuffle: TRUE
 
 
 ---

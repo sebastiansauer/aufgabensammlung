@@ -1,8 +1,4 @@
 ---
-exname: wskt-quiz04
-extype: schoice
-exsolution: 1
-exshuffle: no
 categories:
 - quiz
 - probability
@@ -33,7 +29,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 Sei $X \sim Bin(10, 1/2)$. Dann ist die zugehörige Verteilung (von $X$) symmetrisch.
@@ -50,18 +47,8 @@ Answerlist
 * Wahr
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 ```{r}
@@ -88,6 +75,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: wskt-quiz04
+extype: schoice
+exsolution: 01
+exshuffle: FALSE
 
 
 ---

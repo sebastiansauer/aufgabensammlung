@@ -1,8 +1,4 @@
 ---
-exname: ols-minimierung
-extype: schoice
-exsolution: 10000
-exshuffle: yes
 date: '2023-05-17'
 slug: OLS-Minimierung
 title: OLS-Minimierung
@@ -32,7 +28,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 Um die Parameter der Regressiongeraden zu bestimmen, wird ein Ausdruck minimiert. Wählen Sie den korrekten Ausdruck.
 
@@ -47,21 +44,8 @@ Answerlist
 * $\sum_{i=1}^{n}(y_i + \hat{y}_i)^2$
 
 
-
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 Die klassische Regressionsanalyse minimiert diesen Ausdruck, um die Regressiongerade zu bestimmen: 
 
@@ -80,6 +64,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: ols-minimierung
+extype: schoice
+exsolution: 10000
+exshuffle: TRUE
 
 
 ---

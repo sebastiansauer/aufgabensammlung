@@ -1,8 +1,4 @@
 ---
-exname: Regression3
-extype: schoice
-exsolution: r mchoice2string(d_five_options$is_correct, single = TRUE)
-exshuffle: no
 categories:
 - dyn
 - regression
@@ -46,7 +42,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 Eine Forscherin berechnet ein Regressionsmodell mit einer metrischen AV `y` und einer metrischen UV `x`.
 
@@ -140,19 +137,8 @@ answerlist(d_five_options$item, markup = "markdown")
 ```
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 Der Modellfehler $\epsilon$ hat den Anteil $`r e`$ im Vergleich zur Streuung von $y$.
 
@@ -165,6 +151,14 @@ answerlist(ifelse(d_five_options$is_correct, "Richtig", "Falsch"), markup = "mar
 
 
 
+
+
+Meta-information
+================
+exname: Regression3
+extype: schoice
+exsolution: `r mchoice2string(d_five_options$is_correct, single = TRUE)`
+exshuffle: FALSE
 
 
 ---

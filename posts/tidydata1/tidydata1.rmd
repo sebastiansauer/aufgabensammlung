@@ -1,8 +1,4 @@
 ---
-exname: tidydata1
-extype: schoice
-exsolution: 10000
-exshuffle: no
 categories:
 - datawrangling
 - tidy
@@ -42,7 +38,8 @@ options(mc.cores = parallel::detectCores())
 
 
 
-## Aufgabe
+Question
+========
 
 
 
@@ -80,20 +77,8 @@ Answerlist
 * table5
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 Laden wir noch die übrigen Tabellen
 
@@ -142,6 +127,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: tidydata1
+extype: schoice
+exsolution: 10000
+exshuffle: FALSE
 
 
 ---

@@ -1,8 +1,4 @@
 ---
-exname: anova-skalenniveau
-extype: schoice
-exsolution: 10000
-exshuffle: no
 categories:
 - variable-levels
 - anova
@@ -38,7 +34,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Exercise
+Question
+========
 
 Die Varianzanalyse (ANOVA) ist ein inferenzstatistisches Verfahren des Frequentismus. Welches Skalenniveau passt zu diesem Verfahren?
   
@@ -48,25 +45,12 @@ Answerlist
 * UV: nominal (mehrstufig), AV: metrisch
 * UV: metrisch, AV: nominal (zweistufig)
 * UV: nominal (mehrstufig), AV: nominal (mehrstufig)
-* UV: metrisch, AV: nominal (zweistufig)
+* UV: metrisch, AV: nominal (mehrstufig)
 * UV: nominal (zweistufig), AV: metrisch
 
 
-
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 
 Answerlist
@@ -81,6 +65,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: anova-skalenniveau
+extype: schoice
+exsolution: 10000
+exshuffle: FALSE
 
 
 ---

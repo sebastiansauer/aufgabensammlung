@@ -1,9 +1,4 @@
 ---
-exname: Flex-vs-nichtflex-Methode3
-extype: schoice
-exsolution: 10000
-exshuffle: yes
-expoints: 1
 categories:
 - statlearning
 - '2023'
@@ -41,7 +36,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 Algorithmen des statistischen Lernens lassen sich unterteilen in ihrer Flexibilität; es gibt mehr bzw. weniger flexible Algorithmen. 
 
@@ -61,18 +57,8 @@ Answerlist
 * Weisen die Fehler eine hohe Streuung auf ($\sigma^2 = Var(\epsilon)$), so schneidet eine flexiblere Methode tendenziell *schlechter* ab als eine weniger flexible Methode aufgrund der *hohen* Verzerrung in der Test-$MSE$.
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 
@@ -88,6 +74,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: Flex-vs-nichtflex-Methode3
+extype: schoice
+exsolution: 10000
+exshuffle: TRUE
 
 
 ---

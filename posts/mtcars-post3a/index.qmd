@@ -1,7 +1,4 @@
 ---
-extype: schoice
-exsolution: 8
-exname: mtcars-post3a
 categories:
 - bayes
 - regression
@@ -40,7 +37,8 @@ options(mc.cores = parallel::detectCores())
 
 
 
-## Aufgabe
+Question
+========
 
 
 
@@ -105,18 +103,8 @@ Answerlist
 * 0
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 Man sieht in der Tabelle und im Diagramm,
@@ -165,6 +153,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: mtcars-post3a
+extype: schoice
+exsolution: 00010
+exshuffle: FALSE
 
 
 ---

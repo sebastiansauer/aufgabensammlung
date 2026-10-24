@@ -1,0 +1,190 @@
+pfad	status	exsolution_herkunft	anmerkung
+posts/anova-skalenniveau/anova-skalenniveau.rmd	R/exams ok	unverändert	doppelte Antwortoption
+posts/anova-skalenniveau-schoice/anova-skalenniveau-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/anz-params-schoice/anz-params-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/argumente/argumente.rmd	nicht umgewandelt		Lösungs-Answerlist 0100 widerspricht exsolution
+posts/aussagen-infstat-schoice/aussagen-infstat-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/bayes1-schoice/bayes1-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/bayesmod-bestimmen01-schoice/bayesmod-bestimmen01-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/bayes-theorem1-schoice/bayes-theorem1-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/bayes-theorem1-schoice-fix/bayes-theorem1-schoice-fix.Rmd	R/exams ok (war schon nativ)		
+posts/bayes-theorem1-schoice-loop/bayes-theorem1-schoice-loop.Rmd	R/exams ok (war schon nativ)		
+posts/bayes-ziel1/bayes-ziel1.rmd	R/exams ok	führende Nullen ergänzt (1)	
+posts/bayes-ziel1-schoice/bayes-ziel1-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/bed-post-wskt1/bed-post-wskt1.rmd	R/exams ok	Oktalzahl zurückgerechnet (64)	
+posts/boosting2/boosting2.rmd	R/exams ok	Oktalzahl zurückgerechnet (8)	
+posts/bootstrap1/bootstrap1.rmd	R/exams ok	unverändert	
+posts/bootstrap/bootstrap.rmd	R/exams ok	unverändert	keine Lösungs-Answerlist
+posts/boxplot-aussagen/boxplot-aussagen.rmd	nicht umgewandelt		3 richtige Antworten (eher mchoice)
+posts/boxplots-de1a/boxplots-de1a.rmd	R/exams ok	dynamisch	
+posts/breiman/breiman.rmd	R/exams ok	führende Nullen ergänzt (1)	keine Lösungs-Answerlist
+posts/cluster02/cluster02.rmd	R/exams ok	unverändert	
+posts/cv1/cv1.rmd	R/exams ok	unverändert	
+posts/def-signif-schoice/def-signif-schoice.Rmd	R/exams ok (war schon nativ)		Lösungs-Answerlist (10000) widerspricht exsolution (00100)
+posts/def-statistik01/def-statistik01.rmd	nicht umgewandelt		Lösungs-Answerlist 00010 widerspricht exsolution
+posts/def-statistik01-schoice/def-statistik01-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/diamonds-histogram/diamonds-histogram.rmd	R/exams ok	Oktalzahl zurückgerechnet (512)	
+posts/diamonds-histogramm-vergleich2/diamonds-histogramm-vergleich2.rmd	R/exams ok	Oktalzahl zurückgerechnet (64)	
+posts/diamonds-histogramm-vergleich/diamonds-histogramm-vergleich.rmd	R/exams ok	Oktalzahl zurückgerechnet (8)	
+posts/diamonds-nullhyp-mws/diamonds-nullhyp-mws.rmd	nicht umgewandelt		keine Answerlist im Aufgabenteil
+posts/distros-schoice/distros-schoice.Rmd	R/exams, R-Code-Fehler (war schon nativ)		"ERROR: nicht anwendbare Methode für 'filter' auf Objekt der Klasse ""c('double', 'numeric')"" angewendet"
+posts/exp1-schoice/exp1-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/exp2-schoice/exp2-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/exp-tab-schoice/exp-tab-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/fattails01/fattails01.rmd	nicht umgewandelt		keine Answerlist im Aufgabenteil
+posts/fattails02/fattails02.rmd	nicht umgewandelt		keine Answerlist im Aufgabenteil
+posts/flex-vs-nichtflex-methode2/flex-vs-nichtflex-methode2.rmd	R/exams ok	unverändert	
+posts/flex-vs-nichtflex-methode3/flex-vs-nichtflex-methode3.rmd	R/exams ok	unverändert	
+posts/flex-vs-nichtflex-methode/flex-vs-nichtflex-methode.rmd	R/exams ok	unverändert	
+posts/fofrage-regrformel2-schoice/fofrage-regrformel2-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/fofrage-regrformel-schoice/fofrage-regrformel-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/gem-wskt1-schoice-fix/gem-wskt1-schoice-fix.Rmd	R/exams ok (war schon nativ)		
+posts/gem-wskt2-schoice/gem-wskt2-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/gem-wskt4-schoice/gem-wskt4-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/genial-schoice/genial-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/globus2-schoice/globus2-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/griech-buchstaben-schoice/griech-buchstaben-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/gruppenvergleich-regression-schoice/gruppenvergleich-regression-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/histogramm-in-boxplot/histogramm-in-boxplot.rmd	R/exams ok	dynamisch	
+posts/interaktionseffekt1/interaktionseffekt1.rmd	R/exams ok	dynamisch	
+posts/interpret-ci-schoice/interpret-ci-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/interpret-koeff-schoice/interpret-koeff-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/kaefer1-schoice/kaefer1-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/kausal01/kausal01.rmd	R/exams ok	unverändert (Pilot)	
+posts/kausal02/kausal02.rmd	R/exams ok	unverändert	
+posts/kausal03/kausal03.rmd	R/exams ok	unverändert	
+posts/kausal04/kausal04.rmd	R/exams ok	Oktalzahl zurückgerechnet (512)	
+posts/kausal05/kausal05.rmd	R/exams ok	unverändert	
+posts/kausal06/kausal06.rmd	R/exams ok	unverändert	
+posts/kausal07/kausal07.rmd	R/exams ok	unverändert	
+posts/kausal08/kausal08.rmd	R/exams ok	unverändert	
+posts/kausal09/kausal09.rmd	R/exams ok	unverändert	
+posts/kausal10/kausal10.rmd	R/exams ok	unverändert	
+posts/kausal20/kausal20.rmd	R/exams ok	dynamisch	
+posts/kausal21/kausal21.rmd	R/exams ok	dynamisch	
+posts/kausal22/kausal22.rmd	R/exams ok	dynamisch	
+posts/kausal23/kausal23.rmd	R/exams ok	dynamisch	
+posts/kausal24/kausal24.rmd	R/exams ok	dynamisch	
+posts/kausal24/kausal28.rmd	R/exams, R-Code-Fehler	dynamisch	Objekt 'sol_df' nicht gefunden; liegt im Ordner kausal24, abweichende Kopie von posts/kausal28/kausal28.rmd
+posts/kausal25/kausal25.rmd	R/exams ok	dynamisch	
+posts/kausal26/kausal26.rmd	R/exams ok	dynamisch	
+posts/kausal27/kausal27.rmd	R/exams ok	dynamisch	
+posts/kausal28/kausal28.rmd	R/exams ok	dynamisch	
+posts/kausal29/kausal29.rmd	R/exams ok	Oktalzahl zurückgerechnet (8)	
+posts/kausal-einfach/kausal-einfach.rmd	R/exams ok	Oktalzahl zurückgerechnet (512)	
+posts/kekse01-schoice/kekse01-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/kennwert-robust2/kennwert-robust2.rmd	R/exams ok	Oktalzahl zurückgerechnet (64)	
+posts/kennwert-robust/kennwert-robust.rmd	R/exams ok	unverändert	
+posts/klausuren-bestehen-schoice/klausuren-bestehen-schoice.Rmd	R/exams ok (war schon nativ)		
+posts/korr01/korr01.rmd	R/exams ok	unverändert (Pilot)	
+posts/likelihood2/likelihood2.rmd	R/exams ok	Oktalzahl zurückgerechnet (512)	
+posts/likelihood-identifizieren/likelihood-identifizieren.rmd	R/exams ok	unverändert	
+posts/linearitaet1a/linearitaet1a.rmd	R/exams ok	dynamisch	
+posts/lm1/lm1.rmd	R/exams ok	unverändert (Pilot)	
+posts/lm-standardfehler/lm-standardfehler.rmd	R/exams ok	führende Nullen ergänzt (1)	
+posts/movie-sentiment1/movie-sentiment1.qmd	R/exams, R-Code-Fehler	dynamisch	file.exists(path_to_data) ist nicht TRUE
+posts/mse/mse.rmd	R/exams ok	unverändert	
+posts/mtcars-post2a/index.qmd	R/exams ok	Oktalzahl zurückgerechnet (8)	
+posts/mtcars-post2/mtcars-post2.rmd	R/exams ok	Oktalzahl zurückgerechnet (8)	
+posts/mtcars-post3a/index.qmd	R/exams ok	Oktalzahl zurückgerechnet (8)	
+posts/mtcars-post3/mtcars-post3.rmd	R/exams ok	Oktalzahl zurückgerechnet (8)	
+posts/n-se/n-se.rmd	R/exams ok	führende Nullen ergänzt (1)	keine Lösungs-Answerlist
+posts/nullhyp-beispiel/nullhyp-beispiel.rmd	R/exams ok	unverändert	
+posts/ols-minimierung/ols-minimierung.rmd	R/exams ok	unverändert	
+posts/pca1/pca1.rmd	nicht umgewandelt		2 richtige Antworten (eher mchoice)
+posts/pca/pca.rmd	R/exams ok	Oktalzahl zurückgerechnet (8)	keine Lösungs-Answerlist
+posts/post-befragen1/post-befragen1.rmd	R/exams ok	Oktalzahl zurückgerechnet (8)	
+posts/posterior_interval/posterior_interval.rmd	nicht umgewandelt		Lösungs-Answerlist 00100 widerspricht exsolution
+posts/postvert-regr-01/postvert-regr-01.rmd	nicht umgewandelt		Lösungs-Answerlist 01111 widerspricht exsolution
+posts/ppv1a-mtcars/ppv1a-mtcars.rmd	R/exams ok	führende Nullen ergänzt (1)	
+posts/priori-streuung/priori-streuung.rmd	R/exams ok	Oktalzahl zurückgerechnet (64)	
+posts/priorwahl2/priorwahl2.rmd	R/exams ok	unverändert	
+posts/regression1a/regression1a.rmd	R/exams ok	dynamisch	
+posts/regression1b/regression1b.rmd	R/exams ok	dynamisch	
+posts/regression1/regression1.rmd	R/exams ok	unverändert (Pilot)	
+posts/regression2/regression2.rmd	R/exams ok	dynamisch	
+posts/regression3/regression3.rmd	R/exams ok	dynamisch	
+posts/regression6/regression6.rmd	R/exams ok	unverändert	
+posts/rethink4e1/rethink4e1.rmd	R/exams ok	führende Nullen ergänzt (1)	
+posts/ridges-vergleichen/ridges-vergleichen.rmd	R/exams ok	Oktalzahl zurückgerechnet (64)	
+posts/rope1/rope1.rmd	nicht umgewandelt		exsolution fehlt
+posts/rope2a/index.rmd	nicht umgewandelt		keine Answerlist im Aufgabenteil
+posts/rope2/rope2.rmd	R/exams ok	Oktalzahl zurückgerechnet (64)	
+posts/rope3a/index.rmd	R/exams, R-Code-Fehler	Oktalzahl zurückgerechnet (64)	Failed at retrieving data :( Please provide original model or data   through the `data` argument
+posts/rope3/rope3.rmd	R/exams, R-Code-Fehler	Oktalzahl zurückgerechnet (64)	Failed at retrieving data :( Please provide original model or data   through the `data` argument
+posts/rope4/rope4.rmd	R/exams, R-Code-Fehler	Oktalzahl zurückgerechnet (64)	Failed at retrieving data :( Please provide original model or data   through the `data` argument
+posts/schiefe1/schiefe1.rmd	R/exams ok	dynamisch	
+posts/schiefe-erkennen/schiefe-erkennen.rmd	R/exams ok	dynamisch	
+posts/sd-vergleich/sd-vergleich.rmd	R/exams ok	Oktalzahl zurückgerechnet (64)	
+posts/shrinkage1/shrinkage1.rmd	R/exams ok	unverändert	
+posts/skalenniveau1a/skalenniveau1a.rmd	R/exams ok	dynamisch	
+posts/smape/smape.rmd	R/exams ok	unverändert	keine Lösungs-Answerlist
+posts/stan_glm_prioriwerte/stan_glm_prioriwerte.rmd	nicht umgewandelt		Lösungs-Answerlist 0100 widerspricht exsolution
+posts/step-dummy/step-dummy.rmd	R/exams ok	Oktalzahl zurückgerechnet (8)	
+posts/streudiagramm/streudiagramm.rmd	R/exams ok	Oktalzahl zurückgerechnet (512)	
+posts/streuung-histogramm/streuung-histogramm.rmd	R/exams ok	dynamisch	
+posts/supervisedlearning/supervisedlearning.rmd	R/exams ok	führende Nullen ergänzt (1)	keine Lösungs-Answerlist
+posts/szenario-charakterisieren1/szenario-charakterisieren1.rmd	nicht umgewandelt		Lösungs-Answerlist hat 5 statt 6 Einträge
+posts/test-mse1/test-mse1.rmd	R/exams ok	unverändert	
+posts/test-mse2/test-mse2.rmd	R/exams ok	unverändert	
+posts/there-is-no-package/there-is-no-package.rmd	R/exams ok	Oktalzahl zurückgerechnet (512)	
+posts/tidy1/tidy1.rmd	R/exams ok	dynamisch	
+posts/tidydata1/tidydata1.rmd	R/exams ok	unverändert	
+posts/tidymodels1/tidymodels1.rmd	R/exams ok	unverändert	
+posts/tidymodels-penguins06/tidymodels-penguins06.qmd	R/exams, R-Code-Fehler	dynamisch	`last_fit()` is not well-defined for a fitted workflow.
+posts/tidymodels-penguins07/tidymodels-penguins07.qmd	nicht umgewandelt		dynamische exsolution, aber keine Answerlist
+posts/tidytext/tidytext.qmd	R/exams ok	führende Nullen ergänzt (1)	keine Lösungs-Answerlist
+posts/ttest-skalenniveau/ttest-skalenniveau.rmd	R/exams ok	führende Nullen ergänzt (1)	doppelte Antwortoption
+posts/typ-fehler-r-02/typ-fehler-r-02.rmd	R/exams ok	unverändert	
+posts/variation01/variation01.rmd	R/exams ok	unverändert	
+posts/variation02/variation02.rmd	R/exams ok	führende Nullen ergänzt (1)	
+posts/var-vs-stufe/var-vs-stufe.rmd	nicht umgewandelt		exsolution NA passt nicht zu 4 Optionen
+posts/verteilungen-quiz-01/verteilungen-quiz-01.qmd	R/exams ok	führende Nullen ergänzt (1)	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/verteilungen-quiz-02/verteilungen-quiz-02.rmd	nicht umgewandelt		keine Answerlist im Aufgabenteil
+posts/verteilungen-quiz-03/verteilungen-quiz-03.rmd	R/exams ok	unverändert	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/verteilungen-quiz-04/verteilungen-quiz-04.rmd	R/exams ok	führende Nullen ergänzt (1)	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/verteilungen-quiz-05/verteilungen-quiz-05.rmd	R/exams ok	unverändert	keine Lösungs-Answerlist
+posts/verteilungen-quiz-06/verteilungen-quiz-06.rmd	R/exams ok	führende Nullen ergänzt (1)	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/verteilungen-quiz-07/verteilungen-quiz-07.rmd	R/exams ok	führende Nullen ergänzt (1)	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/verteilungen-quiz-08/verteilungen-quiz-08.rmd	R/exams ok	unverändert	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/verteilungen-quiz-09/verteilungen-quiz-09.rmd	R/exams ok	führende Nullen ergänzt (1)	keine Lösungs-Answerlist
+posts/verteilungen-quiz-10/verteilungen-quiz-10.rmd	R/exams ok	führende Nullen ergänzt (1)	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/verteilungen-quiz-11/verteilungen-quiz-11.rmd	R/exams ok	führende Nullen ergänzt (1)	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/verteilungen-quiz-12/verteilungen-quiz-12.rmd	R/exams ok	unverändert	keine Lösungs-Answerlist
+posts/verteilungen-quiz-13/verteilungen-quiz-13.rmd	R/exams ok	unverändert	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/verteilungen-quiz-14/verteilungen-quiz-14.rmd	R/exams ok	unverändert	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/verteilungen-quiz-15/verteilungen-quiz-15.rmd	R/exams ok	führende Nullen ergänzt (1)	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/verteilungen-quiz-16/verteilungen-quiz-16.rmd	nicht umgewandelt		keine Answerlist im Aufgabenteil
+posts/verteilungen-quiz-17/verteilungen-quiz-17.rmd	R/exams ok	führende Nullen ergänzt (1)	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/verteilungen-quiz-18/verteilungen-quiz-18.rmd	R/exams ok	führende Nullen ergänzt (1)	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/vorhersageintervall1/vorhersageintervall1.rmd	nicht umgewandelt		Lösungs-Answerlist 0100 widerspricht exsolution
+posts/wertzuweisen_mc/wertzuweisen_mc.rmd	R/exams ok	unverändert	
+posts/wozu-balkendiagramm/wozu-balkendiagramm.rmd	R/exams ok	Oktalzahl zurückgerechnet (64)	
+posts/wozu-streudiagramm/wozu-streudiagramm.rmd	R/exams ok	führende Nullen ergänzt (1)	
+posts/wrangle1/wrangle1.rmd	R/exams ok	Oktalzahl zurückgerechnet (64)	
+posts/wrangle3/wrangle3.rmd	R/exams ok	Oktalzahl zurückgerechnet (8)	
+posts/wrangle4/wrangle4.rmd	R/exams ok	führende Nullen ergänzt (1)	
+posts/wrangle5/wrangle5.rmd	R/exams ok	Oktalzahl zurückgerechnet (512)	
+posts/wrangle7/wrangle7.rmd	R/exams ok	unverändert	
+posts/wskt-quiz01/wskt-quiz01.qmd	R/exams ok	führende Nullen ergänzt (1)	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/wskt-quiz02/wskt-quiz02.qmd	R/exams ok	unverändert (Pilot)	
+posts/wskt-quiz03/wskt-quiz03.qmd	R/exams ok	unverändert	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/wskt-quiz04/wskt-quiz04.qmd	R/exams ok	führende Nullen ergänzt (1)	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/wskt-quiz05/wskt-quiz05.qmd	R/exams ok	unverändert	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/wskt-quiz06/wskt-quiz06.qmd	R/exams ok	unverändert	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/wskt-quiz07/wskt-quiz07.qmd	R/exams ok	unverändert	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/wskt-quiz08/wskt-quiz08.qmd	R/exams ok	unverändert	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/wskt-quiz09/wskt-quiz09.qmd	R/exams ok	unverändert	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/wskt-quiz10/wskt-quiz10.qmd	R/exams ok	führende Nullen ergänzt (1)	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/wskt-quiz11/wskt-quiz11.qmd	R/exams ok	führende Nullen ergänzt (1)	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/wskt-quiz12/wskt-quiz12.qmd	R/exams ok	unverändert	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/wskt-quiz13/wskt-quiz13.qmd	R/exams ok	unverändert	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/wskt-quiz14/wskt-quiz14.qmd	R/exams ok	führende Nullen ergänzt (1)	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/wskt-quiz15/wskt-quiz15.qmd	R/exams ok	führende Nullen ergänzt (1)	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/wskt-quiz16/wskt-quiz16.qmd	R/exams ok	führende Nullen ergänzt (1)	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/wskt-quiz17/wskt-quiz17.qmd	R/exams ok	führende Nullen ergänzt (1)	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/wskt-quiz18/wskt-quiz18.qmd	R/exams ok	führende Nullen ergänzt (1)	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/wskt-quiz19/wskt-quiz19.qmd	R/exams ok	unverändert	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/wskt-quiz20/wskt-quiz20.qmd	R/exams ok	führende Nullen ergänzt (1)	Optionen Wahr/Falsch, Abgleich nicht automatisch
+posts/wuerfel01/wuerfel01.rmd	R/exams ok	Oktalzahl zurückgerechnet (512)	
+posts/ziele-statistik/ziele-statistik.rmd	R/exams ok	unverändert	

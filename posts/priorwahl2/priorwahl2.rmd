@@ -1,8 +1,4 @@
 ---
-exname: priorwahl2
-extype: schoice
-exsolution: 10000
-exshuffle: no
 categories:
 - regression
 - bayes
@@ -39,7 +35,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Exercise
+Question
+========
 
 Betrachten wir den biologisch fundierten Zusammenhang von Gewicht (UV) und Körpergröße (AV).
 
@@ -57,20 +54,8 @@ Answerlist
 * $N(-1,1)$
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 Eine  sinnvolle Überlegung ist, 
 eine Priorverteilung zu wählen, die nur positive Werte zulässt wie die Exponentialverteilung, 
@@ -89,6 +74,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: priorwahl2
+extype: schoice
+exsolution: 10000
+exshuffle: FALSE
 
 
 ---

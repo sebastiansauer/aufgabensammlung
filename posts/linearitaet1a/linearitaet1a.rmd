@@ -1,8 +1,4 @@
 ---
-extype: schoice
-expoints: 1
-exsolution: r mchoice2string(solutions, single = TRUE)
-exname: Linearitaet1a
 categories:
 - lm
 - regression
@@ -44,7 +40,8 @@ solutions[which(z[1]==questions)] <- TRUE
 
 
 
-## Aufgabe
+Question
+========
 
 ```{r show-histograms, echo = FALSE, results="hide", fig.height = 4, fig.width = 6, fig.cap = ""}
 gf_point(y~x|z, data = data)
@@ -57,24 +54,22 @@ answerlist(questions, markup = "markdown")
 ```
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 ```{r solutionlist, echo = FALSE, results = "asis"}
 answerlist(ifelse(solutions, "Richtig", "Falsch"), markup = "markdown")
 ```
 
+
+
+Meta-information
+================
+exname: Linearitaet1a
+extype: schoice
+exsolution: `r mchoice2string(solutions, single = TRUE)`
+exshuffle: FALSE
 
 
 ---
@@ -85,4 +80,3 @@ Categories:
 - regression
 - linear
 - schoice
-

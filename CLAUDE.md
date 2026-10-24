@@ -4,11 +4,27 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-A collection of statistics/data-science exercises (in German) for students, published via [datenwerk.netlify.app](https://datenwerk.netlify.app). Each exercise lives in its own subfolder under `posts/`, with one `.qmd` or `.rmd` file per exercise.
+A collection of statistics/data-science exercises (in German) for students. Each exercise lives in its own subfolder under `posts/`, with one `.qmd` or `.rmd` file per exercise.
 
-## Exercise file structure
+This repo is **not** the source of the blog [datenwerk.netlify.app](https://datenwerk.netlify.app). The blog lives in the separate repo `../07_datenwerk` (github: sebastiansauer/datenwerk) with its own copies of the exercises; the two have diverged. Changes here do not affect the blog.
 
-Every exercise file follows this pattern:
+## schoice exercises: R/exams format
+
+All `schoice` exercises in `posts/` are meant to be readable by the `exams` package (`exams2moodle()` etc.). They use:
+
+- an optional YAML header for title, date, slug and categories, but **without** `ex*` fields
+- `Question` / `Solution` headings underlined with `========` (exams does not recognise `## Aufgabe`, `## Lösung`, `## Exercise` or ATX headings)
+- `Answerlist` blocks underlined with `----------`
+- no `</br>` spacer lines between the question's Answerlist and `Solution` (exams would append them to the last option)
+- a `Meta-information` block (underlined with `================`) holding `exname`, `extype`, `exsolution`, `exshuffle` — the only place for these fields; it sits before the `---` / `Categories:` footer
+
+`exsolution` must be a 0/1 string with exactly one `1` and as many digits as options, or inline R such as `` `r mchoice2string(x, single = TRUE)` ``. Beware: a YAML round trip turned values like `0100` into `64` (octal) or `00001` into `1`; that is why `ex*` fields no longer live in the YAML header.
+
+Check an exercise with `exams::xexams(file, driver = list(sweave = list(quiet = TRUE), read = NULL))`.
+
+## Exercise file structure (other types)
+
+Non-schoice exercises still follow the older pattern:
 
 **YAML front matter** (R/exams-compatible fields):
 - `extype`: `num` (numeric answer), `string` (free text), `schoice` (single choice), `mchoice` (multiple choice), `cloze`
@@ -52,6 +68,8 @@ The `exsolution` binary string corresponds 1:1 to the order of options in the An
 - `posts/` — one subfolder per exercise, named by exercise slug; contains the `.qmd` or `.rmd` file (sometimes also an `index.qmd`)
 - `posts_buggy/` — 12 exercises with known issues, kept separate
 - `liste_aufgaben_datenwerk.txt` — flat list of exercise file paths
+- `liste_schoice_aufgaben.txt`, `liste_mchoice_aufgaben.txt` — exercises by `extype`
+- `pruefung_schoice.tsv` — R/exams check report for the schoice exercises
 
 ## File format notes
 

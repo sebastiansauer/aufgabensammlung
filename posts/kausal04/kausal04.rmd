@@ -1,8 +1,4 @@
 ---
-exname: dag4
-extype: schoice
-exsolution: 512
-exshuffle: yes
 categories:
 - dag
 - causal
@@ -41,7 +37,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Exercise
+Question
+========
 
 Gegeben sei ein DAG `g` (s.u.). 
 Was ist die minimale Menge an Variablen (minimal adjustment set),
@@ -86,19 +83,8 @@ Answerlist
 * { Cholestorol, Weight }
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 
 ```{r comment = ""}
@@ -137,6 +123,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: dag4
+extype: schoice
+exsolution: 01000
+exshuffle: TRUE
 
 
 ---

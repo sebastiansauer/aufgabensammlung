@@ -1,9 +1,4 @@
 ---
-exname: kausal28
-expoints: 1
-extype: schoice
-exsolution: r mchoice2string(sol_df$is_correct, single = TRUE)
-exshuffle: no
 categories:
 - dag
 - causal
@@ -42,7 +37,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 
@@ -173,21 +169,8 @@ answerlist(sol_df$sol,
 ```
 
 
-
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 Folgende minimale Variablenmenge muss kontrolliert werden, um den kausalen Effekt der UV auf die AV zu identifizieren: ``r sol_df$sol[sol_df$is_correct == TRUE]``.
 
@@ -246,6 +229,14 @@ answerlist(ifelse(sol_df$is_correct, "Richtig", "Falsch"), markup = "markdown")
 
 
 
+
+
+Meta-information
+================
+exname: kausal28
+extype: schoice
+exsolution: `r mchoice2string(sol_df$is_correct, single = TRUE)`
+exshuffle: FALSE
 
 
 ---

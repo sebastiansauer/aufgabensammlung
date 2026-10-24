@@ -1,8 +1,4 @@
 ---
-exname: kausal03
-extype: schoice
-exsolution: 10000
-exshuffle: yes
 categories:
 - dag
 - causal
@@ -43,7 +39,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 Gegeben sei der DAG `g` (s.u.). 
 Was ist die minimale Menge an Variablen,
@@ -85,22 +82,8 @@ Answerlist
 * { w1 }
 
 
-
-
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 ```{r comment = ""}
@@ -150,6 +133,14 @@ Answerlist
 * Falsch
 
 
+
+
+Meta-information
+================
+exname: kausal03
+extype: schoice
+exsolution: 10000
+exshuffle: TRUE
 
 
 ---

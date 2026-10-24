@@ -1,8 +1,4 @@
 ---
-exname: wrangle1
-extype: schoice
-exshuffle: 5
-exsolution: 64
 categories:
 - eda
 - datawrangling
@@ -44,7 +40,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 
@@ -73,20 +70,8 @@ Answerlist
 * sched_arr_time
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 Mit `?flights` oder `help(flights)` kann man Hilfe bekommen (wenn das entsprechende Paket geladen ist).
 
@@ -107,6 +92,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: wrangle1
+extype: schoice
+exsolution: 00000100
+exshuffle: 5
 
 
 ---

@@ -1,9 +1,4 @@
 ---
-exname: Diamonds-Histogramm-Vergleich
-extype: schoice
-exsolution: 8
-exshuffle: no
-expoints: 1
 categories:
 - vis
 - '2023'
@@ -40,7 +35,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 Die Daten beziehen sich auf den Datensatz `diamonds` und sind [hier](https://ggplot2.tidyverse.org/reference/diamonds.html) einzusehen bzw. können bei Interesse dort heruntergeladen werden.
@@ -108,19 +104,8 @@ Answerlist
 * Die Verwendung einer Füllfarbe (Diagramm B) ist hier nicht sinnvoll.
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 Answerlist
@@ -134,6 +119,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: Diamonds-Histogramm-Vergleich
+extype: schoice
+exsolution: 0010
+exshuffle: FALSE
 
 
 ---

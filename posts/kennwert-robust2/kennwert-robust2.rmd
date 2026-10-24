@@ -1,9 +1,4 @@
 ---
-exname: Kennwert-robust2
-extype: schoice
-exsolution: 64
-exshuffle: 5
-expoints: 1
 categories:
 - eda
 - variability
@@ -18,7 +13,8 @@ title: Kennwert-robust2
 
 
 
-## Aufgabe
+Question
+========
 
 Welcher der folgenden Kennwerte ist robust (im statistischen Sinn)?
 
@@ -34,19 +30,8 @@ Answerlist
 * Regressionsgewicht
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 Answerlist
@@ -61,6 +46,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: Kennwert-robust2
+extype: schoice
+exsolution: 000100
+exshuffle: 5
 
 
 ---

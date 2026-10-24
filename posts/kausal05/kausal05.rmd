@@ -1,8 +1,4 @@
 ---
-exname: dag5
-extype: schoice
-exsolution: 10000
-exshuffle: yes
 categories:
 - dag
 - causal
@@ -41,7 +37,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Exercise
+Question
+========
 
 
 
@@ -76,20 +73,8 @@ Answerlist
 * Nein, da eine Kontrolle von `Fever` nicht nötig ist (aber auch nicht schädlich)
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 
 Nein, da durch eine Kontrolle von `Fever` eine Verzerrung erzeugt wird (Kollisionsverzerrung):
@@ -117,6 +102,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: dag5
+extype: schoice
+exsolution: 10000
+exshuffle: TRUE
 
 
 ---

@@ -1,8 +1,4 @@
 ---
-exname: Verteilungen-Quiz-18
-extype: schoice
-exsolution: 1
-exshuffle: no
 categories:
 - distributions
 - Verteilungen-Quiz
@@ -38,7 +34,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Exercise
+Question
+========
 
 
 [Ei](https://gender-i.de/#artikel) Forschi untersucht den Effekt eines Intelligenztraining auf den IQ.
@@ -65,19 +62,8 @@ Answerlist
 * Nein
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 ```{r}
 library(tidyverse)
@@ -110,6 +96,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: Verteilungen-Quiz-18
+extype: schoice
+exsolution: 01
+exshuffle: FALSE
 
 
 ---

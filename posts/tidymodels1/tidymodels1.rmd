@@ -1,9 +1,4 @@
 ---
-exname: tidymodels1
-extype: schoice
-exsolution: 100000
-exshuffle: 5
-exoints: 1
 categories:
 - ds1
 - tidymodels
@@ -16,7 +11,6 @@ categories:
 date: '2023-05-17'
 slug: tidymodels1
 title: tidymodels1
-execute: 
   error: true
   eval: false
 ---
@@ -52,7 +46,8 @@ prof <- sample(prof_set, 1) |> as.character()
 
 
 
-## Aufgabe
+Question
+========
 
 Ein Prof übt sich im statistischen Lernen. 
 Dazu will er das Überleben im Titanic-Unglück Vorhersagen; 
@@ -311,19 +306,8 @@ Answerlist
 * der Parameter `mtry` wurde hier *nicht* ins Parametertuning einbezogen.
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 Answerlist
@@ -339,6 +323,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: tidymodels1
+extype: schoice
+exsolution: 100000
+exshuffle: 5
 
 
 ---

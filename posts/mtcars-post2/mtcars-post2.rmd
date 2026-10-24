@@ -1,7 +1,4 @@
 ---
-extype: schoice
-exsolution: 8
-exname: mtcars-post2
 categories:
 - bayes
 - regression
@@ -40,7 +37,8 @@ options(mc.cores = parallel::detectCores())
 
 
 
-## Aufgabe
+Question
+========
 
 
 
@@ -63,18 +61,8 @@ Answerlist
 * 8.7
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 Setup:
@@ -137,6 +125,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: mtcars-post2
+extype: schoice
+exsolution: 00010
+exshuffle: FALSE
 
 
 ---

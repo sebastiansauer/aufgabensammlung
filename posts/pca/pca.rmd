@@ -1,7 +1,4 @@
 ---
-extype: schoice
-exsolution: 8
-exname: pca
 categories:
 - eda
 - statlearning
@@ -17,7 +14,8 @@ title: pca
 
 
 
-## Aufgabe
+Question
+========
 
 
 
@@ -32,21 +30,19 @@ Answerlist
 * Die erste Hauptkomponenten beinhaltet *weniger* Variation als die erste.
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 C: Die zweite Hauptkomponente ist unkorreliert zur ersten – und beinhaltet weniger Variation. Sie steht senkrecht zur ersten, und dort streuen die Daten weniger.
 
+
+
+Meta-information
+================
+exname: pca
+extype: schoice
+exsolution: 0010
+exshuffle: FALSE
 
 
 ---
@@ -56,4 +52,3 @@ Categories:
 - eda
 - statlearning
 - schoice
-

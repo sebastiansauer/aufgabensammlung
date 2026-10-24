@@ -1,8 +1,4 @@
 ---
-exname: Streuung-Histogramm
-extype: schoice
-exsolution: r mchoice2string(sol_df$is_correct, single = TRUE)
-exshuffle: no
 categories:
 - eda
 - variability
@@ -44,7 +40,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 
@@ -169,21 +166,8 @@ exams::answerlist(sol_df$plot_id, markup = "markdown")
 ```
 
 
-
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 Das Diagramm ``r sol_df$plot_id[sol_df$is_correct == TRUE]`` zeigt den Median am genauesten.
 
@@ -196,6 +180,14 @@ exams::answerlist(ifelse(sol_df$is_correct, "Wahr", "Falsch"), markup = "markdow
 
 
 
+Meta-information
+================
+exname: Streuung-Histogramm
+extype: schoice
+exsolution: `r mchoice2string(sol_df$is_correct, single = TRUE)`
+exshuffle: FALSE
+
+
 ---
 
 Categories: 
@@ -205,4 +197,3 @@ Categories:
 - variability
 - dyn
 - schoice
-

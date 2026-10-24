@@ -1,8 +1,4 @@
 ---
-exname: Skalenniveau1a
-extype: schoice
-exsolution: r sol_str
-exshuffle: no
 dynamic: yes
 categories:
 - dyn
@@ -48,7 +44,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 
@@ -114,18 +111,8 @@ Answerlist
 * ja
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 ```{r}
 if (d_sol$metrisch == 1) {
@@ -147,6 +134,14 @@ d_sol %>% gt::gt()
 Die richtige Antwort lautet: **`r  sol`**.
 
 
+
+
+Meta-information
+================
+exname: Skalenniveau1a
+extype: schoice
+exsolution: `r sol_str`
+exshuffle: FALSE
 
 
 ---

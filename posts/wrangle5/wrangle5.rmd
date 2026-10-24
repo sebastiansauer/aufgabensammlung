@@ -1,8 +1,4 @@
 ---
-exname: wrangle5
-extype: schoice
-exsolution: 512
-exshuffle: no
 categories:
 - eda
 - '2023'
@@ -42,7 +38,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 Wie prüft man in R auf Gleichheit zweier Ausdrücke?
 
@@ -62,20 +59,8 @@ Answerlist
 * `!=` -- Prüfung auf Gleichheit
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 
@@ -95,6 +80,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: wrangle5
+extype: schoice
+exsolution: 01000
+exshuffle: FALSE
 
 
 ---

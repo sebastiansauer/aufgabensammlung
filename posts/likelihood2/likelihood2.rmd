@@ -1,8 +1,4 @@
 ---
-exname: lik2
-extype: schoice
-exsolution: 512
-exshuffle: no
 categories:
 - regression
 - bayes
@@ -39,7 +35,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Exercise
+Question
+========
 
 Der Likelihood eines Datensatzes ist definiert als das Produkt der Likelihoods aller Beobachtungen:
 
@@ -60,20 +57,8 @@ Answerlist
 * kommt auf weitere, hier nicht benannte Bedingungen an
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 
 Multipliziert man zwei (oder mehr) Anteile $p_i$ (Wahrscheinlichkeiten), 
@@ -99,6 +84,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: lik2
+extype: schoice
+exsolution: 01000
+exshuffle: FALSE
 
 
 ---

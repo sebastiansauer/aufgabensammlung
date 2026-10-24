@@ -1,8 +1,4 @@
 ---
-exname: ReThink4e1
-extype: schoice
-exsolution: 1
-exshuffle: no
 categories:
 - probability
 - bayes
@@ -38,10 +34,14 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 Welche der folgenden Zeilen zeigt den Likelihood?
 
+
+
+*Quelle*: McElreath, R. (2020). *Statistical rethinking: A Bayesian course with examples in R and Stan* (2. Aufl.). Taylor and Francis, CRC Press.
 
 
 Answerlist
@@ -53,24 +53,10 @@ Answerlist
 
 
 
-*Quelle*: McElreath, R. (2020). *Statistical rethinking: A Bayesian course with examples in R and Stan* (2. Aufl.). Taylor and Francis, CRC Press.
 
 
-
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 Answerlist
@@ -90,6 +76,14 @@ was noch deutlicher macht, dass die Likelihood die Wahrscheinlichkeit der Daten 
 
 
 
+
+
+Meta-information
+================
+exname: ReThink4e1
+extype: schoice
+exsolution: 0001
+exshuffle: FALSE
 
 
 ---

@@ -1,8 +1,4 @@
 ---
-exname: dag7
-extype: schoice
-exsolution: 10000
-exshuffle: yes
 categories:
 - dag
 - causal
@@ -42,7 +38,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Exercise
+Question
+========
 
 
 Eine Forscherin untersucht den Zusammenhang von Rauchen `smo` (smoking, UV, exposure) und Herzstillstand `ca` (cardiac arrest, AV, outcome). 
@@ -96,19 +93,8 @@ Answerlist
 * Nein, da eine Kollision erzeugt wird.
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 Alternative Visualisierung:
 
@@ -162,6 +148,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: dag7
+extype: schoice
+exsolution: 10000
+exshuffle: TRUE
 
 
 ---

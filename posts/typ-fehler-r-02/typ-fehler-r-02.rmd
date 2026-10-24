@@ -1,8 +1,4 @@
 ---
-exname: r-fehler2
-extype: schoice
-exsolution: 10000
-exshuffle: no
 categories:
 - R
 - '2023'
@@ -43,7 +39,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 R gibt folgende Fehlermeldung aus:
 
@@ -67,19 +64,8 @@ Answerlist
 * Das Paket `XXX` ist defekt.
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 Das Paket `XXX` ist nicht installiert auf dem aktuellen Rechner.
@@ -96,6 +82,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: r-fehler2
+extype: schoice
+exsolution: 10000
+exshuffle: FALSE
 
 
 ---

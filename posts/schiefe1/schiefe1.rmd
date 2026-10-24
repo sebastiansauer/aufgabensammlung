@@ -1,8 +1,4 @@
 ---
-extype: schoice
-expoints: 2
-exsolution: r mchoice2string(solutions, single = TRUE)
-exname: Schiefe 1
 date: '2023-04-19'
 slug: Schiefe1
 title: Schiefe1
@@ -40,7 +36,8 @@ solutions[which(z[i]==questions)] <- TRUE
 
 
 
-## Aufgabe
+Question
+========
 
 Welche der Abbildungen zeigt am deutlichsten eine `r form[i]` Verteilung?
 
@@ -53,20 +50,8 @@ exams::answerlist(questions, markup = "markdown")
 ```
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 ```{r solutionlist, echo = FALSE, results = "asis"}
@@ -75,9 +60,16 @@ exams::answerlist(ifelse(solutions, "Richtig", "Falsch"), markup = "markdown")
 
 
 
+Meta-information
+================
+exname: Schiefe 1
+extype: schoice
+exsolution: `r mchoice2string(solutions, single = TRUE)`
+exshuffle: FALSE
+
+
 ---
 
 Categories: 
 
 schoice
-

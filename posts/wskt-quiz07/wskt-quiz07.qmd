@@ -1,8 +1,4 @@
 ---
-exname: wskt-quiz07
-extype: schoice
-exsolution: 10
-exshuffle: no
 categories:
 - quiz
 - probability
@@ -34,7 +30,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 Folgende Formel ist korrekt: $Pr(H|D) = Pr(D|H) \cdot Pr(H)$.
@@ -52,18 +49,8 @@ Answerlist
 * Wahr
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 Richtig wäre: $Pr(H|D) = \frac{Pr(D\cap H)} {Pr(D)}$.
@@ -80,6 +67,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: wskt-quiz07
+extype: schoice
+exsolution: 10
+exshuffle: FALSE
 
 
 ---

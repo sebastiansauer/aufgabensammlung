@@ -1,8 +1,4 @@
 ---
-exname: wrangle3
-extype: schoice
-exsolution: 8
-exshuffle: no
 categories:
 - datawrangling
 - eda
@@ -42,7 +38,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 
@@ -65,19 +62,8 @@ Answerlist
 * Funktionsnamen sind (zumeist) *nicht* als Verben formuliert.
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 
@@ -97,6 +83,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: wrangle3
+extype: schoice
+exsolution: 00010
+exshuffle: FALSE
 
 
 ---

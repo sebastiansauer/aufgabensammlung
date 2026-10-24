@@ -1,8 +1,4 @@
 ---
-exname: sd-vergleich
-extype: schoice
-exsolution: 64
-exshuffle: no
 categories:
 - datawrangling
 - eda
@@ -45,7 +41,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 Welches der folgenden Diagramm hat die größte Streuung, 
@@ -107,19 +104,8 @@ Answerlist
 * keine Antwort möglich
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 Die SD ist am größten in Diagramm C
 
@@ -135,6 +121,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: sd-vergleich
+extype: schoice
+exsolution: 00100
+exshuffle: FALSE
 
 
 ---

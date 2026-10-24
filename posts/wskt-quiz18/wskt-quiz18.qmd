@@ -1,8 +1,4 @@
 ---
-exname: wskt-quiz18
-extype: schoice
-exsolution: 1
-exshuffle: no
 categories:
 - quiz
 - probability
@@ -34,7 +30,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 Behauptung: 
@@ -53,18 +50,8 @@ Answerlist
 * Wahr
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 Ja, sind wir vorab (apriori) sicher, dass die Hypothese wahr ist, sind wir auch sicher, dass alle anderen Hypothesen falsch sind.
 
@@ -81,6 +68,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: wskt-quiz18
+extype: schoice
+exsolution: 01
+exshuffle: FALSE
 
 
 ---

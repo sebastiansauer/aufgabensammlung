@@ -1,8 +1,4 @@
 ---
-exname: wskt-quiz02
-extype: schoice
-exsolution: 10
-exshuffle: no
 categories:
 - quiz
 - probability
@@ -33,7 +29,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 Gilt $Pr(AB) = Pr(A\cap B) = Pr(A) \cdot Pr(B)$, so sind die Ereignisse $A$ und $B$ abhängig.
@@ -51,20 +48,8 @@ Answerlist
 * Wahr
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 
@@ -79,6 +64,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: wskt-quiz02
+extype: schoice
+exsolution: 10
+exshuffle: FALSE
 
 
 ---

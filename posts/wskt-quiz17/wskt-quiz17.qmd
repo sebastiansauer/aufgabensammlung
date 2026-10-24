@@ -1,8 +1,4 @@
 ---
-exname: wskt-quiz17
-extype: schoice
-exsolution: 1
-exshuffle: no
 categories:
 - quiz
 - probability
@@ -34,7 +30,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-## Aufgabe
+Question
+========
 
 
 Behauptung: 
@@ -53,18 +50,8 @@ Answerlist
 * Wahr
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 Ja, denn Post-unstand = Prior * Likelihood.
 
@@ -81,6 +68,14 @@ Answerlist
 
 
 
+
+
+Meta-information
+================
+exname: wskt-quiz17
+extype: schoice
+exsolution: 01
+exshuffle: FALSE
 
 
 ---
