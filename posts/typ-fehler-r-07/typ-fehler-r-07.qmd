@@ -1,8 +1,4 @@
 ---
-exname: typ-fehler-r-07
-extype: mchoice
-exsolution: 00100
-exshuffle: 5 
 categories:
 - R
 - error
@@ -18,8 +14,7 @@ title: Typ-Fehler-R-07
 
 
 Question
-
-## Aufgabe
+========
 
 Sie möchten in R eine Textvariable (String-, Charaktervariable) definieren und zwar soll die Variable `gruss` mit dem Wert "Hallo" "befüllt" werden.
 
@@ -52,20 +47,8 @@ Answerlist
 * R hat gewartet auf das Ende der Text-Auszeichnung, also auf das schließende Anführungszeichen. Jetzt ist R abgestürzt und muss neu gestartet werden.
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 Answerlist
 ----------
@@ -76,6 +59,14 @@ Answerlist
 * Falsch
 
 
+
+
+Meta-information
+================
+exname: typ-fehler-r-07
+extype: schoice
+exsolution: 00100
+exshuffle: 5
 
 
 ---

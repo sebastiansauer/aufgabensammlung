@@ -72,6 +72,7 @@ posts/kausal27/kausal27.rmd	R/exams ok	dynamisch
 posts/kausal28/kausal28.rmd	R/exams ok	dynamisch	
 posts/kausal29/kausal29.rmd	R/exams ok	Oktalzahl zurückgerechnet (8)	
 posts/kausal-einfach/kausal-einfach.rmd	R/exams ok	Oktalzahl zurückgerechnet (512)	
+posts/kausale-verben2/kausale-verben2.rmd	R/exams ok	unverändert	vorher mchoice, auf schoice umgestellt
 posts/kekse01-schoice/kekse01-schoice.Rmd	R/exams ok (war schon nativ)		
 posts/kennwert-robust2/kennwert-robust2.rmd	R/exams ok	Oktalzahl zurückgerechnet (64)	
 posts/kennwert-robust/kennwert-robust.rmd	R/exams ok	unverändert	
@@ -136,6 +137,7 @@ posts/tidymodels-penguins07/tidymodels-penguins07.qmd	nicht umgewandelt		dynamis
 posts/tidytext/tidytext.qmd	R/exams ok	führende Nullen ergänzt (1)	keine Lösungs-Answerlist
 posts/ttest-skalenniveau/ttest-skalenniveau.rmd	R/exams ok	führende Nullen ergänzt (1)	doppelte Antwortoption
 posts/typ-fehler-r-02/typ-fehler-r-02.rmd	R/exams ok	unverändert	
+posts/typ-fehler-r-07/typ-fehler-r-07.qmd	R/exams ok	unverändert	vorher mchoice, auf schoice umgestellt
 posts/variation01/variation01.rmd	R/exams ok	unverändert	
 posts/variation02/variation02.rmd	R/exams ok	führende Nullen ergänzt (1)	
 posts/var-vs-stufe/var-vs-stufe.rmd	nicht umgewandelt		exsolution NA passt nicht zu 4 Optionen
