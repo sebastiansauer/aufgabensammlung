@@ -21,6 +21,8 @@ knitr:
   opts_chunk:
     out.width: "75%"
 
+exname: indifferenz-p
+extype: string
 ---
 
 

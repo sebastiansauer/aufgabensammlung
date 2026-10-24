@@ -11,6 +11,7 @@ cache: true
 
 
 extype: string
+exname: kausal
 exsolution: ""
 exshuffle: no
 categories:

@@ -9,6 +9,7 @@ cache: true
 toc: true
 number-sections: true
 extype: string
+exname: fallstudie-excel-r
 exsolution: ""
 exshuffle: no
 categories:

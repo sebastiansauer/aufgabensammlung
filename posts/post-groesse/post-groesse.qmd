@@ -11,6 +11,7 @@ cache: true
 
 
 extype: string
+exname: post-groesse
 exsolution: ""
 exshuffle: no
 categories:

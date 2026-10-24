@@ -1,5 +1,6 @@
 ---
 extype: num
+exname: gem-wskt3
 exsolution: r exams::fmt(sol)
 extol: r exams::num_to_tol(sol, reltol = 0.01)
 expoints: 1

@@ -9,6 +9,7 @@ highlight-style: arrow
 cache: true
 
 extype: string
+exname: chatgpt-sentiment-loop
 exsolution: ""
 categories:
 - textmining

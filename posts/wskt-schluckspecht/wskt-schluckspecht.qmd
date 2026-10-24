@@ -11,6 +11,7 @@ cache: true
 
 
 extype: string
+exname: wskt-schluckspecht
 exsolution: ""
 exshuffle: no
 categories:

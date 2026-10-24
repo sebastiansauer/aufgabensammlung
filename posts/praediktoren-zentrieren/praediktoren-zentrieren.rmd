@@ -54,8 +54,6 @@ sol <- "x_c=x-mw(x)"
 Meta-information
 ================
 extype: string
-<<<<<<< HEAD
-exsolution: `r sol` 
-=======
-exsolution: NA
+exname: praediktoren-zentrieren
+exsolution: `r sol`
 

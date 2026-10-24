@@ -3,6 +3,7 @@ date: 2023-12-06
 draft: FALSE   
 title: chatgpt-sentiment-simple
 extype: string
+exname: chatgpt-sentiment-simple
 exsolution: ""
 categories:
 - textmining

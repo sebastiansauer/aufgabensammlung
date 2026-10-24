@@ -1,5 +1,6 @@
 ---
 extype: string
+exname: regr-bayes-interpret02a
 exsolution: NA
 expoints: 1
 categories:

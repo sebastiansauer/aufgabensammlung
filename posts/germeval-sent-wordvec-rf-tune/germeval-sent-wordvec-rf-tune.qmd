@@ -1,6 +1,7 @@
 ---
 expoints: 1
 extype: string
+exname: germeval-sent-wordvec-rf-tune
 exsolution: NA
 categories:
 - textmining
