@@ -40,6 +40,8 @@ Sei $X \sim N(100, 15)$.
 
 Behauptung: Es gilt: $Pr(X \ge 115) < .2$.
 
+Ist diese Behauptung wahr oder falsch?
+
 Hinweise:
 
 - Orientieren Sie sich im Übrigen an den [allgemeinen Hinweisen des Datenwerks](https://datenwerk.netlify.app/hinweise).

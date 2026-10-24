@@ -39,6 +39,7 @@ Behauptung:
 
 Mann (Frau auch) kann jede Kennzahl der Deskriptivstatistik mit Methoden der Inferenzstatistik untersuchen.
 
+Ist diese Behauptung wahr oder falsch?
 
 Hinweise:
 

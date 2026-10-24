@@ -44,6 +44,8 @@ Die Daten beziehen sich auf den Datensatz `diamonds` und sind [hier](https://ggp
 
 Alternativ kann der Datensatz von [hier](https://vincentarelbundock.github.io/Rdatasets/csv/ggplot2/diamonds.csv) bezogen werden.
 
+Welche Aussage zum folgenden Diagramm ist richtig?
+
 ```{r p-diamonds2, echo = FALSE, out.width="100%"}
 data(diamonds, package = "ggplot2")
 library(tidyverse)

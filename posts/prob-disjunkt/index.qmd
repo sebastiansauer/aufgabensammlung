@@ -25,6 +25,8 @@ Question
 
 Zwei Ereignisse A und B heißen disjunkt (oder unvereinbar), wenn gilt:
 
+Wählen Sie die richtige Ergänzung.
+
 
 Answerlist
 ----------

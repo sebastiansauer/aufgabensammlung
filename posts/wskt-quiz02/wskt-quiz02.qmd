@@ -36,6 +36,8 @@ Question
 
 Gilt $Pr(AB) = Pr(A\cap B) = Pr(A) \cdot Pr(B)$, so sind die Ereignisse $A$ und $B$ abhängig.
 
+Ist diese Aussage wahr oder falsch?
+
 Hinweise:
 
 - Orientieren Sie sich im Übrigen an den [allgemeinen Hinweisen des Datenwerks](https://datenwerk.netlify.app/hinweise).

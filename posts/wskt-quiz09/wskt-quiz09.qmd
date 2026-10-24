@@ -40,6 +40,8 @@ Sei $X \sim U(0, 1)$.
 
 Behauptung: Es gilt: $f(X=1) = .1$.
 
+Ist diese Behauptung wahr oder falsch?
+
 Hinweise:
 
 - Orientieren Sie sich im Übrigen an den [allgemeinen Hinweisen des Datenwerks](https://datenwerk.netlify.app/hinweise).

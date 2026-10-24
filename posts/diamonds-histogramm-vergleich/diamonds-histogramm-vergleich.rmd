@@ -41,6 +41,8 @@ Question
 
 Die Daten beziehen sich auf den Datensatz `diamonds` und sind [hier](https://ggplot2.tidyverse.org/reference/diamonds.html) einzusehen bzw. können bei Interesse dort heruntergeladen werden.
 
+Welche Aussage zum folgenden Diagramm ist richtig?
+
 
 
 ```{r p-diamonds1, echo = FALSE}

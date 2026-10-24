@@ -39,6 +39,8 @@ Behauptung:
 
 $Pr(AB) = Pr(A|B) \cdot Pr(B)$.
 
+Ist diese Behauptung wahr oder falsch?
+
 Hinweise:
 
 - Orientieren Sie sich im Übrigen an den [allgemeinen Hinweisen des Datenwerks](https://datenwerk.netlify.app/hinweise).

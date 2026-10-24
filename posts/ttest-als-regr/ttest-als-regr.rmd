@@ -47,7 +47,7 @@ Der t-Test ist ein Verfahren, der die Mittelwerte zweier Gruppen miteinander ver
 
 Hierbei ist es wichtig, sich das Skalenniveau der Variablen, die ein t-Test verarbeitet, vor Augen zu führen.
 
-
+Welche der folgenden Aussagen ist richtig?
 
   
 Hinweisse:

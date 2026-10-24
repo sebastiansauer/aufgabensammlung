@@ -40,6 +40,8 @@ Behauptung:
 
 Die folgenden Variablen haben (alle) "Fat Tails": Intelligenz (IQ) und das Einkommen von Musikern.
 
+Ist diese Behauptung wahr oder falsch?
+
 Hinweise:
 
 - Orientieren Sie sich im Übrigen an den [allgemeinen Hinweisen des Datenwerks](https://datenwerk.netlify.app/hinweise).

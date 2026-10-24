@@ -37,6 +37,7 @@ Question
 
 Folgende Formel ist korrekt: $Pr(H|D) = Pr(D|H) \cdot Pr(H)$.
 
+Ist diese Aussage wahr oder falsch?
 
 Hinweise:
 

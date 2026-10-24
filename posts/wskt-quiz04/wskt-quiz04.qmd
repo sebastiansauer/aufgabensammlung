@@ -36,6 +36,8 @@ Question
 
 Sei $X \sim Bin(10, 1/2)$. Dann ist die zugehörige Verteilung (von $X$) symmetrisch.
 
+Ist diese Aussage wahr oder falsch?
+
 Hinweise:
 
 - Orientieren Sie sich im Übrigen an den [allgemeinen Hinweisen des Datenwerks](https://datenwerk.netlify.app/hinweise).

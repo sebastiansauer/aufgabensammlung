@@ -31,6 +31,7 @@ Der *t-Test* kann als Spezialfall der Regressionsanalyse gedeutet werden.
 
 Hierbei ist es wichtig, sich das Skalenniveau der Variablen, die ein t-Test verarbeitet, vor Augen zu führen.
 
+*Geben Sie die richtige Antwort jeweils ein!*
 
   
 Hinweisse:

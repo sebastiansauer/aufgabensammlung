@@ -27,6 +27,8 @@ Question
 
 Die Zuordnung der Elementarereignisse eines Zufallsexperiments zu einer Zahl nennt man Zufallsvariable.
 
+Ist diese Aussage wahr oder falsch?
+
 
 Answerlist
 ----------

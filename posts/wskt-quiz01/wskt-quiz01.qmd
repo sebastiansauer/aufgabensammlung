@@ -35,7 +35,7 @@ Question
 
 Sind die Ereignisse $A$ und $B$ unabhängig, so gilt $Pr(A|B) = P(A)$.
 
-
+Ist diese Aussage wahr oder falsch?
 
 Hinweise:
 

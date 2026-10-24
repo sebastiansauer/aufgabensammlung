@@ -39,6 +39,7 @@ Behauptung:
 
 $Pr(BA) = Pr(B|A) \cdot Pr(A)$.
 
+Ist diese Behauptung wahr oder falsch?
 
 Hinweise:
 

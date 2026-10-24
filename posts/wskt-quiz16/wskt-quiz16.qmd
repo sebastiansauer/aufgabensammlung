@@ -39,6 +39,7 @@ Behauptung:
 
 $Pr(A|B) = Pr(AB) / Pr(B)$.
 
+Ist diese Behauptung wahr oder falsch?
 
 Hinweise:
 

@@ -39,6 +39,8 @@ Behauptung:
 
 Hat eine Hypothese die Priori-Wahrscheinlichkeit von 0, so wird die Post-Wahrscheinlichkeit dieser Hypothese 0 sein.
 
+Ist diese Behauptung wahr oder falsch?
+
 Hinweise:
 
 - Orientieren Sie sich im Übrigen an den [allgemeinen Hinweisen des Datenwerks](https://datenwerk.netlify.app/hinweise).

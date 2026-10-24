@@ -42,6 +42,8 @@ Angenommen, Sie arbeiten als Analyst mit folgender Aufgabe:
 
 Es liegt ein Datensatz mit 600 Beschäftigten (als Beobachtungseinheit) vor. Für jede Person sind folgende Informationen bekannt: Dauer der Betriebszugehörigkeit, Alter, Ausbildung und Ergebnis der letzten Leistungsbeurteilung. Ziel ist es, die Höhe des zu erwartenden Gehalts vorherzusagen.
 
+Welche Charakterisierung dieses Szenarios ist richtig?
+
 
 
 Answerlist

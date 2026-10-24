@@ -36,6 +36,8 @@ Behauptung:
 
 >    Ist Null nicht im Konfidenzintervall enthalten, so liegt ein statistisch signifikantes Ergebnis vor.
 
+Welche der folgenden Aussagen ist richtig?
+
 
 
 

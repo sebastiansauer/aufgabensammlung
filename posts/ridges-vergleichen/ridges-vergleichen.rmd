@@ -43,6 +43,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 Question
 ========
 
+Das folgende Diagramm zeigt die Verteilung des Preises (`price`) je Schliffart (`cut`) im Datensatz `diamonds`. Welche Aussage ist richtig?
+
 
 
 ```{r ridgeplot, echo = FALSE}

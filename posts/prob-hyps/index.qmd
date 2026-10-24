@@ -35,6 +35,8 @@ Behauptung:
 
 >   Es ist *nicht* möglich, die Wahrscheinlichkeit einer Hypothese bzw. eines Werts in der Population (eines Parameters) anzugeben.
 
+Welche der folgenden Aussagen ist richtig?
+
 
 Hinweise:
 

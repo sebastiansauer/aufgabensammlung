@@ -37,6 +37,8 @@ Question
 
 Behauptung: Der Likelihood $L$ gibt die Wahrscheinlichkeit einer *H*ypothese an, gegeben der *D*aten.
 
+Ist diese Behauptung wahr oder falsch?
+
 Hinweise:
 
 - Orientieren Sie sich im Übrigen an den [allgemeinen Hinweisen des Datenwerks](https://datenwerk.netlify.app/hinweise).
