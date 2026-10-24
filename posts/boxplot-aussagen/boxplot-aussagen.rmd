@@ -37,11 +37,17 @@ knitr::opts_chunk$set(fig.pos = 'H',
 Question
 ========
 
+Welche der folgenden Aussage ist richtig?
+
 
 *Hinweis: `Female` steht für Frauen; `Male` für Männer.*
 
-Diese Aufgabe bezieht sich auf den Datensatz `tips` (aus dem R-Paket `reshape2`), den Sie ggf. [hier](https://vincentarelbundock.github.io/Rdatasets/csv/reshape2/tips.csv) herunterladen können.
+
+Diese Aufgabe bezieht sich auf den Datensatz `tips` (aus dem R-Paket `reshape2`), 
+den Sie ggf. [hier](https://vincentarelbundock.github.io/Rdatasets/csv/reshape2/tips.csv) herunterladen können.
 Ein Data-Dictionary findet sich [hier](https://vincentarelbundock.github.io/Rdatasets/doc/reshape2/tips.html).
+Zum Lösen der Aufgabe sind aber die hier angegebenen Information ausreichend.
+
 
 
 ```{r p-boxplot-aussagen}
