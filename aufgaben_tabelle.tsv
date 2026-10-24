@@ -185,6 +185,7 @@ fattails01	posts/fattails01/fattails01.rmd	schoice	ja	nein		probability, simulat
 fattails02	posts/fattails02/fattails02.rmd	schoice	ja	nein		probability, bayes, bayesbox, simulation, normal-distribution, quiz
 file_drawer_problem	posts/file_drawer_problem/file_drawer_problem.rmd	schoice	nein	nein		
 filter	posts/filter/filter.rmd	schoice	nein	nein		
+filter-b	posts/filter-b/filter-b.rmd	schoice	nein	nein		
 filter-na1	posts/filter-na1/filter-na1.rmd	string	nein	nein		2023, eda, na, string
 filter-na2	posts/filter-na2/filter-na2.rmd	string	nein	nein		2023, eda, na, string
 filter-na3	posts/filter-na3/filter-na3.rmd	string	nein	nein		2023, eda, na, string
@@ -738,6 +739,7 @@ scikit-llm-zeroshot	posts/scikit-llm-zeroshot/scikit-llm-zeroshot.qmd	string	nei
 sd-vergleich	posts/sd-vergleich/sd-vergleich.rmd	schoice	ja	nein		datawrangling, eda, tidyverse, vis, variability, schoice, paper, quiz
 sd_vs_varianz	posts/sd_vs_varianz/sd_vs_varianz.rmd	schoice	nein	nein		
 select	posts/select/select.rmd	schoice	nein	nein		
+select-b	posts/select-b/select-b.rmd	schoice	nein	nein		
 select_anwendung	posts/select_anwendung/select_anwendung.rmd	schoice	nein	nein		
 sentiws2	posts/sentiws2/sentiws2.qmd	string	nein	nein		textmining, tokenizer, string
 shrinkage1	posts/shrinkage1/shrinkage1.rmd	schoice	nein	nein		schoice

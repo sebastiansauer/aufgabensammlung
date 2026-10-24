@@ -71,6 +71,8 @@ The `exsolution` binary string corresponds 1:1 to the order of options in the An
 - `liste_schoice_aufgaben.txt`, `liste_mchoice_aufgaben.txt` — exercises by `extype`
 - `pruefung_schoice.tsv` — R/exams check report for the schoice exercises
 - `import_rexams-entwicklung.tsv` — which exercises from `../11_rexams-entwicklung/exercises/sebastiansauer/de` were imported (and under which name) and which were skipped as duplicates
+- `import_statistik1.tsv` — the same for `../01_statistik1/exs`
+- `aufgaben_tabelle.tsv` — one row per exercise: name, path, extype, dynamic, buggy (+ reason), categories
 
 ## File format notes
 
