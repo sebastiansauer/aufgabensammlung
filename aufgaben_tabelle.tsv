@@ -2,7 +2,7 @@ name	pfad	extype	dynamisch	buggy	buggy_grund	categories	Statistik1
 abh-ereignisse	posts/abh-ereignisse/abh-ereignisse.qmd	string	nein	nein		R, probability, string	keines
 abh-ereignisse2	posts/abh-ereignisse2/abh-ereignisse2.qmd	num	nein	nein		R, probability, num	keines
 abhaengige-es	posts/abhaengige-es/abhaengige-es.rmd	schoice	ja	nein		probability	keines
-achsen_trick	posts/achsen_trick/achsen_trick.rmd	schoice	nein	nein			040-verbildlichen.qmd
+achsen_trick	posts/achsen_trick/achsen_trick.rmd	schoice	nein	nein		vis, schoice, quiz	040-verbildlichen.qmd
 additionssatz-allgemein-schoice	posts/additionssatz-allgemein-schoice/additionssatz-allgemein-schoice.Rmd	schoice	nein	nein		wahrscheinlichkeit	keines
 additionssatz-disjunkt-bedingung-schoice	posts/additionssatz-disjunkt-bedingung-schoice/additionssatz-disjunkt-bedingung-schoice.Rmd	schoice	nein	nein		wahrscheinlichkeit	keines
 additionssatz-mindestens-eine-klausur-schoice	posts/additionssatz-mindestens-eine-klausur-schoice/additionssatz-mindestens-eine-klausur-schoice.Rmd	schoice	nein	nein		wahrscheinlichkeit	keines
@@ -26,7 +26,7 @@ anova	posts/anova/anova.rmd	mchoice	ja	nein			keines
 anova-als-regr	posts/anova-als-regr/anova-als-regr.rmd	string	nein	nein		regression, bayes, anova	090-regression2.qmd
 anova-skalenniveau	posts/anova-skalenniveau/anova-skalenniveau.rmd	schoice	nein	nein		variable-levels, anova, quiz, schoice	keines
 anova-skalenniveau-schoice	posts/anova-skalenniveau-schoice/anova-skalenniveau-schoice.Rmd	schoice	nein	nein			keines
-anscombe_logik	posts/anscombe_logik/anscombe_logik.rmd	schoice	nein	nein			040-verbildlichen.qmd
+anscombe_logik	posts/anscombe_logik/anscombe_logik.rmd	schoice	nein	nein		vis, schoice, quiz	040-verbildlichen.qmd
 anteil-apple	posts/anteil-apple/anteil-apple.rmd	string	nein	nein		bayes, bayesbox, qm2-pruefung2023, computer	keines
 anteil-automatik-mtcars	posts/anteil-automatik-mtcars/anteil-automatik-mtcars.rmd	string	nein	nein			keines
 antijoin	posts/antijoin/antijoin.rmd	schoice	nein	ja	"R/exams, R-Code-Fehler (importiert): Cannot find the file(s): ""antijoin.png"""		030-aufbereiten.qmd
@@ -35,14 +35,14 @@ anz-params-schoice	posts/anz-params-schoice/anz-params-schoice.Rmd	schoice	nein	
 aprioriwissen	posts/aprioriwissen/aprioriwissen.rmd	schoice	nein	nein			keines
 argumente	posts/argumente/argumente.rmd	schoice	nein	nein		R, 2023, schoice, paper, quiz	020-R.qmd
 arrange	posts/arrange/arrange.rmd	schoice	nein	nein			030-aufbereiten.qmd
-arrange_minus	posts/arrange_minus/arrange_minus.rmd	schoice	nein	nein			030-aufbereiten.qmd
+arrange_minus	posts/arrange_minus/arrange_minus.rmd	schoice	nein	nein		datawrangling, schoice, quiz	030-aufbereiten.qmd
 aufgaben_statistik	posts/aufgaben_statistik/aufgaben_statistik.rmd	schoice	nein	nein			010-rahmen.qmd
 ausreisser1	posts/ausreisser1/ausreisser1.qmd	string	nein	nein		eda, datawrangling, tidyverse, ausreisser, string, computer	060-modellguete.qmd
 aussagen-einfache-regr	posts/aussagen-einfache-regr/aussagen-einfache-regr.rmd	schoice	nein	nein		regression	080-regression1.qmd
 aussagen-infstat	posts/aussagen-infstat/index.qmd	string	nein	nein		inference, exam24, schoice	keines
 aussagen-infstat-schoice	posts/aussagen-infstat-schoice/aussagen-infstat-schoice.Rmd	schoice	nein	nein		inference, exam24, schoice	keines
 av-uv.de	posts/av-uv.de/av-uv.de.rmd	schoice	ja	nein		basics, design	010-rahmen.qmd
-balken_normierung	posts/balken_normierung/balken_normierung.rmd	schoice	nein	nein			040-verbildlichen.qmd
+balken_normierung	posts/balken_normierung/balken_normierung.rmd	schoice	nein	nein		vis, schoice, quiz	040-verbildlichen.qmd
 bangladesh1	posts/bangladesh1/bangladesh1.rmd	cloze	nein	nein			keines
 bangladesh2	posts/bangladesh2/bangladesh2.rmd	string	nein	nein			keines
 bath42	posts/bath42/bath42.qmd	num	nein	nein		quiz, probability, bayes, num, qm2, qm2-pruefung2023	keines
@@ -102,7 +102,7 @@ boosting1	posts/boosting1/boosting1.rmd	mchoice	nein	nein		mchoice, statisticall
 boosting2	posts/boosting2/boosting2.rmd	schoice	nein	nein		schoice	keines
 bootstrap	posts/bootstrap/bootstrap.rmd	schoice	nein	nein		statlearning, inference, schoice, mtcars, quiz	keines
 bootstrap1	posts/bootstrap1/bootstrap1.rmd	schoice	nein	nein		statlearning, ds1, schoice, quiz	keines
-bosplot_schiefe	posts/bosplot_schiefe/bosplot_schiefe.rmd	schoice	nein	nein			040-verbildlichen.qmd
+bosplot_schiefe	posts/bosplot_schiefe/bosplot_schiefe.rmd	schoice	nein	nein		vis, schoice, quiz	040-verbildlichen.qmd
 boxhist	posts/boxhist/boxhist.rmd	cloze	ja	nein		vis, eda, en, cloze, paper	040-verbildlichen.qmd
 boxhist2	posts/boxhist2/boxhist2.rmd	cloze	ja	nein			040-verbildlichen.qmd
 boxplot-aussagen	posts/boxplot-aussagen/boxplot-aussagen.rmd	schoice	ja	nein		vis, eda, dyn, schoice, paper, quiz	040-verbildlichen.qmd
@@ -119,7 +119,7 @@ bsps-nullhyp	posts/bsps-nullhyp/index.qmd	(fehlt)	nein	nein		inference	keines
 bullshit1	posts/bullshit1/bullshit1.rmd	num	ja	nein			070-zusammenhaenge.qmd
 bullshit2	posts/bullshit2/bullshit2.rmd	schoice	ja	ja	"R/exams, R-Code-Fehler (importiert): konnte Funktion ""%>%"" nicht finden"		070-zusammenhaenge.qmd
 bus1	posts/bus1/bus1.qmd	num	nein	nein		probability, bayes, num	keines
-causal_err	posts/causal_err/causal_err.rmd	schoice	nein	nein			080-regression1.qmd
+causal_err	posts/causal_err/causal_err.rmd	schoice	nein	nein		regression, schoice, quiz	080-regression1.qmd
 chatgpt-curl	posts/chatgpt-curl/chatgpt-curl.qmd	string	nein	nein		DUMMY	keines
 chatgpt-sentiment-loop	posts/chatgpt-sentiment-loop/chatgpt-sentiment-loop.qmd	string	nein	nein		textmining, nlp, transformer, chatgpt, sentiment	keines
 chatgpt-sentiment-simple	posts/chatgpt-sentiment-simple/chatgpt-sentiment-simple.qmd	string	nein	nein		textmining, nlp, transformer, chatgpt, sentiment	keines
@@ -127,7 +127,7 @@ choroplethen	posts/choroplethen/choroplethen.rmd	string	nein	nein			040-verbildl
 cluster01	posts/cluster01/cluster01.rmd	num	nein	nein		num	keines
 cluster02	posts/cluster02/cluster02.rmd	schoice	nein	nein		schoice	keines
 cochrane1	posts/cochrane1/cochrane1.rmd	schoice	ja	ja	R/exams, R-Code-Fehler (importiert): kann Verbindung nicht öffnen		keines
-cohen_kategorisierung	posts/cohen_kategorisierung/cohen_kategorisierung.rmd	schoice	nein	nein			070-zusammenhaenge.qmd
+cohen_kategorisierung	posts/cohen_kategorisierung/cohen_kategorisierung.rmd	schoice	nein	nein		association, schoice, quiz	070-zusammenhaenge.qmd
 confounder-example	posts/confounder-example/index.qmd	string	nein	nein		causal	keines
 corona-blutgruppe	posts/corona-blutgruppe/corona-blutgruppe.qmd	string	nein	nein		probability, dependent, string	keines
 corona-dashboard	posts/corona-dashboard/corona-dashboard.rmd	string	nein	nein			040-verbildlichen.qmd
@@ -139,7 +139,7 @@ count-emoji-emo	posts/count-emoji-emo/count-emoji-emo.qmd	string	nein	nein		text
 count-emojis	posts/count-emojis/count-emojis.qmd	string	nein	nein		textmining, tidymodels, count, germeval, emoji, string	keines
 count-lexicon	posts/count-lexicon/count-lexicon.qmd	string	nein	nein		textmining, nlp, regex, string	keines
 count-words01	posts/count-words01/count-words01.qmd	string	nein	nein		textmining, tidymodels, count, germeval, string	keines
-count_nominal	posts/count_nominal/count_nominal.rmd	schoice	nein	nein			030-aufbereiten.qmd
+count_nominal	posts/count_nominal/count_nominal.rmd	schoice	nein	nein		datawrangling, schoice, quiz	030-aufbereiten.qmd
 cv1	posts/cv1/cv1.rmd	schoice	nein	nein		statlearning, 2023, schoice, quiz	keines
 dag-aequivalenzklasse-schoice	posts/dag-aequivalenzklasse-schoice/dag-aequivalenzklasse-schoice.Rmd	schoice	nein	nein		kausalinferenz	keines
 dag-bedingte-unabhaengigkeit-pruefen-schoice	posts/dag-bedingte-unabhaengigkeit-pruefen-schoice/dag-bedingte-unabhaengigkeit-pruefen-schoice.Rmd	schoice	nein	nein		kausalinferenz	keines
@@ -147,7 +147,7 @@ dag-graph	posts/dag-graph/dag-graph.qmd	string	nein	nein		fopro, researchdesign,
 dashboard-tools	posts/dashboard-tools/dashboard-tools.rmd	string	nein	nein			keines
 dashboards	posts/dashboards/dashboards.rmd	schoice	nein	nein			keines
 datenstrukturgrad	posts/datenstrukturgrad/datenstrukturgrad.rmd	string	ja	nein			010-rahmen.qmd
-datentypen_coercion	posts/datentypen_coercion/datentypen_coercion.rmd	schoice	nein	nein			020-R.qmd
+datentypen_coercion	posts/datentypen_coercion/datentypen_coercion.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
 datenvis-moderndive-1	posts/datenvis-moderndive-1/datenvis-moderndive-1.rmd	string	nein	nein			020-R.qmd
 datenvis-moderndive-barplot1	posts/datenvis-moderndive-barplot1/datenvis-moderndive-barplot1.rmd	string	nein	nein			040-verbildlichen.qmd
 datenvis-moderndive-boxplot1	posts/datenvis-moderndive-boxplot1/datenvis-moderndive-boxplot1.rmd	string	nein	nein			040-verbildlichen.qmd
@@ -163,9 +163,9 @@ def-signif-schoice	posts/def-signif-schoice/def-signif-schoice.Rmd	schoice	nein	
 def-statistik01	posts/def-statistik01/def-statistik01.rmd	schoice	nein	nein		schoice, paper, quiz	010-rahmen.qmd
 def-statistik01-schoice	posts/def-statistik01-schoice/def-statistik01-schoice.Rmd	schoice	nein	nein			010-rahmen.qmd
 def_datenjudo	posts/def_datenjudo/def_datenjudo.rmd	schoice	nein	nein			030-aufbereiten.qmd
-definition_dataframe	posts/definition_dataframe/definition_dataframe.rmd	schoice	nein	nein			020-R.qmd
-definition_punktmodell	posts/definition_punktmodell/definition_punktmodell.rmd	schoice	nein	nein			050-zusammenfassen.qmd
-definition_statistik	posts/definition_statistik/definition_statistik.rmd	schoice	nein	nein			010-rahmen.qmd
+definition_dataframe	posts/definition_dataframe/definition_dataframe.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
+definition_punktmodell	posts/definition_punktmodell/definition_punktmodell.rmd	schoice	nein	nein		eda, schoice, quiz	050-zusammenfassen.qmd
+definition_statistik	posts/definition_statistik/definition_statistik.rmd	schoice	nein	nein		rahmen, schoice, quiz	010-rahmen.qmd
 denkfehler-verifikation	posts/denkfehler-verifikation/denkfehler-verifikation.rmd	schoice	nein	nein			keines
 desk-vs-wskt	posts/desk-vs-wskt/index.qmd	(fehlt)	nein	nein		probability	keines
 diamonds-histogram	posts/diamonds-histogram/diamonds-histogram.rmd	schoice	nein	nein		vis, 2023, schoice, paper, quiz	040-verbildlichen.qmd
@@ -179,14 +179,14 @@ disjunkte-ereignisse-schoice	posts/disjunkte-ereignisse-schoice/disjunkte-ereign
 display-logist1	posts/display-logist1/display-logist1.rmd	string	nein	nein			keines
 distros	posts/distros/index.qmd	string	nein	nein		probability, distributions, paper	keines
 distros-schoice	posts/distros-schoice/distros-schoice.Rmd	schoice	nein	ja	"R/exams, R-Code-Fehler (war schon nativ): ERROR: nicht anwendbare Methode für 'filter' auf Objekt der Klasse ""c('double', 'numeric')"" angewendet"		keines
-dollar_operator	posts/dollar_operator/dollar_operator.rmd	schoice	nein	nein			020-R.qmd
+dollar_operator	posts/dollar_operator/dollar_operator.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
 doppelte-konfundierung-adjustment-set-schoice	posts/doppelte-konfundierung-adjustment-set-schoice/doppelte-konfundierung-adjustment-set-schoice.Rmd	schoice	nein	nein		bayes	keines
 dplyr-mtcars01	posts/dplyr-mtcars01/index.qmd	string	nein	nein		datawrangling, eda, tidyverse, dplyr, num, mtcars	030-aufbereiten.qmd
 dplyr-uebersetzen	posts/dplyr-uebersetzen/dplyr-uebersetzen.rmd	string	nein	nein		datawrangling, tidyverse, string, mtcars, computer	030-aufbereiten.qmd
 drei-verteilungen-vergleich-schoice	posts/drei-verteilungen-vergleich-schoice/drei-verteilungen-vergleich-schoice.Rmd	schoice	nein	nein		bayes	keines
 ds-quiz	posts/ds-quiz/ds-quiz.rmd	mchoice	nein	nein		ds1, tidymodels, statlearning, mchoice, quiz	keines
 ds-quiz2	posts/ds-quiz2/ds-quiz2.rmd	mchoice	nein	nein		ds1, tidymodels, statlearning, mchoice, quiz	keines
-dummykodier	posts/dummykodier/dummykodier.rmd	schoice	nein	nein			090-regression2.qmd
+dummykodier	posts/dummykodier/dummykodier.rmd	schoice	nein	nein		regression, schoice, quiz	090-regression2.qmd
 durch3-durch5	posts/durch3-durch5/durch3-durch5.rmd	string	nein	nein		R, challenge, string	020-R.qmd
 effectsize-groups	posts/effectsize-groups/effectsize-groups.rmd	string	nein	nein			keines
 effekt-definition-nicht-kausal-schoice	posts/effekt-definition-nicht-kausal-schoice/effekt-definition-nicht-kausal-schoice.Rmd	schoice	nein	nein		statistik-grundlagen	010-rahmen.qmd
@@ -224,7 +224,7 @@ falsifik2	posts/falsifik2/falsifik2.rmd	schoice	nein	nein			keines
 fat-tails-artikel	posts/fat-tails-artikel/fat-tails-artikel.rmd	string	nein	nein		probability, distributions, fat-tails	keines
 fattails01	posts/fattails01/fattails01.rmd	schoice	ja	nein		probability, simulation, fat-tails, bayes, bayesbox, normal-distribution, quiz	keines
 fattails02	posts/fattails02/fattails02.rmd	schoice	ja	nein		probability, bayes, bayesbox, simulation, normal-distribution, quiz	keines
-file_drawer_problem	posts/file_drawer_problem/file_drawer_problem.rmd	schoice	nein	nein			050-zusammenfassen.qmd
+file_drawer_problem	posts/file_drawer_problem/file_drawer_problem.rmd	schoice	nein	nein		eda, schoice, quiz	050-zusammenfassen.qmd
 filter	posts/filter/filter.rmd	schoice	nein	nein			030-aufbereiten.qmd
 filter-b	posts/filter-b/filter-b.rmd	schoice	nein	nein			030-aufbereiten.qmd
 filter-na1	posts/filter-na1/filter-na1.rmd	string	nein	nein		2023, eda, na, string	030-aufbereiten.qmd
@@ -233,8 +233,8 @@ filter-na3	posts/filter-na3/filter-na3.rmd	string	nein	nein		2023, eda, na, stri
 filter-na4	posts/filter-na4/filter-na4.rmd	string	nein	nein		2023, eda, na, string	030-aufbereiten.qmd
 filter-na5	posts/filter-na5/filter-na5.rmd	string	nein	nein		2023, eda, na, string	030-aufbereiten.qmd
 filter01	posts/filter01/filter01.rmd	num	nein	nein		datawrangling, eda, tidyverse, dplyr, num, computer	030-aufbereiten.qmd
-filter_logik	posts/filter_logik/filter_logik.rmd	schoice	nein	nein			030-aufbereiten.qmd
-filter_syntax	posts/filter_syntax/filter_syntax.rmd	schoice	nein	nein			030-aufbereiten.qmd
+filter_logik	posts/filter_logik/filter_logik.rmd	schoice	nein	nein		datawrangling, schoice, quiz	030-aufbereiten.qmd
+filter_syntax	posts/filter_syntax/filter_syntax.rmd	schoice	nein	nein		datawrangling, schoice, quiz	030-aufbereiten.qmd
 finde-prior	posts/finde-prior/index.qmd	string	nein	nein		bayes, regression	keines
 fleiss-macht-bloed-berkson-schoice	posts/fleiss-macht-bloed-berkson-schoice/fleiss-macht-bloed-berkson-schoice.Rmd	schoice	nein	nein		kausalinferenz	keines
 flex-vs-nichtflex-methode	posts/flex-vs-nichtflex-methode/flex-vs-nichtflex-methode.rmd	schoice	nein	nein		statlearning, 2023, schoice, quiz	keines
@@ -251,8 +251,8 @@ fofrage-regrformel2	posts/fofrage-regrformel2/index.qmd	string	nein	nein		bayes,
 fofrage-regrformel2-schoice	posts/fofrage-regrformel2-schoice/fofrage-regrformel2-schoice.Rmd	schoice	nein	nein			090-regression2.qmd
 frequentismus-bayes-unterschied-schoice	posts/frequentismus-bayes-unterschied-schoice/frequentismus-bayes-unterschied-schoice.Rmd	schoice	nein	nein		inferenz	keines
 fun1	posts/fun1/index.qmd	string	nein	nein		R, programming	020-R.qmd
-funktionsargumente	posts/funktionsargumente/funktionsargumente.rmd	schoice	nein	nein			020-R.qmd
-funktionsargumente_defaults	posts/funktionsargumente_defaults/funktionsargumente_defaults.rmd	schoice	nein	nein			020-R.qmd
+funktionsargumente	posts/funktionsargumente/funktionsargumente.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
+funktionsargumente_defaults	posts/funktionsargumente_defaults/funktionsargumente_defaults.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
 funs-is-binary	posts/funs-is-binary/funs-is-binary.rmd	string	nein	nein			020-R.qmd
 funs-na-n	posts/funs-na-n/funs-na-n.rmd	string	nein	nein			020-R.qmd
 gauss-modell-struktur-schoice	posts/gauss-modell-struktur-schoice/gauss-modell-struktur-schoice.Rmd	schoice	nein	nein		bayes	keines
@@ -305,13 +305,13 @@ groesse01	posts/groesse01/groesse01.qmd	string	nein	nein		2023, bayes, bayesbox,
 groesse02	posts/groesse02/groesse02.qmd	string	nein	nein		2023, bayes, bayesbox, string, computer	keines
 groesse03	posts/groesse03/index.qmd	string	nein	nein		bayes, regression, paper	keines
 groesse04	posts/groesse04/index.qmd	string	nein	nein		bayes, regression, paper	keines
-group_summarise	posts/group_summarise/group_summarise.rmd	schoice	nein	nein			030-aufbereiten.qmd
+group_summarise	posts/group_summarise/group_summarise.rmd	schoice	nein	nein		datawrangling, schoice, quiz	030-aufbereiten.qmd
 groupby	posts/groupby/groupby.rmd	schoice	nein	nein			030-aufbereiten.qmd
 groupby1	posts/groupby1/groupby1.rmd	schoice	nein	nein			030-aufbereiten.qmd
-gruppen_modell_vorteil	posts/gruppen_modell_vorteil/gruppen_modell_vorteil.rmd	schoice	nein	nein			050-zusammenfassen.qmd
+gruppen_modell_vorteil	posts/gruppen_modell_vorteil/gruppen_modell_vorteil.rmd	schoice	nein	nein		eda, schoice, quiz	050-zusammenfassen.qmd
 gruppenvergleich-regression	posts/gruppenvergleich-regression/index.qmd	(fehlt)	nein	nein		inference, paper, schoice	090-regression2.qmd
 gruppenvergleich-regression-schoice	posts/gruppenvergleich-regression-schoice/gruppenvergleich-regression-schoice.Rmd	schoice	nein	nein			090-regression2.qmd
-guete_streuung	posts/guete_streuung/guete_streuung.rmd	schoice	nein	nein			060-modellguete.qmd
+guete_streuung	posts/guete_streuung/guete_streuung.rmd	schoice	nein	nein		variability, schoice, quiz	060-modellguete.qmd
 haeufigkeit01	posts/haeufigkeit01/haeufigkeit01.rmd	string	nein	nein		datawrangling, eda, count, string, mtcars, computer	030-aufbereiten.qmd
 haeufigkeit02	posts/haeufigkeit02/haeufigkeit02.rmd	string	nein	nein			040-verbildlichen.qmd
 halbe-normalverteilung-eigenschaften-schoice	posts/halbe-normalverteilung-eigenschaften-schoice/halbe-normalverteilung-eigenschaften-schoice.Rmd	schoice	nein	nein		verteilungen	keines
@@ -344,11 +344,11 @@ induktionsprinzip	posts/induktionsprinzip/induktionsprinzip.rmd	schoice	nein	nei
 induktive-verallgemeinerung	posts/induktive-verallgemeinerung/induktive-verallgemeinerung.rmd	schoice	nein	nein			keines
 inferenz-fuer-alle	posts/inferenz-fuer-alle/inferenz-fuer-alle.rmd	string	nein	nein		qm2, inference, uncertainty	keines
 inferenz-ungewissheit-notwendig-schoice	posts/inferenz-ungewissheit-notwendig-schoice/inferenz-ungewissheit-notwendig-schoice.Rmd	schoice	nein	nein		inferenz	keines
-interaktion	posts/interaktion/interaktion.rmd	schoice	nein	nein			090-regression2.qmd
+interaktion	posts/interaktion/interaktion.rmd	schoice	nein	nein		regression, schoice, quiz	090-regression2.qmd
 interaktion-falsch-interpretiert-schoice	posts/interaktion-falsch-interpretiert-schoice/interaktion-falsch-interpretiert-schoice.Rmd	schoice	nein	nein		bayes	090-regression2.qmd
 interaktion-konzept-schoice	posts/interaktion-konzept-schoice/interaktion-konzept-schoice.Rmd	schoice	nein	nein		bayes	090-regression2.qmd
 interaktionseffekt1	posts/interaktionseffekt1/interaktionseffekt1.rmd	schoice	ja	nein		interaction, regression, paper	090-regression2.qmd
-intercept_m	posts/intercept_m/intercept_m.rmd	schoice	nein	nein			080-regression1.qmd
+intercept_m	posts/intercept_m/intercept_m.rmd	schoice	nein	nein		regression, schoice, quiz	080-regression1.qmd
 interpret-ci	posts/interpret-ci/index.qmd	(fehlt)	nein	nein		inference	keines
 interpret-ci-schoice	posts/interpret-ci-schoice/interpret-ci-schoice.Rmd	schoice	nein	nein			keines
 interpret-ci2	posts/interpret-ci2/index.qmd	(fehlt)	nein	nein		inference	keines
@@ -403,7 +403,7 @@ kausal29	posts/kausal29/kausal29.rmd	schoice	nein	nein		dag, causal, schoice, qu
 kausal_corona_glatze	posts/kausal_corona_glatze/kausal_corona_glatze.rmd	string	nein	nein		dag, causal	keines
 kausale-verben	posts/kausale-verben/kausale-verben.rmd	mchoice	nein	nein		causal, research-question, mchoice, quiz	010-rahmen.qmd
 kausale-verben_schoice	posts/kausale-verben_schoice/kausale-verben_schoice.rmd	schoice	nein	nein		causal, research-question, schoice, quiz	010-rahmen.qmd
-kauslalinterp	posts/kauslalinterp/kauslalinterp.rmd	schoice	nein	nein			090-regression2.qmd
+kauslalinterp	posts/kauslalinterp/kauslalinterp.rmd	schoice	nein	nein		regression, schoice, quiz	090-regression2.qmd
 kekse01	posts/kekse01/kekse01.rmd	num	nein	nein		probability, bayesbox, bayes, paper, computer	keines
 kekse01-schoice	posts/kekse01-schoice/kekse01-schoice.Rmd	schoice	nein	nein			keines
 kekse02	posts/kekse02/kekse02.qmd	num	nein	nein		probability, bayesbox, num	keines
@@ -430,18 +430,18 @@ korr-ungewiss	posts/korr-ungewiss/index.qmd	(fehlt)	nein	nein		inference	keines
 korr-vs-entropie1	posts/korr-vs-entropie1/korr-vs-entropie1.qmd	string	nein	nein		2023	keines
 korr01	posts/korr01/korr01.rmd	schoice	ja	nein		dyn, eda, association, schoice, paper, quiz	070-zusammenhaenge.qmd
 korr02	posts/korr02/korr02.rmd	num	ja	nein		dyn, eda, association, num, paper	070-zusammenhaenge.qmd
-korrelation_na_handling	posts/korrelation_na_handling/korrelation_na_handling.rmd	schoice	nein	nein			070-zusammenhaenge.qmd
-korrelation_richtung	posts/korrelation_richtung/korrelation_richtung.rmd	schoice	nein	nein			070-zusammenhaenge.qmd
-korrelation_z_logik	posts/korrelation_z_logik/korrelation_z_logik.rmd	schoice	nein	nein			070-zusammenhaenge.qmd
-kovarianz_null	posts/kovarianz_null/kovarianz_null.rmd	schoice	nein	nein			070-zusammenhaenge.qmd
-kovarianz_skalierung	posts/kovarianz_skalierung/kovarianz_skalierung.rmd	schoice	nein	nein			070-zusammenhaenge.qmd
+korrelation_na_handling	posts/korrelation_na_handling/korrelation_na_handling.rmd	schoice	nein	nein		association, schoice, quiz	070-zusammenhaenge.qmd
+korrelation_richtung	posts/korrelation_richtung/korrelation_richtung.rmd	schoice	nein	nein		association, schoice, quiz	070-zusammenhaenge.qmd
+korrelation_z_logik	posts/korrelation_z_logik/korrelation_z_logik.rmd	schoice	nein	nein		association, schoice, quiz	070-zusammenhaenge.qmd
+kovarianz_null	posts/kovarianz_null/kovarianz_null.rmd	schoice	nein	nein		association, schoice, quiz	070-zusammenhaenge.qmd
+kovarianz_skalierung	posts/kovarianz_skalierung/kovarianz_skalierung.rmd	schoice	nein	nein		association, schoice, quiz	070-zusammenhaenge.qmd
 krebs1	posts/krebs1/krebs1.qmd	num	nein	nein		bayes, probability, num, bayesbox	keines
 kuehne-hypothesen-forschungsfeld-schoice	posts/kuehne-hypothesen-forschungsfeld-schoice/kuehne-hypothesen-forschungsfeld-schoice.Rmd	schoice	nein	nein		bayes	keines
 kung-height	posts/kung-height/kung-height.rmd	string	nein	nein		bayes, ppv, probability	keines
 kung-height2	posts/kung-height2/index.qmd	string	nein	nein		bayes, paper, probability	keines
 lageparameter-schiefe-post-schoice	posts/lageparameter-schiefe-post-schoice/lageparameter-schiefe-post-schoice.Rmd	schoice	nein	nein		bayes	keines
 laplace-vs-frequentistisch-schoice	posts/laplace-vs-frequentistisch-schoice/laplace-vs-frequentistisch-schoice.Rmd	schoice	nein	nein		wahrscheinlichkeit	keines
-lego_prinzip_logik	posts/lego_prinzip_logik/lego_prinzip_logik.rmd	schoice	nein	nein			030-aufbereiten.qmd
+lego_prinzip_logik	posts/lego_prinzip_logik/lego_prinzip_logik.rmd	schoice	nein	nein		datawrangling, schoice, quiz	030-aufbereiten.qmd
 likelihood-globusversuch-berechnung-schoice	posts/likelihood-globusversuch-berechnung-schoice/likelihood-globusversuch-berechnung-schoice.Rmd	schoice	nein	nein		bayes	keines
 likelihood-identifizieren	posts/likelihood-identifizieren/likelihood-identifizieren.rmd	schoice	nein	nein		regression, bayes, likelihood, quiz	keines
 likelihood-nv	posts/likelihood-nv/likelihood-nv.qmd	num	nein	nein		probability, num	keines
@@ -463,11 +463,11 @@ log-y-regr1	posts/log-y-regr1/log-y-regr1.rmd	num	nein	nein		regression, lm, qm2
 log-y-regr2	posts/log-y-regr2/log-y-regr2.rmd	num	nein	nein		regression, lm, qm2, stats-nutshell	090-regression2.qmd
 log-y-regr3	posts/log-y-regr3/log-y-regr3.rmd	num	nein	nein		stats-nutshell, qm2, regression, log, quiz	090-regression2.qmd
 log5	posts/log5/log5.rmd	num	nein	nein			keines
-logigkodier	posts/logigkodier/logigkodier.rmd	schoice	nein	nein			090-regression2.qmd
+logigkodier	posts/logigkodier/logigkodier.rmd	schoice	nein	nein		regression, schoice, quiz	090-regression2.qmd
 logikpruefung1	posts/logikpruefung1/logikpruefung1.rmd	string	nein	nein		R, 2023, computer	020-R.qmd
 logikpruefung2	posts/logikpruefung2/logikpruefung2.rmd	Logikpruefung2	nein	nein		R, 2023, string, paper	020-R.qmd
-logikpruefung_anwendung	posts/logikpruefung_anwendung/logikpruefung_anwendung.rmd	schoice	nein	nein			020-R.qmd
-logikpruefung_gleichheit	posts/logikpruefung_gleichheit/logikpruefung_gleichheit.rmd	schoice	nein	nein			020-R.qmd
+logikpruefung_anwendung	posts/logikpruefung_anwendung/logikpruefung_anwendung.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
+logikpruefung_gleichheit	posts/logikpruefung_gleichheit/logikpruefung_gleichheit.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
 logische-differenz-asymmetrie-schoice	posts/logische-differenz-asymmetrie-schoice/logische-differenz-asymmetrie-schoice.Rmd	schoice	nein	nein		wahrscheinlichkeit	keines
 logist-bayes-mtcars1	posts/logist-bayes-mtcars1/logist-bayes-mtcars1.rmd	cloze	nein	nein			keines
 logist-bayes-mtcars2	posts/logist-bayes-mtcars2/logist-bayes-mtcars2.rmd	cloze	nein	nein			keines
@@ -480,7 +480,7 @@ logx	posts/logx/logx.rmd	string	ja	nein			keines
 lose-nieten-binomial-grid	posts/lose-nieten-binomial-grid/lose-nieten-binomial-grid.rmd	string	nein	nein		probability, binomial, distributions, computer	keines
 lose-nieten-binomial-grid2	posts/lose-nieten-binomial-grid2/lose-nieten-binomial-grid2.rmd	num	ja	nein			keines
 m1-koeffizienten-berechnen-schoice	posts/m1-koeffizienten-berechnen-schoice/m1-koeffizienten-berechnen-schoice.Rmd	schoice	nein	nein		kausalinferenz	080-regression1.qmd
-mae_berechnung	posts/mae_berechnung/mae_berechnung.rmd	schoice	nein	nein			060-modellguete.qmd
+mae_berechnung	posts/mae_berechnung/mae_berechnung.rmd	schoice	nein	nein		variability, schoice, quiz	060-modellguete.qmd
 maechtigkeit-augensumme-schoice	posts/maechtigkeit-augensumme-schoice/maechtigkeit-augensumme-schoice.Rmd	schoice	nein	nein		wahrscheinlichkeit	keines
 mario-compare-models	posts/mario-compare-models/index.qmd	string	nein	nein		lm, regression, interaction, computer	090-regression2.qmd
 mariokart-desk01	posts/mariokart-desk01/mariokart-desk01.rmd	num	nein	nein		datawrangling, eda, tidyverse, vis, variability, num, computer	050-zusammenfassen.qmd
@@ -502,9 +502,9 @@ maschinendesaster	posts/maschinendesaster/index.qmd	string	nein	nein		probabilit
 max-corr1	posts/max-corr1/max-corr1.rmd	num	nein	nein		vis, 2023, num, paper	070-zusammenhaenge.qmd
 max-corr2	posts/max-corr2/max-corr2.rmd	num	nein	nein		vis, 2023, num, paper	070-zusammenhaenge.qmd
 md-vs-mw	posts/md-vs-mw/md-vs-mw.rmd	schoice	nein	ja	"R/exams, R-Code-Fehler (importiert): konnte Funktion ""viridis"" nicht finden"		050-zusammenfassen.qmd
-mean_na_standard	posts/mean_na_standard/mean_na_standard.rmd	schoice	nein	nein			020-R.qmd
+mean_na_standard	posts/mean_na_standard/mean_na_standard.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
 median-berechnen	posts/median-berechnen/median-berechnen.rmd	num	ja	nein			050-zusammenfassen.qmd
-median_gerade_n	posts/median_gerade_n/median_gerade_n.rmd	schoice	nein	nein			050-zusammenfassen.qmd
+median_gerade_n	posts/median_gerade_n/median_gerade_n.rmd	schoice	nein	nein		eda, schoice, quiz	050-zusammenfassen.qmd
 mediator-kontrollieren-fehler-schoice	posts/mediator-kontrollieren-fehler-schoice/mediator-kontrollieren-fehler-schoice.Rmd	schoice	nein	nein		kausalinferenz	keines
 mediator-vs-confounder-schoice	posts/mediator-vs-confounder-schoice/mediator-vs-confounder-schoice.Rmd	schoice	nein	nein		kausalinferenz	keines
 mediterran-alk	posts/mediterran-alk/mediterran-alk.rmd	string	nein	nein		causal	keines
@@ -515,14 +515,14 @@ minimale-adjustierungsmenge-definition-schoice	posts/minimale-adjustierungsmenge
 mittelwert-berechnen	posts/mittelwert-berechnen/mittelwert-berechnen.rmd	num	ja	nein			050-zusammenfassen.qmd
 modalitaetsspezifisch	posts/modalitaetsspezifisch/modalitaetsspezifisch.rmd	schoice	nein	nein			keines
 modell-definition-schoice	posts/modell-definition-schoice/modell-definition-schoice.Rmd	schoice	nein	nein		statistik-grundlagen	010-rahmen.qmd
-modell_gleichung	posts/modell_gleichung/modell_gleichung.rmd	schoice	nein	nein			050-zusammenfassen.qmd
+modell_gleichung	posts/modell_gleichung/modell_gleichung.rmd	schoice	nein	nein		eda, schoice, quiz	050-zusammenfassen.qmd
 modelldef	posts/modelldef/modelldef.rmd	schoice	ja	nein			keines
 modelldef-regrformel	posts/modelldef-regrformel/index.qmd	string	nein	nein		bayes, paper, regression	090-regression2.qmd
 modelldef2	posts/modelldef2/modelldef2.rmd	schoice	ja	nein			keines
 modellguete-testset	posts/modellguete-testset/modellguete-testset.rmd	string	nein	nein		regression, performance, rmse, string	090-regression2.qmd
 modellinterpret-beta	posts/modellinterpret-beta/modellinterpret-beta.rmd	num	ja	nein		bayes, regression, dyn	090-regression2.qmd
 modellinterpret-breite	posts/modellinterpret-breite/modellinterpret-breite.rmd	num	ja	nein		bayes, regression, dyn	keines
-modellvergleich_mae	posts/modellvergleich_mae/modellvergleich_mae.rmd	schoice	nein	nein			060-modellguete.qmd
+modellvergleich_mae	posts/modellvergleich_mae/modellvergleich_mae.rmd	schoice	nein	nein		variability, schoice, quiz	060-modellguete.qmd
 moderation	posts/moderation/index.qmd	(fehlt)	nein	nein		DUMMY	090-regression2.qmd
 movie-sentiment1	posts/movie-sentiment1/movie-sentiment1.qmd	schoice	ja	ja	R/exams, R-Code-Fehler: file.exists(path_to_data) ist nicht TRUE	textmining, imdb, schoice	keines
 movies-vis1	posts/movies-vis1/movies-vis1.rmd	string	nein	nein		vis, eda, string, computer	040-verbildlichen.qmd
@@ -553,18 +553,18 @@ mutate	posts/mutate/mutate.rmd	schoice	nein	nein			030-aufbereiten.qmd
 mutate01	posts/mutate01/mutate01.rmd	num	nein	nein		datawrangling, eda, tidyverse, dplyr, num, computer	030-aufbereiten.qmd
 mutate02	posts/mutate02/mutate02.rmd	num	nein	nein		datawrangling, eda, tidyverse, dplyr, num	050-zusammenfassen.qmd
 mutate03	posts/mutate03/mutate03.rmd	num	nein	nein		datawrangling, eda, tidyverse, dplyr, num	050-zusammenfassen.qmd
-mutate_neu	posts/mutate_neu/mutate_neu.rmd	schoice	nein	nein			030-aufbereiten.qmd
+mutate_neu	posts/mutate_neu/mutate_neu.rmd	schoice	nein	nein		datawrangling, schoice, quiz	030-aufbereiten.qmd
 mw-berechnen	posts/mw-berechnen/mw-berechnen.rmd	num	ja	nein		eda, datawrangling, dyn, num, computer	050-zusammenfassen.qmd
 mw-berechnen2	posts/mw-berechnen2/mw-berechnen2.rmd	num	ja	nein		eda, datawrangling, dyn, num	050-zusammenfassen.qmd
-mw_eigenschaft	posts/mw_eigenschaft/mw_eigenschaft.rmd	schoice	nein	nein			050-zusammenfassen.qmd
+mw_eigenschaft	posts/mw_eigenschaft/mw_eigenschaft.rmd	schoice	nein	nein		eda, schoice, quiz	050-zusammenfassen.qmd
 mwberechnen	posts/mwberechnen/mwberechnen.rmd	num	ja	nein		eda, datawrangling, num	050-zusammenfassen.qmd
 n-col-mariokart	posts/n-col-mariokart/n-col-mariokart.rmd	num	nein	nein		basics, wrangling, data	020-R.qmd
 n-se	posts/n-se/n-se.rmd	schoice	nein	nein		schoice	keines
 n-vars-diagram	posts/n-vars-diagram/n-vars-diagram.rmd	num	nein	nein		vis, 2023, num, paper	040-verbildlichen.qmd
 na-per-col	posts/na-per-col/na-per-col.qmd	string	nein	nein		R, datawrangling, na, string	030-aufbereiten.qmd
-na_bedeutung	posts/na_bedeutung/na_bedeutung.rmd	schoice	nein	nein			020-R.qmd
-na_handling_transfer	posts/na_handling_transfer/na_handling_transfer.rmd	schoice	nein	nein			020-R.qmd
-na_philosophie	posts/na_philosophie/na_philosophie.rmd	schoice	nein	nein			020-R.qmd
+na_bedeutung	posts/na_bedeutung/na_bedeutung.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
+na_handling_transfer	posts/na_handling_transfer/na_handling_transfer.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
+na_philosophie	posts/na_philosophie/na_philosophie.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
 nachfahre-kontrollieren-schoice	posts/nachfahre-kontrollieren-schoice/nachfahre-kontrollieren-schoice.Rmd	schoice	nein	nein		kausalinferenz	keines
 nasa01	posts/nasa01/nasa01.rmd	string	nein	nein		data, eda, lagemaße, variability, string, computer	050-zusammenfassen.qmd
 nasa02	posts/nasa02/nasa02.rmd	string	nein	nein		data, eda, lagemaße, string, computer	070-zusammenhaenge.qmd
@@ -573,13 +573,13 @@ nasa04	posts/nasa04/nasa04.rmd	string	nein	nein		data, eda, lagemaße, vis, anim
 nasa05	posts/nasa05/nasa05.rmd	string	nein	nein		data, eda, lagemaße, vis, animation, string	040-verbildlichen.qmd
 nasa06	posts/nasa06/nasa06.rmd	string	nein	nein		data, eda, lagemaße, string	050-zusammenfassen.qmd
 nasa07	posts/nasa07/index.rmd	string	nein	nein		data, eda, lagemaße, variability, string	050-zusammenfassen.qmd
-neg_slope	posts/neg_slope/neg_slope.rmd	schoice	nein	nein			080-regression1.qmd
+neg_slope	posts/neg_slope/neg_slope.rmd	schoice	nein	nein		regression, schoice, quiz	080-regression1.qmd
 nerd-gelockert	posts/nerd-gelockert/nerd-gelockert.qmd	num	nein	nein		R, probability, num	keines
 nichtlineare-regr1	posts/nichtlineare-regr1/nichtlineare-regr1.rmd	string	nein	nein		lm, vis, qm2, regression, string, mtcars, computer	090-regression2.qmd
-nichtlineare_korrelation	posts/nichtlineare_korrelation/nichtlineare_korrelation.rmd	schoice	nein	nein			070-zusammenhaenge.qmd
+nichtlineare_korrelation	posts/nichtlineare_korrelation/nichtlineare_korrelation.rmd	schoice	nein	nein		association, schoice, quiz	070-zusammenhaenge.qmd
 nierenstein-konfundierer-kontrollieren-schoice	posts/nierenstein-konfundierer-kontrollieren-schoice/nierenstein-konfundierer-kontrollieren-schoice.Rmd	schoice	nein	nein		kausalinferenz	keines
 nom-praed-in-regression	posts/nom-praed-in-regression/nom-praed-in-regression.rmd	schoice	nein	nein			090-regression2.qmd
-normal_rechnen	posts/normal_rechnen/normal_rechnen.rmd	schoice	nein	nein			040-verbildlichen.qmd
+normal_rechnen	posts/normal_rechnen/normal_rechnen.rmd	schoice	nein	nein		vis, schoice, quiz	040-verbildlichen.qmd
 normalverteilung1	posts/normalverteilung1/normalverteilung1.rmd	num	ja	nein			keines
 norms-sd	posts/norms-sd/index.qmd	string	nein	nein		distributions, normal-distribution	keines
 normvert-perzentil2	posts/normvert-perzentil2/normvert-perzentil2.rmd	schoice	ja	ja	R/exams, R-Code-Fehler (importiert): Objekt 'mu' nicht gefunden		keines
@@ -587,23 +587,23 @@ normvert-perzentil3	posts/normvert-perzentil3/normvert-perzentil3.rmd	schoice	ja
 normvert-perzentile	posts/normvert-perzentile/normvert-perzentile.rmd	schoice	ja	ja	R/exams, R-Code-Fehler (importiert): Objekt 'z_quantile' nicht gefunden		keines
 normvert-prozentwert	posts/normvert-prozentwert/normvert-prozentwert.rmd	schoice	ja	nein			keines
 normvert-quantile	posts/normvert-quantile/normvert-quantile.rmd	schoice	ja	ja	"R/exams, R-Code-Fehler (importiert): konnte Funktion ""%>%"" nicht finden"		keines
-null_vs_lin	posts/null_vs_lin/null_vs_lin.rmd	schoice	nein	nein			080-regression1.qmd
+null_vs_lin	posts/null_vs_lin/null_vs_lin.rmd	schoice	nein	nein		regression, schoice, quiz	080-regression1.qmd
 nullhyp-beispiel	posts/nullhyp-beispiel/nullhyp-beispiel.rmd	schoice	nein	nein		nullhypothesis, inference, quiz	keines
 nullhyp-korrelation-schoice	posts/nullhyp-korrelation-schoice/nullhyp-korrelation-schoice.Rmd	schoice	nein	nein		inferenz	keines
 nullhypothesen-kritik-schoice	posts/nullhypothesen-kritik-schoice/nullhypothesen-kritik-schoice.Rmd	schoice	nein	nein		bayes	keines
-nullmodell_r	posts/nullmodell_r/nullmodell_r.rmd	schoice	nein	nein			050-zusammenfassen.qmd
-nutzen_modelle	posts/nutzen_modelle/nutzen_modelle.rmd	schoice	nein	nein			010-rahmen.qmd
+nullmodell_r	posts/nullmodell_r/nullmodell_r.rmd	schoice	nein	nein		eda, schoice, quiz	050-zusammenfassen.qmd
+nutzen_modelle	posts/nutzen_modelle/nutzen_modelle.rmd	schoice	nein	nein		rahmen, schoice, quiz	010-rahmen.qmd
 nyc_casestudy	posts/nyc_casestudy/nyc_casestudy.rmd	string	ja	nein		ds1, tidymodels, statlearning, string	keines
 odds1	posts/odds1/odds1.rmd	num	ja	nein		qm2	keines
 oecd-yacsda	posts/oecd-yacsda/index.qmd	string	nein	nein		eda, datawrangling, vis, yacsda, R	030-aufbereiten.qmd
-okabe_ito	posts/okabe_ito/okabe_ito.rmd	schoice	nein	nein			040-verbildlichen.qmd
+okabe_ito	posts/okabe_ito/okabe_ito.rmd	schoice	nein	nein		vis, schoice, quiz	040-verbildlichen.qmd
 ols-minimierung	posts/ols-minimierung/ols-minimierung.rmd	schoice	nein	nein		schoice	080-regression1.qmd
-ols_prinzip	posts/ols_prinzip/ols_prinzip.rmd	schoice	nein	nein			080-regression1.qmd
+ols_prinzip	posts/ols_prinzip/ols_prinzip.rmd	schoice	nein	nein		regression, schoice, quiz	080-regression1.qmd
 operationalismus	posts/operationalismus/operationalismus.rmd	mchoice	nein	nein			010-rahmen.qmd
 optionalstopping	posts/optionalstopping/optionalstopping.rmd	schoice	nein	nein			keines
 options-print	posts/options-print/options-print.rmd	string	nein	nein		2023, R, tidyverse, markdown, string, mtcars	020-R.qmd
 or	posts/or/or.rmd	num	nein	nein			keines
-overfitting	posts/overfitting/overfitting.rmd	schoice	nein	nein			090-regression2.qmd
+overfitting	posts/overfitting/overfitting.rmd	schoice	nein	nein		regression, schoice, quiz	090-regression2.qmd
 paper-recherchieren1	posts/paper-recherchieren1/paper-recherchieren1.rmd	schoice	ja	ja	R/exams, R-Code-Fehler (importiert): es gibt kein Paket namens 'rcrossref'		keines
 papers-qualitaet-einschaetzen	posts/papers-qualitaet-einschaetzen/papers-qualitaet-einschaetzen.rmd	schoice	ja	nein			keines
 parameter-genau	posts/parameter-genau/index.qmd	(fehlt)	nein	nein		inference	keines
@@ -641,14 +641,14 @@ penguins-vis-bodymass1	posts/penguins-vis-bodymass1/index.qmd	string	nein	nein		
 penguins-vis-bodymass2	posts/penguins-vis-bodymass2/index.qmd	string	nein	nein		vis	070-zusammenhaenge.qmd
 penguins-weight	posts/penguins-weight/index.qmd	num	nein	nein		bayes, post, paper	keines
 pfad	posts/pfad/pfad.rmd	string	nein	nein		R, datawrangling, qm1, qm2, string, data, import	020-R.qmd
-pfade_reproduzierbarkeit	posts/pfade_reproduzierbarkeit/pfade_reproduzierbarkeit.rmd	schoice	nein	nein			020-R.qmd
+pfade_reproduzierbarkeit	posts/pfade_reproduzierbarkeit/pfade_reproduzierbarkeit.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
 pfeife	posts/pfeife/pfeife.rmd	schoice	nein	nein			030-aufbereiten.qmd
 pi-vs-hdi-schiefe-schoice	posts/pi-vs-hdi-schiefe-schoice/pi-vs-hdi-schiefe-schoice.Rmd	schoice	nein	nein		bayes	keines
 pigs1	posts/pigs1/pigs1.rmd	string	nein	nein			keines
 pigs2	posts/pigs2/pigs2.rmd	num	nein	nein		bayes, qm2, qm2-pruefung2023, regression, exam-22	keines
 pigs3	posts/pigs3/pigs3.rmd	string	nein	nein			keines
-pipe_vorteil	posts/pipe_vorteil/pipe_vorteil.rmd	schoice	nein	nein			030-aufbereiten.qmd
-plot_wahl	posts/plot_wahl/plot_wahl.rmd	schoice	nein	nein			040-verbildlichen.qmd
+pipe_vorteil	posts/pipe_vorteil/pipe_vorteil.rmd	schoice	nein	nein		datawrangling, schoice, quiz	030-aufbereiten.qmd
+plot_wahl	posts/plot_wahl/plot_wahl.rmd	schoice	nein	nein		vis, schoice, quiz	040-verbildlichen.qmd
 popper-falsifikation-schoice	posts/popper-falsifikation-schoice/popper-falsifikation-schoice.Rmd	schoice	nein	nein		bayes	keines
 populationsinferenz-definition-schoice	posts/populationsinferenz-definition-schoice/populationsinferenz-definition-schoice.Rmd	schoice	nein	nein		inferenz	010-rahmen.qmd
 popup01	posts/popup01/popup01.rmd	string	nein	nein		eda, datawrangling	030-aufbereiten.qmd
@@ -678,7 +678,7 @@ post5a	posts/post5a/post5a.rmd	num	ja	nein		qm2	keines
 posterior_interval	posts/posterior_interval/posterior_interval.rmd	schoice	nein	nein		bayes, regression, post, quiz	keines
 postvert-regr-01	posts/postvert-regr-01/postvert-regr-01.rmd	schoice	nein	nein		regression, bayes, post, paper, quiz	keines
 postvert-vis-zwielicht	posts/postvert-vis-zwielicht/postvert-vis-zwielicht.qmd	string	ja	nein		2023, vis, bayes, post, string	keines
-ppdac_modell	posts/ppdac_modell/ppdac_modell.rmd	schoice	nein	nein			010-rahmen.qmd
+ppdac_modell	posts/ppdac_modell/ppdac_modell.rmd	schoice	nein	nein		rahmen, schoice, quiz	010-rahmen.qmd
 ppv-definition-schoice	posts/ppv-definition-schoice/ppv-definition-schoice.Rmd	schoice	nein	nein		bayes	keines
 ppv-dyn1	posts/ppv-dyn1/ppv-dyn1.rmd	num	nein	nein		bayes, ppv, regression, num, mtcars	keines
 ppv-dyn1-b	posts/ppv-dyn1-b/ppv-dyn1-b.rmd	num	nein	nein		bayes, ppv, regression	keines
@@ -701,9 +701,9 @@ praedikatenlogik1	posts/praedikatenlogik1/praedikatenlogik1.rmd	string	ja	nein		
 praediktor-zentrieren-schoice	posts/praediktor-zentrieren-schoice/praediktor-zentrieren-schoice.Rmd	schoice	nein	nein		bayes	keines
 praediktoren-zentrieren	posts/praediktoren-zentrieren/praediktoren-zentrieren.rmd	string	nein	nein			080-regression1.qmd
 praesi-versuchsdesign	posts/praesi-versuchsdesign/praesi-versuchsdesign.rmd	string	nein	nein			keines
-praxis_datenjudo	posts/praxis_datenjudo/praxis_datenjudo.rmd	schoice	nein	nein			030-aufbereiten.qmd
+praxis_datenjudo	posts/praxis_datenjudo/praxis_datenjudo.rmd	schoice	nein	nein		datawrangling, schoice, quiz	030-aufbereiten.qmd
 praxisprobleme1	posts/praxisprobleme1/praxisprobleme1.rmd	string	nein	nein			030-aufbereiten.qmd
-predict_r	posts/predict_r/predict_r.rmd	schoice	nein	nein			080-regression1.qmd
+predict_r	posts/predict_r/predict_r.rmd	schoice	nein	nein		regression, schoice, quiz	080-regression1.qmd
 predictioncontest1	posts/predictioncontest1/predictioncontest1.rmd	string	nein	nein		R, ds1, string	090-regression2.qmd
 prior-wahl-beta1-vergleich-schoice	posts/prior-wahl-beta1-vergleich-schoice/prior-wahl-beta1-vergleich-schoice.Rmd	schoice	nein	nein		bayes	keines
 priori-streuung	posts/priori-streuung/priori-streuung.rmd	schoice	nein	nein		probability, simulation, distributions, bayes, qm2, qm2-pruefung2023, quiz	keines
@@ -740,17 +740,17 @@ qm2-quiz-inferenz	posts/qm2-quiz-inferenz/index.qmd	string	nein	nein		qm2, 2024,
 qm2-quiz-wskt	posts/qm2-quiz-wskt/index.qmd	string	nein	nein		qm2, 2024, probability	keines
 quantil-90-interpretation-schoice	posts/quantil-90-interpretation-schoice/quantil-90-interpretation-schoice.Rmd	schoice	nein	nein		bayes	keines
 quantil-verteilungsfunktion-unterschied-schoice	posts/quantil-verteilungsfunktion-unterschied-schoice/quantil-verteilungsfunktion-unterschied-schoice.Rmd	schoice	nein	nein		bayes	keines
-quantil_transfer	posts/quantil_transfer/quantil_transfer.rmd	schoice	nein	nein			050-zusammenfassen.qmd
+quantil_transfer	posts/quantil_transfer/quantil_transfer.rmd	schoice	nein	nein		eda, schoice, quiz	050-zusammenfassen.qmd
 quap1	posts/quap1/quap1.rmd	string	nein	nein			keines
 quiz-qm2-verteilungen	posts/quiz-qm2-verteilungen/index.qmd	string	nein	nein		qm2, 2024, distributions	keines
 r-quiz	posts/r-quiz/r-quiz.qmd	string	nein	nein		R, en, quiz	020-R.qmd
-r2_logik	posts/r2_logik/r2_logik.rmd	schoice	nein	nein			080-regression1.qmd
-r_syntax_correlation	posts/r_syntax_correlation/r_syntax_correlation.rmd	schoice	nein	nein			070-zusammenhaenge.qmd
-r_vs_r2	posts/r_vs_r2/r_vs_r2.rmd	schoice	nein	nein			080-regression1.qmd
-r_vs_rstudio	posts/r_vs_rstudio/r_vs_rstudio.rmd	schoice	nein	nein			020-R.qmd
-range_restriction	posts/range_restriction/range_restriction.rmd	schoice	nein	nein			070-zusammenhaenge.qmd
+r2_logik	posts/r2_logik/r2_logik.rmd	schoice	nein	nein		regression, schoice, quiz	080-regression1.qmd
+r_syntax_correlation	posts/r_syntax_correlation/r_syntax_correlation.rmd	schoice	nein	nein		association, schoice, quiz	070-zusammenhaenge.qmd
+r_vs_r2	posts/r_vs_r2/r_vs_r2.rmd	schoice	nein	nein		regression, schoice, quiz	080-regression1.qmd
+r_vs_rstudio	posts/r_vs_rstudio/r_vs_rstudio.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
+range_restriction	posts/range_restriction/range_restriction.rmd	schoice	nein	nein		association, schoice, quiz	070-zusammenhaenge.qmd
 rechtschreibung1	posts/rechtschreibung1/rechtschreibung1.rmd	schoice	ja	nein			keines
-regebene	posts/regebene/regebene.rmd	schoice	nein	nein			090-regression2.qmd
+regebene	posts/regebene/regebene.rmd	schoice	nein	nein		regression, schoice, quiz	090-regression2.qmd
 regex-insert-char	posts/regex-insert-char/regex-insert-char.rmd	string	nein	nein		textmining, regex, string	keines
 regex01	posts/regex01/regex01.qmd	string	nein	nein		textmining, regex, string	keines
 regex02	posts/regex02/regex02.qmd	string	nein	nein		textmining, regex, string	keines
@@ -781,11 +781,11 @@ regressionsgleichung-berechnen-schoice	posts/regressionsgleichung-berechnen-scho
 regressionsmodell-struktur-schoice	posts/regressionsmodell-struktur-schoice/regressionsmodell-struktur-schoice.Rmd	schoice	nein	nein		bayes	keines
 remove-digits	posts/remove-digits/index.qmd	string	nein	nein		textmining, string	keines
 repro1-sessioninfo	posts/repro1-sessioninfo/repro1-sessioninfo.rmd	string	nein	nein		R, repro, string, paper	020-R.qmd
-reproduzierbarkeit	posts/reproduzierbarkeit/reproduzierbarkeit.rmd	schoice	nein	nein			020-R.qmd
-resid_calc	posts/resid_calc/resid_calc.rmd	schoice	nein	nein			080-regression1.qmd
-residuen_summe	posts/residuen_summe/residuen_summe.rmd	schoice	nein	nein			060-modellguete.qmd
-residuen_vergleich	posts/residuen_vergleich/residuen_vergleich.rmd	schoice	nein	nein			060-modellguete.qmd
-residuum_definition	posts/residuum_definition/residuum_definition.rmd	schoice	nein	nein			010-rahmen.qmd
+reproduzierbarkeit	posts/reproduzierbarkeit/reproduzierbarkeit.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
+resid_calc	posts/resid_calc/resid_calc.rmd	schoice	nein	nein		regression, schoice, quiz	080-regression1.qmd
+residuen_summe	posts/residuen_summe/residuen_summe.rmd	schoice	nein	nein		variability, schoice, quiz	060-modellguete.qmd
+residuen_vergleich	posts/residuen_vergleich/residuen_vergleich.rmd	schoice	nein	nein		variability, schoice, quiz	060-modellguete.qmd
+residuum_definition	posts/residuum_definition/residuum_definition.rmd	schoice	nein	nein		rahmen, schoice, quiz	010-rahmen.qmd
 rethink2m1	posts/rethink2m1/rethink2m1.qmd	string	nein	nein		probability, bayesbox, rethink-chap2, string	keines
 rethink2m2	posts/rethink2m2/rethink2m2.qmd	string	nein	nein		probability, bayesbox, bayes, rethink-chap2, string, qm2, qm2-pruefung2023	keines
 rethink2m3	posts/rethink2m3/rethink2m3.qmd	string	nein	nein		probability, bayes, rethink-chap2, string	keines
@@ -813,9 +813,9 @@ ridges-vergleichen	posts/ridges-vergleichen/ridges-vergleichen.rmd	schoice	ja	ne
 ridges-vergleichen2	posts/ridges-vergleichen2/ridges-vergleichen2.rmd	schoice	nein	nein			040-verbildlichen.qmd
 rmd-01	posts/rmd-01/rmd-01.rmd	schoice	nein	nein			020-R.qmd
 rmd-02	posts/rmd-02/rmd-02.rmd	schoice	nein	nein			020-R.qmd
-rmse_sd_bezug	posts/rmse_sd_bezug/rmse_sd_bezug.rmd	schoice	nein	nein			060-modellguete.qmd
+rmse_sd_bezug	posts/rmse_sd_bezug/rmse_sd_bezug.rmd	schoice	nein	nein		variability, schoice, quiz	060-modellguete.qmd
 robo-professor-rope-schoice	posts/robo-professor-rope-schoice/robo-professor-rope-schoice.Rmd	schoice	nein	nein		bayes	keines
-robuste_streuung	posts/robuste_streuung/robuste_streuung.rmd	schoice	nein	nein			060-modellguete.qmd
+robuste_streuung	posts/robuste_streuung/robuste_streuung.rmd	schoice	nein	nein		variability, schoice, quiz	060-modellguete.qmd
 robustheit	posts/robustheit/robustheit.rmd	schoice	ja	nein			050-zusammenfassen.qmd
 rope-chinstrap-gentoo-interpretation-schoice	posts/rope-chinstrap-gentoo-interpretation-schoice/rope-chinstrap-gentoo-interpretation-schoice.Rmd	schoice	nein	nein		bayes	keines
 rope-default-grenze-rechnung-schoice	posts/rope-default-grenze-rechnung-schoice/rope-default-grenze-rechnung-schoice.Rmd	schoice	nein	nein		bayes	keines
@@ -832,24 +832,24 @@ rope4	posts/rope4/rope4.rmd	schoice	nein	ja	R/exams, R-Code-Fehler: Failed at re
 rowmeans-groupby-summarise	posts/rowmeans-groupby-summarise/index.qmd	string	nein	nein		tidyverse, datawrangling	050-zusammenfassen.qmd
 rquadrat	posts/rquadrat/rquadrat.rmd	schoice	ja	nein			080-regression1.qmd
 rstanarm-standard-prior-rechnung-schoice	posts/rstanarm-standard-prior-rechnung-schoice/rstanarm-standard-prior-rechnung-schoice.Rmd	schoice	nein	nein		bayes	keines
-rstudio_gui_view	posts/rstudio_gui_view/rstudio_gui_view.rmd	schoice	nein	nein			020-R.qmd
+rstudio_gui_view	posts/rstudio_gui_view/rstudio_gui_view.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
 samples-nyc	posts/samples-nyc/index.qmd	string	nein	nein		inference, story, yacsda	010-rahmen.qmd
 samples-nyc2	posts/samples-nyc2/index.qmd	string	nein	nein		inference, story, yacsda	010-rahmen.qmd
-samplesplit	posts/samplesplit/samplesplit.rmd	schoice	nein	nein			090-regression2.qmd
+samplesplit	posts/samplesplit/samplesplit.rmd	schoice	nein	nein		regression, schoice, quiz	090-regression2.qmd
 sampling-weight-by-schoice	posts/sampling-weight-by-schoice/sampling-weight-by-schoice.Rmd	schoice	nein	nein		bayes	keines
 saratoga-cor1	posts/saratoga-cor1/saratoga-cor1.qmd	string	nein	nein		R, vis, causal, eda	070-zusammenhaenge.qmd
 saratoga-cor2	posts/saratoga-cor2/saratoga-cor2.qmd	string	nein	nein		R, vis, causal, eda	070-zusammenhaenge.qmd
 saturiertes-modell-schwaeche-schoice	posts/saturiertes-modell-schwaeche-schoice/saturiertes-modell-schwaeche-schoice.Rmd	schoice	nein	nein		kausalinferenz	keines
-scatter_ellipse	posts/scatter_ellipse/scatter_ellipse.rmd	schoice	nein	nein			040-verbildlichen.qmd
+scatter_ellipse	posts/scatter_ellipse/scatter_ellipse.rmd	schoice	nein	nein		vis, schoice, quiz	040-verbildlichen.qmd
 scatterplot-art-korrelation	posts/scatterplot-art-korrelation/scatterplot-art-korrelation.rmd	schoice	nein	nein			070-zusammenhaenge.qmd
 scatterplot-de	posts/scatterplot-de/scatterplot-de.rmd	mchoice	ja	nein			070-zusammenhaenge.qmd
-schein_korr	posts/schein_korr/schein_korr.rmd	schoice	nein	nein			040-verbildlichen.qmd
-scheinkorrelation_glatze	posts/scheinkorrelation_glatze/scheinkorrelation_glatze.rmd	schoice	nein	nein			070-zusammenhaenge.qmd
+schein_korr	posts/schein_korr/schein_korr.rmd	schoice	nein	nein		vis, schoice, quiz	040-verbildlichen.qmd
+scheinkorrelation_glatze	posts/scheinkorrelation_glatze/scheinkorrelation_glatze.rmd	schoice	nein	nein		association, schoice, quiz	070-zusammenhaenge.qmd
 schiefe-erkennen	posts/schiefe-erkennen/schiefe-erkennen.rmd	schoice	ja	nein		eda, distributions, schoice	040-verbildlichen.qmd
 schiefe-erkennen2	posts/schiefe-erkennen2/schiefe-erkennen2.rmd	schoice	ja	ja	"R/exams, R-Code-Fehler (importiert): ℹ In index: 1. Caused by error in `glue()`: ! konnte Funktion ""glue"" nicht finden"	dyn, eda, lagemaße	050-zusammenfassen.qmd
 schiefe1	posts/schiefe1/schiefe1.rmd	schoice	ja	nein		schoice, eda, distributions, paper	040-verbildlichen.qmd
 schiefe1-b	posts/schiefe1-b/schiefe1-b.rmd	schoice	ja	nein		dyn, eda, lagemaße, distribution	040-verbildlichen.qmd
-schiefe_interpolation	posts/schiefe_interpolation/schiefe_interpolation.rmd	schoice	nein	nein			050-zusammenfassen.qmd
+schiefe_interpolation	posts/schiefe_interpolation/schiefe_interpolation.rmd	schoice	nein	nein		eda, schoice, quiz	050-zusammenfassen.qmd
 schlussarten-abduktion-formel	posts/schlussarten-abduktion-formel/schlussarten-abduktion-formel.rmd	schoice	nein	nein			keines
 schlussarten-deduktion-formel	posts/schlussarten-deduktion-formel/schlussarten-deduktion-formel.rmd	schoice	nein	nein			keines
 schlussarten-induktion-formel	posts/schlussarten-induktion-formel/schlussarten-induktion-formel.rmd	schoice	nein	nein			keines
@@ -857,10 +857,10 @@ schmalste-post	posts/schmalste-post/index.qmd	string	nein	nein		probability, dis
 schminke1	posts/schminke1/schminke1.rmd	num	ja	nein			keines
 scikit-llm-zeroshot	posts/scikit-llm-zeroshot/scikit-llm-zeroshot.qmd	string	nein	nein		textmining, nlp, transformer, chatgpt, sentiment, scikit	keines
 sd-vergleich	posts/sd-vergleich/sd-vergleich.rmd	schoice	ja	nein		datawrangling, eda, tidyverse, vis, variability, schoice, paper, quiz	060-modellguete.qmd
-sd_vs_varianz	posts/sd_vs_varianz/sd_vs_varianz.rmd	schoice	nein	nein			060-modellguete.qmd
+sd_vs_varianz	posts/sd_vs_varianz/sd_vs_varianz.rmd	schoice	nein	nein		variability, schoice, quiz	060-modellguete.qmd
 select	posts/select/select.rmd	schoice	nein	nein			030-aufbereiten.qmd
 select-b	posts/select-b/select-b.rmd	schoice	nein	nein			030-aufbereiten.qmd
-select_anwendung	posts/select_anwendung/select_anwendung.rmd	schoice	nein	nein			030-aufbereiten.qmd
+select_anwendung	posts/select_anwendung/select_anwendung.rmd	schoice	nein	nein		datawrangling, schoice, quiz	030-aufbereiten.qmd
 sentiws2	posts/sentiws2/sentiws2.qmd	string	nein	nein		textmining, tokenizer, string	keines
 shrinkage1	posts/shrinkage1/shrinkage1.rmd	schoice	nein	nein		schoice	keines
 sicherheit	posts/sicherheit/sicherheit.qmd	num	nein	nein		R, probability, num	keines
@@ -870,7 +870,7 @@ signifikanz-stichprobengroesse-schoice	posts/signifikanz-stichprobengroesse-scho
 sim-prior	posts/sim-prior/sim-prior.rmd	string	nein	nein			keines
 simpson-paradox-schoice	posts/simpson-paradox-schoice/simpson-paradox-schoice.Rmd	schoice	nein	nein		kausalinferenz	keines
 simpson-paradox-vorzeichenwechsel-schoice	posts/simpson-paradox-vorzeichenwechsel-schoice/simpson-paradox-vorzeichenwechsel-schoice.Rmd	schoice	nein	nein		kausalinferenz	keines
-simpsonpara	posts/simpsonpara/simpsonpara.rmd	schoice	nein	nein			090-regression2.qmd
+simpsonpara	posts/simpsonpara/simpsonpara.rmd	schoice	nein	nein		regression, schoice, quiz	090-regression2.qmd
 simu-p-wert	posts/simu-p-wert/simu-p-wert.rmd	string	ja	nein		inference, simulation, frequentist, pvalue	keines
 simu-unif2	posts/simu-unif2/index.qmd	string	nein	nein		probability, simulation, paper, distributions	keines
 simu-unif3	posts/simu-unif3/index.qmd	string	nein	nein		probability, simulation, paper, distributions	keines
@@ -879,9 +879,9 @@ skalenniveau1	posts/skalenniveau1/skalenniveau1.rmd	schoice	ja	nein		dyn, variab
 skalenniveau1a	posts/skalenniveau1a/skalenniveau1a.rmd	schoice	ja	nein		dyn, variable-levels, variable-levels, schoice, paper	010-rahmen.qmd
 skalenniveau1b	posts/skalenniveau1b/skalenniveau1b.rmd	mchoice	ja	nein		dyn, variable-levels, variable-levels, mchoice, paper	010-rahmen.qmd
 skalenniveau2	posts/skalenniveau2/skalenniveau2.rmd	string	ja	nein		variable-levels	010-rahmen.qmd
-skalenniveau_intervall	posts/skalenniveau_intervall/skalenniveau_intervall.rmd	schoice	nein	nein			010-rahmen.qmd
-skalenniveau_ordinal	posts/skalenniveau_ordinal/skalenniveau_ordinal.rmd	schoice	nein	nein			010-rahmen.qmd
-slope_inter	posts/slope_inter/slope_inter.rmd	schoice	nein	nein			080-regression1.qmd
+skalenniveau_intervall	posts/skalenniveau_intervall/skalenniveau_intervall.rmd	schoice	nein	nein		rahmen, schoice, quiz	010-rahmen.qmd
+skalenniveau_ordinal	posts/skalenniveau_ordinal/skalenniveau_ordinal.rmd	schoice	nein	nein		rahmen, schoice, quiz	010-rahmen.qmd
+slope_inter	posts/slope_inter/slope_inter.rmd	schoice	nein	nein		regression, schoice, quiz	080-regression1.qmd
 small-wide-normal	posts/small-wide-normal/index.qmd	string	nein	nein		normal-distribution, distributions, posterior, bayes, pencil	keines
 smape	posts/smape/smape.rmd	schoice	nein	nein		schoice	keines
 smartphone1	posts/smartphone1/index.qmd	string	nein	nein		R, eda, datawrangling, vis, yacsda	050-zusammenfassen.qmd
@@ -900,7 +900,7 @@ statistischer-vs-kausaler-effekt-schoice	posts/statistischer-vs-kausaler-effekt-
 step-dummy	posts/step-dummy/step-dummy.rmd	schoice	nein	nein		tidymodels, statlearning, schoice, quiz	keines
 stetige-zv-dichte-schoice	posts/stetige-zv-dichte-schoice/stetige-zv-dichte-schoice.Rmd	schoice	nein	nein		wahrscheinlichkeit	keines
 stichprobenanteil-vs-popanteil	posts/stichprobenanteil-vs-popanteil/stichprobenanteil-vs-popanteil.rmd	schoice	ja	nein			keines
-stichprobengroesse_genauigkeit	posts/stichprobengroesse_genauigkeit/stichprobengroesse_genauigkeit.rmd	schoice	nein	nein			010-rahmen.qmd
+stichprobengroesse_genauigkeit	posts/stichprobengroesse_genauigkeit/stichprobengroesse_genauigkeit.rmd	schoice	nein	nein		rahmen, schoice, quiz	010-rahmen.qmd
 stichprobenmethoden	posts/stichprobenmethoden/stichprobenmethoden.rmd	schoice	nein	nein			010-rahmen.qmd
 stichprobenvert-vs-postvert-schoice	posts/stichprobenvert-vs-postvert-schoice/stichprobenvert-vs-postvert-schoice.Rmd	schoice	nein	nein		bayes	keines
 stichprobenziehen1	posts/stichprobenziehen1/stichprobenziehen1.rmd	string	nein	nein		lm, inference, qm2	keines
@@ -914,7 +914,7 @@ streuung-histogramm	posts/streuung-histogramm/streuung-histogramm.rmd	schoice	ja
 streuung-post	posts/streuung-post/index.qmd	string	nein	nein		bayes	keines
 streuung-post2	posts/streuung-post2/index.qmd	string	nein	nein		bayes	keines
 streuung-vs-intervall-schoice	posts/streuung-vs-intervall-schoice/streuung-vs-intervall-schoice.Rmd	schoice	nein	nein		bayes	keines
-struktur_dataframe	posts/struktur_dataframe/struktur_dataframe.rmd	schoice	nein	nein			020-R.qmd
+struktur_dataframe	posts/struktur_dataframe/struktur_dataframe.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
 studie-a-oestrogen-stratifizieren-schoice	posts/studie-a-oestrogen-stratifizieren-schoice/studie-a-oestrogen-stratifizieren-schoice.Rmd	schoice	nein	nein		kausalinferenz	keines
 studie-b-blutdruck-nicht-stratifizieren-schoice	posts/studie-b-blutdruck-nicht-stratifizieren-schoice/studie-b-blutdruck-nicht-stratifizieren-schoice.Rmd	schoice	nein	nein		kausalinferenz	keines
 subitizing	posts/subitizing/subitizing.rmd	schoice	nein	nein			keines
@@ -936,7 +936,7 @@ test-mse2	posts/test-mse2/test-mse2.rmd	schoice	nein	nein		ds1, tidymodels, stat
 theoretiker-empirismusrationalismus	posts/theoretiker-empirismusrationalismus/theoretiker-empirismusrationalismus.rmd	string	ja	nein			keines
 there-is-no-package	posts/there-is-no-package/there-is-no-package.rmd	schoice	nein	nein		R, 2023, schoice, paper, quiz	020-R.qmd
 tidy1	posts/tidy1/tidy1.rmd	schoice	ja	nein		tidy, datawrangling, schoice, paper	010-rahmen.qmd
-tidy_data	posts/tidy_data/tidy_data.rmd	schoice	nein	nein			010-rahmen.qmd
+tidy_data	posts/tidy_data/tidy_data.rmd	schoice	nein	nein		rahmen, schoice, quiz	010-rahmen.qmd
 tidydata1	posts/tidydata1/tidydata1.rmd	schoice	nein	nein		datawrangling, tidy, schoice, computer, quiz	010-rahmen.qmd
 tidymodels-ames-01	posts/tidymodels-ames-01/tidymodels-ames-01.qmd	num	nein	nein		ds1, tidymodels, prediction, yacsda, statlearning, num	keines
 tidymodels-ames-02	posts/tidymodels-ames-02/tidymodels-ames-02.qmd	num	nein	nein		ds1, tidymodels, prediction, yacsda, statlearning, num	keines
@@ -986,7 +986,7 @@ tmdb05	posts/tmdb05/tmdb05.qmd	num	nein	nein		ds1, tidymodels, statlearning, tmd
 tmdb06	posts/tmdb06/tmdb06.rmd	num	nein	nein		ds1, tidymodels, statlearning, tmdb, random-forest, num	keines
 tmdb07	posts/tmdb07/tmdb07.rmd	num	nein	nein		ds1, tidymodels, statlearning, tmdb, num	keines
 tmdb08	posts/tmdb08/tmdb08.rmd	num	nein	nein		ds1, tidymodels, statlearning, tmdb, random-forest, num	keines
-torten_kritik	posts/torten_kritik/torten_kritik.rmd	schoice	nein	nein			040-verbildlichen.qmd
+torten_kritik	posts/torten_kritik/torten_kritik.rmd	schoice	nein	nein		vis, schoice, quiz	040-verbildlichen.qmd
 totale-wahrscheinlichkeit-maschinen-schoice	posts/totale-wahrscheinlichkeit-maschinen-schoice/totale-wahrscheinlichkeit-maschinen-schoice.Rmd	schoice	nein	nein		wahrscheinlichkeit	keines
 totale-wskt1	posts/totale-wskt1/totale-wskt1.qmd	num	nein	nein		R, probability, bayes, num	keines
 ttest-als-regr	posts/ttest-als-regr/ttest-als-regr.rmd	cloze	nein	nein		regression, ttest, variable-levels, mtcars, quiz	010-rahmen.qmd
@@ -1012,19 +1012,19 @@ ungewiss-arten-regr_var1	posts/ungewiss-arten-regr_var1/ungewiss-arten-regr_var1
 ungewissheit-beta-sigma-schoice	posts/ungewissheit-beta-sigma-schoice/ungewissheit-beta-sigma-schoice.Rmd	schoice	nein	nein		inferenz	keines
 urne1	posts/urne1/urne1.qmd	num	nein	nein		R, probability, num	keines
 urne2	posts/urne2/urne2.qmd	num	nein	nein		R, probability, num	keines
-uv_av_unterscheidung	posts/uv_av_unterscheidung/uv_av_unterscheidung.rmd	schoice	nein	nein			010-rahmen.qmd
+uv_av_unterscheidung	posts/uv_av_unterscheidung/uv_av_unterscheidung.rmd	schoice	nein	nein		rahmen, schoice, quiz	010-rahmen.qmd
 vage-priori-gefahr-schoice	posts/vage-priori-gefahr-schoice/vage-priori-gefahr-schoice.Rmd	schoice	nein	nein		bayes	keines
 var-vs-stufe	posts/var-vs-stufe/var-vs-stufe.rmd	schoice	nein	nein		fopro, researchdesign, schoice, quiz	010-rahmen.qmd
 variab-referenzklasse	posts/variab-referenzklasse/variab-referenzklasse.rmd	schoice	nein	nein			keines
-variablenwahl	posts/variablenwahl/variablenwahl.rmd	schoice	nein	nein			090-regression2.qmd
+variablenwahl	posts/variablenwahl/variablenwahl.rmd	schoice	nein	nein		regression, schoice, quiz	090-regression2.qmd
 variation01	posts/variation01/variation01.rmd	schoice	nein	nein		variability, basics, schoice, paper, quiz	060-modellguete.qmd
 variation02	posts/variation02/variation02.rmd	schoice	ja	nein		variability, basics, schoice, paper, quiz	060-modellguete.qmd
-vektor_erstellung	posts/vektor_erstellung/vektor_erstellung.rmd	schoice	nein	nein			020-R.qmd
-vektorielles_rechnen_transfer	posts/vektorielles_rechnen_transfer/vektorielles_rechnen_transfer.rmd	schoice	nein	nein			020-R.qmd
+vektor_erstellung	posts/vektor_erstellung/vektor_erstellung.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
+vektorielles_rechnen_transfer	posts/vektorielles_rechnen_transfer/vektorielles_rechnen_transfer.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
 vektorindizieren	posts/vektorindizieren/vektorindizieren.rmd	string	nein	nein			020-R.qmd
-vektorisierung_logik	posts/vektorisierung_logik/vektorisierung_logik.rmd	schoice	nein	nein			020-R.qmd
+vektorisierung_logik	posts/vektorisierung_logik/vektorisierung_logik.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
 verifikationismus	posts/verifikationismus/verifikationismus.rmd	string	nein	nein			keines
-verschachtelte_funktionen	posts/verschachtelte_funktionen/verschachtelte_funktionen.rmd	schoice	nein	nein			020-R.qmd
+verschachtelte_funktionen	posts/verschachtelte_funktionen/verschachtelte_funktionen.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
 verteilungen-quiz-01	posts/verteilungen-quiz-01/verteilungen-quiz-01.qmd	schoice	nein	nein		distributions, Verteilungen-Quiz, probability, bayes, paper	keines
 verteilungen-quiz-01-b	posts/verteilungen-quiz-01-b/verteilungen-quiz-01-b.rmd	schoice	nein	nein		distribution, probability	keines
 verteilungen-quiz-02	posts/verteilungen-quiz-02/verteilungen-quiz-02.rmd	schoice	nein	nein		distributions, Verteilungen-Quiz, probability, bayes, simulation, quiz, qm2, computer	keines
@@ -1071,7 +1071,7 @@ vorhersage-interaktion-berechnen-schoice	posts/vorhersage-interaktion-berechnen-
 vorhersage-yb-berechnen-schoice	posts/vorhersage-yb-berechnen-schoice/vorhersage-yb-berechnen-schoice.Rmd	schoice	nein	nein		bayes	090-regression2.qmd
 vorhersageintervall1	posts/vorhersageintervall1/vorhersageintervall1.rmd	schoice	nein	nein		lm, inference, qm2, mtcars, quiz	keines
 vorteil-parameterschaetzung-schoice	posts/vorteil-parameterschaetzung-schoice/vorteil-parameterschaetzung-schoice.Rmd	schoice	nein	nein		bayes	keines
-vorteil_skripte	posts/vorteil_skripte/vorteil_skripte.rmd	schoice	nein	nein			020-R.qmd
+vorteil_skripte	posts/vorteil_skripte/vorteil_skripte.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
 wachstum_corona	posts/wachstum_corona/wachstum_corona.rmd	string	nein	nein			040-verbildlichen.qmd
 warum-bayes	posts/warum-bayes/warum-bayes.rmd	string	nein	nein		qm2, bayes, probability	keines
 warum-exponential-fuer-sigma-schoice	posts/warum-exponential-fuer-sigma-schoice/warum-exponential-fuer-sigma-schoice.Rmd	schoice	nein	nein		bayes	keines
@@ -1137,16 +1137,16 @@ xlsx-online-import	posts/xlsx-online-import/index.qmd	(fehlt)	nein	nein		data, d
 yaml	posts/yaml/yaml.rmd	schoice	nein	nein			keines
 z-standardisierung-vergleich-schoice	posts/z-standardisierung-vergleich-schoice/z-standardisierung-vergleich-schoice.Rmd	schoice	nein	nein		bayes	090-regression2.qmd
 z-wert-nicht-norm-verteilt	posts/z-wert-nicht-norm-verteilt/z-wert-nicht-norm-verteilt.rmd	schoice	nein	nein			keines
-z_transformation_effekt	posts/z_transformation_effekt/z_transformation_effekt.rmd	schoice	nein	nein			060-modellguete.qmd
-z_wert_interpretation	posts/z_wert_interpretation/z_wert_interpretation.rmd	schoice	nein	nein			060-modellguete.qmd
+z_transformation_effekt	posts/z_transformation_effekt/z_transformation_effekt.rmd	schoice	nein	nein		variability, schoice, quiz	060-modellguete.qmd
+z_wert_interpretation	posts/z_wert_interpretation/z_wert_interpretation.rmd	schoice	nein	nein		variability, schoice, quiz	060-modellguete.qmd
 zentrieren-mit-interaktion-schoice	posts/zentrieren-mit-interaktion-schoice/zentrieren-mit-interaktion-schoice.Rmd	schoice	nein	nein		bayes	090-regression2.qmd
-zentrierung	posts/zentrierung/zentrierung.rmd	schoice	nein	nein			090-regression2.qmd
+zentrierung	posts/zentrierung/zentrierung.rmd	schoice	nein	nein		regression, schoice, quiz	090-regression2.qmd
 ziel-bayes	posts/ziel-bayes/index.qmd	(fehlt)	nein	nein		bayes	keines
 zielart-beschreiben-definition-schoice	posts/zielart-beschreiben-definition-schoice/zielart-beschreiben-definition-schoice.Rmd	schoice	nein	nein		statistik-grundlagen	010-rahmen.qmd
 zielart-vorhersagen-punkt-bereich-schoice	posts/zielart-vorhersagen-punkt-bereich-schoice/zielart-vorhersagen-punkt-bereich-schoice.Rmd	schoice	nein	nein		statistik-grundlagen	010-rahmen.qmd
 zielarten-stat-schoice	posts/zielarten-stat-schoice/zielarten-stat-schoice.Rmd	schoice	nein	nein		inferenz	010-rahmen.qmd
 ziele-statistik	posts/ziele-statistik/ziele-statistik.rmd	schoice	nein	nein		basics, 2023, schoice, paper, quiz	010-rahmen.qmd
-ziele_statistik	posts/ziele_statistik/ziele_statistik.rmd	schoice	nein	nein			010-rahmen.qmd
+ziele_statistik	posts/ziele_statistik/ziele_statistik.rmd	schoice	nein	nein		rahmen, schoice, quiz	010-rahmen.qmd
 zipf1	posts/zipf1/zipf1.rmd	schoice	nein	nein			keines
 zitieren-buch1	posts/zitieren-buch1/zitieren-buch1.rmd	string	nein	nein			keines
 zitieren-buchkapitel1	posts/zitieren-buchkapitel1/zitieren-buchkapitel1.rmd	string	nein	nein			keines
@@ -1155,7 +1155,7 @@ zitieren-thesis1	posts/zitieren-thesis1/zitieren-thesis1.rmd	string	nein	nein			
 zitieren3	posts/zitieren3/zitieren3.rmd	schoice	ja	nein			keines
 zuordnung_regr_formel1	posts/zuordnung_regr_formel1/index.qmd	(fehlt)	nein	nein		regression	090-regression2.qmd
 zusammenhang-kategorial	posts/zusammenhang-kategorial/zusammenhang-kategorial.rmd	schoice	nein	nein			040-verbildlichen.qmd
-zuweisung_operator	posts/zuweisung_operator/zuweisung_operator.rmd	schoice	nein	nein			020-R.qmd
+zuweisung_operator	posts/zuweisung_operator/zuweisung_operator.rmd	schoice	nein	nein		R, schoice, quiz	020-R.qmd
 zwei-arten-ungewissheit-schoice	posts/zwei-arten-ungewissheit-schoice/zwei-arten-ungewissheit-schoice.Rmd	schoice	nein	nein		bayes	keines
 zweihochx	posts/zweihochx/zweihochx.rmd	num	ja	nein			keines
 zweihochzehn	posts/zweihochzehn/zweihochzehn.rmd	num	nein	nein			keines
