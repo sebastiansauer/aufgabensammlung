@@ -91,7 +91,7 @@ posts/groupby/groupby.rmd
 posts/group_summarise/group_summarise.rmd
 posts/gruppen_modell_vorteil/gruppen_modell_vorteil.rmd
 posts/gruppenvergleich-regression-schoice/gruppenvergleich-regression-schoice.Rmd
-posts/güte_streuung/güte_streuung.rmd
+posts/guete_streuung/guete_streuung.rmd
 posts/heatmap/heatmap.rmd
 posts/heatmap-mosaic/heatmap-mosaic.rmd
 posts/histogramm-in-boxplot/histogramm-in-boxplot.rmd
@@ -157,15 +157,15 @@ posts/linearitaet/linearitaet.rmd
 posts/lm1/lm1.rmd
 posts/lm-standardfehler/lm-standardfehler.rmd
 posts/logigkodier/logigkodier.rmd
-posts/logikprüfung_anwendung/logikprüfung_anwendung.rmd
-posts/logikprüfung_gleichheit/logikprüfung_gleichheit.rmd
+posts/logikpruefung_anwendung/logikpruefung_anwendung.rmd
+posts/logikpruefung_gleichheit/logikpruefung_gleichheit.rmd
 posts/logression1/logression1.rmd
 posts/mae_berechnung/mae_berechnung.rmd
 posts/md-vs-mw/md-vs-mw.rmd
 posts/mean_na_standard/mean_na_standard.rmd
 posts/median_gerade_n/median_gerade_n.rmd
 posts/messniveau/messniveau.rmd
-posts/modalitätsspezifisch/modalitätsspezifisch.rmd
+posts/modalitaetsspezifisch/modalitaetsspezifisch.rmd
 posts/modelldef2/modelldef2.rmd
 posts/modelldef/modelldef.rmd
 posts/modell_gleichung/modell_gleichung.rmd

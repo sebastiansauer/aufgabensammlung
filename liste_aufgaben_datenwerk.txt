@@ -97,7 +97,7 @@
 ./kausal01/kausal01.rmd
 ./titanic_casestudy/titanic_casestudy.rmd
 ./wskt-quiz08/wskt-quiz08.qmd
-./prob-sicher-unmöglich/index.qmd
+./prob-sicher-unmoeglich/index.qmd
 ./remove-digits/index.qmd
 ./germeval-senti01/germeval-senti01.qmd
 ./postvert-regr-01/postvert-regr-01.rmd

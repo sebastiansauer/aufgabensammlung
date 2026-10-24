@@ -381,7 +381,7 @@ regression/penguins-stan-02.rmd	dublette	posts/penguins-stan-02/penguins-stan-02
 regression/penguins-stan-03.rmd	dublette	posts/penguins-stan-03/penguins-stan-03.rmd	gleicher Name		
 regression/penguins-stan-04.rmd	dublette	posts/penguins-stan-04/penguins-stan-04.rmd	gleicher Name		
 regression/penguins-stan-05.rmd	dublette	posts/penguins-stan-05/penguins-stan-05.rmd	gleicher Name		
-regression/prädiktoren-zentrieren.rmd	importiert	posts/prädiktoren-zentrieren/prädiktoren-zentrieren.rmd		?	ERROR: no exsolution specified
+regression/prädiktoren-zentrieren.rmd	importiert	posts/praediktoren-zentrieren/praediktoren-zentrieren.rmd		?	ERROR: no exsolution specified
 regression/punktschaetzer-reicht-nicht.rmd	dublette	posts/punktschaetzer-reicht-nicht/punktschaetzer-reicht-nicht.rmd	gleicher Name		
 regression/punktschaetzer-reicht-nicht2.rmd	importiert	posts/punktschaetzer-reicht-nicht2/punktschaetzer-reicht-nicht2.rmd		string	OK
 regression/regr-bayes-interpret.rmd	dublette	posts/regr-bayes-interpret/regr-bayes-interpret.rmd	gleicher Name		
@@ -752,7 +752,7 @@ wisstheorie/empiriker-induktiv.rmd	importiert	posts/empiriker-induktiv/empiriker
 wisstheorie/generalisieren-population.rmd	importiert	posts/generalisieren-population/generalisieren-population.rmd		schoice	OK
 wisstheorie/induktionsprinzip.rmd	importiert	posts/induktionsprinzip/induktionsprinzip.rmd		schoice	OK
 wisstheorie/induktive-verallgemeinerung.rmd	importiert	posts/induktive-verallgemeinerung/induktive-verallgemeinerung.rmd		schoice	OK
-wisstheorie/modalitätsspezifisch.rmd	importiert	posts/modalitätsspezifisch/modalitätsspezifisch.rmd		schoice	OK
+wisstheorie/modalitätsspezifisch.rmd	importiert	posts/modalitaetsspezifisch/modalitaetsspezifisch.rmd		schoice	OK
 wisstheorie/operationalismus.rmd	importiert	posts/operationalismus/operationalismus.rmd		mchoice	OK
 wisstheorie/schlussarten-abduktion-formel.rmd	importiert	posts/schlussarten-abduktion-formel/schlussarten-abduktion-formel.rmd		schoice	OK
 wisstheorie/schlussarten-deduktion-formel.rmd	importiert	posts/schlussarten-deduktion-formel/schlussarten-deduktion-formel.rmd		schoice	OK
@@ -785,7 +785,7 @@ all_chapters/funktionsargumente_defaults.rmd	importiert	posts/funktionsargumente
 all_chapters/group_summarise.rmd	importiert	posts/group_summarise/group_summarise.rmd		schoice	OK
 all_chapters/groupby.rmd	importiert	posts/groupby/groupby.rmd		schoice	OK
 all_chapters/gruppen_modell_vorteil.rmd	importiert	posts/gruppen_modell_vorteil/gruppen_modell_vorteil.rmd		schoice	OK
-all_chapters/güte_streuung.rmd	importiert	posts/güte_streuung/güte_streuung.rmd		schoice	OK
+all_chapters/güte_streuung.rmd	importiert	posts/guete_streuung/guete_streuung.rmd		schoice	OK
 all_chapters/interaktion.rmd	importiert	posts/interaktion/interaktion.rmd		schoice	OK
 all_chapters/intercept_m.rmd	importiert	posts/intercept_m/intercept_m.rmd		schoice	OK
 all_chapters/kauslalinterp.rmd	importiert	posts/kauslalinterp/kauslalinterp.rmd		schoice	OK
@@ -796,8 +796,8 @@ all_chapters/kovarianz_null.rmd	importiert	posts/kovarianz_null/kovarianz_null.r
 all_chapters/kovarianz_skalierung.rmd	importiert	posts/kovarianz_skalierung/kovarianz_skalierung.rmd		schoice	OK
 all_chapters/lego_prinzip_logik.rmd	importiert	posts/lego_prinzip_logik/lego_prinzip_logik.rmd		schoice	OK
 all_chapters/logigkodier.rmd	importiert	posts/logigkodier/logigkodier.rmd		schoice	OK
-all_chapters/logikprüfung_anwendung.rmd	importiert	posts/logikprüfung_anwendung/logikprüfung_anwendung.rmd		schoice	OK
-all_chapters/logikprüfung_gleichheit.rmd	importiert	posts/logikprüfung_gleichheit/logikprüfung_gleichheit.rmd		schoice	OK
+all_chapters/logikprüfung_anwendung.rmd	importiert	posts/logikpruefung_anwendung/logikpruefung_anwendung.rmd		schoice	OK
+all_chapters/logikprüfung_gleichheit.rmd	importiert	posts/logikpruefung_gleichheit/logikpruefung_gleichheit.rmd		schoice	OK
 all_chapters/mae_berechnung.rmd	importiert	posts/mae_berechnung/mae_berechnung.rmd		schoice	OK
 all_chapters/mean_na_standard.rmd	importiert	posts/mean_na_standard/mean_na_standard.rmd		schoice	OK
 all_chapters/median_gerade_n.rmd	importiert	posts/median_gerade_n/median_gerade_n.rmd		schoice	OK
