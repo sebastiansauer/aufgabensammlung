@@ -243,7 +243,7 @@ flex-vs-nichtflex-methode3	posts/flex-vs-nichtflex-methode3/flex-vs-nichtflex-me
 flights-delay	posts/flights-delay/index.qmd	string	nein	nein		lm, regression, interaction, yacsda	090-regression2.qmd	ja	
 flights-delay-simplified	posts/flights-delay-simplified/index.qmd	string	nein	nein		lm, regression, interaction, yacsda	090-regression2.qmd	ja	
 flights-geom_point-geom-lm	posts/flights-geom_point-geom-lm/flights-geom_point-geom-lm.rmd	schoice	ja	nein		paper, todo	040-verbildlichen.qmd	ja	
-flights-geovis	posts/flights-geovis/flights-geovis.rmd	mchoice	nein	nein		STUB	040-verbildlichen.qmd	nein	
+flights-geovis	posts_buggy/flights-geovis/flights-geovis.rmd	mchoice	nein	ja	Ordner posts_buggy	STUB	040-verbildlichen.qmd	nein	buggy (Ordner posts_buggy)
 flights-yacsda-eda	posts/flights-yacsda-eda/index.qmd	string	ja	nein		eda, yacsda, variability, association	070-zusammenhaenge.qmd	ja	
 fofrage-regrformel	posts/fofrage-regrformel/index.qmd	string	nein	nein		bayes, regression, paper	090-regression2.qmd	ja	
 fofrage-regrformel-schoice	posts/fofrage-regrformel-schoice/fofrage-regrformel-schoice.Rmd	schoice	nein	nein		paper, todo	090-regression2.qmd	ja	
@@ -662,7 +662,7 @@ post-verteilung-vollstaendig-zusammenfassen-schoice	posts/post-verteilung-vollst
 post-wskt-achsenabschnitt-schoice	posts/post-wskt-achsenabschnitt-schoice/post-wskt-achsenabschnitt-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja	
 post-wskt-intervall-schoice	posts/post-wskt-intervall-schoice/post-wskt-intervall-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja	
 post-wskt-kleiner-schoice	posts/post-wskt-kleiner-schoice/post-wskt-kleiner-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja	
-post1	posts/post1/post1.rmd	schoice	nein	nein		null	040-verbildlichen.qmd	nein	
+post1	posts_buggy/post1/post1.rmd	schoice	nein	ja	Ordner posts_buggy	null	040-verbildlichen.qmd	nein	buggy (Ordner posts_buggy)
 post2	posts/post2/post2.rmd	cloze	ja	nein		null	keines	nein	Render-Test: Error: ! Objekt 'wrong_answers' nicht gefunden
 post2-breite-postint	posts/post2-breite-postint/post2-breite-postint.rmd	num	ja	nein		bayes, dyn, regression	keines	ja	
 post2-glm	posts/post2-glm/post2-glm.rmd	cloze	ja	nein		qm2	keines	nein	Render-Test: Fehler beim Rendern
@@ -1184,3 +1184,4 @@ twitter05	posts_buggy/twitter05/twitter05.qmd	string	nein	ja	Ordner posts_buggy	
 twitter06	posts_buggy/twitter06/twitter06.rmd	string	nein	ja	Ordner posts_buggy	textmining, twitter, programming	keines	nein	buggy (R/exams-Check)
 twitter07	posts_buggy/twitter07/twitter07.rmd	string	nein	ja	Ordner posts_buggy	textmining, twitter, programming	keines	nein	buggy (R/exams-Check)
 wildemojis	posts_buggy/wildemojis/wildemojis.qmd	string	nein	ja	Ordner posts_buggy	emojis, nlp, textmining, germeval	keines	nein	buggy (R/exams-Check)
+randomdag1	posts_buggy/randomdag1/randomdag1.buggy		nein	ja	Ordner posts_buggy; nur .buggy-Datei, kein Rmd/qmd		keines	nein	buggy (Ordner posts_buggy)
