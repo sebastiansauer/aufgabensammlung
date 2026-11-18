@@ -69,7 +69,7 @@ Schreiben Sie eine kurze Notiz an das Forschungsteam (höchstens 5 Sätze): Was 
 
 Hinweise:
 
-- Beachten Sie die üblichen [Hinweise](https://datenwerk.netlify.app/hinweise) des Datenwerks.
+- Beachten Sie die üblichen [Hinweise](https://sebastiansauer.github.io/datenwerk/Hinweise.html) des Datenwerks.
 - Diese Aufgabe wird nicht automatisch ausgewertet, sondern als Freitext beantwortet.
 
 </br>
