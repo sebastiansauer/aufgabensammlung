@@ -5,22 +5,11 @@ categories:
 - inference
 ---
 
-```{r setup-pakete, include=FALSE}
-library(readxl)
-```
-
-
 ```{r}
 library(tidyverse)
 options(mc.cores = parallel::detectCores())
 
 ```
-
-
-```{r}
-d <- read_xlsx("Laender-Hauptstaedte.xslx")
-```
-
 
 
 Question

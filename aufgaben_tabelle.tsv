@@ -908,7 +908,7 @@ stichprobenziehen1	posts/stichprobenziehen1/stichprobenziehen1.rmd	string	nein	n
 stipro-bayesbox01	posts/stipro-bayesbox01/stipro-bayesbox01.qmd	num	nein	nein		R, bayes, bayes-grid, probability	keines	ja	
 stipro-bayesbox02	posts/stipro-bayesbox02/stipro-bayesbox02.qmd	num	nein	nein		R, bayes, bayes-grid, probability	keines	ja	
 stipro-beschreiben	posts/stipro-beschreiben/stipro-beschreiben.rmd	string	nein	nein		null	010-rahmen.qmd	ja	
-stiprovert-life-exp	posts/stiprovert-life-exp/stiprovert-life-exp.rmd	string	nein	nein		simulation, inference	keines	nein	Render-Test: Datei 'Laender-Hauptstaedte.xslx' fehlt (Tippfehler xslx; Datei liegt in 11_rexams-entwicklung)
+stiprovert-life-exp	posts/stiprovert-life-exp/stiprovert-life-exp.rmd	string	nein	nein		simulation, inference	keines	ja	
 stochastisch-vs-kausal-unabhaengig-schoice	posts/stochastisch-vs-kausal-unabhaengig-schoice/stochastisch-vs-kausal-unabhaengig-schoice.Rmd	schoice	nein	nein		wahrscheinlichkeit, paper	keines	ja	
 streudiagramm	posts/streudiagramm/streudiagramm.rmd	schoice	ja	nein		vis, 2023, schoice, quiz, paper	070-zusammenhaenge.qmd	ja	
 streuung-histogramm	posts/streuung-histogramm/streuung-histogramm.rmd	schoice	ja	nein		eda, variability, dyn, schoice, paper	050-zusammenfassen.qmd	ja	
