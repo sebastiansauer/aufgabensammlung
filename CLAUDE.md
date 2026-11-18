@@ -6,7 +6,16 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 A collection of statistics/data-science exercises (in German) for students. Each exercise lives in its own subfolder under `posts/`, with one `.qmd` or `.rmd` file per exercise.
 
-This repo is **not** the source of the blog [datenwerk.netlify.app](https://datenwerk.netlify.app). The blog lives in the separate repo `../07_datenwerk` (github: sebastiansauer/datenwerk) with its own copies of the exercises; the two have diverged. Changes here do not affect the blog.
+This repo is the **master collection** of all exercises. The blog [datenwerk](https://sebastiansauer.github.io/datenwerk/) lives in the separate repo `../07_datenwerk` (github: sebastiansauer/datenwerk); its `posts/` folder is **generated** from this repo by `sync_datenwerk.R` and must not be edited by hand. Edit exercises only here. The folder `../02_statistik1-aufgabensammlung/exrs` is a git submodule pointing to this same repository.
+
+### Syncing to the blog
+
+```bash
+Rscript sync_datenwerk.R           # dry run: shows what would change
+Rscript sync_datenwerk.R --apply   # copies released exercises to ../07_datenwerk/posts
+```
+
+The script copies every `posts/<slug>/` folder 1:1 (no reformatting, without `*_cache` and `*_files`) unless `aufgaben_tabelle.tsv` marks it with `blog = nein`, and removes from `07_datenwerk/posts` every folder that is not released. Folders without a table row count as released (the script warns). After syncing, commit in `07_datenwerk` separately; nothing is pushed automatically.
 
 ## YAML header
 
@@ -74,13 +83,14 @@ The `exsolution` binary string corresponds 1:1 to the order of options in the An
 
 - `posts/` — one subfolder per exercise, named by exercise slug; contains the `.qmd` or `.rmd` file (sometimes also an `index.qmd`)
 - `posts_buggy/` — 12 exercises with known issues, kept separate
+- `sync_datenwerk.R` — syncs the released exercises into `../07_datenwerk/posts` (see above)
 - `liste_aufgaben_datenwerk.txt` — flat list of exercise file paths
 - `liste_schoice_aufgaben.txt`, `liste_mchoice_aufgaben.txt` — exercises by `extype`
 - `pruefung_schoice.tsv` — R/exams check report for the schoice exercises
 - `import_rexams-entwicklung.tsv` — which exercises from `../11_rexams-entwicklung/exercises/sebastiansauer/de` were imported (and under which name) and which were skipped as duplicates
 - `import_statistik1.tsv` — the same for `../01_statistik1/exs`
 - `import_start-bayes.tsv` — the same for `../04_start-bayes/exr`
-- `aufgaben_tabelle.tsv` — one row per exercise: name, path, extype, dynamic, buggy (+ reason), categories, `Statistik1` (best-fitting chapter of `../01_statistik1` as its qmd file name, or `keines`; taken from `../01_statistik1/quiz-aufgaben.csv` where available, otherwise assigned by content)
+- `aufgaben_tabelle.tsv` — one row per exercise: name, path, extype, dynamic, buggy (+ reason), categories, `Statistik1`, `blog` (`ja`/`nein`: whether the exercise goes into the blog; `nein` for buggy exercises and for those that failed a test render in the blog project), `blog_grund` (reason for `nein`) (best-fitting chapter of `../01_statistik1` as its qmd file name, or `keines`; taken from `../01_statistik1/quiz-aufgaben.csv` where available, otherwise assigned by content)
 
 ## File format notes
 
