@@ -1,7 +1,7 @@
 name	pfad	extype	dynamisch	buggy	buggy_grund	categories	Statistik1	blog	blog_grund
 abh-ereignisse	posts/abh-ereignisse/abh-ereignisse.qmd	string	nein	nein		R, probability, string, paper	keines	ja	
 abh-ereignisse2	posts/abh-ereignisse2/abh-ereignisse2.qmd	num	nein	nein		R, probability, num, paper	keines	ja	
-abhaengige-es	posts/abhaengige-es/abhaengige-es.rmd	schoice	ja	nein		probability, paper	keines	nein	Render-Test: Error in `answerlist()`: ! konnte Funktion "answerlist" nicht finden
+abhaengige-es	posts/abhaengige-es/abhaengige-es.rmd	schoice	ja	nein		probability, paper	keines	ja	
 achsen_trick	posts/achsen_trick/achsen_trick.rmd	schoice	nein	nein		vis, schoice, quiz, paper	040-verbildlichen.qmd	ja	
 additionssatz-allgemein-schoice	posts/additionssatz-allgemein-schoice/additionssatz-allgemein-schoice.Rmd	schoice	nein	nein		wahrscheinlichkeit, paper	keines	ja	
 additionssatz-disjunkt-bedingung-schoice	posts/additionssatz-disjunkt-bedingung-schoice/additionssatz-disjunkt-bedingung-schoice.Rmd	schoice	nein	nein		wahrscheinlichkeit, paper	keines	ja	
@@ -49,7 +49,7 @@ bath42	posts/bath42/bath42.qmd	num	nein	nein		quiz, probability, bayes, num, qm2
 baumdiagramm-genau-zwei-treffer-schoice	posts/baumdiagramm-genau-zwei-treffer-schoice/baumdiagramm-genau-zwei-treffer-schoice.Rmd	schoice	nein	nein		wahrscheinlichkeit, paper	keines	ja	
 bayes-begriffe-apriori-likelihood-post-schoice	posts/bayes-begriffe-apriori-likelihood-post-schoice/bayes-begriffe-apriori-likelihood-post-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja	
 bayes-post-aussagen-schoice	posts/bayes-post-aussagen-schoice/bayes-post-aussagen-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja	
-bayes-r2-dyn	posts/bayes-r2-dyn/bayes-r2-dyn.rmd	num	ja	nein		bayes, regression, dyn	keines	nein	Render-Test: Error in `loadNamespace()`: ! es gibt kein Paket namens 'config'
+bayes-r2-dyn	posts/bayes-r2-dyn/bayes-r2-dyn.rmd	num	ja	nein		bayes, regression, dyn	keines	ja	
 bayes-r2-vs-frequentistisch-schoice	posts/bayes-r2-vs-frequentistisch-schoice/bayes-r2-vs-frequentistisch-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja	
 bayes-theorem-maschinen-schoice	posts/bayes-theorem-maschinen-schoice/bayes-theorem-maschinen-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja	
 bayes-theorem1	posts/bayes-theorem1/bayes-theorem1.qmd	num	ja	nein		bayes, probability, num	keines	ja	
@@ -70,9 +70,9 @@ bayesbox3	posts/bayesbox3/index.qmd	string	nein	nein		bayes, probability, paper,
 bayesmod-bestimmen01	posts/bayesmod-bestimmen01/bayesmod-bestimmen01.rmd	string	nein	nein		regression, bayes, prior, paper	keines	ja	
 bayesmod-bestimmen01-schoice	posts/bayesmod-bestimmen01-schoice/bayesmod-bestimmen01-schoice.Rmd	schoice	nein	nein		regression, bayes, prior, paper	keines	ja	
 bayesmod-bestimmen02	posts/bayesmod-bestimmen02/bayesmod-bestimmen02.rmd	string	nein	nein		regression, bayes, string, prior, paper	keines	ja	
-bed-gem-wskt	posts/bed-gem-wskt/bed-gem-wskt.rmd	num	ja	nein		bayes, regression, dyn, prediction	keines	nein	Render-Test: Error in `loadNamespace()`: ! es gibt kein Paket namens 'config'
+bed-gem-wskt	posts/bed-gem-wskt/bed-gem-wskt.rmd	num	ja	nein		bayes, regression, dyn, prediction	keines	nein	Render-Test: teachertools::teaching_df() findet teaching_data nicht (Daten per Netz)
 bed-post-wskt1	posts/bed-post-wskt1/bed-post-wskt1.rmd	schoice	nein	nein		regression, bayes, post, quiz, computer, paper	keines	ja	
-bed-post-wskt2	posts/bed-post-wskt2/bed-post-wskt2.rmd	string	ja	nein		post, bayes, dyn, paper	keines	nein	Render-Test: Error in `teachertools::teaching_df()`: ! Objekt 'teaching_data' nicht gefunden
+bed-post-wskt2	posts/bed-post-wskt2/bed-post-wskt2.rmd	string	ja	nein		post, bayes, dyn, paper	keines	nein	Render-Test: teachertools::teaching_df() findet teaching_data nicht (Daten per Netz)
 bed-wskt1	posts/bed-wskt1/bed-wskt1.qmd	num	ja	nein		probability, bayes, num, dyn, paper	keines	ja	
 bed-wskt2	posts/bed-wskt2/bed-wskt2.qmd	num	ja	nein		probability, bayes, num, qm2, qm2-pruefung2023, paper	keines	ja	
 bed-wskt3	posts/bed-wskt3/bed-wskt3.qmd	num	ja	nein		probability, bayes, num, paper	keines	ja	
@@ -132,7 +132,7 @@ confounder-example	posts/confounder-example/index.qmd	string	nein	nein		causal, 
 corona-blutgruppe	posts/corona-blutgruppe/corona-blutgruppe.qmd	string	nein	nein		probability, dependent, string, paper	keines	ja	
 corona-dashboard	posts/corona-dashboard/corona-dashboard.rmd	string	nein	nein		paper, todo	040-verbildlichen.qmd	nein	Render-Test: Error: ! file.exists(full_img_path) ist nicht TRUE
 corona-todesfaelle1	posts/corona-todesfaelle1/corona-todesfaelle1.rmd	schoice	nein	ja	R/exams, R-Code-Fehler (importiert): `path` does not exist: '../Data/Fallzahlen_Gesamtuebersicht.xlsx'	paper, todo	040-verbildlichen.qmd	nein	buggy (R/exams-Check)
-corr-dyn1	posts/corr-dyn1/corr-dyn1.rmd	num	ja	nein		correlation, dyn	070-zusammenhaenge.qmd	nein	Render-Test: Error in `loadNamespace()`: ! es gibt kein Paket namens 'config'
+corr-dyn1	posts/corr-dyn1/corr-dyn1.rmd	num	ja	nein		correlation, dyn	070-zusammenhaenge.qmd	nein	Render-Test: teachertools::teaching_df() findet teaching_data nicht (Daten per Netz)
 corrplot	posts/corrplot/corrplot.rmd	schoice	nein	ja	"R/exams, R-Code-Fehler (importiert): Cannot find the file(s): ""corrplot.png"""	paper, todo	070-zusammenhaenge.qmd	nein	buggy (R/exams-Check)
 count-emoji	posts/count-emoji/count-emoji.rmd	string	nein	nein		textmining, nlp, string	keines	ja	
 count-emoji-emo	posts/count-emoji-emo/count-emoji-emo.qmd	string	nein	nein		textmining, nlp, emoji, string	keines	ja	
@@ -248,7 +248,7 @@ flights-yacsda-eda	posts/flights-yacsda-eda/index.qmd	string	ja	nein		eda, yacsd
 fofrage-regrformel	posts/fofrage-regrformel/index.qmd	string	nein	nein		bayes, regression, paper	090-regression2.qmd	ja	
 fofrage-regrformel-schoice	posts/fofrage-regrformel-schoice/fofrage-regrformel-schoice.Rmd	schoice	nein	nein		paper, todo	090-regression2.qmd	ja	
 fofrage-regrformel2	posts/fofrage-regrformel2/index.qmd	string	nein	nein		bayes, regression, paper	090-regression2.qmd	ja	
-fofrage-regrformel2-schoice	posts/fofrage-regrformel2-schoice/fofrage-regrformel2-schoice.Rmd	schoice	nein	nein		paper, todo	090-regression2.qmd	nein	Render-Test: Error in `kable()`: ! konnte Funktion "kable" nicht finden
+fofrage-regrformel2-schoice	posts/fofrage-regrformel2-schoice/fofrage-regrformel2-schoice.Rmd	schoice	nein	nein		paper, todo	090-regression2.qmd	ja	
 frequentismus-bayes-unterschied-schoice	posts/frequentismus-bayes-unterschied-schoice/frequentismus-bayes-unterschied-schoice.Rmd	schoice	nein	nein		inferenz, paper	keines	ja	
 fun1	posts/fun1/index.qmd	string	nein	nein		R, programming, paper	020-R.qmd	ja	
 funktionsargumente	posts/funktionsargumente/funktionsargumente.rmd	schoice	nein	nein		R, schoice, quiz, paper	020-R.qmd	ja	
@@ -290,7 +290,7 @@ ggstatsplot01	posts/ggstatsplot01/ggstatsplot01.rmd	string	nein	nein		null	040-v
 gini-plot	posts/gini-plot/gini-plot.rmd	string	nein	nein		2023, vis, statlearning, trees, string	keines	ja	
 gleichverteilung-dichte-schoice	posts/gleichverteilung-dichte-schoice/gleichverteilung-dichte-schoice.Rmd	schoice	nein	nein		verteilungen, paper	keines	ja	
 gleichverteilung-eigenschaften-schoice	posts/gleichverteilung-eigenschaften-schoice/gleichverteilung-eigenschaften-schoice.Rmd	schoice	nein	nein		verteilungen, paper	keines	ja	
-glm-linear-transf	posts/glm-linear-transf/glm-linear-transf.rmd	cloze	nein	nein		paper, todo	keines	nein	Render-Test: Error in `stan_glm()`: ! konnte Funktion "stan_glm" nicht finden
+glm-linear-transf	posts/glm-linear-transf/glm-linear-transf.rmd	cloze	nein	nein		paper, todo	keines	ja	
 glm-linear-transf-tidymodels	posts/glm-linear-transf-tidymodels/glm-linear-transf-tidymodels.rmd	string	nein	nein		null	keines	nein	Render-Test: Error in `roc_curve()`:
 globus-bin	posts/globus-bin/index.qmd	string	nein	nein		probability, bayes, distributions	keines	ja	
 globus-bin2	posts/globus-bin2/index.qmd	string	nein	nein		probability, bayes, distributions	keines	ja	
@@ -371,7 +371,7 @@ iq09	posts/iq09/iq09.qmd	num	nein	nein		probability, simulation, normal-distribu
 iq10	posts/iq10/iq10.qmd	num	nein	nein		probability, simulation, normal-distribution, bayes, bayesbox, num, qm2, qm2-pruefung2023	keines	ja	
 joins	posts/joins/joins.rmd	schoice	ja	nein		paper, todo	030-aufbereiten.qmd	ja	
 k-coins-k-hits	posts/k-coins-k-hits/k-coins-k-hits.qmd	num	ja	nein		probability, dyn, bayes, num, paper	keines	ja	
-k-coins-nicht-k-hits	posts/k-coins-nicht-k-hits/k-coins-nicht-k-hits.rmd	num	ja	nein		probability, dyn, bayes, paper	keines	nein	Render-Test: Error: ! Objekt 'config' nicht gefunden
+k-coins-nicht-k-hits	posts/k-coins-nicht-k-hits/k-coins-nicht-k-hits.rmd	num	ja	nein		probability, dyn, bayes, paper	keines	ja	
 kaefer1	posts/kaefer1/kaefer1.qmd	num	nein	nein		R, bayes, bayesbox, num, paper	keines	ja	
 kaefer1-schoice	posts/kaefer1-schoice/kaefer1-schoice.Rmd	schoice	nein	nein		paper, todo	keines	ja	
 kaefer2	posts/kaefer2/kaefer2.qmd	num	nein	nein		R, bayes, bayesbox, num, qm2, qm2-pruefung2023, paper	keines	ja	
@@ -389,7 +389,7 @@ kausal07	posts/kausal07/kausal07.rmd	schoice	nein	nein		dag, causal, quiz, paper
 kausal08	posts/kausal08/kausal08.rmd	schoice	nein	nein		dag, causal, quiz, paper	keines	ja	
 kausal09	posts/kausal09/kausal09.rmd	schoice	nein	nein		dag, causal, quiz, paper	keines	ja	
 kausal10	posts/kausal10/kausal10.rmd	schoice	nein	nein		dag, causal, quiz, paper	keines	ja	
-kausal13	posts/kausal13/kausal13.rmd	schoice	ja	nein		paper, todo	keines	nein	Render-Test: Error in `answerlist()`: ! konnte Funktion "answerlist" nicht finden
+kausal13	posts/kausal13/kausal13.rmd	schoice	ja	nein		paper, todo	keines	ja	
 kausal20	posts/kausal20/kausal20.rmd	schoice	nein	nein		dag, causal, paper	keines	ja	
 kausal21	posts/kausal21/kausal21.rmd	schoice	nein	nein		dag, causal, paper	keines	ja	
 kausal22	posts/kausal22/kausal22.rmd	schoice	nein	nein		dag, causal, paper	keines	ja	
@@ -520,8 +520,8 @@ modelldef	posts/modelldef/modelldef.rmd	schoice	ja	nein		paper, todo	keines	ja
 modelldef-regrformel	posts/modelldef-regrformel/index.qmd	string	nein	nein		bayes, paper, regression	090-regression2.qmd	ja	
 modelldef2	posts/modelldef2/modelldef2.rmd	schoice	ja	nein		paper, todo	keines	ja	
 modellguete-testset	posts/modellguete-testset/modellguete-testset.rmd	string	nein	nein		regression, performance, rmse, string	090-regression2.qmd	ja	
-modellinterpret-beta	posts/modellinterpret-beta/modellinterpret-beta.rmd	num	ja	nein		bayes, regression, dyn, paper	090-regression2.qmd	nein	Render-Test: Error in `loadNamespace()`: ! es gibt kein Paket namens 'config'
-modellinterpret-breite	posts/modellinterpret-breite/modellinterpret-breite.rmd	num	ja	nein		bayes, regression, dyn	keines	nein	Render-Test: Error in `loadNamespace()`: ! es gibt kein Paket namens 'config'
+modellinterpret-beta	posts/modellinterpret-beta/modellinterpret-beta.rmd	num	ja	nein		bayes, regression, dyn, paper	090-regression2.qmd	ja	
+modellinterpret-breite	posts/modellinterpret-breite/modellinterpret-breite.rmd	num	ja	nein		bayes, regression, dyn	keines	ja	
 modellvergleich_mae	posts/modellvergleich_mae/modellvergleich_mae.rmd	schoice	nein	nein		variability, schoice, quiz, paper	060-modellguete.qmd	ja	
 moderation	posts/moderation/index.qmd	schoice	nein	nein		DUMMY, paper	090-regression2.qmd	ja	
 movie-sentiment1	posts/movie-sentiment1/movie-sentiment1.qmd	schoice	ja	ja	R/exams, R-Code-Fehler: file.exists(path_to_data) ist nicht TRUE	textmining, imdb, schoice, paper	keines	ja	
@@ -655,7 +655,7 @@ populationsinferenz-definition-schoice	posts/populationsinferenz-definition-scho
 popup01	posts/popup01/popup01.rmd	string	nein	nein		eda, datawrangling	030-aufbereiten.qmd	nein	Render-Test: Error in `mutate()`: ℹ In argument: `v001 = na_if(v001, "")`.
 post-befragen1	posts/post-befragen1/post-befragen1.rmd	schoice	nein	nein		regression, bayes, post, qm2-pruefung2023, quiz, paper	keines	ja	
 post-bei-uniformer-priori-schoice	posts/post-bei-uniformer-priori-schoice/post-bei-uniformer-priori-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja	
-post-effekt-1sd	posts/post-effekt-1sd/post-effekt-1sd.rmd	num	ja	nein		bayes, regression, dyn, prediction	keines	nein	Render-Test: Error in `loadNamespace()`: ! es gibt kein Paket namens 'config'
+post-effekt-1sd	posts/post-effekt-1sd/post-effekt-1sd.rmd	num	ja	nein		bayes, regression, dyn, prediction	keines	nein	Render-Test: teachertools::teaching_df() findet teaching_data nicht (Daten per Netz)
 post-frage-p-vs-q-schoice	posts/post-frage-p-vs-q-schoice/post-frage-p-vs-q-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja	
 post-groesse	posts/post-groesse/post-groesse.qmd	string	nein	nein		bayes, qm2, post	keines	ja	
 post-verteilung-vollstaendig-zusammenfassen-schoice	posts/post-verteilung-vollstaendig-zusammenfassen-schoice/post-verteilung-vollstaendig-zusammenfassen-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja	
@@ -664,25 +664,25 @@ post-wskt-intervall-schoice	posts/post-wskt-intervall-schoice/post-wskt-interval
 post-wskt-kleiner-schoice	posts/post-wskt-kleiner-schoice/post-wskt-kleiner-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja	
 post1	posts/post1/post1.rmd	schoice	nein	nein		null	040-verbildlichen.qmd	nein	
 post2	posts/post2/post2.rmd	cloze	ja	nein		null	keines	nein	Render-Test: Error: ! Objekt 'wrong_answers' nicht gefunden
-post2-breite-postint	posts/post2-breite-postint/post2-breite-postint.rmd	num	ja	nein		bayes, dyn, regression	keines	nein	Render-Test: Error in `loadNamespace()`: ! es gibt kein Paket namens 'config'
+post2-breite-postint	posts/post2-breite-postint/post2-breite-postint.rmd	num	ja	nein		bayes, dyn, regression	keines	ja	
 post2-glm	posts/post2-glm/post2-glm.rmd	cloze	ja	nein		qm2	keines	nein	Render-Test: Fehler beim Rendern
 post2-md-post	posts/post2-md-post/post2-md-post.rmd	schoice	ja	ja	R/exams, R-Code-Fehler (importiert): Objekt 'chains' nicht gefunden	bayes, regression	keines	nein	buggy (R/exams-Check)
-post2-r2	posts/post2-r2/post2-r2.rmd	num	nein	nein		null	keines	nein	Render-Test: Error in `loadNamespace()`: ! es gibt kein Paket namens 'config'
-post2-rope	posts/post2-rope/post2-rope.rmd	num	nein	nein		null	keines	nein	Render-Test: Error in `loadNamespace()`: ! es gibt kein Paket namens 'config'
+post2-r2	posts/post2-r2/post2-r2.rmd	num	nein	nein		null	keines	nein	Render-Test: teachertools::teaching_df() findet teaching_data nicht (Daten per Netz)
+post2-rope	posts/post2-rope/post2-rope.rmd	num	nein	nein		null	keines	ja	
 post3	posts/post3/post3.rmd	cloze	nein	nein		null	keines	nein	Render-Test: Error: ! Objekt 'breite' nicht gefunden
 post3a	posts/post3a/post3a.rmd	num	ja	nein		null	keines	ja	
 post3b	posts/post3b/post3b.rmd	schoice	ja	nein		null	keines	ja	
 post3c	posts/post3c/post3c.rmd	schoice	ja	ja	R/exams, R-Code-Fehler (importiert): Objekt 'question_chosen' nicht gefunden	qm2	keines	nein	buggy (R/exams-Check)
 post4	posts/post4/post4.rmd	cloze	nein	nein		null	keines	nein	Render-Test: Error in `post_interval()`: ! konnte Funktion "post_interval" nicht finden
 post5	posts/post5/post5.rmd	num	nein	nein		null	keines	ja	
-post5a	posts/post5a/post5a.rmd	num	ja	nein		qm2	keines	nein	Render-Test: Error in `loadNamespace()`: ! es gibt kein Paket namens 'config'
+post5a	posts/post5a/post5a.rmd	num	ja	nein		qm2	keines	nein	Render-Test: Objekt 'd_path' nicht gefunden (Zeile 92)
 posterior_interval	posts/posterior_interval/posterior_interval.rmd	schoice	nein	nein		bayes, regression, post, quiz, paper	keines	ja	
 postvert-regr-01	posts/postvert-regr-01/postvert-regr-01.rmd	schoice	nein	nein		regression, bayes, post, paper, quiz	keines	ja	
 postvert-vis-zwielicht	posts/postvert-vis-zwielicht/postvert-vis-zwielicht.qmd	string	ja	nein		2023, vis, bayes, post, string	keines	ja	
 ppdac_modell	posts/ppdac_modell/ppdac_modell.rmd	schoice	nein	nein		rahmen, schoice, quiz, paper	010-rahmen.qmd	ja	
 ppv-definition-schoice	posts/ppv-definition-schoice/ppv-definition-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja	
 ppv-dyn1	posts/ppv-dyn1/ppv-dyn1.rmd	num	nein	nein		bayes, ppv, regression, num, mtcars	keines	ja	
-ppv-dyn1-b	posts/ppv-dyn1-b/ppv-dyn1-b.rmd	num	nein	nein		bayes, ppv, regression	keines	nein	Render-Test: Fehler beim Rendern
+ppv-dyn1-b	posts/ppv-dyn1-b/ppv-dyn1-b.rmd	num	nein	nein		bayes, ppv, regression	keines	nein	Render-Test: round2() Nicht-numerisches Argument (Zeile 193)
 ppv-mixtur-keine-treffer-schoice	posts/ppv-mixtur-keine-treffer-schoice/ppv-mixtur-keine-treffer-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja	
 ppv-mixtur-treffer-schoice	posts/ppv-mixtur-treffer-schoice/ppv-mixtur-treffer-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja	
 ppv-mtcars1	posts/ppv-mtcars1/ppv-mtcars1.rmd	num	nein	nein		bayes, ppv, regression, num, mtcars	keines	ja	
@@ -696,9 +696,9 @@ ppv1a-mtcars	posts/ppv1a-mtcars/ppv1a-mtcars.rmd	schoice	nein	nein		bayes, regre
 ppv1c	posts/ppv1c/ppv1c.rmd	schoice	ja	ja	R/exams, R-Code-Fehler (importiert): Objekt 'd_path' nicht gefunden	null	keines	nein	buggy (R/exams-Check)
 ppv2	posts/ppv2/ppv2.rmd	num	ja	nein		null	keines	nein	Render-Test: Fehler beim Rendern
 ppv2a	posts/ppv2a/ppv2a.rmd	schoice	ja	ja	R/exams, R-Code-Fehler (importiert): Objekt 'd_path' nicht gefunden	null	keines	nein	buggy (R/exams-Check)
-ppv3a-num	posts/ppv3a-num/ppv3a-num.rmd	num	ja	nein		qm2, bayes, ppv, inference, prediction	keines	nein	Render-Test: Error in `loadNamespace()`: ! es gibt kein Paket namens 'config'
+ppv3a-num	posts/ppv3a-num/ppv3a-num.rmd	num	ja	nein		qm2, bayes, ppv, inference, prediction	keines	ja	
 ppv3a-schoice	posts/ppv3a-schoice/ppv3a-schoice.rmd	schoice	ja	ja	R/exams, R-Code-Fehler (importiert): Objekt 'preds' nicht gefunden	bayes, ppv, inference, prediction	keines	nein	buggy (R/exams-Check)
-praedikatenlogik1	posts/praedikatenlogik1/praedikatenlogik1.rmd	string	ja	nein		paper, todo	keines	nein	Render-Test: Error in `d %>% mutate(id = row_number()) %>% sample_n(size = 1)`: ! konnte Funktion "%>%" nicht finden
+praedikatenlogik1	posts/praedikatenlogik1/praedikatenlogik1.rmd	string	ja	nein		paper, todo	keines	ja	
 praediktor-zentrieren-schoice	posts/praediktor-zentrieren-schoice/praediktor-zentrieren-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja	
 praediktoren-zentrieren	posts/praediktoren-zentrieren/praediktoren-zentrieren.rmd	string	nein	nein		paper, todo	080-regression1.qmd	ja	
 praesi-versuchsdesign	posts/praesi-versuchsdesign/praesi-versuchsdesign.rmd	string	nein	nein		null	keines	ja	
@@ -855,7 +855,7 @@ schlussarten-abduktion-formel	posts/schlussarten-abduktion-formel/schlussarten-a
 schlussarten-deduktion-formel	posts/schlussarten-deduktion-formel/schlussarten-deduktion-formel.rmd	schoice	nein	nein		paper, todo	keines	ja	
 schlussarten-induktion-formel	posts/schlussarten-induktion-formel/schlussarten-induktion-formel.rmd	schoice	nein	nein		paper, todo	keines	ja	
 schmalste-post	posts/schmalste-post/index.qmd	schoice	nein	nein		probability, distributions, exam24, paper	keines	ja	
-schminke1	posts/schminke1/schminke1.rmd	num	ja	nein		null	keines	nein	Render-Test: Error in `d %>% sample_n(size = 1)`: ! konnte Funktion "%>%" nicht finden
+schminke1	posts/schminke1/schminke1.rmd	num	ja	nein		null	keines	ja	
 scikit-llm-zeroshot	posts/scikit-llm-zeroshot/scikit-llm-zeroshot.qmd	string	nein	nein		textmining, nlp, transformer, chatgpt, sentiment, scikit	keines	ja	
 sd-vergleich	posts/sd-vergleich/sd-vergleich.rmd	schoice	ja	nein		datawrangling, eda, tidyverse, vis, variability, schoice, paper, quiz	060-modellguete.qmd	ja	
 sd_vs_varianz	posts/sd_vs_varianz/sd_vs_varianz.rmd	schoice	nein	nein		variability, schoice, quiz, paper	060-modellguete.qmd	ja	
@@ -908,7 +908,7 @@ stichprobenziehen1	posts/stichprobenziehen1/stichprobenziehen1.rmd	string	nein	n
 stipro-bayesbox01	posts/stipro-bayesbox01/stipro-bayesbox01.qmd	num	nein	nein		R, bayes, bayes-grid, probability	keines	ja	
 stipro-bayesbox02	posts/stipro-bayesbox02/stipro-bayesbox02.qmd	num	nein	nein		R, bayes, bayes-grid, probability	keines	ja	
 stipro-beschreiben	posts/stipro-beschreiben/stipro-beschreiben.rmd	string	nein	nein		null	010-rahmen.qmd	ja	
-stiprovert-life-exp	posts/stiprovert-life-exp/stiprovert-life-exp.rmd	string	nein	nein		simulation, inference	keines	nein	Render-Test: Error in `read_xlsx()`: ! konnte Funktion "read_xlsx" nicht finden
+stiprovert-life-exp	posts/stiprovert-life-exp/stiprovert-life-exp.rmd	string	nein	nein		simulation, inference	keines	nein	Render-Test: Datei 'Laender-Hauptstaedte.xslx' fehlt (Tippfehler xslx; Datei liegt in 11_rexams-entwicklung)
 stochastisch-vs-kausal-unabhaengig-schoice	posts/stochastisch-vs-kausal-unabhaengig-schoice/stochastisch-vs-kausal-unabhaengig-schoice.Rmd	schoice	nein	nein		wahrscheinlichkeit, paper	keines	ja	
 streudiagramm	posts/streudiagramm/streudiagramm.rmd	schoice	ja	nein		vis, 2023, schoice, quiz, paper	070-zusammenhaenge.qmd	ja	
 streuung-histogramm	posts/streuung-histogramm/streuung-histogramm.rmd	schoice	ja	nein		eda, variability, dyn, schoice, paper	050-zusammenfassen.qmd	ja	

@@ -73,6 +73,7 @@ sol
 
 
 ```{r tol, echo = FALSE}
+config <- list(tol_abs = 0.05)  # Standardwert aus rexams-entwicklung/config.yml
 sol_tol <- config$tol_abs |> exams::fmt(3)
 ```
 

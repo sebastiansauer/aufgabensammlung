@@ -26,7 +26,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 options(mc.cores = parallel::detectCores())
 
-config <- config <- config::get(file = "/Users/sebastiansaueruser/github-repos/rexams-exercises/config.yml")
+config <- config <- list(chains = 4, relative_tolerance = 0.1, tol_rel = 0.05, tol_abs = 0.05)  # Standardwerte aus rexams-entwicklung/config.yml
 ```
 
 

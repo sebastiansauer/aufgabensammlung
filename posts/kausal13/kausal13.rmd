@@ -5,6 +5,11 @@ categories:
 - todo
 ---
 
+```{r setup-pakete, include=FALSE}
+library(exams)
+```
+
+
 <!-- This exercise is based on Karsten Luebke. -->
 
 

@@ -15,6 +15,11 @@ knitr::opts_chunk$set(fig.pos = 'H',
                       comment = "")
 ```
 
+```{r setup-pakete, include=FALSE}
+library(tidyverse)
+```
+
+
 
 
 

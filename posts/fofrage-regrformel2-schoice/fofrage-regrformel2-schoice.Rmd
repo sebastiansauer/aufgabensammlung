@@ -5,6 +5,11 @@ categories:
 - todo
 ---
 
+```{r setup-pakete, include=FALSE}
+library(knitr)
+```
+
+
 ```{r, include=FALSE}
 library(palmerpenguins)
 library(tidyverse)

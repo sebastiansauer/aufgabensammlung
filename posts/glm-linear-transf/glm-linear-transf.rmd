@@ -5,6 +5,11 @@ categories:
 - todo
 ---
 
+```{r setup-pakete, include=FALSE}
+library(rstanarm)
+```
+
+
 ```{r message = FALSE}
 library(tidyverse)
 options(mc.cores = parallel::detectCores())
