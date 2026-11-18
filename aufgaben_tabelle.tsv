@@ -524,7 +524,7 @@ modellinterpret-beta	posts/modellinterpret-beta/modellinterpret-beta.rmd	num	ja	
 modellinterpret-breite	posts/modellinterpret-breite/modellinterpret-breite.rmd	num	ja	nein		bayes, regression, dyn	keines	ja	
 modellvergleich_mae	posts/modellvergleich_mae/modellvergleich_mae.rmd	schoice	nein	nein		variability, schoice, quiz, paper	060-modellguete.qmd	ja	
 moderation	posts/moderation/index.qmd	schoice	nein	nein		DUMMY, paper	090-regression2.qmd	ja	
-movie-sentiment1	posts/movie-sentiment1/movie-sentiment1.qmd	schoice	ja	ja	R/exams, R-Code-Fehler: file.exists(path_to_data) ist nicht TRUE	textmining, imdb, schoice, paper	keines	ja	
+movie-sentiment1	posts/movie-sentiment1/movie-sentiment1.qmd	schoice	ja	ja	R/exams, R-Code-Fehler: file.exists(path_to_data) ist nicht TRUE	textmining, imdb, schoice, paper	keines	nein	Blog-Render: Funktion %>% nicht gefunden (Chunk syntax-vector, Zeile 485) und Datei path_to_data fehlt
 movies-vis1	posts/movies-vis1/movies-vis1.rmd	string	nein	nein		vis, eda, string, computer	040-verbildlichen.qmd	ja	
 movies-vis2	posts/movies-vis2/movies-vis2.rmd	string	nein	nein		vis, eda, string, computer	040-verbildlichen.qmd	ja	
 mse	posts/mse/mse.rmd	schoice	nein	nein		ds1, tidymodels, statlearning, schoice, quiz, paper	080-regression1.qmd	ja	
@@ -953,7 +953,7 @@ tidymodels-penguins02	posts/tidymodels-penguins02/tidymodels-penguins02.rmd	num	
 tidymodels-penguins03	posts/tidymodels-penguins03/tidymodels-penguins03.rmd	num	nein	nein		ds1, tidymodels, prediction, yacsda, statlearning, num	keines	ja	
 tidymodels-penguins04	posts/tidymodels-penguins04/tidymodels-penguins04.rmd	num	nein	nein		ds1, tidymodels, prediction, yacsda, statlearning, num	keines	ja	
 tidymodels-penguins05	posts/tidymodels-penguins05/tidymodels-penguins05.rmd	num	nein	nein		ds1, tidymodels, prediction, yacsda, statlearning, num	keines	ja	
-tidymodels-penguins06	posts/tidymodels-penguins06/tidymodels-penguins06.qmd	schoice	nein	ja	R/exams, R-Code-Fehler: `last_fit()` is not well-defined for a fitted workflow.	tidymodels, statlearning, schoice, quiz	keines	ja	
+tidymodels-penguins06	posts/tidymodels-penguins06/tidymodels-penguins06.qmd	schoice	nein	ja	R/exams, R-Code-Fehler: `last_fit()` is not well-defined for a fitted workflow.	tidymodels, statlearning, schoice, quiz	keines	nein	Blog-Render: Funktion fmt() (Paket exams) nicht gefunden, Zeile 215
 tidymodels-penguins07	posts/tidymodels-penguins07/tidymodels-penguins07.qmd	num	nein	nein		tidymodels, statlearning, trees, num	keines	ja	
 tidymodels-poly01	posts/tidymodels-poly01/tidymodels-poly01.rmd	num	nein	nein		R, statlearning, tidymodels, num	keines	ja	
 tidymodels-poly02	posts/tidymodels-poly02/tidymodels-poly02.qmd	num	nein	nein		R, statlearning, tidymodels, num	keines	ja	
