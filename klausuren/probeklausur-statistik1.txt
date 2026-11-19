@@ -1,0 +1,53 @@
+# Probeklausur Statistik 1
+#
+# Grundlage: die Probeklausur in ../01_statistik1/125-probeklausur.qmd
+# (30 schoice-Aufgaben, alle mit Papier lösbar). 10 davon sind hier als
+# trivial markiert und wurden durch nicht-triviale Aufgaben aus demselben
+# Kapitel ersetzt; das Original steht jeweils als Kommentar dahinter.
+# Reihenfolge: nach Kapiteln des Buchs.
+
+# 010-rahmen
+posts/aufgaben_statistik/aufgaben_statistik.rmd
+
+# 020-R
+posts/datentypen_coercion/datentypen_coercion.rmd
+posts/dollar_operator/dollar_operator.rmd
+posts/funktionsargumente_defaults/funktionsargumente_defaults.rmd
+posts/logikpruefung_gleichheit/logikpruefung_gleichheit.rmd  # statt logikpruefung_anwendung
+posts/mean_na_standard/mean_na_standard.rmd
+posts/na_handling_transfer/na_handling_transfer.rmd
+posts/vektorisierung_logik/vektorisierung_logik.rmd  # statt na_bedeutung
+
+# 030-aufbereiten
+posts/count_nominal/count_nominal.rmd
+posts/filter_syntax/filter_syntax.rmd  # statt filter_logik
+posts/group_summarise/group_summarise.rmd  # statt lego_prinzip_logik
+posts/mutate_neu/mutate_neu.rmd
+posts/pipe_vorteil/pipe_vorteil.rmd
+posts/arrange_minus/arrange_minus.rmd  # statt praxis_datenjudo
+
+# 040-verbildlichen
+posts/boxplot_schiefe/boxplot_schiefe.rmd  # statt anscombe_logik
+posts/normal_rechnen/normal_rechnen.rmd
+posts/plot_wahl/plot_wahl.rmd
+posts/scatter_ellipse/scatter_ellipse.rmd  # statt achsen_trick
+
+# 050-zusammenfassen
+posts/median_gerade_n/median_gerade_n.rmd  # statt definition_punktmodell
+posts/quantil_transfer/quantil_transfer.rmd  # statt gruppen_modell_vorteil
+posts/mw_eigenschaft/mw_eigenschaft.rmd
+
+# 060-modellguete
+posts/mae_berechnung/mae_berechnung.rmd
+posts/robuste_streuung/robuste_streuung.rmd
+posts/sd_vs_varianz/sd_vs_varianz.rmd
+
+# 070-zusammenhaenge
+posts/korrelation_richtung/korrelation_richtung.rmd
+posts/kovarianz_skalierung/kovarianz_skalierung.rmd
+posts/korrelation_na_handling/korrelation_na_handling.rmd
+posts/korrelation_z_logik/korrelation_z_logik.rmd
+
+# 080-regression1
+posts/slope_inter/slope_inter.rmd  # statt neg_slope
+posts/resid_calc/resid_calc.rmd

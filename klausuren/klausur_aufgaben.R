@@ -14,8 +14,9 @@
 #   klausuren_uebersicht()
 
 klausur_aufgaben <- function(datei, tabelle = "aufgaben_tabelle.tsv") {
-  zeilen <- trimws(readLines(datei, warn = FALSE, encoding = "UTF-8"))
-  pfade <- zeilen[zeilen != "" & !startsWith(zeilen, "#")]
+  zeilen <- readLines(datei, warn = FALSE, encoding = "UTF-8")
+  zeilen <- trimws(sub("#.*$", "", zeilen))  # Kommentare entfernen
+  pfade <- zeilen[zeilen != ""]
 
   fehlend <- pfade[!file.exists(pfade)]
   if (length(fehlend) > 0) {

@@ -3,7 +3,7 @@
 # Kopieren und umbenennen, z. B. nach probeklausur-2026-ws.txt.
 # Eine Aufgabe pro Zeile, als Pfad relativ zum Repo-Wurzelordner.
 # Die Reihenfolge der Zeilen ist die Reihenfolge in der Klausur.
-# Zeilen mit # und Leerzeilen werden ignoriert.
+# Alles ab # ist Kommentar (auch hinter einem Pfad); Leerzeilen zählen nicht.
 #
 # Einlesen und prüfen:
 #   source("klausuren/klausur_aufgaben.R")
