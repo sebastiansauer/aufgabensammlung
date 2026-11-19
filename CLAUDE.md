@@ -92,6 +92,7 @@ The `exsolution` binary string corresponds 1:1 to the order of options in the An
 - `import_start-bayes.tsv` — the same for `../04_start-bayes/exr`
 - `aufgaben_tabelle.tsv` — one row per exercise: name, path, extype, dynamic, buggy (+ reason), categories, `Statistik1` (best-fitting chapter of `../01_statistik1` as its qmd file name, or `keines`; taken from `../01_statistik1/quiz-aufgaben.csv` where available, otherwise assigned by content), `blog` (`ja`/`nein`: whether the exercise goes into the blog; `nein` for buggy exercises and for those that failed a test render in the blog project), `blog_grund` (reason for `nein`), `schwierigkeit` (`trivial` for exercises tagged `trivial`, otherwise empty)
 - `zu_einfache_aufgaben.md` — which exercises are trivial (and why), borderline cases, and bugs found along the way
+- `klausuren/` — one `.txt` file per exam or mock exam (e.g. `probeklausur-2026-ws.txt`), listing its exercises as paths relative to the repo root, one per line, in exam order; `#` lines and blank lines are ignored; `vorlage.txt` is the template. `klausuren/klausur_aufgaben.R` provides `klausur_aufgaben(datei)` (reads a list, fails on missing or duplicate files, warns on buggy ones, returns paths for `exams2moodle()` etc.) and `klausuren_uebersicht()` (which exercise is in which exam). The exam assignment lives **only** here — not in the exercises' YAML and not in `aufgaben_tabelle.tsv` — so it never reaches the blog
 
 ## File format notes
 
