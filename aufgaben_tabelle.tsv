@@ -206,6 +206,7 @@ euro-bayes	posts/euro-bayes/euro-bayes.rmd	num	nein	nein		probability, bayesbox	
 evidenz-funktion-schoice	posts/evidenz-funktion-schoice/evidenz-funktion-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja		
 evidenz-maschinen-schoice	posts/evidenz-maschinen-schoice/evidenz-maschinen-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja		
 exp-prior-95quantil-schoice	posts/exp-prior-95quantil-schoice/exp-prior-95quantil-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja		
+exp-priori-lambda-koerpergroesse-num	posts/exp-priori-lambda-koerpergroesse-num/exp-priori-lambda-koerpergroesse-num.Rmd	num	ja	nein		bayes, distributions, num, paper	keines	ja		
 exp-tab	posts/exp-tab/index.qmd	string	nein	nein		distributions, probability, paper	keines	ja		
 exp-tab-schoice	posts/exp-tab-schoice/exp-tab-schoice.Rmd	schoice	nein	nein		paper, todo	keines	ja		
 exp-tab2	posts/exp-tab2/index.qmd	string	nein	nein		distributions, probability, paper	keines	ja		
