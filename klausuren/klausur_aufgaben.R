@@ -73,7 +73,8 @@ klausur_finden <- function(name, repo) {
 # Rückgabe: list(kopf = Zeilen des Kopfkommentars,
 #                info = data.frame(pfad, abschnitt, kommentar))
 # Kopfkommentar: Kommentare bis zur letzten Leerzeile vor der ersten Aufgabe.
-# Abschnitt: Kommentarzeile mit Leerzeile davor und Aufgabenpfad danach.
+# Abschnitt: Kommentarzeile mit Leerzeile davor und Aufgabenpfad danach
+# (auskommentierte Aufgaben dazwischen werden übersprungen).
 klausur_struktur <- function(datei) {
   zeilen <- readLines(datei, warn = FALSE, encoding = "UTF-8")
   ist_pfad <- trimws(sub("#.*$", "", zeilen)) != ""
@@ -85,12 +86,18 @@ klausur_struktur <- function(datei) {
   kopf <- zeilen[seq_len(kopf_ende)]
   kopf <- sub("^\\s*# ?", "", kopf[ist_komm[seq_len(kopf_ende)]])
 
+  # Auskommentierte Aufgaben ("# posts/...") zählen dabei nicht: Sie dürfen
+  # zwischen Abschnittskommentar und erster Aufgabe stehen.
+  ist_aus <- grepl("^\\s*#\\s*posts/", zeilen)
   abschnitt <- character(length(zeilen))
   aktuell <- ""
   for (i in seq_along(zeilen)) {
-    if (ist_komm[i] && i < length(zeilen) && ist_pfad[i + 1] &&
-        (i == 1 || trimws(zeilen[i - 1]) == "")) {
-      aktuell <- sub("^\\s*#\\s*", "", zeilen[i])
+    if (ist_komm[i] && !ist_aus[i] && (i == 1 || trimws(zeilen[i - 1]) == "")) {
+      j <- i + 1
+      while (j <= length(zeilen) && ist_aus[j]) j <- j + 1
+      if (j <= length(zeilen) && ist_pfad[j]) {
+        aktuell <- sub("^\\s*#\\s*", "", zeilen[i])
+      }
     }
     abschnitt[i] <- aktuell
   }
