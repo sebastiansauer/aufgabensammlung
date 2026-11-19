@@ -39,10 +39,10 @@ Jede Zeile der Bayesbox soll mit einer Wahrscheinlichkeit gezogen werden, die pr
 
 Warum die Distraktoren falsch sind:
 
-* `A = post`, `B = FALSE`: Gewichtung richtig, aber ohne Zurücklegen kann jede der 11 Zeilen nur einmal gezogen werden. 10000 Ziehungen sind so unmöglich; R bricht mit einem Fehler ab. Wer diese Option wählt, übersieht, dass die Bayesbox nur wenige Gitterwerte hat.
+* `A = post`, `B = FALSE`: Gewichtung richtig, aber ohne Zurücklegen kann jede der 11 Zeilen höchstens einmal gezogen werden. `slice_sample()` liefert dann höchstens 11 statt 10000 Werte (hier bricht R sogar ab, weil die Gitterwerte 0 und 1 die Post-Wahrscheinlichkeit 0 haben). Eine Stichprobe aus der Post-Verteilung ist das nicht. Wer diese Option wählt, übersieht, dass die Bayesbox nur wenige Gitterwerte hat.
 * `A = p_grid`, `B = TRUE`: Hier wird nach dem Parameterwert selbst gewichtet statt nach seiner Wahrscheinlichkeit. Große Wasseranteile würden dann bevorzugt gezogen, unabhängig von den Daten (6 von 9). Verwechslung von *Wert* und *Wahrscheinlichkeit des Werts*.
 * `A = prior`, `B = TRUE`: Die Gewichtung nach der Priori liefert eine Stichprobe aus der Priori-Verteilung; da die Priori hier gleichverteilt ist, käme jeder Gitterwert gleich oft vor. Die Daten (Likelihood) gingen gar nicht ein.
-* `A = p_grid`, `B = FALSE`: kombiniert beide Fehler: falsche Gewichtung und Ziehen ohne Zurücklegen (das ebenfalls zum Abbruch führt).
+* `A = p_grid`, `B = FALSE`: kombiniert beide Fehler: falsche Gewichtung und Ziehen ohne Zurücklegen (das ebenfalls höchstens 11 Werte liefert).
 
 
 Aufgabenname: `post-stichprobe-luecke-schoice`
