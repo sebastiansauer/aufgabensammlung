@@ -14,5 +14,7 @@
 #   Rscript klausuren/klausur_html.R klausuren/probeklausur-2026-ws.txt --open
 # Als interaktives Quiz (exams2forms, wie in den Büchern):
 #   Rscript klausuren/klausur_forms.R klausuren/probeklausur-2026-ws.txt --open
+# Als Moodle-XML (Datei landet in klausuren/moodle/):
+#   Rscript klausuren/klausur_moodle.R klausuren/probeklausur-2026-ws.txt
 
 posts/kolmogorov-axiome-schoice/kolmogorov-axiome-schoice.Rmd

@@ -36,3 +36,6 @@ Icon?
 
 **/*.quarto_ipynb
 *.bak
+
+# Moodle-Exporte der Klausurlisten (klausuren/klausur_moodle.R)
+klausuren/moodle/
