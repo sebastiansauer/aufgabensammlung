@@ -64,6 +64,7 @@ bayes2	posts/bayes2/bayes2.qmd	num	nein	nein		R, bayes, probability, num	keines	
 bayesbox	posts/bayesbox/index.qmd	string	nein	nein		bayes, probability, computer, paper	keines	ja		
 bayesbox-post-berechnung-schoice	posts/bayesbox-post-berechnung-schoice/bayesbox-post-berechnung-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja		
 bayesbox-standardisierung-schoice	posts/bayesbox-standardisierung-schoice/bayesbox-standardisierung-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja		
+bayesbox-zeilenzahl-num	posts/bayesbox-zeilenzahl-num/bayesbox-zeilenzahl-num.Rmd	num	nein	nein		bayes, bayesbox, regression, num	keines	ja		
 bayesbox-zeilenzahl-schoice	posts/bayesbox-zeilenzahl-schoice/bayesbox-zeilenzahl-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja		
 bayesbox2	posts/bayesbox2/index.qmd	string	nein	nein		bayes, probability, paper	keines	ja		
 bayesbox3	posts/bayesbox3/index.qmd	string	nein	nein		bayes, probability, paper, num, computer	keines	ja		
@@ -1189,4 +1190,3 @@ twitter06	posts_buggy/twitter06/twitter06.rmd	string	nein	ja	Ordner posts_buggy	
 twitter07	posts_buggy/twitter07/twitter07.rmd	string	nein	ja	Ordner posts_buggy	textmining, twitter, programming	keines	nein	buggy (R/exams-Check)	
 wildemojis	posts_buggy/wildemojis/wildemojis.qmd	string	nein	ja	Ordner posts_buggy	emojis, nlp, textmining, germeval	keines	nein	buggy (R/exams-Check)	
 randomdag1	posts_buggy/randomdag1/randomdag1.buggy		nein	ja	Ordner posts_buggy; nur .buggy-Datei, kein Rmd/qmd		keines	nein	buggy (Ordner posts_buggy)	
-bayesbox-zeilenzahl-num	posts/bayesbox-zeilenzahl-num/bayesbox-zeilenzahl-num.Rmd	num	nein	nein		bayes, bayesbox, regression, num	keines	ja		
