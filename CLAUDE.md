@@ -19,7 +19,7 @@ The script copies every `posts/<slug>/` folder 1:1 (no reformatting, without `*_
 
 ## YAML header
 
-Every exercise starts with a YAML header holding at least `title` and `categories`. `categories: null` marks an exercise whose categories still have to be added; if such an exercise also gets `paper`, the marker becomes the category `todo`. The category `paper` means the exercise can be solved with pen and paper only (no R, no calculator, no internet).
+Every exercise starts with a YAML header holding at least `title` and `categories`. `categories: null` marks an exercise whose categories still have to be added; if such an exercise also gets `paper`, the marker becomes the category `todo`. The category `paper` means the exercise can be solved with pen and paper only (no R, no calculator, no internet). The category `trivial` marks an exercise that is too easy: solvable without thinking because the answer is in the text, follows from everyday logic, or the correct option gives itself away by length or wording (see `zu_einfache_aufgaben.md`).
 
 ## schoice exercises: R/exams format
 
@@ -90,7 +90,8 @@ The `exsolution` binary string corresponds 1:1 to the order of options in the An
 - `import_rexams-entwicklung.tsv` — which exercises from `../11_rexams-entwicklung/exercises/sebastiansauer/de` were imported (and under which name) and which were skipped as duplicates
 - `import_statistik1.tsv` — the same for `../01_statistik1/exs`
 - `import_start-bayes.tsv` — the same for `../04_start-bayes/exr`
-- `aufgaben_tabelle.tsv` — one row per exercise: name, path, extype, dynamic, buggy (+ reason), categories, `Statistik1`, `blog` (`ja`/`nein`: whether the exercise goes into the blog; `nein` for buggy exercises and for those that failed a test render in the blog project), `blog_grund` (reason for `nein`) (best-fitting chapter of `../01_statistik1` as its qmd file name, or `keines`; taken from `../01_statistik1/quiz-aufgaben.csv` where available, otherwise assigned by content)
+- `aufgaben_tabelle.tsv` — one row per exercise: name, path, extype, dynamic, buggy (+ reason), categories, `Statistik1` (best-fitting chapter of `../01_statistik1` as its qmd file name, or `keines`; taken from `../01_statistik1/quiz-aufgaben.csv` where available, otherwise assigned by content), `blog` (`ja`/`nein`: whether the exercise goes into the blog; `nein` for buggy exercises and for those that failed a test render in the blog project), `blog_grund` (reason for `nein`), `schwierigkeit` (`trivial` for exercises tagged `trivial`, otherwise empty)
+- `zu_einfache_aufgaben.md` — which exercises are trivial (and why), borderline cases, and bugs found along the way
 
 ## File format notes
 
