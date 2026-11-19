@@ -77,6 +77,7 @@ bed-wskt1	posts/bed-wskt1/bed-wskt1.qmd	num	ja	nein		probability, bayes, num, dy
 bed-wskt2	posts/bed-wskt2/bed-wskt2.qmd	num	ja	nein		probability, bayes, num, qm2, qm2-pruefung2023, paper	keines	ja		
 bed-wskt3	posts/bed-wskt3/bed-wskt3.qmd	num	ja	nein		probability, bayes, num, paper	keines	ja		
 bedingte-wahrscheinlichkeit-hintergrundwissen-schoice	posts/bedingte-wahrscheinlichkeit-hintergrundwissen-schoice/bedingte-wahrscheinlichkeit-hintergrundwissen-schoice.Rmd	schoice	nein	nein		wahrscheinlichkeit, paper, trivial	keines	ja		trivial
+bedingte-wskt-definition-gueltigkeit-schoice	posts/bedingte-wskt-definition-gueltigkeit-schoice/bedingte-wskt-definition-gueltigkeit-schoice.Rmd	schoice	nein	nein		probability, paper	keines	ja		
 bedingte-wskt-tabelle-schoice	posts/bedingte-wskt-tabelle-schoice/bedingte-wskt-tabelle-schoice.Rmd	schoice	nein	nein		wahrscheinlichkeit, paper	keines	ja		
 beobachtungseinheit	posts/beobachtungseinheit/beobachtungseinheit.rmd	schoice	ja	nein		basics, data, paper	010-rahmen.qmd	ja		
 bertie-bott3	posts/bertie-bott3/index.qmd	string	nein	nein		probability, paper	keines	ja		
@@ -658,6 +659,8 @@ post-bei-uniformer-priori-schoice	posts/post-bei-uniformer-priori-schoice/post-b
 post-effekt-1sd	posts/post-effekt-1sd/post-effekt-1sd.rmd	num	ja	nein		bayes, regression, dyn, prediction	keines	nein	Render-Test: teachertools::teaching_df() findet teaching_data nicht (Daten per Netz)	
 post-frage-p-vs-q-schoice	posts/post-frage-p-vs-q-schoice/post-frage-p-vs-q-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja		
 post-groesse	posts/post-groesse/post-groesse.qmd	string	nein	nein		bayes, qm2, post	keines	ja		
+post-stichprobe-anteil-ablesen-schoice	posts/post-stichprobe-anteil-ablesen-schoice/post-stichprobe-anteil-ablesen-schoice.Rmd	schoice	ja	nein		bayes, probability, paper	keines	ja		
+post-stichprobe-aussagen-pruefen-schoice	posts/post-stichprobe-aussagen-pruefen-schoice/post-stichprobe-aussagen-pruefen-schoice.Rmd	schoice	ja	nein		bayes, probability, paper	keines	ja		
 post-stichprobe-luecke-schoice	posts/post-stichprobe-luecke-schoice/post-stichprobe-luecke-schoice.Rmd	schoice	nein	nein		bayes, R, paper	keines	ja		
 post-verteilung-vollstaendig-zusammenfassen-schoice	posts/post-verteilung-vollstaendig-zusammenfassen-schoice/post-verteilung-vollstaendig-zusammenfassen-schoice.Rmd	schoice	nein	nein		bayes, paper, trivial	keines	ja		trivial
 post-wskt-achsenabschnitt-schoice	posts/post-wskt-achsenabschnitt-schoice/post-wskt-achsenabschnitt-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja		
