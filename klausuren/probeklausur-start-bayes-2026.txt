@@ -2,7 +2,7 @@
 #
 # Stoff: Kapitel 0200 (Die drei Zielarten der Statistik) bis
 # 0600 (Die Post befragen).
-# 28 schoice-Aufgaben, alle mit Papier lösbar (einige Rechenaufgaben
+# Ca. 25 schoice-Aufgaben, alle mit Papier lösbar (einige Rechenaufgaben
 # brauchen einen Taschenrechner, z. B. Binomialwahrscheinlichkeiten).
 # Keine Aufgabe ist als trivial oder buggy markiert, und keine stammt aus
 # der Probeklausur 2025 (probeklausur-start-bayes-2025.txt).
@@ -10,13 +10,13 @@
 # wo das Buch die Aufgabe (bzw. ihre Nicht-schoice-Variante) verlinkt.
 
 # 0200-zielarten
-posts/regr-spezialfaelle-schoice/regr-spezialfaelle-schoice.Rmd
-posts/zielarten-stat-schoice/zielarten-stat-schoice.Rmd
+# posts/regr-spezialfaelle-schoice/regr-spezialfaelle-schoice.Rmd
+# posts/zielarten-stat-schoice/zielarten-stat-schoice.Rmd
 posts/mediator-vs-confounder-schoice/mediator-vs-confounder-schoice.Rmd
 
 # 0250-inferenz
 posts/frequentismus-bayes-unterschied-schoice/frequentismus-bayes-unterschied-schoice.Rmd
-posts/nullhyp-korrelation-schoice/nullhyp-korrelation-schoice.Rmd
+# posts/nullhyp-korrelation-schoice/nullhyp-korrelation-schoice.Rmd
 posts/interpret-ci2/index.qmd
 posts/ungewissheit-beta-sigma-schoice/ungewissheit-beta-sigma-schoice.Rmd
 
