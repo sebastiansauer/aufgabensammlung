@@ -124,7 +124,7 @@ exname: totale-wskt1
 extype: num
 expoints: 1
 exsolution: `r exams::fmt(sol)`
-extol: `r sol_tol`
+extol: 0.01
 exshuffle: false
 
 
