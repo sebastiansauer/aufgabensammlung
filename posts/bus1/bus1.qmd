@@ -1,10 +1,4 @@
 ---
-exname: bus1
-extype: num
-exsolution: r y
-exshuffle: no
-extol: 1
-expoints: 1
 categories:
 - probability
 - bayes
@@ -13,8 +7,6 @@ date: '2023-11-08'
 title: Bus1
 draft: true
 ---
-
-
 
 
 
@@ -33,9 +25,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-
-
-## Aufgabe
+Question
+========
 
 Die folgende Aufgabe basiert auf S. 110 von Bourier, G. (2018). Wahrscheinlichkeitsrechnung und schließende Statistik: Praxisorientierte Einführung — Mit Aufgaben und Lösungen. Springer Fachmedien. https://doi.org/10.1007/978-3-658-07481-4
 
@@ -55,18 +46,9 @@ Hinweise:
 - Runden Sie auf zwei Dezimalstellen.
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 
-## Lösung
+Solution
+========
 
 
 Vergegenwärtigen wir uns die Ereignisse ("Bus A kommt" und "Bus B kommt") in den ersten 20 Minuten - danach wiederholt es sich.
@@ -219,8 +201,14 @@ Aufgabenname: `bus1`
 
 
 
-
-
+Meta-information
+================
+exname: bus1
+extype: num
+expoints: 1
+exsolution: `r y`
+extol: 1
+exshuffle: false
 
 
 ---

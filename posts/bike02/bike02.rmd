@@ -1,9 +1,4 @@
 ---
-exname: bike02
-extype: num
-exsolution: r fmt(sol)
-exshuffle: no
-expoints: 1
 categories:
 - statlearning
 - tidymodels
@@ -15,8 +10,6 @@ execute:
   eval: false
   error: true
 ---
-
-
 
 
 
@@ -39,9 +32,8 @@ library(exams)
 
 
 
-
-
-## Aufgabe
+Question
+========
 
 Kann man die Anzahl gerade verliehener Fahrräder eines entsprechenden Anbieters anhand der Temperatur vorhersagen?
 
@@ -62,19 +54,8 @@ Geben Sie den MSE an!
 
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 ```{r}
 library(tidymodels)
@@ -203,6 +184,14 @@ Aufgabenname: `bike02`
 
 
 
+
+Meta-information
+================
+exname: bike02
+extype: num
+expoints: 1
+exsolution: `r fmt(sol)`
+exshuffle: false
 
 
 ---

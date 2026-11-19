@@ -1,9 +1,4 @@
 ---
-extype: num
-exsolution: r sol
-exname: mtcars-abhaengig_var3
-extol: 0.03
-expoints: 1
 categories:
 - dyn
 - probability
@@ -65,9 +60,8 @@ d <- as_tibble(d)
 
 
 
-
-
-## Aufgabe
+Question
+========
 
 
 Im Folgenden ist der Datensatz ``r d_name`` zu analysieren. Er ist unter dieser [Quelle](`r d_path`) erhältlich.
@@ -75,8 +69,6 @@ Im Folgenden ist der Datensatz ``r d_name`` zu analysieren. Er ist unter dieser 
 Der Datensatz ist z.B. als CSV-Datei [von dieser Webseite](https://vincentarelbundock.github.io/Rdatasets/csv/datasetsv) abrufbar.
 
 Hilfe zum Datensatz ist via `help("name_des_datensatzes")` oder [auf dieser Webseite](https://vincentarelbundock.github.io/Rdatasets/doc/datasets) abrufbar.
-
-
 
 
 
@@ -138,18 +130,9 @@ assert_that(length(unique(d2$uv_high)) == 2, msg = "Two unique values needed for
 
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 
-## Lösung
+Solution
+========
 
 Dieser Prädiktor wurde als UV bestimmt:
 
@@ -285,6 +268,13 @@ Aufgabenname: `mtcars-abhaengig_var3`
 
 
 
+Meta-information
+================
+exname: mtcars-abhaengig_var3
+extype: num
+expoints: 1
+exsolution: `r sol`
+extol: 0.03
 
 
 ---

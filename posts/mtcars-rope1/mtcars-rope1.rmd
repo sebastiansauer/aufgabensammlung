@@ -1,10 +1,4 @@
 ---
-extype: cloze
-expoints: 1
-exsolution: r sol[1]|r sol[2]|r sol[3]
-exclozetype: num|num|num
-exname: mtcars-rope1
-extol: 0.01
 date: '2022-12-15'
 slug: mtcars-rope1
 title: mtcars-rope1
@@ -17,7 +11,6 @@ categories:
 - mtcars
 - qm2-pruefung2023
 ---
-
 
 
 
@@ -40,8 +33,8 @@ options(mc.cores = parallel::detectCores())
 
 
 
-
-## Exercise
+Question
+========
 
 
 
@@ -61,18 +54,9 @@ Hinweise:
 - Verwenden Sie Methoden der Bayes-Statistik.
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 
-## Solution
+Solution
+========
 
 
 Setup:
@@ -176,7 +160,14 @@ Aufgabenname: `mtcars-rope1`
 
 
 
-
+Meta-information
+================
+exname: mtcars-rope1
+extype: cloze
+expoints: 1
+exsolution: `r sol[1]`|`r sol[2]`|`r sol[3]`
+exclozetype: num|num|num
+extol: 0.01
 
 
 ---

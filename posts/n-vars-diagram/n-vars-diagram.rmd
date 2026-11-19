@@ -1,9 +1,4 @@
 ---
-exname: n-vars-diagram
-extype: num
-exsolution: r sol
-exshuffle: no
-expoints: 1
 categories:
 - vis
 - '2023'
@@ -14,8 +9,6 @@ slug: n-vars-diagram
 title: n-vars-diagram
 
 ---
-
-
 
 
 
@@ -37,9 +30,8 @@ library(tidyverse)
 
 
 
-
-
-## Aufgabe
+Question
+========
 
 Wie viele Variablen sind in folgendem Diagramm dargestellt?
 
@@ -55,18 +47,9 @@ mtcars %>%
 ```
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 
-## Lösung
+Solution
+========
 
 
 
@@ -87,6 +70,14 @@ Aufgabenname: `n-vars-diagram`
 
 
 
+
+Meta-information
+================
+exname: n-vars-diagram
+extype: num
+expoints: 1
+exsolution: `r sol`
+exshuffle: false
 
 
 ---

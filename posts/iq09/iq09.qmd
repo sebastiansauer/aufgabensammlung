@@ -1,10 +1,4 @@
 ---
-exname: iq09
-extype: num
-exsolution: r solution
-exshuffle: no
-extol: 1
-expoints: 1
 categories:
 - probability
 - simulation
@@ -15,8 +9,6 @@ slug: iq09
 title: iq09
 
 ---
-
-
 
 
 
@@ -35,10 +27,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-
-
-
-## Aufgabe
+Question
+========
 
 Zwei Forscherinnen, Prof. Weiss-Ois und Prof. Blitz-Chegga, streiten sich über den Effekt von Cannabis auf die Intelligenz.
 
@@ -65,18 +55,9 @@ Hinweise:
 - Nutzen Sie die Zahl 42 als Startwert für Ihre Zufallszahlen (um die Reproduzierbarkeit zu gewährleisten).
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 
-## Lösung
+Solution
+========
 
 ```{r}
 library(tidyverse)
@@ -87,6 +68,15 @@ Aufgabenname: `iq09`
 
 
 
+
+Meta-information
+================
+exname: iq09
+extype: num
+expoints: 1
+exsolution: `r solution`
+extol: 1
+exshuffle: false
 
 
 ---

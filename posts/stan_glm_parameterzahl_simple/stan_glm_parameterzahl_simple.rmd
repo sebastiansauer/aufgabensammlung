@@ -1,10 +1,4 @@
 ---
-exname: stan_glm_parameterzahl_simple
-extype: num
-exsolution: r sol
-exshuffle: no
-extol: 0
-expoints: 1
 date: '2024-01-10'
 slug: stan_glm_parameterzahl_simple
 title: stan_glm_parameterzahl_simple
@@ -14,7 +8,6 @@ categories:
 - parameters
 - paper
 ---
-
 
 
 
@@ -33,9 +26,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-
-
-## Exercise
+Question
+========
 
 
 Betrachten Sie dazu dieses Modell:
@@ -52,18 +44,9 @@ Hinweise:
 
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 
-## Solution
+Solution
+========
 
 
 Grundsätzlich hat ein Regressionsmodell die folgenden Parameter:
@@ -88,6 +71,11 @@ sol <- 6
 Aufgabenname: `stan_glm_parameterzahl_simple`
 
 
-
-
-
+Meta-information
+================
+exname: stan_glm_parameterzahl_simple
+extype: num
+expoints: 1
+exsolution: `r sol`
+extol: 0
+exshuffle: false

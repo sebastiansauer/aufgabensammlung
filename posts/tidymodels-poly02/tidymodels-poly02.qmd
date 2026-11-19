@@ -1,9 +1,4 @@
 ---
-exname: tidymodels-poly02
-extype: num
-exsolution: r fmt(sol)
-exshuffle: no
-expoints: 1
 categories:
 - R
 - statlearning
@@ -16,8 +11,6 @@ execute:
   error: true
   
 ---
-
-
 
 
 
@@ -40,9 +33,8 @@ library(exams)
 
 
 
-
-
-## Aufgabe
+Question
+========
 
 Fitten Sie ein Polynomial-Modell für folgende Modellgleichung:
 
@@ -62,20 +54,8 @@ Hinweise:
 
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 Setup:
@@ -127,7 +107,6 @@ wf1 <-
   add_model(linear_reg()) %>% 
   add_recipe(rec1)
 ```
-
 
 
 
@@ -190,13 +169,21 @@ sol
 
 
 
-
 Die Antwort lautet: `r sol`.
 
 
 Aufgabenname: `tidymodels-poly02`
 
 
+
+
+Meta-information
+================
+exname: tidymodels-poly02
+extype: num
+expoints: 1
+exsolution: `r fmt(sol)`
+exshuffle: false
 
 
 ---

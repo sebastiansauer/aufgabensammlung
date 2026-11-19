@@ -1,9 +1,4 @@
 ---
-exname: ppv-mtcars1
-extype: num
-exsolution: r exams::fmt(sol)
-exshuffle: no
-expoints: 1
 categories:
 - bayes
 - ppv
@@ -19,11 +14,8 @@ title: ppv-mtcars1
 
 
 
-
-
-
-
-## Aufgabe
+Question
+========
 
 Berechnen Sie folgendes Modell (Datensatz `mtcars`):
 
@@ -39,18 +31,8 @@ Hinweise:
 
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 ### Setup
 
@@ -124,6 +106,13 @@ Aufgabenname: `ppv-mtcars1`
 
 
 
+Meta-information
+================
+exname: ppv-mtcars1
+extype: num
+expoints: 1
+exsolution: `r exams::fmt(sol)`
+exshuffle: false
 
 
 ---

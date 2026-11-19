@@ -1,10 +1,4 @@
 ---
-exname: tidymodels-penguins05
-extype: num
-exsolution: r fmt(sol)
-exshuffle: no
-extol: 1
-expoints: 1
 categories:
 - ds1
 - tidymodels
@@ -18,8 +12,6 @@ title: tidymodels-penguins05
 execute:
   error: true
 ---
-
-
 
 
 
@@ -39,9 +31,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-
-
-## Aufgabe
+Question
+========
 
 Berechnen Sie ein kNN-Modell mit tidymodels und zwar anhand des `penguins` Datensatzes.
 
@@ -65,19 +56,8 @@ Gesucht ist R-Quadrat als Maß für die Modellgüte im *TEST-Sample*.
 
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 Setup:
 
@@ -223,12 +203,14 @@ Aufgabenname: `tidymodels-penguins05`
 
 
 
-
-
-
-
-
-
+Meta-information
+================
+exname: tidymodels-penguins05
+extype: num
+expoints: 1
+exsolution: `r fmt(sol)`
+extol: 1
+exshuffle: false
 
 
 ---

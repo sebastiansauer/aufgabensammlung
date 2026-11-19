@@ -1,9 +1,4 @@
 ---
-exname: max-corr2
-extype: num
-exsolution: r fmt(sol)
-exshuffle: no
-expoints: 1
 categories:
 - vis
 - '2023'
@@ -14,8 +9,6 @@ slug: max-corr2
 title: max-corr2
 
 ---
-
-
 
 
 
@@ -38,27 +31,17 @@ library(exams)
 
 
 
-
-
-## Aufgabe
+Question
+========
 
 Welches Diagramm zeigt den stärksten (absoluten) linearen *negativen* Zusammenhang (Korrelation)?
 
 Geben Sie die Nummer ein, die in der Kopfzeile jedes Teildiagramms angezeigt wird.
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 
-## Lösung
+Solution
+========
 
 ```{r}
 d_path <- "https://raw.githubusercontent.com/sebastiansauer/pradadata/master/data-raw/corr_data.csv"
@@ -84,7 +67,13 @@ Aufgabenname: `max-corr2`
 
 
 
-
+Meta-information
+================
+exname: max-corr2
+extype: num
+expoints: 1
+exsolution: `r fmt(sol)`
+exshuffle: false
 
 
 ---

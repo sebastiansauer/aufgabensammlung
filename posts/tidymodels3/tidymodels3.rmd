@@ -1,10 +1,4 @@
 ---
-exname: tidymodels3
-extype: num
-exsolution: r fmt(sol)
-exshuffle: no
-extol: 1
-expoints: 1
 categories:
 - ds1
 - tidymodels
@@ -20,7 +14,6 @@ execute:
   error: true
   eval: false
 ---
-
 
 
 
@@ -43,9 +36,8 @@ library(exams)
 
 
 
-
-
-## Aufgabe
+Question
+========
 
 Berechnen Sie ein lineares Modell mit tidymodels und zwar anhand des `ames` Datensatzes.
 
@@ -56,18 +48,9 @@ Berechnen Sie ein multiplikatives (exponenzielles) Modell.
 Rücktransformieren Sie die Log-Werte in "Roh-Dollar".
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 
-## Lösung
+Solution
+========
 
 
 ```{r}
@@ -245,6 +228,15 @@ Aufgabenname: `tidymodels3`
 
 
 
+
+Meta-information
+================
+exname: tidymodels3
+extype: num
+expoints: 1
+exsolution: `r fmt(sol)`
+extol: 1
+exshuffle: false
 
 
 ---

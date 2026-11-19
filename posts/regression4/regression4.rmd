@@ -1,9 +1,4 @@
 ---
-exname: regression4
-extype: num
-exsolution: r yhat_selected
-extol: r max(0.1*yhat_selected, 3)
-expoints: 1
 categories:
 - dyn
 - regression
@@ -19,7 +14,6 @@ title: Regression4
 
 
 <!-- based on Karsten Luebke et al.-->
-
 
 
 
@@ -47,8 +41,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-
-## Aufgabe
+Question
+========
 
 
 ```{r defs, echo=FALSE}
@@ -151,25 +145,13 @@ get_regression_table(lm_true) %>%
 
 
 
-
-
-
 *Hinweis*: Ein Interaktionseffekt der Variablen $x$ und $g$ ist mit `x:g` gekennzeichnet. Runden Sie zur nächsten ganzen Zahl.
 
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 
-## Lösung
+Solution
+========
 
 
 ```{r yhat, echo = FALSE}
@@ -189,8 +171,13 @@ Aufgabenname: `regression4`
 
 
 
-
-
+Meta-information
+================
+exname: regression4
+extype: num
+expoints: 1
+exsolution: `r yhat_selected`
+extol: `r max(0.1*yhat_selected, 3)`
 
 
 ---

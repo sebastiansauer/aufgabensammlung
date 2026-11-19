@@ -1,9 +1,4 @@
 ---
-exname: mw-berechnen
-extype: num
-exsolution: r sol
-extol: 0.1
-expoints: 1
 categories:
 - eda
 - datawrangling
@@ -18,9 +13,9 @@ title: mw-berechnen
 ---
 
 
-Question
 
-## Aufgabe
+Question
+========
 
 
 Berechnen Sie den Mittelwert folgender `zahlenreihe`; ignorieren sie etwaige fehlende Werte. Runden Sie auf zwei Dezimalstellen.
@@ -44,21 +39,8 @@ zahlenreihe
 
 
 
-
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 
@@ -98,7 +80,13 @@ Aufgabenname: `mw-berechnen`
 
 
 
-
+Meta-information
+================
+exname: mw-berechnen
+extype: num
+expoints: 1
+exsolution: `r sol`
+extol: 0.1
 
 
 ---

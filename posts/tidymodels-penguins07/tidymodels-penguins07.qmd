@@ -1,9 +1,4 @@
 ---
-exname: tidymodels-penguins07
-extype: num
-exsolution: r fmt(sol)
-exshuffle: no
-expoints: 1
 categories:
 - tidymodels
 - statlearning
@@ -15,8 +10,6 @@ title: tidymodels-penguins07
 execute:
   error: true
 ---
-
-
 
 
 
@@ -39,9 +32,8 @@ library(exams)
 
 
 
-
-
-## Aufgabe
+Question
+========
 
 Berechnen Sie ein Entscheidungsbaum-Modell mit tidymodels und zwar anhand des penguins Datensatzes.
 
@@ -61,20 +53,8 @@ Hinweise:
 
 
 
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 ### Setup
 
@@ -178,6 +158,13 @@ Aufgabenname: `tidymodels-penguins07`
 
 
 
+Meta-information
+================
+exname: tidymodels-penguins07
+extype: num
+expoints: 1
+exsolution: `r fmt(sol)`
+exshuffle: false
 
 
 ---

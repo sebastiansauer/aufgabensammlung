@@ -1,9 +1,4 @@
 ---
-exname: bayesmod-bestimmen02
-extype: string
-expoints: 1
-exsolution: r  sol
-exshuffle: no
 categories:
 - regression
 - bayes
@@ -37,9 +32,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-
-
-## Exercise
+Question
+========
 
 
 Sie möchten, im Rahmen einer Studie, ein einfaches lineare Modell spezifizieren, d.h. den Likelihood und die Priori-Verteilungen benennen. 
@@ -68,19 +62,8 @@ Hinweise:
 
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Solution
+Solution
+========
 
 ```{r}
 sol <- "s~Exp(1)"
@@ -95,6 +78,13 @@ Aufgabenname: `bayesmod-bestimmen02`
 
 
 
+Meta-information
+================
+exname: bayesmod-bestimmen02
+extype: string
+expoints: 1
+exsolution: `r sol`
+exshuffle: false
 
 
 ---
