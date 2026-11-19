@@ -2,7 +2,7 @@
 #
 # Stoff: Kapitel 0200 (Die drei Zielarten der Statistik) bis
 # 0600 (Die Post befragen).
-# 26 schoice-Aufgaben, alle mit Papier lösbar (einige Rechenaufgaben
+# 27 schoice-Aufgaben, alle mit Papier lösbar (einige Rechenaufgaben
 # brauchen einen Taschenrechner, z. B. Binomialwahrscheinlichkeiten).
 # Keine Aufgabe ist als trivial oder buggy markiert, und keine stammt aus
 # der Probeklausur 2025 (probeklausur-start-bayes-2025.txt).
@@ -46,5 +46,6 @@ posts/bayesbox-standardisierung-schoice/bayesbox-standardisierung-schoice.Rmd
 posts/post-stichprobe-luecke-schoice/post-stichprobe-luecke-schoice.Rmd  # im Buch nicht verlinkt; Kapitel nach Inhalt
 posts/post-wskt-kleiner-schoice/post-wskt-kleiner-schoice.Rmd
 posts/post-frage-p-vs-q-schoice/post-frage-p-vs-q-schoice.Rmd
+posts/eti-p-vs-q-schoice/eti-p-vs-q-schoice.Rmd  # im Buch nicht verlinkt; Kapitel nach Inhalt
 posts/quantil-90-interpretation-schoice/quantil-90-interpretation-schoice.Rmd
 posts/pi-vs-hdi-schiefe-schoice/pi-vs-hdi-schiefe-schoice.Rmd
