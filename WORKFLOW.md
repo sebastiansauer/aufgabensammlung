@@ -60,10 +60,29 @@ quarto render                                  # ganzes Projekt, dauert lange
 
 1. In 06 committen, dann in 07 (`posts/` und ggf. `_quarto.yml`).
 2. Pushen, wenn du soweit bist.
-3. Die GitHub-Action `Quarto Publish` in 07 startet **nur manuell**. Sie rendert alles neu,
-   mit `renv.lock` und ohne Cache.
 
-## 6. Submodul in 02 aktualisieren
+## 6. Blog veröffentlichen (GitHub Pages)
+
+Der Blog wird **lokal gerendert** und das fertige `docs/` auf den Branch `gh-pages` gepusht.
+Die GitHub-Action (CI) ist abgeschaltet: Sie würde alles von Grund auf mit `renv.lock` neu rendern
+und ist damit nicht verlässlich.
+
+```bash
+cd ~/Dokumente/github/07_datenwerk
+quarto render                                      # alles; Fehler prüfen, Exit-Code muss 0 sein
+quarto publish gh-pages --no-render --no-prompt    # veröffentlicht das vorhandene docs/
+```
+
+- Voraussetzungen: SSH-Schlüssel im Agent (`ssh-add -l`), Git in 07 sauber, `docs/` vollständig
+  (nach einem Gesamt-Render; `quarto publish` spiegelt `docs/` und löscht alles, was dort fehlt).
+- Nur kleine Änderungen? Zuerst Einzelaufgaben mit `quarto render posts/<slug>/<datei> --to html`
+  testen, aber für die Veröffentlichung braucht es danach trotzdem ein vollständiges `docs/`
+  (also einen Gesamt-Render, der dank `freeze` für unveränderte Aufgaben schnell ist).
+- Nach dem Push dauert das Deployment von GitHub Pages einige Minuten (Cache: Browser neu laden).
+- Prüfen: <https://sebastiansauer.github.io/datenwerk/>, Stichprobe neuer Aufgaben,
+  `search.json` und Seitengröße (große Seiten deuten auf zu lange Tabellenausgaben hin).
+
+## 7. Submodul in 02 aktualisieren
 
 Erst nach dem Push von 06, sonst zeigt die Referenz auf einen Commit, den andere nicht haben.
 
@@ -75,8 +94,8 @@ cd .. && git add exrs && git commit -m "exrs aktualisiert"
 
 ## Bekannte Stolpersteine
 
-- Lokal rendert 07 mit der persönlichen R-Bibliothek (`renv/settings.json`, `external.libraries`),
-  die CI dagegen mit `renv.lock`. Dass eine Aufgabe lokal läuft, beweist nicht, dass sie in der CI läuft.
+- Lokal rendert 07 mit der persönlichen R-Bibliothek (`renv/settings.json`, `external.libraries`).
+  `renv.lock` wird für den Build nicht mehr benutzt (CI aus) und ist nur noch eine Versionsdokumentation.
 - Der Sync-Dienst (z. B. Dropbox/Syncthing) darf die Repo-Ordner nicht synchronisieren, sonst
   entstehen `*.conflict`-Dateien.
 - Das Sync-Skript entfernt auch Duplikate in `07/posts` (z. B. falsche Groß-/Kleinschreibung von Ordnernamen).
