@@ -74,6 +74,8 @@ bayesmod-bestimmen02	posts/bayesmod-bestimmen02/bayesmod-bestimmen02.rmd	string	
 bed-gem-wskt	posts/bed-gem-wskt/bed-gem-wskt.rmd	num	ja	nein		bayes, regression, dyn, prediction	keines	nein	Render-Test: teachertools::teaching_df() findet teaching_data nicht (Daten per Netz)	
 bed-post-wskt1	posts/bed-post-wskt1/bed-post-wskt1.rmd	schoice	nein	nein		regression, bayes, post, quiz, computer, paper	keines	ja		
 bed-post-wskt2	posts/bed-post-wskt2/bed-post-wskt2.rmd	string	ja	nein		post, bayes, dyn, paper	keines	nein	Render-Test: teachertools::teaching_df() findet teaching_data nicht (Daten per Netz)	
+bed-wskt-symmetrie-aussagen-schoice	posts/bed-wskt-symmetrie-aussagen-schoice/bed-wskt-symmetrie-aussagen-schoice.Rmd	schoice	nein	nein		probability, paper	keines	ja		
+bed-wskt-symmetrie-richtig-schoice	posts/bed-wskt-symmetrie-richtig-schoice/bed-wskt-symmetrie-richtig-schoice.Rmd	schoice	nein	nein		probability, paper	keines	ja		
 bed-wskt1	posts/bed-wskt1/bed-wskt1.qmd	num	ja	nein		probability, bayes, num, dyn, paper	keines	ja		
 bed-wskt2	posts/bed-wskt2/bed-wskt2.qmd	num	ja	nein		probability, bayes, num, qm2, qm2-pruefung2023, paper	keines	ja		
 bed-wskt3	posts/bed-wskt3/bed-wskt3.qmd	num	ja	nein		probability, bayes, num, paper	keines	ja		
