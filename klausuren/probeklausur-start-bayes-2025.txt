@@ -1,0 +1,30 @@
+# Probeklausur Start:Bayes! (../04_start-bayes), 2025
+#
+# Übernommen aus ../04_start-bayes/1250-probeklausur.qmd (Abschnitt 2025,
+# HTML-Version), in derselben Reihenfolge. Nur zur Dokumentation, damit
+# spätere Klausuren Wiederholungen erkennen können.
+
+posts/anova-skalenniveau-schoice/anova-skalenniveau-schoice.Rmd
+posts/anz-params-schoice/anz-params-schoice.Rmd
+posts/aussagen-infstat-schoice/aussagen-infstat-schoice.Rmd
+posts/bayes1-schoice/bayes1-schoice.Rmd
+posts/exp1-schoice/exp1-schoice.Rmd
+posts/def-statistik01-schoice/def-statistik01-schoice.Rmd  # trivial
+posts/def-signif-schoice/def-signif-schoice.Rmd
+posts/exp2-schoice/exp2-schoice.Rmd
+posts/exp-tab-schoice/exp-tab-schoice.Rmd
+posts/gem-wskt1-schoice-fix/gem-wskt1-schoice-fix.Rmd
+posts/gem-wskt2-schoice/gem-wskt2-schoice.Rmd
+posts/gem-wskt4-schoice/gem-wskt4-schoice.Rmd
+posts/genial-schoice/genial-schoice.Rmd
+posts/globus2-schoice/globus2-schoice.Rmd
+posts/griech-buchstaben-schoice/griech-buchstaben-schoice.Rmd
+posts/fofrage-regrformel-schoice/fofrage-regrformel-schoice.Rmd
+posts/fofrage-regrformel2-schoice/fofrage-regrformel2-schoice.Rmd
+posts/gruppenvergleich-regression-schoice/gruppenvergleich-regression-schoice.Rmd
+posts/interpret-ci-schoice/interpret-ci-schoice.Rmd
+posts/interpret-koeff-schoice/interpret-koeff-schoice.Rmd
+posts/kaefer1-schoice/kaefer1-schoice.Rmd
+posts/kekse01-schoice/kekse01-schoice.Rmd
+posts/klausuren-bestehen-schoice/klausuren-bestehen-schoice.Rmd
+posts/bayes-theorem1-schoice-fix/bayes-theorem1-schoice-fix.Rmd
