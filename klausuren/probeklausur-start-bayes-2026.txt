@@ -2,7 +2,7 @@
 #
 # Stoff: Kapitel 0200 (Die drei Zielarten der Statistik) bis
 # 0600 (Die Post befragen).
-# 27 schoice-Aufgaben, alle mit Papier lösbar (einige Rechenaufgaben
+# 28 schoice-Aufgaben, alle mit Papier lösbar (einige Rechenaufgaben
 # brauchen einen Taschenrechner, z. B. Binomialwahrscheinlichkeiten).
 # Keine Aufgabe ist als trivial oder buggy markiert, und keine stammt aus
 # der Probeklausur 2025 (probeklausur-start-bayes-2025.txt).
@@ -27,6 +27,7 @@ posts/stetige-zv-dichte-schoice/stetige-zv-dichte-schoice.Rmd
 
 # 0350-wskt2
 posts/additionssatz-disjunkt-bedingung-schoice/additionssatz-disjunkt-bedingung-schoice.Rmd
+posts/bed-wskt-symmetrie-aussagen-schoice/bed-wskt-symmetrie-aussagen-schoice.Rmd  # im Buch nicht verlinkt; Kapitel nach Inhalt
 posts/bedingte-wskt-tabelle-schoice/bedingte-wskt-tabelle-schoice.Rmd
 posts/multiplikationssatz-ohne-zuruecklegen-schoice/multiplikationssatz-ohne-zuruecklegen-schoice.Rmd
 posts/totale-wahrscheinlichkeit-maschinen-schoice/totale-wahrscheinlichkeit-maschinen-schoice.Rmd
