@@ -1,5 +1,6 @@
 ---
 title: post2-md-post
+date: '2026-07-14'
 categories:
 - bayes
 - regression

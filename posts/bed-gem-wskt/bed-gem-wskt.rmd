@@ -1,5 +1,6 @@
 ---
 title: bed-gem-wskt
+date: '2026-07-14'
 categories:
 - bayes
 - regression

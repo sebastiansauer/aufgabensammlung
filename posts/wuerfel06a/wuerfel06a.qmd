@@ -1,5 +1,6 @@
 ---
 title: wuerfel06a
+date: '2026-07-14'
 categories:
 - R
 - probability

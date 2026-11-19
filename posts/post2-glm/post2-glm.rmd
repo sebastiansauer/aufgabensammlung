@@ -1,5 +1,6 @@
 ---
 title: post2-glm
+date: '2026-07-14'
 categories:
 - qm2
 ---

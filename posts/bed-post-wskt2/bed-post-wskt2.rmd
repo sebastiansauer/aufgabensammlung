@@ -1,5 +1,6 @@
 ---
 title: bed-post-wskt2
+date: '2026-07-14'
 categories:
 - post
 - bayes

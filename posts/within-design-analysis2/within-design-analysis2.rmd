@@ -1,5 +1,6 @@
 ---
 title: within-design-analysis2
+date: '2026-07-14'
 categories:
 - regression
 - within-design

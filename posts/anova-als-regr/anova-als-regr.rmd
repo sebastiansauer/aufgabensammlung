@@ -3,6 +3,7 @@ output: html_document
 editor_options: 
   chunk_output_type: console
 title: anova-als-regr
+date: '2026-07-14'
 categories:
 - regression
 - bayes
