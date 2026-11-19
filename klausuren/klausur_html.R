@@ -26,58 +26,18 @@ if (length(args) != 1) {
        call. = FALSE)
 }
 
-# Repo-Wurzel aus dem Ort dieses Skripts bestimmen (klausuren/ liegt darin)
+# Repo-Wurzel aus dem Ort dieses Skripts (klausuren/ liegt darin)
 skript <- sub("^--file=", "", grep("^--file=", commandArgs(FALSE), value = TRUE))
-repo <- if (length(skript) == 1) {
-  dirname(dirname(normalizePath(skript)))
-} else {
-  getwd()  # z. B. bei source() aus R heraus
-}
+repo <- if (length(skript) == 1) dirname(dirname(normalizePath(skript))) else getwd()
+source(file.path(repo, "klausuren", "klausur_aufgaben.R"))
 
-# Liste relativ zum aktuellen Ordner suchen, sonst in klausuren/
-kandidaten <- c(args[1], paste0(args[1], ".txt"),
-                file.path(repo, "klausuren", args[1]),
-                file.path(repo, "klausuren", paste0(args[1], ".txt")))
-gefunden <- kandidaten[file.exists(kandidaten) & !dir.exists(kandidaten)]
-if (length(gefunden) == 0) {
-  stop("Klausurliste nicht gefunden: ", args[1], call. = FALSE)
-}
-liste <- normalizePath(gefunden[1])
-
+liste <- klausur_finden(args[1], repo)
 setwd(repo)  # Aufgabenpfade in der Liste sind relativ zur Repo-Wurzel
-source("klausuren/klausur_aufgaben.R")
 pfade <- klausur_aufgaben(liste)  # prüft fehlende/doppelte/buggy Aufgaben
 
-# --- Liste lesen: Kopfkommentar, Abschnitte, Zeilenkommentare -------------
-
-zeilen <- readLines(liste, warn = FALSE, encoding = "UTF-8")
-ist_pfad <- trimws(sub("#.*$", "", zeilen)) != ""
-ist_komm <- grepl("^\\s*#", zeilen)
-erste_aufgabe <- which(ist_pfad)[1]
-
-# Kopfkommentar: Kommentare bis zur letzten Leerzeile vor der ersten Aufgabe
-# (danach folgt ggf. schon der erste Abschnittskommentar)
-leer_davor <- which(trimws(zeilen[seq_len(erste_aufgabe - 1)]) == "")
-kopf_ende <- if (length(leer_davor)) max(leer_davor) - 1 else 0
-kopf <- zeilen[seq_len(kopf_ende)]
-kopf <- sub("^\\s*# ?", "", kopf[ist_komm[seq_len(kopf_ende)]])
-
-# Abschnittskommentar: Kommentarzeile mit Leerzeile davor und Pfad danach
-abschnitt <- character(length(zeilen))
-aktuell <- ""
-for (i in seq_along(zeilen)) {
-  if (ist_komm[i] && i < length(zeilen) && ist_pfad[i + 1] &&
-      (i == 1 || trimws(zeilen[i - 1]) == "")) {
-    aktuell <- sub("^\\s*#\\s*", "", zeilen[i])
-  }
-  abschnitt[i] <- aktuell
-}
-info <- data.frame(
-  pfad = trimws(sub("#.*$", "", zeilen))[ist_pfad],
-  abschnitt = abschnitt[ist_pfad],
-  kommentar = ifelse(grepl("#", zeilen[ist_pfad]),
-                     trimws(sub("^[^#]*#", "", zeilen[ist_pfad])), "")
-)
+struktur <- klausur_struktur(liste)
+kopf <- struktur$kopf
+info <- struktur$info
 
 # --- Aufgaben einzeln verarbeiten ------------------------------------------
 

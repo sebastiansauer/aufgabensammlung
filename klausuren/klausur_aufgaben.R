@@ -53,3 +53,52 @@ klausuren_uebersicht <- function(ordner = "klausuren") {
   do.call(rbind, c(list(data.frame(pfad = character(),
                                    klausur = character())), teile))
 }
+
+# --- Hilfen für die Render-Skripte (klausur_html.R, klausur_forms.R) -------
+
+# Klausurliste suchen: relativ zum aktuellen Ordner, sonst in klausuren/;
+# die Endung .txt ist optional. Gibt den absoluten Pfad zurück.
+klausur_finden <- function(name, repo) {
+  kandidaten <- c(name, paste0(name, ".txt"),
+                  file.path(repo, "klausuren", name),
+                  file.path(repo, "klausuren", paste0(name, ".txt")))
+  gefunden <- kandidaten[file.exists(kandidaten) & !dir.exists(kandidaten)]
+  if (length(gefunden) == 0) {
+    stop("Klausurliste nicht gefunden: ", name, call. = FALSE)
+  }
+  normalizePath(gefunden[1])
+}
+
+# Liest Kopfkommentar, Abschnitte und Zeilenkommentare einer Klausurliste.
+# Rückgabe: list(kopf = Zeilen des Kopfkommentars,
+#                info = data.frame(pfad, abschnitt, kommentar))
+# Kopfkommentar: Kommentare bis zur letzten Leerzeile vor der ersten Aufgabe.
+# Abschnitt: Kommentarzeile mit Leerzeile davor und Aufgabenpfad danach.
+klausur_struktur <- function(datei) {
+  zeilen <- readLines(datei, warn = FALSE, encoding = "UTF-8")
+  ist_pfad <- trimws(sub("#.*$", "", zeilen)) != ""
+  ist_komm <- grepl("^\\s*#", zeilen)
+  erste_aufgabe <- which(ist_pfad)[1]
+
+  leer_davor <- which(trimws(zeilen[seq_len(erste_aufgabe - 1)]) == "")
+  kopf_ende <- if (length(leer_davor)) max(leer_davor) - 1 else 0
+  kopf <- zeilen[seq_len(kopf_ende)]
+  kopf <- sub("^\\s*# ?", "", kopf[ist_komm[seq_len(kopf_ende)]])
+
+  abschnitt <- character(length(zeilen))
+  aktuell <- ""
+  for (i in seq_along(zeilen)) {
+    if (ist_komm[i] && i < length(zeilen) && ist_pfad[i + 1] &&
+        (i == 1 || trimws(zeilen[i - 1]) == "")) {
+      aktuell <- sub("^\\s*#\\s*", "", zeilen[i])
+    }
+    abschnitt[i] <- aktuell
+  }
+  info <- data.frame(
+    pfad = trimws(sub("#.*$", "", zeilen))[ist_pfad],
+    abschnitt = abschnitt[ist_pfad],
+    kommentar = ifelse(grepl("#", zeilen[ist_pfad]),
+                       trimws(sub("^[^#]*#", "", zeilen[ist_pfad])), "")
+  )
+  list(kopf = kopf, info = info)
+}
