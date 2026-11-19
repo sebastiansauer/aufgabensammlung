@@ -201,6 +201,7 @@ epistemologische-zielrichtung-schoice	posts/epistemologische-zielrichtung-schoic
 erklaeren-population-vs-kausal-schoice	posts/erklaeren-population-vs-kausal-schoice/erklaeren-population-vs-kausal-schoice.Rmd	schoice	nein	nein		statistik-grundlagen, paper	010-rahmen.qmd	ja		
 estimate-expectation-schoice	posts/estimate-expectation-schoice/estimate-expectation-schoice.Rmd	schoice	nein	nein		bayes, paper, trivial	keines	ja		trivial
 eti-hdi	posts/eti-hdi/index.qmd	string	ja	nein		paper, bayes, bayesbox, probability, computer	keines	ja		
+eti-p-vs-q-schoice	posts/eti-p-vs-q-schoice/eti-p-vs-q-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja		
 euro-bayes	posts/euro-bayes/euro-bayes.rmd	num	nein	nein		probability, bayesbox	keines	ja		
 evidenz-funktion-schoice	posts/evidenz-funktion-schoice/evidenz-funktion-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja		
 evidenz-maschinen-schoice	posts/evidenz-maschinen-schoice/evidenz-maschinen-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja		
