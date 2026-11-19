@@ -1,11 +1,16 @@
 # Rendert eine Klausurliste (klausuren/*.txt) als HTML-Prüfansicht.
 #
-# Aufruf aus dem Repo-Wurzelordner:
+# Aufruf aus einem beliebigen Ordner, z. B. aus dem Repo-Wurzelordner:
 #   Rscript klausuren/klausur_html.R klausuren/probeklausur-start-bayes-2026.txt
 #   Rscript klausuren/klausur_html.R klausuren/probeklausur-start-bayes-2026.txt --open
+# oder aus klausuren/:
+#   Rscript klausur_html.R probeklausur-start-bayes-2026.txt
+# Die Liste darf auch nur mit Namen angegeben werden (sie wird dann in
+# klausuren/ gesucht, die Endung .txt ist optional):
+#   Rscript klausuren/klausur_html.R probeklausur-start-bayes-2026
 #
 # Ergebnis: klausuren/html/<liste>.html, eine einzige Datei (Bilder eingebettet,
-# Formeln als MathML). Der Ordner klausuren/html/ ist in .gitignore.
+# Formeln als MathML). HTML-Dateien sind in .gitignore.
 #
 # Pro Aufgabe zeigt die Ansicht Nummer, Name, Pfad und Kapitel (aus den
 # Abschnittskommentaren der Liste), die Frage, die Antwortoptionen in der
@@ -20,8 +25,26 @@ if (length(args) != 1) {
   stop("Aufruf: Rscript klausuren/klausur_html.R <klausurliste.txt> [--open]",
        call. = FALSE)
 }
-liste <- args[1]
 
+# Repo-Wurzel aus dem Ort dieses Skripts bestimmen (klausuren/ liegt darin)
+skript <- sub("^--file=", "", grep("^--file=", commandArgs(FALSE), value = TRUE))
+repo <- if (length(skript) == 1) {
+  dirname(dirname(normalizePath(skript)))
+} else {
+  getwd()  # z. B. bei source() aus R heraus
+}
+
+# Liste relativ zum aktuellen Ordner suchen, sonst in klausuren/
+kandidaten <- c(args[1], paste0(args[1], ".txt"),
+                file.path(repo, "klausuren", args[1]),
+                file.path(repo, "klausuren", paste0(args[1], ".txt")))
+gefunden <- kandidaten[file.exists(kandidaten) & !dir.exists(kandidaten)]
+if (length(gefunden) == 0) {
+  stop("Klausurliste nicht gefunden: ", args[1], call. = FALSE)
+}
+liste <- normalizePath(gefunden[1])
+
+setwd(repo)  # Aufgabenpfade in der Liste sind relativ zur Repo-Wurzel
 source("klausuren/klausur_aufgaben.R")
 pfade <- klausur_aufgaben(liste)  # prüft fehlende/doppelte/buggy Aufgaben
 
@@ -191,6 +214,6 @@ img { max-width: 100%; height: auto; }
 dir.create("klausuren/html", showWarnings = FALSE)
 ziel <- file.path("klausuren/html", paste0(titel, ".html"))
 writeLines(html, ziel, useBytes = TRUE)
-message("\nGeschrieben: ", ziel, "  (", length(ergebnisse), " Aufgaben, ",
+message("\nGeschrieben: ", normalizePath(ziel), "  (", length(ergebnisse), " Aufgaben, ",
         n_fehler, " Fehler)")
 if (oeffnen) utils::browseURL(normalizePath(ziel))

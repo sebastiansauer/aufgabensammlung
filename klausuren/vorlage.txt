@@ -13,4 +13,4 @@
 # Als HTML zum Durchsehen (Datei landet in klausuren/html/):
 #   Rscript klausuren/klausur_html.R klausuren/probeklausur-2026-ws.txt --open
 
-posts/abh-ereignisse/abh-ereignisse.qmd
+posts/kolmogorov-axiome-schoice/kolmogorov-axiome-schoice.Rmd
