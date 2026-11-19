@@ -1,5 +1,6 @@
 ---
 title: flights-geovis
+date: '2026-10-24'
 categories:
 - STUB
 ---

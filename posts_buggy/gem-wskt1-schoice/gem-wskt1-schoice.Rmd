@@ -1,5 +1,6 @@
 ---
 title: gem-wskt1-schoice
+date: '2026-07-08'
 categories:
 - paper
 - todo

@@ -1,5 +1,6 @@
 ---
 title: _kausal11
+date: '2026-10-24'
 categories:
 - paper
 - todo
