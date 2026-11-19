@@ -1,0 +1,59 @@
+# Probeklausur Start:Bayes! (../04_start-bayes), 2026
+#
+# 25 schoice-Aufgaben, alle mit Papier lösbar (einige Rechenaufgaben
+# brauchen einen Taschenrechner, z. B. Binomialwahrscheinlichkeiten).
+# Keine Aufgabe ist als trivial oder buggy markiert, und keine stammt aus
+# der Probeklausur 2025 (probeklausur-start-bayes-2025.txt).
+# Reihenfolge: nach Kapiteln des Buchs; das Kapitel ergibt sich daraus,
+# wo das Buch die Aufgabe (bzw. ihre Nicht-schoice-Variante) verlinkt.
+
+# 0200-zielarten
+posts/regr-spezialfaelle-schoice/regr-spezialfaelle-schoice.Rmd
+
+# 0250-inferenz
+posts/nullhyp-korrelation-schoice/nullhyp-korrelation-schoice.Rmd
+posts/interpret-ci2/index.qmd
+
+# 0300-Wskt
+posts/kolmogorov-axiome-schoice/kolmogorov-axiome-schoice.Rmd
+posts/stetige-zv-dichte-schoice/stetige-zv-dichte-schoice.Rmd
+
+# 0350-wskt2
+posts/bedingte-wskt-tabelle-schoice/bedingte-wskt-tabelle-schoice.Rmd
+posts/multiplikationssatz-ohne-zuruecklegen-schoice/multiplikationssatz-ohne-zuruecklegen-schoice.Rmd
+posts/totale-wahrscheinlichkeit-maschinen-schoice/totale-wahrscheinlichkeit-maschinen-schoice.Rmd
+
+# 0400-Verteilungen
+posts/binomialverteilung-callcenter-schoice/binomialverteilung-callcenter-schoice.Rmd
+posts/binomialverteilung-symmetrie-schoice/binomialverteilung-symmetrie-schoice.Rmd
+
+# 0500-Globusversuch
+posts/likelihood-globusversuch-berechnung-schoice/likelihood-globusversuch-berechnung-schoice.Rmd
+posts/bayes-theorem-maschinen-schoice/bayes-theorem-maschinen-schoice.Rmd
+posts/bayesbox-standardisierung-schoice/bayesbox-standardisierung-schoice.Rmd
+
+# 0600-Post
+posts/post-wskt-kleiner-schoice/post-wskt-kleiner-schoice.Rmd
+posts/pi-vs-hdi-schiefe-schoice/pi-vs-hdi-schiefe-schoice.Rmd
+
+# 0700-ppv
+posts/ppv-mixtur-treffer-schoice/ppv-mixtur-treffer-schoice.Rmd
+
+# 0800-gauss
+posts/rstanarm-standard-prior-rechnung-schoice/rstanarm-standard-prior-rechnung-schoice.Rmd
+
+# 0900-lineare-modelle
+posts/mu-bedingt-berechnen-schoice/mu-bedingt-berechnen-schoice.Rmd
+posts/post-wskt-achsenabschnitt-schoice/post-wskt-achsenabschnitt-schoice.Rmd
+
+# 1000-metrische-AV
+posts/multiple-regr-kontrolle-schoice/multiple-regr-kontrolle-schoice.Rmd
+posts/vorhersage-interaktion-berechnen-schoice/vorhersage-interaktion-berechnen-schoice.Rmd
+
+# 1050-Schaetzen-Testen
+posts/pd-anteil-post-stichproben-schoice/pd-anteil-post-stichproben-schoice.Rmd
+
+# 1150-konfundierung, 1180-kausalatome
+posts/nierenstein-konfundierer-kontrollieren-schoice/nierenstein-konfundierer-kontrollieren-schoice.Rmd
+posts/mediator-vs-confounder-schoice/mediator-vs-confounder-schoice.Rmd
+posts/kausale-verben_schoice/kausale-verben_schoice.rmd  # statt kausal05 (DAG-Chunk bricht unter R/exams ab)
