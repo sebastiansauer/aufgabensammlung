@@ -481,7 +481,7 @@ logist-bayes-mtcars3	posts/logist-bayes-mtcars3/logist-bayes-mtcars3.rmd	num	nei
 logist-bayes-mtcars4	posts/logist-bayes-mtcars4/logist-bayes-mtcars4.rmd	num	nein	nein		null	keines	nein	Render-Test: Fehler beim Rendern	
 logist-bayes-mtcars5	posts/logist-bayes-mtcars5/logist-bayes-mtcars5.rmd	cloze	nein	nein		null	keines	ja		
 logist-plot1	posts/logist-plot1/logist-plot1.rmd	string	nein	nein		paper, todo	keines	nein	Render-Test: Error in `library()`: ! es gibt kein Paket namens 'Ryacas0'	
-logression1	posts/logression1/logression1.rmd	schoice	nein	ja	R/exams, R-Code-Fehler (importiert): length of exsolution (= 6) and questionlist (= 5) does not match in '_home_sebastian-sauer_GDrive_3X_Lehre_36_Lehre-Entwicklung_06_aufgabensammlung_posts_logression1_logression1'	paper, todo	keines	nein	buggy (R/exams-Check)	
+logression1	posts/logression1/logression1.rmd	schoice	nein	nein		paper, todo	keines	ja		
 logx	posts/logx/logx.rmd	string	ja	nein		paper, todo	keines	ja		
 lose-nieten-binomial-grid	posts/lose-nieten-binomial-grid/lose-nieten-binomial-grid.rmd	string	nein	nein		probability, binomial, distributions, computer	keines	ja		
 lose-nieten-binomial-grid2	posts/lose-nieten-binomial-grid2/lose-nieten-binomial-grid2.rmd	num	ja	nein		null	keines	ja		

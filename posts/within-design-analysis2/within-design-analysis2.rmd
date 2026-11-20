@@ -66,7 +66,6 @@ Hinweise:
 
 
 Solution
-
 ========
 
 ## Pakete starten
@@ -202,9 +201,6 @@ parameters(m_t3mt2_bayes)
 
 Auch hier ist das Modell sehr meinungsstark: Mit einer Wahrscheinlichkeit von 100% ist der Koeffizient (Veränderung von t2 zu t3) positiv.
 
-
-Solution
-========
 
 Aufgabenname: `within-design-analysis2`
 

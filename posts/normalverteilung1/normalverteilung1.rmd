@@ -41,10 +41,10 @@ mu = 50
 sigma = 10
 ```
 
-Angenommen, die Punkte eines Leistungstests seien normalverteilt mit $\mu=`r mu`$ und $\sigma=`r sigma`$. Eine Kandidatin erreicht $x=`r punkte`$ Punkte; vgl. die Abbildung.
+Angenommen, die Punkte eines Leistungstests seien normalverteilt mit $\mu=`r mu`$ und $\sigma=`r sigma`$. Eine Kandidatin erreicht $x=`r punkte_kandidatin`$ Punkte; vgl. die Abbildung.
 
 ```{r, message=FALSE, results="hide"}
-xpnorm(punkte, mean = mu, sd = sigma)
+xpnorm(punkte_kandidatin, mean = mu, sd = sigma)
 ```
 
 Was können Sie über die (relative) Eignung der Kandidatin aussagen?

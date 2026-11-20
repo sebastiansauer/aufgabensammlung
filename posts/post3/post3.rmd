@@ -116,7 +116,7 @@ type <- rep(list("numeric"), 3)
 post_m1_vs <- posterior_interval(m1, prob = .95,
                    pars = "vs")
 breite_pi <- post_m1_vs[2] - post_m1_vs[1]
-breite_pi <- breite %>% round(2)
+breite_pi <- breite_pi %>% round(2)
 ```
 
 
@@ -152,6 +152,12 @@ breite_hdi <-
 item_stems[[2]] <- "Geben Sie die Breite des 95% HDI an (im Bezug zur gesuchten Größe)."
 questions[[2]] <- paste0(item_stems[[2]])
 solutions[[2]] <- explanations[[2]] <- breite_hdi
+```
+
+
+
+```{r ex-c, include = FALSE}
+rope(m1, range = c(-1, 1))
 ```
 
 

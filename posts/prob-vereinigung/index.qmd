@@ -104,9 +104,9 @@ Die Wahrscheinlichkeit, dass mindestens eines der beiden Ereignisse eintritt, be
 Gegeben:
 
 ```{r}
-pr_A <- .6
-pr_B <- .3
-pr_AB <- .2
+pr_A <- .7
+pr_B <- .4
+pr_AB <- .3
 ```
 
 Gesucht:

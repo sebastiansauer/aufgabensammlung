@@ -37,6 +37,7 @@ Laden Sie den Datensatz `toothgrowth`, da wird ein einfaches Experiment geschild
 
 
 ```{r}
+data_url <- "https://vincentarelbundock.github.io/Rdatasets/csv/datasets/ToothGrowth.csv"
 d <- read_csv(data_url)
 ```
 

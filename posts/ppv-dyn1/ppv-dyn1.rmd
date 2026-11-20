@@ -75,6 +75,13 @@ r2(m2)
 m2_ppv <- estimate_prediction(m2, data = tibble(hp = 0), ci = 0.5)
 m2_ppv
 ```
+
+```{r echo = FALSE}
+sol <- abs(m2_ppv$CI_high - m2_ppv$CI_low)
+```
+
+**Lösung** Die Breite beträgt ca. `r exams::fmt(sol)`.
+
 Visualisierung:
 
 ```{r}

@@ -85,7 +85,7 @@ exname: wuerfel06a
 extype: num
 exsolution: `r exams::fmt(sol)`
 exshuffle: false
-extol: `r sol_tol`
+extol: 0.01
 expoints: 1
 categories:
 - R
