@@ -3,6 +3,8 @@ title: post3c
 date: '2026-07-14'
 categories:
 - qm2
+execute:
+  echo: false
 ---
 
 ```{r load-libs, include = FALSE}
@@ -201,7 +203,7 @@ coef(m1)
 
 Dann bestimmen wir den ROPE-Wert:
 
-```{r}
+```{r, echo = TRUE}
 library(easystats)
 rope(m1)
 ```

@@ -13,7 +13,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
                       fig.width = 4,
                       fig.cap = "", 
                       fig.path = "",
-                      echo = FALSE,
+                      echo = TRUE,
                       message = FALSE,
                       warning = FALSE,
                       fig.show = "hold")
@@ -85,7 +85,7 @@ exname: wuerfel06a
 extype: num
 exsolution: `r exams::fmt(sol)`
 exshuffle: false
-extol: `r sol_tol`
+extol: 0.01
 expoints: 1
 categories:
 - R

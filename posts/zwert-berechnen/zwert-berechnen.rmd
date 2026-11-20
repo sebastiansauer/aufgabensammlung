@@ -8,6 +8,8 @@ date: '2022-12-15'
 slug: zwert-berechnen
 title: zwert-berechnen
 
+execute:
+  echo: false
 ---
 
 

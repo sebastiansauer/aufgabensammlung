@@ -6,7 +6,7 @@ categories:
 - datawrangling
 ---
 
-```{r}
+```{r, echo = FALSE}
 library(tidyverse)
 ```
 

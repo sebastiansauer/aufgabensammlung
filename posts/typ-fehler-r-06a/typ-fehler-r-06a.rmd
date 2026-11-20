@@ -28,7 +28,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
                       fig.width = 4,
                       fig.cap = "", 
                       fig.path = "",
-                      echo = FALSE,
+                      echo = TRUE,
                       message = FALSE,
                       fig.show = "hold")
 ```
@@ -67,7 +67,7 @@ sum(abs(mean(x)-x))  # so geht's
 ```
 
 
-```{r}
+```{r, echo = FALSE}
 sol <- "sum(abs(mean(x)-x))"
 ```
 

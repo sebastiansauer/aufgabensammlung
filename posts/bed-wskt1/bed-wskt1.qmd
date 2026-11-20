@@ -8,6 +8,8 @@ categories:
 date: '2023-11-08'
 title: Bed-Wskt1
 
+execute:
+  echo: false
 ---
 
 

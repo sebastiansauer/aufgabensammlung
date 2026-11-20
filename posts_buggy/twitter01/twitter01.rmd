@@ -52,7 +52,7 @@ library(rtweet)
 
 Einloggen bei Twitter; zuerst die Credentials bereithalten:
 
-```{r}
+```{r, echo = FALSE}
 #| eval: false
 source("/Users/sebastiansaueruser/credentials/hate-speech-analysis-v01-twitter.R")
 ```

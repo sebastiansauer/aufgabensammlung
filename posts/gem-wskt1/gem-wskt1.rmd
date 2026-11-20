@@ -8,6 +8,8 @@ categories:
 date: '2022-10-24'
 title: Gem-Wskt1
 
+execute:
+  echo: false
 ---
 
 

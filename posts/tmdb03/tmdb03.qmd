@@ -485,7 +485,7 @@ Abspeichern und einreichen:
 
 Diese Submission erzielte einen Score von **4.79227** (RMSLE).
 
-```{r}
+```{r, echo = FALSE}
 sol <- 4.79227
 ```
 

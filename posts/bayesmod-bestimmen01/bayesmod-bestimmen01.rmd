@@ -8,6 +8,8 @@ date: '2022-12-09'
 
 title: Bayesmod-bestimmen01
 
+execute:
+  echo: false
 ---
 
 

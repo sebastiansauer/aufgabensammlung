@@ -9,6 +9,8 @@ date: '2023-11-08'
 slug: k-coins-k-hits
 title: k-coins-k-hits
 
+execute:
+  echo: false
 ---
 
 

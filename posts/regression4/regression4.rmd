@@ -10,6 +10,8 @@ date: '2023-05-08'
 slug: Regression4
 title: Regression4
 
+execute:
+  echo: false
 ---
 
 
@@ -119,7 +121,7 @@ r2 <- round(rsquared(lm_true), 2)
 ```
 
 
-```{r select-params-values, ech=FALSE}
+```{r select-params-values, echo=FALSE}
 x_selected <- runif(1, min = xmin, max = xmax) %>% floor()
 g_selected <- sample(x = c(0, 1), size = 1,
             replace = TRUE,

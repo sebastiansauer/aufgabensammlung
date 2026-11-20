@@ -141,7 +141,7 @@ fit1_last %>% collect_metrics()
 R-Quadrat:
 
 
-```{r}
+```{r, echo = FALSE}
 sol <- 0.517
 sol
 ```

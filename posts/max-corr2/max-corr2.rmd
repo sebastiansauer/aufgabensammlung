@@ -8,6 +8,8 @@ date: '2023-02-26'
 slug: max-corr2
 title: max-corr2
 
+execute:
+  echo: false
 ---
 
 
@@ -38,11 +40,6 @@ Welches Diagramm zeigt den stärksten (absoluten) linearen *negativen* Zusammenh
 
 Geben Sie die Nummer ein, die in der Kopfzeile jedes Teildiagramms angezeigt wird.
 
-
-
-Solution
-========
-
 ```{r}
 d_path <- "https://raw.githubusercontent.com/sebastiansauer/pradadata/master/data-raw/corr_data.csv"
 d <- read.csv(d_path)
@@ -54,6 +51,11 @@ d %>%
   stat_ellipse(level = .999, type = "norm", color = "blue", alpha = .5) +
   facet_wrap(~ id_cor)
 ```
+
+
+
+Solution
+========
 
 
 

@@ -9,6 +9,8 @@ date: '2023-02-02'
 slug: variation01 
 title: variation01
 
+execute:
+  echo: false
 ---
 
 

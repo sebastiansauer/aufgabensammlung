@@ -4,7 +4,13 @@ date: '2026-03-21'
 categories:
 - paper
 - todo
+execute:
+  echo: false
 ---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
 
 ```{r, include=FALSE}
 library(tidyverse)

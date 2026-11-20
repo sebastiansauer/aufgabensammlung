@@ -169,7 +169,7 @@ Solution
 
 
 
-```{r}
+```{r, echo = FALSE}
 sol <- "s. text"
 ```
 

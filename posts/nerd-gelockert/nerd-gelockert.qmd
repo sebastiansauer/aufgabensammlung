@@ -73,15 +73,13 @@ sol <- Pr_A_geg_N
 Die Lösung lautet ``r sol``.
 
 
-## Variante
-
-```{r}
+<!-- 
+Variante (ohne Lösung; die Zahlen sind so nicht stimmig, da Pr(N ∩ A) nicht größer als Pr(A) sein kann):
 Pr_N <- .73
 Pr_A <- .23
 Pr_NA <- .42
-Pr_A_geg_N <- (Pr_NA) / Pr_N
-Pr_A_geg_N
-```
+Pr_A_geg_N <- Pr_NA / Pr_N
+-->
 
 
 Aufgabenname: `nerd-gelockert`
