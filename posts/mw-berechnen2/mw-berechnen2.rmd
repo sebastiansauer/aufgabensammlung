@@ -9,7 +9,13 @@ date: '2023-04-19'
 slug: mw-berechnen2
 title: mw-berechnen2
 
+execute:
+  echo: false
 ---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
 
 
 
@@ -46,7 +52,7 @@ sol <- round(sol, 2)
 ```
 
 
-```{r}
+```{r, echo = TRUE}
 mean(zahlenreihe)
 ```
 

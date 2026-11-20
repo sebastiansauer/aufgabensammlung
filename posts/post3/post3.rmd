@@ -2,6 +2,8 @@
 title: post3
 date: '2026-07-14'
 categories: null
+execute:
+  echo: false
 ---
 
 ```{r libs, include = FALSE}
@@ -202,7 +204,7 @@ Solution
 
 Setup:
 
-```{r ref.label="load-libs"}
+```{r ref.label="load-libs", echo = TRUE}
 
 ```
 
@@ -210,7 +212,7 @@ Setup:
 Modell berechnen:
 
 
-```{r ref.label="compute-mod1"}
+```{r ref.label="compute-mod1", echo = TRUE}
 
 ```
 
@@ -225,20 +227,20 @@ print(m1)
 
 a)
 
-```{r ref.label = "ex-a"}
+```{r ref.label = "ex-a", echo = TRUE}
 
 ```
 
 
 b)
 
-```{r ref.label = "ex-b"}
+```{r ref.label = "ex-b", echo = TRUE}
 
 ```
 
 c)
 
-```{r ref.label = "ex-c"}
+```{r ref.label = "ex-c", echo = TRUE}
 
 ```
 

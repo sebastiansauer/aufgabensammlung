@@ -8,6 +8,8 @@ date: '2023-02-26'
 slug: max-corr1
 title: max-corr1
 
+execute:
+  echo: false
 ---
 
 

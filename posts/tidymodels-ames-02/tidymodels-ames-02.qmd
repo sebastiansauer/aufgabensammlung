@@ -210,7 +210,7 @@ rsq(ames_test2,
 
 
 
-```{r}
+```{r, echo = FALSE}
 sol <- 0.51679
 ```
 

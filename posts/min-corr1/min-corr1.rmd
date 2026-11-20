@@ -8,6 +8,8 @@ date: '2023-02-26'
 slug: min-corr1
 title: min-corr1
 
+execute:
+  echo: false
 ---
 
 

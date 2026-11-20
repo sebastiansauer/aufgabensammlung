@@ -56,7 +56,7 @@ library(lsa)  # Stopwörter
 library(SnowballC)  # Stemming
 ```
 
-```{r eval=FALSE}
+```{r eval=FALSE, echo = FALSE}
 source("/Users/sebastiansaueruser/credentials/hate-speech-analysis-v01-twitter.R")
 ```
 

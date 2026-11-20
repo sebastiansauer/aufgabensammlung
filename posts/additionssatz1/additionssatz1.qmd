@@ -6,6 +6,8 @@ categories:
 date: '2023-11-08'
 title: Additionssatz1
 
+execute:
+  echo: false
 ---
 
 

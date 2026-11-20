@@ -5,6 +5,8 @@ categories:
 - paper
 - todo
 - trivial
+execute:
+  echo: false
 ---
 
 ```{r libs, include = FALSE}

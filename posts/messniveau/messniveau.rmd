@@ -5,6 +5,8 @@ categories:
 - data
 - basics
 - paper
+execute:
+  echo: false
 ---
 
 ```{r libs, include = FALSE}

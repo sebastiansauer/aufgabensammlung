@@ -10,7 +10,13 @@ date: '2023-04-19'
 slug: mw-berechnen
 title: mw-berechnen
 
+execute:
+  echo: false
 ---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
 
 
 

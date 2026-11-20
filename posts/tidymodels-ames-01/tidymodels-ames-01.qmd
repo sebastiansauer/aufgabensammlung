@@ -139,7 +139,7 @@ tidy(fit1_performance)  # ähnlich zu parameters()
 ```
 
 
-```{r}
+```{r, echo = FALSE}
 sol <- 0.484
 ```
 

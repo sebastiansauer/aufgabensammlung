@@ -25,7 +25,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
                       fig.cap = "", 
                       fig.path = "",
                       message = FALSE,
-                      echo = FALSE,
+                      echo = TRUE,
                       warning = FALSE,
                       #out.width = "100%",
                       cache = TRUE)
@@ -33,7 +33,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-```{r init-data-var}
+```{r init-data-var, echo = FALSE}
 d_name <- "mtcars"
 data(list = d_name)
 av <- "mpg"
@@ -87,7 +87,7 @@ Die resultierenden binären Variablen nennen wir `av_high` bzw. `uv_high` (im sc
 
 
 
-```{r compute-binary-vars}
+```{r compute-binary-vars, echo = FALSE}
 # split by mean:
 d2 <-
   d %>% 
@@ -110,7 +110,7 @@ av_binary_name <- names(d2)[2]
 
 
 
-```{r results = 'hide'}
+```{r results = 'hide', echo = FALSE}
 assert_that(length(unique(d2$av_high)) == 2, msg = "Two unique values needed for DV!")
 assert_that(length(unique(d2$uv_high)) == 2, msg = "Two unique values needed for IV!")
 ```
@@ -136,7 +136,7 @@ Solution
 
 Dieser Prädiktor wurde als UV bestimmt:
 
-```{r}
+```{r, echo = FALSE}
 pred_chosen
 ```
 
@@ -181,7 +181,7 @@ d3a <-
 ```
 
 
-```{r}
+```{r, echo = FALSE}
 # Hier müssen wir NUR für die Musterlösung noch einige Randfälle im Blick behalten.
 # Für die Lösung der AUFGABE ist das NICHT nötig.
 if (min(d3$uv_high) == 1 & max(d3$uv_high) == 1) d3a <- d3a %>% bind_rows(tibble(uv_high = 0, n = 0))
@@ -190,14 +190,14 @@ if (min(d3$uv_high) == 0 & max(d3$uv_high) == 0) d3a <- d3a %>% bind_rows(tibble
 
 
 
-```{r results='hide'}
+```{r results='hide', echo = FALSE}
 assert_that(length(unique(d3a$uv_high)) == 2, msg = "Two different values for IV given DV needed!")
 ```
 
 
 Betrachten wir die nach `av_high = TRUE` gefilterte Häufigkeitstabelle:
 
-```{r}
+```{r, echo = FALSE}
 gt(d3a)
 ```
 
@@ -222,7 +222,7 @@ sol
 ```
 
 
-```{r results='hide'}
+```{r results='hide', echo = FALSE}
 assert_that(0 <= sol, msg = "sol lt zero!")
 assert_that(1 >= sol, msg = "sol gt one!")
 is.scalar(sol)

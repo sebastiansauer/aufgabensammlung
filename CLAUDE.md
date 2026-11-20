@@ -25,6 +25,8 @@ Every exercise starts with a YAML header holding at least `title` and `categorie
 
 Show code only where it is the content of the exercise (R/syntax questions, solutions that are a worked R analysis). Hide generator code (random parameters, data setup, tables, plots, DAG definitions, diagram engines like `nomnoml`), also in `paper` exercises whose solution uses a helper call such as `adjustmentSets()`. Code in the question that reveals the answer must always be hidden.
 
+`echo_einstufung.tsv` records the decision (`aus`/`zeigen`) and a short reason for every exercise that showed code in November 2026; the chunk line numbers in `sichtbar_lassen`/`verstecken` refer to the files before that change. The 542 exercises not listed showed no code at that time.
+
 `knitr::opts_chunk$set(echo = FALSE)` alone is not enough: R/exams respects it, but Quarto (blog, `exrs/posts/...` pages of `02_statistik1-aufgabensammlung`) overrides it with the project default `execute: echo: true`. To hide code, set both `execute: echo: false` in the YAML header and `echo = FALSE` in `opts_chunk`. A chunk that should stay visible gets its own `echo = TRUE`; chunk options win over both defaults.
 
 ## schoice exercises: R/exams format

@@ -430,7 +430,7 @@ write_csv(submission, file = "submission.csv")
 
 Diese Submission erzielte einen Score von **2.7664** (RMSLE).
 
-```{r}
+```{r, echo = FALSE}
 sol <- 2.7664
 ```
 

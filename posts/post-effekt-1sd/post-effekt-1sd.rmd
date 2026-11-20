@@ -6,6 +6,8 @@ categories:
 - regression
 - dyn
 - prediction
+execute:
+  echo: false
 ---
 
 ```{r libs, include = FALSE}

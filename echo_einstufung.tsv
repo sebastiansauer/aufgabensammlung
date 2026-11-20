@@ -1,0 +1,654 @@
+name	pfad	einstufung	sichtbar_lassen	verstecken	begruendung
+abh-ereignisse	posts/abh-ereignisse/abh-ereignisse.qmd	aus			Code erzeugt nur das Mosaikdiagramm; paper-Aufgabe, Ausgabe genügt.
+abh-ereignisse2	posts/abh-ereignisse2/abh-ereignisse2.qmd	aus			Code erzeugt nur das Diagramm; paper-Aufgabe, Ausgabe genügt.
+abhaengige-es	posts/abhaengige-es/abhaengige-es.rmd	aus			Generator: Plots, Zufallsauswahl, Lösungsberechnung für exsolution.
+additionssatz1	posts/additionssatz1/additionssatz1.qmd	aus			Paper-Rechenaufgabe; Rechenchunk hat schon explizit echo=TRUE, Rest ist Lösungstechnik.
+adjustieren1	posts/adjustieren1/adjustieren1.rmd	zeigen			Gefragt ist ein R-Befehl; Modellaufrufe und Plots sind Inhalt.
+adjustieren1a	posts/adjustieren1a/adjustieren1a.qmd	zeigen			lm-Analyse am Rechner; Code ist Lösungsweg.
+adjustieren1b	posts/adjustieren1b/index.qmd	zeigen			lm-Analyse am Rechner; Code ist Lösungsweg.
+adjustieren2	posts/adjustieren2/adjustieren2.rmd	zeigen			Modellaufrufe in der Angabe, Regressionsformel gefragt; Generatorchunk schon echo=FALSE.
+adjustieren2_var1	posts/adjustieren2_var1/adjustieren2_var1.qmd	zeigen			Modellaufrufe in der Angabe, Regressionsformel gefragt; Code ist Inhalt.
+adjustieren2a	posts/adjustieren2a/adjustieren2a.qmd	zeigen			Modell in Angabe, Lösung mit predict/lm in R.
+affairs-dplyr	posts/affairs-dplyr/affairs-dplyr.rmd	zeigen			Datenjudo-Aufgabe; Lösung ist dplyr-Code.
+alphafehler-inflation2	posts/alphafehler-inflation2/alphafehler-inflation2.qmd	zeigen			Einziger Chunk ist Rechenweg in R (explizit echo=TRUE).
+alphafehler-inflation3	posts/alphafehler-inflation3/alphafehler-inflation3.qmd	zeigen			Rechenweg und Vertiefung in R zum Nachmachen.
+alphafehler-inflation4	posts/alphafehler-inflation4/alphafehler-inflation4.qmd	zeigen			Rechenweg und Vertiefung in R zum Nachmachen.
+ames-kaggle1	posts/ames-kaggle1/ames-kaggle1.rmd	zeigen			Modellierung am Rechner; Lösung ist R-Analyse.
+anim01	posts/anim01/anim01.rmd	zeigen			Visualisierungsaufgabe; Lösung ist ggplot/gganimate-Code.
+anim02	posts/anim02/anim02.rmd	zeigen			Visualisierungsaufgabe; Lösung ist ggplot/plotly-Code.
+anim03	posts/anim03/anim03.qmd	zeigen			Visualisierungsaufgabe; Lösung ist ggplot/gganimate-Code.
+anova-als-regr	posts/anova-als-regr/anova-als-regr.rmd	zeigen			Lösung zeigt bewusst, wie das Modell berechnet wurde (stan_glm, lm).
+anteil-apple	posts/anteil-apple/anteil-apple.rmd	zeigen			Bayesbox am Rechner; Lösung ist R-Code.
+anteil-automatik-mtcars	posts/anteil-automatik-mtcars/anteil-automatik-mtcars.rmd	zeigen			Bayes-Lösung mit stan_glm in R; Hinweis in der Frage: „R-Pakete starten“.
+argumente	posts/argumente/argumente.rmd	zeigen			R-Syntaxfrage; Definition von x gehört zur Angabe.
+ausreisser1	posts/ausreisser1/ausreisser1.qmd	zeigen			Datenaufbereitung am Rechner; Lösung ist R-Code.
+aussagen-einfache-regr	posts/aussagen-einfache-regr/aussagen-einfache-regr.rmd	aus			Nur options()-Hilfschunk; Aussagenfrage ohne Code.
+av-uv.de	posts/av-uv.de/av-uv.de.rmd	aus			Chunk definiert Optionen samt Lösungsvektor, verrät Antwort.
+bangladesh1	posts/bangladesh1/bangladesh1.rmd	zeigen			Modellaufruf in Angabe, Lösung ist R-Analyse mit posterior_linpred.
+bangladesh2	posts/bangladesh2/bangladesh2.rmd	zeigen			Modelle in Angabe, Lösung argumentiert mit R-Analysen.
+bath42	posts/bath42/bath42.qmd	zeigen		46	Lösungsweg mit dbinom/bayesbox in R; Parameterchunk der Angabe ist Generator.
+bayes-r2-dyn	posts/bayes-r2-dyn/bayes-r2-dyn.rmd	aus			Dynamischer Generator; Lösungscode (mod, r2_bayes) bleibt via explizitem echo=TRUE.
+bayes-theorem1	posts/bayes-theorem1/bayes-theorem1.qmd	aus			Zufallsparameter per sample; Rechenweg hat schon explizit echo=TRUE.
+bayes2	posts/bayes2/bayes2.qmd	zeigen			Bayes-Rechenweg Schritt für Schritt in R zum Nachmachen.
+bayesbox-zeilenzahl-num	posts/bayesbox-zeilenzahl-num/bayesbox-zeilenzahl-num.Rmd	aus			Nur Hilfsrechnung 101^4; Rechnung steht schon im Text.
+bayesbox	posts/bayesbox/index.qmd	zeigen			Bayesbox-Code ist Teil der Angabe und des Lösungswegs.
+bayesbox2	posts/bayesbox2/index.qmd	zeigen			Bayesbox-Code ist Teil der Angabe; Tabellen schon echo=FALSE.
+bayesbox3	posts/bayesbox3/index.qmd	zeigen			Bayesbox-Code ist Teil der Angabe; Tabellen schon echo=FALSE.
+bayesmod-bestimmen01	posts/bayesmod-bestimmen01/bayesmod-bestimmen01.rmd	aus			Chunk definiert nur Lösungsstring für exsolution.
+bayesmod-bestimmen02	posts/bayesmod-bestimmen02/bayesmod-bestimmen02.rmd	aus			Chunk definiert nur Lösungsstring für exsolution.
+bed-gem-wskt	posts/bed-gem-wskt/bed-gem-wskt.rmd	zeigen			Datenanalyse am Rechner; Musterlösung ist R-Code, Generator schon echo=FALSE.
+bed-post-wskt1	posts/bed-post-wskt1/bed-post-wskt1.rmd	zeigen			Lösung zeigt detaillierten R-Weg (teils eval=FALSE nur zum Zeigen).
+bed-post-wskt2	posts/bed-post-wskt2/bed-post-wskt2.rmd	aus			Generator-Code (teaching_df, repeat-Schleife, Gleichung per paste0) ist für Studis irrelevant. Die didaktischen Chunks (standardize, stan_glm, parameters, ggplot) haben schon echo=TRUE und bleiben sichtbar.
+bed-wskt1	posts/bed-wskt1/bed-wskt1.qmd	aus			Zufallsgenerator, Datenerzeugung, Plot und Tabelle; Ausgabe genügt.
+bed-wskt2	posts/bed-wskt2/bed-wskt2.qmd	aus			Generator, Baumdiagramme, Tabellen; Rechenchunk bleibt via explizitem echo=TRUE.
+beobachtungseinheit	posts/beobachtungseinheit/beobachtungseinheit.rmd	aus			Tabelle per kable; Optionschunk verrät Lösung.
+bertie-bott3	posts/bertie-bott3/index.qmd	zeigen			Einziger Lösungsinhalt ist der Pfad-Rechenweg im Chunk.
+bestehen_ohne_lernen	posts/bestehen_ohne_lernen/index.qmd	zeigen			Rechnung in der Angabe wird bewusst gezeigt; Lösung nennt Vergleichswerte.
+bfi10	posts/bfi10/index.qmd	zeigen			Lösung zeigt pnorm/xpnorm-Rechenweg am Computer.
+bike01	posts/bike01/bike01.rmd	zeigen			tidymodels-Aufgabe; Lösung ist R-Code.
+bike02	posts/bike02/bike02.rmd	zeigen			tidymodels-Aufgabe; Lösung ist R-Code.
+bike03	posts/bike03/bike03.rmd	zeigen			tidymodels-Aufgabe; Lösung ist R-Code.
+bike04	posts/bike04/bike04.rmd	zeigen			tidymodels-Aufgabe; Lösung ist R-Code.
+bike05	posts/bike05/index.qmd	zeigen			Import und stan_glm am Rechner; Lösung ist R-Code.
+bike06	posts/bike06/index.qmd	zeigen			Import und Regression am Rechner; Lösung ist R-Code.
+bin2dec	posts/bin2dec/bin2dec.rmd	aus			Zufallsparameter und Lösungsberechnung für exsolution.
+bootstrap	posts/bootstrap/bootstrap.rmd	aus			Aufgabe auch ohne lm-Code lösbar; Frage betrifft nur das Bootstrap-Histogramm.
+boxplot-aussagen	posts/boxplot-aussagen/boxplot-aussagen.rmd	aus			Code erzeugt nur den Boxplot; Ausgabe genügt.
+boxplot_with_points	posts/boxplot_with_points/index.qmd	zeigen			Visualisierungsaufgabe; Lösung ist R-Code.
+boxplots	posts/boxplots/boxplots.rmd	kein Code sichtbar			Alle Chunks haben explizit echo=FALSE.
+bsp-korr-kaus	posts/bsp-korr-kaus/bsp-korr-kaus.rmd	aus			Zufallsauswahl und Lösungsbeispiele als Generatorcode.
+bullshit1	posts/bullshit1/bullshit1.rmd	aus			Datentabelle mit Korrelationswerten verrät Lösung; reiner Generator.
+bullshit2	posts/bullshit2/bullshit2.rmd	aus			Datentabelle verrät Lösung; answerlist-Aufrufe sind Technik.
+bus1	posts/bus1/bus1.qmd	zeigen			Simulationsaufgabe; Lösungsweg in R zum Nachmachen.
+chatgpt-sentiment-loop	posts/chatgpt-sentiment-loop/chatgpt-sentiment-loop.qmd	zeigen			API-Aufgabe; Lösung ist Python/R-Code.
+chatgpt-sentiment-simple	posts/chatgpt-sentiment-simple/chatgpt-sentiment-simple.qmd	zeigen			API-Aufgabe; Lösung ist Python-Code.
+cluster01	posts/cluster01/cluster01.rmd	zeigen			Einziger Lösungsinhalt ist die Abstandsrechnung im Chunk.
+cochrane1	posts/cochrane1/cochrane1.rmd	aus			Generator: Hilfsfunktionen, Stichprobenauswahl, Tests, Lösungstabelle.
+confounder-example	posts/confounder-example/index.qmd	aus			DAG-Definitionen; nur die Diagramme sind relevant.
+corona-dashboard	posts/corona-dashboard/corona-dashboard.rmd	aus			Chunk definiert nur Lösungsstring.
+corona-todesfaelle1	posts/corona-todesfaelle1/corona-todesfaelle1.rmd	zeigen			Lösung zeigt Datenimport und Plot in R.
+corr-dyn1	posts/corr-dyn1/corr-dyn1.rmd	zeigen			Musterlösung ist R-Code; Generatorchunks schon echo=FALSE.
+count-emoji-emo	posts/count-emoji-emo/count-emoji-emo.qmd	zeigen			Textmining-Aufgabe; String ist Angabe, Lösung ist R-Code.
+count-emoji	posts/count-emoji/count-emoji.rmd	zeigen			Textmining-Aufgabe; String ist Angabe, Lösung ist R-Code.
+count-emojis	posts/count-emojis/count-emojis.qmd	zeigen			Textmining-Aufgabe; Lösung ist R-Code.
+count-lexicon	posts/count-lexicon/count-lexicon.qmd	zeigen			Textmining-Aufgabe; Angabe und Lösung sind R-Code.
+count-words01	posts/count-words01/count-words01.qmd	zeigen			Textmining-Aufgabe; Lösung ist R-Code.
+dag-graph	posts/dag-graph/dag-graph.qmd	aus			DAG-Definition per dagitty/ggdag; paper-Aufgabe, nur Diagramm zählt.
+datenstrukturgrad	posts/datenstrukturgrad/datenstrukturgrad.rmd	aus			Zufallsauswahl und Lösungsstrings verraten Antwort.
+datenvis-moderndive-barplot1	posts/datenvis-moderndive-barplot1/datenvis-moderndive-barplot1.rmd	zeigen			Visualisierungsaufgabe; Lösung ist ggplot-Code.
+datenvis-moderndive-boxplot1	posts/datenvis-moderndive-boxplot1/datenvis-moderndive-boxplot1.rmd	zeigen			Visualisierungsaufgabe; Lösung ist ggplot-Code.
+datenvis-moderndive-histogramm1	posts/datenvis-moderndive-histogramm1/datenvis-moderndive-histogramm1.rmd	zeigen			Visualisierungsaufgabe; Lösung ist ggplot-Code.
+datenvis-moderndive-scatterplot1	posts/datenvis-moderndive-scatterplot1/datenvis-moderndive-scatterplot1.rmd	zeigen			Visualisierungsaufgabe; Lösung ist ggplot-Code.
+datenvis-moderndive-scatterplot2	posts/datenvis-moderndive-scatterplot2/datenvis-moderndive-scatterplot2.rmd	zeigen			Visualisierungsaufgabe; Lösung ist ggplot-Code.
+dating01	posts/dating01/dating01.rmd	zeigen			Datenanalyse am Rechner (Import, count, ggplot); Code ist die Lösung.
+diamonds-histogram-rcode	posts/diamonds-histogram-rcode/diamonds-histogram-rcode.rmd	aus	75		Code-Optionen stehen als Text; glimpse ist Datenansicht. Setup-Chunk „Für alle Diagramme gilt“ gehört zur Angabe.
+diamonds-nullhyp-mws	posts/diamonds-nullhyp-mws/diamonds-nullhyp-mws.rmd	zeigen			Lösung zeigt bewusst den Modellaufruf („Probieren geht über Studieren“) zum Nachmachen.
+diamonds-tidymodels01	posts/diamonds-tidymodels01/diamonds-tidymodels01.rmd	zeigen			Tidymodels-Analyse; Code ist die Lösung.
+display-logist1	posts/display-logist1/display-logist1.rmd	zeigen			Lösung ist R-Code zum Erzeugen der Diagramme (teils explizit echo=TRUE).
+distros-schoice	posts/distros-schoice/distros-schoice.Rmd	aus			Plot-Generator für Verteilungsdiagramme; nur die Abbildungen zählen.
+distros	posts/distros/index.qmd	aus			Plot-Generator für Verteilungsdiagramme; nur die Abbildungen zählen.
+dplyr-mtcars01	posts/dplyr-mtcars01/index.qmd	zeigen			dplyr-Aufgabe am Rechner; Code ist die Lösung.
+dplyr-uebersetzen	posts/dplyr-uebersetzen/dplyr-uebersetzen.rmd	zeigen			Code ist Gegenstand der Frage (R-Sequenz übersetzen).
+durch3-durch5	posts/durch3-durch5/durch3-durch5.rmd	zeigen			Programmieraufgabe; Code ist die Lösung.
+effectsize-groups	posts/effectsize-groups/effectsize-groups.rmd	zeigen			Effektstärken mit R berechnen; Code ist der Lösungsweg.
+einsamkeit-modellierung	posts/einsamkeit-modellierung/index.qmd	zeigen		57,120,137,147,187	Fallstudie mit Import, Wrangling, stan_glm; Mermaid-Diagramme sind nur Technik.
+emojis1	posts/emojis1/emojis1.qmd	zeigen			Textmining-Aufgabe am Rechner; Code ist die Lösung.
+eti-hdi	posts/eti-hdi/index.qmd	zeigen			Bayesbox-Rechenweg und eti/hdi-Aufrufe zum Nachmachen.
+euro-bayes	posts/euro-bayes/euro-bayes.rmd	zeigen			Bayesbox-Rechenweg in R zum Nachmachen.
+exp-priori-lambda-koerpergroesse-num	posts/exp-priori-lambda-koerpergroesse-num/exp-priori-lambda-koerpergroesse-num.Rmd	kein Code sichtbar			Generator-Chunk ist include=FALSE; Rest Inline-R.
+experimente	posts/experimente/experimente.rmd	aus			Generator der Antwortoptionen; Code verrät die Lösung (solutions-Vektor).
+expgruppe-vs-kontrollgruppe	posts/expgruppe-vs-kontrollgruppe/expgruppe-vs-kontrollgruppe.rmd	aus			Generator der Antwortoptionen; Code verrät die Lösung (solutions-Vektor).
+fallstudie-excel-r	posts/fallstudie-excel-r/fallstudie-excel-r.qmd	zeigen			R-Analyse als Vergleich zu Excel; Code ist Inhalt.
+fattails01	posts/fattails01/fattails01.rmd	zeigen			Code der Angabe wird im Text erklärt; Lösung ist Bayesbox-Rechenweg in R.
+fattails02	posts/fattails02/fattails02.rmd	zeigen			Code der Angabe wird im Text erklärt; Lösung ist Bayesbox-Rechenweg in R.
+filter-na1	posts/filter-na1/filter-na1.rmd	zeigen			Wrangling-Aufgabe; Code ist die Lösung.
+filter-na2	posts/filter-na2/filter-na2.rmd	zeigen			Wrangling-Aufgabe; Code ist die Lösung.
+filter-na3	posts/filter-na3/filter-na3.rmd	zeigen			Wrangling-Aufgabe; Code ist die Lösung.
+filter-na4	posts/filter-na4/filter-na4.rmd	zeigen			Visualisierung fehlender Werte; Code ist die Lösung.
+filter-na5	posts/filter-na5/filter-na5.rmd	zeigen			Fünf R-Wege zum Zählen von NAs; Code ist die Lösung.
+filter	posts/filter/filter.rmd	zeigen			Syntaxfrage zu filter(); Lösungscode gehört dazu.
+filter01	posts/filter01/filter01.rmd	zeigen			Filteraufgabe am Rechner; Code ist die Lösung.
+flights-delay-simplified	posts/flights-delay-simplified/index.qmd	zeigen			Fallstudie lm/Wrangling; Code ist der Inhalt.
+flights-delay	posts/flights-delay/index.qmd	zeigen			Fallstudie lm/Wrangling; Code ist der Inhalt.
+flights-geom_point-geom-lm	posts/flights-geom_point-geom-lm/flights-geom_point-geom-lm.rmd	aus			Frage: „Welcher R-Code erzeugt das Diagramm?“ Der Plot-Chunk zeigt genau diesen Code und verrät die Lösung. Die Code-Optionen kommen als Ausgabe (d$snippets_w_id), nicht als Echo.
+flights-yacsda-eda	posts/flights-yacsda-eda/index.qmd	zeigen			EDA-Fallstudie; Code ist der Inhalt.
+fofrage-regrformel	posts/fofrage-regrformel/index.qmd	aus			Nur Datenansicht (glimpse); Lösung ist Formel im Text.
+fofrage-regrformel2-schoice	posts/fofrage-regrformel2-schoice/fofrage-regrformel2-schoice.Rmd	zeigen			Frage zeigt bewusst die Modellaufrufe (eval: false), weil nach der Regressionsformel gefragt wird; Setup-Chunk ist include=FALSE, Tabellen-Chunk echo=FALSE.
+fofrage-regrformel2	posts/fofrage-regrformel2/index.qmd	zeigen			Modellaufrufe m1–m4 sind Teil der Angabe; ohne sie keine Zuordnung möglich.
+fun1	posts/fun1/index.qmd	zeigen			Funktion schreiben; Code ist die Lösung.
+funs-is-binary	posts/funs-is-binary/funs-is-binary.rmd	zeigen			Funktion schreiben; Code ist die Lösung.
+funs-na-n	posts/funs-na-n/funs-na-n.rmd	zeigen			Funktion schreiben; Code ist die Lösung.
+gem-wskt1	posts/gem-wskt1/gem-wskt1.rmd	aus			Dynamische Aufgabe: Zufallsparameter, Tabelle (gt), Plot; nur Technik.
+gem-wskt2-schoice	posts/gem-wskt2-schoice/gem-wskt2-schoice.Rmd	kein Code sichtbar			Chunks explizit echo=FALSE bzw. include=FALSE.
+gem-wskt4-schoice	posts/gem-wskt4-schoice/gem-wskt4-schoice.Rmd	aus			Paper-Aufgabe; intersect-Hilfsaufruf, Text erklärt die Lösung vollständig.
+gem-wskt4	posts/gem-wskt4/index.qmd	aus			Paper-Aufgabe; intersect-Hilfsaufruf, Text erklärt die Lösung vollständig.
+genial-schoice	posts/genial-schoice/genial-schoice.Rmd	aus			Nur Ausgabe vorab berechneter Werte; Baumdiagramm-Generator.
+genial	posts/genial/index.qmd	zeigen		108	Schrittweiser Bayes-Rechenweg in R (Zähler, Nenner); Mermaid-Baum ist Technik.
+germeval-sent-wordvec-elasticnet	posts/germeval-sent-wordvec-elasticnet/germeval-sent-wordvec-elasticnet.qmd	zeigen			Tidymodels-Textmining; Code ist die Lösung.
+germeval-sent-wordvec-glm	posts/germeval-sent-wordvec-glm/germeval-sent-wordvec-glm.qmd	zeigen			Tidymodels-Textmining; Code ist die Lösung.
+germeval-sent-wordvec-rf-plain	posts/germeval-sent-wordvec-rf-plain/germeval-sent-wordvec-rf-plain.qmd	zeigen			Tidymodels-Textmining; Code ist die Lösung.
+germeval-sent-wordvec-rf-tune	posts/germeval-sent-wordvec-rf-tune/germeval-sent-wordvec-rf-tune.qmd	zeigen			Tidymodels-Textmining; Code ist die Lösung.
+germeval-sent-wordvec-xgb-parallel	posts/germeval-sent-wordvec-xgb-parallel/germeval-sent-wordvec-xgb-parallel.qmd	zeigen			Tidymodels-Textmining; Code ist die Lösung.
+germeval-sent-wordvec-xgb-plain	posts/germeval-sent-wordvec-xgb-plain/germeval-sent-wordvec-xgb-plain.qmd	zeigen			Tidymodels-Textmining; Code ist die Lösung.
+germeval-sent-wordvec-xgb-tune	posts/germeval-sent-wordvec-xgb-tune/germeval-sent-wordvec-xgb-tune.qmd	zeigen			Tidymodels-Textmining; Code ist die Lösung.
+germeval-sent-wordvec-xgb	posts/germeval-sent-wordvec-xgb/germeval-sent-wordvec-xgb.qmd	zeigen			Tidymodels-Textmining; Code ist die Lösung.
+germeval-senti01	posts/germeval-senti01/germeval-senti01.qmd	zeigen			Tidymodels-Sentimentanalyse; Code ist die Lösung.
+germeval02	posts/germeval02/germeval02.qmd	zeigen			Sentimentanalyse in R; Code ist die Lösung.
+germeval05	posts/germeval05/germeval05.qmd	zeigen			Tidymodels mit Wortvektoren; Code ist die Lösung.
+germeval06	posts/germeval06/germeval06.qmd	zeigen			Tidymodels mit Wortvektoren; Code ist die Lösung.
+germeval07	posts/germeval07/germeval07.qmd	zeigen			Tidymodels mit Wortvektoren; Code ist die Lösung.
+germeval08-extract-spacy	posts/germeval08-extract-spacy/germeval08-extract-spacy.qmd	zeigen			Python/spaCy-Wortvektoren; Code ist die Lösung.
+germeval08-schimpf	posts/germeval08-schimpf/germeval08-schimpf.qmd	zeigen			Tidymodels-Textmining; Code ist die Lösung.
+germeval09-tfidf	posts/germeval09-tfidf/germeval09-tfidf.qmd	zeigen			Tidymodels mit tf-idf; Code ist die Lösung.
+germeval10-wordvec-rf	posts/germeval10-wordvec-rf/germeval10-wordvec-rf.qmd	zeigen			Tidymodels mit Wortvektoren; Code ist die Lösung.
+ggplot-prog	posts/ggplot-prog/ggplot-prog.rmd	zeigen			Programmieraufgabe mit ggplot und map; Code ist die Lösung.
+ggstatsplot01	posts/ggstatsplot01/ggstatsplot01.rmd	zeigen			Diagramm mit ggstatsplot erstellen; Code ist die Lösung.
+gini-plot	posts/gini-plot/gini-plot.rmd	zeigen			Gini-Funktion in R visualisieren; Code ist die Lösung.
+glm-linear-transf-tidymodels	posts/glm-linear-transf-tidymodels/glm-linear-transf-tidymodels.rmd	zeigen			Tidymodels-Analyse; Code ist die Lösung.
+glm-linear-transf	posts/glm-linear-transf/glm-linear-transf.rmd	zeigen			Bayes-Modelle mit stan_glm berechnen; Code ist die Lösung.
+globus-bin	posts/globus-bin/index.qmd	zeigen			dbinom-Rechenweg zum Nachmachen; Plotfunktion bereits ausgeblendet.
+globus-bin2	posts/globus-bin2/index.qmd	zeigen			dbinom- und Handrechenweg in R zum Nachmachen.
+globus1	posts/globus1/index.qmd	zeigen			Rechenweg (dbinom, choose, Pfade) zum Nachmachen.
+globus2-schoice	posts/globus2-schoice/globus2-schoice.Rmd	zeigen			Rechenweg (dbinom, choose, Pfade) zum Nachmachen; Text verweist auf den Code.
+globus2	posts/globus2/index.qmd	zeigen			Rechenweg (dbinom, choose, Pfade) zum Nachmachen; Text verweist auf den Code.
+globus3	posts/globus3/index.qmd	zeigen			Rechenweg (dbinom, choose, Pfade) zum Nachmachen; Text verweist auf den Code.
+griech-buchstaben-inferenz	posts/griech-buchstaben-inferenz/griech-buchstaben-inferenz.rmd	aus			Code erzeugt nur Tabellen (tribble).
+griech-buchstaben-schoice	posts/griech-buchstaben-schoice/griech-buchstaben-schoice.Rmd	aus			Code erzeugt nur Tabellen (tribble).
+griech-buchstaben	posts/griech-buchstaben/griech-buchstaben.rmd	aus			Code erzeugt nur Tabellen (tribble).
+groesse01	posts/groesse01/groesse01.qmd	zeigen			Bayesbox am Rechner aufbauen; Code ist die Lösung.
+groesse02	posts/groesse02/groesse02.qmd	zeigen			Bayesbox am Rechner aufbauen; Code ist die Lösung.
+groesse03	posts/groesse03/index.qmd	zeigen			Analyse und stan_glm-Aufruf sind Teil der Angabe; Ergebnis-Chunks bereits ausgeblendet.
+groesse04	posts/groesse04/index.qmd	zeigen			Analyse und stan_glm-Aufruf sind Teil der Angabe; Ergebnis-Chunks bereits ausgeblendet.
+groupby1	posts/groupby1/groupby1.rmd	zeigen		47	Syntaxfrage; Chunk Z47 zeigt exakt die richtige Option C und verrät die Lösung.
+haeufigkeit01	posts/haeufigkeit01/haeufigkeit01.rmd	zeigen			Häufigkeitsanalyse mit dplyr; Code ist die Lösung.
+haeufigkeit02	posts/haeufigkeit02/haeufigkeit02.rmd	aus			Code erzeugt nur die Balkendiagramme.
+heatmap-mosaic	posts/heatmap-mosaic/heatmap-mosaic.rmd	zeigen			Frage zeigt bewusst den mosaic-Aufruf für die Heatmap; Code ist Teil der Angabe.
+heatmap	posts/heatmap/heatmap.rmd	zeigen			Frage zeigt bewusst, wie man eine Heatmap in R erstellt; Code ist Teil der Angabe.
+hintertuer	posts/hintertuer/hintertuer.qmd	kein Code sichtbar			DAG-Chunk hat explizit echo: false.
+hyp-women-01	posts/hyp-women-01/hyp-women-01.rmd	zeigen			Rechneraufgabe: Lösung ist eine stan_glm-Analyse mit Post-Verteilung.
+hyp-women-02	posts/hyp-women-02/hyp-women-02.rmd	zeigen			Rechneraufgabe: Lösung ist eine stan_glm-Analyse mit Entscheidungsregel.
+hyp-women-03	posts/hyp-women-03/hyp-women-03.rmd	zeigen			Rechneraufgabe: Datenbereinigung, stan_glm und PPV sind der Lösungsweg.
+hyp-women-04	posts/hyp-women-04/hyp-women-04.rmd	zeigen		141	Rechneraufgabe mit stan_glm und ROPE; nur die hart gesetzte Lösung sol <- 1 ausblenden.
+hyp-women-05	posts/hyp-women-05/hyp-women-05.rmd	zeigen			Rechneraufgabe: stan_glm und Bayes-R² sind der Lösungsweg.
+hyp-women-06	posts/hyp-women-06/hyp-women-06.rmd	zeigen			Rechneraufgabe: Cohens d aus stan_glm-Post-Verteilung berechnen.
+implikation1-babynames	posts/implikation1-babynames/implikation1-babynames.rmd	aus			Dynamischer Generator für Wahrheitstafel und Antwortliste; Code ist reine Technik.
+implikation1	posts/implikation1/implikation1.rmd	aus			Dynamischer Generator für Wahrheitstafel und Antwortliste; Code ist reine Technik.
+import-data	posts/import-data/index.qmd	zeigen			Import-Aufgabe am Rechner; Download und Einlesen sind der Inhalt.
+import-mtcars	posts/import-mtcars/import-mtcars.rmd	zeigen			Import-Aufgabe am Rechner; der Einlese-Code ist die Lösung.
+import-xls	posts/import-xls/import-xls.qmd	zeigen			Excel-Import in R ist der Inhalt der Aufgabe.
+ims-kap-04-02	posts/ims-kap-04-02/ims-kap-04-02.rmd	aus			Glimpse-Code erzeugt nur den Datenauszug; explizites echo=TRUE beim Laden bleibt.
+ims-kap-04-03	posts/ims-kap-04-03/ims-kap-04-03.rmd	zeigen			Faktorstufen zählen erfordert R; Lösungscode zeigt den Weg.
+ims-kap-04-04	posts/ims-kap-04-04/ims-kap-04-04.rmd	zeigen			Syntaxfrage zum lm-Aufruf; alle sichtbaren Chunks haben bereits echo=TRUE.
+ims-kap-04-05	posts/ims-kap-04-05/ims-kap-04-05.rmd	aus			Datenaufbereitung und gt-Tabelle sind Technik; Modellaufruf hat bereits echo=TRUE.
+ims-kap-04-06	posts/ims-kap-04-06/ims-kap-04-06.rmd	aus			Plot-Code in der Frage ist Technik; Syntax steht in der Lösung bereits mit echo=TRUE.
+inferenz-fuer-alle	posts/inferenz-fuer-alle/inferenz-fuer-alle.rmd	kein Code sichtbar			Nur ein Optionen-Chunk mit include=FALSE.
+interpret-koeff-lm	posts/interpret-koeff-lm/interpret-koeff-lm.rmd	zeigen			Modellaufruf ist Teil der Angabe; gefragt wird nach seiner Ausgabe.
+interpret-koeff-schoice	posts/interpret-koeff-schoice/interpret-koeff-schoice.Rmd	zeigen			Modellaufruf ist Teil der Angabe; Parametertabelle bereits mit echo=FALSE.
+interpret-koeff	posts/interpret-koeff/interpret-koeff.rmd	zeigen			Modellaufruf ist Teil der Angabe; gefragt wird nach seiner Ausgabe.
+iq-studentis	posts/iq-studentis/iq-studentis.rmd	zeigen			Prior-Prädiktiv-Simulation in R ist Inhalt der Aufgabe.
+iq01	posts/iq01/iq01.qmd	zeigen			Simulationsaufgabe; der Simulationscode ist der Lösungsweg.
+iq01a	posts/iq01a/index.qmd	zeigen			pnorm-Aufruf zeigt den Rechenweg am Computer.
+iq02	posts/iq02/iq02.qmd	zeigen			Simulationsaufgabe; der Simulationscode ist der Lösungsweg.
+iq02a	posts/iq02a/index.qmd	zeigen			pnorm-Aufruf zeigt den Rechenweg am Computer.
+iq03	posts/iq03/iq03.qmd	zeigen			Simulationsaufgabe; der Simulationscode ist der Lösungsweg.
+iq03a	posts/iq03a/index.qmd	zeigen			pnorm-Aufruf zeigt den Rechenweg am Computer.
+iq04	posts/iq04/iq04.qmd	zeigen			Simulationsaufgabe; Code wird sogar Schritt für Schritt erklärt.
+iq05	posts/iq05/iq05.qmd	zeigen			Simulationsaufgabe; der Simulationscode ist der Lösungsweg.
+iq06	posts/iq06/iq06.qmd	zeigen			Simulationsaufgabe; der Simulationscode ist der Lösungsweg.
+iq07	posts/iq07/iq07.qmd	zeigen			Simulationsaufgabe; der Simulationscode ist der Lösungsweg.
+iq08	posts/iq08/iq08.qmd	zeigen			Simulationsaufgabe; der Simulationscode ist der Lösungsweg.
+iq09	posts/iq09/iq09.qmd	zeigen			Simulationsaufgabe; Lösung enthält aber nur library(tidyverse).
+iq10	posts/iq10/iq10.qmd	zeigen			Bayes-Gitter per Simulation; Code ist der Lösungsweg.
+joins	posts/joins/joins.rmd	aus			Zufallsauswahl der Join-Diagramme und include_graphics sind Generator-Technik.
+k-coins-k-hits	posts/k-coins-k-hits/k-coins-k-hits.qmd	aus			Zufallsparameter und Ausgabe von p, k sind Technik; Rechenzeile hat bereits echo=TRUE.
+k-coins-nicht-k-hits	posts/k-coins-nicht-k-hits/k-coins-nicht-k-hits.rmd	aus			Zufallsparameter und Ausgabe von p, k sind Technik; Rechenzeile hat bereits echo=TRUE.
+kaefer1-schoice	posts/kaefer1-schoice/kaefer1-schoice.Rmd	zeigen			Angabewerte stehen nur als R-Zuweisungen da; bayesbox ist der Rechenweg.
+kaefer1	posts/kaefer1/kaefer1.qmd	zeigen		91	Angabewerte als R-Zuweisungen und bayesbox-Lösung; nur hart gesetztes sol ausblenden.
+kaefer2	posts/kaefer2/kaefer2.qmd	zeigen			Angabewerte als R-Zuweisungen; bayesbox-Aufruf ist der Lösungsweg.
+kausal-bedrooms1	posts/kausal-bedrooms1/kausal-bedrooms1.rmd	zeigen			Rechneraufgabe: Regressionen für direkten und totalen Effekt sind die Lösung.
+kausal-einfach	posts/kausal-einfach/kausal-einfach.rmd	aus			DAG-Definition und Plot sind Technik; nur das Diagramm zählt.
+kausal-simu1	posts/kausal-simu1/kausal-simu1.rmd	zeigen			Simulation mit rnorm und lm ist bewusst Teil der Angabe und Lösung.
+kausal01	posts/kausal01/kausal01.rmd	aus			Paper-Aufgabe; adjustmentSets und ggdag sind Hilfsaufrufe, Ausgabe genügt.
+kausal02	posts/kausal02/kausal02.rmd	aus			Paper-Aufgabe; DAG-Definition und Plot sind Technik.
+kausal03	posts/kausal03/kausal03.rmd	aus			DAG-Definition und adjustmentSets()-Aufruf sind Technik; die Ausgabe (das Adjustment Set) bleibt sichtbar. Entscheidung: auch solche paper-Aufgaben ausblenden.
+kausal04	posts/kausal04/kausal04.rmd	aus			Paper-Aufgabe; dagify und adjustmentSets sind Hilfsaufrufe.
+kausal05	posts/kausal05/kausal05.rmd	aus			Paper-Aufgabe; DAG-Plot-Code ist Technik.
+kausal06	posts/kausal06/kausal06.rmd	aus			Paper-Aufgabe; DAG-Plot-Code ist Technik.
+kausal07	posts/kausal07/kausal07.rmd	aus			Paper-Aufgabe; dagify, ggdag und adjustmentSets sind Hilfsaufrufe.
+kausal08	posts/kausal08/kausal08.rmd	aus			Paper-Aufgabe; DAG-Plot-Code ist Technik.
+kausal09	posts/kausal09/kausal09.rmd	aus			Paper-Aufgabe; DAG-Plot-Code ist Technik.
+kausal10	posts/kausal10/kausal10.rmd	aus			Paper-Aufgabe; DAG-Plot-Code ist Technik.
+kausal20	posts/kausal20/kausal20.rmd	aus			DAG-Generator; Fragechunks berechnen das Adjustment-Set und verraten die Lösung.
+kausal21	posts/kausal21/kausal21.rmd	aus			DAG-Generator; Fragechunks berechnen das Adjustment-Set und verraten die Lösung.
+kausal22	posts/kausal22/kausal22.rmd	aus			DAG-Generator; Fragechunks berechnen das Adjustment-Set und verraten die Lösung.
+kausal23	posts/kausal23/kausal23.rmd	aus			DAG-Generator; Fragechunks berechnen das Adjustment-Set und verraten die Lösung.
+kausal24	posts/kausal24/kausal24.rmd	aus			DAG-Generator; Fragechunks berechnen das Adjustment-Set und verraten die Lösung.
+kausal25	posts/kausal25/kausal25.rmd	aus			DAG-Generator; Fragechunks berechnen das Adjustment-Set und verraten die Lösung.
+kausal26	posts/kausal26/kausal26.rmd	aus			DAG-Generator; Fragechunks berechnen das Adjustment-Set und verraten die Lösung.
+kausal27	posts/kausal27/kausal27.rmd	aus			DAG-Generator; Fragechunks berechnen das Adjustment-Set und verraten die Lösung.
+kausal28	posts/kausal28/kausal28.rmd	aus			DAG-Generator; Fragechunks berechnen das Adjustment-Set und verraten die Lösung.
+kausal29	posts/kausal29/kausal29.rmd	aus			Hilfsaufrufe wie adjustmentSets und paths ausblenden; DAG-Definition hat bereits echo=TRUE.
+kekse01-schoice	posts/kekse01-schoice/kekse01-schoice.Rmd	aus			Paper-Aufgabe; Bayesbox-Tabelle als Ausgabe genügt, wie in kekse01.
+kekse01	posts/kekse01/kekse01.rmd	aus			Bayesbox-Code ist vom Autor bereits ausgeblendet; Tabelle genügt.
+kekse02	posts/kekse02/kekse02.qmd	aus			Plot-Code ist Technik; Bayes-Gitter hat bereits echo=TRUE.
+kekse03	posts/kekse03/index.qmd	aus			Bayesbox bereits ausgeblendet; ggbarplot-Code ist Technik.
+klausur-raten	posts/klausur-raten/klausur-raten.qmd	aus			Zufallsparameter per sample() stehen vor der Aufgabe. Lösungschunk dbinom() hat schon echo=TRUE und bleibt sichtbar; binomial_plot-Aufruf und sol_tol sind Technik.
+klausuren-bestehen-schoice	posts/klausuren-bestehen-schoice/klausuren-bestehen-schoice.Rmd	zeigen			Rechenweg in R ist der Lösungsinhalt, wie in klausuren-bestehen.
+klausuren-bestehen	posts/klausuren-bestehen/klausuren-bestehen.qmd	zeigen			Rechenwege in R (Gegenwahrscheinlichkeit, Additionssatz) sind der Lösungsinhalt.
+knn-ames01	posts/knn-ames01/knn-ames01.qmd	zeigen			tidymodels-Analyse ist der Inhalt der Aufgabe.
+kollision-eignung	posts/kollision-eignung/kollision-eignung.qmd	zeigen			Simulation und stan_glm-Modelle sind der Lösungsweg.
+kontingenztabelle1	posts/kontingenztabelle1/kontingenztabelle1.rmd	aus			Dynamischer Generator mit Zufallsparametern und Lösungsberechnung.
+korr-als-regr	posts/korr-als-regr/korr-als-regr.rmd	zeigen			R-Ausgaben in der Frage werden bewusst mit Aufruf gezeigt; Lösung rechnet in R.
+korr-vs-entropie1	posts/korr-vs-entropie1/korr-vs-entropie1.qmd	zeigen			Korrelation und Mutual Information in R berechnen ist die Aufgabe.
+korr01	posts/korr01/korr01.rmd	aus			Datensimulation und Streudiagramm sind Generator-Technik.
+korr02	posts/korr02/korr02.rmd	aus			Zufallskorrelation und Plots sind Generator-Technik.
+krebs1	posts/krebs1/krebs1.qmd	aus			Mermaid-Baumdiagramm ist Technik; Rechenweg hat bereits echo=TRUE.
+kung-height	posts/kung-height/kung-height.rmd	zeigen			Rechneraufgabe: Import, Diagramme und Schiefe/Kurtosis in R.
+kung-height2	posts/kung-height2/index.qmd	aus			Diskussions-/paper-Aufgabe; Importcode ist Technik, Plots liefern die nötige Ausgabe.
+likelihood-nv	posts/likelihood-nv/likelihood-nv.qmd	zeigen			Einziger Chunk pnorm() hat explizit echo=TRUE; passt (zeigt Rechenweg).
+likelihood-nv_schoice	posts/likelihood-nv_schoice/likelihood-nv_schoice.qmd	zeigen			Einziger Chunk pnorm() hat explizit echo=TRUE; passt.
+likelihood1	posts/likelihood1/likelihood1.rmd	aus			Zufallsparameter n per sample() vor der Frage. Lösungschunk (dbinom-Tabelle) hat schon echo=TRUE und bleibt sichtbar.
+lm-mario1	posts/lm-mario1/lm-mario1.rmd	zeigen			Kategorie R/computer; lm() + predict() ist der Lösungsweg.
+lm-mario2	posts/lm-mario2/lm-mario2.rmd	zeigen			Rechneraufgabe: lm und predict sind der Lösungsweg.
+lm-mario3	posts/lm-mario3/lm-mario3.rmd	zeigen			Rechneraufgabe: lm, predict und Mittelwert sind der Lösungsweg zum Nachmachen.
+lm-standardfehler	posts/lm-standardfehler/lm-standardfehler.rmd	zeigen			Aufgabe verlangt Datensimulation und Regressionen in R; Code ist Angabe und Lösungsweg.
+lm1	posts/lm1/lm1.rmd	zeigen			Regression am Rechner; Generator-Chunk ist schon echo=FALSE, Lösungscode explizit sichtbar.
+log-in-p	posts/log-in-p/log-in-p.rmd	aus			Zufallsziehung der Logits und Lösungsberechnung sind Generator; Rechenbeispiele haben bereits echo=TRUE.
+log-in-p2	posts/log-in-p2/log-in-p2.rmd	aus			runif-Generator und Lösungsberechnung ausblenden; Rechenbeispiele haben bereits echo=TRUE.
+log-y-regr1	posts/log-y-regr1/log-y-regr1.rmd	zeigen			Log-Y-Regression am Rechner; Import, Wrangling und lm sind der Inhalt.
+log-y-regr2	posts/log-y-regr2/log-y-regr2.rmd	zeigen			Log-Transformation, Modell und Visualisierung in R sind der Lösungsweg.
+log-y-regr3	posts/log-y-regr3/log-y-regr3.rmd	zeigen			Standardisierung und Regression in R sind der Lösungsweg.
+logikpruefung1	posts/logikpruefung1/logikpruefung1.rmd	zeigen			Gefragt ist die Syntax selbst; ohne Echo wäre die Lösung leer.
+logikpruefung2	posts/logikpruefung2/logikpruefung2.rmd	zeigen			Reine R-Syntaxfrage; Code ist Angabe und Lösung.
+logist-bayes-mtcars1	posts/logist-bayes-mtcars1/logist-bayes-mtcars1.rmd	zeigen			stan_glm-Analyse am Rechner; Lösungscode zum Nachmachen.
+logist-bayes-mtcars2	posts/logist-bayes-mtcars2/logist-bayes-mtcars2.rmd	zeigen			Posterior-Intervalle mit stan_glm berechnen; Code ist der Lösungsweg.
+logist-bayes-mtcars3	posts/logist-bayes-mtcars3/logist-bayes-mtcars3.rmd	zeigen			Logistische Regression, Vorhersagen und Plots in R sind der Lösungsweg.
+logist-bayes-mtcars4	posts/logist-bayes-mtcars4/logist-bayes-mtcars4.rmd	zeigen			Modellieren und Visualisieren in R ist explizit gefordert.
+logist-bayes-mtcars5	posts/logist-bayes-mtcars5/logist-bayes-mtcars5.rmd	zeigen			stan_glm und posterior_epred sind der Lösungsweg.
+logist-plot1	posts/logist-plot1/logist-plot1.rmd	aus			Frage-Chunks definieren logist2..5 mit ggplot; sichtbarer Code verrät die gesuchten Funktionen (= Lösung). opts_chunk echo=FALSE wird von Quarto überstimmt.
+logression1	posts/logression1/logression1.rmd	aus			Paper-Aufgabe: nur die Ausgaben (Plot, Tabellen, glm-Summary) werden zur Interpretation gebraucht.
+lose-nieten-binomial-grid	posts/lose-nieten-binomial-grid/lose-nieten-binomial-grid.rmd	zeigen			Gittermethode in R ist der Lösungsweg zum Nachmachen.
+lose-nieten-binomial-grid2	posts/lose-nieten-binomial-grid2/lose-nieten-binomial-grid2.rmd	aus			Zufallsparameter und Optionen sind Generator; dbinom-Rechenweg hat bereits echo=TRUE.
+mario-compare-models	posts/mario-compare-models/index.qmd	zeigen			Modelle vergleichen am Rechner; lm und r2 sind der Lösungsweg.
+mariokart-desk01	posts/mariokart-desk01/mariokart-desk01.rmd	zeigen			Frage zu describe_distribution; R-Code ist Inhalt.
+mariokart-korr1	posts/mariokart-korr1/mariokart-korr1.rmd	zeigen			Import und Korrelation in R sind der Lösungsweg.
+mariokart-korr2	posts/mariokart-korr2/mariokart-korr2.rmd	zeigen			Filtern und Korrelation in R sind der Lösungsweg.
+mariokart-korr3	posts/mariokart-korr3/mariokart-korr3.rmd	zeigen			Filtern mit UND und Korrelation in R sind der Lösungsweg.
+mariokart-korr4	posts/mariokart-korr4/mariokart-korr4.rmd	zeigen			Filtern mit ODER und Korrelation in R sind der Lösungsweg.
+mariokart-max1	posts/mariokart-max1/mariokart-max1.rmd	zeigen			group_by/summarise in R ist der Lösungsweg.
+mariokart-max2	posts/mariokart-max2/mariokart-max2.rmd	zeigen			filter/group_by/summarise in R ist der Lösungsweg.
+mariokart-mean1	posts/mariokart-mean1/mariokart-mean1.rmd	zeigen			Datenimport und Mittelwert in R sind der Lösungsweg.
+mariokart-mean2	posts/mariokart-mean2/mariokart-mean2.rmd	zeigen			Filtern und Mittelwert in R sind der Lösungsweg.
+mariokart-mean3	posts/mariokart-mean3/mariokart-mean3.rmd	zeigen			Filtern und Mittelwert in R sind der Lösungsweg.
+mariokart-mean4	posts/mariokart-mean4/mariokart-mean4.rmd	zeigen			Filtern und Mittelwert in R sind der Lösungsweg.
+mariokart-sd1	posts/mariokart-sd1/mariokart-sd1.rmd	zeigen			Filtern und SD in R sind der Lösungsweg.
+mariokart-sd2	posts/mariokart-sd2/mariokart-sd2.rmd	zeigen			Datenimport und SD in R sind der Lösungsweg.
+mariokart-sd3	posts/mariokart-sd3/mariokart-sd3.rmd	zeigen			Filtern und SD in R sind der Lösungsweg.
+mariokart_desk-inf-mod	posts/mariokart_desk-inf-mod/index.qmd	zeigen		213	Vollständige Datenanalyse in R; nur die Mermaid-Diagrammdefinition ist Technik.
+maschinendesaster	posts/maschinendesaster/index.qmd	zeigen			Rechenweg in R (r^n, Komplement, Variation von n) zum Nachmachen.
+max-corr1	posts/max-corr1/max-corr1.rmd	aus			Plot-Code und Lösungszuweisung sind Technik; nur das Diagramm zählt.
+max-corr2	posts/max-corr2/max-corr2.rmd	aus			Plot-Code und Lösungszuweisung sind Technik; nur das Diagramm zählt.
+md-vs-mw	posts/md-vs-mw/md-vs-mw.rmd	aus			Paket-Laden und Histogramm-Generator; nur die Abbildungen werden gebraucht.
+mediterran-alk	posts/mediterran-alk/mediterran-alk.rmd	aus			Paper-Kausalaufgabe; DAG-Zeichencode ist Technik, nur die Abbildung zählt.
+messniveau	posts/messniveau/messniveau.rmd	aus			kable-Tabelle liefert nur Ausgabe; Paper-Aufgabe zu Skalenniveaus.
+min-corr1	posts/min-corr1/min-corr1.rmd	aus			Plot-Code und Lösungszuweisung sind Technik; nur das Diagramm zählt.
+mittelwert-berechnen	posts/mittelwert-berechnen/mittelwert-berechnen.rmd	aus			Generator und Lösungsberechnung versteckt; R-Beispiel hat bereits echo=TRUE.
+modelldef	posts/modelldef/modelldef.rmd	aus			Generator für Modelldefinitionen; gefragter stan_glm-Aufruf hat bereits echo=TRUE.
+modelldef2	posts/modelldef2/modelldef2.rmd	aus			Zufallsparameter und Optionsgenerator; nur die gerenderten Modelldefinitionen zählen.
+modellguete-testset	posts/modellguete-testset/modellguete-testset.rmd	zeigen			RMSE mit tidymodels berechnen; Code ist der Lösungsweg.
+modellinterpret-beta	posts/modellinterpret-beta/modellinterpret-beta.rmd	zeigen			Analyseschritte der Analystin werden bewusst als Code samt Ausgabe gezeigt; Generator-Chunks sind schon versteckt.
+modellinterpret-breite	posts/modellinterpret-breite/modellinterpret-breite.rmd	zeigen		48,68	Rechneraufgabe mit stan_glm; Datensatz-Zufallswahl und Fragetext-Chunk sind Generator.
+moderation	posts/moderation/index.qmd	zeigen			Modellaufruf ist bewusst Teil der Angabe („Gegeben sei das folgende Modell“).
+movie-sentiment1	posts/movie-sentiment1/movie-sentiment1.qmd	aus			Optionen erscheinen als cat-Ausgabe; sichtbarer Code zeigt syntax1 zuerst und correct = TRUE, verrät also die Lösung.
+movies-vis1	posts/movies-vis1/movies-vis1.rmd	zeigen			Filtern und Visualisieren in R ist der Lösungsweg.
+movies-vis2	posts/movies-vis2/movies-vis2.rmd	zeigen			Visualisierungsaufgabe am Rechner; Code ist die Lösung. echo=TRUE schon gesetzt.
+mtcars-abhaengig	posts/mtcars-abhaengig/mtcars-abhaengig.rmd	zeigen			Variablen bilden, Plot und Anteile in R sind Inhalt der Aufgabe.
+mtcars-abhaengig_var1	posts/mtcars-abhaengig_var1/mtcars-abhaengig_var1.rmd	zeigen			Bedingte Wahrscheinlichkeit per dplyr berechnen; Code ist Lösungsweg.
+mtcars-abhaengig_var2	posts/mtcars-abhaengig_var2/mtcars-abhaengig_var2.rmd	zeigen			Binäre Variablen und Anteile in R sind der Lösungsweg.
+mtcars-abhaengig_var3	posts/mtcars-abhaengig_var3/mtcars-abhaengig_var3.qmd	zeigen		36,90,113,139,184,193,200,225	Lösungsweg zeigen; Initialisierung, Code in der Frage, Asserts, Randfall-Technik und gt verstecken.
+mtcars-abhaengig_var3a	posts/mtcars-abhaengig_var3a/mtcars-abhaengig_var3a.qmd	zeigen		40,100	Lösungsweg zeigen; Initialisierung und Variablenbildung in der Frage verstecken (in Lösung per ref.label gezeigt).
+mtcars-easystats	posts/mtcars-easystats/index.qmd	zeigen			Deskriptive Statistik mit easystats ist der Inhalt.
+mtcars-post	posts/mtcars-post/mtcars-post.rmd	zeigen			stan_glm und parameters mit HDI sind der Lösungsweg.
+mtcars-post2	posts/mtcars-post2/mtcars-post2.rmd	zeigen			Modell berechnen und Intervallbreite in R sind der Lösungsweg.
+mtcars-post2a	posts/mtcars-post2a/index.qmd	zeigen			Modellaufruf ist bewusst Teil der Angabe; Tabellen-Chunks schon echo=false.
+mtcars-post3	posts/mtcars-post3/mtcars-post3.rmd	zeigen			stan_glm und pd/Postverteilung in R sind der Lösungsweg.
+mtcars-post3a	posts/mtcars-post3a/index.qmd	zeigen			Modellaufruf und Ausgaben bewusst als Angabe gezeigt; Lösung liest sie ab.
+mtcars-post_paper	posts/mtcars-post_paper/index.qmd	zeigen			Modellaufrufe und parameters-Varianten sind bewusst Teil der Angabe.
+mtcars-regr01	posts/mtcars-regr01/mtcars-regr01.rmd	zeigen			lm, predict, Visualisierung und Residuen in R sind explizit gefordert.
+mtcars-rope1	posts/mtcars-rope1/mtcars-rope1.rmd	zeigen			stan_glm, HDI und ROPE in R sind der Lösungsweg.
+mtcars-simple1	posts/mtcars-simple1/mtcars-simple1.rmd	zeigen			Regression in R ist der Lösungsweg.
+mtcars-simple2	posts/mtcars-simple2/mtcars-simple2.rmd	zeigen			Regression und r2 in R sind der Lösungsweg.
+mtcars-simple3	posts/mtcars-simple3/mtcars-simple3.rmd	zeigen			Standardisieren und Regression in R sind der Lösungsweg.
+mutate01	posts/mutate01/mutate01.rmd	zeigen			mutate-Übung; Code ist Inhalt.
+mutate02	posts/mutate02/mutate02.rmd	zeigen			mutate/filter/summarise-Übung; Code ist Lösungsweg.
+mutate03	posts/mutate03/mutate03.rmd	zeigen			case_when/group_by-Übung; Code ist Lösungsweg.
+mw-berechnen	posts/mw-berechnen/mw-berechnen.rmd	aus			Zufallsgenerator und Lösung versteckt; R-Beispiel hat bereits echo=TRUE.
+mw-berechnen2	posts/mw-berechnen2/mw-berechnen2.rmd	aus	49		Paper-Rechnung; Lösungsberechnung aus, aber mean()-Beispiel sichtbar lassen.
+mwberechnen	posts/mwberechnen/mwberechnen.rmd	aus			Zufallsgenerator und Lösung versteckt; R-Beispiel hat bereits echo=TRUE.
+n-col-mariokart	posts/n-col-mariokart/n-col-mariokart.rmd	zeigen			ncol() auf dem Datensatz ist der R-Lösungsweg.
+n-vars-diagram	posts/n-vars-diagram/n-vars-diagram.rmd	aus			Plot-Code in der Frage verrät die abgebildeten Variablen; nur das Diagramm zählt.
+na-per-col	posts/na-per-col/na-per-col.qmd	zeigen			Mehrere R-Wege zum Zählen fehlender Werte sind der Inhalt.
+nasa01	posts/nasa01/nasa01.rmd	zeigen			Import, Wrangling und Visualisierung in R sind der Lösungsweg.
+nasa02	posts/nasa02/nasa02.rmd	zeigen			Datenanalyse am Rechner (Import, Wrangling, Korrelation, Plots); Code ist der Lösungsweg.
+nasa03	posts/nasa03/nasa03.rmd	zeigen			Wrangling mit case_when und Odds Ratio in R; Code ist Inhalt der Aufgabe.
+nasa04	posts/nasa04/nasa04.rmd	zeigen			Datenaufbereitung und Visualisierung/Animation in R; Code ist Lösungsweg.
+nasa05	posts/nasa05/nasa05.rmd	zeigen			Pivotieren, Join und plotly-Animation; Code ist Lösungsweg.
+nasa06	posts/nasa06/nasa06.rmd	zeigen			Lang-Format, Dekaden-Statistiken und Plots in R; Code ist Lösungsweg.
+nasa07	posts/nasa07/index.rmd	zeigen			Gruppierte Statistiken und Visualisierung in R; Code ist Lösungsweg.
+nerd-gelockert	posts/nerd-gelockert/nerd-gelockert.qmd	zeigen			Kategorie R: Rechenweg der bedingten Wahrscheinlichkeit in R; Variante-Chunk ebenfalls Rechnung.
+nichtlineare-regr1	posts/nichtlineare-regr1/nichtlineare-regr1.rmd	zeigen			Log-Modell mit lm und Visualisierung; Code ist die verlangte Lösung.
+normalverteilung1	posts/normalverteilung1/normalverteilung1.rmd	aus			Zufallsparameter und xpnorm-Hilfsaufruf; Ausgabe (Plot) genügt, Code ist Technik.
+nyc_casestudy	posts/nyc_casestudy/nyc_casestudy.rmd	zeigen		172	Code der Analystin ist Teil der Angabe und wird interpretiert; sol-Chunk ist Technik.
+odds1	posts/odds1/odds1.rmd	aus			Zufallsgenerator in der Frage; Rechenweg-Chunks haben bereits echo=TRUE.
+oecd-yacsda	posts/oecd-yacsda/index.qmd	zeigen			Fallstudie zur explorativen Datenanalyse in R; Code ist der Inhalt.
+optionalstopping	posts/optionalstopping/optionalstopping.rmd	zeigen			Simulation mit rbernoulli/replicate wird im Text didaktisch erklärt; Code ist Teil der Angabe.
+options-print	posts/options-print/options-print.rmd	zeigen			R-Syntaxfrage zu options(); Code ist die Lösung.
+or	posts/or/or.rmd	aus			Tabelle per gt und sol-Zuweisung sind Technik; Rechenweg hat bereits echo=TRUE.
+paper-recherchieren1	posts/paper-recherchieren1/paper-recherchieren1.rmd	aus			Generator: DOI-Download, Stichprobe, Tests, Antwortliste; Code ist reine Technik.
+papers-qualitaet-einschaetzen	posts/papers-qualitaet-einschaetzen/papers-qualitaet-einschaetzen.rmd	aus			Generator: Daten laden, Stichprobe ziehen, gt-Tabellen; Ausgabe genügt.
+parse_number	posts/parse_number/parse_number.rmd	zeigen			R-Syntaxfrage zu parse_number/as.numeric; Code ist Inhalt.
+penguins-interact	posts/penguins-interact/index.qmd	zeigen			Gegebene stan_glm-Analyse ist Teil der Angabe; Lösung nutzt easystats-Aufrufe.
+penguins-interact2	posts/penguins-interact2/index.qmd	zeigen			Modellaufruf und Parameter werden als Angabe gezeigt und interpretiert.
+penguins-lm	posts/penguins-lm/index.qmd	zeigen			lm/easystats-Lösungsweg in R.
+penguins-lm2	posts/penguins-lm2/index.qmd	zeigen			Rechneraufgabe: Aufbereitung, lm, Plot; Code ist Lösungsweg.
+penguins-punktschaetzer1	posts/penguins-punktschaetzer1/penguins-punktschaetzer1.rmd	zeigen			Interaktionsmodell am Rechner berechnen; Code ist Lösungsweg.
+penguins-regr02	posts/penguins-regr02/penguins-regr02.rmd	zeigen		21	Modell und ROPE am Rechner; library-Chunk vor der Aufgabe ist Technik.
+penguins-regr02a	posts/penguins-regr02a/index.rmd	zeigen		19	Analyse als Angabe zum Interpretieren; library-Chunk vor der Aufgabe ist Technik.
+penguins-regr02b	posts/penguins-regr02b/index.rmd	zeigen		19	Analyse als Angabe zum Interpretieren; library-Chunk vor der Aufgabe ist Technik.
+penguins-regr03	posts/penguins-regr03/penguins-regr03.rmd	zeigen		10	Modell und pd am Rechner; library-Chunk vor der Frage ist Technik.
+penguins-relationen	posts/penguins-relationen/index.qmd	zeigen			Wahrscheinlichkeiten per filter/setdiff in R berechnen; Code ist Lösungsweg.
+penguins-relationen2	posts/penguins-relationen2/index.qmd	zeigen			Wahrscheinlichkeiten per dplyr in R berechnen; Code ist Lösungsweg.
+penguins-rope	posts/penguins-rope/index.qmd	zeigen			Modellaufruf ist Teil der Angabe; Lösung zeigt ROPE/HDI-Aufrufe.
+penguins-simpson	posts/penguins-simpson/index.qmd	zeigen			Modelle berechnen und visualisieren am Rechner; Code ist Lösungsweg.
+penguins-stan-01	posts/penguins-stan-01/penguins-stan-01.rmd	zeigen			stan_glm-Analyse am Rechner; Code ist Lösungsweg.
+penguins-stan-01a	posts/penguins-stan-01a/index.rmd	zeigen			Analyse als Angabe gezeigt; sol-Chunks haben bereits echo=FALSE.
+penguins-stan-02	posts/penguins-stan-02/penguins-stan-02.rmd	zeigen			Rechneraufgabe stan_glm/HDI; Lösungs-Chunk bereits echo=FALSE.
+penguins-stan-02a	posts/penguins-stan-02a/index.rmd	zeigen			Analyse als Angabe gezeigt; sol-Chunk bereits echo=FALSE.
+penguins-stan-03	posts/penguins-stan-03/penguins-stan-03.rmd	zeigen			Rechneraufgabe stan_glm/Punktschätzer; sol-Chunk bereits echo=FALSE.
+penguins-stan-04	posts/penguins-stan-04/penguins-stan-04.rmd	zeigen			Rechneraufgabe stan_glm/pd; sol-Chunk bereits echo=FALSE.
+penguins-stan-04a	posts/penguins-stan-04a/index.rmd	zeigen			Analyse als Angabe gezeigt; sol-Chunk bereits echo=FALSE.
+penguins-stan-05	posts/penguins-stan-05/penguins-stan-05.rmd	zeigen			Filtern und stan_glm/ETI am Rechner; sol-Chunk bereits echo=FALSE.
+penguins-stan-05a	posts/penguins-stan-05a/index.qmd	zeigen			Analyse als Angabe gezeigt; sol- und Plot-Chunk bereits echo=FALSE.
+penguins-stan-06	posts/penguins-stan-06/index.qmd	zeigen			Analyse als Angabe gezeigt; Lösung mit easystats-Aufrufen.
+penguins-vis-bodymass1	posts/penguins-vis-bodymass1/index.qmd	zeigen			Visualisierung am Rechner; Plot-Code ist Lösungsweg.
+penguins-vis-bodymass2	posts/penguins-vis-bodymass2/index.qmd	zeigen			Visualisierung am Rechner; Plot-Code ist Lösungsweg.
+penguins-weight	posts/penguins-weight/index.qmd	zeigen			Modellaufruf und parameters() sind Angabe; Breiten-Chunk bereits echo=false.
+pfad	posts/pfad/pfad.rmd	zeigen			Datenimport in R ist die Aufgabe; Code ist Lösung.
+pigs1	posts/pigs1/pigs1.rmd	zeigen			Bayes-Modell am Rechner; Code ist Lösungsweg.
+pigs2	posts/pigs2/pigs2.rmd	zeigen			Bayes-Modell am Rechner; Code ist Lösungsweg.
+pigs3	posts/pigs3/pigs3.rmd	zeigen			Interaktionsmodell am Rechner; Code ist Lösungsweg.
+popup01	posts/popup01/popup01.rmd	zeigen		9	Datenaufbereitung mit janitor/dplyr ist Inhalt; library-Chunk vor der Frage ist Technik.
+post-befragen1	posts/post-befragen1/post-befragen1.rmd	zeigen			Code-Optionen sind die Antwortalternativen; Code ist Inhalt.
+post-effekt-1sd	posts/post-effekt-1sd/post-effekt-1sd.rmd	aus			Generator (teaching_df, sample) in der Frage; Rechenweg-Chunks haben bereits echo=TRUE.
+post-groesse	posts/post-groesse/post-groesse.qmd	zeigen			Rechneraufgabe mit stan_glm; Code ist Lösungsweg (Lösung unvollständig).
+post2-breite-postint	posts/post2-breite-postint/post2-breite-postint.rmd	aus			Generator und Lösungsberechnung in der Frage; Musterlösung hat echo=TRUE.
+post2-glm	posts/post2-glm/post2-glm.rmd	aus			Generator und Antwortoptionen-Bau in der Frage; Lösungswege per ref.label mit echo=TRUE.
+post2-md-post	posts/post2-md-post/post2-md-post.rmd	aus			Generator und Antwortoptionen-Bau in der Frage; Musterlösung hat echo=TRUE.
+post2-r2	posts/post2-r2/post2-r2.rmd	aus	148		Generator in der Frage; Musterlösung hat echo=TRUE, Paket-Setup bleibt sichtbar.
+post2-rope	posts/post2-rope/post2-rope.rmd	zeigen			Musterlösung ist R-Analyse; Generator-Chunks haben bereits echo=FALSE.
+post2	posts/post2/post2.rmd	aus			Dynamischer Generator mit Lösungsberechnung in der Frage; Musterlösung hat echo=TRUE.
+post3	posts/post3/post3.rmd	aus	205,213,228,235,241		Generator in der Frage verrät Lösungen; ref.label-Lösungswege sollen sichtbar bleiben.
+post3a	posts/post3a/post3a.rmd	aus	194		Generator und Lösungsberechnung in der Frage; rope()-Aufruf der Lösung bleibt sichtbar.
+post3b	posts/post3b/post3b.rmd	aus	221		Generator und Lösungsberechnung in der Frage; rope()-Aufruf der Lösung bleibt sichtbar.
+post3c	posts/post3c/post3c.rmd	aus	204		Generator und Lösungsberechnung in der Frage; rope()-Aufruf der Lösung bleibt sichtbar.
+post4	posts/post4/post4.rmd	aus	99,218,228,235,241		Lösungsberechnung in der Frage; Datenimport und ref.label-Lösungswege bleiben sichtbar.
+post5	posts/post5/post5.rmd	aus	153,160,168,174		Modell und Vorhersage in der Frage verraten Lösung; ref.label-Lösungswege bleiben sichtbar.
+post5a	posts/post5a/post5a.rmd	aus			Generator und Lösungsberechnung in der Frage; Musterlösung erklärt im Text.
+posterior_interval	posts/posterior_interval/posterior_interval.rmd	aus			Konzeptfrage; einziger Code (help) hat bereits echo=TRUE.
+postvert-vis-zwielicht	posts/postvert-vis-zwielicht/postvert-vis-zwielicht.qmd	zeigen		35,145	Abbildung in R nachbauen; gghistogram-Chunk in der Frage verrät Lösungscode.
+ppv-dyn1-b	posts/ppv-dyn1-b/ppv-dyn1-b.rmd	aus	108,158		Generator in der Frage; Setup und estimate_prediction-Aufruf der Lösung bleiben sichtbar.
+ppv-dyn1	posts/ppv-dyn1/ppv-dyn1.rmd	zeigen			PPV am Rechner mit stan_glm/estimate_prediction; Code ist Lösungsweg.
+ppv-mtcars1	posts/ppv-mtcars1/ppv-mtcars1.rmd	zeigen			PPV am Rechner mit stan_glm/estimate_prediction; Code ist Lösungsweg.
+ppv01-kung	posts/ppv01-kung/ppv01-kung.rmd	zeigen			Datenimport als Angabe, Modell und PPV-Check sind Lösungsweg.
+ppv02-kung	posts/ppv02-kung/ppv02-kung.rmd	zeigen			Datenimport als Angabe, Modell und PPV-Berechnung sind Lösungsweg.
+ppv1	posts/ppv1/ppv1.rmd	aus			Generator und Lösungsberechnung in der Frage; Musterlösung per ref.label mit echo=TRUE.
+ppv1a-mtcars	posts/ppv1a-mtcars/ppv1a-mtcars.rmd	zeigen			Festes Modell am Rechner; Lösungsweg ist R-Code, sol-Chunk bereits echo=FALSE.
+ppv1a	posts/ppv1a/ppv1a.rmd	aus			Generator und Antwortoptionen-Bau in der Frage; Lösungsweg im Text.
+ppv1c	posts/ppv1c/ppv1c.rmd	aus			Generator und Antwortoptionen-Bau in der Frage; Lösungsweg im Text.
+ppv2	posts/ppv2/ppv2.rmd	aus			Generator und Lösungsberechnung in der Frage; Lösungsweg per ref.label mit echo=TRUE.
+ppv2a	posts/ppv2a/ppv2a.rmd	aus			Generator und Antwortoptionen-Bau in der Frage; Lösungsweg per ref.label mit echo=TRUE.
+ppv3a-num	posts/ppv3a-num/ppv3a-num.rmd	zeigen			Lösung ist eine R-Analyse (Standardisieren, stan_glm, PPV), die Studis am Rechner nachvollziehen sollen; Generator-Chunks schon versteckt.
+ppv3a-schoice	posts/ppv3a-schoice/ppv3a-schoice.rmd	aus			Fragecode erzeugt Parameter, berechnet Lösung und Optionen (verrät Lösung); explizit echo=TRUE-Chunks (print(mod), quantile) bleiben sichtbar.
+praedikatenlogik1	posts/praedikatenlogik1/praedikatenlogik1.rmd	aus			Paper-Aufgabe; Code ist nur Itempool und Zufallsziehung.
+praxisprobleme1	posts/praxisprobleme1/praxisprobleme1.rmd	zeigen			Datenanalyse-Übung am Rechner; Lösung zeigt R-Code für NA, Imputation, Ausreißer, Dubletten.
+predictioncontest1	posts/predictioncontest1/predictioncontest1.rmd	zeigen			Tidymodels-Vorhersageprojekt; der Code ist die Musterlösung.
+priori-streuung	posts/priori-streuung/priori-streuung.rmd	aus			Paper-schoice zu Verteilungen; Code zeichnet nur Dichteplots, Ausgabe genügt.
+priorwahl1	posts/priorwahl1/priorwahl1.rmd	aus			Paper-Aufgabe zur Priorwahl; pnorm-Aufrufe sind nur Hilfsrechnung zur Verdeutlichung, Ausgabe genügt.
+prob-vereinigung	posts/prob-vereinigung/index.qmd	zeigen			Eigener Abschnitt „Lösung mit R“ zeigt den Rechenweg als Code; der ist dort Inhalt.
+pupil-size	posts/pupil-size/pupil-size.rmd	zeigen			Aufgabe am Rechner: Import, Priori-Simulation, stan_glm, eti; Code ist die Musterlösung.
+pupil-size2	posts/pupil-size2/index.rmd	zeigen			Code (Import, stan_glm, eti, hdi) ist bewusst Teil der Angabe; gefragt wird nach Ablesen der Ausgabe.
+purrr-map01	posts/purrr-map01/purrr-map01.rmd	zeigen			R-Syntaxübung (tibble, unite, map2); Code ist die Lösung.
+purrr-map02	posts/purrr-map02/purrr-map02.rmd	zeigen			Textmining-Lösungsweg in R.
+purrr-map03	posts/purrr-map03/purrr-map03.rmd	zeigen			Textmining-Analyse in R (pdftools, tidytext); Code ist die Musterlösung.
+purrr-map04	posts/purrr-map04/purrr-map04.qmd	zeigen			R-Übung zu nest/map/unnest; Code ist die Musterlösung.
+purrr-map05	posts/purrr-map05/purrr-map05.rmd	zeigen			R-Übung zu map/map_dbl; Code ist die Lösung.
+purrr-map06	posts/purrr-map06/purrr-map06.rmd	zeigen			R-Übung zu Listenspalten und map; Code ist die Lösung.
+quap1	posts/quap1/quap1.rmd	zeigen			Gefragt ist der quap()-Befehl; der Code ist die Antwort.
+r-quiz	posts/r-quiz/r-quiz.qmd	zeigen			R-Syntaxquiz; jede Lösung ist ein R-Befehl.
+rechtschreibung1	posts/rechtschreibung1/rechtschreibung1.rmd	aus			Rechtschreib-schoice; Code erzeugt nur Wortliste, Falschschreibungen und Antwortliste.
+regex-insert-char	posts/regex-insert-char/regex-insert-char.rmd	zeigen			Regex-/String-Übung; Code in Angabe zeigt Ein-/Ausgabestring, Lösung ist der str_replace_all-Aufruf.
+regex01	posts/regex01/regex01.qmd	zeigen			R-Übung mit list.files und Regex-Muster; Code ist die Lösung.
+regex02	posts/regex02/regex02.qmd	zeigen			Regex-Übung; Vektor in der Angabe und str_detect-Lösung sind Inhalt.
+regex03	posts/regex03/regex03.qmd	zeigen			Regex-Übung mit str_match; Code in Angabe und Lösung ist Inhalt.
+regr-bayes-interpret	posts/regr-bayes-interpret/regr-bayes-interpret.rmd	zeigen			Modell soll berechnet werden; stan_glm-Aufruf ist die Musterlösung.
+regr-bayes-interpret02	posts/regr-bayes-interpret02/regr-bayes-interpret02.rmd	zeigen			Standardisieren und stan_glm am Rechner; Code ist die Musterlösung.
+regr-bayes-interpret02a	posts/regr-bayes-interpret02a/regr-bayes-interpret02a.qmd	zeigen			Modellaufruf und Ausgabe sind bewusst Teil der Angabe; interpretiert wird die Ausgabe.
+regr-bayes-interpret03	posts/regr-bayes-interpret03/regr-bayes-interpret03.rmd	zeigen			Standardisieren und stan_glm am Rechner; Code ist die Musterlösung.
+regr-bayes-interpret03a	posts/regr-bayes-interpret03a/regr-bayes-interpret03a.qmd	zeigen			Standardisieren und stan_glm am Rechner; Code ist die Musterlösung.
+regr-tree01	posts/regr-tree01/regr-tree01.rmd	zeigen			Tidymodels-Entscheidungsbaum am Rechner; Code ist die Musterlösung.
+regr-tree02	posts/regr-tree02/regr-tree02.rmd	zeigen			Tidymodels-Entscheidungsbaum mit Tuning; Code ist die Musterlösung.
+regr-tree03	posts/regr-tree03/regr-tree03.rmd	zeigen			Tidymodels-Entscheidungsbaum mit Tuninggrid; Code ist die Musterlösung.
+regression1	posts/regression1/regression1.rmd	aus			Paper-schoice zur lm-Ausgabe; coef(m) liefert nur Ausgabe. Tippfehler ech0=FALSE in Z194 lässt Code sichtbar.
+regression1b	posts/regression1b/regression1b.rmd	aus			Paper-schoice zur lm-Ausgabe; coef(m) liefert nur Ausgabe. Tippfehler ech0=FALSE in Z198 lässt Code sichtbar.
+regression2	posts/regression2/regression2.rmd	aus			Dynamische schoice; Code erzeugt Daten und Streudiagramm, Plot genügt.
+regression4	posts/regression4/regression4.rmd	aus			Dynamische num-Aufgabe; Code erzeugt Parameter und Regressionstabelle (kbl). Tippfehler ech=FALSE in Z122.
+remove-digits	posts/remove-digits/index.qmd	zeigen			Gefragt ist R-Code zur Stringbearbeitung; Code ist die Lösung.
+repro1-sessioninfo	posts/repro1-sessioninfo/repro1-sessioninfo.rmd	zeigen			Antwort ist der Befehl sessionInfo(); Chunk hat schon echo=TRUE.
+rethink2m1	posts/rethink2m1/rethink2m1.qmd	zeigen		103	Gitterapproximation in R berechnen und plotten ist die Aufgabe; nur der kable-Tabellenchunk ist Technik.
+rethink2m2	posts/rethink2m2/rethink2m2.qmd	zeigen			Gitterapproximation in R berechnen und plotten ist die Aufgabe; Bayes-Box-Tabelle schon versteckt.
+rethink2m3	posts/rethink2m3/rethink2m3.qmd	zeigen			R-Code dokumentiert den Rechenweg (gemeinsame, totale, Posteriori-Wahrscheinlichkeit) zum Nachmachen; Diagramme schon versteckt.
+rethink2m4	posts/rethink2m4/rethink2m4.qmd	aus			R-Chunks haben schon echo=FALSE, aber die drei nomnoml-Chunks zeigen unter Quarto ihren Diagramm-Quelltext.
+rethink2m5	posts/rethink2m5/rethink2m5.qmd	aus			Paper-Aufgabe; Code baut nur die Bayes-Box als Tabelle, die Ausgabe genügt.
+rethink3e1-7-paper	posts/rethink3e1-7-paper/index.qmd	zeigen			Syntax ist bewusst Teil der Angabe; Lösung bietet Nachrechnen in R an. Plot schon versteckt.
+rethink3e1-7	posts/rethink3e1-7/rethink3e1-7.rmd	zeigen			Syntax ist Teil der Angabe, Lösungen sind R-Auswertungen der Stichproben am Rechner.
+rethink3m1	posts/rethink3m1/rethink3m1.rmd	zeigen			Gittermethode in R berechnen und visualisieren ist die Aufgabe; Code ist die Lösung.
+rethink3m2	posts/rethink3m2/rethink3m2.rmd	zeigen			Stichproben ziehen, plotten, HDI in R; Code ist die Musterlösung.
+rethink3m3	posts/rethink3m3/rethink3m3.rmd	zeigen			PPV in R simulieren und visualisieren; Code ist die Musterlösung, gt-Tabelle schon versteckt.
+rethink3m4	posts/rethink3m4/rethink3m4.qmd	zeigen			PPV-Berechnung in R; Code ist die Musterlösung.
+rethink3m5	posts/rethink3m5/rethink3m5.qmd	zeigen			Gittermethode, HDI und PPV in R; Code ist die Musterlösung.
+rethink3m6	posts/rethink3m6/rethink3m6.qmd	zeigen			Simulationsfunktion zur Stichprobengröße ist der Lösungsweg in R.
+rethink_2e4	posts/rethink_2e4/rethink_2e4.rmd	kein Code sichtbar			Nur libs/Optionen mit include=FALSE.
+rf-finalize	posts/rf-finalize/rf-finalize.rmd	zeigen			Tidymodels-Vorlage am Rechner; Code ist die Musterlösung.
+rf-finalize2	posts/rf-finalize2/rf-finalize2.rmd	zeigen			Tidymodels-Random-Forest mit Tuning; Code ist die Musterlösung.
+rf-finalize3	posts/rf-finalize3/rf-finalize3.rmd	zeigen			Tidymodels-Tuninggitter und mtry-Finalisierung; Code ist die Musterlösung.
+rf-usemodels	posts/rf-usemodels/rf-usemodels.rmd	zeigen			Gefragt ist der Einsatz von usemodels; Code ist die Lösung.
+ridges-vergleichen2	posts/ridges-vergleichen2/ridges-vergleichen2.rmd	aus			Schoice zum Lesen von Verteilungen; Code erzeugt nur den Ridgeplot, Ausgabe genügt.
+rmd-01	posts/rmd-01/rmd-01.rmd	zeigen			Fehlerhafter YAML-Kopf ist bewusst gezeigte Angabe; Chunk hat schon echo=TRUE.
+rope-regr	posts/rope-regr/rope-regr.rmd	aus			Wissensfrage; Code setzt nur den Lösungswert für exsolution.
+rope2	posts/rope2/rope2.rmd	zeigen			ROPE-Analyse am Rechner (stan_glm, rope); Code ist die Musterlösung, Plotchunks schon versteckt.
+rope2a	posts/rope2a/index.rmd	zeigen			ROPE-Analyse am Rechner (stan_glm, rope); Code ist die Musterlösung, Plotchunks schon versteckt.
+rope3	posts/rope3/rope3.rmd	zeigen			Import und ROPE-Analyse am Rechner; Code in Angabe und Lösung ist Inhalt.
+rope3a	posts/rope3a/index.rmd	zeigen			Analysecode und Ausgaben sind bewusst Teil der Angabe; gefragt wird nach Interpretation.
+rope4	posts/rope4/rope4.rmd	zeigen			Datenaufbereitung, Interaktionsmodell und ROPE in R; Code ist die Musterlösung.
+rowmeans-groupby-summarise	posts/rowmeans-groupby-summarise/index.qmd	zeigen			Datenwrangling-Übung (row_means, group_by, summarise); Code ist Angabe und Lösung.
+samples-nyc	posts/samples-nyc/index.qmd	zeigen			Stichprobenvergleich mit nycflights23 in R; Code ist die Lösung.
+samples-nyc2	posts/samples-nyc2/index.qmd	zeigen			Stichprobenvergleich mit nycflights23 in R inkl. Simulation; Code ist die Lösung.
+saratoga-cor1	posts/saratoga-cor1/saratoga-cor1.qmd	zeigen			Import, Gruppieren, Korrelation und Plot in R; Code ist die Musterlösung.
+saratoga-cor2	posts/saratoga-cor2/saratoga-cor2.qmd	zeigen			Import, Gruppieren, Korrelation und Plot in R; Code ist die Musterlösung.
+scatterplot-art-korrelation	posts/scatterplot-art-korrelation/scatterplot-art-korrelation.rmd	aus			Dynamische schoice; Code simuliert Daten, zeichnet Facetten und zieht das gesuchte Diagramm.
+schminke1	posts/schminke1/schminke1.rmd	aus			Artikel-Leseaufgabe; data.frame in der Frage enthält alle Schätzwerte und verrät damit die Lösung.
+scikit-llm-zeroshot	posts/scikit-llm-zeroshot/scikit-llm-zeroshot.qmd	zeigen			Python/reticulate-Workflow für Zero-Shot-Klassifikation; Code ist die Musterlösung.
+select	posts/select/select.rmd	aus			Z36 liefert nur die Datenansicht; der erklärende Lösungschunk hat schon echo=TRUE.
+sentiws2	posts/sentiws2/sentiws2.qmd	zeigen			R-Lösung (unnest_tokens) ist der Inhalt. Widerspruch: YAML echo: true, aber opts_chunk echo=FALSE -> in R/exams/Moodle wird der Lösungscode versteckt. opts_chunk auf echo=TRUE setzen.
+sicherheit	posts/sicherheit/sicherheit.qmd	zeigen			R-Rechenweg (Gegenwahrscheinlichkeit, Multiplikationssatz) zum Nachmachen; Lösungszuweisung schon versteckt.
+sicherheit2	posts/sicherheit2/sicherheit2.qmd	zeigen			R-Rechenweg (Gegenwahrscheinlichkeit, Multiplikationssatz) zum Nachmachen; Lösungszuweisung schon versteckt.
+sim-prior	posts/sim-prior/sim-prior.rmd	zeigen			Priori-Prädiktiv-Simulation in R ist die Aufgabe; Code ist die Lösung.
+simu-p-wert	posts/simu-p-wert/simu-p-wert.rmd	zeigen		86	Simulation des Münzwurfs mit rbinom ist didaktischer Inhalt; nur die gt-Tabelle ist Technik.
+skalenniveau1	posts/skalenniveau1/skalenniveau1.rmd	aus			Dynamische schoice; tribble in der Frage enthält alle Skalenniveaus und verrät die Lösung.
+skalenniveau1a	posts/skalenniveau1a/skalenniveau1a.rmd	aus			Dynamische schoice; Datentabelle und metrisch-Berechnung in der Frage verraten die Lösung.
+skalenniveau1b	posts/skalenniveau1b/skalenniveau1b.rmd	aus			Dynamische mchoice; Datentabelle in der Frage verrät die Lösung, gt-Ausgabe genügt.
+small-wide-normal	posts/small-wide-normal/index.qmd	aus			Plotcode zeigt die sd-Werte und verrät damit die Lösung; nur die Diagramme sollen sichtbar sein.
+smartphone1	posts/smartphone1/index.qmd	zeigen			Fallstudie Import, Wrangling, Visualisierung in R; Code ist die Musterlösung.
+stan_glm01	posts/stan_glm01/stan_glm01.rmd	zeigen			Lösung ist der stan_glm()-Befehl selbst; R-Syntax ist der Inhalt.
+stan_glm01a	posts/stan_glm01a/index.rmd	zeigen			Modellaufruf ist Teil der Angabe, nach dessen Prioris gefragt wird.
+stan_glm_parameterzahl	posts/stan_glm_parameterzahl/stan_glm_parameterzahl.rmd	aus			Paper-Frage zur Parameterzahl; Erläuterungs-Chunks haben bereits echo=TRUE, Rest ist Technik.
+stan_glm_parameterzahl_simple	posts/stan_glm_parameterzahl_simple/stan_glm_parameterzahl_simple.rmd	aus			Paper-Aufgabe; Chunk setzt nur sol.
+stan_glm_prioriwerte	posts/stan_glm_prioriwerte/stan_glm_prioriwerte.rmd	zeigen			Lösung führt „Probieren geht über Studieren“ vor: stan_glm, prior_summary zum Nachmachen.
+stan_glm_priors_null	posts/stan_glm_priors_null/stan_glm_priors_null.rmd	zeigen			Fragen nach R-Funktionen; Lösung demonstriert stan_glm vs. lm im Code; sol-Chunk schon echo=FALSE.
+stand-regr	posts/stand-regr/index.qmd	zeigen			Modelldefinition mit standardise() ist Teil der Angabe; Lösung zeigt alternative Standardisierung im Code.
+step-dummy	posts/step-dummy/step-dummy.rmd	zeigen			Lösung ist ein Rechner-Experiment mit recipe/step_dummy zum Nachmachen.
+stichprobenanteil-vs-popanteil	posts/stichprobenanteil-vs-popanteil/stichprobenanteil-vs-popanteil.rmd	aus			Zufallsdaten-Generator und kable-Tabelle; nur Ausgabe nötig.
+stipro-bayesbox01	posts/stipro-bayesbox01/stipro-bayesbox01.qmd	zeigen			Stichproben-Bayesbox in R zu erstellen ist die Aufgabe; sol-Chunk schon versteckt.
+stipro-bayesbox02	posts/stipro-bayesbox02/stipro-bayesbox02.qmd	zeigen			Stichproben-Bayesbox in R zu erstellen ist die Aufgabe; sol-Chunk schon versteckt.
+stipro-beschreiben	posts/stipro-beschreiben/stipro-beschreiben.rmd	zeigen			Datensatz in R beschreiben; Lösung ist die R-Analyse.
+stiprovert-life-exp	posts/stiprovert-life-exp/stiprovert-life-exp.rmd	aus			Einziger Chunk setzt mc.cores-Option; reine Technik.
+streudiagramm	posts/streudiagramm/streudiagramm.rmd	aus			Zufallsauswahl aus datasaurus und Plot-Generator; nur Diagramm nötig.
+summarise01	posts/summarise01/summarise01.rmd	zeigen			dplyr-Aufgabe am Rechner; Lösung ist der Code.
+summarise02	posts/summarise02/summarise02.rmd	zeigen			dplyr-Aufgabe am Rechner; Lösung ist der Code.
+summarise03	posts/summarise03/summarise03.rmd	zeigen			dplyr-Aufgabe am Rechner; Lösung ist der Code.
+summarise04	posts/summarise04/summarise04.rmd	zeigen			dplyr-Aufgabe am Rechner; Lösung ist der Code.
+summarise05	posts/summarise05/summarise05.rmd	zeigen			dplyr-Aufgabe am Rechner; Lösung ist der Code.
+summarise06	posts/summarise06/summarise06.rmd	zeigen			dplyr-Aufgabe am Rechner; Lösung ist der Code.
+targets-multiple-data-files	posts/targets-multiple-data-files/targets-multiple-data-files.rmd	zeigen			targets-Pipeline schreiben; Code ist die Lösung.
+tengku-hanis01	posts/tengku-hanis01/tengku-hanis01.rmd	zeigen			tidymodels-Fallstudie nachbauen; Lösung ist die R-Analyse.
+test-mse2	posts/test-mse2/test-mse2.rmd	kein Code sichtbar			Nur Optionen-Chunk mit include=FALSE.
+tidy1	posts/tidy1/tidy1.rmd	aus			Generator für zufällige (un)tidy Tabellen; nur kable-Ausgabe nötig.
+tidydata1	posts/tidydata1/tidydata1.rmd	zeigen			Importbefehl ist Teil der Angabe, Lösung lädt Tabellen per Code.
+tidymodels-ames-01	posts/tidymodels-ames-01/tidymodels-ames-01.qmd	zeigen		142	tidymodels-Analyse am Rechner; hartkodierter sol-Chunk ist Technik.
+tidymodels-ames-02	posts/tidymodels-ames-02/tidymodels-ames-02.qmd	zeigen		213	tidymodels-Analyse am Rechner; hartkodierter sol-Chunk ist Technik.
+tidymodels-ames-03	posts/tidymodels-ames-03/tidymodels-ames-03.qmd	zeigen		206	tidymodels-Analyse am Rechner; veralteter hartkodierter sol-Chunk (R²) ist Technik.
+tidymodels-ames-04	posts/tidymodels-ames-04/tidymodels-ames-04.qmd	zeigen		144	tidymodels-Analyse am Rechner; hartkodierter sol-Chunk ist Technik.
+tidymodels-ames-05	posts/tidymodels-ames-05/tidymodels-ames-05.qmd	zeigen			tidymodels-Analyse am Rechner; Lösung ist der Code.
+tidymodels-error1	posts/tidymodels-error1/tidymodels-error1.qmd	zeigen			Fehlerhafte Pipeline ist die Angabe; Code ist Inhalt.
+tidymodels-lasso	posts/tidymodels-lasso/tidymodels-lasso.qmd	zeigen			Lasso-Analyse schreiben; Code ist die Lösung.
+tidymodels-lasso2	posts/tidymodels-lasso2/tidymodels-lasso2.qmd	zeigen			Lasso-Analyse schreiben; Code ist die Lösung.
+tidymodels-lasso3	posts/tidymodels-lasso3/tidymodels-lasso3.qmd	zeigen			Lasso-Analyse schreiben; Code ist die Lösung.
+tidymodels-penguins01	posts/tidymodels-penguins01/tidymodels-penguins01.qmd	zeigen			tidymodels-Analyse am Rechner; Lösung ist der Code.
+tidymodels-penguins02	posts/tidymodels-penguins02/tidymodels-penguins02.rmd	zeigen			tidymodels-Analyse am Rechner; Lösung ist der Code.
+tidymodels-penguins03	posts/tidymodels-penguins03/tidymodels-penguins03.rmd	zeigen			tidymodels-Analyse am Rechner; Lösung ist der Code.
+tidymodels-penguins04	posts/tidymodels-penguins04/tidymodels-penguins04.rmd	zeigen			tidymodels-Analyse am Rechner; Lösung ist der Code.
+tidymodels-penguins05	posts/tidymodels-penguins05/tidymodels-penguins05.rmd	zeigen			tidymodels-Analyse am Rechner; Lösung ist der Code.
+tidymodels-penguins06	posts/tidymodels-penguins06/tidymodels-penguins06.qmd	zeigen			Szenarienvergleich wird per tidymodels-Code gelöst.
+tidymodels-penguins07	posts/tidymodels-penguins07/tidymodels-penguins07.qmd	zeigen			tidymodels-Analyse am Rechner; Lösung ist der Code.
+tidymodels-poly01	posts/tidymodels-poly01/tidymodels-poly01.rmd	zeigen			Tidymodels-Lösungsweg; echo=TRUE schon gesetzt.
+tidymodels-poly02	posts/tidymodels-poly02/tidymodels-poly02.qmd	zeigen			Tidymodels-Lösungsweg; echo=TRUE schon gesetzt.
+tidymodels-remove-na	posts/tidymodels-remove-na/tidymodels-remove-na.qmd	zeigen			Rezept erstellen; Code ist die Lösung.
+tidymodels-remove-na2	posts/tidymodels-remove-na2/tidymodels-remove-na2.qmd	zeigen			Rezept korrigieren; Code ist die Lösung.
+tidymodels-simple1	posts/tidymodels-simple1/tidymodels-simple1.rmd	zeigen			Minimalen tidymodels-Code schreiben; sol-Chunk schon versteckt.
+tidymodels-simple2	posts/tidymodels-simple2/tidymodels-simple2.rmd	zeigen			Minimalen tidymodels-Code schreiben; sol-Chunk schon versteckt.
+tidymodels-simple3	posts/tidymodels-simple3/tidymodels-simple3.rmd	zeigen			Minimalen tidymodels-Code schreiben; sol-Chunk schon versteckt.
+tidymodels-simple4	posts/tidymodels-simple4/tidymodels-simple4.rmd	zeigen			Minimalen tidymodels-Code schreiben; sol-Chunk schon versteckt.
+tidymodels-simple5	posts/tidymodels-simple5/tidymodels-simple5.rmd	zeigen			Minimalen tidymodels-Code schreiben; sol-Chunk schon versteckt.
+tidymodels-tree1	posts/tidymodels-tree1/tidymodels-tree1.rmd	zeigen			Baum- und Bagging-Modelle am Rechner; Code ist die Lösung.
+tidymodels-tree2	posts/tidymodels-tree2/tidymodels-tree2.rmd	zeigen			Beschleunigung per Parallelisierung im Code ist Inhalt.
+tidymodels-tree3	posts/tidymodels-tree3/tidymodels-tree3.rmd	zeigen			Beschleunigung per Racing im Code ist Inhalt.
+tidymodels-tree4	posts/tidymodels-tree4/tidymodels-tree4.rmd	zeigen			Speed-up-Varianten im Code sind Inhalt.
+tidymodels-tree5	posts/tidymodels-tree5/tidymodels-tree5.rmd	zeigen			Tidymodels-Workflow mit Speed-ups; Code ist die Lösung (eval: false).
+tidymodels-vorlage	posts/tidymodels-vorlage/tidymodels-vorlage.rmd	zeigen			Vorlage schreiben; Code ist die Lösung.
+tidymodels-vorlage2	posts/tidymodels-vorlage2/tidymodels-vorlage2.qmd	zeigen			Vorlage schreiben; Code ist die Lösung.
+tidymodels-vorlage3	posts/tidymodels-vorlage3/tidymodels-vorlage3.qmd	zeigen			Vorlage schreiben; Code ist die Lösung.
+tidymodels01	posts/tidymodels01/tidymodels01.rmd	zeigen			Minimalen tidymodels-Code schreiben; Code ist die Lösung.
+tidymodels1	posts/tidymodels1/tidymodels1.rmd	zeigen			Titanic-Code ist die Angabe, über die gefragt wird; Generator-Chunk schon include=FALSE.
+tidymodels2	posts/tidymodels2/tidymodels2.rmd	zeigen			Fehler im tidymodels-Code erklären; Code ist Inhalt.
+tidymodels3	posts/tidymodels3/tidymodels3.rmd	zeigen		201	tidymodels-Analyse am Rechner; veralteter hartkodierter sol-Chunk ist Technik.
+tidytext	posts/tidytext/tidytext.qmd	zeigen			Frage betrifft die gezeigte Syntax; Code ist die Angabe.
+titanic_casestudy	posts/titanic_casestudy/titanic_casestudy.rmd	zeigen		108	Analyse-Code ist Teil der Fallstudien-Angabe; sol-Platzhalter ist Technik.
+tmdb01	posts/tmdb01/tmdb01.rmd	zeigen		323	Kaggle-Fallstudie mit tidymodels; hartkodierter Score-Chunk ist Technik.
+tmdb02	posts/tmdb02/tmdb02.qmd	zeigen		433	Kaggle-Fallstudie mit tidymodels; hartkodierter Score-Chunk ist Technik.
+tmdb03	posts/tmdb03/tmdb03.qmd	zeigen		488	Kaggle-Fallstudie mit tidymodels; hartkodierter Score-Chunk ist Technik.
+tmdb04	posts/tmdb04/tmdb04.qmd	zeigen		459	Kaggle-Fallstudie mit tidymodels; hartkodierter Score-Chunk ist Technik.
+tmdb05	posts/tmdb05/tmdb05.qmd	zeigen			Kaggle-Fallstudie mit tidymodels; Code ist die Lösung.
+tmdb06	posts/tmdb06/tmdb06.rmd	zeigen		252	Kaggle-Fallstudie mit tidymodels; hartkodierter Score-Chunk ist Technik.
+tmdb07	posts/tmdb07/tmdb07.rmd	zeigen		242	Kaggle-Fallstudie mit tidymodels; hartkodierter Score-Chunk ist Technik.
+tmdb08	posts/tmdb08/tmdb08.rmd	zeigen			Kaggle-Fallstudie mit tidymodels; Code ist die Lösung.
+totale-wskt1	posts/totale-wskt1/totale-wskt1.qmd	zeigen		96	R-Rechenweg zur totalen Wahrscheinlichkeit zum Nachmachen; Mermaid-Baum ist Diagramm-Technik.
+ttest-als-regr_var1	posts/ttest-als-regr_var1/ttest-als-regr_var1.rmd	aus			Konzeptfrage; Lösungs-Chunk liefert nur ein Diagramm.
+ttest-als-regr_var2	posts/ttest-als-regr_var2/ttest-als-regr_var2.rmd	aus			Konzeptfrage; Lösungs-Chunk liefert nur ein Diagramm.
+ttest-skalenniveau	posts/ttest-skalenniveau/ttest-skalenniveau.rmd	aus			Konzeptfrage; Chunk liefert nur ein Diagramm.
+tutorium-kausal	posts/tutorium-kausal/index.qmd	aus			Paper-DAG-Aufgabe; adjustmentSets()/plot sind Hilfsaufrufe, nur Ausgabe zählt.
+twitter08	posts/twitter08/twitter08.rmd	zeigen			Tweets per R herunterladen; Code ist die Lösung.
+twitter1	posts/twitter1/twitter1.rmd	aus			Literaturfragen; einziger sichtbarer Chunk setzt nur sol.
+typ-fehler-r-01	posts/typ-fehler-r-01/typ-fehler-r-01.rmd	zeigen		54	R-Syntaxfehler korrigieren; sol-Chunk ist Technik.
+typ-fehler-r-03	posts/typ-fehler-r-03/typ-fehler-r-03.rmd	zeigen		84	R-Syntaxfehler korrigieren; sol-Chunk ist Technik.
+typ-fehler-r-04	posts/typ-fehler-r-04/typ-fehler-r-04.rmd	zeigen		77	R-Syntaxfehler korrigieren; sol-Chunk ist Technik.
+typ-fehler-r-05	posts/typ-fehler-r-05/typ-fehler-r-05.rmd	zeigen		73	R-Syntax-Fehleraufgabe; Code ist Inhalt. Chunk mit sol-Zuweisung ausblenden.
+typ-fehler-r-06a	posts/typ-fehler-r-06a/typ-fehler-r-06a.rmd	zeigen		70	Syntaxfehler finden; Code ist Inhalt. sol-Zuweisung ausblenden.
+typ-fehler-r-07	posts/typ-fehler-r-07/typ-fehler-r-07.qmd	zeigen			Fehlerhafte R-Eingabe ist Teil der Angabe.
+typ-fehler-r-08-name-clash	posts/typ-fehler-r-08-name-clash/typ-fehler-r-08-name-clash.qmd	zeigen			Name-Clash-Fehler und Lösungswege in R sind der Inhalt.
+ungewiss-arten-regr	posts/ungewiss-arten-regr/ungewiss-arten-regr.rmd	zeigen			Modellaufruf stan_glm wird bewusst als Teil der Angabe gezeigt; Lösungsberechnung bereits verborgen.
+ungewiss-arten-regr_var1	posts/ungewiss-arten-regr_var1/ungewiss-arten-regr_var1.rmd	aus			Generator: zufällige Prädiktorwahl, Lösungsdatensatz mit Antworten; nur Modellausgabe nötig.
+urne1	posts/urne1/urne1.qmd	zeigen			Lösungsrechenweg in R (Kategorie R) zum Nachmachen; sol-Chunk bereits verborgen.
+urne2	posts/urne2/urne2.qmd	zeigen			Lösungsrechenweg in R (Kategorie R) zum Nachmachen; sol-Chunk bereits verborgen.
+variation01	posts/variation01/variation01.rmd	aus			Datenerzeugung, Tabellen und Histogramme sind Technik; Ausgabe genügt zum Vergleich der Streuung.
+variation02	posts/variation02/variation02.rmd	aus			Datenerzeugung und Diagrammcode sind Generator; Plots genügen, SD-Berechnung in Lösung ist Hilfsaufruf.
+vektorindizieren	posts/vektorindizieren/vektorindizieren.rmd	zeigen			R-Syntaxfrage; Vektordefinition ist Teil der Angabe (Chunk erzeugt keine Ausgabe).
+verteilungen-quiz-02	posts/verteilungen-quiz-02/verteilungen-quiz-02.rmd	zeigen			Lösungsweg per Grid-Approximation und Sampling in R zum Nachmachen.
+verteilungen-quiz-16	posts/verteilungen-quiz-16/verteilungen-quiz-16.rmd	zeigen			Lösungsrechenweg mit qnorm() zum Nachmachen.
+verteilungen-quiz-17	posts/verteilungen-quiz-17/verteilungen-quiz-17.rmd	zeigen			Lösungsweg per Simulation in R zum Nachmachen.
+verteilungen-quiz-18	posts/verteilungen-quiz-18/verteilungen-quiz-18.rmd	zeigen			Lösungsweg per Simulation in R zum Nachmachen.
+verteilungsfunktion-penguins	posts/verteilungsfunktion-penguins/index.qmd	zeigen			Aufgabe am Rechner: Lösung ist R-Analyse und Visualisierung mit ggpubr.
+vier_oder_acht	posts/vier_oder_acht/index.qmd	aus			Paper-Aufgabe; Code erzeugt nur die Ereignistabellen, Ausgabe genügt.
+vis-gapminder	posts/vis-gapminder/vis-gapminder.rmd	zeigen			Visualisierungs-Fallstudie am Rechner; Code ist die Lösung.
+vis-mariokart-variab	posts/vis-mariokart-variab/vis-mariokart-variab.rmd	zeigen			Aufgabe am Rechner: Import und Visualisierung in R sind die Lösung.
+vis-mtcars	posts/vis-mtcars/vis-mtcars.rmd	zeigen			Visualisierungs-Fallstudie am Rechner; Code ist die Lösung.
+vis-penguins	posts/vis-penguins/vis-penguins.rmd	zeigen			Visualisierungs-Fallstudie am Rechner; Code ist die Lösung.
+viz-geom-point	posts/viz-geom-point/viz-geom-point.rmd	zeigen			Frage bezieht sich auf die gezeigte ggplot-Syntax.
+vorhersageintervall1	posts/vorhersageintervall1/vorhersageintervall1.rmd	zeigen			Studis sollen lm und predict selbst rechnen; Lösungsweg in R zum Nachmachen.
+weinhaendler	posts/weinhaendler/weinhaendler.qmd	zeigen			Gittermethode, Sampling und PPV in R sind der Lösungsweg zum Nachmachen.
+wertberechnen	posts/wertberechnen/wertberechnen.rmd	zeigen			R-Code in der Frage ist der Inhalt; exams blendet ihn derzeit wegen globalem echo=FALSE aus.
+wertberechnen2	posts/wertberechnen2/wertberechnen2.rmd	zeigen			R-Code in der Frage ist der Inhalt (Wert nachvollziehen); Zufallsstartwert bereits verborgen.
+wfsets1	posts/wfsets1/wfsets1.qmd	zeigen			tidymodels-Workflowset am Rechner; Code ist die Lösung.
+wfsets_penguins01	posts/wfsets_penguins01/wfsets_penguins01.rmd	zeigen			tidymodels-Workflowset am Rechner; Code ist die Lösung.
+wfsets_penguins02	posts/wfsets_penguins02/wfsets_penguins02.rmd	zeigen			tidymodels-Workflowset mit Tuning am Rechner; Code ist die Lösung.
+wikipedia	posts/wikipedia/index.qmd	zeigen			Lösung ist eine Simulation mit sample/replicate in R zum Nachmachen.
+within-design-analysis1	posts/within-design-analysis1/within-design-analysis1.rmd	zeigen			Datensimulation in der Angabe zum Nachbauen; Lösung ist R-Analyse (Wrangling, lm, stan_glm).
+within-design-analysis2	posts/within-design-analysis2/within-design-analysis2.rmd	zeigen			Datensimulation zum Nachbauen; Lösung ist R-Analyse. Lösungscode fehlerhaft (t2mt1 undefiniert).
+wrangle10	posts/wrangle10/wrangle10.rmd	zeigen			R-Syntaxfrage: Ausgabe von group_by/summarise vorhersagen.
+wrangle2	posts/wrangle2/wrangle2.rmd	zeigen			Code zum Laden von flights ist Teil der Angabe.
+wrangle9	posts/wrangle9/wrangle9.rmd	zeigen			R-Ausdruck in der Frage ist der Inhalt (vektorielles Rechnen).
+wskt-df-r	posts/wskt-df-r/wskt-df-r.qmd	zeigen			„Berechnen Sie mit R“: dplyr-Lösungsweg ist der Inhalt; gt-Tabelle bereits verborgen.
+wskt-mtcars-1l	posts/wskt-mtcars-1l/wskt-mtcars-1l.qmd	zeigen			Lösung ist Bayes-Analyse mit stan_glm in R; sol-Chunk bereits verborgen.
+wskt-mtcars-5meilen	posts/wskt-mtcars-5meilen/index.qmd	zeigen			Analysecode wird bewusst als Teil der Angabe gezeigt („Nutzen Sie folgende Analyse“).
+wskt-quiz03	posts/wskt-quiz03/wskt-quiz03.qmd	zeigen			Kurzer Lösungsrechenweg (1/2)^10 zum Nachvollziehen.
+wskt-quiz04	posts/wskt-quiz04/wskt-quiz04.qmd	aus			Paper-Aufgabe; dbinom-Plot liefert nur die Abbildung, Ausgabe genügt.
+wskt-quiz08	posts/wskt-quiz08/wskt-quiz08.qmd	zeigen			Lösungsrechenweg mit Likelihoods und bayesbox() zum Nachmachen.
+wskt-quiz09	posts/wskt-quiz09/wskt-quiz09.qmd	zeigen			Kurzer Lösungsrechenweg mit dunif() wie in Schwesteraufgaben quiz10/11.
+wskt-quiz10	posts/wskt-quiz10/wskt-quiz10.qmd	zeigen			Kurzer Lösungsrechenweg mit dunif() zum Nachvollziehen.
+wskt-quiz11	posts/wskt-quiz11/wskt-quiz11.qmd	zeigen			Kurzer Lösungsrechenweg mit pnorm() zum Nachvollziehen.
+wskt-schluckspecht	posts/wskt-schluckspecht/wskt-schluckspecht.qmd	zeigen			Lösung ist Bayes-Analyse mit stan_glm. Achtung: PS wird aus mpg statt hp gebildet.
+wskt-schluckspecht2	posts/wskt-schluckspecht2/index.qmd	zeigen			Analysecode ist bewusst Teil der Angabe; Fragen beziehen sich auf die Modellausgabe.
+wskt-schluckspecht2a	posts/wskt-schluckspecht2a/index.qmd	zeigen			Analysecode ist bewusst Teil der Angabe; Fragen beziehen sich auf die Modellausgabe.
+wuerfel01	posts/wuerfel01/wuerfel01.rmd	zeigen			Lösungsweg mit expand_grid und dplyr in R zum Nachmachen.
+wuerfel02	posts/wuerfel02/wuerfel02.rmd	zeigen			Lösungsweg mit expand_grid und dplyr in R zum Nachmachen.
+wuerfel03	posts/wuerfel03/wuerfel03.rmd	zeigen			Lösungsweg mit expand_grid und dplyr in R zum Nachmachen.
+wuerfel04	posts/wuerfel04/wuerfel04.rmd	zeigen			Simulation mit sample/replicate wird schrittweise erklärt; Code ist Inhalt.
+wuerfel05	posts/wuerfel05/wuerfel05.qmd	zeigen			Kurzer Lösungsrechenweg in R (Kategorie R); sol-Chunk bereits verborgen.
+wuerfel06	posts/wuerfel06/wuerfel06.qmd	zeigen			Lösungsrechenweg in R (Kategorie R); sol-Chunk bereits verborgen.
+wuerfel06a	posts/wuerfel06a/wuerfel06a.qmd	zeigen			Lösungsrechenweg in R wie wuerfel06; exams zeigt ihn derzeit nicht. extol nutzt undefiniertes sol_tol.
+xlsx-online-import	posts/xlsx-online-import/index.qmd	zeigen			Aufgabe am Rechner: Import einer XLSX-Datei in R; Code ist die Lösung.
+zitieren-buch1	posts/zitieren-buch1/zitieren-buch1.rmd	kein Code sichtbar			Lösungs-String im Chunk mit echo=FALSE.
+zitieren-paper1	posts/zitieren-paper1/zitieren-paper1.rmd	kein Code sichtbar			Lösungs-String im Chunk mit echo=FALSE.
+zitieren3	posts/zitieren3/zitieren3.rmd	aus			Generator: Zitationsvarianten werden per Code erzeugt; Code verrät die richtige Variante.
+zusammenhang-kategorial	posts/zusammenhang-kategorial/zusammenhang-kategorial.rmd	aus			Chunk bindet nur ein Bild ein; reine Technik.
+zwert-berechnen	posts/zwert-berechnen/zwert-berechnen.rmd	aus			Parameterchunk ist Technik (Werte stehen im Text); Lösungsformel hat bereits echo=TRUE.
+zwert-berechnen2	posts/zwert-berechnen2/zwert-berechnen2.rmd	aus			Zufallsparameter-Generator in der Frage; Lösungsformel hat bereits echo=TRUE.
+zwielichter-dozent-bayes	posts/zwielichter-dozent-bayes/zwielichter-dozent-bayes.rmd	zeigen			Gittermethode, Intervalle und PPV in R sind der Lösungsweg zum Nachmachen.
+_kausal11	posts_buggy/_kausal11/_kausal11.rmd	aus			Generator: Zufalls-DAG, Antwortoptionen und adjustmentSets; nur Ausgabe nötig.
+flights-geovis	posts_buggy/flights-geovis/flights-geovis.rmd	aus			Stub; Code zeigt nur Datenansicht und Karte.
+germeval-textfeatures01	posts_buggy/germeval-textfeatures01/germeval-textfeatures01.qmd	zeigen			Textmining mit tidymodels am Rechner; Code ist die Lösung.
+germeval01-textfeatures	posts_buggy/germeval01-textfeatures/germeval01-textfeatures.qmd	zeigen			Textfeature-Extraktion in R am Rechner; Code ist die Lösung.
+germeval03	posts_buggy/germeval03/germeval03.qmd	zeigen			Prädiktives Textmodell mit tidymodels am Rechner; Code ist die Lösung.
+germeval04	posts_buggy/germeval04/germeval04.qmd	zeigen			Prädiktives Textmodell mit Tuning am Rechner; Code ist die Lösung.
+logik1	posts_buggy/logik1/logik1.rmd	aus			Generator: Zufallsbegriffe, Wahrheitstafeln und Antwortliste; Code verrät die richtige Option.
+logik2_buggy	posts_buggy/logik2_buggy/logik2_buggy.rmd	aus			Generator: Zufallsmengen und Antwortliste; Code verrät die richtige Option.
+modus-tollens2	posts_buggy/modus-tollens2/modus-tollens2.rmd	aus			Generator: Zufallsbegriffe, Wahrheitstafeln und Antwortliste; Code verrät die richtige Option.
+post1	posts_buggy/post1/post1.rmd	aus			Generator-Chunk in der Frage, nur Technik; Aufgabe ohnehin buggy.
+randomdag1	posts_buggy/randomdag1/randomdag1.buggy	aus			Generator: Zufalls-DAG und Antwortoptionen; Hilfsaufrufe (paths, dseparated) nur für die Ausgabe.
+twitter01	posts_buggy/twitter01/twitter01.rmd	zeigen		55	Twitter-API-Abruf in R ist die Lösung; Chunk mit lokalem Credential-Pfad ausblenden.
+twitter02	posts_buggy/twitter02/twitter02.qmd	zeigen		62	Twitter-API-Abruf in R ist die Lösung; Chunk mit lokalem Credential-Pfad ausblenden.
+twitter03	posts_buggy/twitter03/twitter03.qmd	zeigen		62	Twitter-API-Abruf in R ist die Lösung; Chunk mit lokalem Credential-Pfad ausblenden.
+twitter04	posts_buggy/twitter04/twitter04.qmd	zeigen		59	Textmining-Pipeline in R ist die Lösung; Chunk mit lokalem Credential-Pfad ausblenden.
+twitter05	posts_buggy/twitter05/twitter05.qmd	zeigen			Textmining und Sentimentanalyse in R sind die Lösung.
+twitter06	posts_buggy/twitter06/twitter06.rmd	zeigen			Textmining, Funktionen und Sentimentanalyse in R sind die Lösung.
+twitter07	posts_buggy/twitter07/twitter07.rmd	zeigen			Tweet-Download per Funktion in R ist die Lösung.
+wildemojis	posts_buggy/wildemojis/wildemojis.qmd	zeigen			Textmining mit Emoji-Lexikon in R am Rechner; Code ist die Lösung.

@@ -6,7 +6,13 @@ categories:
 - bayesbox
 - regression
 - num
+execute:
+  echo: false
 ---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
 
 Question
 ========

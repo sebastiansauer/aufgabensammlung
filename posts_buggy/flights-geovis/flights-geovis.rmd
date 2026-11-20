@@ -3,7 +3,13 @@ title: flights-geovis
 date: '2026-10-24'
 categories:
 - STUB
+execute:
+  echo: false
 ---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
 
 Question
 ========
