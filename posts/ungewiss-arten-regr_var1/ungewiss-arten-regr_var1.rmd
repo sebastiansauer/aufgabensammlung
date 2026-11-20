@@ -1,10 +1,13 @@
 ---
 title: ungewiss-arten-regr_var1
+date: '2026-07-14'
 categories:
 - inference
 - lm
 - qm2
 - paper
+execute:
+  echo: false
 ---
 
 ```{r libs, include = FALSE}

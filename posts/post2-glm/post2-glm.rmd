@@ -1,7 +1,10 @@
 ---
 title: post2-glm
+date: '2026-07-14'
 categories:
 - qm2
+execute:
+  echo: false
 ---
 
 <!-- Achtung, es kann passieren, dass mehrere Antwortoptionen den Wert "0" anzeigen, -->

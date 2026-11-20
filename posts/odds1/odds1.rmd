@@ -1,7 +1,10 @@
 ---
 title: odds1
+date: '2026-07-14'
 categories:
 - qm2
+execute:
+  echo: false
 ---
 
 ```{r libs, include = FALSE}

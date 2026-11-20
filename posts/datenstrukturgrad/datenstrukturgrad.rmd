@@ -1,9 +1,16 @@
 ---
 title: datenstrukturgrad
+date: '2026-07-14'
 categories:
 - paper
 - todo
+execute:
+  echo: false
 ---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
 
 Question
 ========

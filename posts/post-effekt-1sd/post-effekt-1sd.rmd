@@ -1,10 +1,13 @@
 ---
 title: post-effekt-1sd
+date: '2026-07-14'
 categories:
 - bayes
 - regression
 - dyn
 - prediction
+execute:
+  echo: false
 ---
 
 ```{r libs, include = FALSE}

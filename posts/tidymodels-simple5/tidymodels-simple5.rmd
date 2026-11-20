@@ -1,5 +1,6 @@
 ---
 title: tidymodels-simple5
+date: '2026-07-14'
 categories:
 - tidymodels
 - statlearning

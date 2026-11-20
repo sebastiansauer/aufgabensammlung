@@ -1,9 +1,4 @@
 ---
-exname: wfsets1
-extype: num
-exsolution: r fmt(sol)
-exshuffle: no
-expoints: 1
 categories:
 - R
 - statlearning
@@ -16,8 +11,6 @@ execute:
   output: false
   eval: false
 ---
-
-
 
 
 
@@ -40,9 +33,8 @@ library(exams)
 
 
 
-
-
-## Aufgabe
+Question
+========
 
 Berechnen Sie die Vorhersagegüte (RMSE) für folgende Lernalgorithmen mittesl `tidymodels`:
 
@@ -57,18 +49,8 @@ Nutzen Sie ein *Workflowset.*
 
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 ### Setup
 ```{r}
@@ -85,7 +67,6 @@ d <-
   penguins %>% 
   drop_na()
 ```
-
 
 
 
@@ -218,7 +199,10 @@ collect_metrics(fit_final)
 Aufgabenname: `wfsets1`
 
 
-
-
-
-
+Meta-information
+================
+exname: wfsets1
+extype: num
+expoints: 1
+exsolution: `r fmt(sol)`
+exshuffle: false

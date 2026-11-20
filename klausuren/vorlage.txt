@@ -1,0 +1,20 @@
+# Vorlage für eine Klausur bzw. Probeklausur
+#
+# Kopieren und umbenennen, z. B. nach probeklausur-2026-ws.txt.
+# Eine Aufgabe pro Zeile, als Pfad relativ zum Repo-Wurzelordner.
+# Die Reihenfolge der Zeilen ist die Reihenfolge in der Klausur.
+# Alles ab # ist Kommentar (auch hinter einem Pfad); Leerzeilen zählen nicht.
+#
+# Einlesen und prüfen:
+#   source("klausuren/klausur_aufgaben.R")
+#   aufgaben <- klausur_aufgaben("klausuren/probeklausur-2026-ws.txt")
+#   exams::exams2moodle(aufgaben, name = "probeklausur-2026-ws")
+#
+# Als HTML zum Durchsehen (Datei landet in klausuren/html/):
+#   Rscript klausuren/klausur_html.R klausuren/probeklausur-2026-ws.txt --open
+# Als interaktives Quiz (exams2forms, wie in den Büchern):
+#   Rscript klausuren/klausur_forms.R klausuren/probeklausur-2026-ws.txt --open
+# Als Moodle-XML (Datei landet in klausuren/moodle/):
+#   Rscript klausuren/klausur_moodle.R klausuren/probeklausur-2026-ws.txt
+
+posts/kolmogorov-axiome-schoice/kolmogorov-axiome-schoice.Rmd

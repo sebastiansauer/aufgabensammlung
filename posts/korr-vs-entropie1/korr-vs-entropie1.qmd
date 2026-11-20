@@ -1,5 +1,6 @@
 ---
 title: korr-vs-entropie1
+date: '2026-07-14'
 categories:
 - 2023
 ---
@@ -41,7 +42,6 @@ Hinweise:
 
 
 Solution
-
 ========
 
 ```{r}
@@ -55,19 +55,10 @@ cor(x,y)
 
 
 ```{r}
-mi.empirical(x, y)
+mi.empirical(table(x, y))
 ```
 
 
-```{r echo = FALSE}
-sol <- "loesung <- 42"
-```
-
-``r sol``
-
-
-Solution
-========
 
 Aufgabenname: `korr-vs-entropie1`
 

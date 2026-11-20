@@ -1,11 +1,12 @@
 ---
 title: popup01
+date: '2026-07-14'
 categories:
 - eda
 - datawrangling
 ---
 
-```{r}
+```{r, echo = FALSE}
 library(tidyverse)
 ```
 

@@ -1,5 +1,6 @@
 ---
 title: corr-dyn1
+date: '2026-07-14'
 categories:
 - correlation
 - dyn

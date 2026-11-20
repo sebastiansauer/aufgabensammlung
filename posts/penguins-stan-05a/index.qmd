@@ -1,10 +1,5 @@
 ---
-exname: penguins-stan-05a
 title: penguins-stan-05a
-extype: num
-exsolution: r exams::fmt(sol, 2)
-extol: 5
-expoints: 1
 categories:
 - bayes
 - regression
@@ -17,8 +12,8 @@ date: '2024-12-10'
 
 
 
-
-## Aufgabe
+Question
+========
 
 
 Wir untersuchen Einflussfaktoren bzw. Prädiktoren auf das Körpergewicht von Pinguinen.
@@ -54,8 +49,6 @@ data("penguins", package = "palmerpenguins")
 
 
 
-
-
 Alternativ könnten Sie den Datensatz als CSV-Datei importieren:
 
 
@@ -82,7 +75,6 @@ Vertrauen ist gut, aber -- was Golems betrifft -- ist Kontrolle eindeutig besser
 
 
 
-
 ```{r mod}
 m1 <- stan_glm(body_mass_g ~  bill_length_mm,  # Regressionsgleichung
                data = penguins_adelie, #  Daten
@@ -98,20 +90,8 @@ parameters(m1, ci = .95, ci_method = "eti")
 
 
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
-
+Solution
+========
 
 
 
@@ -137,4 +117,10 @@ m1 |> eti() |> plot() +
 Aufgabenname: `penguins-stan-05a`
 
 
-
+Meta-information
+================
+exname: penguins-stan-05a
+extype: num
+expoints: 1
+exsolution: `r exams::fmt(sol, 2)`
+extol: 5

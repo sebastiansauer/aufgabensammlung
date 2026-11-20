@@ -1,10 +1,5 @@
 ---
 title: penguins-stan-02a
-exname: penguins-stan-02a
-extype: num
-exsolution: r exams::fmt(sol, 2)
-extol: 5
-expoints: 1
 categories:
 - bayes
 - regression
@@ -16,8 +11,8 @@ date: '2024-12-10'
 
 
 
-
-## Aufgabe
+Question
+========
 
 
 Wir untersuchen Einflussfaktoren bzw. Prädiktoren auf das Körpergewicht von Pinguinen.
@@ -77,7 +72,6 @@ Vertrauen ist gut, aber - was Golems betrifft - ist Kontrolle eindeutig besser ;
 
 
 
-
 ```{r}
 m1 <- stan_glm(body_mass_g ~  bill_length_mm,  # Regressionsgleichung
                data = penguins, #  Daten
@@ -92,18 +86,9 @@ parameters(m1, ci_method = "hdi", ci = .9, keep = "bill_length_mm")
 
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 
-## Lösung
+Solution
+========
 
 ```{r echo = FALSE}
 sol <- parameters(m1, ci_method = "hdi", ci = .9, keep = "bill_length_mm")$CI_high -
@@ -123,6 +108,15 @@ hdi(m1, ci = .9) |> plot()
 Aufgabenname: `penguins-stan-02a`
 
 
+
+
+Meta-information
+================
+exname: penguins-stan-02a
+extype: num
+expoints: 1
+exsolution: `r exams::fmt(sol, 2)`
+extol: 5
 
 
 ---

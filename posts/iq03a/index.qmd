@@ -1,10 +1,4 @@
 ---
-exname: iq03a
-extype: num
-exsolution: r sol
-exshuffle: no
-extol: 0.03
-expoints: 1
 categories:
 - probability
 - paper
@@ -16,9 +10,6 @@ slug: iq03a
 title: iq03a
 
 ---
-
-
-
 
 
 
@@ -37,10 +28,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-
-
-
-## Aufgabe
+Question
+========
 
 Intelligenz wird häufig mittels einem *IQ-Test* ermittelt.
 
@@ -60,18 +49,9 @@ Hinweise:
 - Beachten Sie die üblichen Hinweise des Datenwerks.
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 
-## Lösung
+Solution
+========
 
 
 Lösung: Die Wahrscheinlichkeit für "nicht überdurchschnittlich intelligent" beträgt 50%.
@@ -89,6 +69,15 @@ Aufgabenname: `iq03a`
 
 
 
+
+Meta-information
+================
+exname: iq03a
+extype: num
+expoints: 1
+exsolution: `r sol`
+extol: 0.03
+exshuffle: false
 
 
 ---

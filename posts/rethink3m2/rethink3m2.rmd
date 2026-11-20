@@ -1,10 +1,11 @@
 ---
 title: rethink3m2
+date: '2025-10-27'
 categories:
 - bayes
 - post
 - probability
-- bayes-box
+- bayesbox
 ---
 
 ```{r libs, include = FALSE}

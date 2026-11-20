@@ -1,10 +1,4 @@
 ---
-exname: tidymodels_workflowset01
-extype: num
-exsolution: r y
-exshuffle: no
-extol: 1
-expoints: 1
 date: '2023-05-17'
 slug: tidymodels_workflowset01
 title: tidymodels_workflowset01
@@ -39,27 +33,17 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-
-
-## Aufgabe
+Question
+========
 
 
 Berechnen Sie 
 
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 
-## Lösung
+Solution
+========
 
 
 Aufgabenname: `tidymodels_workflowset01`
@@ -67,7 +51,14 @@ Aufgabenname: `tidymodels_workflowset01`
 
 
 
-
+Meta-information
+================
+exname: tidymodels_workflowset01
+extype: num
+expoints: 1
+exsolution: `r y`
+extol: 1
+exshuffle: false
 
 
 ---

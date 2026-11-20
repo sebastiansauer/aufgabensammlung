@@ -1,6 +1,9 @@
 ---
 title: post2-r2
+date: '2026-07-14'
 categories: null
+execute:
+  echo: false
 ---
 
 ```{r libs, include = FALSE}
@@ -144,7 +147,7 @@ Die Prädiktoren (UV) des Modells lauten: `r preds_chosen`.
 
 Pakete starten:
 
-```{r eval = FALSE}
+```{r eval = FALSE, echo = TRUE}
 library(tidyverse)
 library(easystats)
 library(rstanarm)

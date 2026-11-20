@@ -1,9 +1,4 @@
 ---
-exname: wfsets_penguins02
-extype: num
-exsolution: r fmt(sol)
-exshuffle: no
-expoints: 1
 categories:
 - R
 - statlearning
@@ -17,8 +12,6 @@ execute:
   output: false
   eval: false
 ---
-
-
 
 
 
@@ -41,9 +34,8 @@ library(exams)
 
 
 
-
-
-## Aufgabe
+Question
+========
 
 Berechnen Sie die Vorhersagegüte (RMSE) für folgende Lernalgorithmen:
 
@@ -61,18 +53,8 @@ Berichten Sie die den RSME.
 
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 ### Setup
 
@@ -90,7 +72,6 @@ d <-
   penguins %>% 
   drop_na()
 ```
-
 
 
 
@@ -255,6 +236,13 @@ Aufgabenname: `wfsets_penguins02`
 
 
 
+Meta-information
+================
+exname: wfsets_penguins02
+extype: num
+expoints: 1
+exsolution: `r fmt(sol)`
+exshuffle: false
 
 
 ---

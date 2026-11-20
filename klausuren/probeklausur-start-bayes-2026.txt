@@ -1,0 +1,52 @@
+# Probeklausur Start:Bayes! (../04_start-bayes), 2026
+#
+# Stoff: Kapitel 0200 (Die drei Zielarten der Statistik) bis
+# 0600 (Die Post befragen).
+# Ca. 25 schoice-Aufgaben, alle mit Papier lösbar (einige Rechenaufgaben
+# brauchen einen Taschenrechner, z. B. Binomialwahrscheinlichkeiten).
+# Keine Aufgabe ist als trivial oder buggy markiert, und keine stammt aus
+# der Probeklausur 2025 (probeklausur-start-bayes-2025.txt).
+# Reihenfolge: nach Kapiteln des Buchs; das Kapitel ergibt sich daraus,
+# wo das Buch die Aufgabe (bzw. ihre Nicht-schoice-Variante) verlinkt.
+
+# 0200-zielarten
+# posts/regr-spezialfaelle-schoice/regr-spezialfaelle-schoice.Rmd
+# posts/zielarten-stat-schoice/zielarten-stat-schoice.Rmd
+posts/mediator-vs-confounder-schoice/mediator-vs-confounder-schoice.Rmd
+
+# 0250-inferenz
+posts/frequentismus-bayes-unterschied-schoice/frequentismus-bayes-unterschied-schoice.Rmd
+# posts/nullhyp-korrelation-schoice/nullhyp-korrelation-schoice.Rmd
+posts/interpret-ci2/index.qmd
+posts/ungewissheit-beta-sigma-schoice/ungewissheit-beta-sigma-schoice.Rmd
+
+# 0300-Wskt
+posts/disjunkte-ereignisse-schoice/disjunkte-ereignisse-schoice.Rmd
+posts/kolmogorov-axiome-schoice/kolmogorov-axiome-schoice.Rmd
+posts/stetige-zv-dichte-schoice/stetige-zv-dichte-schoice.Rmd
+
+# 0350-wskt2
+posts/additionssatz-disjunkt-bedingung-schoice/additionssatz-disjunkt-bedingung-schoice.Rmd
+posts/bed-wskt-symmetrie-aussagen-schoice/bed-wskt-symmetrie-aussagen-schoice.Rmd  # im Buch nicht verlinkt; Kapitel nach Inhalt
+posts/bedingte-wskt-tabelle-schoice/bedingte-wskt-tabelle-schoice.Rmd
+posts/multiplikationssatz-ohne-zuruecklegen-schoice/multiplikationssatz-ohne-zuruecklegen-schoice.Rmd
+posts/totale-wahrscheinlichkeit-maschinen-schoice/totale-wahrscheinlichkeit-maschinen-schoice.Rmd
+
+# 0400-Verteilungen
+posts/binomialkoeffizient-ausschuss-schoice/binomialkoeffizient-ausschuss-schoice.Rmd
+posts/binomialverteilung-callcenter-schoice/binomialverteilung-callcenter-schoice.Rmd
+posts/binomialverteilung-symmetrie-schoice/binomialverteilung-symmetrie-schoice.Rmd
+
+# 0500-Globusversuch
+posts/evidenz-funktion-schoice/evidenz-funktion-schoice.Rmd
+posts/likelihood-globusversuch-berechnung-schoice/likelihood-globusversuch-berechnung-schoice.Rmd
+posts/bayes-theorem-maschinen-schoice/bayes-theorem-maschinen-schoice.Rmd
+posts/bayesbox-standardisierung-schoice/bayesbox-standardisierung-schoice.Rmd
+
+# 0600-Post
+posts/post-stichprobe-luecke-schoice/post-stichprobe-luecke-schoice.Rmd  # im Buch nicht verlinkt; Kapitel nach Inhalt
+posts/post-wskt-kleiner-schoice/post-wskt-kleiner-schoice.Rmd
+posts/post-frage-p-vs-q-schoice/post-frage-p-vs-q-schoice.Rmd
+posts/eti-p-vs-q-schoice/eti-p-vs-q-schoice.Rmd  # im Buch nicht verlinkt; Kapitel nach Inhalt
+posts/quantil-90-interpretation-schoice/quantil-90-interpretation-schoice.Rmd
+posts/pi-vs-hdi-schiefe-schoice/pi-vs-hdi-schiefe-schoice.Rmd

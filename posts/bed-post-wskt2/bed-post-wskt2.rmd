@@ -1,10 +1,13 @@
 ---
 title: bed-post-wskt2
+date: '2026-07-14'
 categories:
 - post
 - bayes
 - dyn
 - paper
+execute:
+  echo: false
 ---
 
 <!-- Achtung, es kann passieren, dass mehrere Antwortoptionen den Wert "0" anzeigen, -->

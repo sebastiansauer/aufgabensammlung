@@ -1,5 +1,6 @@
 ---
 title: rethink3m1
+date: '2025-10-27'
 categories:
 - bayes
 - ppv
@@ -52,7 +53,7 @@ p_grid <- seq(from = 0, to = 1, length.out = 100)
 prior <- rep(1, 100)
 likelihood <- dbinom(8, size = 15, prob = p_grid)
 post_unstand <- likelihood * prior
-posterior <- post_unstand / sum(posterior)
+posterior <- post_unstand / sum(post_unstand)
 
 d <- tibble(p = p_grid, posterior = posterior)
 ```

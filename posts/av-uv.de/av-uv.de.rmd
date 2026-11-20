@@ -1,10 +1,13 @@
 ---
 title: av-uv.de
+date: '2026-07-14'
 categories:
 - basics
 - design
 - paper
 - schoice
+execute:
+  echo: false
 ---
 
 ```{r libs, include = FALSE}

@@ -1,10 +1,4 @@
 ---
-exname: stan_glm_parameterzahl
-extype: num
-exsolution: r sol
-exshuffle: no
-extol: 0
-expoints: 1
 date: '2022-12-13'
 slug: stan_glm_parameterzahl
 title: stan_glm_parameterzahl
@@ -13,8 +7,9 @@ categories:
 - regression
 - parameters
 - paper
+execute:
+  echo: false
 ---
-
 
 
 
@@ -33,9 +28,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-
-
-## Exercise
+Question
+========
 
 
 Berechnet man eine Posteriori-Verteilung mit `stan_glm()`, 
@@ -60,18 +54,9 @@ Hinweise:
 
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 
-## Solution
+Solution
+========
 
 
 Grundsätzlich hat ein Regressionsmodell die folgenden Parameter:
@@ -93,7 +78,6 @@ Im vorliegenden Fall hat die Variable `cut` 5 Stufen, also werden 4 Regressionge
 library(tidyverse)
 library(rstanarm)
 ```
-
 
 
 
@@ -180,6 +164,14 @@ Aufgabenname: `stan_glm_parameterzahl`
 
 
 
+Meta-information
+================
+exname: stan_glm_parameterzahl
+extype: num
+expoints: 1
+exsolution: `r sol`
+extol: 0
+exshuffle: false
 
 
 ---

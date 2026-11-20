@@ -1,5 +1,6 @@
 ---
 title: within-design-analysis2
+date: '2026-07-14'
 categories:
 - regression
 - within-design
@@ -7,8 +8,7 @@ categories:
 - fopro
 ---
 
-Question
-========
+## Aufgabe
 
 Analysieren Sie die Veränderung in einem längsschnittlichen Experiment (Within-Design).
 
@@ -63,12 +63,20 @@ Hinweise:
 
 
 
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 
-Solution
+## Lösung
 
-========
-
-## Pakete starten
+### Pakete starten
 
 ```{r message=FALSE}
 library(tidyverse)
@@ -78,9 +86,7 @@ library(easystats)
 
 
 
-
-
-## Daten aufbereiten
+### Daten aufbereiten
 
 Berechnen wir für jede Versuchsperson ihren Wert pro UV.
 Das erreichen wir indem wir den Mittelwert bilden von y1 und y2 - UV A.
@@ -98,7 +104,6 @@ head(d2)
 
 
 
-
 Um die Daten (besser) analysieren zu können, formen wir sie ins "lange Format" um.
 
 ```{r}
@@ -106,7 +111,6 @@ d_long <-
   d2 %>% 
   pivot_longer(cols = c(y1, y2, y3, y4), names_to = "time", values_to = "y")
 ```
-
 
 
 
@@ -162,65 +166,18 @@ Man sieht, dass:
 
 
 
+### Hypothesen prüfen
 
+Für die Prüfung der Hypothesen gibt es keine Musterlösung.
 
-
-## Modell m1
-
-
-
-```{r}
-m1 <- lm(t2mt1 ~ 1, data = d2)
-coef(m1_t2mt1)
-```
-
-
-Ein Bayes-Modell hat den Vorteil, dass es uns einfach zu interpretierende Inferenzstatistik gibt.
-
-```{r}
-m1_bayes <- stan_glm(t2mt1 ~ 1, data = d2, refresh = 0)
-coef(m1_bayes)
-```
-
-```{r}
-parameters(m1_bayes)
-```
-Mit einer Wahrscheinlichkeit von 100% ist das Delta positiv (laut `m1_bayes`).
-Das kann man aus dem Koeffizienten `pd` ablesen (probability of direction).
-
-
-## m_t3mt2
-
-
-
-
-```{r}
-m_t3mt2_bayes <- stan_glm(t3mt2 ~ 1, data = d2, refresh = 0)
-parameters(m_t3mt2_bayes)
-```
-
-Auch hier ist das Modell sehr meinungsstark: Mit einer Wahrscheinlichkeit von 100% ist der Koeffizient (Veränderung von t2 zu t3) positiv.
-
-
-Solution
-========
 
 Aufgabenname: `within-design-analysis2`
 
+---
 
-Meta-information
-================
+Categories: 
 
-exname: within-design-analysis2
-expoints: 1
-extype: string
-exsolution: NA
-categories:
 - regression
 - within-design
 - researchdesign
 - fopro
-
-
-
-

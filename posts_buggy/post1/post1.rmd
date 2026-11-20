@@ -1,6 +1,9 @@
 ---
 title: post1
+date: '2026-10-24'
 categories: null
+execute:
+  echo: false
 ---
 
 <!-- FRAGMENT, unvollständig! -->

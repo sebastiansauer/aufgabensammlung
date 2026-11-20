@@ -1,5 +1,6 @@
 ---
 title: penguins-punktschaetzer1
+date: '2026-07-14'
 categories: null
 ---
 
@@ -10,7 +11,7 @@ knitr::opts_chunk$set(fig.pos = 'H',
                       fig.cap = "", 
                       fig.path = "",
                       cache = TRUE,
-                      echo = FALSE,
+                      echo = TRUE,
                       message = FALSE,
                       fig.show = "hold")
 ```
@@ -64,8 +65,12 @@ Hier sind die Parameter:
 parameters(mod1)
 ```
 
+```{r echo = FALSE}
+y <- round(coef(mod1)[["bill_length_mm:sexmale"]], 2)
+```
 
-*Antwort*: **Der Punktschätzer der Interaktionseffekts beträgt ca. -8.19.**
+
+*Antwort*: **Der Punktschätzer der Interaktionseffekts beträgt ca. `r y`.**
 
 Wenn die Breite auszurechnen wäre, z.B. für den Effekt von \`bill_length_mm\` ,
 kann man das so machen:

@@ -1,8 +1,11 @@
 ---
 title: diamonds-histogram-rcode
+date: '2026-07-14'
 categories:
 - paper
 - todo
+execute:
+  echo: false
 ---
 
 ```{r global-knitr-options, include=FALSE}
@@ -71,7 +74,7 @@ diamonds %>%
 Für alle Diagramme gilt:
 
 
-```{r}
+```{r, echo = TRUE}
 library(tidyverse)
 data(diamonds)
 ```

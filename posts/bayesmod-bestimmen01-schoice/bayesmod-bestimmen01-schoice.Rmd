@@ -1,10 +1,12 @@
 ---
 title: bayesmod-bestimmen01-schoice
+date: '2026-07-14'
 categories:
 - regression
 - bayes
 - prior
 - paper
+- trivial
 ---
 
 ```{r libs, include=FALSE}

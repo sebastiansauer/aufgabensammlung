@@ -8,6 +8,7 @@ categories:
 - '2023'
 - string
 - paper
+- trivial
 date: '2023-03-23'
 slug: Typ-Fehler-R-04
 title: Typ-Fehler-R-04
@@ -46,7 +47,7 @@ Gegeben sei diese Syntax, die einen Fehlermeldung ausgibt:
 
 
 ```{r echo = TRUE, error = TRUE}
-mean(c(1,2,3,4), na.rm = TRUE)
+mean(c(1,2,3,4, na.rm = TRUE)
 ```
 
 
@@ -73,7 +74,7 @@ Bitte verwenden Sie *keine* Leerzeichen bei Ihrer Eingabe.
 mean(c(1,2,3,4), na.rm = TRUE)
 ```
 
-```{r}
+```{r, echo = FALSE}
 sol <- "mean(c(1,2,3,4),na.rm=TRUE)"
 ```
 
@@ -94,4 +95,5 @@ Categories:
 - R
 - '2023'
 - string
+- trivial
 

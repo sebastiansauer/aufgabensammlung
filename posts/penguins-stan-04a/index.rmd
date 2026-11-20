@@ -1,9 +1,4 @@
 ---
-exname: penguins-stan-04a
-extype: num
-exsolution: r exams::fmt(sol, 2)
-extol: 5
-expoints: 1
 categories:
 - bayes
 - regression
@@ -17,8 +12,8 @@ title: penguins-stan-04a
 
 
 
-
-## Aufgabe
+Question
+========
 
 
 Wir untersuchen Einflussfaktoren bzw. Prädiktoren auf das Körpergewicht von Pinguinen.
@@ -39,9 +34,6 @@ Hinweise:
 - Verwenden Sie Methoden der Bayes-Statistik und die Software Stan.
 - Sie können den Datensatz z.B. [hier](https://vincentarelbundock.github.io/Rdatasets/csv/palmerpenguins/penguins.csv) beziehen oder über das R-Paket `palmerpenguins`.
 - [Weitere Hinweise](https://sebastiansauer.github.io/Lehre/Hinweise/Hinweise-Pruefung-Open-Book.html)
-
-
-
 
 
 
@@ -85,7 +77,6 @@ Vertrauen ist gut, aber - was Golems betrifft - ist Kontrolle eindeutig besser ;
 
 
 
-
 ```{r}
 m1 <- stan_glm(body_mass_g ~  bill_length_mm,  # Regressionsgleichung
                data = penguins, #  Daten
@@ -107,18 +98,9 @@ eti(m1) |> plot()
 
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 
-## Lösung
+Solution
+========
 
 Man sieht im Diagramm direkt, dass 100% des Schätzbereichs *rechts* von der Null ist.
 Daher ist die Effektwahrscheinlichkeit 100%.
@@ -149,6 +131,14 @@ Aufgabenname: `penguins-stan-04a`
 
 
 
+
+Meta-information
+================
+exname: penguins-stan-04a
+extype: num
+expoints: 1
+exsolution: `r exams::fmt(sol, 2)`
+extol: 5
 
 
 ---

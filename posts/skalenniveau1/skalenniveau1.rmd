@@ -1,11 +1,14 @@
 ---
 title: skalenniveau1
+date: '2026-07-14'
 categories:
 - dyn
 - variable-level
 - basics
 - paper
 - schoice
+execute:
+  echo: false
 ---
 
 ```{r libs, include = FALSE}

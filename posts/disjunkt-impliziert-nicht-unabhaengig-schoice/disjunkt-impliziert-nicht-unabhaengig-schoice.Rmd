@@ -1,8 +1,10 @@
 ---
 title: disjunkt-impliziert-nicht-unabhaengig-schoice
+date: '2026-07-10'
 categories:
 - wahrscheinlichkeit
 - paper
+- trivial
 ---
 
 Question

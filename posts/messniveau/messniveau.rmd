@@ -1,9 +1,12 @@
 ---
 title: messniveau
+date: '2026-07-14'
 categories:
 - data
 - basics
 - paper
+execute:
+  echo: false
 ---
 
 ```{r libs, include = FALSE}

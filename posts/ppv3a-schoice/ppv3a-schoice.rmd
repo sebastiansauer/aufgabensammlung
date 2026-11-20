@@ -1,10 +1,13 @@
 ---
 title: ppv3a-schoice
+date: '2026-07-14'
 categories:
 - bayes
 - ppv
 - inference
 - prediction
+execute:
+  echo: false
 ---
 
 <!-- Achtung, es kann passieren, dass mehrere Antwortoptionen den Wert "0" anzeigen, -->

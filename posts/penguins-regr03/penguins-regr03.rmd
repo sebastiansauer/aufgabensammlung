@@ -1,12 +1,13 @@
 ---
 title: penguins-regr03
+date: '2026-07-14'
 categories:
 - lm
 - bayes
 - rope
 ---
 
-```{r}
+```{r, echo = FALSE}
 library(tidyverse)
 ```
 

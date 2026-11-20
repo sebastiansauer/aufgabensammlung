@@ -1,9 +1,12 @@
 ---
 title: ppv-dyn1-b
+date: '2026-07-14'
 categories:
 - bayes
 - ppv
 - regression
+execute:
+  echo: false
 ---
 
 ```{r libs, include = FALSE}
@@ -104,7 +107,7 @@ d_name
 ## Setup
 
 
-```{r message=FALSE}
+```{r message=FALSE, echo = TRUE}
 library(rstanarm)
 library(easystats)
 library(tidyverse)
@@ -154,7 +157,7 @@ mod <- stan_glm(av ~ uv1,
 
 Dann berechnet man die (bedingte) PPV:
 
-```{r}
+```{r, echo = TRUE}
 mod_ppv <- estimate_prediction(mod, data = tibble(uv1 = 0), ci = 0.5, seed = 42)
 mod_ppv
 ```

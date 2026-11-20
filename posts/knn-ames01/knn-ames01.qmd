@@ -1,10 +1,4 @@
 ---
-exname: knn-ames01
-extype: num
-exsolution: r exams::fmt(sol)
-exshuffle: no
-extol: 1
-expoints: 1
 categories:
 - statlearning
 - tidymodels
@@ -16,8 +10,6 @@ execute:
   error: true
   eval: false
 ---
-
-
 
 
 
@@ -37,9 +29,8 @@ knitr::opts_chunk$set(fig.pos = 'H',
 
 
 
-
-
-## Aufgabe
+Question
+========
 
 
 Berechnen Sie ein knn-Modell für den Datensatz `ames`!
@@ -60,18 +51,8 @@ Hinweise:
 
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-## Lösung
+Solution
+========
 
 
 
@@ -186,6 +167,15 @@ Aufgabenname: `knn-ames01`
 
 
 
+
+Meta-information
+================
+exname: knn-ames01
+extype: num
+expoints: 1
+exsolution: `r exams::fmt(sol)`
+extol: 1
+exshuffle: false
 
 
 ---

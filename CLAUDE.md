@@ -19,7 +19,15 @@ The script copies every `posts/<slug>/` folder 1:1 (no reformatting, without `*_
 
 ## YAML header
 
-Every exercise starts with a YAML header holding at least `title` and `categories`. `categories: null` marks an exercise whose categories still have to be added; if such an exercise also gets `paper`, the marker becomes the category `todo`. The category `paper` means the exercise can be solved with pen and paper only (no R, no calculator, no internet).
+Every exercise starts with a YAML header holding at least `title` and `categories`. `categories: null` marks an exercise whose categories still have to be added; if such an exercise also gets `paper`, the marker becomes the category `todo`. The category `paper` means the exercise can be solved with pen and paper only (no R, no calculator, no internet). The category `trivial` marks an exercise that is too easy: solvable without thinking because the answer is in the text, follows from everyday logic, or the correct option gives itself away by length or wording (see `zu_einfache_aufgaben.md`).
+
+## Showing or hiding R code (echo)
+
+Show code only where it is the content of the exercise (R/syntax questions, solutions that are a worked R analysis). Hide generator code (random parameters, data setup, tables, plots, DAG definitions, diagram engines like `nomnoml`), also in `paper` exercises whose solution uses a helper call such as `adjustmentSets()`. Code in the question that reveals the answer must always be hidden.
+
+`echo_einstufung.tsv` records the decision (`aus`/`zeigen`) and a short reason for every exercise that showed code in November 2026; the chunk line numbers in `sichtbar_lassen`/`verstecken` refer to the files before that change. The 542 exercises not listed showed no code at that time.
+
+`knitr::opts_chunk$set(echo = FALSE)` alone is not enough: R/exams respects it, but Quarto (blog, `exrs/posts/...` pages of `02_statistik1-aufgabensammlung`) overrides it with the project default `execute: echo: true`. To hide code, set both `execute: echo: false` in the YAML header and `echo = FALSE` in `opts_chunk`. A chunk that should stay visible gets its own `echo = TRUE`; chunk options win over both defaults.
 
 ## schoice exercises: R/exams format
 
@@ -90,7 +98,9 @@ The `exsolution` binary string corresponds 1:1 to the order of options in the An
 - `import_rexams-entwicklung.tsv` — which exercises from `../11_rexams-entwicklung/exercises/sebastiansauer/de` were imported (and under which name) and which were skipped as duplicates
 - `import_statistik1.tsv` — the same for `../01_statistik1/exs`
 - `import_start-bayes.tsv` — the same for `../04_start-bayes/exr`
-- `aufgaben_tabelle.tsv` — one row per exercise: name, path, extype, dynamic, buggy (+ reason), categories, `Statistik1`, `blog` (`ja`/`nein`: whether the exercise goes into the blog; `nein` for buggy exercises and for those that failed a test render in the blog project), `blog_grund` (reason for `nein`) (best-fitting chapter of `../01_statistik1` as its qmd file name, or `keines`; taken from `../01_statistik1/quiz-aufgaben.csv` where available, otherwise assigned by content)
+- `aufgaben_tabelle.tsv` — one row per exercise: name, path, extype, dynamic, buggy (+ reason), categories, `Statistik1` (best-fitting chapter of `../01_statistik1` as its qmd file name, or `keines`; taken from `../01_statistik1/quiz-aufgaben.csv` where available, otherwise assigned by content), `blog` (`ja`/`nein`: whether the exercise goes into the blog; `nein` for buggy exercises and for those that failed a test render in the blog project), `blog_grund` (reason for `nein`), `schwierigkeit` (`trivial` for exercises tagged `trivial`, otherwise empty)
+- `zu_einfache_aufgaben.md` — which exercises are trivial (and why), borderline cases, and bugs found along the way
+- `klausuren/` — one `.txt` file per exam or mock exam (e.g. `probeklausur-2026-ws.txt`), listing its exercises as paths relative to the repo root, one per line, in exam order; everything from `#` on is a comment (also after a path), blank lines are ignored; `vorlage.txt` is the template. `klausuren/klausur_aufgaben.R` provides `klausur_aufgaben(datei)` (reads a list, fails on missing or duplicate files, warns on buggy ones, returns paths for `exams2moodle()` etc.) and `klausuren_uebersicht()` (which exercise is in which exam). `Rscript klausuren/klausur_html.R klausuren/<liste>.txt [--open]` renders a list into one self-contained review page `klausuren/html/<liste>.html` (git-ignored): per exercise path, chapter, question, options in original order with the correct one marked, and the solution; exercises that fail to render show up as red error boxes. `Rscript klausuren/klausur_forms.R <liste> [--open]` renders the same list as an interactive exams2forms quiz (`klausuren/html/<liste>-forms.html`, options shuffled as in the exam, images embedded). `Rscript klausuren/klausur_moodle.R <liste> [--n=10] [--seed=1]` exports it as Moodle XML (`klausuren/moodle/<liste>.xml`, git-ignored): one subcategory per exercise (`<liste>/<Nr> <name>`) holding n variants; shuffling is done by R/exams, not Moodle, so `exshuffle: false` is respected; every exercise is checked first and nothing is written if one fails. All three scripts run from any folder; the list may be given by name only (looked up in `klausuren/`, `.txt` optional). The exam assignment lives **only** here — not in the exercises' YAML and not in `aufgaben_tabelle.tsv` — so it never reaches the blog
 
 ## File format notes
 

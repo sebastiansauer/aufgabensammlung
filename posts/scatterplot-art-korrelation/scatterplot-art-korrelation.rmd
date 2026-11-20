@@ -1,10 +1,13 @@
 ---
 title: scatterplot-art-korrelation
+date: '2026-07-14'
 categories:
 - paper
 - schoice
 - todo
 - dyn
+execute:
+  echo: false
 ---
 
 ```{r libs, include = FALSE}

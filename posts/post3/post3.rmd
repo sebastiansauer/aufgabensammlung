@@ -1,6 +1,9 @@
 ---
 title: post3
+date: '2026-07-14'
 categories: null
+execute:
+  echo: false
 ---
 
 ```{r libs, include = FALSE}
@@ -104,7 +107,7 @@ coef_m1 <- coef(m1)
 
 ```{r init-result-objects}
 questions <- solutions <- explanations <- answer_options <- item_stems <- rep(list(""), 3)
-type <- rep(list("numeric"), 3)
+type <- rep(list("num"), 3)
 ```
 
 
@@ -113,14 +116,14 @@ type <- rep(list("numeric"), 3)
 post_m1_vs <- posterior_interval(m1, prob = .95,
                    pars = "vs")
 breite_pi <- post_m1_vs[2] - post_m1_vs[1]
-breite_pi <- breite %>% round(2)
+breite_pi <- breite_pi %>% round(2)
 ```
 
 
 
 ```{r}
 #  a)
-item_stems[[1]] <- "Geben Sie die Breite des 95% PI an (im Bezug zur gesuchten Größe)."
+item_stems[[1]] <- "a) Geben Sie die Breite des 95% PI an (im Bezug zur gesuchten Größe)."
 questions[[1]] <- paste0(item_stems[[1]])
 solutions[[1]] <- explanations[[1]] <- breite_pi
 ```
@@ -146,9 +149,15 @@ breite_hdi <-
 
 ```{r}
 #  b)
-item_stems[[2]] <- "Geben Sie die Breite des 95% HDI an (im Bezug zur gesuchten Größe)."
+item_stems[[2]] <- "b) Geben Sie die Breite des 95% HDI an (im Bezug zur gesuchten Größe)."
 questions[[2]] <- paste0(item_stems[[2]])
 solutions[[2]] <- explanations[[2]] <- breite_hdi
+```
+
+
+
+```{r ex-c, include = FALSE}
+rope(m1, range = c(-1, 1))
 ```
 
 
@@ -158,31 +167,28 @@ solutions[[2]] <- explanations[[2]] <- breite_hdi
 #  c)
 item_stems[[3]] <- "Im Hinblick auf die Rope-Methode: Ist der Unterschied vernachlässigbar klein? "
 answer_options[[3]] <- c("Ja", "Nein", "Unentschieden", "Keine Antwort möglich")
-questions[[3]] <- paste0(item_stems[[3]], answer_options[[3]])
-explanations[[3]] <- solutions[[3]] <- c(F, TRUE, F, F)
+questions[[3]] <- paste0("c) ", answer_options[[3]])
+solutions[[3]] <- c(F, TRUE, F, F)
+explanations[[3]] <- ifelse(solutions[[3]], "Richtig", "Falsch")
 type[[3]] <- "schoice"
-solutions[[3]] <- mchoice2string(solutions[[3]])
+solutions[[3]] <- mchoice2string(solutions[[3]], single = TRUE)
 ```
+
+
+
 
 
 
 ```{r}
-#explanations <- lapply(explanations[3], function(x) ifelse(x, "Richtig", "Falsch"))
-solutions <- lapply(solutions[3], mchoice2string)
+# Teil c hat 4 Antwortoptionen
+expect_true(nchar(solutions[[3]]) == 4)
 ```
 
 
-```{r}
-# check if length is alsways equal to 5
-expect_true(all(map(solutions, nchar) == 5))
-```
-
-```{r}
-questions %>% 
-  map(fmt)
-```
 
 
+
+c) Im Hinblick auf die Rope-Methode: Ist der Unterschied vernachlässigbar klein? Wählen Sie bei c) eine der vier Optionen.
 
 ```{r questionlist, echo = FALSE, results = "asis"}
 answerlist(format(unlist(questions)), markup = "markdown")
@@ -201,7 +207,7 @@ Solution
 
 Setup:
 
-```{r ref.label="load-libs"}
+```{r ref.label="load-libs", echo = TRUE}
 
 ```
 
@@ -209,7 +215,7 @@ Setup:
 Modell berechnen:
 
 
-```{r ref.label="compute-mod1"}
+```{r ref.label="compute-mod1", echo = TRUE}
 
 ```
 
@@ -224,20 +230,20 @@ print(m1)
 
 a)
 
-```{r ref.label = "ex-a"}
+```{r ref.label = "ex-a", echo = TRUE}
 
 ```
 
 
 b)
 
-```{r ref.label = "ex-b"}
+```{r ref.label = "ex-b", echo = TRUE}
 
 ```
 
 c)
 
-```{r ref.label = "ex-c"}
+```{r ref.label = "ex-c", echo = TRUE}
 
 ```
 
@@ -263,5 +269,6 @@ extype: cloze
 exsolution: `r paste(solutions, collapse = "|")`
 exclozetype: `r paste(type, collapse = "|")`
 exshuffle: false
+extol: 0.1
 expoints: 1
 

@@ -1,8 +1,11 @@
 ---
 title: bsp-korr-kaus
+date: '2026-07-14'
 categories:
 - paper
 - todo
+execute:
+  echo: false
 ---
 
 <!-- by Karsten Luebke et al. -->

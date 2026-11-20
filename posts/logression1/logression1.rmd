@@ -1,9 +1,16 @@
 ---
 title: logression1
+date: '2026-07-14'
 categories:
 - paper
 - todo
+execute:
+  echo: false
 ---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
 
 Question
 ========
@@ -69,7 +76,7 @@ Answerlist
 * Die Odds des Bestehens steigen für jede Stufe von Lernzeit um ca. 0.72.
 * Der Wahrscheinlichkeit des Bestehens steigt für jede Stufe von Lernzeit um ca. 0.72.
 * Die Odds des Bestehens steigen für jede Stufe von Lernzeit um ca. 0.72-1.42.
-* * Der Logit des Bestehens steigt für jede Stufe von Lernzeit um ca. 0.72-1.42.
+* Der Logit des Bestehens steigt für jede Stufe von Lernzeit um ca. 0.72-1.42.
 
 
 

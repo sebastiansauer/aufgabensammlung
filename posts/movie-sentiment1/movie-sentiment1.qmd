@@ -8,6 +8,8 @@ date: '2023-11-16'
 slug: movie-sentiment1
 title: movie-sentiment1
 
+execute:
+  echo: false
 ---
 
 
