@@ -122,7 +122,7 @@ bsp2-hintertuer-schliessen-schoice	posts/bsp2-hintertuer-schliessen-schoice/bsp2
 bsps-nullhyp	posts/bsps-nullhyp/index.qmd	schoice	nein	nein		inference, paper	keines	ja		
 bullshit1	posts/bullshit1/bullshit1.rmd	num	ja	nein		null	070-zusammenhaenge.qmd	ja		
 bullshit2	posts/bullshit2/bullshit2.rmd	schoice	ja	ja	"R/exams, R-Code-Fehler (importiert): konnte Funktion ""%>%"" nicht finden"	null	070-zusammenhaenge.qmd	nein	buggy (R/exams-Check)	
-bus1	posts/bus1/bus1.qmd	num	nein	nein		probability, bayes, num	keines	ja		
+bus1	posts/bus1/bus1.qmd	num	nein	ja	R/exams, R-Code-Fehler: Objekt 'y' nicht gefunden (Lösung wird nie berechnet)	probability, bayes, num	keines	nein	buggy (R/exams-Check)	
 causal_err	posts/causal_err/causal_err.rmd	schoice	nein	nein		regression, schoice, quiz, paper, trivial	080-regression1.qmd	ja		trivial
 chatgpt-curl	posts/chatgpt-curl/chatgpt-curl.qmd	string	nein	nein		DUMMY	keines	ja		
 chatgpt-sentiment-loop	posts/chatgpt-sentiment-loop/chatgpt-sentiment-loop.qmd	string	nein	nein		textmining, nlp, transformer, chatgpt, sentiment	keines	ja		
@@ -365,15 +365,15 @@ iq-studentis	posts/iq-studentis/iq-studentis.rmd	string	nein	nein		probability, 
 iq01	posts/iq01/iq01.qmd	num	nein	nein		probability, simulation, normal-distribution, exam-22, num, paper	keines	ja		
 iq01a	posts/iq01a/index.qmd	num	nein	nein		probability, paper, normal-distribution, Verteilungen-Quiz24, num	keines	ja		
 iq02	posts/iq02/iq02.qmd	num	nein	nein		probability, simulation, normal-distribution, num, paper	keines	ja		
-iq02a	posts/iq02a/index.qmd	num	nein	nein		probability, paper, normal-distribution, Verteilungen-Quiz24, num	keines	ja		
+iq02a	posts/iq02a/index.qmd	num	nein	ja	R/exams, R-Code-Fehler: Objekt 'sol' nicht gefunden (Lösung wird nie berechnet)	probability, paper, normal-distribution, Verteilungen-Quiz24, num	keines	nein	buggy (R/exams-Check)	
 iq03	posts/iq03/iq03.qmd	num	nein	nein		probability, simulation, normal-distribution, num, paper	keines	ja		
-iq03a	posts/iq03a/index.qmd	num	nein	nein		probability, paper, normal-distribution, num, Verteilungen-Quiz24	keines	ja		
+iq03a	posts/iq03a/index.qmd	num	nein	ja	R/exams, R-Code-Fehler: Objekt 'sol' nicht gefunden (Lösung wird nie berechnet)	probability, paper, normal-distribution, num, Verteilungen-Quiz24	keines	nein	buggy (R/exams-Check)	
 iq04	posts/iq04/iq04.qmd	num	nein	nein		probability, simulation, normal-distribution, num, paper	keines	ja		
 iq05	posts/iq05/iq05.qmd	num	nein	nein		probability, simulation, normal-distribution, num	keines	ja		
 iq06	posts/iq06/iq06.qmd	num	nein	nein		probability, simulation, normal-distribution, num, paper	keines	ja		
 iq07	posts/iq07/iq07.qmd	num	nein	nein		probability, simulation, normal-distribution, num, paper	keines	ja		
 iq08	posts/iq08/iq08.qmd	num	nein	nein		probability, simulation, normal-distribution, num, paper	keines	ja		
-iq09	posts/iq09/iq09.qmd	num	nein	nein		probability, simulation, normal-distribution, num	keines	ja		
+iq09	posts/iq09/iq09.qmd	num	nein	ja	R/exams, R-Code-Fehler: Objekt 'solution' nicht gefunden (Lösung wird nie berechnet)	probability, simulation, normal-distribution, num	keines	nein	buggy (R/exams-Check)	
 iq10	posts/iq10/iq10.qmd	num	nein	nein		probability, simulation, normal-distribution, bayes, bayesbox, num, qm2, qm2-pruefung2023	keines	ja		
 joins	posts/joins/joins.rmd	schoice	ja	nein		paper, todo	030-aufbereiten.qmd	ja		
 k-coins-k-hits	posts/k-coins-k-hits/k-coins-k-hits.qmd	num	ja	nein		probability, dyn, bayes, num, paper	keines	ja		
@@ -422,7 +422,7 @@ klausur-raten	posts/klausur-raten/klausur-raten.qmd	num	ja	nein		probability, dy
 klausuren-bestehen	posts/klausuren-bestehen/klausuren-bestehen.qmd	num	nein	nein		R, probability, num, paper	keines	ja		
 klausuren-bestehen-schoice	posts/klausuren-bestehen-schoice/klausuren-bestehen-schoice.Rmd	schoice	nein	nein		paper, todo	keines	ja		
 kleine-grosse-welt-schoice	posts/kleine-grosse-welt-schoice/kleine-grosse-welt-schoice.Rmd	schoice	nein	nein		bayes, paper, trivial	keines	ja		trivial
-knn-ames01	posts/knn-ames01/knn-ames01.qmd	num	nein	nein		statlearning, tidymodels, num	keines	ja		
+knn-ames01	posts/knn-ames01/knn-ames01.qmd	num	nein	ja	R/exams, R-Code-Fehler: `data` must be a data frame, not an <initial_split> object	statlearning, tidymodels, num	keines	nein	buggy (R/exams-Check)	
 kochrezept-forschungsfrage-phasen-schoice	posts/kochrezept-forschungsfrage-phasen-schoice/kochrezept-forschungsfrage-phasen-schoice.Rmd	schoice	nein	nein		bayes, paper, trivial	keines	ja		trivial
 koeffizienten-kausal-ohne-fundierung-schoice	posts/koeffizienten-kausal-ohne-fundierung-schoice/koeffizienten-kausal-ohne-fundierung-schoice.Rmd	schoice	nein	nein		bayes, paper, trivial	keines	ja		trivial
 kollision-definition-regel-schoice	posts/kollision-definition-regel-schoice/kollision-definition-regel-schoice.Rmd	schoice	nein	nein		kausalinferenz, paper, trivial	keines	ja		trivial
@@ -547,7 +547,7 @@ mtcars-post3	posts/mtcars-post3/mtcars-post3.rmd	schoice	nein	nein		bayes, regre
 mtcars-post3a	posts/mtcars-post3a/index.qmd	schoice	nein	nein		bayes, regression, post, exam-22, qm2, paper, mtcars, quiz	keines	ja		
 mtcars-post_paper	posts/mtcars-post_paper/index.qmd	num	nein	nein		bayes, post, estimation, exam-22, qm2, mtcars, paper	keines	ja		
 mtcars-regr01	posts/mtcars-regr01/mtcars-regr01.rmd	string	nein	nein		lm, mtcars, association, regression, string, mtcars, computer	080-regression1.qmd	ja		
-mtcars-rope1	posts/mtcars-rope1/mtcars-rope1.rmd	cloze	nein	nein		bayes, regression, post, exam-22, qm2, mtcars, qm2-pruefung2023	keines	ja		
+mtcars-rope1	posts/mtcars-rope1/mtcars-rope1.rmd	cloze	nein	ja	R/exams, R-Code-Fehler: Failed at retrieving data (easystats/insight)	bayes, regression, post, exam-22, qm2, mtcars, qm2-pruefung2023	keines	nein	buggy (R/exams-Check)	
 mtcars-simple1	posts/mtcars-simple1/mtcars-simple1.rmd	num	nein	nein		regression, en, bayes, frequentist, qm1, stats-nutshell, mtcars	090-regression2.qmd	ja		
 mtcars-simple2	posts/mtcars-simple2/mtcars-simple2.rmd	num	nein	nein		regression, en, bayes, frequentist, qm1, stats-nutshell, mtcars	090-regression2.qmd	ja		
 mtcars-simple3	posts/mtcars-simple3/mtcars-simple3.rmd	schoice	nein	nein		regression, en, bayes, frequentist, qm1, stats-nutshell, qm2, mtcars, quiz	090-regression2.qmd	ja		
@@ -637,12 +637,12 @@ penguins-simpson	posts/penguins-simpson/index.qmd	string	nein	nein		lm, bayes, r
 penguins-stan-01	posts/penguins-stan-01/penguins-stan-01.rmd	string	nein	nein		bayes, regression, string, qm2, qm2-pruefung2023	keines	ja		
 penguins-stan-01a	posts/penguins-stan-01a/index.rmd	string	nein	nein		bayes, regression, string, qm2, paper	keines	ja		
 penguins-stan-02	posts/penguins-stan-02/penguins-stan-02.rmd	num	nein	nein		bayes, regression, exam-22	keines	ja		
-penguins-stan-02a	posts/penguins-stan-02a/index.rmd	num	nein	nein		bayes, regression, paper	keines	ja		
+penguins-stan-02a	posts/penguins-stan-02a/index.rmd	num	nein	ja	R/exams, R-Code-Fehler: Failed at retrieving data (easystats/insight)	bayes, regression, paper	keines	nein	buggy (R/exams-Check)	
 penguins-stan-03	posts/penguins-stan-03/penguins-stan-03.rmd	num	nein	nein		bayes, regression, exam-22	keines	ja		
 penguins-stan-04	posts/penguins-stan-04/penguins-stan-04.rmd	num	nein	nein		bayes, regression, exam-22	keines	ja		
-penguins-stan-04a	posts/penguins-stan-04a/index.rmd	num	nein	nein		bayes, regression, paper	keines	ja		
+penguins-stan-04a	posts/penguins-stan-04a/index.rmd	num	nein	ja	R/exams, R-Code-Fehler: Failed at retrieving data (easystats/insight)	bayes, regression, paper	keines	nein	buggy (R/exams-Check)	
 penguins-stan-05	posts/penguins-stan-05/penguins-stan-05.rmd	num	nein	nein		bayes, regression, exam-22, qm2, qm2-pruefung2023	keines	ja		
-penguins-stan-05a	posts/penguins-stan-05a/index.qmd	num	nein	nein		bayes, regression, paper	keines	ja		
+penguins-stan-05a	posts/penguins-stan-05a/index.qmd	num	nein	ja	R/exams, R-Code-Fehler: Failed at retrieving data (easystats/insight)	bayes, regression, paper	keines	nein	buggy (R/exams-Check)	
 penguins-stan-06	posts/penguins-stan-06/index.qmd	string	nein	nein		bayes, regression, string, qm2, paper	keines	ja		
 penguins-vis-bodymass1	posts/penguins-vis-bodymass1/index.qmd	string	nein	nein		vis	070-zusammenhaenge.qmd	ja		
 penguins-vis-bodymass2	posts/penguins-vis-bodymass2/index.qmd	string	nein	nein		vis	070-zusammenhaenge.qmd	ja		
@@ -690,11 +690,11 @@ postvert-regr-01	posts/postvert-regr-01/postvert-regr-01.rmd	schoice	nein	nein		
 postvert-vis-zwielicht	posts/postvert-vis-zwielicht/postvert-vis-zwielicht.qmd	string	ja	nein		2023, vis, bayes, post, string	keines	ja		
 ppdac_modell	posts/ppdac_modell/ppdac_modell.rmd	schoice	nein	nein		rahmen, schoice, quiz, paper, trivial	010-rahmen.qmd	ja		trivial
 ppv-definition-schoice	posts/ppv-definition-schoice/ppv-definition-schoice.Rmd	schoice	nein	nein		bayes, paper, trivial	keines	ja		trivial
-ppv-dyn1	posts/ppv-dyn1/ppv-dyn1.rmd	num	nein	nein		bayes, ppv, regression, num, mtcars	keines	ja		
+ppv-dyn1	posts/ppv-dyn1/ppv-dyn1.rmd	num	nein	ja	R/exams, R-Code-Fehler: Objekt 'sol' nicht gefunden (Lösung wird nie berechnet)	bayes, ppv, regression, num, mtcars	keines	nein	buggy (R/exams-Check)	
 ppv-dyn1-b	posts/ppv-dyn1-b/ppv-dyn1-b.rmd	num	nein	nein		bayes, ppv, regression	keines	nein	Render-Test: round2() Nicht-numerisches Argument (Zeile 193)	
 ppv-mixtur-keine-treffer-schoice	posts/ppv-mixtur-keine-treffer-schoice/ppv-mixtur-keine-treffer-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja		
 ppv-mixtur-treffer-schoice	posts/ppv-mixtur-treffer-schoice/ppv-mixtur-treffer-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja		
-ppv-mtcars1	posts/ppv-mtcars1/ppv-mtcars1.rmd	num	nein	nein		bayes, ppv, regression, num, mtcars	keines	ja		
+ppv-mtcars1	posts/ppv-mtcars1/ppv-mtcars1.rmd	num	nein	ja	R/exams, R-Code-Fehler: Objekt 'sol' nicht gefunden (Lösung wird nie berechnet)	bayes, ppv, regression, num, mtcars	keines	nein	buggy (R/exams-Check)	
 ppv-post-verwechslung-schoice	posts/ppv-post-verwechslung-schoice/ppv-post-verwechslung-schoice.Rmd	schoice	nein	nein		bayes, paper, trivial	keines	ja		trivial
 ppv-vs-post-parameterwerte-schoice	posts/ppv-vs-post-parameterwerte-schoice/ppv-vs-post-parameterwerte-schoice.Rmd	schoice	nein	nein		bayes, paper, trivial	keines	ja		trivial
 ppv01-kung	posts/ppv01-kung/ppv01-kung.rmd	string	nein	nein		probability, bayes, ppv	keines	nein	Render-Test: Error: ! Objekt 'm1' nicht gefunden	
@@ -901,7 +901,7 @@ stan-glm-chains-schoice	posts/stan-glm-chains-schoice/stan-glm-chains-schoice.Rm
 stan-glm-intercept-schoice	posts/stan-glm-intercept-schoice/stan-glm-intercept-schoice.Rmd	schoice	nein	nein		bayes, paper, trivial	keines	ja		trivial
 stan_glm01	posts/stan_glm01/stan_glm01.rmd	string	nein	nein		probability, bayes, paper	keines	ja		
 stan_glm01a	posts/stan_glm01a/index.rmd	string	nein	nein		probability, bayes, paper	keines	ja		
-stan_glm_parameterzahl	posts/stan_glm_parameterzahl/stan_glm_parameterzahl.rmd	num	nein	nein		bayes, regression, parameters, paper	keines	ja		
+stan_glm_parameterzahl	posts/stan_glm_parameterzahl/stan_glm_parameterzahl.rmd	num	nein	ja	R/exams, R-Code-Fehler: Objekt 'sol' nicht gefunden (Lösung wird nie berechnet)	bayes, regression, parameters, paper	keines	nein	buggy (R/exams-Check)	
 stan_glm_parameterzahl_simple	posts/stan_glm_parameterzahl_simple/stan_glm_parameterzahl_simple.rmd	num	nein	nein		bayes, regression, parameters, paper	keines	ja		
 stan_glm_prioriwerte	posts/stan_glm_prioriwerte/stan_glm_prioriwerte.rmd	schoice	nein	nein		bayes, regression, qm2, qm2-pruefung2023, quiz, paper	keines	ja		
 stan_glm_priors_null	posts/stan_glm_priors_null/stan_glm_priors_null.rmd	cloze	nein	nein		bayes, regression, paper	keines	ja		
@@ -959,13 +959,13 @@ tidymodels-lasso2	posts/tidymodels-lasso2/tidymodels-lasso2.qmd	string	nein	nein
 tidymodels-lasso3	posts/tidymodels-lasso3/tidymodels-lasso3.qmd	string	nein	nein		tidymodels, statlearning, lasso, lm, string	keines	ja		
 tidymodels-penguins01	posts/tidymodels-penguins01/tidymodels-penguins01.qmd	num	nein	nein		ds1, tidymodels, prediction, yacsda, statlearning, num	keines	ja		
 tidymodels-penguins02	posts/tidymodels-penguins02/tidymodels-penguins02.rmd	num	nein	nein		ds1, tidymodels, prediction, yacsda, statlearning, num	keines	ja		
-tidymodels-penguins03	posts/tidymodels-penguins03/tidymodels-penguins03.rmd	num	nein	nein		ds1, tidymodels, prediction, yacsda, statlearning, num	keines	ja		
-tidymodels-penguins04	posts/tidymodels-penguins04/tidymodels-penguins04.rmd	num	nein	nein		ds1, tidymodels, prediction, yacsda, statlearning, num	keines	ja		
-tidymodels-penguins05	posts/tidymodels-penguins05/tidymodels-penguins05.rmd	num	nein	nein		ds1, tidymodels, prediction, yacsda, statlearning, num	keines	ja		
+tidymodels-penguins03	posts/tidymodels-penguins03/tidymodels-penguins03.rmd	num	nein	ja	R/exams, R-Code-Fehler: `last_fit()` is not well-defined for a fitted workflow	ds1, tidymodels, prediction, yacsda, statlearning, num	keines	nein	buggy (R/exams-Check)	
+tidymodels-penguins04	posts/tidymodels-penguins04/tidymodels-penguins04.rmd	num	nein	ja	R/exams, R-Code-Fehler: `last_fit()` is not well-defined for a fitted workflow	ds1, tidymodels, prediction, yacsda, statlearning, num	keines	nein	buggy (R/exams-Check)	
+tidymodels-penguins05	posts/tidymodels-penguins05/tidymodels-penguins05.rmd	num	nein	ja	R/exams, R-Code-Fehler: `last_fit()` is not well-defined for a fitted workflow	ds1, tidymodels, prediction, yacsda, statlearning, num	keines	nein	buggy (R/exams-Check)	
 tidymodels-penguins06	posts/tidymodels-penguins06/tidymodels-penguins06.qmd	schoice	nein	ja	R/exams, R-Code-Fehler: `last_fit()` is not well-defined for a fitted workflow.	tidymodels, statlearning, schoice, quiz	keines	nein	Blog-Render: Funktion fmt() (Paket exams) nicht gefunden, Zeile 215	
-tidymodels-penguins07	posts/tidymodels-penguins07/tidymodels-penguins07.qmd	num	nein	nein		tidymodels, statlearning, trees, num	keines	ja		
+tidymodels-penguins07	posts/tidymodels-penguins07/tidymodels-penguins07.qmd	num	nein	ja	R/exams, R-Code-Fehler: `last_fit()` is not well-defined for a fitted workflow	tidymodels, statlearning, trees, num	keines	nein	buggy (R/exams-Check)	
 tidymodels-poly01	posts/tidymodels-poly01/tidymodels-poly01.rmd	num	nein	nein		R, statlearning, tidymodels, num	keines	ja		
-tidymodels-poly02	posts/tidymodels-poly02/tidymodels-poly02.qmd	num	nein	nein		R, statlearning, tidymodels, num	keines	ja		
+tidymodels-poly02	posts/tidymodels-poly02/tidymodels-poly02.qmd	num	nein	ja	R/exams, R-Code-Fehler: `last_fit()` is not well-defined for a fitted workflow	R, statlearning, tidymodels, num	keines	nein	buggy (R/exams-Check)	
 tidymodels-remove-na	posts/tidymodels-remove-na/tidymodels-remove-na.qmd	string	nein	nein		tidymodels, statlearning, template, string	keines	ja		
 tidymodels-remove-na2	posts/tidymodels-remove-na2/tidymodels-remove-na2.qmd	string	nein	nein		tidymodels, statlearning, template, string	keines	ja		
 tidymodels-simple1	posts/tidymodels-simple1/tidymodels-simple1.rmd	num	nein	nein		R, tidymodels, lm, simple	080-regression1.qmd	ja		
@@ -985,17 +985,17 @@ tidymodels01	posts/tidymodels01/tidymodels01.rmd	num	nein	nein		R, statlearning,
 tidymodels1	posts/tidymodels1/tidymodels1.rmd	schoice	ja	nein		ds1, tidymodels, prediction, yacsda, statlearning, dyn, schoice, quiz, paper	keines	ja		
 tidymodels2	posts/tidymodels2/tidymodels2.rmd	string	nein	nein		ds1, tidymodels, prediction, yacsda, statlearning, error, string, mtcars	keines	ja		
 tidymodels3	posts/tidymodels3/tidymodels3.rmd	num	nein	nein		ds1, tidymodels, prediction, yacsda, statlearning, lm, num	090-regression2.qmd	ja		
-tidymodels_workflowset01	posts/tidymodels_workflowset01/tidymodels_workflowset01.qmd	num	nein	nein		num	keines	ja		
+tidymodels_workflowset01	posts/tidymodels_workflowset01/tidymodels_workflowset01.qmd	num	nein	ja	R/exams, R-Code-Fehler: Objekt 'y' nicht gefunden (Lösung wird nie berechnet)	num	keines	nein	buggy (R/exams-Check)	
 tidytext	posts/tidytext/tidytext.qmd	schoice	nein	nein		tidymodels, quiz, paper	keines	ja		
 titanic_casestudy	posts/titanic_casestudy/titanic_casestudy.rmd	string	nein	nein		string, paper	keines	ja		
 tmdb01	posts/tmdb01/tmdb01.rmd	num	nein	nein		ds1, tidymodels, statlearning, tmdb, random-forest, num	keines	ja		
 tmdb02	posts/tmdb02/tmdb02.qmd	num	nein	nein		ds1, tidymodels, statlearning, tmdb, trees, num	keines	ja		
 tmdb03	posts/tmdb03/tmdb03.qmd	num	nein	nein		ds1, tidymodels, statlearning, tmdb, random-forest, num	keines	ja		
 tmdb04	posts/tmdb04/tmdb04.qmd	num	nein	nein		ds1, tidymodels, statlearning, tmdb, random-forest, num	keines	ja		
-tmdb05	posts/tmdb05/tmdb05.qmd	num	nein	nein		ds1, tidymodels, statlearning, tmdb, random-forest, num	keines	ja		
+tmdb05	posts/tmdb05/tmdb05.qmd	num	nein	ja	R/exams, R-Code-Fehler: Objekt 'y' nicht gefunden (Lösung wird nie berechnet)	ds1, tidymodels, statlearning, tmdb, random-forest, num	keines	nein	buggy (R/exams-Check)	
 tmdb06	posts/tmdb06/tmdb06.rmd	num	nein	nein		ds1, tidymodels, statlearning, tmdb, random-forest, num	keines	ja		
 tmdb07	posts/tmdb07/tmdb07.rmd	num	nein	nein		ds1, tidymodels, statlearning, tmdb, num	keines	ja		
-tmdb08	posts/tmdb08/tmdb08.rmd	num	nein	nein		ds1, tidymodels, statlearning, tmdb, random-forest, num	keines	ja		
+tmdb08	posts/tmdb08/tmdb08.rmd	num	nein	ja	R/exams, R-Code-Fehler: Objekt 'sol' nicht gefunden (Lösung wird nie berechnet)	ds1, tidymodels, statlearning, tmdb, random-forest, num	keines	nein	buggy (R/exams-Check)	
 torten_kritik	posts/torten_kritik/torten_kritik.rmd	schoice	nein	nein		vis, schoice, quiz, paper, trivial	040-verbildlichen.qmd	ja		trivial
 totale-wahrscheinlichkeit-maschinen-schoice	posts/totale-wahrscheinlichkeit-maschinen-schoice/totale-wahrscheinlichkeit-maschinen-schoice.Rmd	schoice	nein	nein		wahrscheinlichkeit, paper	keines	ja		
 totale-wskt1	posts/totale-wskt1/totale-wskt1.qmd	num	nein	nein		R, probability, bayes, num, paper	keines	ja		
@@ -1091,9 +1091,9 @@ wertberechnen2	posts/wertberechnen2/wertberechnen2.rmd	num	ja	nein		R, dyn, num,
 wertpruefen	posts/wertpruefen/wertpruefen.rmd	string	nein	nein		R, 2023, string, paper	020-R.qmd	ja		
 wertzuweisen	posts/wertzuweisen/wertzuweisen.rmd	string	nein	nein		R, 2023, string, paper	020-R.qmd	ja		
 wertzuweisen_mc	posts/wertzuweisen_mc/wertzuweisen_mc.rmd	schoice	nein	nein		R, 2023, schoice, paper, quiz	020-R.qmd	ja		
-wfsets1	posts/wfsets1/wfsets1.qmd	num	nein	nein		R, statlearning, tidymodels, wfsets, template	keines	ja		
-wfsets_penguins01	posts/wfsets_penguins01/wfsets_penguins01.rmd	num	nein	nein		R, statlearning, tidymodels, num, wfsets	keines	ja		
-wfsets_penguins02	posts/wfsets_penguins02/wfsets_penguins02.rmd	num	nein	nein		R, statlearning, tidymodels, num, wfsets	keines	ja		
+wfsets1	posts/wfsets1/wfsets1.qmd	num	nein	ja	R/exams, R-Code-Fehler: Objekt 'sol' nicht gefunden (Lösung wird nie berechnet)	R, statlearning, tidymodels, wfsets, template	keines	nein	buggy (R/exams-Check)	
+wfsets_penguins01	posts/wfsets_penguins01/wfsets_penguins01.rmd	num	nein	ja	R/exams, R-Code-Fehler: Objekt 'sol' nicht gefunden (Lösung wird nie berechnet)	R, statlearning, tidymodels, num, wfsets	keines	nein	buggy (R/exams-Check)	
+wfsets_penguins02	posts/wfsets_penguins02/wfsets_penguins02.rmd	num	nein	ja	R/exams, R-Code-Fehler: Objekt 'sol' nicht gefunden (Lösung wird nie berechnet)	R, statlearning, tidymodels, num, wfsets	keines	nein	buggy (R/exams-Check)	
 wikipedia	posts/wikipedia/index.qmd	string	nein	nein		simulation, probability, story, nullhypothesis	keines	ja		
 wissschreib1	posts/wissschreib1/wissschreib1.rmd	schoice	nein	ja	R/exams, R-Code-Fehler (importiert): length of exsolution (= 6) and questionlist (= 1) does not match in '_home_sebastian-sauer_GDrive_3X_Lehre_36_Lehre-Entwicklung_06_aufgabensammlung_posts_wissschreib1_wissschreib1'	paper, todo	keines	nein	buggy (R/exams-Check)	
 within-design-analysis1	posts/within-design-analysis1/within-design-analysis1.rmd	string	nein	nein		regression, within-design, researchdesign, fopro, string	keines	ja		
