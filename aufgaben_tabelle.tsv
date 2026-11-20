@@ -678,7 +678,7 @@ post2-glm	posts/post2-glm/post2-glm.rmd	cloze	ja	nein		qm2	keines	nein	Render-Te
 post2-md-post	posts/post2-md-post/post2-md-post.rmd	schoice	ja	ja	R/exams, R-Code-Fehler (importiert): Objekt 'chains' nicht gefunden	bayes, regression	keines	nein	buggy (R/exams-Check)	
 post2-r2	posts/post2-r2/post2-r2.rmd	num	nein	nein		null	keines	nein	Render-Test: teachertools::teaching_df() findet teaching_data nicht (Daten per Netz)	
 post2-rope	posts/post2-rope/post2-rope.rmd	num	nein	nein		null	keines	ja		
-post3	posts/post3/post3.rmd	cloze	nein	nein		null	keines	nein	Render-Test: Error: ! Objekt 'breite' nicht gefunden	
+post3	posts/post3/post3.rmd	cloze	nein	nein		null	keines	ja		
 post3a	posts/post3a/post3a.rmd	num	ja	nein		null	keines	ja		
 post3b	posts/post3b/post3b.rmd	schoice	ja	nein		null	keines	ja		
 post3c	posts/post3c/post3c.rmd	schoice	ja	ja	R/exams, R-Code-Fehler (importiert): Objekt 'question_chosen' nicht gefunden	qm2	keines	nein	buggy (R/exams-Check)	
@@ -984,7 +984,7 @@ tidymodels-vorlage3	posts/tidymodels-vorlage3/tidymodels-vorlage3.qmd	string	nei
 tidymodels01	posts/tidymodels01/tidymodels01.rmd	num	nein	nein		R, statlearning, tidymodels, lm	080-regression1.qmd	nein	Render-Test: Fehler beim Rendern	
 tidymodels1	posts/tidymodels1/tidymodels1.rmd	schoice	ja	nein		ds1, tidymodels, prediction, yacsda, statlearning, dyn, schoice, quiz, paper	keines	ja		
 tidymodels2	posts/tidymodels2/tidymodels2.rmd	string	nein	nein		ds1, tidymodels, prediction, yacsda, statlearning, error, string, mtcars	keines	ja		
-tidymodels3	posts/tidymodels3/tidymodels3.rmd	num	nein	nein		ds1, tidymodels, prediction, yacsda, statlearning, lm, num	090-regression2.qmd	ja		
+tidymodels3	posts/tidymodels3/tidymodels3.rmd	string	nein	nein		ds1, tidymodels, prediction, yacsda, statlearning, lm, string	090-regression2.qmd	ja		
 tidymodels_workflowset01	posts/tidymodels_workflowset01/tidymodels_workflowset01.qmd	num	nein	nein		num	keines	ja		
 tidytext	posts/tidytext/tidytext.qmd	schoice	nein	nein		tidymodels, quiz, paper	keines	ja		
 titanic_casestudy	posts/titanic_casestudy/titanic_casestudy.rmd	string	nein	nein		string, paper	keines	ja		
@@ -1097,7 +1097,7 @@ wfsets_penguins02	posts/wfsets_penguins02/wfsets_penguins02.rmd	num	nein	nein		R
 wikipedia	posts/wikipedia/index.qmd	string	nein	nein		simulation, probability, story, nullhypothesis	keines	ja		
 wissschreib1	posts/wissschreib1/wissschreib1.rmd	schoice	nein	ja	R/exams, R-Code-Fehler (importiert): length of exsolution (= 6) and questionlist (= 1) does not match in '_home_sebastian-sauer_GDrive_3X_Lehre_36_Lehre-Entwicklung_06_aufgabensammlung_posts_wissschreib1_wissschreib1'	paper, todo	keines	nein	buggy (R/exams-Check)	
 within-design-analysis1	posts/within-design-analysis1/within-design-analysis1.rmd	string	nein	nein		regression, within-design, researchdesign, fopro, string	keines	ja		
-within-design-analysis2	posts/within-design-analysis2/within-design-analysis2.rmd	string	nein	nein		regression, within-design, researchdesign, fopro	keines	nein	Render-Test: Error: ! Objekt 't2mt1' nicht gefunden	
+within-design-analysis2	posts/within-design-analysis2/within-design-analysis2.rmd	string	nein	nein		regression, within-design, researchdesign, fopro	keines	ja		
 wozu-balkendiagramm	posts/wozu-balkendiagramm/wozu-balkendiagramm.rmd	schoice	nein	nein		vis, 2023, schoice, paper, quiz	040-verbildlichen.qmd	ja		
 wozu-streudiagramm	posts/wozu-streudiagramm/wozu-streudiagramm.rmd	schoice	nein	nein		vis, 2023, schoice, quiz, paper	040-verbildlichen.qmd	ja		
 wrangle1	posts/wrangle1/wrangle1.rmd	schoice	nein	nein		eda, datawrangling, tidyverse, dplyr, schoice, paper, quiz, easy	030-aufbereiten.qmd	ja		

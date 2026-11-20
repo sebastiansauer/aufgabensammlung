@@ -119,6 +119,7 @@ exname: ppv-mtcars1
 extype: num
 expoints: 1
 exsolution: `r exams::fmt(sol)`
+extol: `r exams::fmt(0.1 * sol, 3)`
 exshuffle: false
 
 

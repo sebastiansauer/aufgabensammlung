@@ -75,7 +75,7 @@ estimate_relation(lm1) |> plot() +
 
 Adjustieren Sie im Modell die Flossenlänge um die Geschlecht des Tieresn, so dass das neue Modell den statistischen Effekt (nicht notwendig auch kausal) der Flossenlänge bereinigt bzw. unabhängig vom Geschlecht widerspiegelt!
 
-*Geben Sie den Punktschätzer für den Effekt von `am` in diesem Modell an!*
+*Geben Sie den Punktschätzer für den Effekt von `flipper_length_mm_z` in diesem Modell an!*
 
 Hinweise:
 

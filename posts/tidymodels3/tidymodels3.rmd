@@ -6,7 +6,7 @@ categories:
 - yacsda
 - statlearning
 - lm
-- num
+- string
 date: '2023-05-17'
 slug: tidymodels3
 title: tidymodels3
@@ -14,7 +14,6 @@ execute:
   error: true
   eval: false
 ---
-
 
 
 
@@ -35,9 +34,7 @@ library(exams)
 
 
 
-
-Question
-========
+## Aufgabe
 
 Berechnen Sie ein lineares Modell mit tidymodels und zwar anhand des `ames` Datensatzes.
 
@@ -49,8 +46,18 @@ Rücktransformieren Sie die Log-Werte in "Roh-Dollar".
 
 
 
-Solution
-========
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+## Lösung
 
 
 ```{r}
@@ -198,19 +205,12 @@ rsq(ames_test2,
 
 
 
-```{r, echo = FALSE}
-sol <- 0.51679
-```
-
-
-
 Zur Interpretation von Log10-Werten
 
 ```{r}
 5e5
 5*10^5 - 500000
 ```
-
 
 
 
@@ -228,17 +228,6 @@ Aufgabenname: `tidymodels3`
 
 
 
-
-Meta-information
-================
-exname: tidymodels3
-extype: num
-expoints: 1
-exsolution: `r fmt(sol)`
-extol: 1
-exshuffle: false
-
-
 ---
 
 Categories: 
@@ -249,5 +238,5 @@ Categories:
 - yacsda
 - statlearning
 - lm
-- num
+- string
 
