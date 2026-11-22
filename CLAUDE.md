@@ -17,6 +17,8 @@ Rscript sync_datenwerk.R --apply   # copies released exercises to ../07_datenwer
 
 The script copies every `posts/<slug>/` folder 1:1 (no reformatting, without `*_cache` and `*_files`) unless `aufgaben_tabelle.tsv` marks it with `blog = nein`, and removes from `07_datenwerk/posts` every folder that is not released. Folders without a table row count as released (the script warns). After syncing, commit in `07_datenwerk` separately; nothing is pushed automatically.
 
+With `--apply` the script then runs `../07_datenwerk/scripts/make-quiz-posts.R` (if present): rsync puts the original exercise back over the quiz wrapper of every exams2forms post in the blog and deletes its `_<name>` copy; the script recreates both identically. In a dry run the quiz posts therefore always show up as changes.
+
 ## YAML header
 
 Every exercise starts with a YAML header holding at least `title` and `categories`. `categories: null` marks an exercise whose categories still have to be added; if such an exercise also gets `paper`, the marker becomes the category `todo`. The category `paper` means the exercise can be solved with pen and paper only (no R, no calculator, no internet). The category `trivial` marks an exercise that is too easy: solvable without thinking because the answer is in the text, follows from everyday logic, or the correct option gives itself away by length or wording (see `zu_einfache_aufgaben.md`).
