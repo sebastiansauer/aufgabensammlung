@@ -1,7 +1,12 @@
 ---
 title: boxhist2
 date: '2026-07-14'
-categories: null
+categories:
+- vis
+- eda
+- cloze
+- dyn
+- en
 ---
 
 ```{r data generation, echo = FALSE, results = "hide"}

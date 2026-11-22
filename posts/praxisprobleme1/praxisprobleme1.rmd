@@ -1,7 +1,12 @@
 ---
 title: praxisprobleme1
 date: '2026-07-14'
-categories: null
+categories:
+- datawrangling
+- eda
+- na
+- ausreisser
+- string
 ---
 
 ```{r global-knitr-options, include=FALSE}

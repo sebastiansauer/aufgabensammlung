@@ -1,7 +1,10 @@
 ---
 title: bullshit1
 date: '2026-07-14'
-categories: null
+categories:
+- association
+- paper
+- num
 execute:
   echo: false
 ---

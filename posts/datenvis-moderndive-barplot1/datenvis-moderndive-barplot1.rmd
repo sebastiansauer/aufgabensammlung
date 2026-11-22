@@ -1,7 +1,11 @@
 ---
 title: datenvis-moderndive-barplot1
 date: '2026-07-14'
-categories: null
+categories:
+- vis
+- ggquick
+- gapminder
+- string
 ---
 
 ```{r libs, include = FALSE}
