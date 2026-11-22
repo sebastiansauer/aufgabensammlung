@@ -56,7 +56,7 @@ Meta-information
 exname: tidymodels_workflowset01
 extype: num
 expoints: 1
-exsolution: `r y`
+exsolution: `r if (exists("y")) y`
 extol: 1
 exshuffle: false
 

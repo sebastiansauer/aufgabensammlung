@@ -208,7 +208,7 @@ Meta-information
 exname: tidymodels-ames-05
 extype: num
 expoints: 1
-exsolution: `r exams::fmt(sol)`
+exsolution: `r if (exists("sol")) exams::fmt(sol)`
 extol: 1
 exshuffle: false
 

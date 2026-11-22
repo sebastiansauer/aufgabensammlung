@@ -335,7 +335,7 @@ Meta-information
 exname: tmdb01
 extype: num
 expoints: 1
-exsolution: `r sol`
+exsolution: `r if (exists("sol")) sol`
 extol: 0.6
 
 

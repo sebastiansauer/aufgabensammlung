@@ -300,7 +300,7 @@ Auf Basis dieser Analyse: Wählen Sie am besten passende Aussage!
 
 Answerlist
 ----------
-* Es wurden `r n_candidates` Kandidaten von Tuningparameterwerten in die Analyse einbezogen.
+* Es wurden `r if (exists("n_candidates")) n_candidates` Kandidaten von Tuningparameterwerten in die Analyse einbezogen.
 * Es wurde kein Parameter-Tuning durchgeführt.
 * Die Metrik $AUC$ sollte *nicht* für Klassifikationsmodelle verwendet werden.
 * Es wurde eine 10-fache Kreuzvalidierung (ohne Wiederholungen) verwendet.

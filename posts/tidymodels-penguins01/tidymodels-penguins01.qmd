@@ -177,7 +177,7 @@ Meta-information
 exname: tidymodels-penguins01
 extype: num
 expoints: 1
-exsolution: `r fmt(sol)`
+exsolution: `r if (exists("sol")) fmt(sol)`
 extol: 1
 exshuffle: false
 

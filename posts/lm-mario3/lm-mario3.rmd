@@ -74,7 +74,7 @@ loesung
 ```
 
 
-Die *Lösung* lautet: `r loesung`.
+Die *Lösung* lautet: `r if (exists("loesung")) loesung`.
 
 
 Aufgabenname: `lm-mario3`
@@ -87,7 +87,7 @@ Meta-information
 exname: lm-mario3
 extype: num
 expoints: 1
-exsolution: `r fmt(loesung)`
+exsolution: `r if (exists("loesung")) exams::fmt(loesung)`
 exshuffle: false
 
 

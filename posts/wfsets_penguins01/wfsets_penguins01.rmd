@@ -198,7 +198,7 @@ Meta-information
 exname: wfsets_penguins01
 extype: num
 expoints: 1
-exsolution: `r fmt(sol)`
+exsolution: `r if (exists("sol")) fmt(sol)`
 exshuffle: false
 
 

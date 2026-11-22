@@ -193,8 +193,8 @@ Meta-information
 exname: bike02
 extype: num
 expoints: 1
-exsolution: `r fmt(sol)`
-extol: `r exams::num_to_tol(sol, reltol = 0.01)`
+exsolution: `r if (exists("sol")) fmt(sol)`
+extol: `r if (exists("sol")) exams::num_to_tol(sol, reltol = 0.01)`
 exshuffle: false
 
 

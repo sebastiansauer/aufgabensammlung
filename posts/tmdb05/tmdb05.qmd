@@ -318,7 +318,7 @@ Meta-information
 exname: tmdb05
 extype: num
 expoints: 1
-exsolution: `r y`
+exsolution: `r if (exists("y")) y`
 extol: 1
 exshuffle: false
 
