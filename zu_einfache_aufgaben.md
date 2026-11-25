@@ -169,7 +169,7 @@ Mit Alltagslogik oder über die Form der Optionen weitgehend lösbar, aber nicht
 | `prob-elementarereignis` | „Elementar“ verrät die Antwort. |
 | `probability-of-direction-schoice` | Der Name verrät die Antwort. |
 | `punktschaetzer-reicht-nicht` | Weniger Ungewissheit bevorzugen ist Alltagslogik. |
-| `quantil-90-interpretation-schoice` | Die Option nimmt 90 % und 0,78 direkt auf. |
+| `quantil-90-interpretation-schoice` | Die Option nimmt 90 % und 0,78 direkt auf. Nicht-triviale Variante: `quantil-90-interpretation2-schoice`. |
 | `r_syntax_correlation` | Nur zwei Optionen enthalten `correlation`. |
 | `r_vs_rstudio` | Die meisten Distraktoren sind absurd. |
 | `rechtschreibung1` | Je nach gezogenem Wort ohne Statistikwissen lösbar. |

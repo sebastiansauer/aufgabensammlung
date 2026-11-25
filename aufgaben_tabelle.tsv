@@ -748,7 +748,8 @@ pwert2	posts/pwert2/index.qmd	schoice	nein	nein		inference, paper	keines	ja
 qm2-quiz-globus	posts/qm2-quiz-globus/index.qmd	string	nein	nein		qm2, 2024, bayes, paper	keines	ja		
 qm2-quiz-inferenz	posts/qm2-quiz-inferenz/index.qmd	string	nein	nein		qm2, 2024, inference, paper	keines	ja		
 qm2-quiz-wskt	posts/qm2-quiz-wskt/index.qmd	string	nein	nein		qm2, 2024, probability, paper	keines	ja		
-quantil-90-interpretation-schoice	posts/quantil-90-interpretation-schoice/quantil-90-interpretation-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja		
+quantil-90-interpretation-schoice	posts/quantil-90-interpretation-schoice/quantil-90-interpretation-schoice.Rmd	schoice	nein	nein		bayes, paper, trivial	keines	ja		trivial
+quantil-90-interpretation2-schoice	posts/quantil-90-interpretation2-schoice/quantil-90-interpretation2-schoice.Rmd	schoice	nein	nein		bayes, paper	keines	ja		
 quantil-verteilungsfunktion-unterschied-schoice	posts/quantil-verteilungsfunktion-unterschied-schoice/quantil-verteilungsfunktion-unterschied-schoice.Rmd	schoice	nein	nein		bayes, paper, trivial	keines	ja		trivial
 quantil_transfer	posts/quantil_transfer/quantil_transfer.rmd	schoice	nein	nein		eda, schoice, quiz, paper	050-zusammenfassen.qmd	ja		
 quap1	posts/quap1/quap1.rmd	string	nein	nein		paper, todo	keines	ja		
