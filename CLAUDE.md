@@ -17,7 +17,7 @@ Rscript sync_datenwerk.R --apply   # copies released exercises to ../07_datenwer
 
 The script copies every `posts/<slug>/` folder 1:1 (no reformatting, without `*_cache` and `*_files`) unless `aufgaben_tabelle.tsv` marks it with `blog = nein`, and removes from `07_datenwerk/posts` every folder that is not released. Folders without a table row count as released (the script warns). After syncing, commit in `07_datenwerk` separately; nothing is pushed automatically.
 
-With `--apply` the script then runs `../07_datenwerk/scripts/make-quiz-posts.R` (if present): rsync puts the original exercise back over the quiz wrapper of every exams2forms post in the blog and deletes its `_<name>` copy; the script recreates both identically. In a dry run the quiz posts therefore always show up as changes.
+In the blog every exams2forms post keeps the exercise as `_<name>.<ext>` next to a generated wrapper `<name>.qmd`. The sync leaves both alone in rsync and instead compares the exercise here with `_<name>.<ext>` there, copying it only when the content differs (output line `>f quiz-aufgabe ...`). So dry run and `--apply` list only real changes. With `--apply` the script then runs `../07_datenwerk/scripts/make-quiz-posts.R` (if present), which turns new posts into quiz posts and rewrites the wrapper (stand hash) of changed exercises.
 
 ## YAML header
 

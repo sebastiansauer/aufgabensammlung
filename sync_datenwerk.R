@@ -40,17 +40,39 @@ if (length(zu_loeschen)) message("Entfernen: ", paste(head(zu_loeschen, 50), col
 excl <- c("--exclude=*_cache/", "--exclude=*_files/", "--exclude=.Rhistory",
           "--exclude=.quarto/", "--exclude=.DS_Store",
           "--exclude=/cache/")  # knitr-Cache von quiz() (07_datenwerk)
+# Quiz-Posts (07_datenwerk/scripts/make-quiz-posts.R): Dort liegt die Aufgabe
+# <name>.<endung> als _<name>.<endung>, daneben der Wrapper <name>.qmd. Damit
+# rsync diese nicht bei jedem Lauf zuruecksetzt, wird die Aufgabe direkt mit
+# _<name>.<endung> verglichen und nur bei inhaltlicher Aenderung kopiert;
+# Wrapper und _-Datei sind fuer rsync tabu. Den Wrapper (Stand-Hash) erneuert
+# make-quiz-posts.R am Ende.
+geaendert <- 0
 for (s in frei) {
-  a <- c("-a", if (!apply) "--dry-run", "--itemize-changes", "--delete", excl,
-         paste0(quelle, "/", s, "/"), paste0(ziel, "/", s, "/"))
-  out <- system2("rsync", a, stdout = TRUE)
-  if (length(out)) cat(paste0(s, ": ", out), sep = "\n")
+  q_dir <- file.path(quelle, s); z_dir <- file.path(ziel, s)
+  aufgaben <- list.files(q_dir, pattern = "\\.(qmd|rmd|Rmd)$")
+  aufgaben <- aufgaben[!startsWith(aufgaben, "_")]
+  quiz <- aufgaben[file.exists(file.path(z_dir, paste0("_", aufgaben)))]
+  filt <- unlist(lapply(quiz, function(f) {
+    wrapper <- sub("\\.(rmd|Rmd|qmd)$", ".qmd", f)
+    c(paste0("--filter=- /", f), paste0("--filter=P /_", f), paste0("--filter=P /", wrapper))
+  }))
+  a <- c("-a", "--omit-dir-times", if (!apply) "--dry-run", "--itemize-changes", "--delete",
+         filt, excl, paste0(q_dir, "/"), paste0(z_dir, "/"))
+  out <- system2("rsync", shQuote(a), stdout = TRUE)
+  for (f in quiz) {
+    von <- file.path(q_dir, f); nach <- file.path(z_dir, paste0("_", f))
+    if (tools::md5sum(von) != tools::md5sum(nach)) {
+      out <- c(out, paste0(">f quiz-aufgabe ", f, " -> _", f))
+      if (apply) file.copy(von, nach, overwrite = TRUE, copy.date = TRUE)
+    }
+  }
+  if (length(out)) { cat(paste0(s, ": ", out), sep = "\n"); geaendert <- geaendert + 1 }
 }
+message("Posts mit Aenderungen: ", geaendert)
 for (s in zu_loeschen) if (apply) unlink(file.path(ziel, s), recursive = TRUE)
 
-# Quiz-Posts wiederherstellen: rsync ersetzt die Wrapper der exams2forms-Posts
-# (07_datenwerk/scripts/make-quiz-posts.R) durch die Originalaufgaben und
-# loescht die _<name>-Dateien. Das Skript erzeugt beides identisch neu.
+# Quiz-Posts aktualisieren: neue Posts umstellen, Wrapper geaenderter Aufgaben
+# (Stand-Hash) neu schreiben. Unveraenderte Wrapper bleiben unangetastet.
 if (apply) {
   blog <- dirname(ziel)
   quiz_skript <- file.path(blog, "scripts", "make-quiz-posts.R")
