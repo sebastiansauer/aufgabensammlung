@@ -101,7 +101,7 @@ Die Lösung lautet also, wie aus der Ausgabe von `parameters()` ersichtlich, `r 
 
 
 ```{r}
-hdi(m1, ci = .9) |> plot()
+hdi(m1, ci = .9) |> plot(data = m1)
 ```
 
 

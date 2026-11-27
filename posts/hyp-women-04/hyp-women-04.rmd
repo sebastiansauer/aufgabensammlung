@@ -123,7 +123,7 @@ lm2_rope
 
 
 ```{r}
-plot(lm2_rope)
+plot(lm2_rope, data = lm2)
 ```
 
 Wie man sieht, kann man die Hypothese $H_0$,

@@ -79,7 +79,7 @@ Ihr Fachwissen sollte besser sein als dieser Default-Wert.
 Visualisierung:
 
 ```{r}
-plot(rope(m1))
+plot(rope(m1), data = m1)
 ```
 
 

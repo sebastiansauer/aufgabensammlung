@@ -93,7 +93,7 @@ parameters(m1)
 ETI:
 
 ```{r}
-eti(m1) |> plot()
+eti(m1) |> plot(data = m1)
 ```
 
 

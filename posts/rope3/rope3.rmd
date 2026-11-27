@@ -14,7 +14,6 @@ title: rope3
 
 ```{r libs, include = FALSE}
 library(tidyverse)
-
 ```
 
 
@@ -155,7 +154,7 @@ rope_m1 <- rope(m1)
 Rope visualisieren:
 
 ```{r}
-plot(rope_m1)
+plot(rope_m1, data = m1)
 ```
 
 Wie man sieht, kreuzt das "blaue Band" nicht den "roten Berg".

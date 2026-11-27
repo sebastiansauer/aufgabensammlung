@@ -173,7 +173,7 @@ m1_params |> plot()
 Alternative Visualisierung:
 
 ```{r}
-hdi(m1, ci = .9) |> plot()
+hdi(m1, ci = .9) |> plot(data = m1)
 ```
 
 
@@ -221,7 +221,7 @@ Und plotten ist meist hilfreich: `plot(pd_m1)`.
 
 
 ```{r}
-plot(pd_m1)
+plot(pd_m1, data = m1)
 ```
 
 
@@ -239,7 +239,7 @@ rope_m1
 ```
 
 ```{r}
-plot(rope_m1)
+plot(rope_m1, data = m1)
 ```
 
 

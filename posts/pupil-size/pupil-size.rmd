@@ -226,7 +226,7 @@ Natürlich kann man auch die Post-Verteilung plotten (z.B: HDI):
 ```{r hdi-plot}
 m_hdi <- hdi(m_pupil, ci = c(0.5, 0.95))
 
-plot(m_hdi, show_intercept = TRUE)  # Im Default wird der Intercept nicht gezeigt
+plot(m_hdi, show_intercept = TRUE, data = m_pupil)  # Im Default wird der Intercept nicht gezeigt
 ```
 
 

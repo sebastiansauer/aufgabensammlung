@@ -176,7 +176,7 @@ m_interaction_params |> plot()
 Alternative Visualisierung:
 
 ```{r}
-hdi(m_interaction, ci = .9) |> plot()
+hdi(m_interaction, ci = .9) |> plot(data = m_interaction)
 ```
 
 
@@ -222,7 +222,7 @@ Und plotten ist meist hilfreich: `plot(pd_m_interaction_params)`.
 
 
 ```{r}
-plot(pd_m_interaction_params)
+plot(pd_m_interaction_params, data = m_interaction)
 ```
 
 
@@ -240,7 +240,7 @@ rope_m_interact
 ```
 
 ```{r}
-plot(rope_m_interact)
+plot(rope_m_interact, data = m_interaction)
 ```
 
 

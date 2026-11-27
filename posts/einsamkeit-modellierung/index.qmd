@@ -236,7 +236,7 @@ Tja, die Intervention war leider nicht so stark. Aber so ist es nun Mal im harte
 ```{r}
 mod_delta1_rope <- rope(mod_delta1)
 
-plot(mod_delta1_rope)
+plot(mod_delta1_rope, data = mod_delta1)
 ```
 
 

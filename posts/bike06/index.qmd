@@ -262,7 +262,7 @@ Daher ist der Effekt von `hum` signifikant.
 
 
 ```{r}
-rope(m_wday_hum, rope = c(-300, 300), parameters = "hum") |> plot()
+rope(m_wday_hum, rope = c(-300, 300), parameters = "hum") |> plot(data = m_wday_hum)
 ```
 
 ```{r}

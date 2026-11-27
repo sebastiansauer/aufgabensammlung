@@ -149,7 +149,7 @@ Hier ist das HDI (95%) zum Effekt von `PS`:
 
 ```{r}
 #| out-width: 75%
-hdi(m) |> plot()
+hdi(m) |> plot(data = m)
 ```
 
 

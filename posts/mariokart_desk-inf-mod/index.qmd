@@ -158,7 +158,7 @@ describe_distribution(mariokart_no_extreme) |>
 Visualisierung:
 
 ```{r}
-describe_distribution(mariokart_no_extreme) |> plot()
+describe_distribution(mariokart_no_extreme) |> plot(data = mariokart_no_extreme)
 ```
 
 
@@ -277,7 +277,7 @@ rope(lm1_bayes)
 Visualisierung:
 
 ```{r}
-rope(lm1_bayes) |> plot()
+rope(lm1_bayes) |> plot(data = lm1_bayes)
 ```
 
 

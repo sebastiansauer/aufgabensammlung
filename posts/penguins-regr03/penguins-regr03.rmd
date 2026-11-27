@@ -53,7 +53,7 @@ So sieht man es auch auch gut,
 wenn man bedenkt, dass es hier um (exakt) Null geht:
 
 ```{r}
-plot(rope(m1))
+plot(rope(m1), data = m1)
 ```
 
 ```{r}

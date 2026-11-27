@@ -133,7 +133,7 @@ rope_m1
 Rope visualisieren:
 
 ```{r}
-plot(rope_m1)
+plot(rope_m1, data = m1)
 ```
 
 

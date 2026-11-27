@@ -67,7 +67,7 @@ m1 <- stan_glm(body_mass_g ~ bill_length_mm,
 ```
 
 ```{r}
-plot(rope(m1))
+plot(rope(m1), data = m1)
 ```
 
 Hier ist also keine klare Aussage zur Frage, ob der Effekt vernachlässigbar klein ist oder größer, möglich.

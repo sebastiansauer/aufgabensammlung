@@ -142,7 +142,7 @@ parameters(m1) |> plot(show_intercept = TRUE)
 
 
 ```{r}
-hdi(m1) |> plot(show_intercept = TRUE)
+hdi(m1) |> plot(show_intercept = TRUE, data = m1)
 ```
 
 

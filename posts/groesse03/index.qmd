@@ -132,7 +132,7 @@ Visualisierung der Post-Verteilung (HDI, 95%):
 ```{r fig-params}
 #| out-width: 75%
 #| echo: false
-hdi(m1) |> plot(show_intercept = TRUE)
+hdi(m1) |> plot(show_intercept = TRUE, data = m1)
 ```
 
 

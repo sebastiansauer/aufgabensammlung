@@ -109,7 +109,7 @@ Die Lösung lautet also, wie in der Ausgabe zu den Parametern ersichtlich, `r ro
 
 
 ```{r echo = FALSE}
-m1 |> eti() |> plot() +
+m1 |> eti() |> plot(data = m1) +
   labs(title = "ETI")
 ```
 

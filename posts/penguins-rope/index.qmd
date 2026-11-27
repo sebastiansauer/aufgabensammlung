@@ -125,7 +125,7 @@ Und noch etwas deutlicher in diesem Diagramm:
 
 ```{r}
 m |> hdi(ci = .89, parameters = "speciesGentoo") |> 
-  plot() +
+  plot(data = m) +
   annotate("rect", xmin = -500, xmax = 500, ymin = 0, ymax = Inf, alpha = 0.5, fill = "pink") +
   labs(subtitle = "ROPE shown in pink color")
 ```
@@ -142,7 +142,7 @@ m |> rope(range = c(-500, 500))
 Das sieht man auch im ROPE-Diagramm gut (ROPE als blaues Rechteck dargestellt):
 
 ```{r}
-m |> rope(range = c(-500, 500)) |> plot()
+m |> rope(range = c(-500, 500)) |> plot(data = m)
 ```
 
 
