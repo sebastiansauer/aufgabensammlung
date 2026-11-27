@@ -1,0 +1,94 @@
+---
+categories:
+- vis
+- association
+- regression
+- schoice
+- paper
+date: '2026-11-27'
+slug: anscombe-panel-schoice
+title: anscombe-panel-schoice
+execute:
+  echo: false
+
+---
+
+```{r, include=FALSE}
+library(ggplot2)
+library(exams)
+
+d <- datasets::anscombe
+lang <- do.call(rbind, lapply(1:4, function(i) {
+  data.frame(datensatz = i, x = d[[paste0("x", i)]], y = d[[paste0("y", i)]])
+}))
+
+# Zufällige Zuordnung der vier Datensätze zu den Panels A bis D
+panels <- c("A", "B", "C", "D")
+zuordnung <- sample(1:4)            # zuordnung[k] = Datensatz in Panel k
+lang$panel <- factor(panels[match(lang$datensatz, zuordnung)], levels = panels)
+
+# Gesucht: Panel mit gekrümmtem Zusammenhang (Datensatz II)
+loesung_panel <- panels[zuordnung == 2]
+
+begruendung <- c(
+  "1" = "zeigt eine lineare Punktwolke mit zufälliger Streuung um die Gerade; hier passt das lineare Modell recht gut.",
+  "2" = "zeigt einen deutlich gekrümmten (umgekehrt U-förmigen) Verlauf; die Gerade verfehlt das Muster systematisch.",
+  "3" = "zeigt einen fast perfekt linearen Zusammenhang; nur ein einzelner Ausreißer kippt die Gerade etwas. Das ist ein Ausreißer-Problem, keine Krümmung.",
+  "4" = "zeigt fast alle Punkte beim selben x-Wert und einen einzelnen, weit entfernten Punkt, der die Gerade allein bestimmt. Das ist ein Problem eines einflussreichen Einzelpunkts, keine Krümmung."
+)
+
+antworten <- c(paste("Panel", panels),
+               "In keinem Panel – alle vier haben dieselbe Korrelation von etwa 0.82, also ist der Zusammenhang überall linear.")
+loesung <- c(panels == loesung_panel, FALSE)
+erklaerung <- c(
+  paste0("Panel ", panels, " ", begruendung[as.character(zuordnung)]),
+  "Gleiche Korrelation heißt nicht gleiche Form des Zusammenhangs. Genau das zeigt Anscombes Quartett."
+)
+```
+
+Question
+========
+
+Die Abbildung zeigt die vier Datensätze aus *Anscombes Quartett* (`datasets::anscombe`) in zufälliger Reihenfolge, jeweils mit der Regressionsgeraden nach der Methode der kleinsten Quadrate.
+In allen vier Panels ergibt sich etwa dieselbe Gerade $\hat{y} = 3 + 0.5 \cdot x$ und dieselbe Korrelation $r \approx 0.82$.
+
+```{r anscombe-panels, echo=FALSE, fig.width=8, fig.height=6, fig.alt="Vier Streudiagramme A bis D mit jeweils derselben Regressionsgeraden"}
+ggplot(lang, aes(x, y)) +
+  geom_smooth(method = "lm", formula = y ~ x, se = FALSE,
+              color = "#0072B2", linewidth = 1.2, fullrange = TRUE) +
+  geom_point(color = "#4D4D4D", size = 2.5) +
+  facet_wrap(~ panel, labeller = labeller(panel = function(p) paste("Panel", p))) +
+  labs(x = "x", y = "y") +
+  theme_minimal(base_size = 13) +
+  theme(panel.grid.minor = element_blank(),
+        strip.text = element_text(face = "bold"),
+        panel.spacing = unit(1.5, "lines"),
+        axis.title.y = element_text(angle = 0, vjust = 1))
+```
+
+In welchem Panel ist der Zusammenhang zwischen $x$ und $y$ **gekrümmt** (nichtlinear), sodass eine Gerade das Muster grundsätzlich nicht trifft?
+
+```{r questionlist, echo=FALSE, results="asis"}
+answerlist(antworten, markup = "markdown")
+```
+
+Solution
+========
+
+Gesucht ist Panel **`r loesung_panel`**: Es enthält Datensatz II des Quartetts mit einem gekrümmten Verlauf.
+
+Die Lehre aus dem Quartett: Kennwerte wie Mittelwert, Standardabweichung, Korrelation und Regressionsgerade fassen die Daten zusammen, verraten aber nicht die Form des Zusammenhangs. Dafür muss man die Daten ansehen.
+
+Aufgabenname: `anscombe-panel-schoice`
+
+```{r solutionlist, echo=FALSE, results="asis"}
+answerlist(ifelse(loesung, "Wahr", "Falsch"), erklaerung, markup = "markdown")
+```
+
+Meta-information
+================
+exname: anscombe-panel-schoice
+extype: schoice
+expoints: 1
+exsolution: `r mchoice2string(loesung)`
+exshuffle: FALSE

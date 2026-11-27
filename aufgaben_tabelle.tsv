@@ -1196,3 +1196,6 @@ twitter07	posts_buggy/twitter07/twitter07.rmd	string	nein	ja	Ordner posts_buggy	
 wildemojis	posts_buggy/wildemojis/wildemojis.qmd	string	nein	ja	Ordner posts_buggy	emojis, nlp, textmining, germeval	keines	nein	buggy (R/exams-Check)	
 randomdag1	posts_buggy/randomdag1/randomdag1.buggy		nein	ja	Ordner posts_buggy; nur .buggy-Datei, kein Rmd/qmd		keines	nein	buggy (Ordner posts_buggy)	
 fallstudie-umfrage-aufraeumen	posts/fallstudie-umfrage-aufraeumen/fallstudie-umfrage-aufraeumen.qmd	string	nein	nein		datawrangling, eda, string	030-aufbereiten.qmd	ja		
+anscombe-kennwerte-schoice	posts/anscombe-kennwerte-schoice/anscombe-kennwerte-schoice.rmd	schoice	nein	nein		vis, association, regression, schoice, paper	040-verbildlichen.qmd	ja		
+anscombe-panel-schoice	posts/anscombe-panel-schoice/anscombe-panel-schoice.rmd	schoice	ja	nein		vis, association, regression, schoice, paper	070-zusammenhaenge.qmd	ja		
+anscombe-r-einzelpunkt-schoice	posts/anscombe-r-einzelpunkt-schoice/anscombe-r-einzelpunkt-schoice.rmd	schoice	nein	nein		vis, association, schoice, paper	070-zusammenhaenge.qmd	ja		

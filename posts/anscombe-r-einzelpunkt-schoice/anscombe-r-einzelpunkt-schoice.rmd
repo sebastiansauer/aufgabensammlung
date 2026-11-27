@@ -1,0 +1,81 @@
+---
+categories:
+- vis
+- association
+- schoice
+- paper
+date: '2026-11-27'
+slug: anscombe-r-einzelpunkt-schoice
+title: anscombe-r-einzelpunkt-schoice
+execute:
+  echo: false
+
+---
+
+```{r, include=FALSE}
+library(ggplot2)
+d4 <- data.frame(x = datasets::anscombe$x4, y = datasets::anscombe$y4)
+r4 <- cor(d4$x, d4$y)
+r2_4 <- r4^2
+ohne <- subset(d4, x != max(x))
+x_wert <- unique(ohne$x)
+sd_x_ohne <- sd(ohne$x)
+```
+
+Question
+========
+
+Die Abbildung zeigt Datensatz IV aus *Anscombes Quartett* (`datasets::anscombe`, Spalten `x4` und `y4`).
+Die Korrelation beträgt $r = `r sprintf("%.2f", r4)`$.
+
+```{r plot-d4, echo=FALSE, fig.width=7, fig.height=4.5, fig.alt="Streudiagramm: zehn Punkte übereinander bei x = 8, ein Punkt bei x = 19"}
+ggplot(d4, aes(x, y)) +
+  geom_point(color = "#4D4D4D", size = 2.5) +
+  labs(x = "x", y = "y") +
+  theme_minimal(base_size = 13) +
+  theme(panel.grid = element_blank(),
+        axis.line = element_line(color = "#4D4D4D"),
+        axis.title.y = element_text(angle = 0, vjust = 1))
+```
+
+Welche Aussage zu diesem Korrelationswert ist richtig?
+
+Answerlist
+----------
+* Der Wert von $r$ beruht praktisch allein auf dem einen Punkt rechts: Ohne ihn haben alle übrigen Punkte denselben $x$-Wert, und $r$ wäre gar nicht berechenbar.
+* Da $r = `r sprintf("%.2f", r4)`$ ist, liegt ein starker linearer Zusammenhang vor, und die Regressionsgerade beschreibt die Daten gut.
+* $r = `r sprintf("%.2f", r4)`$ bedeutet, dass `r sprintf("%.0f", 100 * r4)` % der Streuung von $y$ durch $x$ erklärt werden.
+* Der Punkt rechts ist ein Ausreißer, der die Korrelation senkt; ohne ihn läge $r$ nahe 1.
+* Der Korrelationskoeffizient ist robust gegenüber einzelnen Extremwerten; ohne den Punkt rechts bliebe $r$ also etwa gleich.
+
+Solution
+========
+
+Zehn der elf Punkte liegen alle bei $x = `r x_wert`$; nur ein Punkt liegt bei $x = `r max(d4$x)`$.
+Lässt man diesen Punkt weg, ist die Standardabweichung von $x$ gleich $`r sd_x_ohne`$. Da $r = \dfrac{s_{xy}}{s_x \cdot s_y}$, müsste man durch 0 teilen: $r$ ist dann nicht definiert (in R liefert `cor()` den Wert `NA` samt Warnung).
+Die ganze „Korrelation“ von $`r sprintf("%.2f", r4)`$ entsteht also durch einen einzigen Punkt. Innerhalb der übrigen Punkte gibt es überhaupt keine Information darüber, wie $y$ von $x$ abhängt.
+
+Zu den falschen Optionen:
+
+- *Starker linearer Zusammenhang, Gerade passt gut:* Hier wird $r$ gedeutet, ohne die Daten anzusehen. Der Betrag von $r$ sagt nichts darüber, ob das Muster linear ist oder an einem Einzelpunkt hängt.
+- *`r sprintf("%.0f", 100 * r4)` % erklärte Streuung:* Verwechslung von $r$ mit dem Bestimmtheitsmaß. Der Anteil erklärter Streuung ist $R^2 = r^2 = `r sprintf("%.2f", r2_4)`$, also etwa `r sprintf("%.0f", 100 * r2_4)` % – und auch dieser Wert ist hier wegen des Einzelpunkts wenig aussagekräftig.
+- *Ausreißer senkt $r$, ohne ihn $r \approx 1$:* Das trifft auf Datensatz III des Quartetts zu (fast perfekte Gerade mit einem Ausreißer), nicht auf Datensatz IV. Hier erzeugt der Einzelpunkt die Korrelation erst.
+- *$r$ ist robust:* Falsch. $r$ beruht auf Mittelwerten und Abweichungsquadraten und reagiert daher stark auf einzelne Extremwerte – Datensatz IV ist das Paradebeispiel dafür.
+
+Aufgabenname: `anscombe-r-einzelpunkt-schoice`
+
+Answerlist
+----------
+* Wahr
+* Falsch
+* Falsch
+* Falsch
+* Falsch
+
+Meta-information
+================
+exname: anscombe-r-einzelpunkt-schoice
+extype: schoice
+expoints: 1
+exsolution: 10000
+exshuffle: 5

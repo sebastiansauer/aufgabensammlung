@@ -1,0 +1,82 @@
+---
+categories:
+- vis
+- association
+- regression
+- schoice
+- paper
+date: '2026-11-27'
+slug: anscombe-kennwerte-schoice
+title: anscombe-kennwerte-schoice
+execute:
+  echo: false
+
+---
+
+```{r, include=FALSE}
+d <- datasets::anscombe
+kennwerte <- sapply(1:4, function(i) {
+  x <- d[[paste0("x", i)]]
+  y <- d[[paste0("y", i)]]
+  m <- lm(y ~ x)
+  c(mx = mean(x), my = mean(y), sx = sd(x), sy = sd(y),
+    r = cor(x, y), b0 = coef(m)[[1]], b1 = coef(m)[[2]])
+})
+f <- function(v, n = 2) paste(sprintf(paste0("%.", n, "f"), v), collapse = " / ")
+```
+
+Question
+========
+
+Der Statistiker Francis Anscombe veröffentlichte 1973 vier kleine Datensätze mit jeweils 11 Wertepaaren $(x, y)$, heute bekannt als *Anscombes Quartett*.
+Sie sind in R als `datasets::anscombe` verfügbar.
+
+Welche Aussage beschreibt zutreffend, was die vier Datensätze gemeinsam haben und warum sie berühmt sind?
+
+Answerlist
+----------
+* Mittelwerte und Standardabweichungen von $x$ und $y$, die Korrelation (etwa $r = 0.82$) und die Regressionsgerade (etwa $\hat{y} = 3 + 0.5 \cdot x$) sind nahezu identisch – die Streudiagramme sehen aber völlig verschieden aus.
+* Die Streudiagramme der vier Datensätze sehen gleich aus, aber ihre Mittelwerte, Streuungen und Korrelationen unterscheiden sich deutlich.
+* Die Mittelwerte von $x$ und $y$ sind gleich, die Korrelationen reichen aber von nahe 0 bis nahe 1.
+* Alle vier Datensätze haben denselben, schwach linearen Zusammenhang; deshalb ist eine Regressionsgerade in allen vier Fällen ein angemessenes Modell.
+* Die vier Datensätze bestehen aus denselben 11 Wertepaaren, nur in jeweils anderer Reihenfolge.
+
+Solution
+========
+
+Die Kennwerte der vier Datensätze (Datensatz I / II / III / IV):
+
+- Mittelwert von $x$: `r f(kennwerte["mx", ])`
+- Mittelwert von $y$: `r f(kennwerte["my", ])`
+- Standardabweichung von $x$: `r f(kennwerte["sx", ])`
+- Standardabweichung von $y$: `r f(kennwerte["sy", ])`
+- Korrelation $r$: `r f(kennwerte["r", ])`
+- Achsenabschnitt $\beta_0$: `r f(kennwerte["b0", ])`
+- Steigung $\beta_1$: `r f(kennwerte["b1", ])`
+
+Die Kennwerte stimmen also praktisch überein. Die Streudiagramme zeigen dagegen vier ganz verschiedene Muster: (I) eine lineare Punktwolke mit Streuung, (II) einen gekrümmten Zusammenhang, (III) eine fast perfekte Gerade mit einem Ausreißer, (IV) fast alle Punkte bei demselben $x$-Wert und ein einzelner, weit entfernter Punkt. Die Lehre: Kennwerte allein verraten die Struktur der Daten nicht – man sollte die Daten immer auch visualisieren.
+
+Zu den falschen Optionen:
+
+- *Gleiche Bilder, verschiedene Kennwerte:* Das ist genau die Umkehrung des tatsächlichen Befunds.
+- *Korrelationen von 0 bis 1:* Hier wird übersehen, dass auch die Korrelation in allen vier Datensätzen gleich ist (etwa 0.82); gleich sind nicht nur die Mittelwerte.
+- *Überall ein linearer Zusammenhang, also überall eine Gerade angemessen:* Das ist der Fehlschluss, vor dem das Quartett warnt: Aus gleichen Kennwerten wird auf die gleiche Form geschlossen. In II ist der Zusammenhang gekrümmt, in III verzerrt ein Ausreißer die Gerade, und in IV hängt die Gerade an einem einzigen Punkt. Außerdem ist $r \approx 0.82$ kein schwacher Zusammenhang.
+- *Dieselben Wertepaare in anderer Reihenfolge:* Wären es dieselben Wertepaare, wären auch die Streudiagramme identisch (die Reihenfolge der Zeilen spielt für ein Streudiagramm keine Rolle). Die Datensätze enthalten verschiedene Werte, die nur zufällig – genauer: absichtlich konstruiert – dieselben Kennwerte ergeben.
+
+Aufgabenname: `anscombe-kennwerte-schoice`
+
+Answerlist
+----------
+* Wahr
+* Falsch
+* Falsch
+* Falsch
+* Falsch
+
+Meta-information
+================
+exname: anscombe-kennwerte-schoice
+extype: schoice
+expoints: 1
+exsolution: 10000
+exshuffle: 5
