@@ -1195,3 +1195,4 @@ twitter06	posts_buggy/twitter06/twitter06.rmd	string	nein	ja	Ordner posts_buggy	
 twitter07	posts_buggy/twitter07/twitter07.rmd	string	nein	ja	Ordner posts_buggy	textmining, twitter, programming	keines	nein	buggy (R/exams-Check)	
 wildemojis	posts_buggy/wildemojis/wildemojis.qmd	string	nein	ja	Ordner posts_buggy	emojis, nlp, textmining, germeval	keines	nein	buggy (R/exams-Check)	
 randomdag1	posts_buggy/randomdag1/randomdag1.buggy		nein	ja	Ordner posts_buggy; nur .buggy-Datei, kein Rmd/qmd		keines	nein	buggy (Ordner posts_buggy)	
+fallstudie-umfrage-aufraeumen	posts/fallstudie-umfrage-aufraeumen/fallstudie-umfrage-aufraeumen.qmd	string	nein	nein		datawrangling, eda, string	030-aufbereiten.qmd	ja		

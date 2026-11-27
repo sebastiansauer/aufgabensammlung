@@ -1,0 +1,345 @@
+---
+date: 2026-11-27
+draft: FALSE
+title: fallstudie-umfrage-aufraeumen
+execute:
+  eval: true
+highlight-style: arrow
+cache: true
+toc: true
+number-sections: true
+extype: string
+expoints: 1
+exname: fallstudie-umfrage-aufraeumen
+exsolution: ""
+exshuffle: no
+categories:
+- datawrangling
+- eda
+- string
+
+knitr:
+  opts_chunk:
+    out.width: "75%"
+
+---
+
+## Aufgabe
+
+Ein Kommilitone hat eine Umfrage unter Studierenden durchgeführt: Alter, Studiengang, Pendelweg, Verkehrsmittel, Schlafdauer und Zufriedenheit mit dem Studium. Die Ergebnisse hat er aus zwei Excel-Listen zusammengeführt und als CSV-Datei exportiert. Seine Frage an Sie:
+
+> Wie lange pendeln unsere Studis im Mittel?
+
+Die Daten sind simuliert. Die Probleme darin sind aber typisch für echte Daten.
+
+### Material
+
+- `umfrage_roh.csv`: die Datei des Kommilitonen
+- `umfrage_dictionary.md`: das Data-Dictionary (Spalten, erlaubte Werte, Fehlcodes)
+- `umfrage_sauber.csv`: die aufgeräumte Fassung, nur zum Vergleich am Schluss
+
+Sie finden die Dateien im Ordner `data` des Buchs [Statistik1](https://github.com/sebastiansauer/statistik1/tree/main/data). Die Rohdatei können Sie direkt einlesen:
+
+```r
+library(tidyverse)
+umfrage_path <- "https://raw.githubusercontent.com/sebastiansauer/statistik1/main/data/umfrage_roh.csv"
+```
+
+### Teil A: Einlesen
+
+Lesen Sie die Datei so ein, dass Sie einen Datensatz mit den Spaltennamen aus dem Data-Dictionary erhalten, ein Fall pro Zeile. Die Anleitung dazu steht im Buch im Abschnitt [Probleme schon beim Einlesen](https://sebastiansauer.github.io/statistik1/030-aufbereiten.html#sec-einleseprobleme).
+
+### Teil B: Aufräumen
+
+Räumen Sie den Datensatz auf. Gehen Sie dabei Problem für Problem vor:
+
+1. Dubletten (Tipp: Es reicht nicht, nur nach identischen Zeilen zu suchen.)
+2. Zahlen, die als Text gespeichert sind
+3. uneinheitliche Kodierung und Tippfehler in den kategorialen Spalten
+4. unplausible Werte
+5. Extremwerte
+
+Halten Sie jede Entscheidung als Kommentar im Code fest. Am Ende sollte Ihr Datensatz 120 Zeilen haben.
+
+*Bonus:* Manche Werte sind für sich genommen plausibel und passen trotzdem nicht zu einer anderen Spalte derselben Person. Finden Sie solche Fälle?
+
+### Teil C: Antwort
+
+1. Beantworten Sie die Frage des Kommilitonen in zwei bis drei Sätzen. Nennen Sie dabei, welche Fälle Sie warum verändert oder ausgeschlossen haben.
+2. Vergleichen Sie Ihren Datensatz mit `umfrage_sauber.csv`. Wo weichen Sie ab, und warum?
+
+Hinweise:
+
+- Beachten Sie die üblichen [Hinweise](https://sebastiansauer.github.io/datenwerk/Hinweise.html) des Datenwerks.
+- Diese Aufgabe wird nicht automatisch ausgewertet, sondern als Freitext beantwortet.
+- Einige Fälle sind bewusst Grenzfälle. Dort gibt es keine eindeutig richtige Lösung, es zählt die begründete Entscheidung.
+
+</br>
+</br>
+</br>
+
+</br>
+</br>
+</br>
+
+</br>
+</br>
+</br>
+
+## Lösung
+
+```{r}
+#| message: false
+library(tidyverse)
+```
+
+```{r}
+#| echo: false
+# Datendateien finden: im Aufgabenordner, im Projekt der Aufgabensammlung oder online
+datei_finden <- function(name) {
+  kandidaten <- c(name,
+                  file.path(Sys.getenv("QUARTO_PROJECT_DIR", "."),
+                            "exrs/posts/fallstudie-umfrage-aufraeumen", name),
+                  file.path("..", "exrs/posts/fallstudie-umfrage-aufraeumen", name))
+  treffer <- kandidaten[file.exists(kandidaten)]
+  if (length(treffer) > 0) treffer[1] else
+    paste0("https://raw.githubusercontent.com/sebastiansauer/statistik1/main/data/", name)
+}
+umfrage_path <- datei_finden("umfrage_roh.csv")
+sauber_path <- datei_finden("umfrage_sauber.csv")
+```
+
+### Teil A: Einlesen
+
+Die Datei hat vier Probleme im Aufbau: eine Notizzeile über der Kopfzeile, unbrauchbare Spaltennamen, drei Kennzeichnungen für fehlende Werte (leer, `k.A.`, `-99`) und Zeilen, die keine Fälle sind (leere Zeilen, eine wiederholte Kopfzeile, eine Summenzeile).
+
+```{r}
+umfrage <-
+  read_csv(umfrage_path,
+           skip = 1,                            # Notizzeile überspringen
+           na = c("", "NA", "k.A.", "-99")) |>  # Fehlcodes laut Data-Dictionary
+  rename(id = ID,
+         alter = `alter (Jahre)`,
+         geschlecht = Geschlecht,
+         studiengang = STUDIENGANG,
+         semester = Semester,
+         pendelweg_min = `Pendelweg [min]`,
+         verkehrsmittel = `verkehrsmittel (häufigstes)`,
+         zufriedenheit = `Zufriedenheit (1-5)`,
+         schlaf_std = `Schlaf in Std.`,
+         wohnort_entfernung_km = `Wohnort-Entfernung (km)`) |>
+  # leere Zeilen, wiederholte Kopfzeile und Summenzeile entfernen
+  filter(!is.na(id), id != "ID", id != "Summe") |>
+  # Spaltentypen neu bestimmen, jetzt ohne die störenden Zeilen
+  type_convert()
+
+nrow(umfrage)
+```
+
+### Teil B: Aufräumen
+
+#### Dubletten
+
+`distinct()` entfernt Zeilen, die in *allen* Spalten gleich sind:
+
+```{r}
+umfrage_1 <- umfrage |> distinct()
+nrow(umfrage_1)
+```
+
+Eine `id` kommt aber immer noch doppelt vor:
+
+```{r}
+umfrage_1 |> count(id) |> filter(n > 1)
+umfrage_1 |> filter(id == "S112")
+```
+
+Die beiden Zeilen unterscheiden sich nur im Pendelweg (9 oder 19 Minuten). Welche stimmt, lässt sich nicht sicher sagen. Für 3,1 km mit dem Auto passen 9 Minuten besser. Wir behalten deshalb die erste Zeile. Ebenso vertretbar wäre, den Pendelweg dieser Person auf `NA` zu setzen.
+
+```{r}
+umfrage_2 <- umfrage_1 |> distinct(id, .keep_all = TRUE)
+nrow(umfrage_2)
+```
+
+#### Zahlen als Text
+
+`glimpse()` zeigt, dass `semester` und `pendelweg_min` Text sind. Die Übeltäter:
+
+```{r}
+umfrage_2 |>
+  filter(is.na(suppressWarnings(as.numeric(semester))) & !is.na(semester) |
+         is.na(suppressWarnings(as.numeric(pendelweg_min))) & !is.na(pendelweg_min)) |>
+  select(id, semester, pendelweg_min)
+```
+
+Hier ist klar, was gemeint ist. `parse_number()` holt die Zahl aus dem Text:
+
+```{r}
+umfrage_3 <-
+  umfrage_2 |>
+  mutate(semester = parse_number(semester),
+         pendelweg_min = parse_number(pendelweg_min))
+```
+
+#### Kodierung und Tippfehler
+
+```{r}
+umfrage_3 |> count(geschlecht)
+umfrage_3 |> count(studiengang)
+umfrage_3 |> count(verkehrsmittel)
+```
+
+Die meisten Varianten sind eindeutig (`W`, `Psycholgie`, `Fahrad` usw.). Bei `BW` ist das anders: BWL liegt nahe, Wirtschaftsinformatik ist aber nicht ausgeschlossen. Im Zweifel setzen wir den Wert auf `NA`.
+
+```{r}
+umfrage_4 <-
+  umfrage_3 |>
+  mutate(
+    geschlecht = case_when(
+      geschlecht %in% c("w", "W") ~ "weiblich",
+      geschlecht == "m" ~ "maennlich",
+      .default = geschlecht),
+    studiengang = case_when(
+      str_to_lower(studiengang) %in% c("psychologie", "psycholgie", "pschologie") ~ "Psychologie",
+      studiengang == "Wirtschaftsinformatk" ~ "Wirtschaftsinformatik",
+      studiengang == "BW" ~ NA,   # mehrdeutig: BWL oder Wirtschaftsinformatik?
+      .default = studiengang),
+    verkehrsmittel = case_when(
+      verkehrsmittel == "bahn" ~ "Bahn",
+      verkehrsmittel == "Fahrad" ~ "Fahrrad",
+      .default = verkehrsmittel)
+  )
+```
+
+#### Unplausible Werte
+
+```{r}
+umfrage_4 |>
+  summarise(across(where(is.numeric),
+                   list(min = \(x) min(x, na.rm = TRUE),
+                        max = \(x) max(x, na.rm = TRUE)))) |>
+  pivot_longer(everything())
+```
+
+Ein Alter von 3 oder 199 Jahren ist unmöglich, eine Zufriedenheit von 6 liegt außerhalb der Skala (1 bis 5). Den wahren Wert kennen wir nicht, also `NA`:
+
+```{r}
+umfrage_5 <-
+  umfrage_4 |>
+  mutate(alter = if_else(alter < 16 | alter > 80, NA, alter),
+         zufriedenheit = if_else(zufriedenheit %in% 1:5, zufriedenheit, NA))
+```
+
+#### Extremwerte
+
+Zwei Werte fallen auf: 180 Minuten Pendelweg und 14 Stunden Schlaf.
+
+```{r}
+umfrage_5 |>
+  filter(pendelweg_min > 120 | schlaf_std > 11) |>
+  select(id, pendelweg_min, wohnort_entfernung_km, verkehrsmittel, schlaf_std)
+```
+
+Beide Werte sind *möglich*: Die Person mit 180 Minuten wohnt 70 km entfernt und fährt Bahn. Wir behalten sie, prüfen aber in Teil C, wie stark sie das Ergebnis beeinflusst. 14 Stunden Schlaf sind ungewöhnlich, aber für die Frage nach dem Pendelweg unerheblich.
+
+#### Bonus: Konsistenz zwischen Spalten
+
+Aus Entfernung und Pendelweg lässt sich eine Geschwindigkeit berechnen. Mehr als 150 km/h im Mittel ist im Alltag nicht zu schaffen.
+
+```{r}
+umfrage_5 |>
+  mutate(kmh = wohnort_entfernung_km / (pendelweg_min / 60)) |>
+  arrange(-kmh) |>
+  select(id, wohnort_entfernung_km, pendelweg_min, verkehrsmittel, kmh) |>
+  head(3)
+```
+
+80 km in 5 Minuten sind 960 km/h. Welcher der beiden Werte falsch ist, wissen wir nicht, also setzen wir beide auf `NA`.
+
+Ähnlich bei Alter und Semester: Wer mit 17 Jahren anfängt, kann mit 19 höchstens im 4. Semester sein.
+
+```{r}
+umfrage_5 |> filter(semester > (alter - 17) * 2) |> select(id, alter, semester)
+```
+
+```{r}
+umfrage_bereinigt <-
+  umfrage_5 |>
+  mutate(
+    zu_schnell = !is.na(pendelweg_min) & !is.na(wohnort_entfernung_km) &
+      wohnort_entfernung_km / (pendelweg_min / 60) > 150,
+    pendelweg_min = if_else(zu_schnell, NA, pendelweg_min),
+    wohnort_entfernung_km = if_else(zu_schnell, NA, wohnort_entfernung_km),
+    semester = if_else(!is.na(alter) & semester > (alter - 17) * 2, NA, semester)
+  ) |>
+  select(-zu_schnell)
+
+nrow(umfrage_bereinigt)
+```
+
+### Teil C: Antwort
+
+```{r}
+umfrage_bereinigt |>
+  summarise(mw = mean(pendelweg_min, na.rm = TRUE),
+            md = median(pendelweg_min, na.rm = TRUE),
+            mw_ohne_fernpendler = mean(pendelweg_min[pendelweg_min < 120], na.rm = TRUE),
+            n = sum(!is.na(pendelweg_min)))
+```
+
+```{r}
+#| echo: false
+erg <- umfrage_bereinigt |>
+  summarise(mw = mean(pendelweg_min, na.rm = TRUE),
+            md = median(pendelweg_min, na.rm = TRUE),
+            mw_ohne = mean(pendelweg_min[pendelweg_min < 120], na.rm = TRUE),
+            n = sum(!is.na(pendelweg_min)))
+f <- \(x) format(round(x, 1), decimal.mark = ",")
+```
+
+Eine mögliche Antwort an den Kommilitonen:
+
+> Die Befragten pendeln im Mittel `r f(erg$mw)` Minuten pro Strecke (Median: `r f(erg$md)` Minuten, `r erg$n` gültige Angaben). Ohne die eine Person mit 180 Minuten (Fernpendlerin bzw. Fernpendler mit 70 km Weg) sind es `r f(erg$mw_ohne)` Minuten. Entfernt habe ich drei doppelt erfasste Personen; bei einer davon wichen die Angaben ab, ich habe die erste behalten. Zwei Pendelzeiten fehlen, eine davon, weil sie nicht zur angegebenen Entfernung passte (80 km in 5 Minuten).
+
+Zum Vergleich mit der Referenz:
+
+```{r}
+#| message: false
+sauber <- read_csv(sauber_path)
+bereinigt_sortiert <- umfrage_bereinigt |> arrange(id)
+
+map_dfr(names(sauber)[-1], \(v) tibble(
+  spalte = v,
+  id = sauber$id,
+  meins = as.character(bereinigt_sortiert[[v]]),
+  referenz = as.character(sauber[[v]]))) |>
+  filter(is.na(meins) != is.na(referenz) | meins != referenz)
+```
+
+Die verbleibenden Abweichungen sind keine Fehler der Bereinigung:
+
+- Die meisten sind Werte, die wir auf `NA` gesetzt haben, weil der wahre Wert aus den Daten nicht zu erkennen ist.
+- Bei S068 (180 Minuten, 70 km) und S098 (14 Stunden Schlaf) haben wir die Extremwerte bewusst behalten.
+- Bei S092 (19 Jahre, 12. Semester) haben wir das Semester auf `NA` gesetzt. Ebenso gut hätte das Alter falsch sein können, und so war es hier auch.
+
+Mehr kann man aus den Rohdaten nicht herausholen.
+
+### Was Sie mitnehmen sollten
+
+1. Erst die Datei ansehen, dann einlesen: Notizzeilen, Kopfzeilen und Summenzeilen gehören nicht in den Datensatz.
+2. Fehlcodes wie `-99` sind gefährlich, weil R klaglos mit ihnen rechnet. Das Data-Dictionary verrät sie.
+3. `distinct()` findet nur exakte Dubletten. `count(id)` findet auch die anderen.
+4. Korrigieren, wenn man sicher ist, sonst `NA`. Extremwerte nicht löschen, nur weil sie stören.
+5. Jede Entscheidung gehört als Kommentar in den Code.
+
+
+Aufgabenname: `fallstudie-umfrage-aufraeumen`
+
+
+---
+
+Categories:
+
+- datawrangling
+- eda
+- string
