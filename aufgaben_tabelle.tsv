@@ -1199,3 +1199,15 @@ fallstudie-umfrage-aufraeumen	posts/fallstudie-umfrage-aufraeumen/fallstudie-umf
 anscombe-kennwerte-schoice	posts/anscombe-kennwerte-schoice/anscombe-kennwerte-schoice.rmd	schoice	nein	nein		vis, association, regression, schoice, paper	040-verbildlichen.qmd	ja		
 anscombe-panel-schoice	posts/anscombe-panel-schoice/anscombe-panel-schoice.rmd	schoice	ja	nein		vis, association, regression, schoice, paper	070-zusammenhaenge.qmd	ja		
 anscombe-r-einzelpunkt-schoice	posts/anscombe-r-einzelpunkt-schoice/anscombe-r-einzelpunkt-schoice.rmd	schoice	nein	nein		vis, association, schoice, paper	070-zusammenhaenge.qmd	ja		
+rohdaten_dublette	posts/rohdaten_dublette/rohdaten_dublette.rmd	schoice	nein	nein		datawrangling, schoice, quiz, paper	030-aufbereiten.qmd	ja		
+rohdaten_unplausibel_extrem	posts/rohdaten_unplausibel_extrem/rohdaten_unplausibel_extrem.rmd	schoice	nein	nein		datawrangling, schoice, quiz, paper	030-aufbereiten.qmd	ja		
+rohdaten_extremwert_entscheidung	posts/rohdaten_extremwert_entscheidung/rohdaten_extremwert_entscheidung.rmd	schoice	nein	nein		datawrangling, schoice, quiz, paper	030-aufbereiten.qmd	ja		
+rohdaten_drop_na	posts/rohdaten_drop_na/rohdaten_drop_na.rmd	schoice	nein	nein		datawrangling, schoice, quiz, paper	030-aufbereiten.qmd	ja		
+rohdaten_fehlcode	posts/rohdaten_fehlcode/rohdaten_fehlcode.rmd	schoice	nein	nein		datawrangling, schoice, quiz, paper	030-aufbereiten.qmd	ja		
+rohdaten_einlesen_skip	posts/rohdaten_einlesen_skip/rohdaten_einlesen_skip.rmd	schoice	nein	nein		datawrangling, schoice, quiz, paper	030-aufbereiten.qmd	ja		
+ki_filter_reihenfolge	posts/ki_filter_reihenfolge/ki_filter_reihenfolge.rmd	schoice	nein	nein		datawrangling, schoice, quiz, paper	030-aufbereiten.qmd	ja		
+ki_code_pruefen	posts/ki_code_pruefen/ki_code_pruefen.rmd	schoice	nein	nein		datawrangling, schoice, quiz, paper	030-aufbereiten.qmd	ja		
+diagramm_gestaltung	posts/diagramm_gestaltung/diagramm_gestaltung.rmd	schoice	nein	nein		vis, schoice, quiz, paper	040-verbildlichen.qmd	ja		
+cohens_d_berechnen	posts/cohens_d_berechnen/cohens_d_berechnen.rmd	schoice	nein	nein		eda, schoice, quiz, paper	050-zusammenfassen.qmd	ja		
+cles_interpretation	posts/cles_interpretation/cles_interpretation.rmd	schoice	nein	nein		eda, schoice, quiz, paper	050-zusammenfassen.qmd	ja		
+cles_paare_zaehlen	posts/cles_paare_zaehlen/cles_paare_zaehlen.rmd	schoice	nein	nein		eda, schoice, quiz, paper	050-zusammenfassen.qmd	ja		

@@ -118,3 +118,15 @@ typ-fehler-r-04.rmd	dublette	posts/typ-fehler-r-04/typ-fehler-r-04.rmd	gleicher 
 typ-fehler-r-06a.rmd	dublette	posts/typ-fehler-r-06a/typ-fehler-r-06a.rmd	gleicher Name		
 typ-fehler-r-07.rmd	dublette	posts/typ-fehler-r-07/typ-fehler-r-07.qmd	gleicher Name		
 variation01.Rmd	dublette	posts/variation01/variation01.rmd	gleicher Name (gleiche Aufgabe, nur anders formatiert)	schoice	
+Rohdaten_Dublette.Rmd	importiert	posts/rohdaten_dublette/rohdaten_dublette.rmd	neu in 01 (Nov. 2026)	schoice	ja
+Rohdaten_Unplausibel_Extrem.Rmd	importiert	posts/rohdaten_unplausibel_extrem/rohdaten_unplausibel_extrem.rmd	neu in 01 (Nov. 2026)	schoice	ja
+Rohdaten_Extremwert_Entscheidung.Rmd	importiert	posts/rohdaten_extremwert_entscheidung/rohdaten_extremwert_entscheidung.rmd	neu in 01 (Nov. 2026)	schoice	ja
+Rohdaten_drop_na.Rmd	importiert	posts/rohdaten_drop_na/rohdaten_drop_na.rmd	neu in 01 (Nov. 2026)	schoice	ja
+Rohdaten_Fehlcode.Rmd	importiert	posts/rohdaten_fehlcode/rohdaten_fehlcode.rmd	neu in 01 (Nov. 2026)	schoice	ja
+Rohdaten_Einlesen_skip.Rmd	importiert	posts/rohdaten_einlesen_skip/rohdaten_einlesen_skip.rmd	neu in 01 (Nov. 2026)	schoice	ja
+KI_Filter_Reihenfolge.Rmd	importiert	posts/ki_filter_reihenfolge/ki_filter_reihenfolge.rmd	neu in 01 (Nov. 2026)	schoice	ja
+KI_Code_pruefen.Rmd	importiert	posts/ki_code_pruefen/ki_code_pruefen.rmd	neu in 01 (Nov. 2026)	schoice	ja
+Diagramm_Gestaltung.Rmd	importiert	posts/diagramm_gestaltung/diagramm_gestaltung.rmd	neu in 01 (Nov. 2026)	schoice	ja
+Cohens_d_Berechnen.Rmd	importiert	posts/cohens_d_berechnen/cohens_d_berechnen.rmd	neu in 01 (Nov. 2026)	schoice	ja
+CLES_Interpretation.Rmd	importiert	posts/cles_interpretation/cles_interpretation.rmd	neu in 01 (Nov. 2026)	schoice	ja
+CLES_Paare_Zaehlen.Rmd	importiert	posts/cles_paare_zaehlen/cles_paare_zaehlen.rmd	neu in 01 (Nov. 2026)	schoice	ja
