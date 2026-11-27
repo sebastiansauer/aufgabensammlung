@@ -315,7 +315,7 @@ group_summarise	posts/group_summarise/group_summarise.rmd	schoice	nein	nein		dat
 groupby	posts/groupby/groupby.rmd	schoice	nein	nein		paper, todo, trivial	030-aufbereiten.qmd	ja		trivial
 groupby1	posts/groupby1/groupby1.rmd	schoice	nein	nein		paper, todo	030-aufbereiten.qmd	ja		
 gruppen_modell_vorteil	posts/gruppen_modell_vorteil/gruppen_modell_vorteil.rmd	schoice	nein	nein		eda, schoice, quiz, paper, trivial	050-zusammenfassen.qmd	ja		trivial
-gruppenvergleich-regression	posts/gruppenvergleich-regression/index.qmd	(fehlt)	nein	nein		inference, paper, schoice	090-regression2.qmd	ja		
+gruppenvergleich-regression	posts/gruppenvergleich-regression/index.qmd	schoice	nein	nein		inference, paper, schoice	090-regression2.qmd	ja		
 gruppenvergleich-regression-schoice	posts/gruppenvergleich-regression-schoice/gruppenvergleich-regression-schoice.Rmd	schoice	nein	nein		paper, todo	090-regression2.qmd	ja		
 guete_streuung	posts/guete_streuung/guete_streuung.rmd	schoice	nein	nein		variability, schoice, quiz, paper	060-modellguete.qmd	ja		
 haeufigkeit01	posts/haeufigkeit01/haeufigkeit01.rmd	string	nein	nein		datawrangling, eda, count, string, mtcars, computer	030-aufbereiten.qmd	ja		

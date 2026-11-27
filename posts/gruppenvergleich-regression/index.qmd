@@ -1,22 +1,18 @@
 ---
-# gleich diese Datei in einem Ordner mit Namen der Aufgabe abspeichern!
 date: 2025-09-20
-draft: false   # ACHTUNG DRAFT STEHT AUF TRUE!
-title: gruppenvergleich-regression  # HIER TITEL DES POSTS EINGEBEN.
-expoints: 1
-execute: 
-  eval: true 
-highlight-style: arrow 
+draft: false
+title: gruppenvergleich-regression
+execute:
+  eval: true
+highlight-style: arrow
 cache: true
 toc: true
 number-sections: true
 
-
 categories:
-- inference  # ENTER CATEGORIES HERE
+- inference
 - paper
 - schoice
-
 
 knitr:
   opts_chunk:
@@ -26,64 +22,55 @@ knitr:
 
 
 
+Question
+========
 
-
-## Aufgabe 
-
-Beurteilen Sie folgende Aussagen:
+Beurteilen Sie folgende Aussage:
 
 > Man kann die Forschungsfrage, ob sich zwei Gruppen (Populationen) hinsichtlich ihres Mittelwerts unterscheiden, mit einer Regressionsanalyse untersuchen.
 
-
-
-### Antwortoptionen
-
-- Nein, man sollte stattdessen einen t-Test verwenden.
-- Ja, beide Verfahren sind gleichwertig.
-- Ja, beide Verfahren sind analog, aber die Regression hat Vorzüge.
-
-
+Welche Antwort trifft zu?
 
 Hinweise:
 
-
 - Beachten Sie die üblichen [Hinweise](https://sebastiansauer.github.io/datenwerk/Hinweise.html) des Datenwerks.
 
-
-</br>
-</br>
-</br>
-
-</br>
-</br>
-</br>
-
-</br>
-</br>
-</br>
-
-</br>
-</br>
-</br>
+Answerlist
+----------
+* Nein, man sollte stattdessen einen t-Test verwenden.
+* Ja, beide Verfahren sind gleichwertig.
+* Ja, beide Verfahren sind analog, aber die Regression hat Vorzüge.
+* Nein, denn eine Regression setzt einen metrischen Prädiktor voraus; eine Gruppenvariable kann kein Prädiktor sein.
 
 
+Solution
+========
 
+Ja, beide Verfahren sind analog, aber die Regression hat Vorzüge.
 
+Kodiert man die Gruppenzugehörigkeit als Indikatorvariable (0/1) und nimmt sie als Prädiktor in eine Regression auf, so schätzt der Achsenabschnitt $\beta_0$ den Mittelwert der Referenzgruppe und die Steigung $\beta_1$ den Unterschied der Mittelwerte beider Gruppen. Der Test von $\beta_1$ entspricht dem t-Test (mit gleichen Varianzen).
 
+Die Regression hat aber Vorzüge: Man kann z.B. zusätzliche Variablen in das Modell aufnehmen oder mehr als zwei Gruppen vergleichen.
 
+Zu den falschen Optionen:
 
-
-
-
-
-## Lösung 
-
-
-- Ja, beide Verfahren sind analog, aber die Regression hat Vorzüge.
-
-Mit der Regression kann man z.B. zusätzliche Variablen in das Modell aufnehmen.
-
+- *Nur t-Test:* Der t-Test ist nur ein Spezialfall der Regression; man braucht ihn nicht zwingend.
+- *Gleichwertig:* Für den einfachen Zwei-Gruppen-Vergleich liefern beide dasselbe Ergebnis, aber die Regression ist flexibler; „gleichwertig" unterschlägt diese Vorzüge.
+- *Nur metrische Prädiktoren:* Nominale Prädiktoren wie eine Gruppenvariable lassen sich als Indikatorvariable (Dummy-Variable) in die Regression aufnehmen.
 
 Aufgabenname: `gruppenvergleich-regression`
 
+Answerlist
+----------
+* Falsch
+* Falsch
+* Wahr
+* Falsch
 
+Meta-information
+================
+exname: gruppenvergleich-regression
+extype: schoice
+expoints: 1
+exsolution: 0010
+exshuffle: 4
